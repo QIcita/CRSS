@@ -1,0 +1,66 @@
+{
+  "roots": {
+    "h01_flywire": {
+      "server_root": "/root/megrez-tmp/CPSF_FIXED_CORE_ABLATION_20261005",
+      "protocol_sha256": "d1e1b56a0869bbf743af7ecd4d244e37e0749367ecbe2dad1a7e059889468240",
+      "source_files": 127
+    },
+    "ted": {
+      "server_root": "/root/megrez-tmp/CPSF_NREDD_CONFIG_ONLY_20261009",
+      "protocol_sha256": "d16e1484c515afd867ce8aa2e4a07b389135bc505b565c69c52440b4a5240c52",
+      "source_files": 200
+    },
+    "tlp": {
+      "server_root": "/root/megrez-tmp/CPSF_TLP_DIRECTIONAL_STAGE6_20261009",
+      "protocol_sha256": "c8e87c9bbd278b7f734163d1a9b652cd2399892b3191ec93625de8d460d99070",
+      "source_files": 211
+    }
+  },
+  "checkpoints": {
+    "h01_local": {
+      "server_run": "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/results/h01_local_fixed_residual",
+      "files": {
+        "final.pt": "7503043f70f757d9c731a3458c37985d3dba9e1aee1ee9ecf915f415d30d4fb4",
+        "metrics.json": "cc8d2507af1b55df40ee17c4d137d4ad0708539842e35b864962e192ed688339",
+        "identity.json": "cd83291973e5f4fc11b4d11a18314fb75105c0b4a3203a35a348a7cb1aa44b59",
+        "history.json": "273df59066f9dafa7f739b7c6487fd829a93de4feb844d34b06f57ff42f27349"
+      }
+    },
+    "h01_global": {
+      "server_run": "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/results/h01_global_fixed_residual",
+      "files": {
+        "final.pt": "793d05ccefca5aa98c3a4911b468d3fdf1950f34854e02f49b608e1f9c82835c",
+        "metrics.json": "2096458789f679d7f9d87dcb74904247972fab8df55b8d5840d38b53387c46ba",
+        "identity.json": "eb31c4e14c4c4da207a6ce57e542af6086ed1709301b53f507694d2ffa5717e1",
+        "history.json": "c7a69c505b67eacdff9ba5f691e713ab2430f791cabdae96d4836ea885e1cd65"
+      }
+    },
+    "flywire_coarse": {
+      "server_run": "/root/megrez-tmp/CPSF_FLYWIRE_V23_CE_EXPANDED_20261003/results/coarse_full",
+      "files": {
+        "final.pt": "3480272399820722e1583070352600ce07d26ee88248ce344904c71ceb08ad2f",
+        "metrics.json": "bd78a8b21a00baf4bcb8ff1377773f4ec5213b5381d4147da29ba61b9d4c98dc",
+        "identity.json": "23aa067dd3c73160b0515e1b87bb5b3849e1244eeec9473cfc7f2309bb142c47",
+        "history.json": "1ff6b916309ea7ddea68b7345861ea266672e9a4da96816f53c6fe01c68dde1e"
+      }
+    },
+    "ted": {
+      "server_run": "/root/megrez-tmp/CPSF_NREDD_CONFIG_ONLY_20261009/results/ted_lr_half_full",
+      "files": {
+        "final.pt": "6a135e91adb0dfd05e7246f587b4a463473d322060539543407410da1737440a",
+        "metrics.json": "cc0b3526a33a620f6b4609f40550e68f795e590904d83bab32efd46939a51fec",
+        "identity.json": "0c0b362369d4c737129dc13e9a01ab11fe50d1f3385f85cc2e3450aa105b1549",
+        "history.json": "6e4a6048a1c88a179430de7b4c31f50830e4c32e9ed944932d9acbe85ee3493c"
+      }
+    },
+    "tlp": {
+      "server_run": "/root/megrez-tmp/CPSF_TLP_DIRECTIONAL_STAGE6_20261009/results/tlp_directional_xyz_full",
+      "files": {
+        "final.pt": "bd48ab58cc978aaff505d0373967a29cd51041409ab6397c7677dcec4e808dcf",
+        "metrics.json": "43ae5904e330a8d00a05653a3ded405d3692b4555271693e65b97ed52efd1cde",
+        "identity.json": "85a49072aa54a544c5d85162623ffcb2dd099256c54a2b2cad49ec038235ea28",
+        "history.json": "460f360ef7689b46759649e497aebb3b66ae96ace515231cf3a094262e25fe38"
+      }
+    }
+  }
+}

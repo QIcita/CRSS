@@ -1,0 +1,53 @@
+{
+  "task": "ted",
+  "passed": true,
+  "device": "cpu",
+  "torch": "2.4.0+cu121",
+  "source_sha256": "f2baf78f6b36f8f11147224c9a8b6bcbd02d29b013105afb38ace3240c927e57",
+  "initialization_exact": true,
+  "strict_checkpoint_load": true,
+  "parameters": 255617,
+  "test_used": false,
+  "real_sample": {
+    "key": "x17732_y17650_z5122:180",
+    "path": "/root/megrez-tmp/CPSF_FIXED_CORE_NREDD_20261006/data/ted/joint/x17732_y17650_z5122_180.pt.gz",
+    "sha256": "f9387b851512b4c55ba6cc17499bd7f2267375fde081ea7d2d52044329c48122",
+    "split": "train"
+  },
+  "comparisons": [
+    {
+      "label": "synthetic",
+      "eval": {
+        "output_max_abs": 0.0,
+        "shape": [
+          2
+        ]
+      },
+      "train": {
+        "output_max_abs": 0.0,
+        "shape": [
+          2
+        ],
+        "gradient_max_abs": 0.0,
+        "nonzero_gradient_parameters": 58
+      }
+    },
+    {
+      "label": "real_train_cache",
+      "eval": {
+        "output_max_abs": 0.0,
+        "shape": [
+          2
+        ]
+      },
+      "train": {
+        "output_max_abs": 0.0,
+        "shape": [
+          2
+        ],
+        "gradient_max_abs": 0.0,
+        "nonzero_gradient_parameters": 54
+      }
+    }
+  ]
+}

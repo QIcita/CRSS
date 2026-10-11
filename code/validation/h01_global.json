@@ -1,0 +1,50 @@
+{
+  "task": "h01_global",
+  "passed": true,
+  "device": "cpu",
+  "torch": "2.4.0+cu121",
+  "source_sha256": "f2baf78f6b36f8f11147224c9a8b6bcbd02d29b013105afb38ace3240c927e57",
+  "initialization_exact": true,
+  "strict_checkpoint_load": true,
+  "parameters": 255617,
+  "test_used": false,
+  "real_sample": {
+    "key": "3751392341",
+    "path": "/root/megrez-tmp/CPSF_V22_SHARED_REGION_20260930/cache/global/joint/3751392341.pt",
+    "sha256": "e32cc72378fa417882ff937ca74e2e02ca5874eef0aaf1fadff84c4adadadeaf",
+    "split": "train"
+  },
+  "comparisons": [
+    {
+      "label": "synthetic",
+      "eval": {
+        "output_max_abs": 0.0,
+        "shape": []
+      },
+      "train": {
+        "output_max_abs": 0.0,
+        "shape": [],
+        "gradient_max_abs": 0.0,
+        "nonzero_gradient_parameters": 58
+      }
+    },
+    {
+      "label": "real_train_cache",
+      "eval": {
+        "output_max_abs": 0.0,
+        "shape": []
+      },
+      "train": {
+        "output_max_abs": 0.0,
+        "shape": [],
+        "gradient_max_abs": 0.0,
+        "nonzero_gradient_parameters": 58
+      }
+    },
+    {
+      "label": "historical_fixed_residual_checkpoint",
+      "output_max_abs": 0.0,
+      "removed_only_unused_zero_gate_tensors": true
+    }
+  ]
+}

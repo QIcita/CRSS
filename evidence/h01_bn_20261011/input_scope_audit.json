@@ -1,0 +1,81 @@
+{
+  "test_used": false,
+  "records": 1034,
+  "source_sha256": "fbd4d989487a5add7ef30482fa3180d35dcee693f82ce123ddec0c4a2f11d831",
+  "tasks": {
+    "h01_local": {
+      "train": 716,
+      "val": 214,
+      "train_cells": 80,
+      "val_cells": 24,
+      "train_val_cell_disjoint": true,
+      "label_counts_val": {
+        "0": 72,
+        "1": 72,
+        "2": 70
+      },
+      "raw_geometry_fields_only": true,
+      "scalar_recomputed_from_local_graph": true,
+      "local_input_matches_supplied_event_exactly": true,
+      "labels_and_splits_match_frozen_parent": true,
+      "phase1_phase2_records_identical": true,
+      "all_input_source_reference_hashes_verified": true,
+      "cross_split_geometry_duplicates": {
+        "graph": [],
+        "point": []
+      },
+      "within_task_exact_geometry_duplicates": {
+        "graph": [],
+        "point": []
+      },
+      "frozen_manifest_sha256": "a36ca4e47118ed42dc8799b834998f75c9684defec1b546ff410cf45c1968f89"
+    },
+    "h01_global": {
+      "train": 80,
+      "val": 24,
+      "train_cells": 80,
+      "val_cells": 24,
+      "train_val_cell_disjoint": true,
+      "label_counts_val": null,
+      "raw_geometry_fields_only": true,
+      "scalar_recomputed_from_local_graph": true,
+      "local_input_matches_supplied_event_exactly": false,
+      "labels_and_splits_match_frozen_parent": true,
+      "phase1_phase2_records_identical": true,
+      "all_input_source_reference_hashes_verified": true,
+      "cross_split_geometry_duplicates": {
+        "graph": [],
+        "point": []
+      },
+      "within_task_exact_geometry_duplicates": {
+        "graph": [],
+        "point": []
+      },
+      "frozen_manifest_sha256": "8753dfee37e3fc256bd28583751b590d7b2042f34bc42025511a4915b62ec60f"
+    }
+  },
+  "cross_task_train_val_cells_disjoint": true,
+  "main_model": {
+    "h01_local": {
+      "checkpoint_sha256": "7503043f70f757d9c731a3458c37985d3dba9e1aee1ee9ecf915f415d30d4fb4",
+      "strict_load_passed": true,
+      "batchnorm_modules": [],
+      "normalization_modules": {
+        "processor.norm": "LayerNorm",
+        "processor.cnorm": "LayerNorm"
+      },
+      "checkpoint_running_statistics_keys": []
+    },
+    "h01_global": {
+      "checkpoint_sha256": "793d05ccefca5aa98c3a4911b468d3fdf1950f34854e02f49b608e1f9c82835c",
+      "strict_load_passed": true,
+      "batchnorm_modules": [],
+      "normalization_modules": {
+        "processor.norm": "LayerNorm",
+        "processor.cnorm": "LayerNorm"
+      },
+      "checkpoint_running_statistics_keys": []
+    }
+  },
+  "state": "complete"
+}

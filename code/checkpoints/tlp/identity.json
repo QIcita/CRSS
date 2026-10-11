@@ -1,0 +1,16 @@
+{
+  "task": "tlp",
+  "arm": "full",
+  "seed": 42,
+  "smoke": false,
+  "protocol_sha256": "c8e87c9bbd278b7f734163d1a9b652cd2399892b3191ec93625de8d460d99070",
+  "source_sha256": "ed3efdebfa0b8d645d7172673d3e541faf0f8a8af7d9341088b81ada5bf9f9e8",
+  "data_manifest_sha256": "55d44dca0b727f868d2ab535e2a608a6675a0ead6b9171de8efaaf74b1d0c3a7",
+  "initial_state_sha256": "6cef3411074aca74ed6263f190036a100c4b17b3bda5f43c23005219130f0c83",
+  "experiment_id": "CPSF_TLP_DIRECTIONAL_STAGE6_20261009",
+  "descriptor": "directional_xyz",
+  "model_family": "retained deterministic fixed core; directional neighborhood descriptor stage6",
+  "objective_id": "unobserved_unordered_adaptive_bce_v1",
+  "parent_protocol_sha256": "abd046300cc1c9bc405faf76552fe6867d043715cb15fed17b0140307e9a44f1",
+  "test_used": false
+}

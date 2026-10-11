@@ -1,0 +1,22 @@
+\section{Preliminaries}
+\label{sec:prelim}
+
+% SYNC-BEGIN PRE-01
+\paragraph{Inputs and prediction granularity.}
+An example contains an observed skeleton $G=(V,E,\mathbf{x})$, surface samples $P=\{(\mathbf{p}_i,w_i)\}_{i=1}^{n}$ with $w_i>0$, and an optional query $q$. A query denotes a location or a node pair; a whole-cell task uses the complete support. Task labels supervise prediction but never construct the input regions. In particular, target missing edges are excluded from $E$. Skeleton and surface coordinates share a frame within each example. We retain dataset-specific units: H01/FlyWire use micrometers, while NREDD retains its native-coordinate calibration limitation.
+% SYNC-END PRE-01
+
+% SYNC-BEGIN PRE-02
+\paragraph{Weighted regional representation.}
+For modality $m\in\{G,P\}$, region $u$ receives nonnegative incidence weights $A^m_{ui}$ over geometric elements $x_i$. Write the finite measure and its normalized feature aggregate as
+\begin{equation}
+\begin{aligned}
+ \mu_u^m&=\sum_i A^m_{ui}\delta_{x_i},\\
+ \mathcal{A}_u^m(f_u^m)&=
+ \frac{\int f_u^m\,d\mu_u^m}{\max(\epsilon,\int1\,d\mu_u^m)}
+ =\frac{\sum_i A^m_{ui}f^m_{ui}}{\max(\epsilon,\sum_i A^m_{ui})}.
+\end{aligned}
+\label{eq:measure_aggregation}
+\end{equation}
+Here $\delta_{x_i}$ is a unit point mass, $f^m_{ui}$ may include region-relative features, and $\epsilon>0$ prevents division by zero. Sampling determines available elements and source weights; association determines their regional allocation. Each modality is normalized separately because skeletal length and surface sampling mass are different quantities. Region position and length retain support geometry. Equation~\ref{eq:measure_aggregation} defines the implemented weighted sums; no convergence or sampling-invariance theorem is assumed.
+% SYNC-END PRE-02

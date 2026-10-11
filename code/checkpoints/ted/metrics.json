@@ -1,0 +1,53 @@
+{
+  "identity": {
+    "task": "ted",
+    "arm": "full",
+    "seed": 42,
+    "smoke": false,
+    "protocol_sha256": "d16e1484c515afd867ce8aa2e4a07b389135bc505b565c69c52440b4a5240c52",
+    "source_sha256": "c8847ea0c9d453f5a0daff5bb577e16114f0c729b6a412be42d4c49e7f6eab6c",
+    "data_manifest_sha256": "84de9c80de4e627c319aafdf8c5b71a2c50595c4e20c9e9eaa0da10c937e2e99",
+    "initial_state_sha256": "43ec8d5c99c970c7362473b746f953f416ff5c89b3f4b06e0560a0649834285f",
+    "experiment_id": "CPSF_NREDD_CONFIG_ONLY_20261009",
+    "config": "lr_half",
+    "model_family": "20261006 fixed NREDD TED adapter unchanged",
+    "descriptor": "retained_voxel",
+    "parent_identity": {
+      "task": "ted",
+      "arm": "full",
+      "seed": 42,
+      "smoke": false,
+      "protocol_sha256": "176e6c6eba852e3a76b7adf80ebd8881b62e0250a9358ff1ccbf48604ac931df",
+      "source_sha256": "4b4d1817599b31988dcd0c9f0a4c927efa689e0c7d468e227026896a879849c3",
+      "data_manifest_sha256": "84de9c80de4e627c319aafdf8c5b71a2c50595c4e20c9e9eaa0da10c937e2e99",
+      "initial_state_sha256": "43ec8d5c99c970c7362473b746f953f416ff5c89b3f4b06e0560a0649834285f",
+      "experiment_id": "CPSF_FIXED_CORE_NREDD_20261006",
+      "model_family": "retained fixed core with NREDD task readout",
+      "test_used": false
+    },
+    "test_used": false
+  },
+  "val": {
+    "tp": 249,
+    "fp": 396,
+    "fn": 111,
+    "tn": 10006,
+    "precision": 0.386046511627907,
+    "recall": 0.6916666666666667,
+    "f1": 0.4955223880597015,
+    "released_epsilon_metrics": {
+      "precision": 0.38604650564268983,
+      "recall": 0.6916666474537043,
+      "f1": 0.4955177803352144
+    },
+    "events": 10762,
+    "ap": 0.42636458812897454
+  },
+  "epochs": 30,
+  "optimizer_steps": 11250,
+  "seconds": 46311.16147899628,
+  "peak_gpu_bytes": 85354496,
+  "final_sha256": "6a135e91adb0dfd05e7246f587b4a463473d322060539543407410da1737440a",
+  "test_used": false,
+  "smoke": false
+}

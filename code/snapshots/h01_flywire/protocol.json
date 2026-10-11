@@ -1,0 +1,1152 @@
+{
+  "version": "Retained fixed residual: encoding, resolution and mechanism completion; no gate",
+  "seed": 42,
+  "jobs": [
+    {
+      "task": "h01_local",
+      "arm": "no_position"
+    },
+    {
+      "task": "h01_local",
+      "arm": "no_scale"
+    },
+    {
+      "task": "h01_local",
+      "arm": "no_position_scale"
+    },
+    {
+      "task": "h01_local",
+      "arm": "shuffle_regions"
+    },
+    {
+      "task": "h01_local",
+      "arm": "no_context"
+    },
+    {
+      "task": "h01_global",
+      "arm": "no_position"
+    },
+    {
+      "task": "h01_global",
+      "arm": "no_scale"
+    },
+    {
+      "task": "h01_global",
+      "arm": "no_position_scale"
+    },
+    {
+      "task": "h01_global",
+      "arm": "thumbnail"
+    },
+    {
+      "task": "h01_global",
+      "arm": "uniform_budget"
+    },
+    {
+      "task": "h01_global",
+      "arm": "shuffle_regions"
+    },
+    {
+      "task": "h01_global",
+      "arm": "no_context"
+    },
+    {
+      "task": "flywire_coarse",
+      "arm": "no_position"
+    },
+    {
+      "task": "flywire_coarse",
+      "arm": "no_scale"
+    },
+    {
+      "task": "flywire_coarse",
+      "arm": "no_position_scale"
+    },
+    {
+      "task": "flywire_coarse",
+      "arm": "thumbnail"
+    },
+    {
+      "task": "flywire_coarse",
+      "arm": "uniform_budget"
+    },
+    {
+      "task": "flywire_coarse",
+      "arm": "shuffle_regions"
+    },
+    {
+      "task": "flywire_coarse",
+      "arm": "no_context"
+    }
+  ],
+  "parent_files": {
+    "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/protocol.json": "f2277a33120d0a5147cba05ba2a1347b143f40fa0b491ee5d9ffe5d0c7a3f2d3",
+    "/root/megrez-tmp/CPSF_FLYWIRE_V23_CE_EXPANDED_20261003/diagnostics/geometry_profiles.jsonl": "856bd412a4e029df64b2e1e3250a5fc0ea7dd69be98a822c4bac4be53300dddb",
+    "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/data/h01_local/manifest.json": "a36ca4e47118ed42dc8799b834998f75c9684defec1b546ff410cf45c1968f89",
+    "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/results/h01_local_fixed_residual/val_predictions.npz": "82e314a3d1114636dffc42ec742b8912bb26241c5719074731d2dd9a797b17b2",
+    "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/results/h01_local_mean_only/val_predictions.npz": "43acb87b1be4ce6f8b4f76cecf3a7de8b672000395fef863b04c9549cd990127",
+    "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/results/h01_local_no_fusion/val_predictions.npz": "ebc2498187a1ec180ba0ebdde0d96d71f9e6d12245c44f70b63123ed259cebbc",
+    "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/results/h01_local_point/val_predictions.npz": "b060f3b050f4b575aeeb0c238a8f7443ed480b46c300c067d55ff4a964879f47",
+    "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/results/h01_local_skeleton/val_predictions.npz": "e57de64134090475d3c81c38c710503d0ef5723a5145774ada5b9d4596748c59",
+    "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/data/h01_global/manifest.json": "8753dfee37e3fc256bd28583751b590d7b2042f34bc42025511a4915b62ec60f",
+    "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/results/h01_global_fixed_residual/val_predictions.npz": "f8b6d53f4bc76ed631cf14ee16f00caedcb270def7bfd61ec91f69746a049052",
+    "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/results/h01_global_mean_only/val_predictions.npz": "dcd62f1219fbabc09ad385aeaa1038f40692b3df671c86c783edd16ed4ff8492",
+    "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/results/h01_global_no_fusion/val_predictions.npz": "65115f2940d0512d734380f04df754efe549279f2ebf1f6a5531aa80a207c805",
+    "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/results/h01_global_point/val_predictions.npz": "e6e1f19fc030fad72dbfca307172e84b9dbfe1d2df7a1648d145293992368359",
+    "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/results/h01_global_skeleton/val_predictions.npz": "103132ca901e2667138096181dce52738f334f51067db80e2f4d3f54e0e51e3a",
+    "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/data/flywire_coarse/manifest.json": "899ad827cc43f4d5946abc41b07859fc451944d925d828aa56488ec9eb31002e",
+    "/root/megrez-tmp/CPSF_FLYWIRE_V23_CE_EXPANDED_20261003/results/coarse_full/val_features.npz": "c351f7c59a0964c02d61d7533e2f084ac56179409e02e7da76687e56942889ec",
+    "/root/megrez-tmp/CPSF_FLYWIRE_V23_CE_EXPANDED_20261003/results/coarse_mean_only/val_features.npz": "6f8c6da678466fae1c65b5858acd57076a42353ec7c8b2e6e41b0100db37c2d7",
+    "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/results/flywire_coarse_no_fusion/val_predictions.npz": "bb75929b55705496d79e08af6d85a3602ad26727b6b80dfd90d6912b0b28051d",
+    "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/results/flywire_coarse_point/val_predictions.npz": "28b498a795b99882ce283c53dd3261767286f0965c15d679512774a6849501a8",
+    "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/results/flywire_coarse_skeleton/val_predictions.npz": "7a6e0c40016ceec4bc41dbe1ce29f2c453efefa217da6b5cbb735fe66dd6559e"
+  },
+  "references": {
+    "h01_local/full": {
+      "path": "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/results/h01_local_fixed_residual",
+      "val": {
+        "accuracy": 0.6588785046728972,
+        "macro_f1": 0.6591129982017273,
+        "balanced_accuracy": 0.658994708994709,
+        "top5_accuracy": 1.0,
+        "per_class": [
+          {
+            "target": 0,
+            "support": 72,
+            "precision": 0.6417910447761194,
+            "recall": 0.5972222222222222,
+            "f1": 0.6187050359712231
+          },
+          {
+            "target": 1,
+            "support": 72,
+            "precision": 0.6219512195121951,
+            "recall": 0.7083333333333334,
+            "f1": 0.6623376623376623
+          },
+          {
+            "target": 2,
+            "support": 70,
+            "precision": 0.7230769230769231,
+            "recall": 0.6714285714285714,
+            "f1": 0.6962962962962963
+          }
+        ],
+        "confusion_matrix": [
+          [
+            43,
+            20,
+            9
+          ],
+          [
+            12,
+            51,
+            9
+          ],
+          [
+            12,
+            11,
+            47
+          ]
+        ]
+      },
+      "hashes": {
+        "initial.pt": "b3c01078745f092b159e117074389e9e5fa694cf11086734e1a8ad0d903a4049",
+        "final.pt": "7503043f70f757d9c731a3458c37985d3dba9e1aee1ee9ecf915f415d30d4fb4",
+        "metrics.json": "cc8d2507af1b55df40ee17c4d137d4ad0708539842e35b864962e192ed688339"
+      }
+    },
+    "h01_local/mean_only": {
+      "path": "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/results/h01_local_mean_only",
+      "val": {
+        "accuracy": 0.6401869158878505,
+        "macro_f1": 0.6399623751124057,
+        "balanced_accuracy": 0.6406084656084656,
+        "top5_accuracy": 1.0,
+        "per_class": [
+          {
+            "target": 0,
+            "support": 72,
+            "precision": 0.6363636363636364,
+            "recall": 0.5833333333333334,
+            "f1": 0.6086956521739131
+          },
+          {
+            "target": 1,
+            "support": 72,
+            "precision": 0.618421052631579,
+            "recall": 0.6527777777777778,
+            "f1": 0.6351351351351351
+          },
+          {
+            "target": 2,
+            "support": 70,
+            "precision": 0.6666666666666666,
+            "recall": 0.6857142857142857,
+            "f1": 0.676056338028169
+          }
+        ],
+        "confusion_matrix": [
+          [
+            42,
+            20,
+            10
+          ],
+          [
+            11,
+            47,
+            14
+          ],
+          [
+            13,
+            9,
+            48
+          ]
+        ]
+      },
+      "hashes": {
+        "initial.pt": "b3c01078745f092b159e117074389e9e5fa694cf11086734e1a8ad0d903a4049",
+        "final.pt": "c7f3d7b63f060c150933fb9c269f8a5281feaeb50faaea800e79da9adf174b54",
+        "metrics.json": "7f99ebbe712303594c5d3029dc801c17e593f5c92b7bde56004708efcae9133d"
+      }
+    },
+    "h01_local/no_fusion": {
+      "path": "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/results/h01_local_no_fusion",
+      "val": {
+        "accuracy": 0.616822429906542,
+        "macro_f1": 0.6162548537029587,
+        "balanced_accuracy": 0.6173280423280422,
+        "top5_accuracy": 1.0,
+        "per_class": [
+          {
+            "target": 0,
+            "support": 72,
+            "precision": 0.6,
+            "recall": 0.5416666666666666,
+            "f1": 0.5693430656934306
+          },
+          {
+            "target": 1,
+            "support": 72,
+            "precision": 0.5974025974025974,
+            "recall": 0.6388888888888888,
+            "f1": 0.6174496644295302
+          },
+          {
+            "target": 2,
+            "support": 70,
+            "precision": 0.6527777777777778,
+            "recall": 0.6714285714285714,
+            "f1": 0.6619718309859155
+          }
+        ],
+        "confusion_matrix": [
+          [
+            39,
+            22,
+            11
+          ],
+          [
+            12,
+            46,
+            14
+          ],
+          [
+            14,
+            9,
+            47
+          ]
+        ]
+      },
+      "hashes": {
+        "initial.pt": "b3c01078745f092b159e117074389e9e5fa694cf11086734e1a8ad0d903a4049",
+        "final.pt": "c08e3317882aa3ef689df30fc9d7a6189cbcdde859cc8b0f0ea6bfb131db5320",
+        "metrics.json": "884b5e77214cb3df4a3cbe7fc95de817c64224713fa2d23d6e2353df540c65d3"
+      }
+    },
+    "h01_local/point": {
+      "path": "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/results/h01_local_point",
+      "val": {
+        "accuracy": 0.5794392523364486,
+        "macro_f1": 0.5765970486807975,
+        "balanced_accuracy": 0.5781746031746031,
+        "top5_accuracy": 1.0,
+        "per_class": [
+          {
+            "target": 0,
+            "support": 72,
+            "precision": 0.6833333333333333,
+            "recall": 0.5694444444444444,
+            "f1": 0.6212121212121212
+          },
+          {
+            "target": 1,
+            "support": 72,
+            "precision": 0.49523809523809526,
+            "recall": 0.7222222222222222,
+            "f1": 0.5875706214689266
+          },
+          {
+            "target": 2,
+            "support": 70,
+            "precision": 0.6326530612244898,
+            "recall": 0.44285714285714284,
+            "f1": 0.5210084033613446
+          }
+        ],
+        "confusion_matrix": [
+          [
+            41,
+            25,
+            6
+          ],
+          [
+            8,
+            52,
+            12
+          ],
+          [
+            11,
+            28,
+            31
+          ]
+        ]
+      },
+      "hashes": {
+        "initial.pt": "b3c01078745f092b159e117074389e9e5fa694cf11086734e1a8ad0d903a4049",
+        "final.pt": "8167ab7c8df7953c2bf0a4c99341717c598189a3993870d4d0227c6090f35acb",
+        "metrics.json": "3ad01155b8a4dd69daf6d9f610028a5284803a66250282c7861bd16fc49098fa"
+      }
+    },
+    "h01_local/skeleton": {
+      "path": "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/results/h01_local_skeleton",
+      "val": {
+        "accuracy": 0.5514018691588785,
+        "macro_f1": 0.548372443233085,
+        "balanced_accuracy": 0.5515873015873015,
+        "top5_accuracy": 1.0,
+        "per_class": [
+          {
+            "target": 0,
+            "support": 72,
+            "precision": 0.46153846153846156,
+            "recall": 0.4166666666666667,
+            "f1": 0.43795620437956206
+          },
+          {
+            "target": 1,
+            "support": 72,
+            "precision": 0.5925925925925926,
+            "recall": 0.6666666666666666,
+            "f1": 0.6274509803921569
+          },
+          {
+            "target": 2,
+            "support": 70,
+            "precision": 0.5882352941176471,
+            "recall": 0.5714285714285714,
+            "f1": 0.5797101449275363
+          }
+        ],
+        "confusion_matrix": [
+          [
+            30,
+            23,
+            19
+          ],
+          [
+            15,
+            48,
+            9
+          ],
+          [
+            20,
+            10,
+            40
+          ]
+        ]
+      },
+      "hashes": {
+        "initial.pt": "b3c01078745f092b159e117074389e9e5fa694cf11086734e1a8ad0d903a4049",
+        "final.pt": "72bde84fba26ce4894d40944e6110f7cfdfa8fa3cea5143d699915631cea72e5",
+        "metrics.json": "2ecc8f9492a320527a5c834d68a1a023429065ff9a4514a8fc566cd9caf1f0ce"
+      }
+    },
+    "h01_global/full": {
+      "path": "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/results/h01_global_fixed_residual",
+      "val": {
+        "mae": 0.05104814531902472,
+        "rmse": 0.06352175651587844,
+        "r2": 0.7523134518978579
+      },
+      "hashes": {
+        "initial.pt": "cf8edd1860fc5c422cc33bb720aba2afe355705dbbee2e122628660dc05dc591",
+        "final.pt": "793d05ccefca5aa98c3a4911b468d3fdf1950f34854e02f49b608e1f9c82835c",
+        "metrics.json": "2096458789f679d7f9d87dcb74904247972fab8df55b8d5840d38b53387c46ba"
+      }
+    },
+    "h01_global/mean_only": {
+      "path": "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/results/h01_global_mean_only",
+      "val": {
+        "mae": 0.05170086398720741,
+        "rmse": 0.06307701703532743,
+        "r2": 0.7557696020805338
+      },
+      "hashes": {
+        "initial.pt": "cf8edd1860fc5c422cc33bb720aba2afe355705dbbee2e122628660dc05dc591",
+        "final.pt": "d02dc4e7f8fef4e00b3ecd8c652677f77b7a54c09c5b93f34c286466bda80fb0",
+        "metrics.json": "c8091933c88d17e08a2de1eac432d0fefce899204a007c4a2ccc2c0ba6bf8acd"
+      }
+    },
+    "h01_global/no_fusion": {
+      "path": "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/results/h01_global_no_fusion",
+      "val": {
+        "mae": 0.05633788680036863,
+        "rmse": 0.07024440165332166,
+        "r2": 0.6971128435109173
+      },
+      "hashes": {
+        "initial.pt": "cf8edd1860fc5c422cc33bb720aba2afe355705dbbee2e122628660dc05dc591",
+        "final.pt": "dbc15051faa879a977f302e8b619816ca955b9a57c44343348db5987b9bf8e8a",
+        "metrics.json": "29b3899a3269ea73a6f388294fa65413804181479f446f1ee1c7155d4fe57dfa"
+      }
+    },
+    "h01_global/point": {
+      "path": "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/results/h01_global_point",
+      "val": {
+        "mae": 0.0897050133595864,
+        "rmse": 0.10570792397041764,
+        "r2": 0.3140815095215316
+      },
+      "hashes": {
+        "initial.pt": "cf8edd1860fc5c422cc33bb720aba2afe355705dbbee2e122628660dc05dc591",
+        "final.pt": "db2f16405be345776f58c693f6e51ae1701e74bdf48112dc82b1f0d395213241",
+        "metrics.json": "8463a078543ceeb0d7330fbe40232d561668a2ff629ec98e36c3faef7b539150"
+      }
+    },
+    "h01_global/skeleton": {
+      "path": "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/results/h01_global_skeleton",
+      "val": {
+        "mae": 0.06482910085469484,
+        "rmse": 0.08789469586994657,
+        "r2": 0.5257768417207098
+      },
+      "hashes": {
+        "initial.pt": "cf8edd1860fc5c422cc33bb720aba2afe355705dbbee2e122628660dc05dc591",
+        "final.pt": "cb68aa614410d922cde655c4309fcac8b3c7941e6dd83b40a20f2634d43cbed5",
+        "metrics.json": "3403b90a8c6f9b04a3d5064de7287cf151d784c6efa2b16cfb054acaadf5d350"
+      }
+    },
+    "flywire_coarse/full": {
+      "path": "/root/megrez-tmp/CPSF_FLYWIRE_V23_CE_EXPANDED_20261003/results/coarse_full",
+      "val": {
+        "accuracy": 0.9495317377731529,
+        "macro_f1": 0.8491632407420946,
+        "balanced_accuracy": 0.8140664008523227,
+        "top5_accuracy": 0.9958376690946931,
+        "per_class": [
+          {
+            "target": 0,
+            "support": 32,
+            "precision": 1.0,
+            "recall": 0.8125,
+            "f1": 0.896551724137931
+          },
+          {
+            "target": 1,
+            "support": 317,
+            "precision": 0.89171974522293,
+            "recall": 0.8832807570977917,
+            "f1": 0.8874801901743264
+          },
+          {
+            "target": 2,
+            "support": 1254,
+            "precision": 0.9699367088607594,
+            "recall": 0.9776714513556619,
+            "f1": 0.9737887212073074
+          },
+          {
+            "target": 3,
+            "support": 245,
+            "precision": 0.9601593625498008,
+            "recall": 0.9836734693877551,
+            "f1": 0.9717741935483871
+          },
+          {
+            "target": 4,
+            "support": 8,
+            "precision": 0.8,
+            "recall": 0.5,
+            "f1": 0.6153846153846154
+          },
+          {
+            "target": 5,
+            "support": 66,
+            "precision": 0.7741935483870968,
+            "recall": 0.7272727272727273,
+            "f1": 0.75
+          }
+        ],
+        "confusion_matrix": [
+          [
+            26,
+            2,
+            0,
+            4,
+            0,
+            0
+          ],
+          [
+            0,
+            280,
+            26,
+            1,
+            1,
+            9
+          ],
+          [
+            0,
+            18,
+            1226,
+            5,
+            0,
+            5
+          ],
+          [
+            0,
+            0,
+            4,
+            241,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            0,
+            0,
+            4,
+            0
+          ],
+          [
+            0,
+            10,
+            8,
+            0,
+            0,
+            48
+          ]
+        ]
+      },
+      "hashes": {
+        "initial.pt": "50e426cabe03c5ed7494baf6d62450c3623a6c66d6c21e256a5331ed8e77a346",
+        "final.pt": "3480272399820722e1583070352600ce07d26ee88248ce344904c71ceb08ad2f",
+        "metrics.json": "bd78a8b21a00baf4bcb8ff1377773f4ec5213b5381d4147da29ba61b9d4c98dc"
+      }
+    },
+    "flywire_coarse/mean_only": {
+      "path": "/root/megrez-tmp/CPSF_FLYWIRE_V23_CE_EXPANDED_20261003/results/coarse_mean_only",
+      "val": {
+        "accuracy": 0.9339229968782519,
+        "macro_f1": 0.760209076723125,
+        "balanced_accuracy": 0.7291172131237595,
+        "top5_accuracy": 0.991675338189386,
+        "per_class": [
+          {
+            "target": 0,
+            "support": 32,
+            "precision": 0.9230769230769231,
+            "recall": 0.75,
+            "f1": 0.8275862068965517
+          },
+          {
+            "target": 1,
+            "support": 317,
+            "precision": 0.861198738170347,
+            "recall": 0.861198738170347,
+            "f1": 0.861198738170347
+          },
+          {
+            "target": 2,
+            "support": 1254,
+            "precision": 0.9591836734693877,
+            "recall": 0.9744816586921851,
+            "f1": 0.9667721518987342
+          },
+          {
+            "target": 3,
+            "support": 245,
+            "precision": 0.9554655870445344,
+            "recall": 0.963265306122449,
+            "f1": 0.959349593495935
+          },
+          {
+            "target": 4,
+            "support": 8,
+            "precision": 0.4,
+            "recall": 0.25,
+            "f1": 0.3076923076923077
+          },
+          {
+            "target": 5,
+            "support": 66,
+            "precision": 0.7169811320754716,
+            "recall": 0.5757575757575758,
+            "f1": 0.6386554621848739
+          }
+        ],
+        "confusion_matrix": [
+          [
+            24,
+            3,
+            2,
+            3,
+            0,
+            0
+          ],
+          [
+            0,
+            273,
+            27,
+            1,
+            3,
+            13
+          ],
+          [
+            0,
+            23,
+            1222,
+            7,
+            0,
+            2
+          ],
+          [
+            0,
+            1,
+            8,
+            236,
+            0,
+            0
+          ],
+          [
+            0,
+            5,
+            1,
+            0,
+            2,
+            0
+          ],
+          [
+            2,
+            12,
+            14,
+            0,
+            0,
+            38
+          ]
+        ]
+      },
+      "hashes": {
+        "initial.pt": "50e426cabe03c5ed7494baf6d62450c3623a6c66d6c21e256a5331ed8e77a346",
+        "final.pt": "e4caaaa55248ac51414b8ad568c982738bc1c76a655fd26f964356ebef103e93",
+        "metrics.json": "de95f72cf823a5c0ebb3f6644d14bcb1bd7973f18459f10086fd54ecf66cbc0d"
+      }
+    },
+    "flywire_coarse/no_fusion": {
+      "path": "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/results/flywire_coarse_no_fusion",
+      "val": {
+        "accuracy": 0.9438085327783559,
+        "macro_f1": 0.761262773980144,
+        "balanced_accuracy": 0.7397369124610385,
+        "top5_accuracy": 0.9958376690946931,
+        "per_class": [
+          {
+            "target": 0,
+            "support": 32,
+            "precision": 0.9310344827586207,
+            "recall": 0.84375,
+            "f1": 0.8852459016393442
+          },
+          {
+            "target": 1,
+            "support": 317,
+            "precision": 0.8857142857142857,
+            "recall": 0.8801261829652997,
+            "f1": 0.8829113924050633
+          },
+          {
+            "target": 2,
+            "support": 1254,
+            "precision": 0.9638364779874213,
+            "recall": 0.9776714513556619,
+            "f1": 0.9707046714172605
+          },
+          {
+            "target": 3,
+            "support": 245,
+            "precision": 0.9715447154471545,
+            "recall": 0.9755102040816327,
+            "f1": 0.9735234215885947
+          },
+          {
+            "target": 4,
+            "support": 8,
+            "precision": 0.25,
+            "recall": 0.125,
+            "f1": 0.16666666666666666
+          },
+          {
+            "target": 5,
+            "support": 66,
+            "precision": 0.75,
+            "recall": 0.6363636363636364,
+            "f1": 0.6885245901639344
+          }
+        ],
+        "confusion_matrix": [
+          [
+            27,
+            4,
+            0,
+            1,
+            0,
+            0
+          ],
+          [
+            0,
+            279,
+            28,
+            0,
+            1,
+            9
+          ],
+          [
+            0,
+            18,
+            1226,
+            6,
+            0,
+            4
+          ],
+          [
+            1,
+            0,
+            5,
+            239,
+            0,
+            0
+          ],
+          [
+            1,
+            3,
+            2,
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            11,
+            11,
+            0,
+            2,
+            42
+          ]
+        ]
+      },
+      "hashes": {
+        "initial.pt": "f86199c3b5ad042dbb748c0a4fd7e582502ab997ad41de3ffbaa05707fa4f441",
+        "final.pt": "f93ff91b079850cf9c152fea9bb37b51e3813cc8347b0f448e59dc7238060c70",
+        "metrics.json": "cff1d3e670b8bc9cac16c592986551fb43a859df20762fc5a3bb45906f95aec9"
+      }
+    },
+    "flywire_coarse/point": {
+      "path": "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/results/flywire_coarse_point",
+      "val": {
+        "accuracy": 0.927159209157128,
+        "macro_f1": 0.7254517612703962,
+        "balanced_accuracy": 0.6959332537219981,
+        "top5_accuracy": 0.9953173777315296,
+        "per_class": [
+          {
+            "target": 0,
+            "support": 32,
+            "precision": 0.88,
+            "recall": 0.6875,
+            "f1": 0.7719298245614035
+          },
+          {
+            "target": 1,
+            "support": 317,
+            "precision": 0.8528528528528528,
+            "recall": 0.8958990536277602,
+            "f1": 0.8738461538461538
+          },
+          {
+            "target": 2,
+            "support": 1254,
+            "precision": 0.9595559080095163,
+            "recall": 0.9649122807017544,
+            "f1": 0.9622266401590457
+          },
+          {
+            "target": 3,
+            "support": 245,
+            "precision": 0.908,
+            "recall": 0.926530612244898,
+            "f1": 0.9171717171717172
+          },
+          {
+            "target": 4,
+            "support": 8,
+            "precision": 0.25,
+            "recall": 0.125,
+            "f1": 0.16666666666666666
+          },
+          {
+            "target": 5,
+            "support": 66,
+            "precision": 0.7755102040816326,
+            "recall": 0.5757575757575758,
+            "f1": 0.6608695652173913
+          }
+        ],
+        "confusion_matrix": [
+          [
+            22,
+            4,
+            1,
+            5,
+            0,
+            0
+          ],
+          [
+            1,
+            284,
+            22,
+            0,
+            2,
+            8
+          ],
+          [
+            1,
+            23,
+            1210,
+            18,
+            0,
+            2
+          ],
+          [
+            1,
+            0,
+            17,
+            227,
+            0,
+            0
+          ],
+          [
+            0,
+            5,
+            1,
+            0,
+            1,
+            1
+          ],
+          [
+            0,
+            17,
+            10,
+            0,
+            1,
+            38
+          ]
+        ]
+      },
+      "hashes": {
+        "initial.pt": "f86199c3b5ad042dbb748c0a4fd7e582502ab997ad41de3ffbaa05707fa4f441",
+        "final.pt": "90cab44cb3838956e1d020b4ae0d955de0b8dfba9a4895b8b77596da9434d795",
+        "metrics.json": "9a792806cbff77e6ebff179e0c1394adb82c0559045e65ef3b342dcee3e609e2"
+      }
+    },
+    "flywire_coarse/skeleton": {
+      "path": "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/results/flywire_coarse_skeleton",
+      "val": {
+        "accuracy": 0.9349635796045785,
+        "macro_f1": 0.7637997667217243,
+        "balanced_accuracy": 0.7275665885219146,
+        "top5_accuracy": 0.9953173777315296,
+        "per_class": [
+          {
+            "target": 0,
+            "support": 32,
+            "precision": 0.9523809523809523,
+            "recall": 0.625,
+            "f1": 0.7547169811320755
+          },
+          {
+            "target": 1,
+            "support": 317,
+            "precision": 0.8675078864353313,
+            "recall": 0.8675078864353313,
+            "f1": 0.8675078864353313
+          },
+          {
+            "target": 2,
+            "support": 1254,
+            "precision": 0.9569976544175137,
+            "recall": 0.9760765550239234,
+            "f1": 0.9664429530201343
+          },
+          {
+            "target": 3,
+            "support": 245,
+            "precision": 0.9581589958158996,
+            "recall": 0.9346938775510204,
+            "f1": 0.9462809917355371
+          },
+          {
+            "target": 4,
+            "support": 8,
+            "precision": 0.4,
+            "recall": 0.25,
+            "f1": 0.3076923076923077
+          },
+          {
+            "target": 5,
+            "support": 66,
+            "precision": 0.7704918032786885,
+            "recall": 0.7121212121212122,
+            "f1": 0.7401574803149606
+          }
+        ],
+        "confusion_matrix": [
+          [
+            20,
+            5,
+            3,
+            4,
+            0,
+            0
+          ],
+          [
+            1,
+            275,
+            31,
+            1,
+            3,
+            6
+          ],
+          [
+            0,
+            18,
+            1224,
+            5,
+            0,
+            7
+          ],
+          [
+            0,
+            4,
+            12,
+            229,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            1,
+            0,
+            2,
+            1
+          ],
+          [
+            0,
+            11,
+            8,
+            0,
+            0,
+            47
+          ]
+        ]
+      },
+      "hashes": {
+        "initial.pt": "f86199c3b5ad042dbb748c0a4fd7e582502ab997ad41de3ffbaa05707fa4f441",
+        "final.pt": "c47679ec9328e66e8327d18eb38d43e67835e201768a0d7363779588fe229e3c",
+        "metrics.json": "cd3a37424835c976c50451caee1f52ccbecfe444cacae4dae564033cf7e1a294"
+      }
+    }
+  },
+  "hierarchy": {
+    "h01_local": "V24 minimum-four adapter",
+    "h01_global": "V24 minimum-four adapter",
+    "flywire_coarse": "original V23 cache"
+  },
+  "tasks": {
+    "h01_local": {
+      "epochs": 25,
+      "batch": 8,
+      "train": 716,
+      "val": 214,
+      "round_cells": 716,
+      "updates": 2250
+    },
+    "h01_global": {
+      "epochs": 50,
+      "batch": 4,
+      "train": 80,
+      "val": 24,
+      "round_cells": 80,
+      "updates": 1000
+    },
+    "flywire_coarse": {
+      "epochs": 50,
+      "batch": 4,
+      "train": 6039,
+      "val": 1922,
+      "round_cells": 4975,
+      "updates": 62200
+    }
+  },
+  "loss": "ordinary smoothed CE(.05) for classification; train-std normalized MSE for H01 global",
+  "optimizer": {
+    "lr": 0.0003,
+    "weight_decay": 0.01,
+    "lr_min": 3e-05,
+    "clip": 5
+  },
+  "selection": "fixed final epoch",
+  "test_policy": "development validation only; never read test inputs or predictions",
+  "source_sha256": {
+    "tools/cpsf_v23_scale_ablation/configure.py": "004cc2b96e8247fcb63f8427b88ffc6701189ab3aae7930f237fd02e0096f738",
+    "tools/cpsf_v23_scale_ablation/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tools/cpsf_v23_scale_ablation/model.py": "7179d81fbfa3b132cef7948d180db0c7838001cd22475d78459a22315ca288d7",
+    "tools/cpsf_v23_scale_ablation/pipeline.py": "975f2a65ea0eab9d6b00a00708600b9267ed192fb4f4401be8bfcc1331460947",
+    "tools/cpsf_v23_scale_ablation/train.py": "76784dbc37b3eb6e5d589a597b08109612d710c73e0d291deb4d3e0c8898481b",
+    "tools/cpsf_v23_scale_ablation/contracts.py": "2621a8e9cfa6df1ae11ea5cce8cb8fc50ea3e4994c648d3357055cfe1d04d52a",
+    "tools/cpsf_v23_scale_ablation/prepare.py": "a66979684be3d6386341aa38831f99117fb3ee624fad04b03af188d1739cb59d",
+    "tools/cpsf_flywire_20260930/__init__.py": "f776a9002ad413f91887b08856eaa0befdf21b9fd41e8f64f65c53968107797d",
+    "tools/cpsf_flywire_20260930/evaluation.py": "1c6f61a1919ae9a4a9724940cce6b0de6ba1a5afa6a68a597c209cdf3a4500a9",
+    "tools/cpsf_flywire_20260930/build.py": "b306af80bdf059d8b78b191d3245f35af37b506c56944df0c974e2a8ac712e6c",
+    "tools/cpsf_flywire_20260930/configure.py": "f7dd0d5a759b49923c2526cba8fbda670ddbe5bf0e301aa2cd767684e1abdb09",
+    "tools/cpsf_flywire_20260930/contracts.py": "b305995912348e7e3cf93c9242c62dacd8c2a29b13fb46a5c9ecdacb30fa3b54",
+    "tools/cpsf_flywire_20260930/finalize.py": "44e1cc093db51c7fbf35ffa2a2fc31ea4b5649ac11dc4d63ab277da954e8c1f7",
+    "tools/cpsf_flywire_20260930/pipeline.py": "becc1e15bf8439de5c4238a1e5f3e53596ef46f7f016dae16e9b4945fabf62c0",
+    "tools/cpsf_flywire_20260930/sampling.py": "90245bff52213b5234b9f8dea98c043e983b801fab4fb0dcff485dd4763ef290",
+    "tools/cpsf_flywire_20260930/task.py": "2f0c1baf741f515080ad78614ce5ea3eca65c8859d3ce3a8ec592bc2e77715d4",
+    "tools/cpsf_flywire_20260930/train.py": "21ceb1d2c32695032bdc2cbf7dbf0f80fef13e5d4e014a527225848db163574a",
+    "tools/cpsf_flywire_v23/configure.py": "21d9e0b5dc02e77f3e1e66eeab50290c745ad13a952c139f2e2780d28d97fbb4",
+    "tools/cpsf_flywire_v23/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "tools/cpsf_flywire_v23/test.py": "5569d397a687ccb645f7d7d2b12daa6f549462b6635578fc61411969426f013d",
+    "tools/cpsf_flywire_v23/model.py": "d9baa4c88a61a1ba5f8befead937bb801acb2e02243dc672751b95f4b5547c8e",
+    "tools/cpsf_flywire_v23/pipeline.py": "b6d8dba0400ccbcdb60e305cbff5a840b23a71312372203bac165575baae6270",
+    "tools/cpsf_flywire_v23/train.py": "2671eb04e34bda2d87b1b4aa796896eae359932cf7b52d13eb9a89f2176afbb0",
+    "tools/cpsf_flywire_v23/contracts.py": "8222453cb59d141475c8c9f51f85c6ef8bc0fbda8d6fe9754ae4d2289b64cc9e",
+    "tools/cpsf_flywire_v23/prepare.py": "8b3577df37581874d8dc4a43f14a75b57677051b51744aafb356ae6a745d6909",
+    "tools/cpsf_flywire_v23/data.py": "579bc875af705a806b6b589b75d077627c98161cb7cae2c813dd39e7051628bd",
+    "tools/cpsf_flywire_v23/gradient_contract.py": "a5740d07007f95b7d553b2ce5d3604350b64b864665a7027937b0098702cd844",
+    "tools/cpsf_flywire_balanced/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "tools/cpsf_flywire_balanced/configure.py": "cf4ff3ab36b4d18477ff18a50ee53e827803212a846770f3c3734efec68c7825",
+    "tools/cpsf_flywire_balanced/contracts.py": "12eeae0bdcf1cd7b450829f3de74d0e4663110e0eb12c69a195babe83fafd566",
+    "tools/cpsf_flywire_balanced/loss.py": "1bca0b333b2682f7e8b039841cf6919bf9e3ae3e84e88c9ae9f1258058eebf1f",
+    "tools/cpsf_flywire_balanced/pipeline.py": "fbb476dc7e7e196a68de461e65d5bc99eae7bc7bef149d9ddc5b4f027b7eeb54",
+    "tools/cpsf_flywire_balanced/train.py": "0ab5f07cdb8b64cd7fe18d6045da2982358bafebc0f3dbcdbeaf5928357abcdd",
+    "tools/cpsf_flywire_coarse_cohort/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "tools/cpsf_flywire_coarse_cohort/acquire.py": "05d1b1831ad96d0035152e976376fff540ece0fca9d8b48df69fdc3aca8e3db1",
+    "tools/cpsf_flywire_coarse_cohort/budget.py": "21f622f52cffcb15c2f678d56542406afb57538d5d9af3871f2953a4d9346c1f",
+    "tools/cpsf_flywire_coarse_cohort/configure.py": "e683c5c3e9b09fa0bea7b8e42180fc95e448ee8ee145ab59e67a2d37e1a29d77",
+    "tools/cpsf_flywire_coarse_cohort/contracts.py": "2ae3c4021573b0dcc5aa0126e06e25857744acba3c6b75ed8e7ea44cea809f7c",
+    "tools/cpsf_flywire_coarse_cohort/pipeline.py": "59e8bfb9971ed07dd23ed6f0cbb7f9fca8fa62f838f0d32028d11accf12b89a8",
+    "tools/cpsf_flywire_coarse_cohort/plan.py": "8fdfd8c9f4e45a88ddf4bc5f7934f6d3d376dcf02b440f6786a36cc3c29940b2",
+    "tools/cpsf_flywire_coarse_cohort/preflight.py": "acc648b7cb19ecf580b2cdfacc4b474f1e085315c541d6b443dfa2a0a94044f7",
+    "tools/cpsf_flywire_coarse_cohort/prepare.py": "987f902d60ae29ed56abf0d095cad5a7a1d5d5ee64f5855fa76abad5186f1129",
+    "tools/cpsf_flywire_coarse_cohort/train.py": "b4ceedfb017388b91d471f2e3849b39f50649c72dce09f89e6a3e870cd448d7f",
+    "tools/cpsf_v19_measure_core/__init__.py": "a34d9a0a2d45c18ba2c40abced73e1afc5ff600317a7ecfb13e8cbb8608a0903",
+    "tools/cpsf_v19_measure_core/contracts.py": "54b60665da982206c43442210a931efd0af5964f50140fa9b2b9d310f2c5accd",
+    "tools/cpsf_v19_measure_core/data.py": "fa9f82aa8da5e9e6044280bbb9aeb17d113018b2525fb9a6394b658de1537bda",
+    "tools/cpsf_v19_measure_core/geometry.py": "e4178dba00bedbacde6a53429cc4f110b62c6a55f42eb1cec2291eb6dabc0efc",
+    "tools/cpsf_v19_measure_core/global_task.py": "9c35493bd991c86994ed2145cbd22853ec4f6e1fe90bde7614bf1609af8ad2c1",
+    "tools/cpsf_v19_measure_core/io.py": "a8d4b4a339bb444eb947f9e775aa488603d65323f9940396726fe84093f5b64d",
+    "tools/cpsf_v19_measure_core/model.py": "809096809a887d2e1ffac6b775cbabd6f11e181dafae18a085219d6c01e5dc42",
+    "tools/cpsf_v19_measure_core/preflight.py": "5c827d293840c067478c3e5efd619616a9a17fc56675be8353236e1c3431d63c",
+    "tools/cpsf_v19_measure_core/scheduler.py": "24ec63833ab50d1cbacf1b452bc2c305bfbab92a27fce6dc2480b84987ed0cd7",
+    "tools/cpsf_v19_measure_core/train.py": "d94770d18aaeaa96d66046992cd8d41d021c89b4248799257dc2a0acd789213b",
+    "tools/cpsf_v21_segment_units/__init__.py": "a34d9a0a2d45c18ba2c40abced73e1afc5ff600317a7ecfb13e8cbb8608a0903",
+    "tools/cpsf_v21_segment_units/configure.py": "3b4ff9e3293e29cfdd47e4104cbe85fe6cf14e7a3dc9c568ad67e49189a3a43f",
+    "tools/cpsf_v21_segment_units/contracts.py": "44e0d686a9a571cd92a33ad296dac1888bfc103a856ecf27ea7eb5db6614d7d2",
+    "tools/cpsf_v21_segment_units/geometry.py": "e4178dba00bedbacde6a53429cc4f110b62c6a55f42eb1cec2291eb6dabc0efc",
+    "tools/cpsf_v21_segment_units/global_task.py": "02f557d5fb0d41c02cd45c12cb655dece8528a8c8765a477b7d06eb1976bc287",
+    "tools/cpsf_v21_segment_units/io.py": "45d731efbfba44c377092c095b7775c9c5b6c2e73a08c9e16f7f4c2a022a500d",
+    "tools/cpsf_v21_segment_units/model.py": "1293e8f12cc2b69f0e54e1922e68151b167b5037cfe21188aeab43a4778375e5",
+    "tools/cpsf_v21_segment_units/pipeline.py": "ea26751b25610d158a514730c38d041cb1d8c8f15a86ea41d63c21241ca10078",
+    "tools/cpsf_v21_segment_units/readout.py": "697a774e9ba4f7c31e081268e377e86cb5f82b8e148bb6d34f6e216d6e9bbc49",
+    "tools/cpsf_v21_segment_units/segments.py": "d886142d802d393f1ae26f44b32083bf5537ea19d0f11bde533e633b782e8e42",
+    "tools/cpsf_v21_segment_units/train.py": "d4b7ad040c9606894dfd87d3d77680464f67031e222b00a400b77eb8d620907e",
+    "tools/cpsf_h01_topology_repair/run.py": "7dbd3b6c793181b9d57591fe3a0926a1be8e70b47283cacf4caa487a3273c7c3",
+    "tools/cpsf_h01_topology_repair/adapter.py": "82cc74a8e7ca26eb3562c670c372412414de61a72781e2ad87cd32eac131b85e",
+    "tools/cpsf_h01_topology_repair/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tools/cpsf_h01_topology_repair/contracts.py": "390f110473856cfc4e4f74092267415c5b375d7cd3550041c5040f44146d0602",
+    "tools/cpsf_h01_topology_repair/pipeline.py": "7021b194df4fd74913642ad9ee3b1f006805c6980b15955935db59541eff7196",
+    "tools/cpsf_v22_shared_region/support.py": "ef09a70a59784371b4f8d109c99167b333975e5ea2364cc2e82f098cee71417d",
+    "tools/cpsf_v22_shared_region/configure.py": "05e8412886e0527a33816b69771bc1c02d05432dc701a847bdd898dcc79468ab",
+    "tools/cpsf_v22_shared_region/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tools/cpsf_v22_shared_region/model.py": "910d9c1a0ddcab6fc69896f98a8cf205f670bbe53616b2d836995db62cbf971d",
+    "tools/cpsf_v22_shared_region/pipeline.py": "9da5ce7d8dd3ca4e4983439c47233498b9609054b71860fb3eadfbaeaaaad222",
+    "tools/cpsf_v22_shared_region/train.py": "e61cf63185cd31b170802a10d6f35384465d17332494353833be5802e411f72e",
+    "tools/cpsf_v22_shared_region/contracts.py": "2586d85a4e3e59f16feaefce66afe7192c6af7aa7683cd1c7c1444ff3da84d87",
+    "tools/cpsf_v22_shared_region/prepare.py": "a809f4d6ce48e2fd018cc873b3ab0faeeae489e3dd06d8f90635486dd285f9f9",
+    "tools/cpsf_v22_shared_region/data.py": "cd496e6c9efae242e2424598077e539db86f32602b7d2f2a62703e183d7d8126",
+    "tools/cpsf_v23_residual_region/configure.py": "af05ffda4b0c480547a77cb7b6ac8edd67f396274fcff521e43404a5fb605bd4",
+    "tools/cpsf_v23_residual_region/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "tools/cpsf_v23_residual_region/model.py": "bd3e682f595d74192b36417778c3267ff6effec2b1325365f1cb8397726640b7",
+    "tools/cpsf_v23_residual_region/pipeline.py": "b274f4fd64a80e0a2f6bb6dc73bfb9e5cfb570d9f9de92c8456b7c88afe98348",
+    "tools/cpsf_v23_residual_region/train.py": "92b087cc124dbf326a48ef06f74eaaa475d67d17967b56cd020b6cf0fdad63c6",
+    "tools/cpsf_v23_residual_region/contracts.py": "05c0bbae1bca98a7e7e292a1229ddce80a18c6d68c972c7f3fc452885efa55ea",
+    "tools/cpsf_flywire_convergence/__init__.py": "37fbab217e18218117cdb8371caca2ea1f938392ef5bb6f30206a5363f12a045",
+    "tools/cpsf_flywire_convergence/common.py": "4037676d83483513a60065b88a13adc5e4b44647dc3d8e64cac1fdd3ad32d7b7",
+    "tools/cpsf_flywire_convergence/configure.py": "a1657e716458744aef32cea45765cd1a8a94a917c69290432f74d7b415d182a9",
+    "tools/cpsf_flywire_convergence/contracts.py": "16801e0f22773ab5dbb6bd374dfe672ad03a004a9f1ab508b12fbdd056fdc6ba",
+    "tools/cpsf_flywire_convergence/diagnose.py": "16984fe0f585aa5a3e9ee4eef2f0fd7438aedf2a55cef603165be2684c7d9231",
+    "tools/cpsf_flywire_convergence/pipeline.py": "dc2845aa9d9f1e3763d0b4059c482c968ab91165015329b7f7f0cd70c72adb6e",
+    "tools/cpsf_flywire_convergence/registry.py": "d3c22bfee882892b97977da479605410c31c27eb7e7b2abbbedb92127b8301e8",
+    "tools/cpsf_flywire_convergence/train.py": "0eaabf508233612a12910db0e046adb17cb14193b75159218d18d7530570d778",
+    "tools/cpsf_v24_physical_conditioning/configure.py": "f0c51296d29fbad04e4ecc46d0788506f1d1fa0a763bbd878b290e2cf49a598d",
+    "tools/cpsf_v24_physical_conditioning/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "tools/cpsf_v24_physical_conditioning/model.py": "0fea04642eac12ad1ed62e5ec76919ee68eac6cca2be3827eee6c58cffdff39f",
+    "tools/cpsf_v24_physical_conditioning/pipeline.py": "345c139e5f9962b4d194b68b88ad1224b136702bad39c1c11ae14d65f3ae25c2",
+    "tools/cpsf_v24_physical_conditioning/train.py": "0f4d0879a469a9f2a6a328129cc4c7dbaff92acb3240452615618673eb70ea09",
+    "tools/cpsf_v24_physical_conditioning/contracts.py": "06e438c7a7a2c174c789ac7b4ab10445b81075488b92b2e60fff792feee9877f",
+    "tools/cpsf_v24_physical_conditioning/data.py": "20de0d31ce7a0b2b4eb5ac7f434afea73048dde2b7534865583d8fc0702ee935",
+    "tools/cpsf_v25_position_routing/__init__.py": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "tools/cpsf_v25_position_routing/configure.py": "41e584b2ffdf58f3c41884bd5f901a6ca28a5ff4a2cce83295ddeccacec40749",
+    "tools/cpsf_v25_position_routing/contracts.py": "e7da48668d6329d94628386a78e9bbef2a25ac70232ec14ee8f9d74766fe7490",
+    "tools/cpsf_v25_position_routing/data.py": "4d53205cf5d27ac0f2a0477d22931e721e08767ac4a64d190d62ea19f47c12c8",
+    "tools/cpsf_v25_position_routing/model.py": "222f42b0c9e527847f2b516f09f1b2f7ff1ec820d6449a144e3f1b8acdfa1f36",
+    "tools/cpsf_v25_position_routing/pipeline.py": "7bd27184f049380e6dd1b912fe17a4d16e4080066f8d59a1aefd86677f122690",
+    "tools/cpsf_v25_position_routing/train.py": "75de9eb38c7f0ee432c0e4eaee32fdce512bcfdcee3ac61d48018c271c6f1004",
+    "tools/cpsf_v26_complete/__init__.py": "6f4d1c88242ae67b882c7f2419c2fc02941f2874951990dbb07843e456b13776",
+    "tools/cpsf_v26_complete/common.py": "254ee07ee016e099bd1a89639f842f9f723c9d3bb9f1cdf94a925acdfa73ced0",
+    "tools/cpsf_v26_complete/configure.py": "58bc679718e6a6b2a6920ace88a0351b717673210c3a59d65c2483380af097e6",
+    "tools/cpsf_v26_complete/contracts.py": "3d0302e1f753b3e9b16ea94424fb1c0a83d679f5a923a123a2b55b5e3cfdbfe5",
+    "tools/cpsf_v26_complete/job.py": "b1271dc42f067727f6eebf5aa4031e352bba40caa59db91320242c5de864fef1",
+    "tools/cpsf_v26_complete/model.py": "902098240a9e88dfe55b873d7a269a8d232606c8e4d4b730feaa75d768805017",
+    "tools/cpsf_v26_complete/pipeline.py": "71a4856756946521dabd217decd0e9ee79b5d1225bdcdec2cedbd06fcbf9d51e",
+    "tools/cpsf_v26_complete/prepare.py": "4d70667099821ac548ec8c9ee3a393f23afcbb2622062f3930c368f7b15c14d1",
+    "tools/cpsf_v26_complete/reference_check.py": "e992f22fdb1c653b4e12e55c1928b885c4cc2421e0d3d8917cea9f8131948d2a",
+    "tools/cpsf_v26_complete/train.py": "f1b8555228a58f110bac798644119cd394e1c6b84373339eff40d32d45b9ebae",
+    "tools/cpsf_fixed_core/__init__.py": "b8da4f506364c59fc3af2f966134c9508cf746843b5a41f15f71c7619aee4dac",
+    "tools/cpsf_fixed_core/analyze.py": "5911c47e4e2195b88ecbc8ffcf2a6d7ae56b4001f93c24db6db2772394506da7",
+    "tools/cpsf_fixed_core/common.py": "776d58a5e08e1a56746ae8295a38ec1dab4eb686a92b4f44bf9071301d05d400",
+    "tools/cpsf_fixed_core/configure.py": "1611f600340fbe32c5041e26efb399fc37f8dfaa29640abc4a44e8ab49d848c8",
+    "tools/cpsf_fixed_core/contracts.py": "d3668f8162ca9bb128f6ca5b2417ba4210d2cd944f3c7826e2527d04fad14858",
+    "tools/cpsf_fixed_core/efficiency.py": "61e2046353e98faf23c918d03a66cd938d0786a3584da5c76a5727c8e4e86915",
+    "tools/cpsf_fixed_core/job.py": "2b3267290d29208bdfc269b8c61f5ad4aa48fb4fe8c2ef324d154b7ecbac3939",
+    "tools/cpsf_fixed_core/model.py": "2b7fac89e211984e974b9feea46f27a71f40299c025ad31a7d00d52148bcf07a",
+    "tools/cpsf_fixed_core/pipeline.py": "77eaddc1018f902b43d8f261803553f13e59d7167526a32baadf816a0b78d281",
+    "tools/cpsf_fixed_core/reference_check.py": "c751bff1afb22cbf347aa3bcd45ef20a5004229cc999017e60ad22430b346094",
+    "tools/cpsf_fixed_core/train.py": "50f10d7414a23506c74a39dcdd04f6364b36ef859e6fd876b2d6ef8617e28a9a"
+  },
+  "document_sha256": "d1f0e838825ff9adeee1e5bd5940b6343233c2f4b3e3827407f63b6ce6048f2f",
+  "model_family": "V23 fixed residual with dataset-specific frozen hierarchy; gate-free code refactor"
+}

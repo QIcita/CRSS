@@ -1,0 +1,34 @@
+{
+  "state": "running",
+  "pid": 2305028,
+  "test_used": false,
+  "protocol": "all five baselines, two H01 tasks; fixed weights; uniform current-sample BN policy",
+  "completed": [],
+  "failed": [],
+  "pending": [
+    "exphormer_h01_local",
+    "exphormer_h01_global",
+    "ptv3_h01_local",
+    "ptv3_h01_global",
+    "litept_h01_local",
+    "litept_h01_global",
+    "octformer_h01_local",
+    "octformer_h01_global",
+    "pointmamba_h01_local",
+    "pointmamba_h01_global"
+  ],
+  "source_sha256": "ed049d3a01ff3071fe284bfe02fb0683a66cd627505098becf30f31c4292f221",
+  "scopes": {
+    "h01_local": "only supplied local-event geometry",
+    "h01_global": "only supplied whole-cell geometry"
+  },
+  "selection": "no score-based mode/model/checkpoint selection",
+  "originals_preserved": true,
+  "no_training": true,
+  "eval_order_tolerance": {
+    "atol": 0.001,
+    "rtol": 0.0001
+  },
+  "strict_argmax_agreement": true,
+  "regression_mae_tolerance": 0.0001
+}

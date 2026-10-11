@@ -1,0 +1,1106 @@
+{
+  "unix": 1791615108.7573447,
+  "passed": true,
+  "rows": [
+    {
+      "task": "h01_local",
+      "arm": "full",
+      "metric": "macro_f1",
+      "value": 0.6591129982017273,
+      "origin": "frozen_reference",
+      "experiment": "CPSF_V26_COMPLETE_20261003",
+      "path": "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/results/h01_local_fixed_residual",
+      "metrics_sha256": "cc8d2507af1b55df40ee17c4d137d4ad0708539842e35b864962e192ed688339"
+    },
+    {
+      "task": "h01_local",
+      "arm": "mean_only",
+      "metric": "macro_f1",
+      "value": 0.6399623751124057,
+      "origin": "frozen_reference",
+      "experiment": "CPSF_V26_COMPLETE_20261003",
+      "path": "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/results/h01_local_mean_only",
+      "metrics_sha256": "7f99ebbe712303594c5d3029dc801c17e593f5c92b7bde56004708efcae9133d"
+    },
+    {
+      "task": "h01_local",
+      "arm": "no_fusion",
+      "metric": "macro_f1",
+      "value": 0.6162548537029587,
+      "origin": "frozen_reference",
+      "experiment": "CPSF_V26_COMPLETE_20261003",
+      "path": "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/results/h01_local_no_fusion",
+      "metrics_sha256": "884b5e77214cb3df4a3cbe7fc95de817c64224713fa2d23d6e2353df540c65d3"
+    },
+    {
+      "task": "h01_local",
+      "arm": "point",
+      "metric": "macro_f1",
+      "value": 0.5765970486807975,
+      "origin": "frozen_reference",
+      "experiment": "CPSF_V26_COMPLETE_20261003",
+      "path": "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/results/h01_local_point",
+      "metrics_sha256": "3ad01155b8a4dd69daf6d9f610028a5284803a66250282c7861bd16fc49098fa"
+    },
+    {
+      "task": "h01_local",
+      "arm": "skeleton",
+      "metric": "macro_f1",
+      "value": 0.548372443233085,
+      "origin": "frozen_reference",
+      "experiment": "CPSF_V26_COMPLETE_20261003",
+      "path": "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/results/h01_local_skeleton",
+      "metrics_sha256": "2ecc8f9492a320527a5c834d68a1a023429065ff9a4514a8fc566cd9caf1f0ce"
+    },
+    {
+      "task": "h01_global",
+      "arm": "full",
+      "metric": "mae",
+      "value": 0.05104814531902472,
+      "origin": "frozen_reference",
+      "experiment": "CPSF_V26_COMPLETE_20261003",
+      "path": "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/results/h01_global_fixed_residual",
+      "metrics_sha256": "2096458789f679d7f9d87dcb74904247972fab8df55b8d5840d38b53387c46ba"
+    },
+    {
+      "task": "h01_global",
+      "arm": "mean_only",
+      "metric": "mae",
+      "value": 0.05170086398720741,
+      "origin": "frozen_reference",
+      "experiment": "CPSF_V26_COMPLETE_20261003",
+      "path": "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/results/h01_global_mean_only",
+      "metrics_sha256": "c8091933c88d17e08a2de1eac432d0fefce899204a007c4a2ccc2c0ba6bf8acd"
+    },
+    {
+      "task": "h01_global",
+      "arm": "no_fusion",
+      "metric": "mae",
+      "value": 0.05633788680036863,
+      "origin": "frozen_reference",
+      "experiment": "CPSF_V26_COMPLETE_20261003",
+      "path": "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/results/h01_global_no_fusion",
+      "metrics_sha256": "29b3899a3269ea73a6f388294fa65413804181479f446f1ee1c7155d4fe57dfa"
+    },
+    {
+      "task": "h01_global",
+      "arm": "point",
+      "metric": "mae",
+      "value": 0.0897050133595864,
+      "origin": "frozen_reference",
+      "experiment": "CPSF_V26_COMPLETE_20261003",
+      "path": "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/results/h01_global_point",
+      "metrics_sha256": "8463a078543ceeb0d7330fbe40232d561668a2ff629ec98e36c3faef7b539150"
+    },
+    {
+      "task": "h01_global",
+      "arm": "skeleton",
+      "metric": "mae",
+      "value": 0.06482910085469484,
+      "origin": "frozen_reference",
+      "experiment": "CPSF_V26_COMPLETE_20261003",
+      "path": "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/results/h01_global_skeleton",
+      "metrics_sha256": "3403b90a8c6f9b04a3d5064de7287cf151d784c6efa2b16cfb054acaadf5d350"
+    },
+    {
+      "task": "flywire_coarse",
+      "arm": "full",
+      "metric": "macro_f1",
+      "value": 0.8491632407420946,
+      "origin": "frozen_reference",
+      "experiment": "CPSF_FLYWIRE_V23_CE_EXPANDED_20261003",
+      "path": "/root/megrez-tmp/CPSF_FLYWIRE_V23_CE_EXPANDED_20261003/results/coarse_full",
+      "metrics_sha256": "bd78a8b21a00baf4bcb8ff1377773f4ec5213b5381d4147da29ba61b9d4c98dc"
+    },
+    {
+      "task": "flywire_coarse",
+      "arm": "mean_only",
+      "metric": "macro_f1",
+      "value": 0.760209076723125,
+      "origin": "frozen_reference",
+      "experiment": "CPSF_FLYWIRE_V23_CE_EXPANDED_20261003",
+      "path": "/root/megrez-tmp/CPSF_FLYWIRE_V23_CE_EXPANDED_20261003/results/coarse_mean_only",
+      "metrics_sha256": "de95f72cf823a5c0ebb3f6644d14bcb1bd7973f18459f10086fd54ecf66cbc0d"
+    },
+    {
+      "task": "flywire_coarse",
+      "arm": "no_fusion",
+      "metric": "macro_f1",
+      "value": 0.761262773980144,
+      "origin": "frozen_reference",
+      "experiment": "CPSF_V26_COMPLETE_20261003",
+      "path": "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/results/flywire_coarse_no_fusion",
+      "metrics_sha256": "cff1d3e670b8bc9cac16c592986551fb43a859df20762fc5a3bb45906f95aec9"
+    },
+    {
+      "task": "flywire_coarse",
+      "arm": "point",
+      "metric": "macro_f1",
+      "value": 0.7254517612703962,
+      "origin": "frozen_reference",
+      "experiment": "CPSF_V26_COMPLETE_20261003",
+      "path": "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/results/flywire_coarse_point",
+      "metrics_sha256": "9a792806cbff77e6ebff179e0c1394adb82c0559045e65ef3b342dcee3e609e2"
+    },
+    {
+      "task": "flywire_coarse",
+      "arm": "skeleton",
+      "metric": "macro_f1",
+      "value": 0.7637997667217243,
+      "origin": "frozen_reference",
+      "experiment": "CPSF_V26_COMPLETE_20261003",
+      "path": "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/results/flywire_coarse_skeleton",
+      "metrics_sha256": "cd3a37424835c976c50451caee1f52ccbecfe444cacae4dae564033cf7e1a294"
+    },
+    {
+      "task": "h01_local",
+      "arm": "no_position",
+      "metric": "macro_f1",
+      "value": 0.6259595658791609,
+      "origin": "trained",
+      "experiment": "CPSF_FIXED_CORE_ABLATION_20261005",
+      "path": "/root/megrez-tmp/CPSF_FIXED_CORE_ABLATION_20261005/results/h01_local_no_position",
+      "metrics_sha256": "db982424b71cfcb8e863bd9ee89c38377a58d81fe6e4d045904d00694e3604ff"
+    },
+    {
+      "task": "h01_local",
+      "arm": "no_scale",
+      "metric": "macro_f1",
+      "value": 0.6075247782994262,
+      "origin": "trained",
+      "experiment": "CPSF_FIXED_CORE_ABLATION_20261005",
+      "path": "/root/megrez-tmp/CPSF_FIXED_CORE_ABLATION_20261005/results/h01_local_no_scale",
+      "metrics_sha256": "19618977c1408d3d8d3242dff7feee86b26fbe685ff73d594fbd6a123d631c7e"
+    },
+    {
+      "task": "h01_local",
+      "arm": "no_position_scale",
+      "metric": "macro_f1",
+      "value": 0.6547160708254933,
+      "origin": "trained",
+      "experiment": "CPSF_FIXED_CORE_ABLATION_20261005",
+      "path": "/root/megrez-tmp/CPSF_FIXED_CORE_ABLATION_20261005/results/h01_local_no_position_scale",
+      "metrics_sha256": "db00b9bd435ec3b930c45c44b212d71b24b856f24403b5968dc80cfa6336e85b"
+    },
+    {
+      "task": "h01_local",
+      "arm": "shuffle_regions",
+      "metric": "macro_f1",
+      "value": 0.6020372549330469,
+      "origin": "trained",
+      "experiment": "CPSF_FIXED_CORE_ABLATION_20261005",
+      "path": "/root/megrez-tmp/CPSF_FIXED_CORE_ABLATION_20261005/results/h01_local_shuffle_regions",
+      "metrics_sha256": "f0fb01aabd31088fd69b740b753ad1451b9c01eaed66c6afe35e87291bc8d154"
+    },
+    {
+      "task": "h01_local",
+      "arm": "no_context",
+      "metric": "macro_f1",
+      "value": 0.6302474174959269,
+      "origin": "trained",
+      "experiment": "CPSF_FIXED_CORE_ABLATION_20261005",
+      "path": "/root/megrez-tmp/CPSF_FIXED_CORE_ABLATION_20261005/results/h01_local_no_context",
+      "metrics_sha256": "827b0836ae70315f315fe29a81da884bfd05196616c234382c698292b0795c77"
+    },
+    {
+      "task": "h01_global",
+      "arm": "no_position",
+      "metric": "mae",
+      "value": 0.06430391656855743,
+      "origin": "trained",
+      "experiment": "CPSF_FIXED_CORE_ABLATION_20261005",
+      "path": "/root/megrez-tmp/CPSF_FIXED_CORE_ABLATION_20261005/results/h01_global_no_position",
+      "metrics_sha256": "87c9f8dc0e52797d22a2eb3ae67f0ece2154aeda548ca284de683565c3dcfd12"
+    },
+    {
+      "task": "h01_global",
+      "arm": "no_scale",
+      "metric": "mae",
+      "value": 0.06389590352773666,
+      "origin": "trained",
+      "experiment": "CPSF_FIXED_CORE_ABLATION_20261005",
+      "path": "/root/megrez-tmp/CPSF_FIXED_CORE_ABLATION_20261005/results/h01_global_no_scale",
+      "metrics_sha256": "6b458366629bcd9d1e3ebb8d840dafad7cf3a82d86de3a6aa90a5bae6e2ddf9b"
+    },
+    {
+      "task": "h01_global",
+      "arm": "no_position_scale",
+      "metric": "mae",
+      "value": 0.056835109988848366,
+      "origin": "trained",
+      "experiment": "CPSF_FIXED_CORE_ABLATION_20261005",
+      "path": "/root/megrez-tmp/CPSF_FIXED_CORE_ABLATION_20261005/results/h01_global_no_position_scale",
+      "metrics_sha256": "0aacf3ee087e72de3cdba525486c8b21b5f3ab65c641c44a0cc2aa00705d6510"
+    },
+    {
+      "task": "h01_global",
+      "arm": "thumbnail",
+      "metric": "mae",
+      "value": 0.0809532031416893,
+      "origin": "trained",
+      "experiment": "CPSF_FIXED_CORE_ABLATION_20261005",
+      "path": "/root/megrez-tmp/CPSF_FIXED_CORE_ABLATION_20261005/results/h01_global_thumbnail",
+      "metrics_sha256": "de6527680382306b10debbf96ed33e9c465fa1fa2242bb822d667c5a5fd23ab2"
+    },
+    {
+      "task": "h01_global",
+      "arm": "uniform_budget",
+      "metric": "mae",
+      "value": 0.0532568022608757,
+      "origin": "trained",
+      "experiment": "CPSF_FIXED_CORE_ABLATION_20261005",
+      "path": "/root/megrez-tmp/CPSF_FIXED_CORE_ABLATION_20261005/results/h01_global_uniform_budget",
+      "metrics_sha256": "2f29a127abc758f572f09c04ae55a422fd111ff7f77ca9251765e661adac4091"
+    },
+    {
+      "task": "h01_global",
+      "arm": "shuffle_regions",
+      "metric": "mae",
+      "value": 0.05454413406550884,
+      "origin": "trained",
+      "experiment": "CPSF_FIXED_CORE_ABLATION_20261005",
+      "path": "/root/megrez-tmp/CPSF_FIXED_CORE_ABLATION_20261005/results/h01_global_shuffle_regions",
+      "metrics_sha256": "f16b554249c54062f726f7b70c8243e7ed340071f7348a489e9364ebf025a71f"
+    },
+    {
+      "task": "h01_global",
+      "arm": "no_context",
+      "metric": "mae",
+      "value": 0.07710672666629155,
+      "origin": "trained",
+      "experiment": "CPSF_FIXED_CORE_ABLATION_20261005",
+      "path": "/root/megrez-tmp/CPSF_FIXED_CORE_ABLATION_20261005/results/h01_global_no_context",
+      "metrics_sha256": "9865e5a2f7e01db72bc48a6d719976a9a939cf4c16d2264cdd9bf8e584382d36"
+    },
+    {
+      "task": "flywire_coarse",
+      "arm": "no_position",
+      "metric": "macro_f1",
+      "value": 0.6768129448747701,
+      "origin": "trained",
+      "experiment": "CPSF_FIXED_CORE_ABLATION_20261005",
+      "path": "/root/megrez-tmp/CPSF_FIXED_CORE_ABLATION_20261005/results/flywire_coarse_no_position",
+      "metrics_sha256": "42144079e7d22dad92b4857afcf4f20efbf63441bfb0e3af9bb34b81f5336605"
+    },
+    {
+      "task": "flywire_coarse",
+      "arm": "no_scale",
+      "metric": "macro_f1",
+      "value": 0.7514100247568031,
+      "origin": "trained",
+      "experiment": "CPSF_FIXED_CORE_ABLATION_20261005",
+      "path": "/root/megrez-tmp/CPSF_FIXED_CORE_ABLATION_20261005/results/flywire_coarse_no_scale",
+      "metrics_sha256": "3b68ec17d8991b2366e36dd58aa31adc1fb5923684567d10f082ea587f1a890f"
+    },
+    {
+      "task": "flywire_coarse",
+      "arm": "no_position_scale",
+      "metric": "macro_f1",
+      "value": 0.7331523416072795,
+      "origin": "trained",
+      "experiment": "CPSF_FIXED_CORE_ABLATION_20261005",
+      "path": "/root/megrez-tmp/CPSF_FIXED_CORE_ABLATION_20261005/results/flywire_coarse_no_position_scale",
+      "metrics_sha256": "8ce796526f812aca0cd10c1b66726aab6f7d5d8a298ec0ec0f7027d18a2ff7ee"
+    },
+    {
+      "task": "flywire_coarse",
+      "arm": "thumbnail",
+      "metric": "macro_f1",
+      "value": 0.7307149329004052,
+      "origin": "trained",
+      "experiment": "CPSF_FIXED_CORE_ABLATION_20261005",
+      "path": "/root/megrez-tmp/CPSF_FIXED_CORE_ABLATION_20261005/results/flywire_coarse_thumbnail",
+      "metrics_sha256": "e413ea71cb9ffb8dc6f3020d31e45769d72984485d9ec8ad27cc91b3557178ba"
+    },
+    {
+      "task": "flywire_coarse",
+      "arm": "uniform_budget",
+      "metric": "macro_f1",
+      "value": 0.7501038629128421,
+      "origin": "trained",
+      "experiment": "CPSF_FIXED_CORE_ABLATION_20261005",
+      "path": "/root/megrez-tmp/CPSF_FIXED_CORE_ABLATION_20261005/results/flywire_coarse_uniform_budget",
+      "metrics_sha256": "03b2431a4c2211efb2ef31a6aeee14180fe55eb4d2a60327d79d4df5bec61498"
+    },
+    {
+      "task": "flywire_coarse",
+      "arm": "shuffle_regions",
+      "metric": "macro_f1",
+      "value": 0.7410935390352392,
+      "origin": "trained",
+      "experiment": "CPSF_FIXED_CORE_ABLATION_20261005",
+      "path": "/root/megrez-tmp/CPSF_FIXED_CORE_ABLATION_20261005/results/flywire_coarse_shuffle_regions",
+      "metrics_sha256": "87d620ee267e4f14a6ec51633d62108d8daf63b2684066854d061c5820017aa2"
+    },
+    {
+      "task": "flywire_coarse",
+      "arm": "no_context",
+      "metric": "macro_f1",
+      "value": 0.8122254418947308,
+      "origin": "trained",
+      "experiment": "CPSF_FIXED_CORE_ABLATION_20261005",
+      "path": "/root/megrez-tmp/CPSF_FIXED_CORE_ABLATION_20261005/results/flywire_coarse_no_context",
+      "metrics_sha256": "b3c1e752e4e12294f667fca3b2646b58922bbfb680a3947127e72ecf739a35d1"
+    },
+    {
+      "task": "ted",
+      "arm": "full",
+      "metric": "f1",
+      "value": 0.4955223880597015,
+      "config": "lr_half",
+      "origin": "trained",
+      "experiment": "CPSF_NREDD_CONFIG_ONLY_20261009",
+      "path": "/root/megrez-tmp/CPSF_NREDD_CONFIG_ONLY_20261009/results/ted_lr_half_full",
+      "metrics_sha256": "cc0b3526a33a620f6b4609f40550e68f795e590904d83bab32efd46939a51fec"
+    },
+    {
+      "task": "ted",
+      "arm": "mean_only",
+      "metric": "f1",
+      "value": 0.4952015355086372,
+      "config": "lr_half",
+      "origin": "trained",
+      "experiment": "CPSF_NREDD_CONFIG_ONLY_20261009",
+      "path": "/root/megrez-tmp/CPSF_NREDD_CONFIG_ONLY_20261009/results/ted_lr_half_mean_only",
+      "metrics_sha256": "edfbe32824b2bf8751fc193fa00f751bd2861ab464c1ca28330689e0242c10b5"
+    },
+    {
+      "task": "ted",
+      "arm": "no_fusion",
+      "metric": "f1",
+      "value": 0.4885215794306703,
+      "config": "lr_half",
+      "origin": "trained",
+      "experiment": "CPSF_NREDD_CONFIG_ONLY_20261009",
+      "path": "/root/megrez-tmp/CPSF_NREDD_CONFIG_ONLY_20261009/results/ted_lr_half_no_fusion",
+      "metrics_sha256": "492bb1949fe0a4360d757f7f2ac0f97ecb6a239729dbe01917fc2d438d590de3"
+    },
+    {
+      "task": "ted",
+      "arm": "no_position",
+      "metric": "f1",
+      "value": 0.4816955684007707,
+      "config": "lr_half",
+      "origin": "trained",
+      "experiment": "CPSF_NREDD_CONFIG_ONLY_20261009",
+      "path": "/root/megrez-tmp/CPSF_NREDD_CONFIG_ONLY_20261009/results/ted_lr_half_no_position",
+      "metrics_sha256": "5c1940c71ccf7c80865cf1bf8fe9469a7a5a02b8e9626df0a2593298225e89af"
+    },
+    {
+      "task": "ted",
+      "arm": "no_scale",
+      "metric": "f1",
+      "value": 0.4870775347912525,
+      "config": "lr_half",
+      "origin": "trained",
+      "experiment": "CPSF_NREDD_CONFIG_ONLY_20261009",
+      "path": "/root/megrez-tmp/CPSF_NREDD_CONFIG_ONLY_20261009/results/ted_lr_half_no_scale",
+      "metrics_sha256": "4311c5000a3264e32e0620b2a7d7fbcb1ca366416071f70eb644822cb1900dcd"
+    },
+    {
+      "task": "ted",
+      "arm": "point",
+      "metric": "f1",
+      "value": 0.36416184971098264,
+      "config": "lr_half",
+      "origin": "trained",
+      "experiment": "CPSF_NREDD_CONFIG_ONLY_20261009",
+      "path": "/root/megrez-tmp/CPSF_NREDD_CONFIG_ONLY_20261009/results/ted_lr_half_point",
+      "metrics_sha256": "709e7d9c4745ccf5aa7151ebf7a0c954f98d00c1e4970b7252285e29cf055229"
+    },
+    {
+      "task": "ted",
+      "arm": "skeleton",
+      "metric": "f1",
+      "value": 0.46932814021421615,
+      "config": "lr_half",
+      "origin": "trained",
+      "experiment": "CPSF_NREDD_CONFIG_ONLY_20261009",
+      "path": "/root/megrez-tmp/CPSF_NREDD_CONFIG_ONLY_20261009/results/ted_lr_half_skeleton",
+      "metrics_sha256": "fd89bad19006821681a7a2a9fad4c4a303ad531ac56179afefa886065356d602"
+    },
+    {
+      "task": "tlp",
+      "arm": "full",
+      "metric": "missing_edge_macro_ap",
+      "value": 0.5836544882048422,
+      "origin": "directional_xyz",
+      "experiment": "CPSF_TLP_DIRECTIONAL_STAGE6_20261009",
+      "path": "/root/megrez-tmp/CPSF_TLP_DIRECTIONAL_STAGE6_20261009/results/tlp_directional_xyz_full",
+      "metrics_sha256": "43ae5904e330a8d00a05653a3ded405d3692b4555271693e65b97ed52efd1cde"
+    },
+    {
+      "task": "tlp",
+      "arm": "mean_only",
+      "metric": "missing_edge_macro_ap",
+      "value": 0.5724136330840985,
+      "origin": "directional_xyz",
+      "experiment": "CPSF_TLP_DIRECTIONAL_STAGE6_20261009",
+      "path": "/root/megrez-tmp/CPSF_TLP_DIRECTIONAL_STAGE6_20261009/results/tlp_directional_xyz_mean_only",
+      "metrics_sha256": "a7d43cff977a03eae1dba72fc46bae9543323998144de490cc713de148ed11c2"
+    },
+    {
+      "task": "tlp",
+      "arm": "no_fusion",
+      "metric": "missing_edge_macro_ap",
+      "value": 0.5520578936097116,
+      "origin": "directional_xyz",
+      "experiment": "CPSF_TLP_DIRECTIONAL_STAGE6_20261009",
+      "path": "/root/megrez-tmp/CPSF_TLP_DIRECTIONAL_STAGE6_20261009/results/tlp_directional_xyz_no_fusion",
+      "metrics_sha256": "a96594ee1a2a88f3d6e26c65e339f7e40486ba3c3006089dee2a7bba94fb3114"
+    },
+    {
+      "task": "tlp",
+      "arm": "no_scale",
+      "metric": "missing_edge_macro_ap",
+      "value": 0.5681586263746284,
+      "origin": "directional_xyz",
+      "experiment": "CPSF_TLP_DIRECTIONAL_STAGE6_20261009",
+      "path": "/root/megrez-tmp/CPSF_TLP_DIRECTIONAL_STAGE6_20261009/results/tlp_directional_xyz_no_scale",
+      "metrics_sha256": "65eaf95f6fda216184b2e0d39b22f4720c23a9f0b600a12572d2b02bd81496bb"
+    },
+    {
+      "task": "tlp",
+      "arm": "point",
+      "metric": "missing_edge_macro_ap",
+      "value": 0.26877549950669066,
+      "origin": "directional_xyz",
+      "experiment": "CPSF_TLP_DIRECTIONAL_STAGE6_20261009",
+      "path": "/root/megrez-tmp/CPSF_TLP_DIRECTIONAL_STAGE6_20261009/results/tlp_directional_xyz_point",
+      "metrics_sha256": "506bddae4ce93d78b1ef0235438dee979a92a6af3509a98d93e8d1e9c3dd7c4b"
+    },
+    {
+      "task": "tlp",
+      "arm": "skeleton",
+      "metric": "missing_edge_macro_ap",
+      "value": 0.559792941793011,
+      "origin": "descriptor_independent_exact_replay",
+      "experiment": "CPSF_TLP_DIRECTIONAL_STAGE6_20261009",
+      "path": "/root/megrez-tmp/CPSF_TLP_DIRECTIONAL_STAGE6_20261009/results/tlp_voxel_skeleton",
+      "metrics_sha256": "cbe469c36accb0d63b3eb6364f746e49c7e0a32b3c25e93d2fb2096eb79dbf81"
+    }
+  ],
+  "audits": {
+    "CPSF_FIXED_CORE_ABLATION_20261005": {
+      "sources": 127,
+      "reference_runs": 15,
+      "new_runs": 19,
+      "protocol_sha256": "d1e1b56a0869bbf743af7ecd4d244e37e0749367ecbe2dad1a7e059889468240"
+    },
+    "CPSF_NREDD_CONFIG_ONLY_20261009": {
+      "sources": 200,
+      "references": 442,
+      "protocol_sha256": "d16e1484c515afd867ce8aa2e4a07b389135bc505b565c69c52440b4a5240c52",
+      "pipeline_status": {
+        "state": "running",
+        "phase": "configuration_comparison",
+        "controller_pid": 1828444,
+        "max_parallel": 6,
+        "completed": [
+          "tlp_lr_half_full",
+          "tlp_lr_half_mean_only",
+          "tlp_lr_half_no_fusion",
+          "tlp_lr_half_skeleton",
+          "tlp_lr_half_point",
+          "tlp_lr_half_no_scale",
+          "tlp_slow_decay_full",
+          "tlp_slow_decay_mean_only",
+          "tlp_slow_decay_no_fusion",
+          "tlp_slow_decay_skeleton",
+          "tlp_slow_decay_point",
+          "tlp_slow_decay_no_scale",
+          "ted_lr_half_full",
+          "ted_lr_half_mean_only",
+          "ted_lr_half_no_fusion",
+          "ted_lr_half_skeleton",
+          "ted_lr_half_point",
+          "ted_lr_half_no_scale",
+          "ted_lr_half_no_position",
+          "ted_slow_decay_full",
+          "ted_slow_decay_mean_only",
+          "ted_slow_decay_skeleton",
+          "ted_slow_decay_point"
+        ],
+        "active": {
+          "ted_slow_decay_no_fusion": 1939369,
+          "ted_slow_decay_no_scale": 2000541,
+          "ted_slow_decay_no_position": 2004792
+        },
+        "pending": [],
+        "failed": {},
+        "progress": {
+          "ted_slow_decay_no_fusion": {
+            "state": "training",
+            "epoch": 30,
+            "epochs": 30,
+            "processed": 6464,
+            "samples": 23967,
+            "optimizer_steps": 10976
+          },
+          "ted_slow_decay_no_scale": {
+            "state": "training",
+            "epoch": 21,
+            "epochs": 30,
+            "processed": 13504,
+            "samples": 23967,
+            "optimizer_steps": 7711
+          },
+          "ted_slow_decay_no_position": {
+            "state": "training",
+            "epoch": 21,
+            "epochs": 30,
+            "processed": 17984,
+            "samples": 23967,
+            "optimizer_steps": 7781
+          }
+        },
+        "resource": {
+          "gpu_free_mib": 22336,
+          "gpu_used_mib": 1746,
+          "gpu_util_percent": 73,
+          "ram_available_mib": 21583.609375
+        },
+        "protocol_sha256": "d16e1484c515afd867ce8aa2e4a07b389135bc505b565c69c52440b4a5240c52",
+        "test_used": false,
+        "contracts_passed": true,
+        "unix": 1791615097.2022564
+      }
+    },
+    "CPSF_TLP_DIRECTIONAL_STAGE6_20261009": {
+      "sources": 211,
+      "protocol_sha256": "c8e87c9bbd278b7f734163d1a9b652cd2399892b3191ec93625de8d460d99070",
+      "replay_gate": {
+        "passed": true,
+        "protocol_sha256": "c8e87c9bbd278b7f734163d1a9b652cd2399892b3191ec93625de8d460d99070",
+        "epochs": 80,
+        "seed": 42,
+        "checks": {
+          "full": {
+            "weights_equal": true,
+            "loss_history_equal": true,
+            "predictions_equal": true,
+            "metrics_equal": true,
+            "macro_ap": 0.5579933083642382
+          },
+          "skeleton": {
+            "weights_equal": true,
+            "loss_history_equal": true,
+            "predictions_equal": true,
+            "metrics_equal": true,
+            "macro_ap": 0.559792941793011
+          }
+        },
+        "macro_ap": {
+          "full": 0.5579933083642382,
+          "skeleton": 0.559792941793011
+        },
+        "comparison": "stage6 voxel full and skeleton replay vs frozen stage4",
+        "test_used": false
+      }
+    }
+  },
+  "configuration_exploration": [
+    {
+      "task": "ted",
+      "arm": "full",
+      "metric": "f1",
+      "value": 0.4955223880597015,
+      "config": "lr_half",
+      "origin": "trained",
+      "experiment": "CPSF_NREDD_CONFIG_ONLY_20261009",
+      "path": "/root/megrez-tmp/CPSF_NREDD_CONFIG_ONLY_20261009/results/ted_lr_half_full",
+      "metrics_sha256": "cc0b3526a33a620f6b4609f40550e68f795e590904d83bab32efd46939a51fec"
+    },
+    {
+      "task": "ted",
+      "arm": "mean_only",
+      "metric": "f1",
+      "value": 0.4952015355086372,
+      "config": "lr_half",
+      "origin": "trained",
+      "experiment": "CPSF_NREDD_CONFIG_ONLY_20261009",
+      "path": "/root/megrez-tmp/CPSF_NREDD_CONFIG_ONLY_20261009/results/ted_lr_half_mean_only",
+      "metrics_sha256": "edfbe32824b2bf8751fc193fa00f751bd2861ab464c1ca28330689e0242c10b5"
+    },
+    {
+      "task": "ted",
+      "arm": "no_fusion",
+      "metric": "f1",
+      "value": 0.4885215794306703,
+      "config": "lr_half",
+      "origin": "trained",
+      "experiment": "CPSF_NREDD_CONFIG_ONLY_20261009",
+      "path": "/root/megrez-tmp/CPSF_NREDD_CONFIG_ONLY_20261009/results/ted_lr_half_no_fusion",
+      "metrics_sha256": "492bb1949fe0a4360d757f7f2ac0f97ecb6a239729dbe01917fc2d438d590de3"
+    },
+    {
+      "task": "ted",
+      "arm": "no_position",
+      "metric": "f1",
+      "value": 0.4816955684007707,
+      "config": "lr_half",
+      "origin": "trained",
+      "experiment": "CPSF_NREDD_CONFIG_ONLY_20261009",
+      "path": "/root/megrez-tmp/CPSF_NREDD_CONFIG_ONLY_20261009/results/ted_lr_half_no_position",
+      "metrics_sha256": "5c1940c71ccf7c80865cf1bf8fe9469a7a5a02b8e9626df0a2593298225e89af"
+    },
+    {
+      "task": "ted",
+      "arm": "no_scale",
+      "metric": "f1",
+      "value": 0.4870775347912525,
+      "config": "lr_half",
+      "origin": "trained",
+      "experiment": "CPSF_NREDD_CONFIG_ONLY_20261009",
+      "path": "/root/megrez-tmp/CPSF_NREDD_CONFIG_ONLY_20261009/results/ted_lr_half_no_scale",
+      "metrics_sha256": "4311c5000a3264e32e0620b2a7d7fbcb1ca366416071f70eb644822cb1900dcd"
+    },
+    {
+      "task": "ted",
+      "arm": "point",
+      "metric": "f1",
+      "value": 0.36416184971098264,
+      "config": "lr_half",
+      "origin": "trained",
+      "experiment": "CPSF_NREDD_CONFIG_ONLY_20261009",
+      "path": "/root/megrez-tmp/CPSF_NREDD_CONFIG_ONLY_20261009/results/ted_lr_half_point",
+      "metrics_sha256": "709e7d9c4745ccf5aa7151ebf7a0c954f98d00c1e4970b7252285e29cf055229"
+    },
+    {
+      "task": "ted",
+      "arm": "skeleton",
+      "metric": "f1",
+      "value": 0.46932814021421615,
+      "config": "lr_half",
+      "origin": "trained",
+      "experiment": "CPSF_NREDD_CONFIG_ONLY_20261009",
+      "path": "/root/megrez-tmp/CPSF_NREDD_CONFIG_ONLY_20261009/results/ted_lr_half_skeleton",
+      "metrics_sha256": "fd89bad19006821681a7a2a9fad4c4a303ad531ac56179afefa886065356d602"
+    },
+    {
+      "task": "ted",
+      "arm": "full",
+      "metric": "f1",
+      "value": 0.493801652892562,
+      "config": "slow_decay",
+      "origin": "trained",
+      "experiment": "CPSF_NREDD_CONFIG_ONLY_20261009",
+      "path": "/root/megrez-tmp/CPSF_NREDD_CONFIG_ONLY_20261009/results/ted_slow_decay_full",
+      "metrics_sha256": "da1de07ff0f233f9b2933d82d69e342a9be0cebf23c2e045d17c423ddb598ef1"
+    },
+    {
+      "task": "ted",
+      "arm": "mean_only",
+      "metric": "f1",
+      "value": 0.4966442953020134,
+      "config": "slow_decay",
+      "origin": "trained",
+      "experiment": "CPSF_NREDD_CONFIG_ONLY_20261009",
+      "path": "/root/megrez-tmp/CPSF_NREDD_CONFIG_ONLY_20261009/results/ted_slow_decay_mean_only",
+      "metrics_sha256": "713bf7a56cc1b1ef7c22b533ddb3ef792a1a34b0930679dabbf55d7fb5b829c4"
+    },
+    {
+      "task": "ted",
+      "arm": "point",
+      "metric": "f1",
+      "value": 0.3555926544240401,
+      "config": "slow_decay",
+      "origin": "trained",
+      "experiment": "CPSF_NREDD_CONFIG_ONLY_20261009",
+      "path": "/root/megrez-tmp/CPSF_NREDD_CONFIG_ONLY_20261009/results/ted_slow_decay_point",
+      "metrics_sha256": "9ae3c8551250c7a687ab823eef0fd325300de35f0c970e7c6776714f3a6a2a04"
+    },
+    {
+      "task": "ted",
+      "arm": "skeleton",
+      "metric": "f1",
+      "value": 0.5341488277268094,
+      "config": "slow_decay",
+      "origin": "trained",
+      "experiment": "CPSF_NREDD_CONFIG_ONLY_20261009",
+      "path": "/root/megrez-tmp/CPSF_NREDD_CONFIG_ONLY_20261009/results/ted_slow_decay_skeleton",
+      "metrics_sha256": "9d079854a44a4ddcd4a91af0b375b69992b06abd8a0695b9ff454fad30c8019d"
+    },
+    {
+      "task": "tlp",
+      "arm": "full",
+      "metric": "missing_edge_macro_ap",
+      "value": 0.5394071417822242,
+      "config": "lr_half",
+      "origin": "trained",
+      "experiment": "CPSF_NREDD_CONFIG_ONLY_20261009",
+      "path": "/root/megrez-tmp/CPSF_NREDD_CONFIG_ONLY_20261009/results/tlp_lr_half_full",
+      "metrics_sha256": "9ad2e6a8a40f2e9482b6eae26d672b7abe4b1407a4de5705295f76944d54b7a8"
+    },
+    {
+      "task": "tlp",
+      "arm": "mean_only",
+      "metric": "missing_edge_macro_ap",
+      "value": 0.5323598398856343,
+      "config": "lr_half",
+      "origin": "trained",
+      "experiment": "CPSF_NREDD_CONFIG_ONLY_20261009",
+      "path": "/root/megrez-tmp/CPSF_NREDD_CONFIG_ONLY_20261009/results/tlp_lr_half_mean_only",
+      "metrics_sha256": "c943f7f8210c85ffe5fbdce5b197926cef3200500d52e603177b4cb10239c5b7"
+    },
+    {
+      "task": "tlp",
+      "arm": "no_fusion",
+      "metric": "missing_edge_macro_ap",
+      "value": 0.5496357813392231,
+      "config": "lr_half",
+      "origin": "trained",
+      "experiment": "CPSF_NREDD_CONFIG_ONLY_20261009",
+      "path": "/root/megrez-tmp/CPSF_NREDD_CONFIG_ONLY_20261009/results/tlp_lr_half_no_fusion",
+      "metrics_sha256": "2281163b72c6ec1424eb622fa4bcffda4a73b0315d5d953b732ae3f78af8f5ff"
+    },
+    {
+      "task": "tlp",
+      "arm": "no_scale",
+      "metric": "missing_edge_macro_ap",
+      "value": 0.5352949575085398,
+      "config": "lr_half",
+      "origin": "trained",
+      "experiment": "CPSF_NREDD_CONFIG_ONLY_20261009",
+      "path": "/root/megrez-tmp/CPSF_NREDD_CONFIG_ONLY_20261009/results/tlp_lr_half_no_scale",
+      "metrics_sha256": "150e20ec3aa58832fa43b4d9e6ccbb7e3392e744fe88f54174b537c16737912a"
+    },
+    {
+      "task": "tlp",
+      "arm": "point",
+      "metric": "missing_edge_macro_ap",
+      "value": 0.2294824989866513,
+      "config": "lr_half",
+      "origin": "trained",
+      "experiment": "CPSF_NREDD_CONFIG_ONLY_20261009",
+      "path": "/root/megrez-tmp/CPSF_NREDD_CONFIG_ONLY_20261009/results/tlp_lr_half_point",
+      "metrics_sha256": "3c56b3c0ae3be97ce282a3e8d2729d62f6e453f31a66e309070806ad69ec0dfe"
+    },
+    {
+      "task": "tlp",
+      "arm": "skeleton",
+      "metric": "missing_edge_macro_ap",
+      "value": 0.5418470363377323,
+      "config": "lr_half",
+      "origin": "trained",
+      "experiment": "CPSF_NREDD_CONFIG_ONLY_20261009",
+      "path": "/root/megrez-tmp/CPSF_NREDD_CONFIG_ONLY_20261009/results/tlp_lr_half_skeleton",
+      "metrics_sha256": "84abaee2a8328dfb44e5004ca1acec9151e9ea09c220faaa816f2ae4b4eab73d"
+    },
+    {
+      "task": "tlp",
+      "arm": "full",
+      "metric": "missing_edge_macro_ap",
+      "value": 0.5526369488325767,
+      "config": "slow_decay",
+      "origin": "trained",
+      "experiment": "CPSF_NREDD_CONFIG_ONLY_20261009",
+      "path": "/root/megrez-tmp/CPSF_NREDD_CONFIG_ONLY_20261009/results/tlp_slow_decay_full",
+      "metrics_sha256": "59958740ce542d2536a8e2df8f80d8d6eba9f5bd66d6960011583e3408aeffff"
+    },
+    {
+      "task": "tlp",
+      "arm": "mean_only",
+      "metric": "missing_edge_macro_ap",
+      "value": 0.5674073591013018,
+      "config": "slow_decay",
+      "origin": "trained",
+      "experiment": "CPSF_NREDD_CONFIG_ONLY_20261009",
+      "path": "/root/megrez-tmp/CPSF_NREDD_CONFIG_ONLY_20261009/results/tlp_slow_decay_mean_only",
+      "metrics_sha256": "1851eceb7e794ef0db5f7798434e71c8696193e70ee18da72b9ee93468394814"
+    },
+    {
+      "task": "tlp",
+      "arm": "no_fusion",
+      "metric": "missing_edge_macro_ap",
+      "value": 0.5392056642405518,
+      "config": "slow_decay",
+      "origin": "trained",
+      "experiment": "CPSF_NREDD_CONFIG_ONLY_20261009",
+      "path": "/root/megrez-tmp/CPSF_NREDD_CONFIG_ONLY_20261009/results/tlp_slow_decay_no_fusion",
+      "metrics_sha256": "935d64443fa44a2204eec0ff728ccb05eea6059d7dcf5395f14331c4a5a1290f"
+    },
+    {
+      "task": "tlp",
+      "arm": "no_scale",
+      "metric": "missing_edge_macro_ap",
+      "value": 0.5542163060609475,
+      "config": "slow_decay",
+      "origin": "trained",
+      "experiment": "CPSF_NREDD_CONFIG_ONLY_20261009",
+      "path": "/root/megrez-tmp/CPSF_NREDD_CONFIG_ONLY_20261009/results/tlp_slow_decay_no_scale",
+      "metrics_sha256": "1d46e983088f14c721005986ecd074cb9f278e09b1263988eee92002eec41c48"
+    },
+    {
+      "task": "tlp",
+      "arm": "point",
+      "metric": "missing_edge_macro_ap",
+      "value": 0.2266681223431936,
+      "config": "slow_decay",
+      "origin": "trained",
+      "experiment": "CPSF_NREDD_CONFIG_ONLY_20261009",
+      "path": "/root/megrez-tmp/CPSF_NREDD_CONFIG_ONLY_20261009/results/tlp_slow_decay_point",
+      "metrics_sha256": "91c69260e6d6590baa0fe68ba1c0f87407676931d8663fa36ac6ff2f94e69c4f"
+    },
+    {
+      "task": "tlp",
+      "arm": "skeleton",
+      "metric": "missing_edge_macro_ap",
+      "value": 0.5673773819844485,
+      "config": "slow_decay",
+      "origin": "trained",
+      "experiment": "CPSF_NREDD_CONFIG_ONLY_20261009",
+      "path": "/root/megrez-tmp/CPSF_NREDD_CONFIG_ONLY_20261009/results/tlp_slow_decay_skeleton",
+      "metrics_sha256": "dd8957822903201b17d7ac3ce1b97070dff51603d059e8a78866594c076453a8"
+    },
+    {
+      "task": "ted",
+      "arm": "full",
+      "metric": "f1",
+      "value": 0.48717948717948717,
+      "config": "baseline",
+      "origin": "frozen_reference",
+      "experiment": "CPSF_FIXED_CORE_NREDD_20261006",
+      "path": "/root/megrez-tmp/CPSF_FIXED_CORE_NREDD_20261006/results/ted_full",
+      "metrics_sha256": "51731c1e1ef8a4dd038f80f120c20732cfcf25cadbac4caadf63f6c17b35c6c7"
+    },
+    {
+      "task": "ted",
+      "arm": "mean_only",
+      "metric": "f1",
+      "value": 0.49119170984455957,
+      "config": "baseline",
+      "origin": "frozen_reference",
+      "experiment": "CPSF_FIXED_CORE_NREDD_20261006",
+      "path": "/root/megrez-tmp/CPSF_FIXED_CORE_NREDD_20261006/results/ted_mean_only",
+      "metrics_sha256": "cb895a8c50beb6eb208efa85bfd460b03d6bbe2fa5ac748e528fbb4adf5ee926"
+    },
+    {
+      "task": "ted",
+      "arm": "no_fusion",
+      "metric": "f1",
+      "value": 0.47574626865671643,
+      "config": "baseline",
+      "origin": "frozen_reference",
+      "experiment": "CPSF_FIXED_CORE_NREDD_20261006",
+      "path": "/root/megrez-tmp/CPSF_FIXED_CORE_NREDD_20261006/results/ted_no_fusion",
+      "metrics_sha256": "12f3434ff1cba8162e5ffaa23467c9c3d35b366839f5852a43942ed1be15a60b"
+    },
+    {
+      "task": "ted",
+      "arm": "skeleton",
+      "metric": "f1",
+      "value": 0.479108635097493,
+      "config": "baseline",
+      "origin": "frozen_reference",
+      "experiment": "CPSF_FIXED_CORE_NREDD_20261006",
+      "path": "/root/megrez-tmp/CPSF_FIXED_CORE_NREDD_20261006/results/ted_skeleton",
+      "metrics_sha256": "1bd4e4cc48f2a2c49edb7b1c17b85dcc45ef441b72efdca7e18750eb12307543"
+    },
+    {
+      "task": "ted",
+      "arm": "point",
+      "metric": "f1",
+      "value": 0.3896551724137931,
+      "config": "baseline",
+      "origin": "frozen_reference",
+      "experiment": "CPSF_FIXED_CORE_NREDD_20261006",
+      "path": "/root/megrez-tmp/CPSF_FIXED_CORE_NREDD_20261006/results/ted_point",
+      "metrics_sha256": "17be902a4f1848138cfdb850e1c6de377a7ebc82c68d3c868143a719cc59e5e2"
+    },
+    {
+      "task": "ted",
+      "arm": "no_scale",
+      "metric": "f1",
+      "value": 0.5079681274900398,
+      "config": "baseline",
+      "origin": "frozen_reference",
+      "experiment": "CPSF_FIXED_CORE_NREDD_20261006",
+      "path": "/root/megrez-tmp/CPSF_FIXED_CORE_NREDD_20261006/results/ted_no_scale",
+      "metrics_sha256": "ec306b5521ee98e5e39be282675e76b3eafe894dada5480f338e4524d847a9e9"
+    },
+    {
+      "task": "ted",
+      "arm": "no_position",
+      "metric": "f1",
+      "value": 0.49306930693069306,
+      "config": "baseline",
+      "origin": "frozen_reference",
+      "experiment": "CPSF_FIXED_CORE_NREDD_20261006",
+      "path": "/root/megrez-tmp/CPSF_FIXED_CORE_NREDD_20261006/results/ted_no_position",
+      "metrics_sha256": "6c06ac4deb0111bbbba6e0a52296e349ddd9d7e26a19f783e9d2ca7714f7fe1f"
+    }
+  ],
+  "directional_analysis": {
+    "primary": "Missing-edge macro AP",
+    "scores": {
+      "tlp_voxel_full": 0.5579933083642382,
+      "tlp_voxel_mean_only": 0.553654053100925,
+      "tlp_voxel_no_fusion": 0.5390981107257595,
+      "tlp_voxel_no_scale": 0.5137310234966099,
+      "tlp_voxel_point": 0.22284179344643903,
+      "tlp_voxel_skeleton": 0.559792941793011,
+      "tlp_directional_xyz_full": 0.5836544882048422,
+      "tlp_directional_xyz_mean_only": 0.5724136330840985,
+      "tlp_directional_xyz_no_fusion": 0.5520578936097116,
+      "tlp_directional_xyz_no_scale": 0.5681586263746284,
+      "tlp_directional_xyz_point": 0.26877549950669066,
+      "tlp_directional_full": 0.5797562632102108,
+      "tlp_directional_mean_only": 0.5711736017054883,
+      "tlp_directional_no_fusion": 0.55237963604036,
+      "tlp_directional_no_scale": 0.5767521976308958,
+      "tlp_directional_point": 0.25216661752329506
+    },
+    "provenance": {
+      "tlp_voxel_full": {
+        "origin": "stage6_trained",
+        "experiment": "CPSF_TLP_DIRECTIONAL_STAGE6_20261009",
+        "metrics_sha256": "3058fe4ccaafedfb67eb0834b5004e2e453c5a2ecc97e875771256deccaadf9e"
+      },
+      "tlp_voxel_mean_only": {
+        "origin": "stage4_frozen_reference",
+        "experiment": "CPSF_TLP_DETERMINISTIC_STAGE4_20261008",
+        "metrics_sha256": "fc05a719f76d9301ca11e02d3d74f027500dbe727ee9e988090f6eb4c680cd7f"
+      },
+      "tlp_voxel_no_fusion": {
+        "origin": "stage4_frozen_reference",
+        "experiment": "CPSF_TLP_DETERMINISTIC_STAGE4_20261008",
+        "metrics_sha256": "202e9689b5a21b6abf6675000225c5ea1b2e0b2f02644bdb22993d6cc963d2b3"
+      },
+      "tlp_voxel_no_scale": {
+        "origin": "stage4_frozen_reference",
+        "experiment": "CPSF_TLP_DETERMINISTIC_STAGE4_20261008",
+        "metrics_sha256": "9dada02dc577293ec832b55a39075373df6ac8375a5558571b65af4cf9147d40"
+      },
+      "tlp_voxel_point": {
+        "origin": "stage4_frozen_reference",
+        "experiment": "CPSF_TLP_DETERMINISTIC_STAGE4_20261008",
+        "metrics_sha256": "c7251583ae2c3875c30d685cc70d0271ca1267aa4304446efb6891cb18808968"
+      },
+      "tlp_voxel_skeleton": {
+        "origin": "stage6_trained",
+        "experiment": "CPSF_TLP_DIRECTIONAL_STAGE6_20261009",
+        "metrics_sha256": "cbe469c36accb0d63b3eb6364f746e49c7e0a32b3c25e93d2fb2096eb79dbf81"
+      },
+      "tlp_directional_xyz_full": {
+        "origin": "stage6_trained",
+        "experiment": "CPSF_TLP_DIRECTIONAL_STAGE6_20261009",
+        "metrics_sha256": "43ae5904e330a8d00a05653a3ded405d3692b4555271693e65b97ed52efd1cde"
+      },
+      "tlp_directional_xyz_mean_only": {
+        "origin": "stage6_trained",
+        "experiment": "CPSF_TLP_DIRECTIONAL_STAGE6_20261009",
+        "metrics_sha256": "a7d43cff977a03eae1dba72fc46bae9543323998144de490cc713de148ed11c2"
+      },
+      "tlp_directional_xyz_no_fusion": {
+        "origin": "stage6_trained",
+        "experiment": "CPSF_TLP_DIRECTIONAL_STAGE6_20261009",
+        "metrics_sha256": "a96594ee1a2a88f3d6e26c65e339f7e40486ba3c3006089dee2a7bba94fb3114"
+      },
+      "tlp_directional_xyz_no_scale": {
+        "origin": "stage6_trained",
+        "experiment": "CPSF_TLP_DIRECTIONAL_STAGE6_20261009",
+        "metrics_sha256": "65eaf95f6fda216184b2e0d39b22f4720c23a9f0b600a12572d2b02bd81496bb"
+      },
+      "tlp_directional_xyz_point": {
+        "origin": "stage6_trained",
+        "experiment": "CPSF_TLP_DIRECTIONAL_STAGE6_20261009",
+        "metrics_sha256": "506bddae4ce93d78b1ef0235438dee979a92a6af3509a98d93e8d1e9c3dd7c4b"
+      },
+      "tlp_directional_full": {
+        "origin": "stage6_trained",
+        "experiment": "CPSF_TLP_DIRECTIONAL_STAGE6_20261009",
+        "metrics_sha256": "5b7f14537a39b3ce47c4f0c33bbc48b63e02dab6e43477ff29d5901da558ea9b"
+      },
+      "tlp_directional_mean_only": {
+        "origin": "stage6_trained",
+        "experiment": "CPSF_TLP_DIRECTIONAL_STAGE6_20261009",
+        "metrics_sha256": "feb54112d314030c79e905d2ff22843e030f10fdb0554fc394d084107c53ebf6"
+      },
+      "tlp_directional_no_fusion": {
+        "origin": "stage6_trained",
+        "experiment": "CPSF_TLP_DIRECTIONAL_STAGE6_20261009",
+        "metrics_sha256": "2879d447af05cdb7be3cf3f60c19890fd62895db2ca230bfcbcbd8f228677ff6"
+      },
+      "tlp_directional_no_scale": {
+        "origin": "stage6_trained",
+        "experiment": "CPSF_TLP_DIRECTIONAL_STAGE6_20261009",
+        "metrics_sha256": "d2f6ada9f1771b2c29d45503664551d744ca1eff748d886e92c348c992852dfa"
+      },
+      "tlp_directional_point": {
+        "origin": "stage6_trained",
+        "experiment": "CPSF_TLP_DIRECTIONAL_STAGE6_20261009",
+        "metrics_sha256": "98829d64d590b1d7e0b7bfbc7513909337d19e7581fdcc1f235f999909ba6ebf"
+      }
+    },
+    "new_minus_voxel": {
+      "directional_xyz": {
+        "full": 0.02566117984060401,
+        "mean_only": 0.01875957998317357,
+        "no_fusion": 0.012959782883952053,
+        "no_scale": 0.05442760287801851,
+        "point": 0.04593370606025163
+      },
+      "directional": {
+        "full": 0.02176295484597257,
+        "mean_only": 0.017519548604563284,
+        "no_fusion": 0.013281525314600473,
+        "no_scale": 0.06302117413428587,
+        "point": 0.02932482407685602
+      }
+    },
+    "criteria": {
+      "directional_xyz": {
+        "full_over_voxel": true,
+        "full_over_skeleton": true,
+        "full_over_variants": {
+          "mean_only": true,
+          "no_fusion": true,
+          "no_scale": true,
+          "point": true
+        }
+      },
+      "directional": {
+        "full_over_voxel": true,
+        "full_over_skeleton": true,
+        "full_over_variants": {
+          "mean_only": true,
+          "no_fusion": true,
+          "no_scale": true,
+          "point": true
+        }
+      }
+    },
+    "replay_gate": {
+      "passed": true,
+      "protocol_sha256": "c8e87c9bbd278b7f734163d1a9b652cd2399892b3191ec93625de8d460d99070",
+      "epochs": 80,
+      "seed": 42,
+      "checks": {
+        "full": {
+          "weights_equal": true,
+          "loss_history_equal": true,
+          "predictions_equal": true,
+          "metrics_equal": true,
+          "macro_ap": 0.5579933083642382
+        },
+        "skeleton": {
+          "weights_equal": true,
+          "loss_history_equal": true,
+          "predictions_equal": true,
+          "metrics_equal": true,
+          "macro_ap": 0.559792941793011
+        }
+      },
+      "macro_ap": {
+        "full": 0.5579933083642382,
+        "skeleton": 0.559792941793011
+      },
+      "comparison": "stage6 voxel full and skeleton replay vs frozen stage4",
+      "test_used": false
+    },
+    "test_used": false
+  },
+  "test_used": false,
+  "scope": "Current per-task defaults; no old-config ablations inserted into new TED/TLP defaults"
+}

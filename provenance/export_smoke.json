@@ -1,0 +1,50 @@
+{
+  "checked_at": "2026-10-11",
+  "python": "3.9.6",
+  "torch": "2.8.0",
+  "device": "cpu",
+  "input": "synthetic",
+  "strict_checkpoint_load": true,
+  "results": [
+    {
+      "task": "h01_local",
+      "shape": [
+        3
+      ],
+      "parameters": 255875,
+      "finite": true
+    },
+    {
+      "task": "h01_global",
+      "shape": [],
+      "parameters": 255617,
+      "finite": true
+    },
+    {
+      "task": "flywire_coarse",
+      "shape": [
+        6
+      ],
+      "parameters": 256262,
+      "finite": true
+    },
+    {
+      "task": "ted",
+      "shape": [
+        2
+      ],
+      "parameters": 255617,
+      "finite": true
+    },
+    {
+      "task": "tlp",
+      "shape": [
+        3,
+        3
+      ],
+      "parameters": 304897,
+      "finite": true
+    }
+  ],
+  "scope": "Repository copy validation only; not a new accuracy or training evaluation."
+}

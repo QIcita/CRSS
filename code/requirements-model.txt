@@ -1,0 +1,2 @@
+# Standalone model and synthetic demo only; validated with torch 2.4.0+cu121 on CPU.
+torch>=2.4,<3

@@ -1,0 +1,188 @@
+{
+  "date": "2026-10-11",
+  "scope": "title, abstract, introduction, related work, preliminaries, method",
+  "paragraphs": [
+    {
+      "id": "TITLE",
+      "source": "main.tex",
+      "purpose": "题名；英文采用简洁范围描述，中文点明共同区域机制。",
+      "english_sha256": "bb65893e39422290b360b4ac4bb1209ae048e5b794be9dbc52b59c792987ddf9",
+      "chinese_sha256": "272039e5520ba7bcf5803dad707a5f6246a42e63ad0c9ed22e9052fa67b29698"
+    },
+    {
+      "id": "ABS-01",
+      "source": "sec/0_abstract.tex",
+      "purpose": "任务意义→递进问题→统一数学基础→框架与两个机制→匹配证据。",
+      "english_sha256": "37d14e3d960f04cb6d42777345ff6f46da5b6bbd0578cb8c80214076b37c4e24",
+      "chinese_sha256": "29b4171a6b77c9f91efd3dad44379bfcaf164f9318e25413cb5ae65a804e297d"
+    },
+    {
+      "id": "INTRO-01",
+      "source": "sec/1_intro.tex",
+      "purpose": "任务重要性→局部和整体需求。",
+      "english_sha256": "73c3241369e69254d1ccf5a77606f9e8e8de9b40c35ead2922025e765a6c2a00",
+      "chinese_sha256": "d5035e01f7ba00bfd847c1a86f6662512446fac0d372c7b99ecc5c9ac27fe005"
+    },
+    {
+      "id": "INTRO-02",
+      "source": "sec/1_intro.tex",
+      "purpose": "承认最近方法，避免制造多模态或局部整体建模空白。",
+      "english_sha256": "72a1201641eae46a50195b87ad112bbff3fae0a2c291beac0d6b26ce419a19e7",
+      "chinese_sha256": "78dc40ac91bd61953fb649555ce0d1eaf72c4b255895f1d297d0189cbee5b990"
+    },
+    {
+      "id": "INTRO-03",
+      "source": "sec/1_intro.tex",
+      "purpose": "两个问题的具体后果与递进关系。",
+      "english_sha256": "328cd5cbf0a205806ecd53374aeedafa66cc22097f39f1aac98c1eb6369c68ba",
+      "chinese_sha256": "0c8165a1ce363fcef1406f413e981efd9d0fd2eaa7995b9a4f88c5cc136ceb85"
+    },
+    {
+      "id": "INTRO-04",
+      "source": "sec/1_intro.tex",
+      "purpose": "统一数学依据；与Preliminaries中的有限测度定义衔接。",
+      "english_sha256": "58c45f24780450e4d633cb591a5f04070d7c259390a693be11b7ed5c4fd7d0d0",
+      "chinese_sha256": "b7d283735e7454150a040314041dd7ef9c34a9fb91ab8c58cbd0898817dd396f"
+    },
+    {
+      "id": "INTRO-05",
+      "source": "sec/1_intro.tex",
+      "purpose": "框架及两个机制，明确操作与先后关系。",
+      "english_sha256": "a79a681a0f3fda42e6937bc1629f98b04dd7a177b7b4c23e1dd44192792b8802",
+      "chinese_sha256": "a49cce39ac49d48ab90753eb84b82f4fde680a5615cf9220a487687c87ed5be5"
+    },
+    {
+      "id": "INTRO-06",
+      "source": "sec/1_intro.tex",
+      "purpose": "匹配证据与贡献承接。",
+      "english_sha256": "afcf0d05e3e701649859b9ecd0a0dc6bbc325b357d7c42be4ef7b00e15bdb14c",
+      "chinese_sha256": "0897961c0e22cceee699284551d9b3e225fc3756552d7600d294bec038ad75a8"
+    },
+    {
+      "id": "CONTRIB-01",
+      "source": "sec/1_intro.tex",
+      "purpose": "技术贡献一。",
+      "english_sha256": "c0b607bc76f7aec0dcd1e436b24535aa2c3128d46f0e62040cde5d0e843268b8",
+      "chinese_sha256": "47ba9ba7fbeac80d2e10f7751e532996db905260be9d731a4fa9840bc510f6e1"
+    },
+    {
+      "id": "CONTRIB-02",
+      "source": "sec/1_intro.tex",
+      "purpose": "技术贡献二。",
+      "english_sha256": "e7ee502befcae00ffb7b460ca8a68c9eea482e6c5496f7a22bdef9385949c030",
+      "chinese_sha256": "9aee4f15288767d907848fad87eacd749bc23b30dff1cfe582429b886c2f4c6d"
+    },
+    {
+      "id": "CONTRIB-03",
+      "source": "sec/1_intro.tex",
+      "purpose": "实验贡献。",
+      "english_sha256": "950774a170efeaffa601c8fecafcfc7cd40bf699d054c3bc1cdc417c4d2e09c0",
+      "chinese_sha256": "e29f98ee6d1fd88ed748db541ef52bc8ca5602ba9ae862376de5d8485c4091af"
+    },
+    {
+      "id": "RW-01",
+      "source": "sec/2_related_work.tex",
+      "purpose": "领域任务背景与资源边界。",
+      "english_sha256": "baf57733032e13dbb5adc3140da2e0b8a56dbec976d49d27d5845014f4a94d8c",
+      "chinese_sha256": "58cc761dba80f89db5e8e9fb3db58efb2cafaf90ccee8acf36b6b02c58b67b56"
+    },
+    {
+      "id": "RW-02",
+      "source": "sec/2_related_work.tex",
+      "purpose": "最近神经元方法的输入和交互差异。",
+      "english_sha256": "b7ffae95ec2df1a97174cd75e5274a45f9207378ff94d6e2f190f0f21df0310a",
+      "chinese_sha256": "c9cb6fc2df10ea480bc19b230dfed8928dac4485afbc29cfb73b148d58a931b3"
+    },
+    {
+      "id": "RW-03",
+      "source": "sec/2_related_work.tex",
+      "purpose": "几何编码与预算组织，避免将感受野等同输入覆盖。",
+      "english_sha256": "3ce49a5ec41b82cd58d4e0bae77b8e839668f5d461c6b31e7aa04294a9aaec6b",
+      "chinese_sha256": "7578b75b1d9948c5b5cb4af1517242e6fded37a3d936774d12efee649dc2f32c"
+    },
+    {
+      "id": "RW-04",
+      "source": "sec/2_related_work.tex",
+      "purpose": "对应任务和输入假设的区别。",
+      "english_sha256": "765246c5cb0f67f50c38881ccf1cba72bc46ae881c876e34815276e6cd042fbd",
+      "chinese_sha256": "e5d095e3f963129691b928bd96c88f77f7ffdff9d185a21d320ea25c1366051e"
+    },
+    {
+      "id": "RW-05",
+      "source": "sec/2_related_work.tex",
+      "purpose": "数学和位置先例的范围，防止借用不适用的理论保证。",
+      "english_sha256": "8c3234c461b50f921f4262bcdc060f4b7d83ad45e51d66650c16ce920fcedcb5",
+      "chinese_sha256": "fd220a56aec766231da11f384a3927ab4f4edae12de024ccdd0a04ee70110881"
+    },
+    {
+      "id": "PRE-01",
+      "source": "sec/3_preliminaries.tex",
+      "purpose": "仅定义输入、粒度和无目标信息构造约束。",
+      "english_sha256": "4085693ea26b407d0476fb66f49b4c376718a582b53ce3c952fd76ecd011429c",
+      "chinese_sha256": "242b8c0cdb7705a8c464415e8f8b26c85a45016cfe825cce047c471ed2082023"
+    },
+    {
+      "id": "PRE-02",
+      "source": "sec/3_preliminaries.tex",
+      "purpose": "数学预备定义，具体区域和网络操作留到Method。",
+      "english_sha256": "19cb38991b9d27ab5fa354b897e3fc99142882c35c6fd31e82c491dcbff10e81",
+      "chinese_sha256": "16499eb4d53a6940646b8719d224087f066ac9e8668c5dcf2e3933a6aab2ca8b"
+    },
+    {
+      "id": "METHOD-03",
+      "source": "sec/4_method.tex",
+      "purpose": "第一贡献的确定性采样部分，区分数据集权重。",
+      "english_sha256": "f920091feaaa7b01e76a424049597e5c7d7b96e37180b2789e8c2f90bbc704f6",
+      "chinese_sha256": "d110f646b17db9061dfc5cc0372aff27ae48bd2d6abbebb6bb715266b9606101"
+    },
+    {
+      "id": "METHOD-05",
+      "source": "sec/4_method.tex",
+      "purpose": "第一贡献的可学习编码部分及真实边界。",
+      "english_sha256": "2f0162be57f154ee1fe7ce60c1590593ab26183d2dd266f2dfd9e803001c297c",
+      "chinese_sha256": "e1dcdc46796527a1cc2ce8fecefc89e4aeabc68b80524fd0c0dff001fe539f1e"
+    },
+    {
+      "id": "METHOD-04",
+      "source": "sec/4_method.tex",
+      "purpose": "解释区域与软关联具体怎么构造。",
+      "english_sha256": "a05a2385be296de30adb5b3343729c05f06bc3c4996c6a1860c289c3a8dd9cb3",
+      "chinese_sha256": "7602250f636c0b2ee396c6d781c4da71727d54e3168084d3c1233a244ce5f103"
+    },
+    {
+      "id": "METHOD-06",
+      "source": "sec/4_method.tex",
+      "purpose": "第二贡献的聚合算子及其数学性质。",
+      "english_sha256": "a9f1a4ed5e681f8c1821f6392ab34289635c792017afdd0e3bd7b8b3445aee25",
+      "chinese_sha256": "4586cbb8b5471dfbab90aabb94c76f9f108052057f015a30f40dc58e41743ec5"
+    },
+    {
+      "id": "METHOD-07",
+      "source": "sec/4_method.tex",
+      "purpose": "明确融合模块改动，解释固定残差的地位。",
+      "english_sha256": "0d471af21453ba6b1e488968b4cdf9a8076d34728141e3b1a6100fbbee234787",
+      "chinese_sha256": "5db7b7b8f957ad44f50a589aff703573827b78e276fd8314706c5ff0792d4246"
+    },
+    {
+      "id": "METHOD-08",
+      "source": "sec/4_method.tex",
+      "purpose": "解释架构如何承接融合，避免把标准算子单列创新。",
+      "english_sha256": "13c13c8fceddacff5991cc3fd67e484bdb80d4b3e6846a2140122c0834a2132a",
+      "chinese_sha256": "15e7fa834d3df32b5d0e861e30ed00920aadc023382dd8c099a90e88d3f352ec"
+    },
+    {
+      "id": "METHOD-09",
+      "source": "sec/4_method.tex",
+      "purpose": "说明输出、训练方式和统一架构的实际边界。",
+      "english_sha256": "ad238a46a2561c6709e05419b28f1d19f23cac7cc142825bfa3c503d7c33905f",
+      "chinese_sha256": "bc51f41e2a73912c5767100c8ddb8158741590b5c53d79a28aa2b1576114c724"
+    },
+    {
+      "id": "METHOD-10",
+      "source": "sec/4_method.tex",
+      "purpose": "将方法改动与决定性对照对应。",
+      "english_sha256": "a4e772cf2ebddc79395cfc7756aa715453c501d9d6904705d3e3220c60bb5a9e",
+      "chinese_sha256": "c850ce64d2d4238f5ad5166aa67fdd7b4980cf6589b057d89019f3d8a4d14fd2"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+\section{Related Work}
+\label{sec:related}
+
+% SYNC-BEGIN RW-01
+\paragraph{Connectomic resources and analysis.}
+Human, larval-fly, adult-fly, and functional mouse connectomes expose morphology at increasing scale~\cite{shapsoncoe2024h01,winding2023insect,dorkenwald2024flywire,microns2025functional}. Hierarchical fly annotations, a visual-system inventory, and compartment-specific inhibitory organization connect morphology to cell identity and circuit roles~\cite{schlegel2024flytyping,nern2025visualinventory,schneider2025inhibitory}. Gapr and CAVE support collaborative reconstruction and reproducible annotation, whereas NEURD decomposes meshes into annotated branch graphs~\cite{gou2024gapr,dorkenwald2025cave,celii2025neurd}. These works motivate local and cell-level analysis; their full resource sizes are distinct from our task subsets.
+% SYNC-END RW-01
+
+% SYNC-BEGIN RW-02
+\paragraph{Learned neuronal representations.}
+MACGNN, MorphoGNN, MorphRep, and DSM learn representations from graphs or projection trajectories~\cite{zhao2024macgnn,zhu2023morphognn,fan2024morphrep,xiong2024dsm}. SGTMorph combines local topology and global reasoning; NeuroGT adds biophysical and hierarchical encodings; NeuNet integrates single-cell skeletons with circuit connectivity~\cite{sheng2025sgtmorph,sheng2026neurogt,liao2025neunet}. GraPHFormer explores late fusion and cross-attention between skeletons and persistence images~\cite{shah2026graphformer}. Multimodal segment-connection prediction uses morphology and local EM images, while MoGen generates neuronal fragment point clouds for shape modeling and proofreading augmentation~\cite{chen2026segmentconnectivity,mogen2026}. Our setting instead learns from an observed skeleton and an independently sampled, co-registered surface, with explicit regional association rather than assuming that multimodality itself is new.
+% SYNC-END RW-02
+
+% SYNC-BEGIN RW-03
+\paragraph{Point geometry and observation budgets.}
+PointVector, PointMeta, and KPConvX refine local feature aggregation~\cite{pointvector2023,pointmeta2023,kpconvx2024}; PTv3, Flash3D, and Superpoint Transformer organize efficient spatial context~\cite{ptv32024,flash3d2025,spt2023}. APES selects salient samples, while GeoMAE and Sonata study the geometric information encouraged by pretraining~\cite{apes2023,geomae2023,sonata2025}. LitePT separates local geometric processing from broader attention, and MSPT combines local and coarse interactions~\cite{litept2026,mspt2026}. Utonia distinguishes scale, density, and sampling differences across domains~\cite{utonia2026}. These precedents motivate separating input coverage from receptive field: broader attention cannot access observations omitted during sampling. Our contribution concerns allocating and weighting observations for joint skeletal--surface regions, not a new point-attention operator.
+% SYNC-END RW-03
+
+% SYNC-BEGIN RW-04
+\paragraph{Regional correspondence and geometric priors.}
+PiMAE couples image and point representations through cross-modal reconstruction~\cite{pimae2023}. For registration, 2D3D-MATR and Hg-I2P organize heterogeneous correspondences, while RoITr, PEAL, and SuP address pose, overlap, or sub-cloud matching~\cite{matr2023,hgi2p2026,roitr2023,peal2023,sup2026}. FusionCell lets topology query layout geometry~\cite{fusioncell2026}. These mechanisms seek or use correspondence under different input assumptions; our inputs already share a coordinate frame, and regions organize their unequal geometric supports for prediction.
+% SYNC-END RW-04
+
+% SYNC-BEGIN RW-05
+CAJAL compares cellular morphologies through metric geometry, whereas VesselTok learns centerline-conditioned tokens for tubular anatomy~\cite{govek2023cajal,vesseltok2026}. LEAP encodes local graph structure, while URoPE uses camera geometry for cross-view positional relations~\cite{leap2026,urope2026}. Our supports are already co-registered: we preserve their observed connectivity and size information while learning regional content. These different settings distinguish geometric priors from a guarantee of resampling or physical-scale invariance.
+% SYNC-END RW-05

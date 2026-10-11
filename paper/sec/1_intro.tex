@@ -1,0 +1,41 @@
+\section{Introduction}
+\label{sec:intro}
+
+% SYNC-BEGIN INTRO-01
+Large-scale connectomics now provides detailed neuronal reconstructions from human cortex and whole fly brains, alongside functionally characterized mouse circuits~\cite{shapsoncoe2024h01,dorkenwald2024flywire,microns2025functional}. Turning these resources into biological evidence requires identifying reconstruction errors, completing connections, characterizing compartments, and predicting cell attributes. These decisions span local neurites and entire arbors. Skeletons expose observed connectivity, while surfaces retain shape around the centerline; a useful morphology encoder must preserve and relate both kinds of evidence across these spatial extents.
+% SYNC-END INTRO-01
+
+% SYNC-BEGIN INTRO-02
+Recent neuronal graph models learn local and global structure, positional priors, and multimodal representations~\cite{zhao2024macgnn,sheng2025sgtmorph,sheng2026neurogt,shah2026graphformer}. NEURD already relates meshes to branch graphs, and segment-connection prediction combines global morphology with local EM appearance~\cite{celii2025neurd,chen2026segmentconnectivity}. Our question is therefore specific: under a finite observation budget, how can an observed skeleton and its co-registered three-dimensional surface form shared local representations for multiple prediction granularities?
+% SYNC-END INTRO-02
+
+% SYNC-BEGIN INTRO-03
+Two linked difficulties arise. \emph{Evidence retention} concerns what reaches the encoder: a fixed global sample can poorly cover small branches in a large arbor, while object-wise unit scaling can erase size differences. Sampling allocation, density, and physical extent are distinct decisions~\cite{apes2023,utonia2026}. \emph{Evidence association} concerns how retained observations interact: skeletal nodes and surface patches have different discretizations and no one-to-one correspondence. Whole-object fusion does not explicitly assign a surface variation to a branch, and nearby branches complicate purely spatial association. Missing input evidence cannot be restored by fusion; sufficient coverage alone does not establish correspondence.
+% SYNC-END INTRO-03
+
+% SYNC-BEGIN INTRO-04
+We organize both difficulties through a \emph{weighted geometric representation}: each element records a location and the amount of source geometry it represents, and regional features are normalized local aggregates. This formulation separates sampling from aggregation support. It motivates retaining distributed observations and size cues, then combining skeleton and surface evidence on common regions while normalizing their different geometric quantities separately. This is a mathematical basis for the design, rather than a claim of sampling or scale invariance.
+% SYNC-END INTRO-04
+
+% SYNC-BEGIN INTRO-05
+Accordingly, we propose the \emph{Common-Region Skeleton--Surface} (CRSS) framework. Its \emph{weighted multiresolution geometric encoding} combines global and local surface samples, retains the observed skeleton, and embeds regional position and length. Its \emph{topology-guided common-region fusion} associates surface patches with skeletal arclength regions, aggregates each modality separately, and learns joint regional tokens. These tokens enter regional context propagation before local, pairwise, or whole-cell readout. The two mechanisms thus connect evidence retention to local interaction; the architectural change concerns both the unit and the placement of fusion.
+% SYNC-END INTRO-05
+
+% SYNC-BEGIN INTRO-06
+Five separately supervised tasks on NREDD, H01, and FlyWire evaluate this design under matched development protocols with seed 42. Equal-budget sampling improves FlyWire macro-F1 by 9.91 percentage points over uniform sampling; learned interaction improves H01 local and FlyWire macro-F1 by 1.92 and 8.90 points over regional averaging. The contributions are:
+% SYNC-END INTRO-06
+
+\begin{itemize}
+\item
+% SYNC-BEGIN CONTRIB-01
+\textbf{Weighted multiresolution inputs} that retain spatial coverage and size cues through sampling weights and position/length embeddings.
+% SYNC-END CONTRIB-01
+\item
+% SYNC-BEGIN CONTRIB-02
+\textbf{Common-region joint encoding} that forms skeleton--surface tokens before contextual propagation and task-specific readout.
+% SYNC-END CONTRIB-02
+\item
+% SYNC-BEGIN CONTRIB-03
+\textbf{Matched mechanism evaluations} across five tasks, including equal-budget sampling and correspondence perturbations, with task-dependent effects.
+% SYNC-END CONTRIB-03
+\end{itemize}

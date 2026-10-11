@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "paired_blocks": 26,
+  "frontmatter_recent_formal_citations": 43,
+  "total_references": 44,
+  "year_distribution": {
+    "2024": 9,
+    "2025": 9,
+    "2023": 12,
+    "2026": 13
+  },
+  "all_bibkeys_used": true,
+  "unique_titles": true,
+  "hashes_match": true,
+  "credential_scan_passed": true
+}

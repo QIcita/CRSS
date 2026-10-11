@@ -1,0 +1,165 @@
+{
+  "h01_local": {
+    "task": "h01_local",
+    "arm": "full",
+    "seed": 42,
+    "settings": {
+      "epochs": 25,
+      "batch": 8,
+      "train": 716,
+      "val": 214,
+      "round_cells": 716,
+      "updates": 2250
+    },
+    "optimizer": {
+      "lr": 0.0003,
+      "weight_decay": 0.01,
+      "lr_min": 3e-05,
+      "clip": 5
+    },
+    "checkpoint": "checkpoints/h01_local/final.pt",
+    "checkpoint_sha256": "7503043f70f757d9c731a3458c37985d3dba9e1aee1ee9ecf915f415d30d4fb4",
+    "source_run": "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/results/h01_local_fixed_residual",
+    "test_used": false
+  },
+  "h01_global": {
+    "task": "h01_global",
+    "arm": "full",
+    "seed": 42,
+    "settings": {
+      "epochs": 50,
+      "batch": 4,
+      "train": 80,
+      "val": 24,
+      "round_cells": 80,
+      "updates": 1000
+    },
+    "optimizer": {
+      "lr": 0.0003,
+      "weight_decay": 0.01,
+      "lr_min": 3e-05,
+      "clip": 5
+    },
+    "checkpoint": "checkpoints/h01_global/final.pt",
+    "checkpoint_sha256": "793d05ccefca5aa98c3a4911b468d3fdf1950f34854e02f49b608e1f9c82835c",
+    "source_run": "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/results/h01_global_fixed_residual",
+    "test_used": false
+  },
+  "flywire_coarse": {
+    "task": "flywire_coarse",
+    "arm": "full",
+    "seed": 42,
+    "settings": {
+      "epochs": 50,
+      "batch": 4,
+      "train": 6039,
+      "val": 1922,
+      "round_cells": 4975,
+      "updates": 62200
+    },
+    "optimizer": {
+      "lr": 0.0003,
+      "weight_decay": 0.01,
+      "lr_min": 3e-05,
+      "clip": 5
+    },
+    "checkpoint": "checkpoints/flywire_coarse/final.pt",
+    "checkpoint_sha256": "3480272399820722e1583070352600ce07d26ee88248ce344904c71ceb08ad2f",
+    "source_run": "/root/megrez-tmp/CPSF_FLYWIRE_V23_CE_EXPANDED_20261003/results/coarse_full",
+    "test_used": false
+  },
+  "ted": {
+    "task": "ted",
+    "selected_by": "explicit user instruction",
+    "selected_at_utc": "2026-10-10T06:42:34.502483+00:00",
+    "experiment_id": "CPSF_NREDD_CONFIG_ONLY_20261009",
+    "config": "lr_half",
+    "arm": "full",
+    "seed": 42,
+    "training_config": {
+      "epochs": 30,
+      "batch": 64,
+      "lr": 0.0005,
+      "weight_decay": 0.0005,
+      "scheduler": "1/(epoch+1)",
+      "loss": "alpha5 weighted two-logit BCE, summed gradients; step on final partial batch",
+      "optimizer": "Adam"
+    },
+    "checkpoint": "/root/megrez-tmp/CPSF_NREDD_CONFIG_ONLY_20261009/results/ted_lr_half_full/final.pt",
+    "checkpoint_sha256": "6a135e91adb0dfd05e7246f587b4a463473d322060539543407410da1737440a",
+    "protocol_sha256": "d16e1484c515afd867ce8aa2e4a07b389135bc505b565c69c52440b4a5240c52",
+    "metrics_path": "/root/megrez-tmp/CPSF_NREDD_CONFIG_ONLY_20261009/results/ted_lr_half_full/metrics.json",
+    "metrics_sha256": "cc0b3526a33a620f6b4609f40550e68f795e590904d83bab32efd46939a51fec",
+    "primary": "positive_event_f1",
+    "validation_f1": 0.4955223880597015,
+    "validation_ap": 0.42636458812897454,
+    "same_config_references": {
+      "full": {
+        "f1": 0.4955223880597015,
+        "metrics_path": "/root/megrez-tmp/CPSF_NREDD_CONFIG_ONLY_20261009/results/ted_lr_half_full/metrics.json",
+        "metrics_sha256": "cc0b3526a33a620f6b4609f40550e68f795e590904d83bab32efd46939a51fec"
+      },
+      "mean_only": {
+        "f1": 0.4952015355086372,
+        "metrics_path": "/root/megrez-tmp/CPSF_NREDD_CONFIG_ONLY_20261009/results/ted_lr_half_mean_only/metrics.json",
+        "metrics_sha256": "edfbe32824b2bf8751fc193fa00f751bd2861ab464c1ca28330689e0242c10b5"
+      },
+      "no_fusion": {
+        "f1": 0.4885215794306703,
+        "metrics_path": "/root/megrez-tmp/CPSF_NREDD_CONFIG_ONLY_20261009/results/ted_lr_half_no_fusion/metrics.json",
+        "metrics_sha256": "492bb1949fe0a4360d757f7f2ac0f97ecb6a239729dbe01917fc2d438d590de3"
+      },
+      "skeleton": {
+        "f1": 0.46932814021421615,
+        "metrics_path": "/root/megrez-tmp/CPSF_NREDD_CONFIG_ONLY_20261009/results/ted_lr_half_skeleton/metrics.json",
+        "metrics_sha256": "fd89bad19006821681a7a2a9fad4c4a303ad531ac56179afefa886065356d602"
+      },
+      "point": {
+        "f1": 0.36416184971098264,
+        "metrics_path": "/root/megrez-tmp/CPSF_NREDD_CONFIG_ONLY_20261009/results/ted_lr_half_point/metrics.json",
+        "metrics_sha256": "709e7d9c4745ccf5aa7151ebf7a0c954f98d00c1e4970b7252285e29cf055229"
+      },
+      "no_scale": {
+        "f1": 0.4870775347912525,
+        "metrics_path": "/root/megrez-tmp/CPSF_NREDD_CONFIG_ONLY_20261009/results/ted_lr_half_no_scale/metrics.json",
+        "metrics_sha256": "4311c5000a3264e32e0620b2a7d7fbcb1ca366416071f70eb644822cb1900dcd"
+      },
+      "no_position": {
+        "f1": 0.4816955684007707,
+        "metrics_path": "/root/megrez-tmp/CPSF_NREDD_CONFIG_ONLY_20261009/results/ted_lr_half_no_position/metrics.json",
+        "metrics_sha256": "5c1940c71ccf7c80865cf1bf8fe9469a7a5a02b8e9626df0a2593298225e89af"
+      }
+    },
+    "test_used": false,
+    "scope": "Default shared training config for future TED full and corresponding controls; TLP default unchanged; existing slow-decay queue continues.",
+    "interpretation": "Full highest within lr_half shared configuration; margin over mean_only is small. Slow-decay skeleton score 0.5341488277268094 exceeds selected full. Report all configurations and equal-search comparisons; do not interpret selection as superiority across the search.",
+    "bundled_checkpoint": "checkpoints/ted/final.pt"
+  },
+  "tlp": {
+    "task": "tlp",
+    "selected_by": "explicit user instruction",
+    "selected_at_utc": "2026-10-09T05:12:32.434254+00:00",
+    "experiment_id": "CPSF_TLP_DIRECTIONAL_STAGE6_20261009",
+    "descriptor": "directional_xyz",
+    "arm": "full",
+    "seed": 42,
+    "training_config": {
+      "epochs": 80,
+      "batch": 1,
+      "lr": 0.001,
+      "weight_decay": 0.001,
+      "scheduler": "StepLR20 gamma .1",
+      "loss": "adaptive positive-weight BCE on upper-triangular unobserved pairs only; no self-loops, no observed edges; no candidate filtering"
+    },
+    "checkpoint": "/root/megrez-tmp/CPSF_TLP_DIRECTIONAL_STAGE6_20261009/results/tlp_directional_xyz_full/final.pt",
+    "checkpoint_sha256": "bd48ab58cc978aaff505d0373967a29cd51041409ab6397c7677dcec4e808dcf",
+    "protocol_sha256": "c8e87c9bbd278b7f734163d1a9b652cd2399892b3191ec93625de8d460d99070",
+    "metrics_path": "/root/megrez-tmp/CPSF_TLP_DIRECTIONAL_STAGE6_20261009/results/tlp_directional_xyz_full/metrics.json",
+    "metrics_sha256": "43ae5904e330a8d00a05653a3ded405d3692b4555271693e65b97ed52efd1cde",
+    "primary": "missing_edge_macro_ap",
+    "validation_score": 0.5836544882048422,
+    "test_used": false,
+    "scope": "Default for future TLP work; frozen historical runs unchanged. TED remains on its frozen training-config-only protocol.",
+    "bundled_checkpoint": "checkpoints/tlp/final.pt"
+  }
+}

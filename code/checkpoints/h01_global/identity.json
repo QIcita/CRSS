@@ -1,0 +1,14 @@
+{
+  "experiment_id": "CPSF_V26_COMPLETE_20261003",
+  "run_id": "CPSF_V26_COMPLETE_20261003/results/h01_global_fixed_residual",
+  "task": "h01_global",
+  "arm": "fixed_residual",
+  "model_role": "matched control; not gated full",
+  "hierarchy": "V24 minimum-four adapter",
+  "seed": 42,
+  "smoke": false,
+  "protocol_sha256": "f2277a33120d0a5147cba05ba2a1347b143f40fa0b491ee5d9ffe5d0c7a3f2d3",
+  "data_manifest_sha256": "8753dfee37e3fc256bd28583751b590d7b2042f34bc42025511a4915b62ec60f",
+  "source_sha256": "5944e50bf42fe70ad0f9e27c9c9156c72fee32610a82390ac7d3cff958f2b856",
+  "test_used": false
+}

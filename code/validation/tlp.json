@@ -1,0 +1,57 @@
+{
+  "task": "tlp",
+  "passed": true,
+  "device": "cpu",
+  "torch": "2.4.0+cu121",
+  "source_sha256": "f2baf78f6b36f8f11147224c9a8b6bcbd02d29b013105afb38ace3240c927e57",
+  "initialization_exact": true,
+  "strict_checkpoint_load": true,
+  "parameters": 304897,
+  "test_used": false,
+  "real_sample": {
+    "key": "x18044_y14877_z3415",
+    "path": "/root/megrez-tmp/CPSF_TLP_DIRECTIONAL_STAGE6_20261009/data/tlp/joint/x18044_y14877_z3415.pt.gz",
+    "sha256": "d7f3847cff5175931f06b7807ee30caf380f669fb9ac37f67b68b9697a42e2bf",
+    "split": "train"
+  },
+  "comparisons": [
+    {
+      "label": "synthetic",
+      "eval": {
+        "output_max_abs": 0.0,
+        "shape": [
+          3,
+          3
+        ]
+      },
+      "train": {
+        "output_max_abs": 0.0,
+        "shape": [
+          3,
+          3
+        ],
+        "gradient_max_abs": 0.0,
+        "nonzero_gradient_parameters": 60
+      }
+    },
+    {
+      "label": "real_train_cache",
+      "eval": {
+        "output_max_abs": 0.0,
+        "shape": [
+          38,
+          38
+        ]
+      },
+      "train": {
+        "output_max_abs": 0.0,
+        "shape": [
+          38,
+          38
+        ],
+        "gradient_max_abs": 0.0,
+        "nonzero_gradient_parameters": 60
+      }
+    }
+  ]
+}

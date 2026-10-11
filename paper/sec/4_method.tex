@@ -1,0 +1,82 @@
+\section{Common-Region Skeleton--Surface Encoder}
+\label{sec:method}
+
+\subsection{Weighted multiresolution geometric encoding}
+
+% SYNC-BEGIN METHOD-03
+For whole-cell inputs, a global thumbnail is combined with spatially partitioned local surface samples, following the tile/thumbnail organization used in InternVL~\cite{chen2024internvl}. The H01 empirical-point sampler chooses up to 4096 global points and 2048 points per tile, with $K=\min(32,\max(1,\lceil N/16384\rceil))$ tiles for $N$ source points. Tiles are formed by splitting along the axis of largest spatial extent. If the global sample contains $n_0$ points and tile $k$ contains $N_k$ source points with $n_k$ sampled, their weights are
+\begin{equation}
+ w_i=\begin{cases}N/(2n_0),& i\text{ in the thumbnail},\\
+ N_k/(2n_k),& i\text{ in tile }k.
+ \end{cases}
+ \label{eq:sampling_weights}
+\end{equation}
+The two views jointly retain total empirical mass $N$; repeated coordinates have their weights combined. This is a sampling-weight construction, not a claim that nonlinear network outputs are invariant to resampling. FlyWire uses its frozen surface-area sampling weights; local tasks retain their local support. The observed skeletal nodes and edges are preserved within each task's input support.
+% SYNC-END METHOD-03
+
+% SYNC-BEGIN METHOD-05
+The input embeddings use node-to-region displacement, patch-to-polyline distance and axial position, centered region coordinates, and region length. The retained scale MLP receives $(\log(1+\ell_u),\log(1+r),\log(1+\delta_0))$, where $r$ and $\delta_0=0.5$ are fixed in the retained configuration. Thus the variable scale input is primarily region length, not a learned per-tile resolution. Lengths and coordinates follow each dataset's declared unit convention; H01 and FlyWire use micrometers, while NREDD retains its native-coordinate calibration limitation. We preserve size cues rather than claim arbitrary-scale invariance. Utonia provides a related distinction between perceptual granularity and coordinates~\cite{utonia2026}.
+% SYNC-END METHOD-05
+
+\subsection{Topology-guided common-region fusion}
+
+% SYNC-BEGIN METHOD-04
+We split non-branching chains of the observed skeleton into approximately fixed-arclength regions, retaining the actual polyline pieces rather than replacing a curved region by its chord. Let $c_u$ and $\ell_u$ be the center and length of region $u$, and let $r$ be the fixed support reference. A surface patch $j$ has center $c_j$ and mass $M_j$. Its soft association is
+\begin{equation}
+ \begin{aligned}
+ a_{uj}&=\mathbf{1}[d(c_j,R_u)\leq 2r]\,
+       \exp\!\left[-\frac{d(c_j,R_u)^2}{2r^2}\right],\\
+ \pi_{uj}&=\frac{a_{uj}}{\sum_v a_{vj}},\qquad
+ A^P_{uj}=\pi_{uj}M_j .
+ \end{aligned}
+ \label{eq:incidence}
+\end{equation}
+The denominator is taken only for supported patches. A patch without skeletal support becomes a surface-only region. Skeletal weights $A^G_{ui}$ allocate the arclength of each observed segment piece to its endpoint features by linear interpolation. This defines common indices without assuming one-to-one node--patch correspondence. Related precedents include topology-guided geometry queries in FusionCell and heterogeneous-region or sub-cloud correspondence in Hg-I2P and SuP~\cite{fusioncell2026,hgi2p2026,sup2026}; here, the two inputs already share a coordinate frame.
+% SYNC-END METHOD-04
+
+% SYNC-BEGIN METHOD-06
+Separate MLP stems encode skeletal nodes and surface points; weighted first and second moments summarize each surface patch. With region-relative embeddings absorbed into $f^G_{ui}$ and $f^P_{uj}$, regional aggregation is
+\begin{equation}
+ \begin{aligned}
+ g_u&=\frac{\sum_i A^G_{ui}f^G_{ui}}
+              {\max(\epsilon,\sum_i A^G_{ui})},\\
+ p_u&=\frac{\sum_j A^P_{uj}f^P_{uj}}
+              {\max(\epsilon,\sum_j A^P_{uj})}.
+ \end{aligned}
+ \label{eq:regional_aggregation}
+\end{equation}
+Region position and length codes are then added to each available modality; we reuse $g_u,p_u$ below for these augmented features. The weights define two normalized local summaries; they do not require skeletal arclength to be numerically comparable to surface area or empirical sample mass. The aggregation is insensitive to element order when features and their incidence are permuted together, but this property alone does not establish resampling invariance of the full pipeline.
+% SYNC-END METHOD-06
+
+% SYNC-BEGIN METHOD-07
+Let $m^G_u,m^P_u\in\{0,1\}$ indicate whether the corresponding modality is present, with missing features set to zero. The fusion module produces
+\begin{equation}
+ \begin{aligned}
+ b_u&=\frac{g_u+p_u}{\max(1,m^G_u+m^P_u)},\\
+ h_u&=b_u+0.1\,m^G_um^P_u F_\theta([g_u,p_u]).
+ \end{aligned}
+ \label{eq:regional_fusion}
+\end{equation}
+Here $F_\theta$ is a learned two-layer MLP. The coefficient is fixed, but its output magnitude is not bounded to 10\% of $b_u$. The standard residual form is an implementation choice: the architectural change is that $h_u$ represents two corresponding local supports before contextual propagation. The \texttt{mean\_only} control removes $F_\theta$ while retaining the common-region pathway.
+% SYNC-END METHOD-07
+
+\subsection{Context, readout, and supervision}
+
+% SYNC-BEGIN METHOD-08
+Regions adjacent along an observed chain or meeting at a junction form a region graph. Two message-passing steps exchange local evidence. Weighted pooling then forms coarse region tokens; spatial attention with three-axis RoPE updates these tokens and writes context back to the fine regions. The pooling mass is
+\begin{equation}
+ \omega_u=\frac{M^G_u}{\max(\epsilon,\sum_v M^G_v)}
+          +\frac{M^P_u}{\max(\epsilon,\sum_v M^P_v)},
+ \label{eq:context_mass}
+\end{equation}
+where $M^G_u=\sum_i A^G_{ui}$ and $M^P_u=\sum_j A^P_{uj}$. Normalizing each modality before addition keeps the context weights dimensionless. Message passing, attention, and RoPE propagate the already fused regional evidence; LitePT and MSPT provide related precedents for three-dimensional rotary encoding and local/coarse context, respectively~\cite{litept2026,mspt2026}.
+% SYNC-END METHOD-08
+
+% SYNC-BEGIN METHOD-09
+Local readout aggregates regions near a query; whole-cell readout uses the regional weights; node-pair readout combines endpoint and corridor-region evidence. Each task trains its own instance of this architectural design with its task loss. There is no new fusion-specific loss, pretraining objective, or alternating optimization procedure. The retained implementations keep the H01/NREDD hierarchy repair, the frozen FlyWire hierarchy, and the TLP directional descriptor and pair readout as documented task adaptations.
+% SYNC-END METHOD-09
+
+% SYNC-BEGIN METHOD-10
+The two changes target different decisions. Equal-point-budget sampling tests the spatial allocation of the input. Regional averaging and independent-stream controls test the placement and learning of fusion; within-cell surface-content shuffling tests correspondence. Removing coarse context tests propagation beyond a region. These controls provide empirical evidence for the coupled design, not a proof that its constituent operations are independently optimal or that the complete model is invariant to density and scale changes.
+% SYNC-END METHOD-10
+

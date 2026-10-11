@@ -1,0 +1,145 @@
+[
+  {
+    "title": "2D3D-MATR: 2D-3D Matching Transformer for Detection-Free Registration Between Images and Point Clouds",
+    "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Li_2D3D-MATR_2D-3D_Matching_Transformer_for_Detection-Free_Registration_Between_Images_and_ICCV_2023_paper.html",
+    "id": "matr2023",
+    "bibtex": "@InProceedings{matr2023,\n    author    = {Li, Minhao and Qin, Zheng and Gao, Zhirui and Yi, Renjiao and Zhu, Chenyang and Guo, Yulan and Xu, Kai},\n    title     = {2D3D-MATR: 2D-3D Matching Transformer for Detection-Free Registration Between Images and Point Clouds},\n    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},\n    month     = {October},\n    year      = {2023},\n    pages     = {14128-14138}\n}",
+    "abstract": "The commonly adopted detect-then-match approach to registration finds difficulties in the cross-modality cases due to the incompatible keypoint detection and inconsistent feature description. We propose, 2D3D-MATR, a detection-free method for accurate and robust registration between images and point clouds. Our method adopts a coarse-to-fine pipeline where it first computes coarse correspondences between downsampled patches of the input image and the point cloud and then extends them to form dense correspondences between pixels and points within the patch region. The coarse-level patch matching is based on transformer which jointly learns global contextual constraints with self-attention and cross-modality correlations with cross-attention. To resolve the scale ambiguity in patch matching, we construct a multi-scale pyramid for each image patch and learn to find for each point patch the best matching image patch at a proper resolution level. Extensive experiments on two public benchmarks demonstrate that 2D3D-MATR outperforms the previous state-of-the-art P2-Net by around 20 percentage points on inlier ratio and over 10 points on registration recall. Our code and models will be publicly released.",
+    "year": 2023,
+    "venue": "ICCV",
+    "reading_level": "official proceedings abstract",
+    "official_source": "https://openaccess.thecvf.com/content/ICCV2023/html/Li_2D3D-MATR_2D-3D_Matching_Transformer_for_Detection-Free_Registration_Between_Images_and_ICCV_2023_paper.html"
+  },
+  {
+    "title": "Efficient 3D Semantic Segmentation with Superpoint Transformer",
+    "url": "https://openaccess.thecvf.com/content/ICCV2023/html/Robert_Efficient_3D_Semantic_Segmentation_with_Superpoint_Transformer_ICCV_2023_paper.html",
+    "id": "spt2023",
+    "bibtex": "@InProceedings{spt2023,\n    author    = {Robert, Damien and Raguet, Hugo and Landrieu, Loic},\n    title     = {Efficient 3D Semantic Segmentation with Superpoint Transformer},\n    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},\n    month     = {October},\n    year      = {2023},\n    pages     = {17195-17204}\n}",
+    "abstract": "We introduce a novel superpoint-based transformer architecture for efficient semantic segmentation of large-scale 3D scenes. Our method incorporates a fast algorithm to partition point clouds into a hierarchical superpoint structure, which makes our preprocessing 7 times faster than existing superpoint-based approaches. Additionally, we leverage a self-attention mechanism to capture the relationships between superpoints at multiple scales, leading to state-of-the-art performance on three challenging benchmark datasets: S3DIS (76.0% mIoU 6-fold validation), KITTI-360 (63.5% on Val), and DALES (79.6%). With only 212k parameters, our approach is up to 200 times more compact than other state-of-the-art models while maintaining similar performance. Furthermore, our model can be trained on a single GPU in 3 hours for a fold of the S3DIS dataset, which is 7x to 70x fewer GPU-hours than the best-performing methods. Our code and models are accessible at github.com/drprojects/superpoint_transformer.",
+    "year": 2023,
+    "venue": "ICCV",
+    "reading_level": "official proceedings abstract",
+    "official_source": "https://openaccess.thecvf.com/content/ICCV2023/html/Robert_Efficient_3D_Semantic_Segmentation_with_Superpoint_Transformer_ICCV_2023_paper.html"
+  },
+  {
+    "title": "Sonata: Self-Supervised Learning of Reliable Point Representations",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Wu_Sonata_Self-Supervised_Learning_of_Reliable_Point_Representations_CVPR_2025_paper.html",
+    "id": "sonata2025",
+    "bibtex": "@InProceedings{sonata2025,\n    author    = {Wu, Xiaoyang and DeTone, Daniel and Frost, Duncan and Shen, Tianwei and Xie, Chris and Yang, Nan and Engel, Jakob and Newcombe, Richard and Zhao, Hengshuang and Straub, Julian},\n    title     = {Sonata: Self-Supervised Learning of Reliable Point Representations},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2025},\n    pages     = {22193-22204}\n}",
+    "abstract": "In this paper, we question whether we have a reliable self-supervised point cloud model that can be used for diverse 3D tasks via simple linear probing, even with limited data and minimal computation. We find that existing 3D self-supervised learning approaches fall short when evaluated on representation quality through linear probing. We hypothesize that this is due to what we term the \"geometric shortcut\", which causes representations to collapse to low-level spatial features. This challenge is unique to 3D and arises from the sparse nature of point cloud data. We address it through two key strategies: obscuring spatial information and enhancing the reliance on input features, ultimately composing a Sonata of 140k point clouds through self-distillation. Sonata is simple and intuitive, yet its learned representations are strong and reliable: zero-shot visualizations demonstrate semantic grouping, alongside strong spatial reasoning through nearest-neighbor relationships. Sonata demonstrates exceptional parameter and data efficiency, tripling linear probing accuracy (from 21.8% to 72.5%) on ScanNet and nearly doubling performance with only 1% of the data compared to previous approaches. Full fine-tuning further advances SOTA across both 3D indoor and outdoor perception tasks.",
+    "year": 2025,
+    "venue": "CVPR",
+    "reading_level": "official proceedings abstract",
+    "official_source": "https://openaccess.thecvf.com/content/CVPR2025/html/Wu_Sonata_Self-Supervised_Learning_of_Reliable_Point_Representations_CVPR_2025_paper.html"
+  },
+  {
+    "title": "Flash3D: Super-scaling Point Transformers through Joint Hardware-Geometry Locality",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Chen_Flash3D_Super-scaling_Point_Transformers_through_Joint_Hardware-Geometry_Locality_CVPR_2025_paper.html",
+    "id": "flash3d2025",
+    "bibtex": "@InProceedings{flash3d2025,\n    author    = {Chen, Liyan and Meyer, Gregory P. and Zhang, Zaiwei and Wolff, Eric M. and Vernaza, Paul},\n    title     = {Flash3D: Super-scaling Point Transformers through Joint Hardware-Geometry Locality},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2025},\n    pages     = {6595-6604}\n}",
+    "abstract": "Recent efforts recognize the power of scale in 3D learning (e.g. PTv3) and attention mechanisms (e.g. FlashAttention).However, current point cloud backbones fail to holistically unify geometric locality, attention mechanisms, and GPU architectures in one view.In this paper, we introduce Flash3D Transformer, which aligns geometric locality and GPU tiling through a principled locality mechanism based on Perfect Spatial Hashing (PSH).The common alignment with GPU tiling naturally fuses our PSH locality mechanism with FlashAttention at negligible extra cost.This mechanism affords flexible design choices throughout the backbone that result in superior downstream task results.Flash3D outperforms state-of-the-art PTv3 results on benchmark datasets, delivering a 2.25x speed increase and 2.4x memory efficiency boost. This efficiency enables scaling to wider attention scopes and larger models without additional overhead.Such scaling allows Flash3D to achieve even higher task accuracies than PTv3 under the same compute budget.",
+    "year": 2025,
+    "venue": "CVPR",
+    "reading_level": "official proceedings abstract",
+    "official_source": "https://openaccess.thecvf.com/content/CVPR2025/html/Chen_Flash3D_Super-scaling_Point_Transformers_through_Joint_Hardware-Geometry_Locality_CVPR_2025_paper.html"
+  },
+  {
+    "title": "KPConvX: Modernizing Kernel Point Convolution with Kernel Attention",
+    "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Thomas_KPConvX_Modernizing_Kernel_Point_Convolution_with_Kernel_Attention_CVPR_2024_paper.html",
+    "id": "kpconvx2024",
+    "bibtex": "@InProceedings{kpconvx2024,\n    author    = {Thomas, Hugues and Tsai, Yao-Hung Hubert and Barfoot, Timothy D. and Zhang, Jian},\n    title     = {KPConvX: Modernizing Kernel Point Convolution with Kernel Attention},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2024},\n    pages     = {5525-5535}\n}",
+    "abstract": "In the field of deep point cloud understanding KPConv is a unique architecture that uses kernel points to locate convolutional weights in space instead of relying on Multi-Layer Perceptron (MLP) encodings. While it initially achieved success it has since been surpassed by recent MLP networks that employ updated designs and training strategies. Building upon the kernel point principle we present two novel designs: KPConvD (depthwise KPConv) a lighter design that enables the use of deeper architectures and KPConvX an innovative design that scales the depthwise convolutional weights of KPConvD with kernel attention values. Using KPConvX with a modern architecture and training strategy we are able to outperform current state-of-the-art approaches on the ScanObjectNN Scannetv2 and S3DIS datasets. We validate our design choices through ablation studies and release our code and models.",
+    "year": 2024,
+    "venue": "CVPR",
+    "reading_level": "official proceedings abstract",
+    "official_source": "https://openaccess.thecvf.com/content/CVPR2024/html/Thomas_KPConvX_Modernizing_Kernel_Point_Convolution_with_Kernel_Attention_CVPR_2024_paper.html"
+  },
+  {
+    "title": "Point Transformer V3: Simpler Faster Stronger",
+    "url": "https://openaccess.thecvf.com/content/CVPR2024/html/Wu_Point_Transformer_V3_Simpler_Faster_Stronger_CVPR_2024_paper.html",
+    "id": "ptv32024",
+    "bibtex": "@InProceedings{ptv32024,\n    author    = {Wu, Xiaoyang and Jiang, Li and Wang, Peng-Shuai and Liu, Zhijian and Liu, Xihui and Qiao, Yu and Ouyang, Wanli and He, Tong and Zhao, Hengshuang},\n    title     = {Point Transformer V3: Simpler Faster Stronger},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2024},\n    pages     = {4840-4851}\n}",
+    "abstract": "This paper is not motivated to seek innovation within the attention mechanism. Instead it focuses on overcoming the existing trade-offs between accuracy and efficiency within the context of point cloud processing leveraging the power of scale. Drawing inspiration from recent advances in 3D large-scale representation learning we recognize that model performance is more influenced by scale than by intricate design. Therefore we present Point Transformer V3 (PTv3) which prioritizes simplicity and efficiency over the accuracy of certain mechanisms that are minor to the overall performance after scaling such as replacing the precise neighbor search by KNN with an efficient serialized neighbor mapping of point clouds organized with specific patterns. This principle enables significant scaling expanding the receptive field from 16 to 1024 points while remaining efficient (a 3x increase in processing speed and a 10x improvement in memory efficiency compared with its predecessor PTv2). PTv3 attains state-of-the-art results on over 20 downstream tasks that span both indoor and outdoor scenarios. Further enhanced with multi-dataset joint training PTv3 pushes these results to a higher level.",
+    "year": 2024,
+    "venue": "CVPR",
+    "reading_level": "official proceedings abstract",
+    "official_source": "https://openaccess.thecvf.com/content/CVPR2024/html/Wu_Point_Transformer_V3_Simpler_Faster_Stronger_CVPR_2024_paper.html"
+  },
+  {
+    "title": "GeoMAE: Masked Geometric Target Prediction for Self-Supervised Point Cloud Pre-Training",
+    "url": "https://openaccess.thecvf.com/content/CVPR2023/html/Tian_GeoMAE_Masked_Geometric_Target_Prediction_for_Self-Supervised_Point_Cloud_Pre-Training_CVPR_2023_paper.html",
+    "id": "geomae2023",
+    "bibtex": "@InProceedings{geomae2023,\n    author    = {Tian, Xiaoyu and Ran, Haoxi and Wang, Yue and Zhao, Hang},\n    title     = {GeoMAE: Masked Geometric Target Prediction for Self-Supervised Point Cloud Pre-Training},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2023},\n    pages     = {13570-13580}\n}",
+    "abstract": "This paper tries to address a fundamental question in point cloud self-supervised learning: what is a good signal we should leverage to learn features from point clouds without annotations? To answer that, we introduce a point cloud representation learning framework, based on geometric feature reconstruction. In contrast to recent papers that directly adopt masked autoencoder (MAE) and only predict original coordinates or occupancy from masked point clouds, our method revisits differences between images and point clouds and identifies three self-supervised learning objectives peculiar to point clouds, namely centroid prediction, normal estimation, and curvature prediction. Combined, these three objectives yield an nontrivial self-supervised learning task and mutually facilitate models to better reason fine-grained geometry of point clouds. Our pipeline is conceptually simple and it consists of two major steps: first, it randomly masks out groups of points, followed by a Transformer-based point cloud encoder; second, a lightweight Transformer decoder predicts centroid, normal, and curvature for points in each voxel. We transfer the pre-trained Transformer encoder to a downstream peception model. On the nuScene Datset, our model achieves 3.38 mAP improvment for object detection, 2.1 mIoU gain for segmentation, and 1.7 AMOTA gain for multi-object tracking. We also conduct experiments on the Waymo Open Dataset and achieve significant performance improvements over baselines as well.",
+    "year": 2023,
+    "venue": "CVPR",
+    "reading_level": "official proceedings abstract",
+    "official_source": "https://openaccess.thecvf.com/content/CVPR2023/html/Tian_GeoMAE_Masked_Geometric_Target_Prediction_for_Self-Supervised_Point_Cloud_Pre-Training_CVPR_2023_paper.html"
+  },
+  {
+    "title": "Rotation-Invariant Transformer for Point Cloud Matching",
+    "url": "https://openaccess.thecvf.com/content/CVPR2023/html/Yu_Rotation-Invariant_Transformer_for_Point_Cloud_Matching_CVPR_2023_paper.html",
+    "id": "roitr2023",
+    "bibtex": "@InProceedings{roitr2023,\n    author    = {Yu, Hao and Qin, Zheng and Hou, Ji and Saleh, Mahdi and Li, Dongsheng and Busam, Benjamin and Ilic, Slobodan},\n    title     = {Rotation-Invariant Transformer for Point Cloud Matching},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2023},\n    pages     = {5384-5393}\n}",
+    "abstract": "The intrinsic rotation invariance lies at the core of matching point clouds with handcrafted descriptors. However, it is widely despised by recent deep matchers that obtain the rotation invariance extrinsically via data augmentation. As the finite number of augmented rotations can never span the continuous SO(3) space, these methods usually show instability when facing rotations that are rarely seen. To this end, we introduce RoITr, a Rotation-Invariant Transformer to cope with the pose variations in the point cloud matching task. We contribute both on the local and global levels. Starting from the local level, we introduce an attention mechanism embedded with Point Pair Feature (PPF)-based coordinates to describe the pose-invariant geometry, upon which a novel attention-based encoder-decoder architecture is constructed. We further propose a global transformer with rotation-invariant cross-frame spatial awareness learned by the self-attention mechanism, which significantly improves the feature distinctiveness and makes the model robust with respect to the low overlap. Experiments are conducted on both the rigid and non-rigid public benchmarks, where RoITr outperforms all the state-of-the-art models by a considerable margin in the low-overlapping scenarios. Especially when the rotations are enlarged on the challenging 3DLoMatch benchmark, RoITr surpasses the existing methods by at least 13 and 5 percentage points in terms of Inlier Ratio and Registration Recall, respectively.",
+    "year": 2023,
+    "venue": "CVPR",
+    "reading_level": "official proceedings abstract",
+    "official_source": "https://openaccess.thecvf.com/content/CVPR2023/html/Yu_Rotation-Invariant_Transformer_for_Point_Cloud_Matching_CVPR_2023_paper.html"
+  },
+  {
+    "title": "PEAL: Prior-Embedded Explicit Attention Learning for Low-Overlap Point Cloud Registration",
+    "url": "https://openaccess.thecvf.com/content/CVPR2023/html/Yu_PEAL_Prior-Embedded_Explicit_Attention_Learning_for_Low-Overlap_Point_Cloud_Registration_CVPR_2023_paper.html",
+    "id": "peal2023",
+    "bibtex": "@InProceedings{peal2023,\n    author    = {Yu, Junle and Ren, Luwei and Zhang, Yu and Zhou, Wenhui and Lin, Lili and Dai, Guojun},\n    title     = {PEAL: Prior-Embedded Explicit Attention Learning for Low-Overlap Point Cloud Registration},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2023},\n    pages     = {17702-17711}\n}",
+    "abstract": "Learning distinctive point-wise features is critical for low-overlap point cloud registration. Recently, it has achieved huge success in incorporating Transformer into point cloud feature representation, which usually adopts a self-attention module to learn intra-point-cloud features first, then utilizes a cross-attention module to perform feature exchange between input point clouds. Self-attention is computed by capturing the global dependency in geometric space. However, this global dependency can be ambiguous and lacks distinctiveness, especially in indoor low-overlap scenarios, as which the dependence with an extensive range of non-overlapping points introduces ambiguity. To address this issue, we present PEAL, a Prior-embedded Explicit Attention Learning model. By incorporating prior knowledge into the learning process, the points are divided into two parts. One includes points lying in the putative overlapping region and the other includes points lying in the putative non-overlapping region. Then PEAL explicitly learns one-way attention with the putative overlapping points. This simplistic design attains surprising performance, significantly relieving the aforementioned feature ambiguity. Our method improves the Registration Recall by 6+% on the challenging 3DLoMatch benchmark and achieves state-of-the-art performance on Feature Matching Recall, Inlier Ratio, and Registration Recall on both 3DMatch and 3DLoMatch. Code will be made publicly available.",
+    "year": 2023,
+    "venue": "CVPR",
+    "reading_level": "official proceedings abstract",
+    "official_source": "https://openaccess.thecvf.com/content/CVPR2023/html/Yu_PEAL_Prior-Embedded_Explicit_Attention_Learning_for_Low-Overlap_Point_Cloud_Registration_CVPR_2023_paper.html"
+  },
+  {
+    "title": "Meta Architecture for Point Cloud Analysis",
+    "url": "https://openaccess.thecvf.com/content/CVPR2023/html/Lin_Meta_Architecture_for_Point_Cloud_Analysis_CVPR_2023_paper.html",
+    "id": "pointmeta2023",
+    "bibtex": "@InProceedings{pointmeta2023,\n    author    = {Lin, Haojia and Zheng, Xiawu and Li, Lijiang and Chao, Fei and Wang, Shanshan and Wang, Yan and Tian, Yonghong and Ji, Rongrong},\n    title     = {Meta Architecture for Point Cloud Analysis},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2023},\n    pages     = {17682-17691}\n}",
+    "abstract": "Recent advances in 3D point cloud analysis bring a diverse set of network architectures to the field. However, the lack of a unified framework to interpret those networks makes any systematic comparison, contrast, or analysis challenging, and practically limits healthy development of the field. In this paper, we take the initiative to explore and propose a unified framework called PointMeta, to which the popular 3D point cloud analysis approaches could fit. This brings three benefits. First, it allows us to compare different approaches in a fair manner, and use quick experiments to verify any empirical observations or assumptions summarized from the comparison. Second, the big picture brought by PointMeta enables us to think across different components, and revisit common beliefs and key design decisions made by the popular approaches. Third, based on the learnings from the previous two analyses, by doing simple tweaks on the existing approaches, we are able to derive a basic building block, termed PointMetaBase. It shows very strong performance in efficiency and effectiveness through extensive experiments on challenging benchmarks, and thus verifies the necessity and benefits of high-level interpretation, contrast, and comparison like PointMeta. In particular, PointMetaBase surpasses the previous state-of-the-art method by 0.7%/1.4/%2.1% mIoU with only 2%/11%/13% of the computation cost on the S3DIS datasets. Codes are available in the supplementary materials.",
+    "year": 2023,
+    "venue": "CVPR",
+    "reading_level": "official proceedings abstract",
+    "official_source": "https://openaccess.thecvf.com/content/CVPR2023/html/Lin_Meta_Architecture_for_Point_Cloud_Analysis_CVPR_2023_paper.html"
+  },
+  {
+    "title": "PointVector: A Vector Representation in Point Cloud Analysis",
+    "url": "https://openaccess.thecvf.com/content/CVPR2023/html/Deng_PointVector_A_Vector_Representation_in_Point_Cloud_Analysis_CVPR_2023_paper.html",
+    "id": "pointvector2023",
+    "bibtex": "@InProceedings{pointvector2023,\n    author    = {Deng, Xin and Zhang, WenYu and Ding, Qing and Zhang, XinMing},\n    title     = {PointVector: A Vector Representation in Point Cloud Analysis},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2023},\n    pages     = {9455-9465}\n}",
+    "abstract": "In point cloud analysis, point-based methods have rapidly developed in recent years. These methods have recently focused on concise MLP structures, such as PointNeXt, which have demonstrated competitiveness with Convolutional and Transformer structures. However, standard MLPs are limited in their ability to extract local features effectively. To address this limitation, we propose a Vector-oriented Point Set Abstraction that can aggregate neighboring features through higher-dimensional vectors. To facilitate network optimization, we construct a transformation from scalar to vector using independent angles based on 3D vector rotations. Finally, we develop a PointVector model that follows the structure of PointNeXt. Our experimental results demonstrate that PointVector achieves state-of-the-art performance 72.3% mIOU on the S3DIS Area 5 and 78.4% mIOU on the S3DIS (6-fold cross-validation) with only 58% model parameters of PointNeXt. We hope our work will help the exploration of concise and effective feature representations. The code will be released soon.",
+    "year": 2023,
+    "venue": "CVPR",
+    "reading_level": "official proceedings abstract",
+    "official_source": "https://openaccess.thecvf.com/content/CVPR2023/html/Deng_PointVector_A_Vector_Representation_in_Point_Cloud_Analysis_CVPR_2023_paper.html"
+  },
+  {
+    "title": "PiMAE: Point Cloud and Image Interactive Masked Autoencoders for 3D Object Detection",
+    "url": "https://openaccess.thecvf.com/content/CVPR2023/html/Chen_PiMAE_Point_Cloud_and_Image_Interactive_Masked_Autoencoders_for_3D_CVPR_2023_paper.html",
+    "id": "pimae2023",
+    "bibtex": "@InProceedings{pimae2023,\n    author    = {Chen, Anthony and Zhang, Kevin and Zhang, Renrui and Wang, Zihan and Lu, Yuheng and Guo, Yandong and Zhang, Shanghang},\n    title     = {PiMAE: Point Cloud and Image Interactive Masked Autoencoders for 3D Object Detection},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2023},\n    pages     = {5291-5301}\n}",
+    "abstract": "Masked Autoencoders learn strong visual representations and achieve state-of-the-art results in several independent modalities, yet very few works have addressed their capabilities in multi-modality settings. In this work, we focus on point cloud and RGB image data, two modalities that are often presented together in the real world and explore their meaningful interactions. To improve upon the cross-modal synergy in existing works, we propose PiMAE, a self-supervised pre-training framework that promotes 3D and 2D interaction through three aspects. Specifically, we first notice the importance of masking strategies between the two sources and utilize a projection module to complementarily align the mask and visible tokens of the two modalities. Then, we utilize a well-crafted two-branch MAE pipeline with a novel shared decoder to promote cross-modality interaction in the mask tokens. Finally, we design a unique cross-modal reconstruction module to enhance representation learning for both modalities. Through extensive experiments performed on large-scale RGB-D scene understanding benchmarks (SUN RGB-D and ScannetV2), we discover it is nontrivial to interactively learn point-image features, where we greatly improve multiple 3D detectors, 2D detectors and few-shot classifiers by 2.9%, 6.7%, and 2.4%, respectively. Code is available at https://github.com/BLVLab/PiMAE.",
+    "year": 2023,
+    "venue": "CVPR",
+    "reading_level": "official proceedings abstract",
+    "official_source": "https://openaccess.thecvf.com/content/CVPR2023/html/Chen_PiMAE_Point_Cloud_and_Image_Interactive_Masked_Autoencoders_for_3D_CVPR_2023_paper.html"
+  },
+  {
+    "title": "Attention-Based Point Cloud Edge Sampling",
+    "url": "https://openaccess.thecvf.com/content/CVPR2023/html/Wu_Attention-Based_Point_Cloud_Edge_Sampling_CVPR_2023_paper.html",
+    "id": "apes2023",
+    "bibtex": "@InProceedings{apes2023,\n    author    = {Wu, Chengzhi and Zheng, Junwei and Pfrommer, Julius and Beyerer, J\\\"urgen},\n    title     = {Attention-Based Point Cloud Edge Sampling},\n    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},\n    month     = {June},\n    year      = {2023},\n    pages     = {5333-5343}\n}",
+    "abstract": "Point cloud sampling is a less explored research topic for this data representation. The most commonly used sampling methods are still classical random sampling and farthest point sampling. With the development of neural networks, various methods have been proposed to sample point clouds in a task-based learning manner. However, these methods are mostly generative-based, rather than selecting points directly using mathematical statistics. Inspired by the Canny edge detection algorithm for images and with the help of the attention mechanism, this paper proposes a non-generative Attention-based Point cloud Edge Sampling method (APES), which captures salient points in the point cloud outline. Both qualitative and quantitative experimental results show the superior performance of our sampling method on common benchmark tasks.",
+    "year": 2023,
+    "venue": "CVPR",
+    "reading_level": "official proceedings abstract",
+    "official_source": "https://openaccess.thecvf.com/content/CVPR2023/html/Wu_Attention-Based_Point_Cloud_Edge_Sampling_CVPR_2023_paper.html"
+  }
+]

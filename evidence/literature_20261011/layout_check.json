@@ -1,0 +1,12 @@
+{
+  "section_start_pages": {
+    "intro": 1,
+    "related": 2,
+    "prelim": 2,
+    "method": 3
+  },
+  "frontmatter_finishes_within_first_three_pages": true,
+  "original_cvpr_fonts_and_margins": true,
+  "pdf_pages": 6,
+  "compile_success": true
+}

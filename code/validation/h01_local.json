@@ -1,0 +1,58 @@
+{
+  "task": "h01_local",
+  "passed": true,
+  "device": "cpu",
+  "torch": "2.4.0+cu121",
+  "source_sha256": "f2baf78f6b36f8f11147224c9a8b6bcbd02d29b013105afb38ace3240c927e57",
+  "initialization_exact": true,
+  "strict_checkpoint_load": true,
+  "parameters": 255875,
+  "test_used": false,
+  "real_sample": {
+    "key": "4932057570_axon_03",
+    "path": "/root/megrez-tmp/CPSF_V22_SHARED_REGION_20260930/cache/local/joint/4932057570_axon_03.pt",
+    "sha256": "27519cbdd0a830d44dc921c3b17f60a6f5ddddb1282988fc89a1a190b145b6a2",
+    "split": "train"
+  },
+  "comparisons": [
+    {
+      "label": "synthetic",
+      "eval": {
+        "output_max_abs": 0.0,
+        "shape": [
+          3
+        ]
+      },
+      "train": {
+        "output_max_abs": 0.0,
+        "shape": [
+          3
+        ],
+        "gradient_max_abs": 0.0,
+        "nonzero_gradient_parameters": 58
+      }
+    },
+    {
+      "label": "real_train_cache",
+      "eval": {
+        "output_max_abs": 0.0,
+        "shape": [
+          3
+        ]
+      },
+      "train": {
+        "output_max_abs": 0.0,
+        "shape": [
+          3
+        ],
+        "gradient_max_abs": 0.0,
+        "nonzero_gradient_parameters": 58
+      }
+    },
+    {
+      "label": "historical_fixed_residual_checkpoint",
+      "output_max_abs": 0.0,
+      "removed_only_unused_zero_gate_tensors": true
+    }
+  ]
+}

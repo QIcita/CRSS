@@ -1,0 +1,118 @@
+[
+  {
+    "source": "snapshots/h01_flywire/tools/cpsf_v21_segment_units/model.py",
+    "sha256": "1293e8f12cc2b69f0e54e1922e68151b167b5037cfe21188aeab43a4778375e5",
+    "symbols": {
+      "add": "add",
+      "mlp": "mlp",
+      "rotary": "rotary"
+    }
+  },
+  {
+    "source": "snapshots/h01_flywire/tools/cpsf_v22_shared_region/model.py",
+    "sha256": "910d9c1a0ddcab6fc69896f98a8cf205f670bbe53616b2d836995db62cbf971d",
+    "symbols": {
+      "D": "cpsf_v22_shared_region_D",
+      "ARMS": "cpsf_v22_shared_region_ARMS",
+      "Processor": "RegionProcessor",
+      "Model": "RegionEncoder",
+      "mlp": "mlp",
+      "add": "add",
+      "rotary": "rotary"
+    }
+  },
+  {
+    "source": "snapshots/h01_flywire/tools/cpsf_v23_residual_region/model.py",
+    "sha256": "bd3e682f595d74192b36417778c3267ff6effec2b1325365f1cb8397726640b7",
+    "symbols": {
+      "ARMS": "cpsf_v23_residual_region_ARMS",
+      "Model": "ResidualRegionEncoder",
+      "V22Model": "RegionEncoder"
+    }
+  },
+  {
+    "source": "snapshots/h01_flywire/tools/cpsf_v23_scale_ablation/model.py",
+    "sha256": "7179d81fbfa3b132cef7948d180db0c7838001cd22475d78459a22315ca288d7",
+    "symbols": {
+      "ARMS": "cpsf_v23_scale_ablation_ARMS",
+      "ENCODING_ARMS": "cpsf_v23_scale_ablation_ENCODING_ARMS",
+      "RESOLUTION_ARMS": "cpsf_v23_scale_ablation_RESOLUTION_ARMS",
+      "JOBS": "cpsf_v23_scale_ablation_JOBS",
+      "Processor": "PositionProcessor",
+      "Model": "ScaleAwareEncoder",
+      "add": "add",
+      "rotary": "rotary",
+      "BaseProcessor": "RegionProcessor",
+      "D": "cpsf_v22_shared_region_D",
+      "BaseModel": "ResidualRegionEncoder"
+    }
+  },
+  {
+    "source": "snapshots/h01_flywire/tools/cpsf_flywire_v23/model.py",
+    "sha256": "d9baa4c88a61a1ba5f8befead937bb801acb2e02243dc672751b95f4b5547c8e",
+    "symbols": {
+      "ARMS": "cpsf_flywire_v23_ARMS",
+      "VARIANTS": "cpsf_flywire_v23_VARIANTS",
+      "variant": "cpsf_flywire_v23_variant",
+      "Model": "FlyWireEncoder",
+      "add": "add",
+      "Encoder": "ScaleAwareEncoder"
+    }
+  },
+  {
+    "source": "snapshots/h01_flywire/tools/cpsf_fixed_core/model.py",
+    "sha256": "2b7fac89e211984e974b9feea46f27a71f40299c025ad31a7d00d52148bcf07a",
+    "symbols": {
+      "Processor": "ContextProcessor",
+      "FixedCore": "FixedCoreMixin",
+      "H01Model": "FixedH01Model",
+      "FlyModel": "FixedFlyWireModel",
+      "Model": "FixedCoreModel",
+      "add": "add",
+      "H01Base": "ScaleAwareEncoder",
+      "BaseProcessor": "PositionProcessor",
+      "FlyBase": "FlyWireEncoder"
+    }
+  },
+  {
+    "source": "snapshots/ted/tools/cpsf_fixed_nredd/model.py",
+    "sha256": "a5cec6caeaab84d44b1158984a40216a67ffeb4b709afdae7625e0843d09e2fe",
+    "symbols": {
+      "Model": "NreddModel",
+      "H01Model": "FixedH01Model"
+    }
+  },
+  {
+    "source": "snapshots/ted/tools/cpsf_pair_region/model.py",
+    "sha256": "e742d8201bdc05e62b6cb312dcab1722796edf6e5fe0f769466f10bbd52ba776",
+    "symbols": {
+      "Model": "PairRegionModel",
+      "Base": "NreddModel"
+    }
+  },
+  {
+    "source": "snapshots/ted/tools/cpsf_point_geometry/model.py",
+    "sha256": "8b5566952f52babd7596d1e8b4e0fbfa22ac265f128ef18c640465523ccae49a",
+    "symbols": {
+      "Model": "NeighborhoodModel",
+      "Base": "PairRegionModel"
+    }
+  },
+  {
+    "source": "snapshots/ted/tools/cpsf_deterministic/model.py",
+    "sha256": "002187e942825f588039a0b726717039cace578d2e61c28c5804ffaecdfa7384",
+    "symbols": {
+      "weighted_region_sum": "cpsf_deterministic_weighted_region_sum",
+      "Model": "DeterministicModel",
+      "Base": "NeighborhoodModel"
+    }
+  },
+  {
+    "source": "snapshots/tlp/tools/cpsf_directional/model.py",
+    "sha256": "9c18e245aa93f9a84582950092ff685245328899c766fdd9d16f34b196fd43f7",
+    "symbols": {
+      "Model": "DirectionalModel",
+      "Base": "DeterministicModel"
+    }
+  }
+]

@@ -1,0 +1,70 @@
+{
+  "task": "flywire_coarse",
+  "passed": true,
+  "device": "cpu",
+  "torch": "2.4.0+cu121",
+  "source_sha256": "f2baf78f6b36f8f11147224c9a8b6bcbd02d29b013105afb38ace3240c927e57",
+  "initialization_exact": true,
+  "strict_checkpoint_load": true,
+  "parameters": 256262,
+  "test_used": false,
+  "real_sample": {
+    "key": "720575940625039557",
+    "path": "/root/megrez-tmp/CPSF_FLYWIRE_V23_20261001/cache/joint/720575940625039557.pt.gz",
+    "sha256": "863481d98d47d8b52783811b2d86d3e20b7fbb0e117b3bbaf41c8783fc9db0fb",
+    "split": "train"
+  },
+  "comparisons": [
+    {
+      "label": "synthetic",
+      "eval": {
+        "output_max_abs": 0.0,
+        "shape": [
+          6
+        ]
+      },
+      "train": {
+        "output_max_abs": 0.0,
+        "shape": [
+          6
+        ],
+        "gradient_max_abs": 0.0,
+        "nonzero_gradient_parameters": 58
+      }
+    },
+    {
+      "label": "chunked_surface",
+      "eval": {
+        "output_max_abs": 0.0,
+        "shape": [
+          6
+        ]
+      },
+      "train": {
+        "output_max_abs": 0.0,
+        "shape": [
+          6
+        ],
+        "gradient_max_abs": 0.0,
+        "nonzero_gradient_parameters": 58
+      }
+    },
+    {
+      "label": "real_train_cache",
+      "eval": {
+        "output_max_abs": 0.0,
+        "shape": [
+          6
+        ]
+      },
+      "train": {
+        "output_max_abs": 0.0,
+        "shape": [
+          6
+        ],
+        "gradient_max_abs": 0.0,
+        "nonzero_gradient_parameters": 58
+      }
+    }
+  ]
+}
