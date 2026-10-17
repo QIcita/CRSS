@@ -1,0 +1,15 @@
+{
+  "version": "CPSF_R9_TASK_EXPANSION_20261017_A2",
+  "architecture_version": "CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1",
+  "task": "flywire_coarse",
+  "kind": "patch_rms_010",
+  "seed": 42,
+  "protocol_sha256": "02e2464ac61a748da4930b809755e6f94c4d945dba52d022a7061c6d96a603bd",
+  "manifest_sha256": "7c78c592f8c5fc25c7a14e2641ac77b413ba0f1f84a6d017a1d8c2ee46edc47c",
+  "initial_state_sha256": "a9f459441585d04e061e94c1f6361babc9d2fc1976f20f91d3849168e1bc445f",
+  "pretrained": false,
+  "test_used": false,
+  "selection": "fixed final epoch",
+  "adapter": "Original R9 Integration/NativePoint unchanged. FlyModel six-class head; TLP retained directional XYZ and deterministic corridor pair readout. All scratch seed42. No new interaction modules.",
+  "runtime_policy_sha256": "7b19e46ed2dc9a0b7189831c1d50e88018dce6b6dcc0cb4afb73b6616913bcd0"
+}

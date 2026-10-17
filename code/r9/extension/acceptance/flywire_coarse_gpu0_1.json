@@ -1,0 +1,132 @@
+{
+  "task": "flywire_coarse",
+  "protocol_sha256": "02e2464ac61a748da4930b809755e6f94c4d945dba52d022a7061c6d96a603bd",
+  "cases": [
+    {
+      "key": "720575940604217534",
+      "old_core_maxdiff": 0.0,
+      "points": 6144,
+      "voxels": 692,
+      "regions": 57,
+      "peak_bytes": 113416704,
+      "seconds": 0.5950660705566406,
+      "finite_gradients": true
+    },
+    {
+      "key": "720575940630662983",
+      "old_core_maxdiff": 0.0,
+      "points": 10240,
+      "voxels": 2676,
+      "regions": 200,
+      "peak_bytes": 163724800,
+      "seconds": 0.17381548881530762,
+      "finite_gradients": true
+    },
+    {
+      "key": "720575940628307026",
+      "old_core_maxdiff": 1.4901161193847656e-08,
+      "points": 69632,
+      "voxels": 59864,
+      "regions": 34279,
+      "peak_bytes": 4487982080,
+      "seconds": 3.7186851501464844,
+      "finite_gradients": true
+    },
+    {
+      "key": "720575940606218528",
+      "old_core_maxdiff": 1.4901161193847656e-08,
+      "points": 69632,
+      "voxels": 28587,
+      "regions": 3565,
+      "peak_bytes": 1213380096,
+      "seconds": 0.8940854072570801,
+      "finite_gradients": true
+    },
+    {
+      "key": "720575940620968021",
+      "old_core_maxdiff": 1.4901161193847656e-08,
+      "points": 69632,
+      "voxels": 29215,
+      "regions": 8180,
+      "peak_bytes": 6984374272,
+      "seconds": 5.844242095947266,
+      "finite_gradients": true
+    },
+    {
+      "key": "720575940602893228",
+      "old_core_maxdiff": 0.0,
+      "points": 8192,
+      "voxels": 1430,
+      "regions": 106,
+      "peak_bytes": 140335104,
+      "seconds": 0.16755938529968262,
+      "finite_gradients": true
+    },
+    {
+      "key": "720575940603235500",
+      "old_core_maxdiff": 1.4901161193847656e-08,
+      "points": 24576,
+      "voxels": 8384,
+      "regions": 858,
+      "peak_bytes": 392648192,
+      "seconds": 0.3399062156677246,
+      "finite_gradients": true
+    },
+    {
+      "key": "720575940600150793",
+      "old_core_maxdiff": 1.4901161193847656e-08,
+      "points": 10240,
+      "voxels": 2166,
+      "regions": 236,
+      "peak_bytes": 239342080,
+      "seconds": 0.24033498764038086,
+      "finite_gradients": true
+    },
+    {
+      "key": "720575940604018208",
+      "old_core_maxdiff": 0.0,
+      "points": 8192,
+      "voxels": 1365,
+      "regions": 92,
+      "peak_bytes": 133150720,
+      "seconds": 0.1693882942199707,
+      "finite_gradients": true
+    },
+    {
+      "key": "720575940607673730",
+      "old_core_maxdiff": 0.0,
+      "points": 24576,
+      "voxels": 8273,
+      "regions": 889,
+      "peak_bytes": 352670208,
+      "seconds": 0.3125569820404053,
+      "finite_gradients": true
+    },
+    {
+      "key": "720575940603011808",
+      "old_core_maxdiff": 1.4901161193847656e-08,
+      "points": 14336,
+      "voxels": 4361,
+      "regions": 446,
+      "peak_bytes": 251364864,
+      "seconds": 0.24458718299865723,
+      "finite_gradients": true
+    }
+  ],
+  "test_used": false,
+  "old_initial_parameters_exact": true,
+  "passed": true,
+  "trace": [
+    {
+      "key": "720575940604217534",
+      "loss": 1.7837934494018555,
+      "state_sha256": "286a97ef4dd09750ebc88c7b3b5e1dee19e62640ee71cb6ee40d499f7040a87c"
+    },
+    {
+      "key": "720575940604236768",
+      "loss": 1.6952688694000244,
+      "state_sha256": "d8adb64c783e0408455996593a503c1072fc037ccf1e73352ed6fab089b82e91"
+    }
+  ],
+  "parameters": 3731990
+}

@@ -1,0 +1,82 @@
+{
+  "task": "tlp",
+  "protocol_sha256": "02e2464ac61a748da4930b809755e6f94c4d945dba52d022a7061c6d96a603bd",
+  "cases": [
+    {
+      "key": "x18044_y14877_z3415",
+      "old_core_maxdiff": 0.0,
+      "points": 5540,
+      "voxels": 4614,
+      "regions": 1935,
+      "peak_bytes": 184575488,
+      "seconds": 0.7791094779968262,
+      "finite_gradients": true
+    },
+    {
+      "key": "x11448_y8328_z3540",
+      "old_core_maxdiff": 0.0,
+      "points": 15794,
+      "voxels": 12150,
+      "regions": 4709,
+      "peak_bytes": 405944320,
+      "seconds": 0.4465675354003906,
+      "finite_gradients": true
+    },
+    {
+      "key": "x7694_y11471_z4369",
+      "old_core_maxdiff": 0.0,
+      "points": 48606,
+      "voxels": 42286,
+      "regions": 16103,
+      "peak_bytes": 3106354176,
+      "seconds": 1.9068264961242676,
+      "finite_gradients": true
+    },
+    {
+      "key": "x9086_y11703_z3905",
+      "old_core_maxdiff": 0.0,
+      "points": 62997,
+      "voxels": 47853,
+      "regions": 18514,
+      "peak_bytes": 3012486656,
+      "seconds": 2.141343116760254,
+      "finite_gradients": true
+    },
+    {
+      "key": "x26211_y10278_z5841",
+      "old_core_maxdiff": 0.0,
+      "points": 58878,
+      "voxels": 47248,
+      "regions": 17129,
+      "peak_bytes": 2865339904,
+      "seconds": 2.018828868865967,
+      "finite_gradients": true
+    },
+    {
+      "key": "x7926_y9847_z3905",
+      "old_core_maxdiff": 0.0,
+      "points": 34298,
+      "voxels": 27067,
+      "regions": 9429,
+      "peak_bytes": 1775710208,
+      "seconds": 1.5755949020385742,
+      "finite_gradients": true
+    }
+  ],
+  "test_used": false,
+  "old_initial_parameters_exact": true,
+  "passed": true,
+  "trace": [
+    {
+      "key": "x18044_y14877_z3415",
+      "loss": 1.3878259658813477,
+      "state_sha256": "1de9835e3ca9302e31c971c03c0ca51131ebbecb9404aeee6d9e8e896b4fd20c"
+    },
+    {
+      "key": "x12376_y9256_z3308",
+      "loss": 1.3772975206375122,
+      "state_sha256": "c4f741e839e5cd588083d29dd04d710358d7d37ccc9e04a87e691848c829ffd2"
+    }
+  ],
+  "parameters": 3780625
+}

@@ -1,0 +1,92 @@
+{
+  "task": "ted",
+  "protocol_sha256": "02e2464ac61a748da4930b809755e6f94c4d945dba52d022a7061c6d96a603bd",
+  "cases": [
+    {
+      "key": "x11680_y9256_z3540:0",
+      "old_core_maxdiff": 0.0,
+      "points": 1023,
+      "voxels": 743,
+      "regions": 94,
+      "peak_bytes": 105243648,
+      "seconds": 0.8675816059112549,
+      "finite_gradients": true
+    },
+    {
+      "key": "x7926_y9847_z3905:217",
+      "old_core_maxdiff": 0.0,
+      "points": 1024,
+      "voxels": 722,
+      "regions": 266,
+      "peak_bytes": 105194496,
+      "seconds": 0.12389898300170898,
+      "finite_gradients": true
+    },
+    {
+      "key": "x10056_y8560_z3540:0",
+      "old_core_maxdiff": 0.0,
+      "points": 1024,
+      "voxels": 750,
+      "regions": 87,
+      "peak_bytes": 105262080,
+      "seconds": 0.12581753730773926,
+      "finite_gradients": true
+    },
+    {
+      "key": "x17732_y18114_z5122:77",
+      "old_core_maxdiff": 0.0,
+      "points": 1024,
+      "voxels": 952,
+      "regions": 592,
+      "peak_bytes": 105818112,
+      "seconds": 0.1339097023010254,
+      "finite_gradients": true
+    },
+    {
+      "key": "x26036_y12276_z5784:12",
+      "old_core_maxdiff": 0.0,
+      "points": 1024,
+      "voxels": 968,
+      "regions": 453,
+      "peak_bytes": 107968512,
+      "seconds": 0.13580012321472168,
+      "finite_gradients": true
+    },
+    {
+      "key": "x10056_y8096_z3540:0",
+      "old_core_maxdiff": 0.0,
+      "points": 1024,
+      "voxels": 776,
+      "regions": 207,
+      "peak_bytes": 105230848,
+      "seconds": 0.1350574493408203,
+      "finite_gradients": true
+    },
+    {
+      "key": "x4544_y12347_z4670:33",
+      "old_core_maxdiff": 0.0,
+      "points": 1024,
+      "voxels": 768,
+      "regions": 107,
+      "peak_bytes": 105302528,
+      "seconds": 0.14203453063964844,
+      "finite_gradients": true
+    }
+  ],
+  "test_used": false,
+  "old_initial_parameters_exact": true,
+  "passed": true,
+  "trace": [
+    {
+      "key": "x11680_y9256_z3540:0",
+      "loss": 3.5614285469055176,
+      "state_sha256": "4e642e818e0cca87b468e79c17889d833049fde2a5bf9051e376b5fcb5dbe76c"
+    },
+    {
+      "key": "x11680_y9024_z3540:10",
+      "loss": 0.7220052480697632,
+      "state_sha256": "e640c06868afcbfc452a3f7de526e4d8e15d52cb2eaf4d35daf15814ba7fd4a4"
+    }
+  ],
+  "parameters": 3731345
+}

@@ -1,0 +1,33 @@
+{
+  "jobs": [
+    {
+      "task": "flywire_coarse",
+      "gpu": 0,
+      "fraction": ".85",
+      "out": "/root/megrez-tmp/CPSF_R9_TASK_EXPANSION_20261017_A2/results/patch_rms_010_flywire_coarse",
+      "state": "running",
+      "pid": 937074,
+      "started": 1792198647.279445
+    },
+    {
+      "task": "ted",
+      "gpu": 1,
+      "fraction": ".28",
+      "out": "/root/megrez-tmp/CPSF_R9_TASK_EXPANSION_20261017_A2/results/patch_rms_010_ted",
+      "state": "running",
+      "pid": 937076,
+      "started": 1792198647.2798002
+    },
+    {
+      "task": "tlp",
+      "gpu": 1,
+      "fraction": ".65",
+      "out": "/root/megrez-tmp/CPSF_R9_TASK_EXPANSION_20261017_A2/results/patch_rms_010_tlp",
+      "state": "running",
+      "pid": 937077,
+      "started": 1792198647.2802525
+    }
+  ],
+  "time": 1792200008.5972977,
+  "protocol_sha256": "02e2464ac61a748da4930b809755e6f94c4d945dba52d022a7061c6d96a603bd"
+}

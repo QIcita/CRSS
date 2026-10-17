@@ -1,3 +1,5 @@
+> **版本提示（2026-10-17）：本页描述历史版本。当前R9请先读 [架构](R9_ARCHITECTURE_ZH.md)、[结果](R9_RESULTS_ZH.md)和[代码](../code/r9/README.md)，不要混用模型与成绩。论文草稿尚未按R9更新。**
+
 # 实验索引：冻结主模型与后续基线复评
 
 主结果来源为2026-10-10的[原始审计JSON](../evidence/five_task_20261010/results_audit.json)。以下表格直接从该文件生成，没有重新计算或刷新训练成绩。全部使用seed42开发验证，`test_used=false`。

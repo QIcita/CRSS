@@ -1,0 +1,116 @@
+{
+  "snapshot_utc": "2026-10-17T01:25:28.899786+00:00",
+  "seed": 42,
+  "test_used": false,
+  "records": [
+    {
+      "task": "h01_local",
+      "status": "completed",
+      "architecture": "R9 patch_rms_010",
+      "run_version": "CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1",
+      "split": "development",
+      "metric": "macro_f1",
+      "value": 0.6679012345679013,
+      "metrics": {
+        "macro_f1": 0.6679012345679013,
+        "accuracy": 0.6682242990654206,
+        "confusion_matrix": [
+          [
+            43,
+            20,
+            9
+          ],
+          [
+            9,
+            51,
+            12
+          ],
+          [
+            11,
+            10,
+            49
+          ]
+        ]
+      },
+      "epochs": 25,
+      "steps": 2250,
+      "checkpoint": "reference/results/patch_rms_010_h01_local/final.pt"
+    },
+    {
+      "task": "h01_global",
+      "status": "completed",
+      "architecture": "R9 patch_rms_010",
+      "run_version": "CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1",
+      "split": "development",
+      "metric": "mae",
+      "value": 0.050277416283885636,
+      "metrics": {
+        "mae": 0.050277416283885636,
+        "rmse": 0.0627393402782864,
+        "r2": 0.7583775306892435
+      },
+      "epochs": 50,
+      "steps": 1000,
+      "checkpoint": "reference/results/patch_rms_010_h01_global/final.pt"
+    },
+    {
+      "task": "flywire_coarse",
+      "status": "training",
+      "architecture": "R9 patch_rms_010 with declared task adapters",
+      "run_version": "CPSF_R9_TASK_EXPANSION_20261017_A2",
+      "split": "development",
+      "metric": "macro_f1",
+      "value": null,
+      "progress": {
+        "state": "training",
+        "epoch": 2,
+        "epochs": 50,
+        "processed": 688,
+        "total": 4975,
+        "steps": 1416,
+        "elapsed_seconds": 1660.65412068367,
+        "peak_gpu_bytes": 6486110208
+      }
+    },
+    {
+      "task": "ted",
+      "status": "training",
+      "architecture": "R9 patch_rms_010 with declared task adapters",
+      "run_version": "CPSF_R9_TASK_EXPANSION_20261017_A2",
+      "split": "development",
+      "metric": "f1",
+      "value": null,
+      "progress": {
+        "state": "training",
+        "epoch": 1,
+        "epochs": 30,
+        "processed": 13184,
+        "total": 23967,
+        "steps": 206,
+        "elapsed_seconds": 1644.3360557556152,
+        "peak_gpu_bytes": 147018240
+      }
+    },
+    {
+      "task": "tlp",
+      "status": "training",
+      "architecture": "R9 patch_rms_010 with declared task adapters",
+      "run_version": "CPSF_R9_TASK_EXPANSION_20261017_A2",
+      "split": "development",
+      "metric": "missing_edge_macro_ap",
+      "value": null,
+      "progress": {
+        "state": "training",
+        "epoch": 34,
+        "epochs": 80,
+        "processed": 83,
+        "total": 156,
+        "steps": 5231,
+        "elapsed_seconds": 1670.528862953186,
+        "peak_gpu_bytes": 3112149504
+      }
+    }
+  ],
+  "selection": "fixed final epoch",
+  "no_task_best_splicing": true
+}

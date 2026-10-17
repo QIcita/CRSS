@@ -1,3 +1,13 @@
+# 当前入口：R9（2026-10-17）
+
+先阅读 [R9架构](docs/R9_ARCHITECTURE_ZH.md)、[R9结果](docs/R9_RESULTS_ZH.md)和[R9代码包](code/r9/README.md)。共享主干入口为`code/r9/reference/tools/cpsf_utonia_context/model.py`，扩展入口为`code/r9/extension/tools/cpsf_r9_expansion/model.py`。
+
+H01两项已有固定最终轮开发成绩；FlyWire/TED/TLP仍训练。不要把下方旧五任务结果、旧单文件模型或论文草稿改称R9。R9仅有已发布的幅度对照与重放证据，旧版消融不能证明R9核心模块贡献。
+
+以下为2026-10-11历史研究快照的导航，继续保留供追溯。
+
+---
+
 # 从这里理解当前研究
 
 这个仓库将“做了什么”和“准备如何写论文”放在一起。请先理解当前定义，再读历史来源文件；文件名包含 V21/V23/V26 不代表正在同时主张多套方法。

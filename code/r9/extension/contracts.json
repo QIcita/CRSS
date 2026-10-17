@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "protocol_sha256": "02e2464ac61a748da4930b809755e6f94c4d945dba52d022a7061c6d96a603bd",
+  "tasks": {
+    "ted": {
+      "passed": true,
+      "cross_gpu_two_update_trace_exact": true,
+      "parameters": 3731345,
+      "max_peak_bytes": 107968512,
+      "cases": 7
+    },
+    "tlp": {
+      "passed": true,
+      "cross_gpu_two_update_trace_exact": true,
+      "parameters": 3780625,
+      "max_peak_bytes": 3106354176,
+      "cases": 6
+    },
+    "flywire_coarse": {
+      "passed": true,
+      "cross_gpu_two_update_trace_exact": true,
+      "parameters": 3731990,
+      "max_peak_bytes": 6984374272,
+      "cases": 11
+    }
+  },
+  "scope": "real train min/median/max by each relevant dimension, gradients, old core equivalence, two independent GPU traces; not final metrics",
+  "test_used": false
+}

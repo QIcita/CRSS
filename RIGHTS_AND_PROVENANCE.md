@@ -8,3 +8,9 @@ This is a private research snapshot for code inspection and manuscript collabora
 - `docs/` reading guides and root README: repository navigation added for this export; they do not change model computations or overwrite frozen reports.
 
 Raw datasets, full geometry caches, credentials, account configuration, SSH keys and third-party paper PDFs are not included. Absolute server paths inside frozen code and evidence are preserved for provenance, not as a promise of portable training.
+
+## R9 update (2026-10-17)
+
+`code/r9/` adds the frozen R9 source, two retained H01 checkpoints, all six H01 result records, and task-extension code/protocols/acceptance/status snapshots. See `code/r9/server_export.json` for byte-level source mapping and explicit publication omissions. Inactive upstream demo datasets/arrays/figures and generic Python runtime packages are omitted; original protocol files and their historical hashes are preserved. Utonia, GeoTransformer and Polynormer copyright/license notices are retained. Only Utonia executes in the selected R9 configuration. No blanket license change is made. No live optimizer checkpoints, raw neuronal datasets or geometry caches are included.
+
+`docs/R9_*` and root navigation describe the new version. Historical model release bytes and paper sources are preserved; the paper has not been rewritten to claim R9 results.

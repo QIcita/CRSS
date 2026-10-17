@@ -1,0 +1,228 @@
+{
+  "utc": "2026-10-16T06:03:33.066297+00:00",
+  "protocol_sha256": "7a4a4283470e3bf689e830268a0d9f6e211f5fe2536c7b3b8b467cff96f7afc6",
+  "results": {
+    "patch_rms_010_h01_global": {
+      "val": {
+        "mae": 0.050277416283885636,
+        "rmse": 0.0627393402782864,
+        "r2": 0.7583775306892435
+      },
+      "epochs": 50,
+      "steps": 1000,
+      "seconds": 1037.7488396167755,
+      "final_sha256": "ee3c033dbf496e67f1e5fa88e11d5aef1ec7e7e6807408eb534effa394002347",
+      "failure": false
+    },
+    "patch_rms_010_h01_global_replay": {
+      "val": {
+        "mae": 0.050277416283885636,
+        "rmse": 0.0627393402782864,
+        "r2": 0.7583775306892435
+      },
+      "epochs": 50,
+      "steps": 1000,
+      "seconds": 1043.6071059703827,
+      "final_sha256": "5f00257026488409c5924e4d0d89c579cad6bb061efc89af4d011f43c5fffc3f",
+      "failure": false
+    },
+    "patch_rms_010_h01_local": {
+      "val": {
+        "macro_f1": 0.6679012345679013,
+        "accuracy": 0.6682242990654206,
+        "confusion_matrix": [
+          [
+            43,
+            20,
+            9
+          ],
+          [
+            9,
+            51,
+            12
+          ],
+          [
+            11,
+            10,
+            49
+          ]
+        ]
+      },
+      "epochs": 25,
+      "steps": 2250,
+      "seconds": 2184.2812724113464,
+      "final_sha256": "c1611a6e28d19e3121ac714237820fa9abbcd3ab6a612583ca2c56ae99b09926",
+      "failure": false
+    },
+    "patch_rms_010_h01_local_replay": {
+      "val": {
+        "macro_f1": 0.6679012345679013,
+        "accuracy": 0.6682242990654206,
+        "confusion_matrix": [
+          [
+            43,
+            20,
+            9
+          ],
+          [
+            9,
+            51,
+            12
+          ],
+          [
+            11,
+            10,
+            49
+          ]
+        ]
+      },
+      "epochs": 25,
+      "steps": 2250,
+      "seconds": 2171.278650522232,
+      "final_sha256": "c05c9301680a7c87c45559efb97bf9d6e603ec9d206c83489705766cbcd7724f",
+      "failure": false
+    },
+    "patch_rms_030_h01_global": {
+      "val": {
+        "mae": 0.05020920932292938,
+        "rmse": 0.06162778401142552,
+        "r2": 0.7668633634214097
+      },
+      "epochs": 50,
+      "steps": 1000,
+      "seconds": 1043.009891986847,
+      "final_sha256": "59806130202b6b5e89919c926d10d7a4adfa100374bc45f4faa236c441508646",
+      "failure": false
+    },
+    "patch_rms_030_h01_local": {
+      "val": {
+        "macro_f1": 0.6476144109055502,
+        "accuracy": 0.6495327102803738,
+        "confusion_matrix": [
+          [
+            38,
+            24,
+            10
+          ],
+          [
+            9,
+            52,
+            11
+          ],
+          [
+            11,
+            10,
+            49
+          ]
+        ]
+      },
+      "epochs": 25,
+      "steps": 2250,
+      "seconds": 2181.1355719566345,
+      "final_sha256": "d97850b57e4f67fe5c6c2de58f4d1bac2fa02a0509fc69f9b3c308832c92fd44",
+      "failure": false
+    }
+  },
+  "replay": {
+    "h01_local": {
+      "model": true,
+      "optimizer": true,
+      "scheduler": true,
+      "torch_rng": true,
+      "cuda_rng": true,
+      "numpy_rng": true,
+      "steps": true,
+      "all_epoch_states": true,
+      "all_epoch_losses": true,
+      "predictions": true
+    },
+    "h01_global": {
+      "model": true,
+      "optimizer": true,
+      "scheduler": true,
+      "torch_rng": true,
+      "cuda_rng": true,
+      "numpy_rng": true,
+      "steps": true,
+      "all_epoch_states": true,
+      "all_epoch_losses": true,
+      "predictions": true
+    }
+  },
+  "queue": {
+    "jobs": [
+      {
+        "task": "h01_local",
+        "kind": "patch_rms_010",
+        "suffix": "",
+        "gpu": 0,
+        "out": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/results/patch_rms_010_h01_local",
+        "state": "complete",
+        "pid": 734226,
+        "started": 1792126464.1544826,
+        "exit_code": 0
+      },
+      {
+        "task": "h01_local",
+        "kind": "patch_rms_010",
+        "suffix": "_replay",
+        "gpu": 1,
+        "out": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/results/patch_rms_010_h01_local_replay",
+        "state": "complete",
+        "pid": 734230,
+        "started": 1792126464.2266872,
+        "exit_code": 0
+      },
+      {
+        "task": "h01_local",
+        "kind": "patch_rms_030",
+        "suffix": "",
+        "gpu": 0,
+        "out": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/results/patch_rms_030_h01_local",
+        "state": "complete",
+        "pid": 734959,
+        "started": 1792126574.823494,
+        "exit_code": 0
+      },
+      {
+        "task": "h01_global",
+        "kind": "patch_rms_010",
+        "suffix": "",
+        "gpu": 0,
+        "out": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/results/patch_rms_010_h01_global",
+        "state": "complete",
+        "pid": 734235,
+        "started": 1792126464.302575,
+        "exit_code": 0
+      },
+      {
+        "task": "h01_global",
+        "kind": "patch_rms_010",
+        "suffix": "_replay",
+        "gpu": 1,
+        "out": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/results/patch_rms_010_h01_global_replay",
+        "state": "complete",
+        "pid": 734241,
+        "started": 1792126464.3826149,
+        "exit_code": 0
+      },
+      {
+        "task": "h01_global",
+        "kind": "patch_rms_030",
+        "suffix": "",
+        "gpu": 1,
+        "out": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/results/patch_rms_030_h01_global",
+        "state": "complete",
+        "pid": 734963,
+        "started": 1792126574.9067187,
+        "exit_code": 0
+      }
+    ],
+    "replay_epoch1_passed": true,
+    "time": 1792128767.1329515,
+    "protocol_sha256": "7a4a4283470e3bf689e830268a0d9f6e211f5fe2536c7b3b8b467cff96f7afc6"
+  },
+  "test_used": false,
+  "gpu": "0, 1 MiB, 0 %\n1, 1 MiB, 0 %\n",
+  "matching_processes": []
+}

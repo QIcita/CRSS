@@ -1,0 +1,27 @@
+{
+  "replica_suffix": "",
+  "runtime_policy_sha256": "7b19e46ed2dc9a0b7189831c1d50e88018dce6b6dcc0cb4afb73b6616913bcd0",
+  "version": "CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1",
+  "task": "h01_global",
+  "kind": "patch_rms_030",
+  "seed": 42,
+  "protocol_sha256": "7a4a4283470e3bf689e830268a0d9f6e211f5fe2536c7b3b8b467cff96f7afc6",
+  "manifest_sha256": "32c98f23957ba35b053a953b5464286c37fdf20da57ffee694bf529cbd3fa624",
+  "initial_state_sha256": "5f64b917a368c9a5321b5c849bdba6b97da5b8de544f42378fcf6a7df89098a6",
+  "pretrained": false,
+  "test_used": false,
+  "selection": "fixed final epoch",
+  "official_modules": {
+    "Utonia": {
+      "commit": "da776a0bd3a48c6df83ac2ae0e27b26141cc7e31",
+      "source": "/root/megrez-tmp/CPSF_UTONIA_SCRATCH_20261012/vendor/Utonia",
+      "mode": "official original modules, reduced configuration, no pretrained weights"
+    }
+  },
+  "adapter": {
+    "patch_injection": "after raw-moment patch MLP",
+    "scale": "per-patch RMS with stopgrad reference",
+    "alpha": 0.3,
+    "global_module": null
+  }
+}

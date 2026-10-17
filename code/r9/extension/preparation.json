@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "sources": {
+    "/root/megrez-tmp/CPSF_OFFICIAL_CORE_20261016_R6_A1/data/ted/manifest.json": "3329128a97c91121b07275658d1d810b931912bc8e1aee3f20fe751354ef1205",
+    "/root/megrez-tmp/CPSF_TLP_DIRECTIONAL_STAGE6_20261009/data/tlp/point/manifest.json": "93eb559820a7876b80ed48e5e706c2f6e32489da5dc4ede9891c13e3ce04b59a",
+    "/root/megrez-tmp/CPSF_TLP_DIRECTIONAL_STAGE6_20261009/data/tlp/joint/manifest.json": "55d44dca0b727f868d2ab535e2a608a6675a0ead6b9171de8efaaf74b1d0c3a7",
+    "/root/megrez-tmp/CPSF_V26_COMPLETE_20261003/data/flywire_coarse/manifest.json": "899ad827cc43f4d5946abc41b07859fc451944d925d828aa56488ec9eb31002e"
+  },
+  "tasks": {
+    "tlp": {
+      "samples": 218,
+      "splits": {
+        "val": 62,
+        "train": 156
+      },
+      "maxima": {
+        "nodes": 671,
+        "regions": 18514,
+        "patches": 49108,
+        "points": 62997,
+        "incidences": 86495
+      }
+    },
+    "flywire_coarse": {
+      "samples": 7961,
+      "splits": {
+        "val": 1922,
+        "train": 6039
+      },
+      "maxima": {
+        "nodes": 100236,
+        "regions": 34279,
+        "patches": 59581,
+        "points": 69632,
+        "incidences": 3264402
+      }
+    }
+  },
+  "seconds": 285.76917338371277,
+  "test_used": false
+}

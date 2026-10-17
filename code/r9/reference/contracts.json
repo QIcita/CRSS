@@ -1,0 +1,1721 @@
+{
+  "passed": true,
+  "protocol_sha256": "7a4a4283470e3bf689e830268a0d9f6e211f5fe2536c7b3b8b467cff96f7afc6",
+  "reference": {
+    "h01_local": {
+      "metrics": {
+        "macro_f1": 0.6591129982017273,
+        "accuracy": 0.6588785046728972,
+        "confusion_matrix": [
+          [
+            43,
+            20,
+            9
+          ],
+          [
+            12,
+            51,
+            9
+          ],
+          [
+            12,
+            11,
+            47
+          ]
+        ]
+      },
+      "prediction_maxdiff": 0.0
+    },
+    "h01_global": {
+      "metrics": {
+        "mae": 0.05104814531902472,
+        "rmse": 0.06352175651587844,
+        "r2": 0.7523134518978579
+      },
+      "prediction_maxdiff": 0.0
+    }
+  },
+  "cases": {
+    "patch_rms_010_h01_local": {
+      "cases": [
+        {
+          "key": "4932057570_axon_03",
+          "forward_backward_seconds": 0.11240246891975403,
+          "peak_gpu_bytes": 152804864,
+          "checkpoint_parity": null,
+          "groups": 1,
+          "point_voxels": 18
+        },
+        {
+          "key": "4711567524_AIS_03",
+          "forward_backward_seconds": 0.07603118196129799,
+          "peak_gpu_bytes": 150450176,
+          "checkpoint_parity": {
+            "output_maxdiff": 0.0,
+            "gradient_max_relative_to_global_max": 0.0
+          },
+          "groups": 1,
+          "point_voxels": 211
+        },
+        {
+          "key": "4641147055_dendrite_03",
+          "forward_backward_seconds": 0.08928393572568893,
+          "peak_gpu_bytes": 503302144,
+          "checkpoint_parity": null,
+          "groups": 8,
+          "point_voxels": 1233
+        },
+        {
+          "key": "3139317430_dendrite_01",
+          "forward_backward_seconds": 0.08924911171197891,
+          "peak_gpu_bytes": 464572416,
+          "checkpoint_parity": null,
+          "groups": 16,
+          "point_voxels": 560
+        }
+      ],
+      "parameters": 3731603,
+      "active_gradients": [
+        "graph.0.bias",
+        "graph.0.weight",
+        "graph.2.bias",
+        "graph.2.weight",
+        "head.bias",
+        "head.weight",
+        "joint.0.bias",
+        "joint.0.weight",
+        "joint.2.bias",
+        "joint.2.weight",
+        "native_point.encoder.embedding.stem.linear.bias",
+        "native_point.encoder.embedding.stem.linear.weight",
+        "native_point.encoder.embedding.stem.norm.bias",
+        "native_point.encoder.embedding.stem.norm.weight",
+        "native_point.encoder.enc.enc0.block0.module.attn.proj.bias",
+        "native_point.encoder.enc.enc0.block0.module.attn.proj.weight",
+        "native_point.encoder.enc.enc0.block0.module.attn.qkv.bias",
+        "native_point.encoder.enc.enc0.block0.module.attn.qkv.weight",
+        "native_point.encoder.enc.enc0.block0.module.cpe.0.bias",
+        "native_point.encoder.enc.enc0.block0.module.cpe.0.weight",
+        "native_point.encoder.enc.enc0.block0.module.cpe.1.bias",
+        "native_point.encoder.enc.enc0.block0.module.cpe.1.weight",
+        "native_point.encoder.enc.enc0.block0.module.cpe.2.bias",
+        "native_point.encoder.enc.enc0.block0.module.cpe.2.weight",
+        "native_point.encoder.enc.enc0.block0.module.mlp.0.fc1.bias",
+        "native_point.encoder.enc.enc0.block0.module.mlp.0.fc1.weight",
+        "native_point.encoder.enc.enc0.block0.module.mlp.0.fc2.bias",
+        "native_point.encoder.enc.enc0.block0.module.mlp.0.fc2.weight",
+        "native_point.encoder.enc.enc0.block0.module.norm1.0.bias",
+        "native_point.encoder.enc.enc0.block0.module.norm1.0.weight",
+        "native_point.encoder.enc.enc0.block0.module.norm2.0.bias",
+        "native_point.encoder.enc.enc0.block0.module.norm2.0.weight",
+        "native_point.encoder.enc.enc1.block0.module.attn.proj.bias",
+        "native_point.encoder.enc.enc1.block0.module.attn.proj.weight",
+        "native_point.encoder.enc.enc1.block0.module.attn.qkv.bias",
+        "native_point.encoder.enc.enc1.block0.module.attn.qkv.weight",
+        "native_point.encoder.enc.enc1.block0.module.cpe.0.bias",
+        "native_point.encoder.enc.enc1.block0.module.cpe.0.weight",
+        "native_point.encoder.enc.enc1.block0.module.cpe.1.bias",
+        "native_point.encoder.enc.enc1.block0.module.cpe.1.weight",
+        "native_point.encoder.enc.enc1.block0.module.cpe.2.bias",
+        "native_point.encoder.enc.enc1.block0.module.cpe.2.weight",
+        "native_point.encoder.enc.enc1.block0.module.mlp.0.fc1.bias",
+        "native_point.encoder.enc.enc1.block0.module.mlp.0.fc1.weight",
+        "native_point.encoder.enc.enc1.block0.module.mlp.0.fc2.bias",
+        "native_point.encoder.enc.enc1.block0.module.mlp.0.fc2.weight",
+        "native_point.encoder.enc.enc1.block0.module.norm1.0.bias",
+        "native_point.encoder.enc.enc1.block0.module.norm1.0.weight",
+        "native_point.encoder.enc.enc1.block0.module.norm2.0.bias",
+        "native_point.encoder.enc.enc1.block0.module.norm2.0.weight",
+        "native_point.encoder.enc.enc1.down.norm.0.bias",
+        "native_point.encoder.enc.enc1.down.norm.0.weight",
+        "native_point.encoder.enc.enc1.down.proj.bias",
+        "native_point.encoder.enc.enc1.down.proj.weight",
+        "native_point.encoder.enc.enc2.block0.module.attn.proj.bias",
+        "native_point.encoder.enc.enc2.block0.module.attn.proj.weight",
+        "native_point.encoder.enc.enc2.block0.module.attn.qkv.bias",
+        "native_point.encoder.enc.enc2.block0.module.attn.qkv.weight",
+        "native_point.encoder.enc.enc2.block0.module.cpe.0.bias",
+        "native_point.encoder.enc.enc2.block0.module.cpe.0.weight",
+        "native_point.encoder.enc.enc2.block0.module.cpe.1.bias",
+        "native_point.encoder.enc.enc2.block0.module.cpe.1.weight",
+        "native_point.encoder.enc.enc2.block0.module.cpe.2.bias",
+        "native_point.encoder.enc.enc2.block0.module.cpe.2.weight",
+        "native_point.encoder.enc.enc2.block0.module.mlp.0.fc1.bias",
+        "native_point.encoder.enc.enc2.block0.module.mlp.0.fc1.weight",
+        "native_point.encoder.enc.enc2.block0.module.mlp.0.fc2.bias",
+        "native_point.encoder.enc.enc2.block0.module.mlp.0.fc2.weight",
+        "native_point.encoder.enc.enc2.block0.module.norm1.0.bias",
+        "native_point.encoder.enc.enc2.block0.module.norm1.0.weight",
+        "native_point.encoder.enc.enc2.block0.module.norm2.0.bias",
+        "native_point.encoder.enc.enc2.block0.module.norm2.0.weight",
+        "native_point.encoder.enc.enc2.block1.module.attn.proj.bias",
+        "native_point.encoder.enc.enc2.block1.module.attn.proj.weight",
+        "native_point.encoder.enc.enc2.block1.module.attn.qkv.bias",
+        "native_point.encoder.enc.enc2.block1.module.attn.qkv.weight",
+        "native_point.encoder.enc.enc2.block1.module.cpe.0.bias",
+        "native_point.encoder.enc.enc2.block1.module.cpe.0.weight",
+        "native_point.encoder.enc.enc2.block1.module.cpe.1.bias",
+        "native_point.encoder.enc.enc2.block1.module.cpe.1.weight",
+        "native_point.encoder.enc.enc2.block1.module.cpe.2.bias",
+        "native_point.encoder.enc.enc2.block1.module.cpe.2.weight",
+        "native_point.encoder.enc.enc2.block1.module.mlp.0.fc1.bias",
+        "native_point.encoder.enc.enc2.block1.module.mlp.0.fc1.weight",
+        "native_point.encoder.enc.enc2.block1.module.mlp.0.fc2.bias",
+        "native_point.encoder.enc.enc2.block1.module.mlp.0.fc2.weight",
+        "native_point.encoder.enc.enc2.block1.module.norm1.0.bias",
+        "native_point.encoder.enc.enc2.block1.module.norm1.0.weight",
+        "native_point.encoder.enc.enc2.block1.module.norm2.0.bias",
+        "native_point.encoder.enc.enc2.block1.module.norm2.0.weight",
+        "native_point.encoder.enc.enc2.down.norm.0.bias",
+        "native_point.encoder.enc.enc2.down.norm.0.weight",
+        "native_point.encoder.enc.enc2.down.proj.bias",
+        "native_point.encoder.enc.enc2.down.proj.weight",
+        "native_point.proj.bias",
+        "native_point.proj.weight",
+        "patch.0.bias",
+        "patch.0.weight",
+        "patch.2.bias",
+        "patch.2.weight",
+        "path_position.0.bias",
+        "path_position.0.weight",
+        "path_position.2.bias",
+        "path_position.2.weight",
+        "point.0.bias",
+        "point.0.weight",
+        "point.2.bias",
+        "point.2.weight",
+        "position.0.bias",
+        "position.0.weight",
+        "position.2.bias",
+        "position.2.weight",
+        "processor.cnorm.bias",
+        "processor.cnorm.weight",
+        "processor.context.bias",
+        "processor.context.weight",
+        "processor.ff.0.bias",
+        "processor.ff.0.weight",
+        "processor.ff.2.bias",
+        "processor.ff.2.weight",
+        "processor.message.0.bias",
+        "processor.message.0.weight",
+        "processor.message.2.bias",
+        "processor.message.2.weight",
+        "processor.norm.bias",
+        "processor.norm.weight",
+        "processor.qkv.bias",
+        "processor.qkv.weight",
+        "processor.update.0.bias",
+        "processor.update.0.weight",
+        "processor.update.2.bias",
+        "processor.update.2.weight",
+        "readout.0.bias",
+        "readout.0.weight",
+        "readout.2.bias",
+        "readout.2.weight",
+        "relation.0.bias",
+        "relation.0.weight",
+        "relation.2.bias",
+        "relation.2.weight",
+        "scale.0.bias",
+        "scale.0.weight",
+        "scale.2.bias",
+        "scale.2.weight"
+      ],
+      "official_classes": {
+        "native_point.encoder": {
+          "class_name": "PointTransformerV3",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.embedding": {
+          "class_name": "Embedding",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.embedding.stem": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc0": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc0.block0.module": {
+          "class_name": "Block",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc0.block0.module.cpe": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc0.block0.module.norm1": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc0.block0.module.ls1": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc0.block0.module.attn": {
+          "class_name": "SerializedAttention",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc0.block0.module.attn.rope": {
+          "class_name": "Point3DRoPE",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc0.block0.module.norm2": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc0.block0.module.ls2": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc0.block0.module.mlp": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc0.block0.module.mlp.0": {
+          "class_name": "MLP",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc0.block0.module.drop_path": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc1": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc1.down": {
+          "class_name": "GridPooling",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc1.down.norm": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc1.down.act": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc1.block0.module": {
+          "class_name": "Block",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc1.block0.module.cpe": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc1.block0.module.norm1": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc1.block0.module.ls1": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc1.block0.module.attn": {
+          "class_name": "SerializedAttention",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc1.block0.module.attn.rope": {
+          "class_name": "Point3DRoPE",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc1.block0.module.norm2": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc1.block0.module.ls2": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc1.block0.module.mlp": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc1.block0.module.mlp.0": {
+          "class_name": "MLP",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc1.block0.module.drop_path": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.down": {
+          "class_name": "GridPooling",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc2.down.norm": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.down.act": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block0.module": {
+          "class_name": "Block",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc2.block0.module.cpe": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block0.module.norm1": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block0.module.ls1": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block0.module.attn": {
+          "class_name": "SerializedAttention",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc2.block0.module.attn.rope": {
+          "class_name": "Point3DRoPE",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc2.block0.module.norm2": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block0.module.ls2": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block0.module.mlp": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block0.module.mlp.0": {
+          "class_name": "MLP",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc2.block0.module.drop_path": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block1.module": {
+          "class_name": "Block",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc2.block1.module.cpe": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block1.module.norm1": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block1.module.ls1": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block1.module.attn": {
+          "class_name": "SerializedAttention",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc2.block1.module.attn.rope": {
+          "class_name": "Point3DRoPE",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc2.block1.module.norm2": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block1.module.ls2": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block1.module.mlp": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block1.module.mlp.0": {
+          "class_name": "MLP",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc2.block1.module.drop_path": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        }
+      }
+    },
+    "patch_rms_010_h01_global": {
+      "cases": [
+        {
+          "key": "3751392341",
+          "forward_backward_seconds": 0.1031324602663517,
+          "peak_gpu_bytes": 689244672,
+          "checkpoint_parity": null,
+          "groups": 43,
+          "point_voxels": 12876
+        },
+        {
+          "key": "4039221194",
+          "forward_backward_seconds": 0.11652413755655289,
+          "peak_gpu_bytes": 3208329728,
+          "checkpoint_parity": {
+            "output_maxdiff": 0.0,
+            "gradient_max_relative_to_global_max": 0.0
+          },
+          "groups": 179,
+          "point_voxels": 52004
+        },
+        {
+          "key": "4641147055",
+          "forward_backward_seconds": 0.13835512846708298,
+          "peak_gpu_bytes": 6065219072,
+          "checkpoint_parity": null,
+          "groups": 249,
+          "point_voxels": 46243
+        },
+        {
+          "key": "4873639924",
+          "forward_backward_seconds": 0.13596202060580254,
+          "peak_gpu_bytes": 4319516160,
+          "checkpoint_parity": null,
+          "groups": 369,
+          "point_voxels": 59924
+        },
+        {
+          "key": "3955003482",
+          "forward_backward_seconds": 0.1283472217619419,
+          "peak_gpu_bytes": 4251746816,
+          "checkpoint_parity": null,
+          "groups": 366,
+          "point_voxels": 59257
+        }
+      ],
+      "parameters": 3731345,
+      "active_gradients": [
+        "graph.0.bias",
+        "graph.0.weight",
+        "graph.2.bias",
+        "graph.2.weight",
+        "head.bias",
+        "head.weight",
+        "joint.0.bias",
+        "joint.0.weight",
+        "joint.2.bias",
+        "joint.2.weight",
+        "native_point.encoder.embedding.stem.linear.bias",
+        "native_point.encoder.embedding.stem.linear.weight",
+        "native_point.encoder.embedding.stem.norm.bias",
+        "native_point.encoder.embedding.stem.norm.weight",
+        "native_point.encoder.enc.enc0.block0.module.attn.proj.bias",
+        "native_point.encoder.enc.enc0.block0.module.attn.proj.weight",
+        "native_point.encoder.enc.enc0.block0.module.attn.qkv.bias",
+        "native_point.encoder.enc.enc0.block0.module.attn.qkv.weight",
+        "native_point.encoder.enc.enc0.block0.module.cpe.0.bias",
+        "native_point.encoder.enc.enc0.block0.module.cpe.0.weight",
+        "native_point.encoder.enc.enc0.block0.module.cpe.1.bias",
+        "native_point.encoder.enc.enc0.block0.module.cpe.1.weight",
+        "native_point.encoder.enc.enc0.block0.module.cpe.2.bias",
+        "native_point.encoder.enc.enc0.block0.module.cpe.2.weight",
+        "native_point.encoder.enc.enc0.block0.module.mlp.0.fc1.bias",
+        "native_point.encoder.enc.enc0.block0.module.mlp.0.fc1.weight",
+        "native_point.encoder.enc.enc0.block0.module.mlp.0.fc2.bias",
+        "native_point.encoder.enc.enc0.block0.module.mlp.0.fc2.weight",
+        "native_point.encoder.enc.enc0.block0.module.norm1.0.bias",
+        "native_point.encoder.enc.enc0.block0.module.norm1.0.weight",
+        "native_point.encoder.enc.enc0.block0.module.norm2.0.bias",
+        "native_point.encoder.enc.enc0.block0.module.norm2.0.weight",
+        "native_point.encoder.enc.enc1.block0.module.attn.proj.bias",
+        "native_point.encoder.enc.enc1.block0.module.attn.proj.weight",
+        "native_point.encoder.enc.enc1.block0.module.attn.qkv.bias",
+        "native_point.encoder.enc.enc1.block0.module.attn.qkv.weight",
+        "native_point.encoder.enc.enc1.block0.module.cpe.0.bias",
+        "native_point.encoder.enc.enc1.block0.module.cpe.0.weight",
+        "native_point.encoder.enc.enc1.block0.module.cpe.1.bias",
+        "native_point.encoder.enc.enc1.block0.module.cpe.1.weight",
+        "native_point.encoder.enc.enc1.block0.module.cpe.2.bias",
+        "native_point.encoder.enc.enc1.block0.module.cpe.2.weight",
+        "native_point.encoder.enc.enc1.block0.module.mlp.0.fc1.bias",
+        "native_point.encoder.enc.enc1.block0.module.mlp.0.fc1.weight",
+        "native_point.encoder.enc.enc1.block0.module.mlp.0.fc2.bias",
+        "native_point.encoder.enc.enc1.block0.module.mlp.0.fc2.weight",
+        "native_point.encoder.enc.enc1.block0.module.norm1.0.bias",
+        "native_point.encoder.enc.enc1.block0.module.norm1.0.weight",
+        "native_point.encoder.enc.enc1.block0.module.norm2.0.bias",
+        "native_point.encoder.enc.enc1.block0.module.norm2.0.weight",
+        "native_point.encoder.enc.enc1.down.norm.0.bias",
+        "native_point.encoder.enc.enc1.down.norm.0.weight",
+        "native_point.encoder.enc.enc1.down.proj.bias",
+        "native_point.encoder.enc.enc1.down.proj.weight",
+        "native_point.encoder.enc.enc2.block0.module.attn.proj.bias",
+        "native_point.encoder.enc.enc2.block0.module.attn.proj.weight",
+        "native_point.encoder.enc.enc2.block0.module.attn.qkv.bias",
+        "native_point.encoder.enc.enc2.block0.module.attn.qkv.weight",
+        "native_point.encoder.enc.enc2.block0.module.cpe.0.bias",
+        "native_point.encoder.enc.enc2.block0.module.cpe.0.weight",
+        "native_point.encoder.enc.enc2.block0.module.cpe.1.bias",
+        "native_point.encoder.enc.enc2.block0.module.cpe.1.weight",
+        "native_point.encoder.enc.enc2.block0.module.cpe.2.bias",
+        "native_point.encoder.enc.enc2.block0.module.cpe.2.weight",
+        "native_point.encoder.enc.enc2.block0.module.mlp.0.fc1.bias",
+        "native_point.encoder.enc.enc2.block0.module.mlp.0.fc1.weight",
+        "native_point.encoder.enc.enc2.block0.module.mlp.0.fc2.bias",
+        "native_point.encoder.enc.enc2.block0.module.mlp.0.fc2.weight",
+        "native_point.encoder.enc.enc2.block0.module.norm1.0.bias",
+        "native_point.encoder.enc.enc2.block0.module.norm1.0.weight",
+        "native_point.encoder.enc.enc2.block0.module.norm2.0.bias",
+        "native_point.encoder.enc.enc2.block0.module.norm2.0.weight",
+        "native_point.encoder.enc.enc2.block1.module.attn.proj.bias",
+        "native_point.encoder.enc.enc2.block1.module.attn.proj.weight",
+        "native_point.encoder.enc.enc2.block1.module.attn.qkv.bias",
+        "native_point.encoder.enc.enc2.block1.module.attn.qkv.weight",
+        "native_point.encoder.enc.enc2.block1.module.cpe.0.bias",
+        "native_point.encoder.enc.enc2.block1.module.cpe.0.weight",
+        "native_point.encoder.enc.enc2.block1.module.cpe.1.bias",
+        "native_point.encoder.enc.enc2.block1.module.cpe.1.weight",
+        "native_point.encoder.enc.enc2.block1.module.cpe.2.bias",
+        "native_point.encoder.enc.enc2.block1.module.cpe.2.weight",
+        "native_point.encoder.enc.enc2.block1.module.mlp.0.fc1.bias",
+        "native_point.encoder.enc.enc2.block1.module.mlp.0.fc1.weight",
+        "native_point.encoder.enc.enc2.block1.module.mlp.0.fc2.bias",
+        "native_point.encoder.enc.enc2.block1.module.mlp.0.fc2.weight",
+        "native_point.encoder.enc.enc2.block1.module.norm1.0.bias",
+        "native_point.encoder.enc.enc2.block1.module.norm1.0.weight",
+        "native_point.encoder.enc.enc2.block1.module.norm2.0.bias",
+        "native_point.encoder.enc.enc2.block1.module.norm2.0.weight",
+        "native_point.encoder.enc.enc2.down.norm.0.bias",
+        "native_point.encoder.enc.enc2.down.norm.0.weight",
+        "native_point.encoder.enc.enc2.down.proj.bias",
+        "native_point.encoder.enc.enc2.down.proj.weight",
+        "native_point.proj.bias",
+        "native_point.proj.weight",
+        "patch.0.bias",
+        "patch.0.weight",
+        "patch.2.bias",
+        "patch.2.weight",
+        "path_position.0.bias",
+        "path_position.0.weight",
+        "path_position.2.bias",
+        "path_position.2.weight",
+        "point.0.bias",
+        "point.0.weight",
+        "point.2.bias",
+        "point.2.weight",
+        "position.0.bias",
+        "position.0.weight",
+        "position.2.bias",
+        "position.2.weight",
+        "processor.cnorm.bias",
+        "processor.cnorm.weight",
+        "processor.context.bias",
+        "processor.context.weight",
+        "processor.ff.0.bias",
+        "processor.ff.0.weight",
+        "processor.ff.2.bias",
+        "processor.ff.2.weight",
+        "processor.message.0.bias",
+        "processor.message.0.weight",
+        "processor.message.2.bias",
+        "processor.message.2.weight",
+        "processor.norm.bias",
+        "processor.norm.weight",
+        "processor.qkv.bias",
+        "processor.qkv.weight",
+        "processor.update.0.bias",
+        "processor.update.0.weight",
+        "processor.update.2.bias",
+        "processor.update.2.weight",
+        "readout.0.bias",
+        "readout.0.weight",
+        "readout.2.bias",
+        "readout.2.weight",
+        "relation.0.bias",
+        "relation.0.weight",
+        "relation.2.bias",
+        "relation.2.weight",
+        "scale.0.bias",
+        "scale.0.weight",
+        "scale.2.bias",
+        "scale.2.weight"
+      ],
+      "official_classes": {
+        "native_point.encoder": {
+          "class_name": "PointTransformerV3",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.embedding": {
+          "class_name": "Embedding",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.embedding.stem": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc0": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc0.block0.module": {
+          "class_name": "Block",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc0.block0.module.cpe": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc0.block0.module.norm1": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc0.block0.module.ls1": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc0.block0.module.attn": {
+          "class_name": "SerializedAttention",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc0.block0.module.attn.rope": {
+          "class_name": "Point3DRoPE",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc0.block0.module.norm2": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc0.block0.module.ls2": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc0.block0.module.mlp": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc0.block0.module.mlp.0": {
+          "class_name": "MLP",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc0.block0.module.drop_path": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc1": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc1.down": {
+          "class_name": "GridPooling",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc1.down.norm": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc1.down.act": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc1.block0.module": {
+          "class_name": "Block",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc1.block0.module.cpe": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc1.block0.module.norm1": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc1.block0.module.ls1": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc1.block0.module.attn": {
+          "class_name": "SerializedAttention",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc1.block0.module.attn.rope": {
+          "class_name": "Point3DRoPE",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc1.block0.module.norm2": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc1.block0.module.ls2": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc1.block0.module.mlp": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc1.block0.module.mlp.0": {
+          "class_name": "MLP",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc1.block0.module.drop_path": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.down": {
+          "class_name": "GridPooling",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc2.down.norm": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.down.act": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block0.module": {
+          "class_name": "Block",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc2.block0.module.cpe": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block0.module.norm1": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block0.module.ls1": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block0.module.attn": {
+          "class_name": "SerializedAttention",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc2.block0.module.attn.rope": {
+          "class_name": "Point3DRoPE",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc2.block0.module.norm2": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block0.module.ls2": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block0.module.mlp": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block0.module.mlp.0": {
+          "class_name": "MLP",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc2.block0.module.drop_path": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block1.module": {
+          "class_name": "Block",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc2.block1.module.cpe": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block1.module.norm1": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block1.module.ls1": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block1.module.attn": {
+          "class_name": "SerializedAttention",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc2.block1.module.attn.rope": {
+          "class_name": "Point3DRoPE",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc2.block1.module.norm2": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block1.module.ls2": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block1.module.mlp": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block1.module.mlp.0": {
+          "class_name": "MLP",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc2.block1.module.drop_path": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        }
+      }
+    },
+    "patch_rms_030_h01_local": {
+      "cases": [
+        {
+          "key": "4932057570_axon_03",
+          "forward_backward_seconds": 0.08310478553175926,
+          "peak_gpu_bytes": 325421056,
+          "checkpoint_parity": null,
+          "groups": 1,
+          "point_voxels": 18
+        },
+        {
+          "key": "4711567524_AIS_03",
+          "forward_backward_seconds": 0.08473832532763481,
+          "peak_gpu_bytes": 167367680,
+          "checkpoint_parity": {
+            "output_maxdiff": 0.0,
+            "gradient_max_relative_to_global_max": 0.0
+          },
+          "groups": 1,
+          "point_voxels": 211
+        },
+        {
+          "key": "4641147055_dendrite_03",
+          "forward_backward_seconds": 0.0910627655684948,
+          "peak_gpu_bytes": 500603392,
+          "checkpoint_parity": null,
+          "groups": 8,
+          "point_voxels": 1233
+        },
+        {
+          "key": "3139317430_dendrite_01",
+          "forward_backward_seconds": 0.09105216711759567,
+          "peak_gpu_bytes": 463654400,
+          "checkpoint_parity": null,
+          "groups": 16,
+          "point_voxels": 560
+        }
+      ],
+      "parameters": 3731603,
+      "active_gradients": [
+        "graph.0.bias",
+        "graph.0.weight",
+        "graph.2.bias",
+        "graph.2.weight",
+        "head.bias",
+        "head.weight",
+        "joint.0.bias",
+        "joint.0.weight",
+        "joint.2.bias",
+        "joint.2.weight",
+        "native_point.encoder.embedding.stem.linear.bias",
+        "native_point.encoder.embedding.stem.linear.weight",
+        "native_point.encoder.embedding.stem.norm.bias",
+        "native_point.encoder.embedding.stem.norm.weight",
+        "native_point.encoder.enc.enc0.block0.module.attn.proj.bias",
+        "native_point.encoder.enc.enc0.block0.module.attn.proj.weight",
+        "native_point.encoder.enc.enc0.block0.module.attn.qkv.bias",
+        "native_point.encoder.enc.enc0.block0.module.attn.qkv.weight",
+        "native_point.encoder.enc.enc0.block0.module.cpe.0.bias",
+        "native_point.encoder.enc.enc0.block0.module.cpe.0.weight",
+        "native_point.encoder.enc.enc0.block0.module.cpe.1.bias",
+        "native_point.encoder.enc.enc0.block0.module.cpe.1.weight",
+        "native_point.encoder.enc.enc0.block0.module.cpe.2.bias",
+        "native_point.encoder.enc.enc0.block0.module.cpe.2.weight",
+        "native_point.encoder.enc.enc0.block0.module.mlp.0.fc1.bias",
+        "native_point.encoder.enc.enc0.block0.module.mlp.0.fc1.weight",
+        "native_point.encoder.enc.enc0.block0.module.mlp.0.fc2.bias",
+        "native_point.encoder.enc.enc0.block0.module.mlp.0.fc2.weight",
+        "native_point.encoder.enc.enc0.block0.module.norm1.0.bias",
+        "native_point.encoder.enc.enc0.block0.module.norm1.0.weight",
+        "native_point.encoder.enc.enc0.block0.module.norm2.0.bias",
+        "native_point.encoder.enc.enc0.block0.module.norm2.0.weight",
+        "native_point.encoder.enc.enc1.block0.module.attn.proj.bias",
+        "native_point.encoder.enc.enc1.block0.module.attn.proj.weight",
+        "native_point.encoder.enc.enc1.block0.module.attn.qkv.bias",
+        "native_point.encoder.enc.enc1.block0.module.attn.qkv.weight",
+        "native_point.encoder.enc.enc1.block0.module.cpe.0.bias",
+        "native_point.encoder.enc.enc1.block0.module.cpe.0.weight",
+        "native_point.encoder.enc.enc1.block0.module.cpe.1.bias",
+        "native_point.encoder.enc.enc1.block0.module.cpe.1.weight",
+        "native_point.encoder.enc.enc1.block0.module.cpe.2.bias",
+        "native_point.encoder.enc.enc1.block0.module.cpe.2.weight",
+        "native_point.encoder.enc.enc1.block0.module.mlp.0.fc1.bias",
+        "native_point.encoder.enc.enc1.block0.module.mlp.0.fc1.weight",
+        "native_point.encoder.enc.enc1.block0.module.mlp.0.fc2.bias",
+        "native_point.encoder.enc.enc1.block0.module.mlp.0.fc2.weight",
+        "native_point.encoder.enc.enc1.block0.module.norm1.0.bias",
+        "native_point.encoder.enc.enc1.block0.module.norm1.0.weight",
+        "native_point.encoder.enc.enc1.block0.module.norm2.0.bias",
+        "native_point.encoder.enc.enc1.block0.module.norm2.0.weight",
+        "native_point.encoder.enc.enc1.down.norm.0.bias",
+        "native_point.encoder.enc.enc1.down.norm.0.weight",
+        "native_point.encoder.enc.enc1.down.proj.bias",
+        "native_point.encoder.enc.enc1.down.proj.weight",
+        "native_point.encoder.enc.enc2.block0.module.attn.proj.bias",
+        "native_point.encoder.enc.enc2.block0.module.attn.proj.weight",
+        "native_point.encoder.enc.enc2.block0.module.attn.qkv.bias",
+        "native_point.encoder.enc.enc2.block0.module.attn.qkv.weight",
+        "native_point.encoder.enc.enc2.block0.module.cpe.0.bias",
+        "native_point.encoder.enc.enc2.block0.module.cpe.0.weight",
+        "native_point.encoder.enc.enc2.block0.module.cpe.1.bias",
+        "native_point.encoder.enc.enc2.block0.module.cpe.1.weight",
+        "native_point.encoder.enc.enc2.block0.module.cpe.2.bias",
+        "native_point.encoder.enc.enc2.block0.module.cpe.2.weight",
+        "native_point.encoder.enc.enc2.block0.module.mlp.0.fc1.bias",
+        "native_point.encoder.enc.enc2.block0.module.mlp.0.fc1.weight",
+        "native_point.encoder.enc.enc2.block0.module.mlp.0.fc2.bias",
+        "native_point.encoder.enc.enc2.block0.module.mlp.0.fc2.weight",
+        "native_point.encoder.enc.enc2.block0.module.norm1.0.bias",
+        "native_point.encoder.enc.enc2.block0.module.norm1.0.weight",
+        "native_point.encoder.enc.enc2.block0.module.norm2.0.bias",
+        "native_point.encoder.enc.enc2.block0.module.norm2.0.weight",
+        "native_point.encoder.enc.enc2.block1.module.attn.proj.bias",
+        "native_point.encoder.enc.enc2.block1.module.attn.proj.weight",
+        "native_point.encoder.enc.enc2.block1.module.attn.qkv.bias",
+        "native_point.encoder.enc.enc2.block1.module.attn.qkv.weight",
+        "native_point.encoder.enc.enc2.block1.module.cpe.0.bias",
+        "native_point.encoder.enc.enc2.block1.module.cpe.0.weight",
+        "native_point.encoder.enc.enc2.block1.module.cpe.1.bias",
+        "native_point.encoder.enc.enc2.block1.module.cpe.1.weight",
+        "native_point.encoder.enc.enc2.block1.module.cpe.2.bias",
+        "native_point.encoder.enc.enc2.block1.module.cpe.2.weight",
+        "native_point.encoder.enc.enc2.block1.module.mlp.0.fc1.bias",
+        "native_point.encoder.enc.enc2.block1.module.mlp.0.fc1.weight",
+        "native_point.encoder.enc.enc2.block1.module.mlp.0.fc2.bias",
+        "native_point.encoder.enc.enc2.block1.module.mlp.0.fc2.weight",
+        "native_point.encoder.enc.enc2.block1.module.norm1.0.bias",
+        "native_point.encoder.enc.enc2.block1.module.norm1.0.weight",
+        "native_point.encoder.enc.enc2.block1.module.norm2.0.bias",
+        "native_point.encoder.enc.enc2.block1.module.norm2.0.weight",
+        "native_point.encoder.enc.enc2.down.norm.0.bias",
+        "native_point.encoder.enc.enc2.down.norm.0.weight",
+        "native_point.encoder.enc.enc2.down.proj.bias",
+        "native_point.encoder.enc.enc2.down.proj.weight",
+        "native_point.proj.bias",
+        "native_point.proj.weight",
+        "patch.0.bias",
+        "patch.0.weight",
+        "patch.2.bias",
+        "patch.2.weight",
+        "path_position.0.bias",
+        "path_position.0.weight",
+        "path_position.2.bias",
+        "path_position.2.weight",
+        "point.0.bias",
+        "point.0.weight",
+        "point.2.bias",
+        "point.2.weight",
+        "position.0.bias",
+        "position.0.weight",
+        "position.2.bias",
+        "position.2.weight",
+        "processor.cnorm.bias",
+        "processor.cnorm.weight",
+        "processor.context.bias",
+        "processor.context.weight",
+        "processor.ff.0.bias",
+        "processor.ff.0.weight",
+        "processor.ff.2.bias",
+        "processor.ff.2.weight",
+        "processor.message.0.bias",
+        "processor.message.0.weight",
+        "processor.message.2.bias",
+        "processor.message.2.weight",
+        "processor.norm.bias",
+        "processor.norm.weight",
+        "processor.qkv.bias",
+        "processor.qkv.weight",
+        "processor.update.0.bias",
+        "processor.update.0.weight",
+        "processor.update.2.bias",
+        "processor.update.2.weight",
+        "readout.0.bias",
+        "readout.0.weight",
+        "readout.2.bias",
+        "readout.2.weight",
+        "relation.0.bias",
+        "relation.0.weight",
+        "relation.2.bias",
+        "relation.2.weight",
+        "scale.0.bias",
+        "scale.0.weight",
+        "scale.2.bias",
+        "scale.2.weight"
+      ],
+      "official_classes": {
+        "native_point.encoder": {
+          "class_name": "PointTransformerV3",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.embedding": {
+          "class_name": "Embedding",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.embedding.stem": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc0": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc0.block0.module": {
+          "class_name": "Block",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc0.block0.module.cpe": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc0.block0.module.norm1": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc0.block0.module.ls1": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc0.block0.module.attn": {
+          "class_name": "SerializedAttention",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc0.block0.module.attn.rope": {
+          "class_name": "Point3DRoPE",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc0.block0.module.norm2": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc0.block0.module.ls2": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc0.block0.module.mlp": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc0.block0.module.mlp.0": {
+          "class_name": "MLP",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc0.block0.module.drop_path": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc1": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc1.down": {
+          "class_name": "GridPooling",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc1.down.norm": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc1.down.act": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc1.block0.module": {
+          "class_name": "Block",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc1.block0.module.cpe": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc1.block0.module.norm1": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc1.block0.module.ls1": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc1.block0.module.attn": {
+          "class_name": "SerializedAttention",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc1.block0.module.attn.rope": {
+          "class_name": "Point3DRoPE",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc1.block0.module.norm2": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc1.block0.module.ls2": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc1.block0.module.mlp": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc1.block0.module.mlp.0": {
+          "class_name": "MLP",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc1.block0.module.drop_path": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.down": {
+          "class_name": "GridPooling",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc2.down.norm": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.down.act": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block0.module": {
+          "class_name": "Block",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc2.block0.module.cpe": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block0.module.norm1": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block0.module.ls1": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block0.module.attn": {
+          "class_name": "SerializedAttention",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc2.block0.module.attn.rope": {
+          "class_name": "Point3DRoPE",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc2.block0.module.norm2": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block0.module.ls2": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block0.module.mlp": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block0.module.mlp.0": {
+          "class_name": "MLP",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc2.block0.module.drop_path": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block1.module": {
+          "class_name": "Block",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc2.block1.module.cpe": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block1.module.norm1": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block1.module.ls1": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block1.module.attn": {
+          "class_name": "SerializedAttention",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc2.block1.module.attn.rope": {
+          "class_name": "Point3DRoPE",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc2.block1.module.norm2": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block1.module.ls2": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block1.module.mlp": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block1.module.mlp.0": {
+          "class_name": "MLP",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc2.block1.module.drop_path": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        }
+      }
+    },
+    "patch_rms_030_h01_global": {
+      "cases": [
+        {
+          "key": "3751392341",
+          "forward_backward_seconds": 0.10541536286473274,
+          "peak_gpu_bytes": 690653184,
+          "checkpoint_parity": null,
+          "groups": 43,
+          "point_voxels": 12876
+        },
+        {
+          "key": "4039221194",
+          "forward_backward_seconds": 0.11607675999403,
+          "peak_gpu_bytes": 3206356480,
+          "checkpoint_parity": {
+            "output_maxdiff": 0.0,
+            "gradient_max_relative_to_global_max": 0.0
+          },
+          "groups": 179,
+          "point_voxels": 52004
+        },
+        {
+          "key": "4641147055",
+          "forward_backward_seconds": 0.13552411273121834,
+          "peak_gpu_bytes": 6065482240,
+          "checkpoint_parity": null,
+          "groups": 249,
+          "point_voxels": 46243
+        },
+        {
+          "key": "4873639924",
+          "forward_backward_seconds": 0.13534096628427505,
+          "peak_gpu_bytes": 4320830464,
+          "checkpoint_parity": null,
+          "groups": 369,
+          "point_voxels": 59924
+        },
+        {
+          "key": "3955003482",
+          "forward_backward_seconds": 0.128634262830019,
+          "peak_gpu_bytes": 4249150976,
+          "checkpoint_parity": null,
+          "groups": 366,
+          "point_voxels": 59257
+        }
+      ],
+      "parameters": 3731345,
+      "active_gradients": [
+        "graph.0.bias",
+        "graph.0.weight",
+        "graph.2.bias",
+        "graph.2.weight",
+        "head.bias",
+        "head.weight",
+        "joint.0.bias",
+        "joint.0.weight",
+        "joint.2.bias",
+        "joint.2.weight",
+        "native_point.encoder.embedding.stem.linear.bias",
+        "native_point.encoder.embedding.stem.linear.weight",
+        "native_point.encoder.embedding.stem.norm.bias",
+        "native_point.encoder.embedding.stem.norm.weight",
+        "native_point.encoder.enc.enc0.block0.module.attn.proj.bias",
+        "native_point.encoder.enc.enc0.block0.module.attn.proj.weight",
+        "native_point.encoder.enc.enc0.block0.module.attn.qkv.bias",
+        "native_point.encoder.enc.enc0.block0.module.attn.qkv.weight",
+        "native_point.encoder.enc.enc0.block0.module.cpe.0.bias",
+        "native_point.encoder.enc.enc0.block0.module.cpe.0.weight",
+        "native_point.encoder.enc.enc0.block0.module.cpe.1.bias",
+        "native_point.encoder.enc.enc0.block0.module.cpe.1.weight",
+        "native_point.encoder.enc.enc0.block0.module.cpe.2.bias",
+        "native_point.encoder.enc.enc0.block0.module.cpe.2.weight",
+        "native_point.encoder.enc.enc0.block0.module.mlp.0.fc1.bias",
+        "native_point.encoder.enc.enc0.block0.module.mlp.0.fc1.weight",
+        "native_point.encoder.enc.enc0.block0.module.mlp.0.fc2.bias",
+        "native_point.encoder.enc.enc0.block0.module.mlp.0.fc2.weight",
+        "native_point.encoder.enc.enc0.block0.module.norm1.0.bias",
+        "native_point.encoder.enc.enc0.block0.module.norm1.0.weight",
+        "native_point.encoder.enc.enc0.block0.module.norm2.0.bias",
+        "native_point.encoder.enc.enc0.block0.module.norm2.0.weight",
+        "native_point.encoder.enc.enc1.block0.module.attn.proj.bias",
+        "native_point.encoder.enc.enc1.block0.module.attn.proj.weight",
+        "native_point.encoder.enc.enc1.block0.module.attn.qkv.bias",
+        "native_point.encoder.enc.enc1.block0.module.attn.qkv.weight",
+        "native_point.encoder.enc.enc1.block0.module.cpe.0.bias",
+        "native_point.encoder.enc.enc1.block0.module.cpe.0.weight",
+        "native_point.encoder.enc.enc1.block0.module.cpe.1.bias",
+        "native_point.encoder.enc.enc1.block0.module.cpe.1.weight",
+        "native_point.encoder.enc.enc1.block0.module.cpe.2.bias",
+        "native_point.encoder.enc.enc1.block0.module.cpe.2.weight",
+        "native_point.encoder.enc.enc1.block0.module.mlp.0.fc1.bias",
+        "native_point.encoder.enc.enc1.block0.module.mlp.0.fc1.weight",
+        "native_point.encoder.enc.enc1.block0.module.mlp.0.fc2.bias",
+        "native_point.encoder.enc.enc1.block0.module.mlp.0.fc2.weight",
+        "native_point.encoder.enc.enc1.block0.module.norm1.0.bias",
+        "native_point.encoder.enc.enc1.block0.module.norm1.0.weight",
+        "native_point.encoder.enc.enc1.block0.module.norm2.0.bias",
+        "native_point.encoder.enc.enc1.block0.module.norm2.0.weight",
+        "native_point.encoder.enc.enc1.down.norm.0.bias",
+        "native_point.encoder.enc.enc1.down.norm.0.weight",
+        "native_point.encoder.enc.enc1.down.proj.bias",
+        "native_point.encoder.enc.enc1.down.proj.weight",
+        "native_point.encoder.enc.enc2.block0.module.attn.proj.bias",
+        "native_point.encoder.enc.enc2.block0.module.attn.proj.weight",
+        "native_point.encoder.enc.enc2.block0.module.attn.qkv.bias",
+        "native_point.encoder.enc.enc2.block0.module.attn.qkv.weight",
+        "native_point.encoder.enc.enc2.block0.module.cpe.0.bias",
+        "native_point.encoder.enc.enc2.block0.module.cpe.0.weight",
+        "native_point.encoder.enc.enc2.block0.module.cpe.1.bias",
+        "native_point.encoder.enc.enc2.block0.module.cpe.1.weight",
+        "native_point.encoder.enc.enc2.block0.module.cpe.2.bias",
+        "native_point.encoder.enc.enc2.block0.module.cpe.2.weight",
+        "native_point.encoder.enc.enc2.block0.module.mlp.0.fc1.bias",
+        "native_point.encoder.enc.enc2.block0.module.mlp.0.fc1.weight",
+        "native_point.encoder.enc.enc2.block0.module.mlp.0.fc2.bias",
+        "native_point.encoder.enc.enc2.block0.module.mlp.0.fc2.weight",
+        "native_point.encoder.enc.enc2.block0.module.norm1.0.bias",
+        "native_point.encoder.enc.enc2.block0.module.norm1.0.weight",
+        "native_point.encoder.enc.enc2.block0.module.norm2.0.bias",
+        "native_point.encoder.enc.enc2.block0.module.norm2.0.weight",
+        "native_point.encoder.enc.enc2.block1.module.attn.proj.bias",
+        "native_point.encoder.enc.enc2.block1.module.attn.proj.weight",
+        "native_point.encoder.enc.enc2.block1.module.attn.qkv.bias",
+        "native_point.encoder.enc.enc2.block1.module.attn.qkv.weight",
+        "native_point.encoder.enc.enc2.block1.module.cpe.0.bias",
+        "native_point.encoder.enc.enc2.block1.module.cpe.0.weight",
+        "native_point.encoder.enc.enc2.block1.module.cpe.1.bias",
+        "native_point.encoder.enc.enc2.block1.module.cpe.1.weight",
+        "native_point.encoder.enc.enc2.block1.module.cpe.2.bias",
+        "native_point.encoder.enc.enc2.block1.module.cpe.2.weight",
+        "native_point.encoder.enc.enc2.block1.module.mlp.0.fc1.bias",
+        "native_point.encoder.enc.enc2.block1.module.mlp.0.fc1.weight",
+        "native_point.encoder.enc.enc2.block1.module.mlp.0.fc2.bias",
+        "native_point.encoder.enc.enc2.block1.module.mlp.0.fc2.weight",
+        "native_point.encoder.enc.enc2.block1.module.norm1.0.bias",
+        "native_point.encoder.enc.enc2.block1.module.norm1.0.weight",
+        "native_point.encoder.enc.enc2.block1.module.norm2.0.bias",
+        "native_point.encoder.enc.enc2.block1.module.norm2.0.weight",
+        "native_point.encoder.enc.enc2.down.norm.0.bias",
+        "native_point.encoder.enc.enc2.down.norm.0.weight",
+        "native_point.encoder.enc.enc2.down.proj.bias",
+        "native_point.encoder.enc.enc2.down.proj.weight",
+        "native_point.proj.bias",
+        "native_point.proj.weight",
+        "patch.0.bias",
+        "patch.0.weight",
+        "patch.2.bias",
+        "patch.2.weight",
+        "path_position.0.bias",
+        "path_position.0.weight",
+        "path_position.2.bias",
+        "path_position.2.weight",
+        "point.0.bias",
+        "point.0.weight",
+        "point.2.bias",
+        "point.2.weight",
+        "position.0.bias",
+        "position.0.weight",
+        "position.2.bias",
+        "position.2.weight",
+        "processor.cnorm.bias",
+        "processor.cnorm.weight",
+        "processor.context.bias",
+        "processor.context.weight",
+        "processor.ff.0.bias",
+        "processor.ff.0.weight",
+        "processor.ff.2.bias",
+        "processor.ff.2.weight",
+        "processor.message.0.bias",
+        "processor.message.0.weight",
+        "processor.message.2.bias",
+        "processor.message.2.weight",
+        "processor.norm.bias",
+        "processor.norm.weight",
+        "processor.qkv.bias",
+        "processor.qkv.weight",
+        "processor.update.0.bias",
+        "processor.update.0.weight",
+        "processor.update.2.bias",
+        "processor.update.2.weight",
+        "readout.0.bias",
+        "readout.0.weight",
+        "readout.2.bias",
+        "readout.2.weight",
+        "relation.0.bias",
+        "relation.0.weight",
+        "relation.2.bias",
+        "relation.2.weight",
+        "scale.0.bias",
+        "scale.0.weight",
+        "scale.2.bias",
+        "scale.2.weight"
+      ],
+      "official_classes": {
+        "native_point.encoder": {
+          "class_name": "PointTransformerV3",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.embedding": {
+          "class_name": "Embedding",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.embedding.stem": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc0": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc0.block0.module": {
+          "class_name": "Block",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc0.block0.module.cpe": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc0.block0.module.norm1": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc0.block0.module.ls1": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc0.block0.module.attn": {
+          "class_name": "SerializedAttention",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc0.block0.module.attn.rope": {
+          "class_name": "Point3DRoPE",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc0.block0.module.norm2": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc0.block0.module.ls2": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc0.block0.module.mlp": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc0.block0.module.mlp.0": {
+          "class_name": "MLP",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc0.block0.module.drop_path": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc1": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc1.down": {
+          "class_name": "GridPooling",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc1.down.norm": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc1.down.act": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc1.block0.module": {
+          "class_name": "Block",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc1.block0.module.cpe": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc1.block0.module.norm1": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc1.block0.module.ls1": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc1.block0.module.attn": {
+          "class_name": "SerializedAttention",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc1.block0.module.attn.rope": {
+          "class_name": "Point3DRoPE",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc1.block0.module.norm2": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc1.block0.module.ls2": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc1.block0.module.mlp": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc1.block0.module.mlp.0": {
+          "class_name": "MLP",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc1.block0.module.drop_path": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.down": {
+          "class_name": "GridPooling",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc2.down.norm": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.down.act": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block0.module": {
+          "class_name": "Block",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc2.block0.module.cpe": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block0.module.norm1": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block0.module.ls1": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block0.module.attn": {
+          "class_name": "SerializedAttention",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc2.block0.module.attn.rope": {
+          "class_name": "Point3DRoPE",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc2.block0.module.norm2": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block0.module.ls2": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block0.module.mlp": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block0.module.mlp.0": {
+          "class_name": "MLP",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc2.block0.module.drop_path": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block1.module": {
+          "class_name": "Block",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc2.block1.module.cpe": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block1.module.norm1": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block1.module.ls1": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block1.module.attn": {
+          "class_name": "SerializedAttention",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc2.block1.module.attn.rope": {
+          "class_name": "Point3DRoPE",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc2.block1.module.norm2": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block1.module.ls2": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block1.module.mlp": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        },
+        "native_point.encoder.enc.enc2.block1.module.mlp.0": {
+          "class_name": "MLP",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/model.py"
+        },
+        "native_point.encoder.enc.enc2.block1.module.drop_path": {
+          "class_name": "PointSequential",
+          "path": "/root/megrez-tmp/CPSF_UTONIA_KERNEL_LOCK_20261016_R9_A1/vendor/Utonia/utonia/module.py"
+        }
+      }
+    }
+  },
+  "test_used": false
+}
