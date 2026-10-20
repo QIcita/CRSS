@@ -93,7 +93,12 @@
       },
       "metrics_path": "extension/results/r28_lpa_attention_tlp/metrics.json",
       "final_sha256": "0f7fb79ee08c493150b7ef3f4bced1c1bab43e2b1a22ca06cc99b7211514ae6d",
-      "checked_utc": "2026-10-20T01:41:31.249893+00:00"
+      "checked_utc": "2026-10-20T01:41:31.249893+00:00",
+      "reported_metrics": {
+        "missing_edge_macro_ap": 0.5697102714165798,
+        "full_adjacency_macro_ap": 0.2228277028922212
+      },
+      "dual_metric_evidence": "evidence/tlp_dual_metrics_20261020.json"
     }
   ],
   "baselines": [
@@ -1084,7 +1089,12 @@
       "publication_year": 2023,
       "source_urls": [
         "https://raw.githubusercontent.com/qitianwu/SGFormer/main/Readme.md"
-      ]
+      ],
+      "reported_metrics": {
+        "missing_edge_macro_ap": 0.5512450620635706,
+        "full_adjacency_macro_ap": 0.3748588059757464
+      },
+      "dual_metric_evidence": "evidence/tlp_dual_metrics_20261020.json"
     },
     {
       "model": "polynormer",
@@ -1186,7 +1196,12 @@
       "publication_year": 2024,
       "source_urls": [
         "https://raw.githubusercontent.com/cornell-zhang/Polynormer/master/README.md"
-      ]
+      ],
+      "reported_metrics": {
+        "missing_edge_macro_ap": 0.5051799574293846,
+        "full_adjacency_macro_ap": 0.5007936297192386
+      },
+      "dual_metric_evidence": "evidence/tlp_dual_metrics_20261020.json"
     },
     {
       "model": "tlpnet",
@@ -1289,7 +1304,12 @@
       "source_urls": [
         "https://api.crossref.org/works/10.1016/j.patcog.2026.113267"
       ],
-      "adaptation_scope": "official network and SPE preprocessing; missing-only training objective; no Rule; frozen spatial split, not original paper protocol"
+      "adaptation_scope": "official network and SPE preprocessing; missing-only training objective; no Rule; frozen spatial split, not original paper protocol",
+      "reported_metrics": {
+        "missing_edge_macro_ap": 0.10843801033942084,
+        "full_adjacency_macro_ap": 0.17036827434074306
+      },
+      "dual_metric_evidence": "evidence/tlp_dual_metrics_20261020.json"
     },
     {
       "model": "graphformer",
@@ -1745,7 +1765,12 @@
         "selection": "fixed final epoch",
         "adapter": "Original R9 Integration/NativePoint unchanged. FlyModel six-class head; TLP retained directional XYZ and deterministic corridor pair readout. All scratch seed42. No new interaction modules.",
         "runtime_policy_sha256": "7b19e46ed2dc9a0b7189831c1d50e88018dce6b6dcc0cb4afb73b6616913bcd0"
-      }
+      },
+      "reported_metrics": {
+        "missing_edge_macro_ap": 0.5669343012311744,
+        "full_adjacency_macro_ap": 0.2083911024916766
+      },
+      "dual_metric_evidence": "evidence/tlp_dual_metrics_20261020.json"
     }
   ],
   "scope": {
@@ -1766,5 +1791,29 @@
   "publication_metadata": "evidence/baseline_publications.json",
   "tlp_protocol_audit": "evidence/tlp_dev_audit_20261020.json",
   "publication_annotation_date": "2026-10-20",
-  "result_snapshot_unchanged": true
+  "result_snapshot_unchanged": true,
+  "tlp_dual_metrics_checked_utc": "2026-10-20T02:41:32.394709+00:00",
+  "tlp_metric_definitions": {
+    "missing_scope": "i<j AND NOT raw_observed",
+    "full_scope": "all off-diagonal matrix entries, including observed edges; raw saved model probabilities, no copying observed edges",
+    "macro": "unweighted arithmetic mean of per-graph AP",
+    "observed_scores_overwritten": false
+  },
+  "supplemental_tlp_controls": [
+    {
+      "model": "tlpnet_native_objective",
+      "display_name": "TLP-Net（Pattern Recognition’26；原损失对照）‡",
+      "task": "tlp",
+      "publication_venue": "Pattern Recognition",
+      "publication_year": 2026,
+      "reported_metrics": {
+        "missing_edge_macro_ap": 0.010333293693017675,
+        "full_adjacency_macro_ap": 0.7809416770862884
+      },
+      "final_sha256": "d36124cbde2fec607079cec07157c3eb48565f48fbdcf9f86de2d7ceaa664825",
+      "evaluation_source": "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/metrics.json",
+      "dual_metric_evidence": "evidence/tlp_dual_metrics_20261020.json",
+      "scope": "Same spatial split and seed42/final80epoch budget; original official loss restored; no Rule; not original paper split reproduction"
+    }
+  ]
 }

@@ -96,7 +96,12 @@
       },
       "metrics_path": "extension/results/r28_lpa_attention_tlp/metrics.json",
       "final_sha256": "0f7fb79ee08c493150b7ef3f4bced1c1bab43e2b1a22ca06cc99b7211514ae6d",
-      "checked_utc": "2026-10-20T01:41:31.249893+00:00"
+      "checked_utc": "2026-10-20T01:41:31.249893+00:00",
+      "reported_metrics": {
+        "missing_edge_macro_ap": 0.5697102714165798,
+        "full_adjacency_macro_ap": 0.2228277028922212
+      },
+      "dual_metric_evidence": "evidence/tlp_dual_metrics_20261020.json"
     }
   ],
   "retained_reference": true,

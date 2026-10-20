@@ -2,10 +2,10 @@
   "README.md": "589bc617ce51ced393a37e6410b5cbc12929d03855a542dafd1663f2465cf84c",
   "RIGHTS_AND_PROVENANCE.md": "eb6df43126fdbfd077acbbe07f9c7f483433425e1a8d084968e6fb6c44dccb31",
   "START_HERE.md": "0fa847948156b4201279aa7c6d7d3d12ae84fc03c753bc57ec5e8edea58cd11a",
-  "code/r28/BASELINE_COMPARISON.csv": "218637ecea222b8d1c5b1cb76a84d2970edffb73953fd775a16c3c66eb711623",
-  "code/r28/BASELINE_COMPARISON.json": "ea6d510b8e3d96f2a9bdac4b6b3aba5deef230420e17f6e708e732cf15123e75",
+  "code/r28/BASELINE_COMPARISON.csv": "85acac9dd91bf42f15f854fd3a40007348595b348f8a4fd18380e3e0400364f9",
+  "code/r28/BASELINE_COMPARISON.json": "4ee51cc586bda9f20b0202a5acc6e4108205da26bd67661deb3307481f814bcb",
   "code/r28/README.md": "00e74eb328e1eae4d9277c15d513b46998fc02c0be254145440d71b278e017fa",
-  "code/r28/RESULTS.json": "7f06875864d9d685587c29834eec3c5dc7e8cd6647b1ca90fe8d71326117fa16",
+  "code/r28/RESULTS.json": "e7519a12941d91af10427af91f0ea95297e0cf7f7c9c6827782ed99e60fcd22b",
   "code/r28/evidence/baseline_live_audit.json": "08ffa4c6dee83be88a3d775a1bc15cf11f284c58d1f84e7601a27d5ce0f24dd6",
   "code/r28/evidence/baseline_publications.json": "03476f7c476c07812114272d79e1c3a1f5587bf270a7959655cd1c74bca9fd67",
   "code/r28/evidence/completed_status_audit.json": "271c5a30c41e1d08c3bd522db13d29bc6df80aa89b47b6ca7bd998195c0fab83",
@@ -557,8 +557,10 @@
   "code/r28/reference/vendor/Utonia/utonia/utils.py": "373fb39316bc12f55c002d77ce6b4e1a48b049f47c1baac82f61ada20327be59",
   "code/r28/server_export.json": "8bc7f29ce6b71ced058c48fc2bc9587b608e1d55fad1735fdbf34f0cca99a4a3",
   "docs/R28_ARCHITECTURE_ZH.md": "422c0efb668bf2c3437d7e860d0a200752476c4cd427870fb04ac6d070d0eabc",
-  "docs/R28_RESULTS_ZH.md": "62954d763482abf5a4cb355437c8d0dada8ce839ca152a491ba83f5f8d5082a4",
+  "docs/R28_RESULTS_ZH.md": "bfd20a9283f706e87413c5b91d665fa318b6f423bf73c66872c5a156d6557b20",
   "docs/README_SNAPSHOT_20261017.md": "c258b99713ea2ccceaff40db4025b7f4d8f63a5357d749758432b628ec0e8955",
-  "docs/TLP_NET_EVALUATION_AUDIT_ZH.md": "75bf3f278dc3dc174e45bfacafd74b241b25395e8e4b02f8743cc71aca9da6e0",
-  "scripts/verify_r28.py": "9116f64ebf8deb9ff94a8944850f6ce6232ba04eef64f7263a2ad13c790e5886"
+  "docs/TLP_NET_EVALUATION_AUDIT_ZH.md": "20fa002c37ec0e1ee1526400ba098d5ef6eb892df44a7e70b3156691f3d7fb0d",
+  "scripts/verify_r28.py": "105fe2c733b91b69f300363cbfa8e23fbe85ca74b74cf396e68ff51c4b37c79f",
+  "code/r28/evidence/tlp_dual_metrics_20261020.json": "9e4d816073117bbe639e49feb518487436b6ffde7f875f38d93d096b0d66fca5",
+  "code/r28/evidence/tlp_dual_metrics_20261020.py": "9df5ad24bb4a67e35a83c8b207c89b4f56e8aab76a6efbe5f3b29e287ca723ec"
 }

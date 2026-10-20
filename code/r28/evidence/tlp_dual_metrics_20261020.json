@@ -1,0 +1,3808 @@
+{
+  "utc": "2026-10-20T02:41:32.394709+00:00",
+  "split": "development validation",
+  "seed": 42,
+  "graphs": 62,
+  "test_predictions_accessed": false,
+  "test_metrics_used": false,
+  "training_launched": false,
+  "observed_scores_overwritten": false,
+  "missing_scope": "i<j AND NOT raw_observed",
+  "full_scope": "all off-diagonal matrix entries, including observed edges; raw saved model probabilities, no copying observed edges",
+  "macro": "unweighted arithmetic mean of per-graph AP",
+  "methods": {
+    "sgformer": {
+      "missing_edge_macro_ap": 0.5512450620635706,
+      "full_adjacency_macro_ap": 0.3748588059757464,
+      "source_metrics": "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/metrics.json",
+      "metrics_sha256": "c64a691ac8043be33123dc1f897bef4924bfc8de887878ba22a738198b77966e",
+      "checkpoint": "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/final.pt",
+      "checkpoint_sha256": "9b1efa855417330a12f2c1bd41d121083f17c82c200d0fd373f874092ecf50a8",
+      "graphs": [
+        {
+          "key": "x10056_y8096_z3540",
+          "missing_edge_ap": 0.6053968253968254,
+          "full_adjacency_ap": 0.38020024516265244,
+          "missing_pairs": 10019,
+          "missing_positives": 5,
+          "full_entries": 20306,
+          "full_positives": 278
+        },
+        {
+          "key": "x10056_y8560_z3540",
+          "missing_edge_ap": 0.47619047619047616,
+          "full_adjacency_ap": 0.37570987784889054,
+          "missing_pairs": 3244,
+          "missing_positives": 3,
+          "full_entries": 6642,
+          "full_positives": 160
+        },
+        {
+          "key": "x10056_y8792_z3772",
+          "missing_edge_ap": 0.4303571428571429,
+          "full_adjacency_ap": 0.4272482094355991,
+          "missing_pairs": 5676,
+          "missing_positives": 4,
+          "full_entries": 11556,
+          "full_positives": 212
+        },
+        {
+          "key": "x10056_y9024_z3540",
+          "missing_edge_ap": 0.2715873015873016,
+          "full_adjacency_ap": 0.3558875015548538,
+          "missing_pairs": 28690,
+          "missing_positives": 5,
+          "full_entries": 57840,
+          "full_positives": 470
+        },
+        {
+          "key": "x10176_y8978_z3697",
+          "missing_edge_ap": 0.8666666666666667,
+          "full_adjacency_ap": 0.34433056788220084,
+          "missing_pairs": 1544,
+          "missing_positives": 3,
+          "full_entries": 3192,
+          "full_positives": 110
+        },
+        {
+          "key": "x10288_y7864_z3540",
+          "missing_edge_ap": 0.8928571428571428,
+          "full_adjacency_ap": 0.46259933955916005,
+          "missing_pairs": 3008,
+          "missing_positives": 4,
+          "full_entries": 6162,
+          "full_positives": 154
+        },
+        {
+          "key": "x10288_y7864_z3772",
+          "missing_edge_ap": 0.46596896281106803,
+          "full_adjacency_ap": 0.2844802745700502,
+          "missing_pairs": 19514,
+          "missing_positives": 9,
+          "full_entries": 39402,
+          "full_positives": 392
+        },
+        {
+          "key": "x10288_y8096_z3540",
+          "missing_edge_ap": 0.4148577117327117,
+          "full_adjacency_ap": 0.39978385045006715,
+          "missing_pairs": 25891,
+          "missing_positives": 8,
+          "full_entries": 52212,
+          "full_positives": 446
+        },
+        {
+          "key": "x10288_y8328_z3540",
+          "missing_edge_ap": 0.48333333333333334,
+          "full_adjacency_ap": 0.4402213174534014,
+          "missing_pairs": 5783,
+          "missing_positives": 4,
+          "full_entries": 11772,
+          "full_positives": 214
+        },
+        {
+          "key": "x10288_y8560_z3540",
+          "missing_edge_ap": 0.41081623461009426,
+          "full_adjacency_ap": 0.3550859382650409,
+          "missing_pairs": 37692,
+          "missing_positives": 12,
+          "full_entries": 75900,
+          "full_positives": 540
+        },
+        {
+          "key": "x10288_y8560_z3772",
+          "missing_edge_ap": 0.31750321750321747,
+          "full_adjacency_ap": 0.3947831148068548,
+          "missing_pairs": 8391,
+          "missing_positives": 4,
+          "full_entries": 17030,
+          "full_positives": 256
+        },
+        {
+          "key": "x10288_y8792_z3540",
+          "missing_edge_ap": 0.4085504846778235,
+          "full_adjacency_ap": 0.376238201926036,
+          "missing_pairs": 93116,
+          "missing_positives": 13,
+          "full_entries": 187056,
+          "full_positives": 850
+        },
+        {
+          "key": "x10288_y9024_z3540",
+          "missing_edge_ap": 0.29166666666666663,
+          "full_adjacency_ap": 0.2999155772370872,
+          "missing_pairs": 1656,
+          "missing_positives": 2,
+          "full_entries": 3422,
+          "full_positives": 114
+        },
+        {
+          "key": "x10520_y7632_z3540",
+          "missing_edge_ap": 0.1111111111111111,
+          "full_adjacency_ap": 0.39230031752227124,
+          "missing_pairs": 1379,
+          "missing_positives": 1,
+          "full_entries": 2862,
+          "full_positives": 106
+        },
+        {
+          "key": "x8085_y9439_z3925",
+          "missing_edge_ap": 0.4415204678362573,
+          "full_adjacency_ap": 0.5199844677639042,
+          "missing_pairs": 3659,
+          "missing_positives": 3,
+          "full_entries": 7482,
+          "full_positives": 170
+        },
+        {
+          "key": "x8158_y9151_z4137",
+          "missing_edge_ap": 0.3206349206349206,
+          "full_adjacency_ap": 0.4552966817736622,
+          "missing_pairs": 28925,
+          "missing_positives": 3,
+          "full_entries": 58322,
+          "full_positives": 478
+        },
+        {
+          "key": "x8317_y10135_z3925",
+          "missing_edge_ap": 0.625,
+          "full_adjacency_ap": 0.3927120379646183,
+          "missing_pairs": 4566,
+          "missing_positives": 4,
+          "full_entries": 9312,
+          "full_positives": 188
+        },
+        {
+          "key": "x8317_y10135_z4157",
+          "missing_edge_ap": 0.6666666666666666,
+          "full_adjacency_ap": 0.49059645711801386,
+          "missing_pairs": 3659,
+          "missing_positives": 3,
+          "full_entries": 7482,
+          "full_positives": 170
+        },
+        {
+          "key": "x8317_y9671_z3925",
+          "missing_edge_ap": 0.3813378410804881,
+          "full_adjacency_ap": 0.4166200285487882,
+          "missing_pairs": 36055,
+          "missing_positives": 8,
+          "full_entries": 72630,
+          "full_positives": 536
+        },
+        {
+          "key": "x8317_y9903_z3925",
+          "missing_edge_ap": 0.4246642246642247,
+          "full_adjacency_ap": 0.4029026724061163,
+          "missing_pairs": 22589,
+          "missing_positives": 7,
+          "full_entries": 45582,
+          "full_positives": 418
+        },
+        {
+          "key": "x8320_y10138_z3697",
+          "missing_edge_ap": 0.75,
+          "full_adjacency_ap": 0.3986915703856193,
+          "missing_pairs": 3008,
+          "missing_positives": 4,
+          "full_entries": 6162,
+          "full_positives": 154
+        },
+        {
+          "key": "x8320_y10138_z3929",
+          "missing_edge_ap": 0.6095238095238096,
+          "full_adjacency_ap": 0.3158118246340441,
+          "missing_pairs": 6111,
+          "missing_positives": 3,
+          "full_entries": 12432,
+          "full_positives": 212
+        },
+        {
+          "key": "x8390_y10079_z3905",
+          "missing_edge_ap": 1.0,
+          "full_adjacency_ap": 0.5412037557054519,
+          "missing_pairs": 12093,
+          "missing_positives": 1,
+          "full_entries": 24492,
+          "full_positives": 308
+        },
+        {
+          "key": "x8390_y9383_z3905",
+          "missing_edge_ap": 0.29166666666666663,
+          "full_adjacency_ap": 0.32094949188283695,
+          "missing_pairs": 2559,
+          "missing_positives": 2,
+          "full_entries": 5256,
+          "full_positives": 142
+        },
+        {
+          "key": "x8549_y9439_z3693",
+          "missing_edge_ap": 0.14285714285714285,
+          "full_adjacency_ap": 0.38369875295051853,
+          "missing_pairs": 821,
+          "missing_positives": 1,
+          "full_entries": 1722,
+          "full_positives": 82
+        },
+        {
+          "key": "x8622_y10079_z3673",
+          "missing_edge_ap": 0.5388888888888889,
+          "full_adjacency_ap": 0.4494603232223795,
+          "missing_pairs": 67542,
+          "missing_positives": 7,
+          "full_entries": 135792,
+          "full_positives": 714
+        },
+        {
+          "key": "x8622_y10079_z3905",
+          "missing_edge_ap": 0.8666666666666667,
+          "full_adjacency_ap": 0.3822040449212872,
+          "missing_pairs": 46980,
+          "missing_positives": 3,
+          "full_entries": 94556,
+          "full_positives": 602
+        },
+        {
+          "key": "x8622_y10079_z4137",
+          "missing_edge_ap": 0.31796536796536795,
+          "full_adjacency_ap": 0.3643750236231493,
+          "missing_pairs": 53312,
+          "missing_positives": 5,
+          "full_entries": 107256,
+          "full_positives": 642
+        },
+        {
+          "key": "x8622_y10311_z3673",
+          "missing_edge_ap": 0.35930402930402927,
+          "full_adjacency_ap": 0.37406569073383455,
+          "missing_pairs": 44860,
+          "missing_positives": 5,
+          "full_entries": 90300,
+          "full_positives": 582
+        },
+        {
+          "key": "x8622_y9615_z3905",
+          "missing_edge_ap": 0.2791666666666667,
+          "full_adjacency_ap": 0.28773423808664716,
+          "missing_pairs": 19117,
+          "missing_positives": 5,
+          "full_entries": 38612,
+          "full_positives": 384
+        },
+        {
+          "key": "x8622_y9847_z3673",
+          "missing_edge_ap": 0.325,
+          "full_adjacency_ap": 0.4131185740893844,
+          "missing_pairs": 5359,
+          "missing_positives": 2,
+          "full_entries": 10920,
+          "full_positives": 206
+        },
+        {
+          "key": "x8622_y9847_z3905",
+          "missing_edge_ap": 0.5885281385281385,
+          "full_adjacency_ap": 0.29684765611375863,
+          "missing_pairs": 28688,
+          "missing_positives": 5,
+          "full_entries": 57840,
+          "full_positives": 470
+        },
+        {
+          "key": "x8781_y9439_z3693",
+          "missing_edge_ap": 0.6734234234234234,
+          "full_adjacency_ap": 0.4672529895923654,
+          "missing_pairs": 11181,
+          "missing_positives": 3,
+          "full_entries": 22650,
+          "full_positives": 294
+        },
+        {
+          "key": "x8784_y9442_z3697",
+          "missing_edge_ap": 0.7,
+          "full_adjacency_ap": 0.3233769228711012,
+          "missing_pairs": 1599,
+          "missing_positives": 2,
+          "full_entries": 3306,
+          "full_positives": 112
+        },
+        {
+          "key": "x8784_y9674_z3697",
+          "missing_edge_ap": 0.7291666666666666,
+          "full_adjacency_ap": 0.3887870112320035,
+          "missing_pairs": 1383,
+          "missing_positives": 4,
+          "full_entries": 2862,
+          "full_positives": 104
+        },
+        {
+          "key": "x8854_y9615_z3905",
+          "missing_edge_ap": 0.4666666666666667,
+          "full_adjacency_ap": 0.3155584801960612,
+          "missing_pairs": 4375,
+          "missing_positives": 3,
+          "full_entries": 8930,
+          "full_positives": 186
+        },
+        {
+          "key": "x9016_y9210_z3697",
+          "missing_edge_ap": 1.0,
+          "full_adjacency_ap": 0.4991845942556596,
+          "missing_pairs": 9053,
+          "missing_positives": 5,
+          "full_entries": 18360,
+          "full_positives": 264
+        },
+        {
+          "key": "x9016_y9442_z3697",
+          "missing_edge_ap": 1.0,
+          "full_adjacency_ap": 0.4235057222832038,
+          "missing_pairs": 4378,
+          "missing_positives": 3,
+          "full_entries": 8930,
+          "full_positives": 176
+        },
+        {
+          "key": "x9086_y10079_z3441",
+          "missing_edge_ap": 0.47275641025641024,
+          "full_adjacency_ap": 0.3058824949251748,
+          "missing_pairs": 21537,
+          "missing_positives": 4,
+          "full_entries": 43472,
+          "full_positives": 406
+        },
+        {
+          "key": "x9086_y9847_z3441",
+          "missing_edge_ap": 0.3335714285714285,
+          "full_adjacency_ap": 0.2450393778174477,
+          "missing_pairs": 16298,
+          "missing_positives": 5,
+          "full_entries": 32942,
+          "full_positives": 350
+        },
+        {
+          "key": "x9086_y9847_z3673",
+          "missing_edge_ap": 0.5769230769230769,
+          "full_adjacency_ap": 0.39728358395383945,
+          "missing_pairs": 8389,
+          "missing_positives": 2,
+          "full_entries": 17030,
+          "full_positives": 256
+        },
+        {
+          "key": "x9248_y9442_z3697",
+          "missing_edge_ap": 0.9166666666666665,
+          "full_adjacency_ap": 0.42437178858082664,
+          "missing_pairs": 3244,
+          "missing_positives": 3,
+          "full_entries": 6642,
+          "full_positives": 160
+        },
+        {
+          "key": "x9318_y10079_z3441",
+          "missing_edge_ap": 0.8409090909090909,
+          "full_adjacency_ap": 0.2894786131609335,
+          "missing_pairs": 16478,
+          "missing_positives": 4,
+          "full_entries": 33306,
+          "full_positives": 358
+        },
+        {
+          "key": "x9318_y10311_z3441",
+          "missing_edge_ap": 0.7936507936507935,
+          "full_adjacency_ap": 0.35544217420134017,
+          "missing_pairs": 146087,
+          "missing_positives": 7,
+          "full_entries": 293222,
+          "full_positives": 1054
+        },
+        {
+          "key": "x9318_y9847_z3441",
+          "missing_edge_ap": 0.2690329627672986,
+          "full_adjacency_ap": 0.3060668283256857,
+          "missing_pairs": 35791,
+          "missing_positives": 9,
+          "full_entries": 72092,
+          "full_positives": 524
+        },
+        {
+          "key": "x9480_y8978_z3697",
+          "missing_edge_ap": 0.38333333333333336,
+          "full_adjacency_ap": 0.31475290904620384,
+          "missing_pairs": 2781,
+          "missing_positives": 3,
+          "full_entries": 5700,
+          "full_positives": 144
+        },
+        {
+          "key": "x9480_y9210_z3697",
+          "missing_edge_ap": 0.581791834756231,
+          "full_adjacency_ap": 0.3784355988884005,
+          "missing_pairs": 24108,
+          "missing_positives": 10,
+          "full_entries": 48620,
+          "full_positives": 424
+        },
+        {
+          "key": "x9712_y8978_z3929",
+          "missing_edge_ap": 0.65,
+          "full_adjacency_ap": 0.4152575258055858,
+          "missing_pairs": 6910,
+          "missing_positives": 4,
+          "full_entries": 14042,
+          "full_positives": 228
+        },
+        {
+          "key": "x9712_y9210_z3697",
+          "missing_edge_ap": 0.5703703703703703,
+          "full_adjacency_ap": 0.378946800446104,
+          "missing_pairs": 14890,
+          "missing_positives": 6,
+          "full_entries": 30102,
+          "full_positives": 326
+        },
+        {
+          "key": "x9824_y7864_z3772",
+          "missing_edge_ap": 1.0,
+          "full_adjacency_ap": 0.3576517341394754,
+          "missing_pairs": 1894,
+          "missing_positives": 2,
+          "full_entries": 3906,
+          "full_positives": 122
+        },
+        {
+          "key": "x9824_y8328_z3540",
+          "missing_edge_ap": 1.0,
+          "full_adjacency_ap": 0.4068650794632819,
+          "missing_pairs": 6444,
+          "missing_positives": 2,
+          "full_entries": 13110,
+          "full_positives": 226
+        },
+        {
+          "key": "x9824_y8560_z3540",
+          "missing_edge_ap": 0.6984126984126984,
+          "full_adjacency_ap": 0.37531911280310626,
+          "missing_pairs": 4661,
+          "missing_positives": 3,
+          "full_entries": 9506,
+          "full_positives": 190
+        },
+        {
+          "key": "x9824_y8792_z3540",
+          "missing_edge_ap": 0.9166666666666665,
+          "full_adjacency_ap": 0.34339370682571163,
+          "missing_pairs": 3491,
+          "missing_positives": 3,
+          "full_entries": 7140,
+          "full_positives": 164
+        },
+        {
+          "key": "x9824_y8792_z3772",
+          "missing_edge_ap": 0.4154761904761905,
+          "full_adjacency_ap": 0.3961466903296291,
+          "missing_pairs": 2420,
+          "missing_positives": 4,
+          "full_entries": 4970,
+          "full_positives": 138
+        },
+        {
+          "key": "x9824_y9024_z3540",
+          "missing_edge_ap": 0.35621315192743763,
+          "full_adjacency_ap": 0.3997226102364859,
+          "missing_pairs": 21332,
+          "missing_positives": 7,
+          "full_entries": 43056,
+          "full_positives": 406
+        },
+        {
+          "key": "x9824_y9024_z3772",
+          "missing_edge_ap": 1.0,
+          "full_adjacency_ap": 0.33995763794320655,
+          "missing_pairs": 865,
+          "missing_positives": 2,
+          "full_entries": 1806,
+          "full_positives": 80
+        },
+        {
+          "key": "x9944_y8514_z3697",
+          "missing_edge_ap": 0.41111111111111115,
+          "full_adjacency_ap": 0.3791530375764311,
+          "missing_pairs": 4101,
+          "missing_positives": 3,
+          "full_entries": 8372,
+          "full_positives": 176
+        },
+        {
+          "key": "x9944_y8746_z3697",
+          "missing_edge_ap": 0.29554778010660365,
+          "full_adjacency_ap": 0.29855465484063337,
+          "missing_pairs": 9197,
+          "missing_positives": 9,
+          "full_entries": 18632,
+          "full_positives": 256
+        },
+        {
+          "key": "x9944_y8978_z3697",
+          "missing_edge_ap": 0.26957070707070707,
+          "full_adjacency_ap": 0.27639867891940806,
+          "missing_pairs": 6564,
+          "missing_positives": 4,
+          "full_entries": 13340,
+          "full_positives": 220
+        },
+        {
+          "key": "x10014_y8687_z3673",
+          "missing_edge_ap": 0.5825718141507615,
+          "full_adjacency_ap": 0.3201516434491587,
+          "missing_pairs": 78225,
+          "missing_positives": 9,
+          "full_entries": 157212,
+          "full_positives": 780
+        },
+        {
+          "key": "x10014_y8919_z3673",
+          "missing_edge_ap": 0.47714285714285715,
+          "full_adjacency_ap": 0.3790010882320363,
+          "missing_pairs": 36324,
+          "missing_positives": 5,
+          "full_entries": 73170,
+          "full_positives": 532
+        },
+        {
+          "key": "x9782_y9151_z3673",
+          "missing_edge_ap": 0.41996336996336997,
+          "full_adjacency_ap": 0.2452492545575981,
+          "missing_pairs": 6677,
+          "missing_positives": 5,
+          "full_entries": 13572,
+          "full_positives": 228
+        }
+      ],
+      "prediction_hashes": {
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x10056_y8096_z3540.npz": "a8a30f1e455e478a7dbf3ca67bfca6063ecf1426639c0ad536c6fb96ecf6a45f",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x10056_y8560_z3540.npz": "075d795d314abbcee414f2cf61ab66c4de58356887be2e7eb4eff96d784fc8e6",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x10056_y8792_z3772.npz": "432684df5286f3a5ff3b112442008ef40a0236606c2df1eaaa77b5c50d7dd38a",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x10056_y9024_z3540.npz": "41443ad3f29f8efa7d164c39b7ad0230baeae9693b1618703b6d697be9d3a53f",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x10176_y8978_z3697.npz": "c061f07807e6dbd149f1afcf2deba88ee2c1a0fc67f4817c098c45288e4493f7",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x10288_y7864_z3540.npz": "3a6a2aaee7d414228e571560a56efd4c49dc59c9849a0cb89e2cc867a51dce53",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x10288_y7864_z3772.npz": "fb1aefe179fdb93864fa067891acf993f64db6f5b9e6e32b6f16263261978c55",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x10288_y8096_z3540.npz": "feb86a81173efb69853caf8de5a21d45fef13275a68d3198032a4bf03a069d8b",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x10288_y8328_z3540.npz": "97bef0898a960a9fd3f590f5591da5f3b412ea1af59d96689bb2ace5500df078",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x10288_y8560_z3540.npz": "0b66ba7e456eebe584aaac12885c41f6c2739359593db6deda75cf45fa92244b",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x10288_y8560_z3772.npz": "6453a8603bc38de5d8fe90776271621fca7db3b2600fe4e36727cfd17adbebc7",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x10288_y8792_z3540.npz": "392b393a06396a13dc27d80f7f742e4b7828f18d61d76ab556e12cb1c8278cf7",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x10288_y9024_z3540.npz": "b05df2907be9d520cd443b3847e2eaee8704b5e33a6a2140de13868a443d934b",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x10520_y7632_z3540.npz": "c7a5227bd7b3f947ed5d24eb36f5d51ac1ad52d28d65717cdf265406a3a64653",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x8085_y9439_z3925.npz": "7732bf9bcec8e3e7192ef1ffa538091011fe3fed66107d6d6754f0005f0ebce2",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x8158_y9151_z4137.npz": "f57cee0f1c92a38fe1cc96fdf377ffae9f99547dc5f254efca5bf44266c6fb12",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x8317_y10135_z3925.npz": "64ffc803f7cdb49a7dbd112bae9ce6fb1aafc4b51a2f6a471484880b7649eeb3",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x8317_y10135_z4157.npz": "3971d9f074fbdbbebd38283bb0b11ee80c528a199c3459c2ec361079be8a8d43",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x8317_y9671_z3925.npz": "06b7fa889f4a299469f627733bc939d8e6c5d1e45352c2b22037ae82e628cb24",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x8317_y9903_z3925.npz": "dbb27dabacf5db53f13cbf3693185eb5752bf065857d51cb7d8a9a2b1340e314",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x8320_y10138_z3697.npz": "173e20d083871406040161fc51d79a0fdb8ec39f69045c1c87fbb00709b71df2",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x8320_y10138_z3929.npz": "d54fde3010627958ed7ec09cd2e15ca6561e8b8d7219498f38844d56d86d91bd",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x8390_y10079_z3905.npz": "aab1503e29c43f2c55e89916d79aad5c23b23e82770bed04950cbfae174c96a9",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x8390_y9383_z3905.npz": "c7a1d1d32f24f7a8ac524ad8b08aeae6872f61c4d3af0ee6fcff02ae0aab52a3",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x8549_y9439_z3693.npz": "7c6170499a20b8493bebec0c23c8f8511f0f78e4e7ef9d54cec7de620dc3c7c4",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x8622_y10079_z3673.npz": "4249c2a819a54c8dc3fa0140fee00b5c251de067a84a4ac93dd13213073c565c",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x8622_y10079_z3905.npz": "dbd5b81b55e0d95828e7206ba85ec01cc290426c27adfeb87838752471b4fb69",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x8622_y10079_z4137.npz": "a705db3d0061e70bb83cd84cf003286b3b6e3cfa3c654c15f7ab3685c4e1eda8",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x8622_y10311_z3673.npz": "0f4bcfb83485cecab26f6ca866ad6e33c30914e5b923620374ba54dbd34d4518",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x8622_y9615_z3905.npz": "527036c62d31c2e7c821a5b2da3b96665cde5f566681272ca44f1432fb2c2fb0",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x8622_y9847_z3673.npz": "a7b7c660967943a37c7922031136a6068a4bc16f9e5de88862bc73d2c83665e8",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x8622_y9847_z3905.npz": "3cf76bb706a5bffedfd7623b3cc37a9c4021249f33b4bbc9282fe3d3f0186efe",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x8781_y9439_z3693.npz": "2031256cb531708fc756935fefd3fe0c8b275c35b667d83d4a046caaaa40aa3d",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x8784_y9442_z3697.npz": "e621d3a44e5c2050ffd990c2da3725c57c716c71fb6ea3dab1190d85723d4686",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x8784_y9674_z3697.npz": "a387820e9e7727f67d7155d4dd10a7ff9b197cfb6f3788ea19357ac22244683e",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x8854_y9615_z3905.npz": "0427d2a4fc8042904a08bf4ccfdd7235a230daa3092fd048e2d78f4945f8b50b",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x9016_y9210_z3697.npz": "7e5379543877971f7aaabcabd5b38ec83f907a646f2c92eda1a78c19ba121ca5",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x9016_y9442_z3697.npz": "0d287ead5a54815e8b8a766e00f668d96be837ec513bfaf254ad9f92466c683c",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x9086_y10079_z3441.npz": "a831b33f008efc94633ee8e7cfa598dc00ae3d69619cecf1591e977ce700da85",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x9086_y9847_z3441.npz": "6597c9c30b5622e5b06a484f53cbe71a50aa0ac2d71f2c2db4278894f77a1219",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x9086_y9847_z3673.npz": "81fae8da04b2d510b3cd00028adad026703762d32cc6faabc32563fa23a801a2",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x9248_y9442_z3697.npz": "758f18f5f03916aa8968f2848cf43abdcd33a7301dce43051aca2eed5fce1cbf",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x9318_y10079_z3441.npz": "9a3b59152d808e0bbf470ee9000a4d8df591064ea59fc1458a3584f26ec11966",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x9318_y10311_z3441.npz": "f765245f0cce0663a542d5119192dddee819a7ed225ca14e3eeffeb716ae59de",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x9318_y9847_z3441.npz": "d28fc5f7428ab80557afc73f880b117425378f36943ce55d5c75ff95df0883f1",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x9480_y8978_z3697.npz": "c78cad65c6bbdfbc8ff3f105c73e5d074e6001a4584f6019c0f72461e247e8c7",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x9480_y9210_z3697.npz": "864468589a489e82698f93b116e2905045609533349dd86d30ecf253cb96451a",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x9712_y8978_z3929.npz": "1b1951dd3877dea6dd9861146b0610107d6da758cc6eb4a3824027aadca7a39d",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x9712_y9210_z3697.npz": "434dc85be05442f2c6c4f1325a2ecc33eb803676f6260a94d65d759727f16a87",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x9824_y7864_z3772.npz": "fdf137e2e7aa8543aa8b8295b5ee070ddd2b73f371ce0ba7b7fec1892331cabd",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x9824_y8328_z3540.npz": "1afeef3fdc28679f96fe728684f79f93c22fc152431bff26d16245b53508b4c2",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x9824_y8560_z3540.npz": "ab405835f356be50891c8e80d761d4e7c4f2d4fb807f677976f5ea64a1f49f08",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x9824_y8792_z3540.npz": "3dccbea27be4063bd46bc47ef1983e3a3529be67c6ca55e5a74080a9d67eb815",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x9824_y8792_z3772.npz": "23b8584056927b4b9181d5dfe81b79a4ae758b2414fb61840f18c1f8138ee8b3",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x9824_y9024_z3540.npz": "1fc54160a22e0343abc2be93f09c6460a6088a4e8b4a63d2c06c225abdfdc459",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x9824_y9024_z3772.npz": "f3b40f89afd7eeaf1aef3e003443e0d37870a57b828653811c7bc7c8a8c88f51",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x9944_y8514_z3697.npz": "29b40690349dfbef7657b207b4787d0e5e6730204e436cc5d7644246ed3bdb8a",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x9944_y8746_z3697.npz": "2fb099abbcbbd63b84813760a89e331e29b94eef5bd39c54f4896d4a0c0d4bbb",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x9944_y8978_z3697.npz": "9a7c408a176f5ab2404996a9adfff2c5bc5b0951b1a508688bddcc343f7afa50",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x10014_y8687_z3673.npz": "ebaac2fd008b41fca93e44d542478e69d48c4297c700dbbb196c2aa5521d9754",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x10014_y8919_z3673.npz": "b2c8eedd1a710cddc7f8a2c85f5958e1e5e4819f8248750b8ac17c765cf846ed",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/val/x9782_y9151_z3673.npz": "6c6dcc75c694c6ef5abd38dce67c8e4527547bc51863a86931394dfec9ca5c95"
+      }
+    },
+    "polynormer": {
+      "missing_edge_macro_ap": 0.5051799574293846,
+      "full_adjacency_macro_ap": 0.5007936297192386,
+      "source_metrics": "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/metrics.json",
+      "metrics_sha256": "7227b91070adfab398b36711a32466b3d09f27483aa7da7750f9259ae6934c28",
+      "checkpoint": "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/final.pt",
+      "checkpoint_sha256": "c27615e9e164ce544a1fb53175a7ddbbccc86631295d703453ea2cb4944e9983",
+      "graphs": [
+        {
+          "key": "x10056_y8096_z3540",
+          "missing_edge_ap": 0.5688888888888889,
+          "full_adjacency_ap": 0.5083876160921486,
+          "missing_pairs": 10019,
+          "missing_positives": 5,
+          "full_entries": 20306,
+          "full_positives": 278
+        },
+        {
+          "key": "x10056_y8560_z3540",
+          "missing_edge_ap": 0.4537037037037037,
+          "full_adjacency_ap": 0.5268627642752564,
+          "missing_pairs": 3244,
+          "missing_positives": 3,
+          "full_entries": 6642,
+          "full_positives": 160
+        },
+        {
+          "key": "x10056_y8792_z3772",
+          "missing_edge_ap": 0.4083333333333333,
+          "full_adjacency_ap": 0.5443045320153757,
+          "missing_pairs": 5676,
+          "missing_positives": 4,
+          "full_entries": 11556,
+          "full_positives": 212
+        },
+        {
+          "key": "x10056_y9024_z3540",
+          "missing_edge_ap": 0.5261904761904761,
+          "full_adjacency_ap": 0.4896879088290157,
+          "missing_pairs": 28690,
+          "missing_positives": 5,
+          "full_entries": 57840,
+          "full_positives": 470
+        },
+        {
+          "key": "x10176_y8978_z3697",
+          "missing_edge_ap": 0.9166666666666666,
+          "full_adjacency_ap": 0.5305607343630121,
+          "missing_pairs": 1544,
+          "missing_positives": 3,
+          "full_entries": 3192,
+          "full_positives": 110
+        },
+        {
+          "key": "x10288_y7864_z3540",
+          "missing_edge_ap": 0.6166666666666667,
+          "full_adjacency_ap": 0.6056176212361928,
+          "missing_pairs": 3008,
+          "missing_positives": 4,
+          "full_entries": 6162,
+          "full_positives": 154
+        },
+        {
+          "key": "x10288_y7864_z3772",
+          "missing_edge_ap": 0.37251036001036,
+          "full_adjacency_ap": 0.43516037113405065,
+          "missing_pairs": 19514,
+          "missing_positives": 9,
+          "full_entries": 39402,
+          "full_positives": 392
+        },
+        {
+          "key": "x10288_y8096_z3540",
+          "missing_edge_ap": 0.4514152514152514,
+          "full_adjacency_ap": 0.515567079030768,
+          "missing_pairs": 25891,
+          "missing_positives": 8,
+          "full_entries": 52212,
+          "full_positives": 446
+        },
+        {
+          "key": "x10288_y8328_z3540",
+          "missing_edge_ap": 0.5428571428571428,
+          "full_adjacency_ap": 0.5841854852140268,
+          "missing_pairs": 5783,
+          "missing_positives": 4,
+          "full_entries": 11772,
+          "full_positives": 214
+        },
+        {
+          "key": "x10288_y8560_z3540",
+          "missing_edge_ap": 0.46247570168622804,
+          "full_adjacency_ap": 0.4641296901498606,
+          "missing_pairs": 37692,
+          "missing_positives": 12,
+          "full_entries": 75900,
+          "full_positives": 540
+        },
+        {
+          "key": "x10288_y8560_z3772",
+          "missing_edge_ap": 0.24813829787234043,
+          "full_adjacency_ap": 0.4198058617859545,
+          "missing_pairs": 8391,
+          "missing_positives": 4,
+          "full_entries": 17030,
+          "full_positives": 256
+        },
+        {
+          "key": "x10288_y8792_z3540",
+          "missing_edge_ap": 0.38179089532626087,
+          "full_adjacency_ap": 0.45553917099744423,
+          "missing_pairs": 93116,
+          "missing_positives": 13,
+          "full_entries": 187056,
+          "full_positives": 850
+        },
+        {
+          "key": "x10288_y9024_z3540",
+          "missing_edge_ap": 0.26785714285714285,
+          "full_adjacency_ap": 0.48562008244951566,
+          "missing_pairs": 1656,
+          "missing_positives": 2,
+          "full_entries": 3422,
+          "full_positives": 114
+        },
+        {
+          "key": "x10520_y7632_z3540",
+          "missing_edge_ap": 0.16666666666666666,
+          "full_adjacency_ap": 0.5836531434554081,
+          "missing_pairs": 1379,
+          "missing_positives": 1,
+          "full_entries": 2862,
+          "full_positives": 106
+        },
+        {
+          "key": "x8085_y9439_z3925",
+          "missing_edge_ap": 0.4555555555555555,
+          "full_adjacency_ap": 0.5220293242855804,
+          "missing_pairs": 3659,
+          "missing_positives": 3,
+          "full_entries": 7482,
+          "full_positives": 170
+        },
+        {
+          "key": "x8158_y9151_z4137",
+          "missing_edge_ap": 0.3206349206349206,
+          "full_adjacency_ap": 0.5978333591053017,
+          "missing_pairs": 28925,
+          "missing_positives": 3,
+          "full_entries": 58322,
+          "full_positives": 478
+        },
+        {
+          "key": "x8317_y10135_z3925",
+          "missing_edge_ap": 0.6111111111111112,
+          "full_adjacency_ap": 0.5657731615402715,
+          "missing_pairs": 4566,
+          "missing_positives": 4,
+          "full_entries": 9312,
+          "full_positives": 188
+        },
+        {
+          "key": "x8317_y10135_z4157",
+          "missing_edge_ap": 0.1485042735042735,
+          "full_adjacency_ap": 0.5062627350063027,
+          "missing_pairs": 3659,
+          "missing_positives": 3,
+          "full_entries": 7482,
+          "full_positives": 170
+        },
+        {
+          "key": "x8317_y9671_z3925",
+          "missing_edge_ap": 0.2676946591420276,
+          "full_adjacency_ap": 0.5377102454235337,
+          "missing_pairs": 36055,
+          "missing_positives": 8,
+          "full_entries": 72630,
+          "full_positives": 536
+        },
+        {
+          "key": "x8317_y9903_z3925",
+          "missing_edge_ap": 0.4285405071119357,
+          "full_adjacency_ap": 0.4963238335903745,
+          "missing_pairs": 22589,
+          "missing_positives": 7,
+          "full_entries": 45582,
+          "full_positives": 418
+        },
+        {
+          "key": "x8320_y10138_z3697",
+          "missing_edge_ap": 0.6916666666666667,
+          "full_adjacency_ap": 0.5204625413368854,
+          "missing_pairs": 3008,
+          "missing_positives": 4,
+          "full_entries": 6162,
+          "full_positives": 154
+        },
+        {
+          "key": "x8320_y10138_z3929",
+          "missing_edge_ap": 0.3595238095238095,
+          "full_adjacency_ap": 0.3921733988501462,
+          "missing_pairs": 6111,
+          "missing_positives": 3,
+          "full_entries": 12432,
+          "full_positives": 212
+        },
+        {
+          "key": "x8390_y10079_z3905",
+          "missing_edge_ap": 0.5,
+          "full_adjacency_ap": 0.6493821808396444,
+          "missing_pairs": 12093,
+          "missing_positives": 1,
+          "full_entries": 24492,
+          "full_positives": 308
+        },
+        {
+          "key": "x8390_y9383_z3905",
+          "missing_edge_ap": 0.325,
+          "full_adjacency_ap": 0.5442738951562299,
+          "missing_pairs": 2559,
+          "missing_positives": 2,
+          "full_entries": 5256,
+          "full_positives": 142
+        },
+        {
+          "key": "x8549_y9439_z3693",
+          "missing_edge_ap": 0.125,
+          "full_adjacency_ap": 0.5880379132134,
+          "missing_pairs": 821,
+          "missing_positives": 1,
+          "full_entries": 1722,
+          "full_positives": 82
+        },
+        {
+          "key": "x8622_y10079_z3673",
+          "missing_edge_ap": 0.40082348728965267,
+          "full_adjacency_ap": 0.4582335927194268,
+          "missing_pairs": 67542,
+          "missing_positives": 7,
+          "full_entries": 135792,
+          "full_positives": 714
+        },
+        {
+          "key": "x8622_y10079_z3905",
+          "missing_edge_ap": 0.20555555555555555,
+          "full_adjacency_ap": 0.42369401563986386,
+          "missing_pairs": 46980,
+          "missing_positives": 3,
+          "full_entries": 94556,
+          "full_positives": 602
+        },
+        {
+          "key": "x8622_y10079_z4137",
+          "missing_edge_ap": 0.3430555555555555,
+          "full_adjacency_ap": 0.4649356042068981,
+          "missing_pairs": 53312,
+          "missing_positives": 5,
+          "full_entries": 107256,
+          "full_positives": 642
+        },
+        {
+          "key": "x8622_y10311_z3673",
+          "missing_edge_ap": 0.3140384615384616,
+          "full_adjacency_ap": 0.46464862613207736,
+          "missing_pairs": 44860,
+          "missing_positives": 5,
+          "full_entries": 90300,
+          "full_positives": 582
+        },
+        {
+          "key": "x8622_y9615_z3905",
+          "missing_edge_ap": 0.2834343434343434,
+          "full_adjacency_ap": 0.43454001769590844,
+          "missing_pairs": 19117,
+          "missing_positives": 5,
+          "full_entries": 38612,
+          "full_positives": 384
+        },
+        {
+          "key": "x8622_y9847_z3673",
+          "missing_edge_ap": 0.325,
+          "full_adjacency_ap": 0.5133786618156024,
+          "missing_pairs": 5359,
+          "missing_positives": 2,
+          "full_entries": 10920,
+          "full_positives": 206
+        },
+        {
+          "key": "x8622_y9847_z3905",
+          "missing_edge_ap": 0.7433333333333334,
+          "full_adjacency_ap": 0.4112221092742801,
+          "missing_pairs": 28688,
+          "missing_positives": 5,
+          "full_entries": 57840,
+          "full_positives": 470
+        },
+        {
+          "key": "x8781_y9439_z3693",
+          "missing_edge_ap": 0.6728395061728395,
+          "full_adjacency_ap": 0.5185711199025425,
+          "missing_pairs": 11181,
+          "missing_positives": 3,
+          "full_entries": 22650,
+          "full_positives": 294
+        },
+        {
+          "key": "x8784_y9442_z3697",
+          "missing_edge_ap": 0.7,
+          "full_adjacency_ap": 0.5326879127515748,
+          "missing_pairs": 1599,
+          "missing_positives": 2,
+          "full_entries": 3306,
+          "full_positives": 112
+        },
+        {
+          "key": "x8784_y9674_z3697",
+          "missing_edge_ap": 0.5238095238095238,
+          "full_adjacency_ap": 0.559826528536462,
+          "missing_pairs": 1383,
+          "missing_positives": 4,
+          "full_entries": 2862,
+          "full_positives": 104
+        },
+        {
+          "key": "x8854_y9615_z3905",
+          "missing_edge_ap": 0.6333333333333333,
+          "full_adjacency_ap": 0.4940690944554131,
+          "missing_pairs": 4375,
+          "missing_positives": 3,
+          "full_entries": 8930,
+          "full_positives": 186
+        },
+        {
+          "key": "x9016_y9210_z3697",
+          "missing_edge_ap": 1.0,
+          "full_adjacency_ap": 0.6113853681160729,
+          "missing_pairs": 9053,
+          "missing_positives": 5,
+          "full_entries": 18360,
+          "full_positives": 264
+        },
+        {
+          "key": "x9016_y9442_z3697",
+          "missing_edge_ap": 1.0,
+          "full_adjacency_ap": 0.6481720731582411,
+          "missing_pairs": 4378,
+          "missing_positives": 3,
+          "full_entries": 8930,
+          "full_positives": 176
+        },
+        {
+          "key": "x9086_y10079_z3441",
+          "missing_edge_ap": 0.2995754245754246,
+          "full_adjacency_ap": 0.4134261666131249,
+          "missing_pairs": 21537,
+          "missing_positives": 4,
+          "full_entries": 43472,
+          "full_positives": 406
+        },
+        {
+          "key": "x9086_y9847_z3441",
+          "missing_edge_ap": 0.4335738335738336,
+          "full_adjacency_ap": 0.3992467850836859,
+          "missing_pairs": 16298,
+          "missing_positives": 5,
+          "full_entries": 32942,
+          "full_positives": 350
+        },
+        {
+          "key": "x9086_y9847_z3673",
+          "missing_edge_ap": 0.8333333333333333,
+          "full_adjacency_ap": 0.5588324353500417,
+          "missing_pairs": 8389,
+          "missing_positives": 2,
+          "full_entries": 17030,
+          "full_positives": 256
+        },
+        {
+          "key": "x9248_y9442_z3697",
+          "missing_edge_ap": 0.7666666666666666,
+          "full_adjacency_ap": 0.6178660475587989,
+          "missing_pairs": 3244,
+          "missing_positives": 3,
+          "full_entries": 6642,
+          "full_positives": 160
+        },
+        {
+          "key": "x9318_y10079_z3441",
+          "missing_edge_ap": 0.4063852813852814,
+          "full_adjacency_ap": 0.4641504006294793,
+          "missing_pairs": 16478,
+          "missing_positives": 4,
+          "full_entries": 33306,
+          "full_positives": 358
+        },
+        {
+          "key": "x9318_y10311_z3441",
+          "missing_edge_ap": 0.7048941798941799,
+          "full_adjacency_ap": 0.4341066574304184,
+          "missing_pairs": 146087,
+          "missing_positives": 7,
+          "full_entries": 293222,
+          "full_positives": 1054
+        },
+        {
+          "key": "x9318_y9847_z3441",
+          "missing_edge_ap": 0.24478130470457837,
+          "full_adjacency_ap": 0.44409557736005795,
+          "missing_pairs": 35791,
+          "missing_positives": 9,
+          "full_entries": 72092,
+          "full_positives": 524
+        },
+        {
+          "key": "x9480_y8978_z3697",
+          "missing_edge_ap": 0.38333333333333336,
+          "full_adjacency_ap": 0.4747672325308642,
+          "missing_pairs": 2781,
+          "missing_positives": 3,
+          "full_entries": 5700,
+          "full_positives": 144
+        },
+        {
+          "key": "x9480_y9210_z3697",
+          "missing_edge_ap": 0.6807611633954703,
+          "full_adjacency_ap": 0.42513299900171353,
+          "missing_pairs": 24108,
+          "missing_positives": 10,
+          "full_entries": 48620,
+          "full_positives": 424
+        },
+        {
+          "key": "x9712_y8978_z3929",
+          "missing_edge_ap": 0.46590909090909094,
+          "full_adjacency_ap": 0.49554048588262534,
+          "missing_pairs": 6910,
+          "missing_positives": 4,
+          "full_entries": 14042,
+          "full_positives": 228
+        },
+        {
+          "key": "x9712_y9210_z3697",
+          "missing_edge_ap": 0.5537037037037037,
+          "full_adjacency_ap": 0.4789284551969628,
+          "missing_pairs": 14890,
+          "missing_positives": 6,
+          "full_entries": 30102,
+          "full_positives": 326
+        },
+        {
+          "key": "x9824_y7864_z3772",
+          "missing_edge_ap": 1.0,
+          "full_adjacency_ap": 0.568497548307732,
+          "missing_pairs": 1894,
+          "missing_positives": 2,
+          "full_entries": 3906,
+          "full_positives": 122
+        },
+        {
+          "key": "x9824_y8328_z3540",
+          "missing_edge_ap": 1.0,
+          "full_adjacency_ap": 0.5638655979429523,
+          "missing_pairs": 6444,
+          "missing_positives": 2,
+          "full_entries": 13110,
+          "full_positives": 226
+        },
+        {
+          "key": "x9824_y8560_z3540",
+          "missing_edge_ap": 0.5909090909090908,
+          "full_adjacency_ap": 0.47596052502275654,
+          "missing_pairs": 4661,
+          "missing_positives": 3,
+          "full_entries": 9506,
+          "full_positives": 190
+        },
+        {
+          "key": "x9824_y8792_z3540",
+          "missing_edge_ap": 1.0,
+          "full_adjacency_ap": 0.5313551607907773,
+          "missing_pairs": 3491,
+          "missing_positives": 3,
+          "full_entries": 7140,
+          "full_positives": 164
+        },
+        {
+          "key": "x9824_y8792_z3772",
+          "missing_edge_ap": 0.3988095238095238,
+          "full_adjacency_ap": 0.5280025937717014,
+          "missing_pairs": 2420,
+          "missing_positives": 4,
+          "full_entries": 4970,
+          "full_positives": 138
+        },
+        {
+          "key": "x9824_y9024_z3540",
+          "missing_edge_ap": 0.3407717622323285,
+          "full_adjacency_ap": 0.4637366901937277,
+          "missing_pairs": 21332,
+          "missing_positives": 7,
+          "full_entries": 43056,
+          "full_positives": 406
+        },
+        {
+          "key": "x9824_y9024_z3772",
+          "missing_edge_ap": 1.0,
+          "full_adjacency_ap": 0.5903082846580727,
+          "missing_pairs": 865,
+          "missing_positives": 2,
+          "full_entries": 1806,
+          "full_positives": 80
+        },
+        {
+          "key": "x9944_y8514_z3697",
+          "missing_edge_ap": 0.6333333333333333,
+          "full_adjacency_ap": 0.46978898674757763,
+          "missing_pairs": 4101,
+          "missing_positives": 3,
+          "full_entries": 8372,
+          "full_positives": 176
+        },
+        {
+          "key": "x9944_y8746_z3697",
+          "missing_edge_ap": 0.2896968979058532,
+          "full_adjacency_ap": 0.3974544524364383,
+          "missing_pairs": 9197,
+          "missing_positives": 9,
+          "full_entries": 18632,
+          "full_positives": 256
+        },
+        {
+          "key": "x9944_y8978_z3697",
+          "missing_edge_ap": 0.256547619047619,
+          "full_adjacency_ap": 0.3986857453205783,
+          "missing_pairs": 6564,
+          "missing_positives": 4,
+          "full_entries": 13340,
+          "full_positives": 220
+        },
+        {
+          "key": "x10014_y8687_z3673",
+          "missing_edge_ap": 0.4442789968652037,
+          "full_adjacency_ap": 0.4225175715501279,
+          "missing_pairs": 78225,
+          "missing_positives": 9,
+          "full_entries": 157212,
+          "full_positives": 780
+        },
+        {
+          "key": "x10014_y8919_z3673",
+          "missing_edge_ap": 0.4630718954248366,
+          "full_adjacency_ap": 0.42449425872444146,
+          "missing_pairs": 36324,
+          "missing_positives": 5,
+          "full_entries": 73170,
+          "full_positives": 532
+        },
+        {
+          "key": "x9782_y9151_z3673",
+          "missing_edge_ap": 0.3682051282051282,
+          "full_adjacency_ap": 0.4037350107080766,
+          "missing_pairs": 6677,
+          "missing_positives": 5,
+          "full_entries": 13572,
+          "full_positives": 228
+        }
+      ],
+      "prediction_hashes": {
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x10056_y8096_z3540.npz": "9d6604a0640b6bb17fe055d011740bca490b9335214117d8ddbb37c7f5971b1b",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x10056_y8560_z3540.npz": "d5a4fd74bdbb5ac54eb7a8607b0aa57c8c31f8633e425eaafeae572681838752",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x10056_y8792_z3772.npz": "f62cf82217c2209d87daf87be56cbb7f7113443c3db7daf47db4215b841e4d47",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x10056_y9024_z3540.npz": "cf901d2e0b509fc93c53f5c158969ca63cbb85287686dd240f881e2a3c307da1",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x10176_y8978_z3697.npz": "d0d8ddfaf89d756459b64ef1fa6126efeda3aa9fd34071aa85dd25fb0babe034",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x10288_y7864_z3540.npz": "e6f6e6a7a7e5e42ed907c4fb78f99c5ead3340930444afc941eeabce92e730cb",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x10288_y7864_z3772.npz": "4d3785e77991d1c5ce1d541b9569612332f1585b2cc84e0bbf83a7782a1918f0",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x10288_y8096_z3540.npz": "1c214de7d1544f6a942011d1e9c635031bf77447509bf8bc5432c7dd407cb30d",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x10288_y8328_z3540.npz": "d0afa9ed605fee701b19d914eaa49450c00c2530c89da860e75f7694ecace6e3",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x10288_y8560_z3540.npz": "d25ba0f25916b0855fd90c00605fd7da2f1286e31205b686eb8b1269c760c3fe",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x10288_y8560_z3772.npz": "dce9cf233bf4fd29e330d93a507aa2960eb489706bd4211fdc4cec9f0afa6dfe",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x10288_y8792_z3540.npz": "5a62173ca3cd9b4efcdcb3ac792a925ca4308e10d66c9c8d45e298f34244310f",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x10288_y9024_z3540.npz": "2d78af77394d6a95ded7856aca59af58900d749a43d7117a509c86b2cfebe337",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x10520_y7632_z3540.npz": "896f19f31f3b6327dc91b935ee2887ca348f97559a1868bf773e78ff38b9b4a1",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x8085_y9439_z3925.npz": "6ccef25de81c7dbdfca771104cace28bbde22edba6d3da2b0518887631f3ca15",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x8158_y9151_z4137.npz": "ee7f7767137b8ecab1a54158e7bfa2744ae035c5726d330c7681c969245b74ac",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x8317_y10135_z3925.npz": "c185e126bb37faa47c471afb91f8b2b733003f2898d620e4fe62067c8004aba7",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x8317_y10135_z4157.npz": "95697e4503d0efcfde886ff0025fc1947d197516130743113aaefb0936763db7",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x8317_y9671_z3925.npz": "4f5df18b9c54ff964a93f9ffdee4ac4bb828f3da8c39ac3bb22481bbcb7566d3",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x8317_y9903_z3925.npz": "eb5dae3b1f6a89e4f294610dfebbb112cd3f4b9cf5f8426bb9b942b25c9dff94",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x8320_y10138_z3697.npz": "dac144c4328ca35ca45d368c095ee7bc7b2a89951826195f94d002fa83ca110f",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x8320_y10138_z3929.npz": "034eadf341241a5d34e0aad8524498574bcf6c1fae26a6f78d75df4366390201",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x8390_y10079_z3905.npz": "9ef8ab55aa0ad0d7141ff7ec5630cde8332c05608fee6a2fb14ee241158ae09f",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x8390_y9383_z3905.npz": "b98ef1a527b4359711a6e2dbd0fb512e7092739a9e1e07cfb1a3865eeb2eed4e",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x8549_y9439_z3693.npz": "b92a2f3cb71607efb8e4751d58f5655ca41bf99465c7b01d486a6b55605bfb3d",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x8622_y10079_z3673.npz": "a2aa9ca0ecd46307972b5e095655f3e6391573a662cf7f0259aa2501bf5376eb",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x8622_y10079_z3905.npz": "fbdcfac11dabec59c5a0dc69c1d68e378c642d5ddbe2b702ab954d23d324a6fd",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x8622_y10079_z4137.npz": "38e97b58cca77d76e19dcf39da2d2af90a2ab2adf92c9d7d85389907d7a40d27",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x8622_y10311_z3673.npz": "25810e951688d14cec068efeb270b7b339244771c2898b43dcc2ee7b99aad8dc",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x8622_y9615_z3905.npz": "01646790786985d6732cbc10ea2cbd03ea0eae34c155415039c093f863675a84",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x8622_y9847_z3673.npz": "20fd3a1100b799a810d530d8e2e649f215b6afc66e4294f87f33a6d878f4f1ca",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x8622_y9847_z3905.npz": "078b5a79c7dfd420129275974cfca430c94dfc2cb08e9ad2a21ebfbc472ca00f",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x8781_y9439_z3693.npz": "dbf88f49efbfef1d7540d30336f3b272351525c625c4e3e1ae356221c6a7740a",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x8784_y9442_z3697.npz": "c2ae196c6444042673e86fb5f03c81a5d76fb18146c04d26a9eb99e594863bfa",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x8784_y9674_z3697.npz": "50d84edf7a65956afdeb9e65f310972159daceb7d51b57571f7a6297c17a8ad7",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x8854_y9615_z3905.npz": "5f821889d9a91fd04e62910c3143984a1c4bdc23f981c601dd034ba45485598f",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x9016_y9210_z3697.npz": "5cadd0a686da190142cf68e5ec92811ed5c8c0db3c44333bcb67211e27ebda3e",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x9016_y9442_z3697.npz": "bfae94742ea8ef4689505e3c32c317349a5a9b99d2d2e4dd2616a048073b8b5d",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x9086_y10079_z3441.npz": "81bc32c5b7c28755f3337cffcd3657739ab328774b470cda9dd13c9e05b131ee",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x9086_y9847_z3441.npz": "ebc985680bfa82214e80f1b454bba468d003263e96dd01bf51513ac8652bb15c",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x9086_y9847_z3673.npz": "43c2ca4c222eb1aebb223b538f5574ac2e923bb6b78a8baaeea32ad885ce2f12",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x9248_y9442_z3697.npz": "592f32cbba062a2e354a859e250f152c7ac2b1b675df2059aa19b3746f69cf62",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x9318_y10079_z3441.npz": "d02cfec2b5dc5b7d0a8de90ae644eb2564c13b2931ac1f70427eae4a9a885be0",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x9318_y10311_z3441.npz": "519c188bba2f6f506e9e186ed7e8be48073e1bce41cb22dc374876d4f5201577",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x9318_y9847_z3441.npz": "bdd182cedb017ed7ca8d3386d16c4f31dc7fc1c3a20fb31b076b6f155e307738",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x9480_y8978_z3697.npz": "c51e4e0eca4b6aa4f1c989cbabfc2617ed3d4ba9f25def2523749562d26268b9",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x9480_y9210_z3697.npz": "608984af37e7a35b55a552a178605e47bd52182a604e9f5e725a6d0caf673ca8",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x9712_y8978_z3929.npz": "f6b68f22982960c0cd820587b682e4b38e66344fc86f75b310f91e5cfe60f996",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x9712_y9210_z3697.npz": "8088fe674437b8c3bd36230dda8a2c8c2448a829e6ce51d54e8e5038481dbf09",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x9824_y7864_z3772.npz": "7786934bb39d2e507797a1cd7e76efda30ec714e4b6900751c196eabc33c4135",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x9824_y8328_z3540.npz": "1d9a266c7390550b1f1e61337e306de2a4f39d7b3f588a373d39a93dbd71d657",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x9824_y8560_z3540.npz": "a8e26253b1fead13b41c0af37cc0c32174f1ad94d337bb3a4afd7275805381be",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x9824_y8792_z3540.npz": "07ce3999550a4bdf52ab6cff3ca5d338510f9fd41c2511b73730840ddf29fc05",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x9824_y8792_z3772.npz": "8ff94d52723a17d19876906ae53302e1f31db0c83d1ccdfea2331d0dcc298052",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x9824_y9024_z3540.npz": "6f75c2c23add45173ca2019b673c665ff427e41162dd16f0f423c403357d283e",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x9824_y9024_z3772.npz": "3cc72c73a98d9358205efd2b53b6cf24e0bb05a0069c354699463e4603dddcfc",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x9944_y8514_z3697.npz": "4313b85192a1a83a0cafe71133ec3d8c0f7cbb1de0d90e73e9fad1edae3e4748",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x9944_y8746_z3697.npz": "a4596f49ba255b81a3fb25b814f1141c612e95c23c3761dc7fb509374512cde8",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x9944_y8978_z3697.npz": "873c723d9fb2306865bc3127deb8ef0937aed74c85c987e026b596fd58758f18",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x10014_y8687_z3673.npz": "4e1cba9992e9baddafcb931aaf81f1eda708ceab01c4c5078fb1a7e2311a963f",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x10014_y8919_z3673.npz": "61a5056f824b5f74362ed3dd08de737203aa0d3b33f9a476d824ae9033ebcfcd",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/val/x9782_y9151_z3673.npz": "a8bf84db576a5698ac9991a63bffd1d532eb6e0d97b236bd9ff56600db53334e"
+      }
+    },
+    "tlpnet": {
+      "missing_edge_macro_ap": 0.10843801033942084,
+      "full_adjacency_macro_ap": 0.17036827434074306,
+      "source_metrics": "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/metrics.json",
+      "metrics_sha256": "022eacc8e244b277ed9b6d1f66c11fd30a38f7a42423854f94a4c118eedbd043",
+      "checkpoint": "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/final.pt",
+      "checkpoint_sha256": "5e0b2a5fa6ebc5c300f0594147ef0a7bac9ad2020403c9b4a12fdc60214d6425",
+      "graphs": [
+        {
+          "key": "x10056_y8096_z3540",
+          "missing_edge_ap": 0.0954700159633746,
+          "full_adjacency_ap": 0.15498708289334998,
+          "missing_pairs": 10019,
+          "missing_positives": 5,
+          "full_entries": 20306,
+          "full_positives": 278
+        },
+        {
+          "key": "x10056_y8560_z3540",
+          "missing_edge_ap": 0.09563492063492063,
+          "full_adjacency_ap": 0.21932783468378705,
+          "missing_pairs": 3244,
+          "missing_positives": 3,
+          "full_entries": 6642,
+          "full_positives": 160
+        },
+        {
+          "key": "x10056_y8792_z3772",
+          "missing_edge_ap": 0.22440476190476188,
+          "full_adjacency_ap": 0.20816503582679943,
+          "missing_pairs": 5676,
+          "missing_positives": 4,
+          "full_entries": 11556,
+          "full_positives": 212
+        },
+        {
+          "key": "x10056_y9024_z3540",
+          "missing_edge_ap": 0.02828346544154269,
+          "full_adjacency_ap": 0.1091543111282998,
+          "missing_pairs": 28690,
+          "missing_positives": 5,
+          "full_entries": 57840,
+          "full_positives": 470
+        },
+        {
+          "key": "x10176_y8978_z3697",
+          "missing_edge_ap": 0.10267183796595561,
+          "full_adjacency_ap": 0.27256947644258533,
+          "missing_pairs": 1544,
+          "missing_positives": 3,
+          "full_entries": 3192,
+          "full_positives": 110
+        },
+        {
+          "key": "x10288_y7864_z3540",
+          "missing_edge_ap": 0.30612244897959184,
+          "full_adjacency_ap": 0.24192223250720224,
+          "missing_pairs": 3008,
+          "missing_positives": 4,
+          "full_entries": 6162,
+          "full_positives": 154
+        },
+        {
+          "key": "x10288_y7864_z3772",
+          "missing_edge_ap": 0.03565944900330353,
+          "full_adjacency_ap": 0.09557873368082985,
+          "missing_pairs": 19514,
+          "missing_positives": 9,
+          "full_entries": 39402,
+          "full_positives": 392
+        },
+        {
+          "key": "x10288_y8096_z3540",
+          "missing_edge_ap": 0.044708757926564084,
+          "full_adjacency_ap": 0.11991234044669899,
+          "missing_pairs": 25891,
+          "missing_positives": 8,
+          "full_entries": 52212,
+          "full_positives": 446
+        },
+        {
+          "key": "x10288_y8328_z3540",
+          "missing_edge_ap": 0.0940652370884929,
+          "full_adjacency_ap": 0.16670430164950467,
+          "missing_pairs": 5783,
+          "missing_positives": 4,
+          "full_entries": 11772,
+          "full_positives": 214
+        },
+        {
+          "key": "x10288_y8560_z3540",
+          "missing_edge_ap": 0.027348816008368866,
+          "full_adjacency_ap": 0.09428142995172331,
+          "missing_pairs": 37692,
+          "missing_positives": 12,
+          "full_entries": 75900,
+          "full_positives": 540
+        },
+        {
+          "key": "x10288_y8560_z3772",
+          "missing_edge_ap": 0.043898349268505325,
+          "full_adjacency_ap": 0.15835629112882582,
+          "missing_pairs": 8391,
+          "missing_positives": 4,
+          "full_entries": 17030,
+          "full_positives": 256
+        },
+        {
+          "key": "x10288_y8792_z3540",
+          "missing_edge_ap": 0.02061684604192267,
+          "full_adjacency_ap": 0.0718451428961758,
+          "missing_pairs": 93116,
+          "missing_positives": 13,
+          "full_entries": 187056,
+          "full_positives": 850
+        },
+        {
+          "key": "x10288_y9024_z3540",
+          "missing_edge_ap": 0.25,
+          "full_adjacency_ap": 0.2951947051051146,
+          "missing_pairs": 1656,
+          "missing_positives": 2,
+          "full_entries": 3422,
+          "full_positives": 114
+        },
+        {
+          "key": "x10520_y7632_z3540",
+          "missing_edge_ap": 0.003436426116838488,
+          "full_adjacency_ap": 0.39104108234408075,
+          "missing_pairs": 1379,
+          "missing_positives": 1,
+          "full_entries": 2862,
+          "full_positives": 106
+        },
+        {
+          "key": "x8085_y9439_z3925",
+          "missing_edge_ap": 0.049738505596591404,
+          "full_adjacency_ap": 0.17495522000711008,
+          "missing_pairs": 3659,
+          "missing_positives": 3,
+          "full_entries": 7482,
+          "full_positives": 170
+        },
+        {
+          "key": "x8158_y9151_z4137",
+          "missing_edge_ap": 0.030074786324786322,
+          "full_adjacency_ap": 0.13236083799641918,
+          "missing_pairs": 28925,
+          "missing_positives": 3,
+          "full_entries": 58322,
+          "full_positives": 478
+        },
+        {
+          "key": "x8317_y10135_z3925",
+          "missing_edge_ap": 0.13312650641652007,
+          "full_adjacency_ap": 0.19391948240127002,
+          "missing_pairs": 4566,
+          "missing_positives": 4,
+          "full_entries": 9312,
+          "full_positives": 188
+        },
+        {
+          "key": "x8317_y10135_z4157",
+          "missing_edge_ap": 0.031301769727053896,
+          "full_adjacency_ap": 0.17889883486220112,
+          "missing_pairs": 3659,
+          "missing_positives": 3,
+          "full_entries": 7482,
+          "full_positives": 170
+        },
+        {
+          "key": "x8317_y9671_z3925",
+          "missing_edge_ap": 0.024657920320692826,
+          "full_adjacency_ap": 0.08555786802459212,
+          "missing_pairs": 36055,
+          "missing_positives": 8,
+          "full_entries": 72630,
+          "full_positives": 536
+        },
+        {
+          "key": "x8317_y9903_z3925",
+          "missing_edge_ap": 0.04519991930995301,
+          "full_adjacency_ap": 0.11794704009369641,
+          "missing_pairs": 22589,
+          "missing_positives": 7,
+          "full_entries": 45582,
+          "full_positives": 418
+        },
+        {
+          "key": "x8320_y10138_z3697",
+          "missing_edge_ap": 0.07631868131868132,
+          "full_adjacency_ap": 0.19494170324253451,
+          "missing_pairs": 3008,
+          "missing_positives": 4,
+          "full_entries": 6162,
+          "full_positives": 154
+        },
+        {
+          "key": "x8320_y10138_z3929",
+          "missing_edge_ap": 0.04521299956082565,
+          "full_adjacency_ap": 0.18322211836665583,
+          "missing_pairs": 6111,
+          "missing_positives": 3,
+          "full_entries": 12432,
+          "full_positives": 212
+        },
+        {
+          "key": "x8390_y10079_z3905",
+          "missing_edge_ap": 0.07142857142857142,
+          "full_adjacency_ap": 0.1723900977285831,
+          "missing_pairs": 12093,
+          "missing_positives": 1,
+          "full_entries": 24492,
+          "full_positives": 308
+        },
+        {
+          "key": "x8390_y9383_z3905",
+          "missing_edge_ap": 0.22619047619047616,
+          "full_adjacency_ap": 0.22664459154931765,
+          "missing_pairs": 2559,
+          "missing_positives": 2,
+          "full_entries": 5256,
+          "full_positives": 142
+        },
+        {
+          "key": "x8549_y9439_z3693",
+          "missing_edge_ap": 0.0015337423312883436,
+          "full_adjacency_ap": 0.31748274252840586,
+          "missing_pairs": 821,
+          "missing_positives": 1,
+          "full_entries": 1722,
+          "full_positives": 82
+        },
+        {
+          "key": "x8622_y10079_z3673",
+          "missing_edge_ap": 0.0538310086763027,
+          "full_adjacency_ap": 0.0798681260826226,
+          "missing_pairs": 67542,
+          "missing_positives": 7,
+          "full_entries": 135792,
+          "full_positives": 714
+        },
+        {
+          "key": "x8622_y10079_z3905",
+          "missing_edge_ap": 0.009618897866293738,
+          "full_adjacency_ap": 0.07849204260537684,
+          "missing_pairs": 46980,
+          "missing_positives": 3,
+          "full_entries": 94556,
+          "full_positives": 602
+        },
+        {
+          "key": "x8622_y10079_z4137",
+          "missing_edge_ap": 0.022327823460906806,
+          "full_adjacency_ap": 0.08654787653940582,
+          "missing_pairs": 53312,
+          "missing_positives": 5,
+          "full_entries": 107256,
+          "full_positives": 642
+        },
+        {
+          "key": "x8622_y10311_z3673",
+          "missing_edge_ap": 0.024279134943854648,
+          "full_adjacency_ap": 0.09151126195591386,
+          "missing_pairs": 44860,
+          "missing_positives": 5,
+          "full_entries": 90300,
+          "full_positives": 582
+        },
+        {
+          "key": "x8622_y9615_z3905",
+          "missing_edge_ap": 0.16299773112197616,
+          "full_adjacency_ap": 0.14224148537270123,
+          "missing_pairs": 19117,
+          "missing_positives": 5,
+          "full_entries": 38612,
+          "full_positives": 384
+        },
+        {
+          "key": "x8622_y9847_z3673",
+          "missing_edge_ap": 0.3611111111111111,
+          "full_adjacency_ap": 0.24851735389061583,
+          "missing_pairs": 5359,
+          "missing_positives": 2,
+          "full_entries": 10920,
+          "full_positives": 206
+        },
+        {
+          "key": "x8622_y9847_z3905",
+          "missing_edge_ap": 0.033111588124752435,
+          "full_adjacency_ap": 0.10201390725041433,
+          "missing_pairs": 28688,
+          "missing_positives": 5,
+          "full_entries": 57840,
+          "full_positives": 470
+        },
+        {
+          "key": "x8781_y9439_z3693",
+          "missing_edge_ap": 0.03944659033113857,
+          "full_adjacency_ap": 0.12667864080100252,
+          "missing_pairs": 11181,
+          "missing_positives": 3,
+          "full_entries": 22650,
+          "full_positives": 294
+        },
+        {
+          "key": "x8784_y9442_z3697",
+          "missing_edge_ap": 0.8333333333333333,
+          "full_adjacency_ap": 0.30516848589929296,
+          "missing_pairs": 1599,
+          "missing_positives": 2,
+          "full_entries": 3306,
+          "full_positives": 112
+        },
+        {
+          "key": "x8784_y9674_z3697",
+          "missing_edge_ap": 0.12054487179487179,
+          "full_adjacency_ap": 0.240416021032411,
+          "missing_pairs": 1383,
+          "missing_positives": 4,
+          "full_entries": 2862,
+          "full_positives": 104
+        },
+        {
+          "key": "x8854_y9615_z3905",
+          "missing_edge_ap": 0.1466866466866467,
+          "full_adjacency_ap": 0.22026340345036902,
+          "missing_pairs": 4375,
+          "missing_positives": 3,
+          "full_entries": 8930,
+          "full_positives": 186
+        },
+        {
+          "key": "x9016_y9210_z3697",
+          "missing_edge_ap": 0.09223149336756524,
+          "full_adjacency_ap": 0.16855711250615982,
+          "missing_pairs": 9053,
+          "missing_positives": 5,
+          "full_entries": 18360,
+          "full_positives": 264
+        },
+        {
+          "key": "x9016_y9442_z3697",
+          "missing_edge_ap": 0.12885802469135801,
+          "full_adjacency_ap": 0.15389720017103453,
+          "missing_pairs": 4378,
+          "missing_positives": 3,
+          "full_entries": 8930,
+          "full_positives": 176
+        },
+        {
+          "key": "x9086_y10079_z3441",
+          "missing_edge_ap": 0.023732167414138482,
+          "full_adjacency_ap": 0.09848715874792133,
+          "missing_pairs": 21537,
+          "missing_positives": 4,
+          "full_entries": 43472,
+          "full_positives": 406
+        },
+        {
+          "key": "x9086_y9847_z3441",
+          "missing_edge_ap": 0.025036157084948947,
+          "full_adjacency_ap": 0.14415055054813408,
+          "missing_pairs": 16298,
+          "missing_positives": 5,
+          "full_entries": 32942,
+          "full_positives": 350
+        },
+        {
+          "key": "x9086_y9847_z3673",
+          "missing_edge_ap": 0.027907210860873815,
+          "full_adjacency_ap": 0.18631492983246178,
+          "missing_pairs": 8389,
+          "missing_positives": 2,
+          "full_entries": 17030,
+          "full_positives": 256
+        },
+        {
+          "key": "x9248_y9442_z3697",
+          "missing_edge_ap": 0.20833333333333331,
+          "full_adjacency_ap": 0.20244354162246755,
+          "missing_pairs": 3244,
+          "missing_positives": 3,
+          "full_entries": 6642,
+          "full_positives": 160
+        },
+        {
+          "key": "x9318_y10079_z3441",
+          "missing_edge_ap": 0.05269414575866189,
+          "full_adjacency_ap": 0.11602150851149368,
+          "missing_pairs": 16478,
+          "missing_positives": 4,
+          "full_entries": 33306,
+          "full_positives": 358
+        },
+        {
+          "key": "x9318_y10311_z3441",
+          "missing_edge_ap": 0.007133591569430198,
+          "full_adjacency_ap": 0.04664266679851839,
+          "missing_pairs": 146087,
+          "missing_positives": 7,
+          "full_entries": 293222,
+          "full_positives": 1054
+        },
+        {
+          "key": "x9318_y9847_z3441",
+          "missing_edge_ap": 0.016445324913209988,
+          "full_adjacency_ap": 0.11253303217131194,
+          "missing_pairs": 35791,
+          "missing_positives": 9,
+          "full_entries": 72092,
+          "full_positives": 524
+        },
+        {
+          "key": "x9480_y8978_z3697",
+          "missing_edge_ap": 0.036985822366329704,
+          "full_adjacency_ap": 0.3553975112690318,
+          "missing_pairs": 2781,
+          "missing_positives": 3,
+          "full_entries": 5700,
+          "full_positives": 144
+        },
+        {
+          "key": "x9480_y9210_z3697",
+          "missing_edge_ap": 0.04863276531130852,
+          "full_adjacency_ap": 0.09793064782017,
+          "missing_pairs": 24108,
+          "missing_positives": 10,
+          "full_entries": 48620,
+          "full_positives": 424
+        },
+        {
+          "key": "x9712_y8978_z3929",
+          "missing_edge_ap": 0.12777777777777777,
+          "full_adjacency_ap": 0.17184029965372807,
+          "missing_pairs": 6910,
+          "missing_positives": 4,
+          "full_entries": 14042,
+          "full_positives": 228
+        },
+        {
+          "key": "x9712_y9210_z3697",
+          "missing_edge_ap": 0.032185983335823246,
+          "full_adjacency_ap": 0.13499751332170137,
+          "missing_pairs": 14890,
+          "missing_positives": 6,
+          "full_entries": 30102,
+          "full_positives": 326
+        },
+        {
+          "key": "x9824_y7864_z3772",
+          "missing_edge_ap": 0.5,
+          "full_adjacency_ap": 0.29037478182913184,
+          "missing_pairs": 1894,
+          "missing_positives": 2,
+          "full_entries": 3906,
+          "full_positives": 122
+        },
+        {
+          "key": "x9824_y8328_z3540",
+          "missing_edge_ap": 0.39285714285714285,
+          "full_adjacency_ap": 0.21293324972838296,
+          "missing_pairs": 6444,
+          "missing_positives": 2,
+          "full_entries": 13110,
+          "full_positives": 226
+        },
+        {
+          "key": "x9824_y8560_z3540",
+          "missing_edge_ap": 0.051086760461760465,
+          "full_adjacency_ap": 0.16998905105323217,
+          "missing_pairs": 4661,
+          "missing_positives": 3,
+          "full_entries": 9506,
+          "full_positives": 190
+        },
+        {
+          "key": "x9824_y8792_z3540",
+          "missing_edge_ap": 0.06714640198511165,
+          "full_adjacency_ap": 0.21695821155490058,
+          "missing_pairs": 3491,
+          "missing_positives": 3,
+          "full_entries": 7140,
+          "full_positives": 164
+        },
+        {
+          "key": "x9824_y8792_z3772",
+          "missing_edge_ap": 0.12320804195804196,
+          "full_adjacency_ap": 0.2035753947316422,
+          "missing_pairs": 2420,
+          "missing_positives": 4,
+          "full_entries": 4970,
+          "full_positives": 138
+        },
+        {
+          "key": "x9824_y9024_z3540",
+          "missing_edge_ap": 0.14435311936446,
+          "full_adjacency_ap": 0.10286746077355985,
+          "missing_pairs": 21332,
+          "missing_positives": 7,
+          "full_entries": 43056,
+          "full_positives": 406
+        },
+        {
+          "key": "x9824_y9024_z3772",
+          "missing_edge_ap": 0.3214285714285714,
+          "full_adjacency_ap": 0.29878839487693504,
+          "missing_pairs": 865,
+          "missing_positives": 2,
+          "full_entries": 1806,
+          "full_positives": 80
+        },
+        {
+          "key": "x9944_y8514_z3697",
+          "missing_edge_ap": 0.22129319955406912,
+          "full_adjacency_ap": 0.19557399877683274,
+          "missing_pairs": 4101,
+          "missing_positives": 3,
+          "full_entries": 8372,
+          "full_positives": 176
+        },
+        {
+          "key": "x9944_y8746_z3697",
+          "missing_edge_ap": 0.023362498661469513,
+          "full_adjacency_ap": 0.10750468192608956,
+          "missing_pairs": 9197,
+          "missing_positives": 9,
+          "full_entries": 18632,
+          "full_positives": 256
+        },
+        {
+          "key": "x9944_y8978_z3697",
+          "missing_edge_ap": 0.04591737614993429,
+          "full_adjacency_ap": 0.1394385951897076,
+          "missing_pairs": 6564,
+          "missing_positives": 4,
+          "full_entries": 13340,
+          "full_positives": 220
+        },
+        {
+          "key": "x10014_y8687_z3673",
+          "missing_edge_ap": 0.012062750899933767,
+          "full_adjacency_ap": 0.06131532707388134,
+          "missing_pairs": 78225,
+          "missing_positives": 9,
+          "full_entries": 157212,
+          "full_positives": 780
+        },
+        {
+          "key": "x10014_y8919_z3673",
+          "missing_edge_ap": 0.006674540058198337,
+          "full_adjacency_ap": 0.09346037500867027,
+          "missing_pairs": 36324,
+          "missing_positives": 5,
+          "full_entries": 73170,
+          "full_positives": 532
+        },
+        {
+          "key": "x9782_y9151_z3673",
+          "missing_edge_ap": 0.07141849155986893,
+          "full_adjacency_ap": 0.1817606712630786,
+          "missing_pairs": 6677,
+          "missing_positives": 5,
+          "full_entries": 13572,
+          "full_positives": 228
+        }
+      ],
+      "prediction_hashes": {
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x10056_y8096_z3540.npz": "8f86a4094185759f3a0c60713e0b37cbee1ad385918882ecb3331c26d6651685",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x10056_y8560_z3540.npz": "e1c799b6943c2ac7c2d93cece27ea2caecb41cad052af949265756542a3f0ab6",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x10056_y8792_z3772.npz": "11aab876180b921c2712ac33f62cb08311fe9ce9f91127e0d723d4d3e2c42556",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x10056_y9024_z3540.npz": "7a78c0de638a9446432b8e9c044cab12b1f06167a0b27802bfad1a8e6cd831aa",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x10176_y8978_z3697.npz": "37b46203d739a48052fab599c8aec874c0894c521598d94be0dd7ac5312dc0aa",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x10288_y7864_z3540.npz": "acede1bd6a2312f262cf5f82cebd41446939a03006844aa63f0621a7807ecf01",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x10288_y7864_z3772.npz": "e74dd998d8a777e2e7fbdf1c8aea933c1581650000bfdd1630767d86e05f7427",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x10288_y8096_z3540.npz": "7deac1c9bdcdc6b851cbf5fa5ac67306de0eaca1afef1162f162588638c654fb",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x10288_y8328_z3540.npz": "39dcdf934609bfdc393762a402e9df0c59d614f49d7fae725cedc65d8d84e2b2",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x10288_y8560_z3540.npz": "266c394d3045dbe849f895c208c7bd45917024327d8325ebac6dabd7a751e40f",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x10288_y8560_z3772.npz": "420a32b865a9e1a4a2c253176f5a4b839ecf6cff3cd78fac21398a8817563666",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x10288_y8792_z3540.npz": "5f3401c87c1e707ab67898daa6790b61952fe237127b879a35ba0e5586967d83",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x10288_y9024_z3540.npz": "48e278b3511654c1d345f1333224265f3afcbffc7e7271abb95f4453d5afad45",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x10520_y7632_z3540.npz": "dc815560ca8d2955e1aeae64d7f03009e90ebfde56b62e5cab8cc9136c94a675",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x8085_y9439_z3925.npz": "4502a190a47c115c70b6669448869896735b0f50b40edb3981be05b571808a64",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x8158_y9151_z4137.npz": "7337548289a801c9395eac781c2aea023914ed5f9d2fadc6e0919ab657bb1a84",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x8317_y10135_z3925.npz": "c910ef243a6fb3ea8c5c050b7acbf5de1f05e13c423f8def278124379ec65b17",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x8317_y10135_z4157.npz": "31569ccbc70488716bce297016a8b899d429aa22b4919cee9060d26a9d88a936",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x8317_y9671_z3925.npz": "29336e4924c9c9c321ac788e1c86a8d6a70df43d4050e61b65637a7840e7e22c",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x8317_y9903_z3925.npz": "cc2dce189adfada09c42679cbdcf310241246f03664c56f2057033b82478841b",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x8320_y10138_z3697.npz": "02cccaa34315dd968b4a00d830658a5a5a3af2a7a4170e63cb42f481b3f8f69b",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x8320_y10138_z3929.npz": "39d777a5a306c35dbf99873871b017d8e714d28edb01d95e3c6d90c4651be08c",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x8390_y10079_z3905.npz": "41366b67e945324ff7fea4f290d3cacc1d76d556f406c19ae722d57c83a9047e",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x8390_y9383_z3905.npz": "52431da660ad750c9cf45a1fd165d3197f65c6799063ca13a22094af79bd7457",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x8549_y9439_z3693.npz": "03c022e319b070d2e7850cd739e4a9ff6d37234ae134e9aeff30bb84e8b212fb",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x8622_y10079_z3673.npz": "32ecae57a0124a51ceba79b765146062b61287913e71dcb7fcab216bc17b8c1a",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x8622_y10079_z3905.npz": "e2d3859f6827f548762db1efabaa35789ec384adb9f253bcf6a1fc19105a8cbe",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x8622_y10079_z4137.npz": "3b4270c5d47f2053e124f6fb76720016409b4ef189dd95859cea6b9c7cc670f3",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x8622_y10311_z3673.npz": "c17929486356448226a66cc37dab1de3c1a574e17afecfca302d7b948bc79806",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x8622_y9615_z3905.npz": "30a4b15968f93808553729c19351db29091abffa4e68d0474ee5f133906d3ad7",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x8622_y9847_z3673.npz": "b4eee3fece1f880719a8b7ebae2359da38ace3c81e61afd2764a0eb1d7e07cbb",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x8622_y9847_z3905.npz": "23a58ba09858bce110ebc7da7d34667390fffb28d070c5cb92f1e548c4724da7",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x8781_y9439_z3693.npz": "83da0485b8db880c27b37df6a6f997d4665b7d0cda3b835542494ddc5e7e6efc",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x8784_y9442_z3697.npz": "16198f0e50228de45f17aebbf08e8ecf2340464202cbbe0558842a51ec242522",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x8784_y9674_z3697.npz": "064f72de0d50e66598a76ff9165dd99c75a460a7f9e17cedd986fa9df15ef44e",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x8854_y9615_z3905.npz": "c9f90b39b462e7e6685dcd08ba84d50dc26b326f7a970c14063608f2580db038",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x9016_y9210_z3697.npz": "b781bea825b1019fae55e3fa1332cd28861984d469db42cec354f95da456204f",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x9016_y9442_z3697.npz": "54afa1f56ee973d4b0c41ade42fb20724b6428de43abbf94da6436a9fceb1da3",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x9086_y10079_z3441.npz": "dfb53a00d4b1b315f8a8699915cd48d95d724e885a7a4147dc89d481f8a6fe51",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x9086_y9847_z3441.npz": "2fe4885444f1d8e35e552bfd53069df1eca06738b660e4bbbceb9440631c9b4d",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x9086_y9847_z3673.npz": "b6cfa8ad41a7f4de1d43288b182b50ad8c3a36eb4a827f6606950ad39e13d88f",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x9248_y9442_z3697.npz": "e397654ac8602da35fd41e4c3edb0e1414fe809572b4a85ec94bab8e458ae885",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x9318_y10079_z3441.npz": "235b860bcdcc385bdbb4bfe1a301324aa1b9ae421a1c72ca3652b2c27a8cc22a",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x9318_y10311_z3441.npz": "1b06774ebd03a16bb7a21cbd18565059fccd6cd5f526b0339352c2e9b8d4643a",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x9318_y9847_z3441.npz": "b82d61c7f0430ec3b6ab49dac621dc3c1f5f881e395b85ee7b943fa89487fa15",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x9480_y8978_z3697.npz": "8603de3a467b6bd9507f6f971cc383d5284ab8842ca109259ca104d8fdfd3ab4",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x9480_y9210_z3697.npz": "ff014e46e609e92d49d5bfe6406ac764711503fc31747603157d522340697c5c",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x9712_y8978_z3929.npz": "8e2a354c27c04222c3125a6f867d8bf5e08a13fe1712c561c21a7ac6896119e4",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x9712_y9210_z3697.npz": "d5730c43816795bb87836d4daebf24a0253d9b301d5ee1ac3f699ef34827b788",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x9824_y7864_z3772.npz": "b6a53a189f0b1b2f8adf6fbc6874403a691226a2dc98b874ed9f4c0cca224cd8",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x9824_y8328_z3540.npz": "1b2064664d43004eb6109330737c11daadeb35cc4720deaa252dcb2564148ddb",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x9824_y8560_z3540.npz": "e3e2011f9482b6a4a6e7fa0e4c9c2aa8caf978f7b9815c41447362ded37d42bc",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x9824_y8792_z3540.npz": "54989e17bb75edb507235a21c22448b14c5b86f5098b9bb2f4a8d3efe5d86963",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x9824_y8792_z3772.npz": "992bdf5df1bf016fab42a1de7d224e62133169297755b122f8e4183d4015d48c",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x9824_y9024_z3540.npz": "0252ffdf5e6dc64bb8e939649dae24466088b605b9c56e4ce6cd30de472dc933",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x9824_y9024_z3772.npz": "3eb07d4bc31799e2a4a58450688a245043c335fd7c5e1bb979df99fae881695b",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x9944_y8514_z3697.npz": "65d5c47691ef0c93a5197fd37a7d5c0b1fadccec6ceedb6eda70d72b15db0a4d",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x9944_y8746_z3697.npz": "2566a94a7437ec7f66e081e1a0ac7a6d5d947daa368d6e3f6dc4e6c1e3a2f5f8",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x9944_y8978_z3697.npz": "827e9a918a2b6cc0ac140623ee0bd947777f8d10319cedb15cecd7e753066368",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x10014_y8687_z3673.npz": "1ff781805f6fd08557ccba35dab1a1ba267089647ca9d11231700e35214d36b7",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x10014_y8919_z3673.npz": "6d34b4efc383604b4e9a782df2025eafa0c08910d546a3612c36977f1452ea5d",
+        "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/val/x9782_y9151_z3673.npz": "6dff159e2b801285c9853a3f6f50a1dba9b60e9b3f7e71d401fc270fdf3ccc2e"
+      }
+    },
+    "tlpnet_native_objective": {
+      "missing_edge_macro_ap": 0.010333293693017675,
+      "full_adjacency_macro_ap": 0.7809416770862884,
+      "source_metrics": "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/metrics.json",
+      "metrics_sha256": "fc5731738ba4a8778ef266394062daa3955fb879c33dda4e60430493ba721d26",
+      "checkpoint": "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/final.pt",
+      "checkpoint_sha256": "d36124cbde2fec607079cec07157c3eb48565f48fbdcf9f86de2d7ceaa664825",
+      "graphs": [
+        {
+          "key": "x10056_y8096_z3540",
+          "missing_edge_ap": 0.010911030684024813,
+          "full_adjacency_ap": 0.7979782785996744,
+          "missing_pairs": 10019,
+          "missing_positives": 5,
+          "full_entries": 20306,
+          "full_positives": 278
+        },
+        {
+          "key": "x10056_y8560_z3540",
+          "missing_edge_ap": 0.010367752927979663,
+          "full_adjacency_ap": 0.843463210953517,
+          "missing_pairs": 3244,
+          "missing_positives": 3,
+          "full_entries": 6642,
+          "full_positives": 160
+        },
+        {
+          "key": "x10056_y8792_z3772",
+          "missing_edge_ap": 0.008987497338116532,
+          "full_adjacency_ap": 0.8445688382521317,
+          "missing_pairs": 5676,
+          "missing_positives": 4,
+          "full_entries": 11556,
+          "full_positives": 212
+        },
+        {
+          "key": "x10056_y9024_z3540",
+          "missing_edge_ap": 0.005012295763698979,
+          "full_adjacency_ap": 0.6217081016346105,
+          "missing_pairs": 28690,
+          "missing_positives": 5,
+          "full_entries": 57840,
+          "full_positives": 470
+        },
+        {
+          "key": "x10176_y8978_z3697",
+          "missing_edge_ap": 0.006941039645166072,
+          "full_adjacency_ap": 0.8808353665191334,
+          "missing_pairs": 1544,
+          "missing_positives": 3,
+          "full_entries": 3192,
+          "full_positives": 110
+        },
+        {
+          "key": "x10288_y7864_z3540",
+          "missing_edge_ap": 0.014162536134530557,
+          "full_adjacency_ap": 0.8593562851728407,
+          "missing_pairs": 3008,
+          "missing_positives": 4,
+          "full_entries": 6162,
+          "full_positives": 154
+        },
+        {
+          "key": "x10288_y7864_z3772",
+          "missing_edge_ap": 0.005868443902833538,
+          "full_adjacency_ap": 0.6633814770540092,
+          "missing_pairs": 19514,
+          "missing_positives": 9,
+          "full_entries": 39402,
+          "full_positives": 392
+        },
+        {
+          "key": "x10288_y8096_z3540",
+          "missing_edge_ap": 0.005242146529056715,
+          "full_adjacency_ap": 0.6427637340479186,
+          "missing_pairs": 25891,
+          "missing_positives": 8,
+          "full_entries": 52212,
+          "full_positives": 446
+        },
+        {
+          "key": "x10288_y8328_z3540",
+          "missing_edge_ap": 0.005522258877100441,
+          "full_adjacency_ap": 0.851241699603451,
+          "missing_pairs": 5783,
+          "missing_positives": 4,
+          "full_entries": 11772,
+          "full_positives": 214
+        },
+        {
+          "key": "x10288_y8560_z3540",
+          "missing_edge_ap": 0.004291675742113163,
+          "full_adjacency_ap": 0.6584730966491913,
+          "missing_pairs": 37692,
+          "missing_positives": 12,
+          "full_entries": 75900,
+          "full_positives": 540
+        },
+        {
+          "key": "x10288_y8560_z3772",
+          "missing_edge_ap": 0.0026006320022300597,
+          "full_adjacency_ap": 0.7828640592989214,
+          "missing_pairs": 8391,
+          "missing_positives": 4,
+          "full_entries": 17030,
+          "full_positives": 256
+        },
+        {
+          "key": "x10288_y8792_z3540",
+          "missing_edge_ap": 0.0019734512663262195,
+          "full_adjacency_ap": 0.5099432006895009,
+          "missing_pairs": 93116,
+          "missing_positives": 13,
+          "full_entries": 187056,
+          "full_positives": 850
+        },
+        {
+          "key": "x10288_y9024_z3540",
+          "missing_edge_ap": 0.020740883658113062,
+          "full_adjacency_ap": 0.9357913762693808,
+          "missing_pairs": 1656,
+          "missing_positives": 2,
+          "full_entries": 3422,
+          "full_positives": 114
+        },
+        {
+          "key": "x10520_y7632_z3540",
+          "missing_edge_ap": 0.002352941176470588,
+          "full_adjacency_ap": 0.934349896497397,
+          "missing_pairs": 1379,
+          "missing_positives": 1,
+          "full_entries": 2862,
+          "full_positives": 106
+        },
+        {
+          "key": "x8085_y9439_z3925",
+          "missing_edge_ap": 0.01668109721302485,
+          "full_adjacency_ap": 0.8879918301971538,
+          "missing_pairs": 3659,
+          "missing_positives": 3,
+          "full_entries": 7482,
+          "full_positives": 170
+        },
+        {
+          "key": "x8158_y9151_z4137",
+          "missing_edge_ap": 0.0036031673112759807,
+          "full_adjacency_ap": 0.6860382140437559,
+          "missing_pairs": 28925,
+          "missing_positives": 3,
+          "full_entries": 58322,
+          "full_positives": 478
+        },
+        {
+          "key": "x8317_y10135_z3925",
+          "missing_edge_ap": 0.010411671670214864,
+          "full_adjacency_ap": 0.8190692212430004,
+          "missing_pairs": 4566,
+          "missing_positives": 4,
+          "full_entries": 9312,
+          "full_positives": 188
+        },
+        {
+          "key": "x8317_y10135_z4157",
+          "missing_edge_ap": 0.011205926236159463,
+          "full_adjacency_ap": 0.9020800855796449,
+          "missing_pairs": 3659,
+          "missing_positives": 3,
+          "full_entries": 7482,
+          "full_positives": 170
+        },
+        {
+          "key": "x8317_y9671_z3925",
+          "missing_edge_ap": 0.004180594222127065,
+          "full_adjacency_ap": 0.6846605577415393,
+          "missing_pairs": 36055,
+          "missing_positives": 8,
+          "full_entries": 72630,
+          "full_positives": 536
+        },
+        {
+          "key": "x8317_y9903_z3925",
+          "missing_edge_ap": 0.005747130767968088,
+          "full_adjacency_ap": 0.773163150779963,
+          "missing_pairs": 22589,
+          "missing_positives": 7,
+          "full_entries": 45582,
+          "full_positives": 418
+        },
+        {
+          "key": "x8320_y10138_z3697",
+          "missing_edge_ap": 0.0237036307271963,
+          "full_adjacency_ap": 0.8754890004746145,
+          "missing_pairs": 3008,
+          "missing_positives": 4,
+          "full_entries": 6162,
+          "full_positives": 154
+        },
+        {
+          "key": "x8320_y10138_z3929",
+          "missing_edge_ap": 0.010188731512260924,
+          "full_adjacency_ap": 0.8311289196267542,
+          "missing_pairs": 6111,
+          "missing_positives": 3,
+          "full_entries": 12432,
+          "full_positives": 212
+        },
+        {
+          "key": "x8390_y10079_z3905",
+          "missing_edge_ap": 0.010638297872340425,
+          "full_adjacency_ap": 0.765272513200756,
+          "missing_pairs": 12093,
+          "missing_positives": 1,
+          "full_entries": 24492,
+          "full_positives": 308
+        },
+        {
+          "key": "x8390_y9383_z3905",
+          "missing_edge_ap": 0.018436703483432453,
+          "full_adjacency_ap": 0.9309383377905487,
+          "missing_pairs": 2559,
+          "missing_positives": 2,
+          "full_entries": 5256,
+          "full_positives": 142
+        },
+        {
+          "key": "x8549_y9439_z3693",
+          "missing_edge_ap": 0.0014771048744460858,
+          "full_adjacency_ap": 0.9733068247794509,
+          "missing_pairs": 821,
+          "missing_positives": 1,
+          "full_entries": 1722,
+          "full_positives": 82
+        },
+        {
+          "key": "x8622_y10079_z3673",
+          "missing_edge_ap": 0.0026821421090310557,
+          "full_adjacency_ap": 0.5836891315097184,
+          "missing_pairs": 67542,
+          "missing_positives": 7,
+          "full_entries": 135792,
+          "full_positives": 714
+        },
+        {
+          "key": "x8622_y10079_z3905",
+          "missing_edge_ap": 0.018864177364753217,
+          "full_adjacency_ap": 0.6050645526944759,
+          "missing_pairs": 46980,
+          "missing_positives": 3,
+          "full_entries": 94556,
+          "full_positives": 602
+        },
+        {
+          "key": "x8622_y10079_z4137",
+          "missing_edge_ap": 0.00178685628175078,
+          "full_adjacency_ap": 0.5889932131564437,
+          "missing_pairs": 53312,
+          "missing_positives": 5,
+          "full_entries": 107256,
+          "full_positives": 642
+        },
+        {
+          "key": "x8622_y10311_z3673",
+          "missing_edge_ap": 0.0016303012262900434,
+          "full_adjacency_ap": 0.6271033803106875,
+          "missing_pairs": 44860,
+          "missing_positives": 5,
+          "full_entries": 90300,
+          "full_positives": 582
+        },
+        {
+          "key": "x8622_y9615_z3905",
+          "missing_edge_ap": 0.00397092817792268,
+          "full_adjacency_ap": 0.6519538751209494,
+          "missing_pairs": 19117,
+          "missing_positives": 5,
+          "full_entries": 38612,
+          "full_positives": 384
+        },
+        {
+          "key": "x8622_y9847_z3673",
+          "missing_edge_ap": 0.0227390180878553,
+          "full_adjacency_ap": 0.8652342540457212,
+          "missing_pairs": 5359,
+          "missing_positives": 2,
+          "full_entries": 10920,
+          "full_positives": 206
+        },
+        {
+          "key": "x8622_y9847_z3905",
+          "missing_edge_ap": 0.0025057043701280364,
+          "full_adjacency_ap": 0.6723884920033348,
+          "missing_pairs": 28688,
+          "missing_positives": 5,
+          "full_entries": 57840,
+          "full_positives": 470
+        },
+        {
+          "key": "x8781_y9439_z3693",
+          "missing_edge_ap": 0.009278262757058668,
+          "full_adjacency_ap": 0.7819172651780857,
+          "missing_pairs": 11181,
+          "missing_positives": 3,
+          "full_entries": 22650,
+          "full_positives": 294
+        },
+        {
+          "key": "x8784_y9442_z3697",
+          "missing_edge_ap": 0.027879677182685254,
+          "full_adjacency_ap": 0.9420927985344443,
+          "missing_pairs": 1599,
+          "missing_positives": 2,
+          "full_entries": 3306,
+          "full_positives": 112
+        },
+        {
+          "key": "x8784_y9674_z3697",
+          "missing_edge_ap": 0.019356203007518797,
+          "full_adjacency_ap": 0.8718364016989757,
+          "missing_pairs": 1383,
+          "missing_positives": 4,
+          "full_entries": 2862,
+          "full_positives": 104
+        },
+        {
+          "key": "x8854_y9615_z3905",
+          "missing_edge_ap": 0.009036524608207513,
+          "full_adjacency_ap": 0.8698384027441116,
+          "missing_pairs": 4375,
+          "missing_positives": 3,
+          "full_entries": 8930,
+          "full_positives": 186
+        },
+        {
+          "key": "x9016_y9210_z3697",
+          "missing_edge_ap": 0.007544639952489437,
+          "full_adjacency_ap": 0.7588773855226219,
+          "missing_pairs": 9053,
+          "missing_positives": 5,
+          "full_entries": 18360,
+          "full_positives": 264
+        },
+        {
+          "key": "x9016_y9442_z3697",
+          "missing_edge_ap": 0.006825359287060799,
+          "full_adjacency_ap": 0.8575621934772019,
+          "missing_pairs": 4378,
+          "missing_positives": 3,
+          "full_entries": 8930,
+          "full_positives": 176
+        },
+        {
+          "key": "x9086_y10079_z3441",
+          "missing_edge_ap": 0.0020227264105200466,
+          "full_adjacency_ap": 0.7899672105621883,
+          "missing_pairs": 21537,
+          "missing_positives": 4,
+          "full_entries": 43472,
+          "full_positives": 406
+        },
+        {
+          "key": "x9086_y9847_z3441",
+          "missing_edge_ap": 0.005156877634832996,
+          "full_adjacency_ap": 0.6922395299706433,
+          "missing_pairs": 16298,
+          "missing_positives": 5,
+          "full_entries": 32942,
+          "full_positives": 350
+        },
+        {
+          "key": "x9086_y9847_z3673",
+          "missing_edge_ap": 0.00443638465617204,
+          "full_adjacency_ap": 0.8485765368204548,
+          "missing_pairs": 8389,
+          "missing_positives": 2,
+          "full_entries": 17030,
+          "full_positives": 256
+        },
+        {
+          "key": "x9248_y9442_z3697",
+          "missing_edge_ap": 0.03198739245250873,
+          "full_adjacency_ap": 0.919927523154408,
+          "missing_pairs": 3244,
+          "missing_positives": 3,
+          "full_entries": 6642,
+          "full_positives": 160
+        },
+        {
+          "key": "x9318_y10079_z3441",
+          "missing_edge_ap": 0.00808029052540757,
+          "full_adjacency_ap": 0.7968475662773512,
+          "missing_pairs": 16478,
+          "missing_positives": 4,
+          "full_entries": 33306,
+          "full_positives": 358
+        },
+        {
+          "key": "x9318_y10311_z3441",
+          "missing_edge_ap": 0.0005937580069250014,
+          "full_adjacency_ap": 0.5655820935515602,
+          "missing_pairs": 146087,
+          "missing_positives": 7,
+          "full_entries": 293222,
+          "full_positives": 1054
+        },
+        {
+          "key": "x9318_y9847_z3441",
+          "missing_edge_ap": 0.003473953955762578,
+          "full_adjacency_ap": 0.5776347352248979,
+          "missing_pairs": 35791,
+          "missing_positives": 9,
+          "full_entries": 72092,
+          "full_positives": 524
+        },
+        {
+          "key": "x9480_y8978_z3697",
+          "missing_edge_ap": 0.006846492893594747,
+          "full_adjacency_ap": 0.831651641620223,
+          "missing_pairs": 2781,
+          "missing_positives": 3,
+          "full_entries": 5700,
+          "full_positives": 144
+        },
+        {
+          "key": "x9480_y9210_z3697",
+          "missing_edge_ap": 0.004487131504585864,
+          "full_adjacency_ap": 0.7484605420082794,
+          "missing_pairs": 24108,
+          "missing_positives": 10,
+          "full_entries": 48620,
+          "full_positives": 424
+        },
+        {
+          "key": "x9712_y8978_z3929",
+          "missing_edge_ap": 0.022833692711079278,
+          "full_adjacency_ap": 0.8642573416514412,
+          "missing_pairs": 6910,
+          "missing_positives": 4,
+          "full_entries": 14042,
+          "full_positives": 228
+        },
+        {
+          "key": "x9712_y9210_z3697",
+          "missing_edge_ap": 0.006705808221937989,
+          "full_adjacency_ap": 0.7440972466961481,
+          "missing_pairs": 14890,
+          "missing_positives": 6,
+          "full_entries": 30102,
+          "full_positives": 326
+        },
+        {
+          "key": "x9824_y7864_z3772",
+          "missing_edge_ap": 0.01552868658131816,
+          "full_adjacency_ap": 0.9094150862224074,
+          "missing_pairs": 1894,
+          "missing_positives": 2,
+          "full_entries": 3906,
+          "full_positives": 122
+        },
+        {
+          "key": "x9824_y8328_z3540",
+          "missing_edge_ap": 0.02475563110922227,
+          "full_adjacency_ap": 0.8029291430443768,
+          "missing_pairs": 6444,
+          "missing_positives": 2,
+          "full_entries": 13110,
+          "full_positives": 226
+        },
+        {
+          "key": "x9824_y8560_z3540",
+          "missing_edge_ap": 0.022525310969261844,
+          "full_adjacency_ap": 0.8269606025135314,
+          "missing_pairs": 4661,
+          "missing_positives": 3,
+          "full_entries": 9506,
+          "full_positives": 190
+        },
+        {
+          "key": "x9824_y8792_z3540",
+          "missing_edge_ap": 0.015362612445681564,
+          "full_adjacency_ap": 0.9219471907545816,
+          "missing_pairs": 3491,
+          "missing_positives": 3,
+          "full_entries": 7140,
+          "full_positives": 164
+        },
+        {
+          "key": "x9824_y8792_z3772",
+          "missing_edge_ap": 0.012007465418495383,
+          "full_adjacency_ap": 0.9118754495783272,
+          "missing_pairs": 2420,
+          "missing_positives": 4,
+          "full_entries": 4970,
+          "full_positives": 138
+        },
+        {
+          "key": "x9824_y9024_z3540",
+          "missing_edge_ap": 0.004899620441972185,
+          "full_adjacency_ap": 0.7218150498279623,
+          "missing_pairs": 21332,
+          "missing_positives": 7,
+          "full_entries": 43056,
+          "full_positives": 406
+        },
+        {
+          "key": "x9824_y9024_z3772",
+          "missing_edge_ap": 0.04696969696969697,
+          "full_adjacency_ap": 0.9632948372694419,
+          "missing_pairs": 865,
+          "missing_positives": 2,
+          "full_entries": 1806,
+          "full_positives": 80
+        },
+        {
+          "key": "x9944_y8514_z3697",
+          "missing_edge_ap": 0.005648395721925134,
+          "full_adjacency_ap": 0.7899587297390063,
+          "missing_pairs": 4101,
+          "missing_positives": 3,
+          "full_entries": 8372,
+          "full_positives": 176
+        },
+        {
+          "key": "x9944_y8746_z3697",
+          "missing_edge_ap": 0.012132281955286985,
+          "full_adjacency_ap": 0.796218836712279,
+          "missing_pairs": 9197,
+          "missing_positives": 9,
+          "full_entries": 18632,
+          "full_positives": 256
+        },
+        {
+          "key": "x9944_y8978_z3697",
+          "missing_edge_ap": 0.004504699219669613,
+          "full_adjacency_ap": 0.8439454918839563,
+          "missing_pairs": 6564,
+          "missing_positives": 4,
+          "full_entries": 13340,
+          "full_positives": 220
+        },
+        {
+          "key": "x10014_y8687_z3673",
+          "missing_edge_ap": 0.004355578082626896,
+          "full_adjacency_ap": 0.4250930190390857,
+          "missing_pairs": 78225,
+          "missing_positives": 9,
+          "full_entries": 157212,
+          "full_positives": 780
+        },
+        {
+          "key": "x10014_y8919_z3673",
+          "missing_edge_ap": 0.00218776436058044,
+          "full_adjacency_ap": 0.640155014482743,
+          "missing_pairs": 36324,
+          "missing_positives": 5,
+          "full_entries": 73170,
+          "full_positives": 532
+        },
+        {
+          "key": "x9782_y9151_z3673",
+          "missing_edge_ap": 0.01781352076707305,
+          "full_adjacency_ap": 0.8531249380489485,
+          "missing_pairs": 6677,
+          "missing_positives": 5,
+          "full_entries": 13572,
+          "full_positives": 228
+        }
+      ],
+      "prediction_hashes": {
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x10056_y8096_z3540.npz": "68e14fa2bdfdec65071a9bccf8f014b723c6dea8307524120050aa3e3aa33442",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x10056_y8560_z3540.npz": "25e5586e62f4391655bdb66e24c08154c14a5ffa87ecc8ff533a537e5daf323f",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x10056_y8792_z3772.npz": "4ec09895e411da66284fc9a547ec360da1fc245d4499e8042697e0dc1db45fc8",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x10056_y9024_z3540.npz": "a8f88cba695cf65569942f27a9f6a93cd09c7012df0671b8691ebdb7f8c6f93b",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x10176_y8978_z3697.npz": "4b016092f60121f40d8d7490b32ab1bbf30f79d7b776f84f4e3419cc1a1c8fc9",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x10288_y7864_z3540.npz": "507c769a4817dc1b35d250cb408093652248fd903e94b565b2fecf47fb247320",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x10288_y7864_z3772.npz": "678e154b95c210cb9e9577cf4c2e5c6e402486c8ca7e9929dae83fe5ca0cc99c",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x10288_y8096_z3540.npz": "a2aa2a2625bdbb95211e2a7cbd3aa3373c545cc3fc11448403a70b982d4029d3",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x10288_y8328_z3540.npz": "db6e88c9edb51f8316c47e89bf2cb0bac7b0bc6c70e4a24af5cefbe27be44a61",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x10288_y8560_z3540.npz": "bc7929d4d63662906b6523db89756845550e1fe25d27c9b95fa166d832b6b73a",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x10288_y8560_z3772.npz": "a12dfdd38dcc6fb97256f003d821fcb0b4d652a84687a646cd96c98cef961239",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x10288_y8792_z3540.npz": "d02ef8eab12877a1ebcf3345c4598b434d50da4d9c0b4961e9fffc8fa7e53df7",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x10288_y9024_z3540.npz": "4e994f7248f72b2148192d6828a2ea2d8c0399c2e1a5f11acc79c17feb7a47a1",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x10520_y7632_z3540.npz": "0ee256ba62bc22748e7fef37e7ec1e9e337a92782e3ecad3fffbdb93d2c2dbbd",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x8085_y9439_z3925.npz": "cc6906fc422dfb616110f0f69e2315d1e514ddd48063d30d00d427f9c01c549d",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x8158_y9151_z4137.npz": "9d6e1a915df4ba1cc2f10a2e4c16a13745329a83136f4911444aa872a295c0d9",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x8317_y10135_z3925.npz": "88005c2e319a8df6d1df6edd9a177081e924195f00f3bc31d4871966f3290d55",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x8317_y10135_z4157.npz": "d1de0b387e974cec8a5f66378c36554a2fc22222b2b8538aae1a0773d8ab9172",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x8317_y9671_z3925.npz": "24fbfd938a0e1b1f7103fdcf2904e8824d3d9f7edb222d86e825ccbe21617147",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x8317_y9903_z3925.npz": "493aa135987b279147c68eaaf46aa1bf1e7ae3451497472fd0a403c047c4d045",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x8320_y10138_z3697.npz": "4842c2bac59e8ac670bb5558aec8f0f5132beeeed6c9133c60dee34dc89f926f",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x8320_y10138_z3929.npz": "d7d6098b0f89512c0a5c31feaf54b248828f4fe3cc716609ee77d20ff81c05fc",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x8390_y10079_z3905.npz": "0f0d3aa0b15978cbfef64c05a63f7e3847af84e1f5171943d25b09d694ab4c78",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x8390_y9383_z3905.npz": "ff2f5d3fd4fa411695c1114037b5dbd2ee2b724621da385bf3da9593eac97226",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x8549_y9439_z3693.npz": "a29fd4717de85fb414ef4f539c3222b21cf503332f9a6d504ad90924d02eda3f",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x8622_y10079_z3673.npz": "d7a1ece7e4e7b551be4ddbdec4eff430842f181a729ce3b496f97cfba6a553b7",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x8622_y10079_z3905.npz": "ff8f07f388ae42183948c7f32495e8d56c491586c7d287743bab800e38dbc38a",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x8622_y10079_z4137.npz": "64060e9701399cdbeb08c08ac049911b6e8a72b6f85421d821dda3abd9d585fc",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x8622_y10311_z3673.npz": "f20f4e48480eb2fcbc0eec3d636a9860f8fed3a3f72a0985af70c33f1b17ac38",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x8622_y9615_z3905.npz": "ef934fda53c67ab735b1eca7c97a3b08eae3fa0380ffdce28883beafc8ca2f4a",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x8622_y9847_z3673.npz": "fc6fe3164e0b58e3a29a55f1ed29dcd176d32044ee5e7fd346e679546e1222c1",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x8622_y9847_z3905.npz": "d87bcacf459392824e758ee8561625b04b67ac930922e1c7c2b2e7bcb0a86f12",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x8781_y9439_z3693.npz": "0444cafbfa6d424b3ad521199c74eca7f4e3b01e5122165175f264f2822976e6",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x8784_y9442_z3697.npz": "a89e908203844f4294a13a06c3827dd2b51c64b89c0aa5b1447d82c0448b189a",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x8784_y9674_z3697.npz": "4b73b6a41280d59aff9d77c38c4f06e7f07dfc4cf659a0d591ae544e0f19b881",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x8854_y9615_z3905.npz": "85cd8291bf0e6b5eaac5fead85c8ca93646d14029e75ae2818867813026b2842",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x9016_y9210_z3697.npz": "5c84e5dbe2f86b2a8509e0bb854ebd79c574c3e4ee6fa5e84aaa7521908047f9",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x9016_y9442_z3697.npz": "9e3c818ba45f302931af1614f6080b858164f6d9da30aae143e47d8460dc1afa",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x9086_y10079_z3441.npz": "a7af577b65bd42eda27ade4db880aa5b5d8b23469c6e3b62b3067206113c928c",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x9086_y9847_z3441.npz": "4dca5be5bb1feacaa059dea8b3ec68af902c39704ffc55acc53ca7e13f51c660",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x9086_y9847_z3673.npz": "245fed956873d9648c2c0712b88e307754462e147f3764499c361d7ccccd5c1d",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x9248_y9442_z3697.npz": "d9990eb2620ca99f6dec55f02869cc5c7386b7f0960463392dfe0e3cc690f5fd",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x9318_y10079_z3441.npz": "7931523b716fe411b34bfb140e221672c8644d8f0c3b43d0a0639638c5e93802",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x9318_y10311_z3441.npz": "bf23e937f8cf960b73880ab889535d8bb6d6f7151d57e77ba077892ae4631277",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x9318_y9847_z3441.npz": "1ef3649a0c5eec25aa071e8cf28128a2e90c91244662d3cc4f3060c9e34795fb",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x9480_y8978_z3697.npz": "ffac2e4b9a5edd0181a1887e89f88ce1a72e4219d6ae62fcbd50060cb424a542",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x9480_y9210_z3697.npz": "71693568b7571bb6b2cada46d385f584dd0c916b4fa52ddd836c9c0e7e2e8525",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x9712_y8978_z3929.npz": "1583665cfcef410fbef6a271afd170befc96b4a1800b62ef25c47cc33195bb46",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x9712_y9210_z3697.npz": "f8aed909d5d2a16a62e2e1238b3839ff174318b57b4f8368aa2a7d92cd475ee3",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x9824_y7864_z3772.npz": "fe1a9f6f2be8b7a74331cfc79e08a09e36b8129e2a1f77a29eae3d7cb5039a32",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x9824_y8328_z3540.npz": "86574a619370e4a951e08bbc4dea79c403d5dfb178405d05cdaad292d81670e2",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x9824_y8560_z3540.npz": "609257e9d606b118efbf58f5b7769777416d71939851899a2ae889c3da264238",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x9824_y8792_z3540.npz": "d2d4645aaa088382c6075c456ec94a3182049a53b4c1f7144f7b58f399dfbafd",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x9824_y8792_z3772.npz": "c1a625e6c5db2daa9a63a74a4ab0f033b83430da19ed491de0fd9eb14c873b28",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x9824_y9024_z3540.npz": "97df175287269b91c7870dc7d8d52d56cf1dbf272bebef22cf1389fe205ec286",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x9824_y9024_z3772.npz": "45ba6122be08e7470e989ac77f65ee37a3cfdb2f675254e8835ac7c7c281f9d6",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x9944_y8514_z3697.npz": "6d659b09f6b18521950250e313f5f169f18b49bdbaf9cfee3a3c4a8c14ac8ccf",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x9944_y8746_z3697.npz": "84cbc5b62cb0ecd9f1a83910237a33a0c3d395dc4af29efaf574a49725077047",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x9944_y8978_z3697.npz": "8412f5db6ef1b89bd2c7d266c40da1f307385626ebd4677ba536d4b47c6a9ecf",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x10014_y8687_z3673.npz": "4e903ce3848078cacc64cf33d1658601136f6fbf7970dcc64a6b8b8cf1cbf2dd",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x10014_y8919_z3673.npz": "433a84eeef23c887d46720d80e35dd36155ea6a3bb1c6be6079391b16f937bf6",
+        "/root/megrez-tmp/CPSF_TLP_NATIVE_OBJECTIVE_20261015/val/x9782_y9151_z3673.npz": "7e4717b6806f12356af97b1ea5ecc99e77a9b7150c979a814e3a4c6959dc7f16"
+      }
+    },
+    "r9": {
+      "missing_edge_macro_ap": 0.5669343012311744,
+      "full_adjacency_macro_ap": 0.2083911024916766,
+      "source_metrics": "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/metrics.json",
+      "metrics_sha256": "3d256bdaba2e4d60c4e10a47f38983f49befb7e8e163b5b611f57946f5ccef84",
+      "checkpoint": "/root/megrez-tmp/CPSF_R9_TASK_EXPANSION_20261017_A2/results/patch_rms_010_tlp/final.pt",
+      "checkpoint_sha256": "60508a5aa2a37af0eb8b548086f708db977f9036ed2f53dd60b1d6dd78260e57",
+      "graphs": [
+        {
+          "key": "x10056_y8096_z3540",
+          "missing_edge_ap": 0.5051082251082251,
+          "full_adjacency_ap": 0.16877063059168704,
+          "missing_pairs": 10019,
+          "missing_positives": 5,
+          "full_entries": 20306,
+          "full_positives": 278
+        },
+        {
+          "key": "x10056_y8560_z3540",
+          "missing_edge_ap": 0.7101449275362319,
+          "full_adjacency_ap": 0.2562402618537968,
+          "missing_pairs": 3244,
+          "missing_positives": 3,
+          "full_entries": 6642,
+          "full_positives": 160
+        },
+        {
+          "key": "x10056_y8792_z3772",
+          "missing_edge_ap": 0.37797619047619047,
+          "full_adjacency_ap": 0.30543710561300713,
+          "missing_pairs": 5676,
+          "missing_positives": 4,
+          "full_entries": 11556,
+          "full_positives": 212
+        },
+        {
+          "key": "x10056_y9024_z3540",
+          "missing_edge_ap": 0.5259441707717569,
+          "full_adjacency_ap": 0.16861685869318935,
+          "missing_pairs": 28690,
+          "missing_positives": 5,
+          "full_entries": 57840,
+          "full_positives": 470
+        },
+        {
+          "key": "x10176_y8978_z3697",
+          "missing_edge_ap": 0.7916666666666666,
+          "full_adjacency_ap": 0.2688129156728865,
+          "missing_pairs": 1544,
+          "missing_positives": 3,
+          "full_entries": 3192,
+          "full_positives": 110
+        },
+        {
+          "key": "x10288_y7864_z3540",
+          "missing_edge_ap": 0.7928571428571429,
+          "full_adjacency_ap": 0.367825584810918,
+          "missing_pairs": 3008,
+          "missing_positives": 4,
+          "full_entries": 6162,
+          "full_positives": 154
+        },
+        {
+          "key": "x10288_y7864_z3772",
+          "missing_edge_ap": 0.3946699754583071,
+          "full_adjacency_ap": 0.14857359716982732,
+          "missing_pairs": 19514,
+          "missing_positives": 9,
+          "full_entries": 39402,
+          "full_positives": 392
+        },
+        {
+          "key": "x10288_y8096_z3540",
+          "missing_edge_ap": 0.4767593517593517,
+          "full_adjacency_ap": 0.12240368724496055,
+          "missing_pairs": 25891,
+          "missing_positives": 8,
+          "full_entries": 52212,
+          "full_positives": 446
+        },
+        {
+          "key": "x10288_y8328_z3540",
+          "missing_edge_ap": 0.37037037037037035,
+          "full_adjacency_ap": 0.2031854419274398,
+          "missing_pairs": 5783,
+          "missing_positives": 4,
+          "full_entries": 11772,
+          "full_positives": 214
+        },
+        {
+          "key": "x10288_y8560_z3540",
+          "missing_edge_ap": 0.4569628589075183,
+          "full_adjacency_ap": 0.14352067175852792,
+          "missing_pairs": 37692,
+          "missing_positives": 12,
+          "full_entries": 75900,
+          "full_positives": 540
+        },
+        {
+          "key": "x10288_y8560_z3772",
+          "missing_edge_ap": 0.43452380952380953,
+          "full_adjacency_ap": 0.1623364864969845,
+          "missing_pairs": 8391,
+          "missing_positives": 4,
+          "full_entries": 17030,
+          "full_positives": 256
+        },
+        {
+          "key": "x10288_y8792_z3540",
+          "missing_edge_ap": 0.45673073906769557,
+          "full_adjacency_ap": 0.11970626157593942,
+          "missing_pairs": 93116,
+          "missing_positives": 13,
+          "full_entries": 187056,
+          "full_positives": 850
+        },
+        {
+          "key": "x10288_y9024_z3540",
+          "missing_edge_ap": 0.3666666666666667,
+          "full_adjacency_ap": 0.2991663406765775,
+          "missing_pairs": 1656,
+          "missing_positives": 2,
+          "full_entries": 3422,
+          "full_positives": 114
+        },
+        {
+          "key": "x10520_y7632_z3540",
+          "missing_edge_ap": 0.041666666666666664,
+          "full_adjacency_ap": 0.26578697782553157,
+          "missing_pairs": 1379,
+          "missing_positives": 1,
+          "full_entries": 2862,
+          "full_positives": 106
+        },
+        {
+          "key": "x8085_y9439_z3925",
+          "missing_edge_ap": 0.8055555555555556,
+          "full_adjacency_ap": 0.26741481366976333,
+          "missing_pairs": 3659,
+          "missing_positives": 3,
+          "full_entries": 7482,
+          "full_positives": 170
+        },
+        {
+          "key": "x8158_y9151_z4137",
+          "missing_edge_ap": 0.36507936507936506,
+          "full_adjacency_ap": 0.25069112764852797,
+          "missing_pairs": 28925,
+          "missing_positives": 3,
+          "full_entries": 58322,
+          "full_positives": 478
+        },
+        {
+          "key": "x8317_y10135_z3925",
+          "missing_edge_ap": 0.5873397435897436,
+          "full_adjacency_ap": 0.18838095120888101,
+          "missing_pairs": 4566,
+          "missing_positives": 4,
+          "full_entries": 9312,
+          "full_positives": 188
+        },
+        {
+          "key": "x8317_y10135_z4157",
+          "missing_edge_ap": 0.7222222222222222,
+          "full_adjacency_ap": 0.32878084695782145,
+          "missing_pairs": 3659,
+          "missing_positives": 3,
+          "full_entries": 7482,
+          "full_positives": 170
+        },
+        {
+          "key": "x8317_y9671_z3925",
+          "missing_edge_ap": 0.27580798830798825,
+          "full_adjacency_ap": 0.19563472235531604,
+          "missing_pairs": 36055,
+          "missing_positives": 8,
+          "full_entries": 72630,
+          "full_positives": 536
+        },
+        {
+          "key": "x8317_y9903_z3925",
+          "missing_edge_ap": 0.4103174603174603,
+          "full_adjacency_ap": 0.2063107229128291,
+          "missing_pairs": 22589,
+          "missing_positives": 7,
+          "full_entries": 45582,
+          "full_positives": 418
+        },
+        {
+          "key": "x8320_y10138_z3697",
+          "missing_edge_ap": 0.37797619047619047,
+          "full_adjacency_ap": 0.24332495185540054,
+          "missing_pairs": 3008,
+          "missing_positives": 4,
+          "full_entries": 6162,
+          "full_positives": 154
+        },
+        {
+          "key": "x8320_y10138_z3929",
+          "missing_edge_ap": 0.8333333333333333,
+          "full_adjacency_ap": 0.19258942080959837,
+          "missing_pairs": 6111,
+          "missing_positives": 3,
+          "full_entries": 12432,
+          "full_positives": 212
+        },
+        {
+          "key": "x8390_y10079_z3905",
+          "missing_edge_ap": 1.0,
+          "full_adjacency_ap": 0.2271096966414296,
+          "missing_pairs": 12093,
+          "missing_positives": 1,
+          "full_entries": 24492,
+          "full_positives": 308
+        },
+        {
+          "key": "x8390_y9383_z3905",
+          "missing_edge_ap": 0.26666666666666666,
+          "full_adjacency_ap": 0.3048200998916383,
+          "missing_pairs": 2559,
+          "missing_positives": 2,
+          "full_entries": 5256,
+          "full_positives": 142
+        },
+        {
+          "key": "x8549_y9439_z3693",
+          "missing_edge_ap": 0.16666666666666666,
+          "full_adjacency_ap": 0.3115884295539935,
+          "missing_pairs": 821,
+          "missing_positives": 1,
+          "full_entries": 1722,
+          "full_positives": 82
+        },
+        {
+          "key": "x8622_y10079_z3673",
+          "missing_edge_ap": 0.5561855488684757,
+          "full_adjacency_ap": 0.14695090213242346,
+          "missing_pairs": 67542,
+          "missing_positives": 7,
+          "full_entries": 135792,
+          "full_positives": 714
+        },
+        {
+          "key": "x8622_y10079_z3905",
+          "missing_edge_ap": 0.6893939393939393,
+          "full_adjacency_ap": 0.16509152854884065,
+          "missing_pairs": 46980,
+          "missing_positives": 3,
+          "full_entries": 94556,
+          "full_positives": 602
+        },
+        {
+          "key": "x8622_y10079_z4137",
+          "missing_edge_ap": 0.5566233766233766,
+          "full_adjacency_ap": 0.1549816186447082,
+          "missing_pairs": 53312,
+          "missing_positives": 5,
+          "full_entries": 107256,
+          "full_positives": 642
+        },
+        {
+          "key": "x8622_y10311_z3673",
+          "missing_edge_ap": 0.3924603174603175,
+          "full_adjacency_ap": 0.16736726031527735,
+          "missing_pairs": 44860,
+          "missing_positives": 5,
+          "full_entries": 90300,
+          "full_positives": 582
+        },
+        {
+          "key": "x8622_y9615_z3905",
+          "missing_edge_ap": 0.3763170163170163,
+          "full_adjacency_ap": 0.16830586268028458,
+          "missing_pairs": 19117,
+          "missing_positives": 5,
+          "full_entries": 38612,
+          "full_positives": 384
+        },
+        {
+          "key": "x8622_y9847_z3673",
+          "missing_edge_ap": 0.3333333333333333,
+          "full_adjacency_ap": 0.2347464345027667,
+          "missing_pairs": 5359,
+          "missing_positives": 2,
+          "full_entries": 10920,
+          "full_positives": 206
+        },
+        {
+          "key": "x8622_y9847_z3905",
+          "missing_edge_ap": 0.3938888888888889,
+          "full_adjacency_ap": 0.1145285590936754,
+          "missing_pairs": 28688,
+          "missing_positives": 5,
+          "full_entries": 57840,
+          "full_positives": 470
+        },
+        {
+          "key": "x8781_y9439_z3693",
+          "missing_edge_ap": 0.6825396825396826,
+          "full_adjacency_ap": 0.27161117200667,
+          "missing_pairs": 11181,
+          "missing_positives": 3,
+          "full_entries": 22650,
+          "full_positives": 294
+        },
+        {
+          "key": "x8784_y9442_z3697",
+          "missing_edge_ap": 0.5833333333333333,
+          "full_adjacency_ap": 0.2661541250398809,
+          "missing_pairs": 1599,
+          "missing_positives": 2,
+          "full_entries": 3306,
+          "full_positives": 112
+        },
+        {
+          "key": "x8784_y9674_z3697",
+          "missing_edge_ap": 0.48333333333333334,
+          "full_adjacency_ap": 0.25985791546167064,
+          "missing_pairs": 1383,
+          "missing_positives": 4,
+          "full_entries": 2862,
+          "full_positives": 104
+        },
+        {
+          "key": "x8854_y9615_z3905",
+          "missing_edge_ap": 0.7555555555555555,
+          "full_adjacency_ap": 0.22360601090057913,
+          "missing_pairs": 4375,
+          "missing_positives": 3,
+          "full_entries": 8930,
+          "full_positives": 186
+        },
+        {
+          "key": "x9016_y9210_z3697",
+          "missing_edge_ap": 1.0,
+          "full_adjacency_ap": 0.24284780815180154,
+          "missing_pairs": 9053,
+          "missing_positives": 5,
+          "full_entries": 18360,
+          "full_positives": 264
+        },
+        {
+          "key": "x9016_y9442_z3697",
+          "missing_edge_ap": 1.0,
+          "full_adjacency_ap": 0.24904203958879395,
+          "missing_pairs": 4378,
+          "missing_positives": 3,
+          "full_entries": 8930,
+          "full_positives": 176
+        },
+        {
+          "key": "x9086_y10079_z3441",
+          "missing_edge_ap": 0.4444444444444444,
+          "full_adjacency_ap": 0.1212896821278484,
+          "missing_pairs": 21537,
+          "missing_positives": 4,
+          "full_entries": 43472,
+          "full_positives": 406
+        },
+        {
+          "key": "x9086_y9847_z3441",
+          "missing_edge_ap": 0.49523809523809526,
+          "full_adjacency_ap": 0.14108710414336964,
+          "missing_pairs": 16298,
+          "missing_positives": 5,
+          "full_entries": 32942,
+          "full_positives": 350
+        },
+        {
+          "key": "x9086_y9847_z3673",
+          "missing_edge_ap": 0.5294117647058824,
+          "full_adjacency_ap": 0.19863155824094872,
+          "missing_pairs": 8389,
+          "missing_positives": 2,
+          "full_entries": 17030,
+          "full_positives": 256
+        },
+        {
+          "key": "x9248_y9442_z3697",
+          "missing_edge_ap": 1.0,
+          "full_adjacency_ap": 0.28502453644633924,
+          "missing_pairs": 3244,
+          "missing_positives": 3,
+          "full_entries": 6642,
+          "full_positives": 160
+        },
+        {
+          "key": "x9318_y10079_z3441",
+          "missing_edge_ap": 0.575,
+          "full_adjacency_ap": 0.13793697460759194,
+          "missing_pairs": 16478,
+          "missing_positives": 4,
+          "full_entries": 33306,
+          "full_positives": 358
+        },
+        {
+          "key": "x9318_y10311_z3441",
+          "missing_edge_ap": 0.6370085140974628,
+          "full_adjacency_ap": 0.07944202724190008,
+          "missing_pairs": 146087,
+          "missing_positives": 7,
+          "full_entries": 293222,
+          "full_positives": 1054
+        },
+        {
+          "key": "x9318_y9847_z3441",
+          "missing_edge_ap": 0.3123351679853228,
+          "full_adjacency_ap": 0.12253731427397027,
+          "missing_pairs": 35791,
+          "missing_positives": 9,
+          "full_entries": 72092,
+          "full_positives": 524
+        },
+        {
+          "key": "x9480_y8978_z3697",
+          "missing_edge_ap": 0.4206349206349207,
+          "full_adjacency_ap": 0.15934231874905463,
+          "missing_pairs": 2781,
+          "missing_positives": 3,
+          "full_entries": 5700,
+          "full_positives": 144
+        },
+        {
+          "key": "x9480_y9210_z3697",
+          "missing_edge_ap": 0.6137296037296037,
+          "full_adjacency_ap": 0.11740890368561117,
+          "missing_pairs": 24108,
+          "missing_positives": 10,
+          "full_entries": 48620,
+          "full_positives": 424
+        },
+        {
+          "key": "x9712_y8978_z3929",
+          "missing_edge_ap": 0.6845238095238095,
+          "full_adjacency_ap": 0.1917192176683948,
+          "missing_pairs": 6910,
+          "missing_positives": 4,
+          "full_entries": 14042,
+          "full_positives": 228
+        },
+        {
+          "key": "x9712_y9210_z3697",
+          "missing_edge_ap": 0.5096611721611722,
+          "full_adjacency_ap": 0.14817714322833597,
+          "missing_pairs": 14890,
+          "missing_positives": 6,
+          "full_entries": 30102,
+          "full_positives": 326
+        },
+        {
+          "key": "x9824_y7864_z3772",
+          "missing_edge_ap": 1.0,
+          "full_adjacency_ap": 0.36106176281613184,
+          "missing_pairs": 1894,
+          "missing_positives": 2,
+          "full_entries": 3906,
+          "full_positives": 122
+        },
+        {
+          "key": "x9824_y8328_z3540",
+          "missing_edge_ap": 1.0,
+          "full_adjacency_ap": 0.29876680866148,
+          "missing_pairs": 6444,
+          "missing_positives": 2,
+          "full_entries": 13110,
+          "full_positives": 226
+        },
+        {
+          "key": "x9824_y8560_z3540",
+          "missing_edge_ap": 0.9166666666666665,
+          "full_adjacency_ap": 0.2576620268847134,
+          "missing_pairs": 4661,
+          "missing_positives": 3,
+          "full_entries": 9506,
+          "full_positives": 190
+        },
+        {
+          "key": "x9824_y8792_z3540",
+          "missing_edge_ap": 0.8666666666666667,
+          "full_adjacency_ap": 0.18952889497379394,
+          "missing_pairs": 3491,
+          "missing_positives": 3,
+          "full_entries": 7140,
+          "full_positives": 164
+        },
+        {
+          "key": "x9824_y8792_z3772",
+          "missing_edge_ap": 0.4333333333333333,
+          "full_adjacency_ap": 0.3259784635245565,
+          "missing_pairs": 2420,
+          "missing_positives": 4,
+          "full_entries": 4970,
+          "full_positives": 138
+        },
+        {
+          "key": "x9824_y9024_z3540",
+          "missing_edge_ap": 0.5342403628117913,
+          "full_adjacency_ap": 0.20081173421632223,
+          "missing_pairs": 21332,
+          "missing_positives": 7,
+          "full_entries": 43056,
+          "full_positives": 406
+        },
+        {
+          "key": "x9824_y9024_z3772",
+          "missing_edge_ap": 0.8333333333333333,
+          "full_adjacency_ap": 0.26832919802904653,
+          "missing_pairs": 865,
+          "missing_positives": 2,
+          "full_entries": 1806,
+          "full_positives": 80
+        },
+        {
+          "key": "x9944_y8514_z3697",
+          "missing_edge_ap": 0.7,
+          "full_adjacency_ap": 0.19734761892972377,
+          "missing_pairs": 4101,
+          "missing_positives": 3,
+          "full_entries": 8372,
+          "full_positives": 176
+        },
+        {
+          "key": "x9944_y8746_z3697",
+          "missing_edge_ap": 0.3725396471720001,
+          "full_adjacency_ap": 0.1383881843277748,
+          "missing_pairs": 9197,
+          "missing_positives": 9,
+          "full_entries": 18632,
+          "full_positives": 256
+        },
+        {
+          "key": "x9944_y8978_z3697",
+          "missing_edge_ap": 0.475,
+          "full_adjacency_ap": 0.15137003992642908,
+          "missing_pairs": 6564,
+          "missing_positives": 4,
+          "full_entries": 13340,
+          "full_positives": 220
+        },
+        {
+          "key": "x10014_y8687_z3673",
+          "missing_edge_ap": 0.6746696286169971,
+          "full_adjacency_ap": 0.09455509388197691,
+          "missing_pairs": 78225,
+          "missing_positives": 9,
+          "full_entries": 157212,
+          "full_positives": 780
+        },
+        {
+          "key": "x10014_y8919_z3673",
+          "missing_edge_ap": 0.40329004329004325,
+          "full_adjacency_ap": 0.1947409231257413,
+          "missing_pairs": 36324,
+          "missing_positives": 5,
+          "full_entries": 73170,
+          "full_positives": 532
+        },
+        {
+          "key": "x9782_y9151_z3673",
+          "missing_edge_ap": 0.4022222222222222,
+          "full_adjacency_ap": 0.15699098228904984,
+          "missing_pairs": 6677,
+          "missing_positives": 5,
+          "full_entries": 13572,
+          "full_positives": 228
+        }
+      ],
+      "prediction_hashes": {
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x10056_y8096_z3540.npz": "d21e3d311caa702053b1a21b6f78d56b712e34024b192eda0ae9b589368940da",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x10056_y8560_z3540.npz": "847882200bf5f05c41f9938d0a58b38e4efdab18d86da108b5a12e2bc964b7ba",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x10056_y8792_z3772.npz": "0e2cb0adb951ff1297cd9378c8d15ecbc63d1c26ff69782ca25393cc9a58548f",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x10056_y9024_z3540.npz": "76f8c8bcdd233190d477964d42826e6300b3b06b3dff93a7b623d88d9ca1b6e7",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x10176_y8978_z3697.npz": "f86907584000804f7c7fa30368a2160233045900eadba76f92c635efc3e57f85",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x10288_y7864_z3540.npz": "9bd1d004909ec3b82bb5cf74730a50ab07ec5f7c983c9b1a7cf39bab26dde13c",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x10288_y7864_z3772.npz": "b95bdff1ed510cc4f831cded8325fd3069a2b4e501eb96e06ac1963c0961a4e5",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x10288_y8096_z3540.npz": "4bb0dbdc58de7bca6a6d70ca7bba1c6227f49557582686ef288c799a311268c9",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x10288_y8328_z3540.npz": "691e64ad8ac5fa428a72c6265e517491bd01f2cdc36e08f6f056515f7db00826",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x10288_y8560_z3540.npz": "424f2f9449a65c835d1d8481476ee616d58213c0eaa6bdab3536178a956ea1fc",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x10288_y8560_z3772.npz": "65061363a28aaafec0842ef34a21f0dbace63fa4278ebf496febf76de18e79e2",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x10288_y8792_z3540.npz": "c2c8314e539946a203133f7c91b7ae988e2d0b8eb9bbfcfccfbd6f4bfa1c1b9a",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x10288_y9024_z3540.npz": "a41581029ddb77a73421a9794ffb8b10bf41c44b56dac2e4a3f89e68f8f27ff1",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x10520_y7632_z3540.npz": "beff8a9fb56be57ac5c6de8e450c5b422ef35fd924daf4f979c57b8d2834238d",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x8085_y9439_z3925.npz": "fd73ec22636c76f81921ebf7134d5555beafecc008642a1696892ab40d378350",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x8158_y9151_z4137.npz": "82d1f441e28380dcca992c8fed92ad9e35e2bcf34de108c36cd424728777d742",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x8317_y10135_z3925.npz": "8b02b51e7f4dd15d9a048712e79f8baab4f9e9626e79966d5228333809231c71",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x8317_y10135_z4157.npz": "e691b2bf94f54f7ba4fb6c2bd7d64e593a81f928a6ea8875b6b0e05a29403f35",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x8317_y9671_z3925.npz": "cad8aed6272522ec601b929a3345040f7b37111eb83326446d3b9f0ba8e94e21",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x8317_y9903_z3925.npz": "582a6cffd2f8a2546a6beacf633f5fee6a7501dc40621fce48b31ead5de8d036",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x8320_y10138_z3697.npz": "1e2810047a1c7d9c0678a9dd4ab1933761ee567f0f84f3a1b1f2d91519f0046d",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x8320_y10138_z3929.npz": "4978b6ef4ff5eb2b3790dc01100d70e80325aaf0c5113e6da7c9a8f83bdd24c0",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x8390_y10079_z3905.npz": "a1edc98558def4b0eb822326589b24b15be4dc1338b77c6a8b00bf81638a3488",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x8390_y9383_z3905.npz": "945c1aecd7e250b7b3751923e9716e6fa73f399e60ec76497e35ae0fa1d6ed1f",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x8549_y9439_z3693.npz": "5d4c88aa50b6edaf722640cc87f297a6ad7fd0ec07c6b5905bd90b4ba1dda7cc",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x8622_y10079_z3673.npz": "e00e40ac4ccfbde3ae4c663057bb5a75e596fc041604f59e35ebb2d64db68016",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x8622_y10079_z3905.npz": "166e248d064bee04a79e4c67413496d6f28214116819e291a55ca9893dfb416a",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x8622_y10079_z4137.npz": "7c8948462e6ebc7fbeb9bdfc8557475265b286dd957b5ba63f6f5485e2571e97",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x8622_y10311_z3673.npz": "288a2a8f786cbda9d4534c9472be3dd67d4edee6e9844e35491b4732a531d575",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x8622_y9615_z3905.npz": "a6052c7f9010fd90c21f2f2e48957456c1795a3e85f0a080c5c9752cf11d794e",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x8622_y9847_z3673.npz": "b2656ea1f74f911815e8543b123d1fdf750e41bfeaa3cb92ecad0de2c70e805e",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x8622_y9847_z3905.npz": "5d9cae6a838bfbed47132f3a0699e462f83b28389844525a42ae14d32749fcb9",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x8781_y9439_z3693.npz": "0dc20c347498622a98bef56064539259538f0e0612e3ba07e542f434cd6e2156",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x8784_y9442_z3697.npz": "f5a80010aaf09de013b6e9de34940d437f166217fad362b040c4e18bde253cc9",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x8784_y9674_z3697.npz": "85cc8458ce578774371bad4f5ca94d8af6ec4dee6136beed9c517ba1284b31a2",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x8854_y9615_z3905.npz": "83ac82bf71bada761e4a533f64d61851c45c422679843adbb7e97e41f7eeab9b",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x9016_y9210_z3697.npz": "74a1b0b6b7bf96acb54f1068a2e97f7a5b920a3b80da55f973270c9be1ca40cc",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x9016_y9442_z3697.npz": "b02142b99ff82c5bde59bb995613eb377716150f314f33f719956de650cc6de7",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x9086_y10079_z3441.npz": "59d41c16ea4e3e45e398b1b99e54b3b1bcc4e59a5d102a441e38962bf21c5ff1",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x9086_y9847_z3441.npz": "61062a8e930bd21621747e2351df5da01ac0f1d03de7453a1410852982e5a691",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x9086_y9847_z3673.npz": "3f48eb853b31eff323cb6928fac2144041bd9c6cfafc12936b6ee38069aed60f",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x9248_y9442_z3697.npz": "413d10bee8595216ca74c4b535e29cb1aa0791ee42007e05a122e08be8cc66f0",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x9318_y10079_z3441.npz": "7d49367198defc646c9415e6b1ee409045ed6ef905a50afc8174ebed8d5a797e",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x9318_y10311_z3441.npz": "45a2a19ced6cfeb2ac7e54905aec860ee9d59e1b1d3d9b04ab14e7083f502cbd",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x9318_y9847_z3441.npz": "c6f341b26312eea429e84989f91b55d4299ad7886c6e1ee0d4bcf91038940924",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x9480_y8978_z3697.npz": "a2d35e3b9b8e7e55f35ece67684ef6f7ec9ccc697545495c1e5eda658bcd1321",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x9480_y9210_z3697.npz": "2cf0084c9f93e883a8b2cc2c7bfd3703b51c320699c89644a95f8ab82bc07fbf",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x9712_y8978_z3929.npz": "6c43115ea69316e254227719e2ad2921c05f6256fabc6c895809613b7b13b9d7",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x9712_y9210_z3697.npz": "6e3c4f853bfbc3f4915e88d3c3db73727bb665c35b7be114388c36115c05cbce",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x9824_y7864_z3772.npz": "2f46bfe24db815d09beb12efa3c472a1f05d9668b4e2967c30ce72a7117a06b6",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x9824_y8328_z3540.npz": "1e632fabf55bddb2d9275adf145d7ea7c2c6783fa4002b7b88a8033987b664f0",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x9824_y8560_z3540.npz": "e90364cd86462b135497759db16e6d5e19b8a79ad50f74bfc04068b2f8a39232",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x9824_y8792_z3540.npz": "b46e64cb98813ca099287acd54b7bc392c40fcf4591321ad1a45889e12ad9331",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x9824_y8792_z3772.npz": "934c67fe6202b1d704af9c5c9dc28001e3cc2ca26115f74036eefa694e71e38a",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x9824_y9024_z3540.npz": "dbdfb967061502b931b466716d31dcad177c051ae9e91693cf17c3aca3d00838",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x9824_y9024_z3772.npz": "1bc36abea519a817f2dbc1ed9b890c0ba6a54c55682f1db785d8a50ff4141e30",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x9944_y8514_z3697.npz": "f75685382d9cdddc9aea95196a86ae4848dbcef49e6b788261b35406d1b07704",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x9944_y8746_z3697.npz": "9e5d357186c901d2f03e46c720420239c50db76021f74ebb6feba6eccbe03757",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x9944_y8978_z3697.npz": "38d9f97e28947c3ad5560a82e1b9e19149a08b1409ce4b056bf695b7af4c722c",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x10014_y8687_z3673.npz": "ea18edc8d3dc9bf254e0ea54bd9a8218c43ed9f89ce6feb887df1f5eeb960b66",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x10014_y8919_z3673.npz": "4f73ec55bff2a64228c7c2a932a43b14675485f273f6a153381f134cb92cd31b",
+        "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/prediction_x9782_y9151_z3673.npz": "b70c5d30a4c8205c30923e8f775ea467995ddde317a87a42057a7cafd004cb14"
+      }
+    },
+    "r28": {
+      "missing_edge_macro_ap": 0.5697102714165798,
+      "full_adjacency_macro_ap": 0.2228277028922212,
+      "source_metrics": "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/metrics.json",
+      "metrics_sha256": "cf9f00997ad6a3b247f14a6239bb8ab92d1302c8723add9e6207795c21e442ee",
+      "checkpoint": "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/final.pt",
+      "checkpoint_sha256": "0f7fb79ee08c493150b7ef3f4bced1c1bab43e2b1a22ca06cc99b7211514ae6d",
+      "graphs": [
+        {
+          "key": "x10056_y8096_z3540",
+          "missing_edge_ap": 0.556923076923077,
+          "full_adjacency_ap": 0.1809084903007355,
+          "missing_pairs": 10019,
+          "missing_positives": 5,
+          "full_entries": 20306,
+          "full_positives": 278
+        },
+        {
+          "key": "x10056_y8560_z3540",
+          "missing_edge_ap": 0.7222222222222222,
+          "full_adjacency_ap": 0.2616593151848369,
+          "missing_pairs": 3244,
+          "missing_positives": 3,
+          "full_entries": 6642,
+          "full_positives": 160
+        },
+        {
+          "key": "x10056_y8792_z3772",
+          "missing_edge_ap": 0.5404761904761904,
+          "full_adjacency_ap": 0.3327333763786927,
+          "missing_pairs": 5676,
+          "missing_positives": 4,
+          "full_entries": 11556,
+          "full_positives": 212
+        },
+        {
+          "key": "x10056_y9024_z3540",
+          "missing_edge_ap": 0.4803835214239839,
+          "full_adjacency_ap": 0.16263499139302273,
+          "missing_pairs": 28690,
+          "missing_positives": 5,
+          "full_entries": 57840,
+          "full_positives": 470
+        },
+        {
+          "key": "x10176_y8978_z3697",
+          "missing_edge_ap": 0.7666666666666666,
+          "full_adjacency_ap": 0.2854350259969256,
+          "missing_pairs": 1544,
+          "missing_positives": 3,
+          "full_entries": 3192,
+          "full_positives": 110
+        },
+        {
+          "key": "x10288_y7864_z3540",
+          "missing_edge_ap": 0.7928571428571428,
+          "full_adjacency_ap": 0.3664765314257615,
+          "missing_pairs": 3008,
+          "missing_positives": 4,
+          "full_entries": 6162,
+          "full_positives": 154
+        },
+        {
+          "key": "x10288_y7864_z3772",
+          "missing_edge_ap": 0.2844846607406416,
+          "full_adjacency_ap": 0.16055569512382023,
+          "missing_pairs": 19514,
+          "missing_positives": 9,
+          "full_entries": 39402,
+          "full_positives": 392
+        },
+        {
+          "key": "x10288_y8096_z3540",
+          "missing_edge_ap": 0.3680051424137102,
+          "full_adjacency_ap": 0.14603914672129528,
+          "missing_pairs": 25891,
+          "missing_positives": 8,
+          "full_entries": 52212,
+          "full_positives": 446
+        },
+        {
+          "key": "x10288_y8328_z3540",
+          "missing_edge_ap": 0.49254385964912284,
+          "full_adjacency_ap": 0.2263456467365149,
+          "missing_pairs": 5783,
+          "missing_positives": 4,
+          "full_entries": 11772,
+          "full_positives": 214
+        },
+        {
+          "key": "x10288_y8560_z3540",
+          "missing_edge_ap": 0.42781434126104534,
+          "full_adjacency_ap": 0.16946615706185864,
+          "missing_pairs": 37692,
+          "missing_positives": 12,
+          "full_entries": 75900,
+          "full_positives": 540
+        },
+        {
+          "key": "x10288_y8560_z3772",
+          "missing_edge_ap": 0.5094827586206896,
+          "full_adjacency_ap": 0.14531833218241352,
+          "missing_pairs": 8391,
+          "missing_positives": 4,
+          "full_entries": 17030,
+          "full_positives": 256
+        },
+        {
+          "key": "x10288_y8792_z3540",
+          "missing_edge_ap": 0.49393133575825887,
+          "full_adjacency_ap": 0.1371324992460683,
+          "missing_pairs": 93116,
+          "missing_positives": 13,
+          "full_entries": 187056,
+          "full_positives": 850
+        },
+        {
+          "key": "x10288_y9024_z3540",
+          "missing_edge_ap": 0.325,
+          "full_adjacency_ap": 0.35703914797585323,
+          "missing_pairs": 1656,
+          "missing_positives": 2,
+          "full_entries": 3422,
+          "full_positives": 114
+        },
+        {
+          "key": "x10520_y7632_z3540",
+          "missing_edge_ap": 0.05,
+          "full_adjacency_ap": 0.2643796629488814,
+          "missing_pairs": 1379,
+          "missing_positives": 1,
+          "full_entries": 2862,
+          "full_positives": 106
+        },
+        {
+          "key": "x8085_y9439_z3925",
+          "missing_edge_ap": 0.6666666666666667,
+          "full_adjacency_ap": 0.24503618610893768,
+          "missing_pairs": 3659,
+          "missing_positives": 3,
+          "full_entries": 7482,
+          "full_positives": 170
+        },
+        {
+          "key": "x8158_y9151_z4137",
+          "missing_edge_ap": 0.33730158730158727,
+          "full_adjacency_ap": 0.2825955165007357,
+          "missing_pairs": 28925,
+          "missing_positives": 3,
+          "full_entries": 58322,
+          "full_positives": 478
+        },
+        {
+          "key": "x8317_y10135_z3925",
+          "missing_edge_ap": 0.44047619047619047,
+          "full_adjacency_ap": 0.2011980648328962,
+          "missing_pairs": 4566,
+          "missing_positives": 4,
+          "full_entries": 9312,
+          "full_positives": 188
+        },
+        {
+          "key": "x8317_y10135_z4157",
+          "missing_edge_ap": 0.7555555555555555,
+          "full_adjacency_ap": 0.37293125496300045,
+          "missing_pairs": 3659,
+          "missing_positives": 3,
+          "full_entries": 7482,
+          "full_positives": 170
+        },
+        {
+          "key": "x8317_y9671_z3925",
+          "missing_edge_ap": 0.30801424387368365,
+          "full_adjacency_ap": 0.23146137439934264,
+          "missing_pairs": 36055,
+          "missing_positives": 8,
+          "full_entries": 72630,
+          "full_positives": 536
+        },
+        {
+          "key": "x8317_y9903_z3925",
+          "missing_edge_ap": 0.43273361976369495,
+          "full_adjacency_ap": 0.2189318906982164,
+          "missing_pairs": 22589,
+          "missing_positives": 7,
+          "full_entries": 45582,
+          "full_positives": 418
+        },
+        {
+          "key": "x8320_y10138_z3697",
+          "missing_edge_ap": 0.36547619047619045,
+          "full_adjacency_ap": 0.2881370308949109,
+          "missing_pairs": 3008,
+          "missing_positives": 4,
+          "full_entries": 6162,
+          "full_positives": 154
+        },
+        {
+          "key": "x8320_y10138_z3929",
+          "missing_edge_ap": 0.8333333333333333,
+          "full_adjacency_ap": 0.17454371127338555,
+          "missing_pairs": 6111,
+          "missing_positives": 3,
+          "full_entries": 12432,
+          "full_positives": 212
+        },
+        {
+          "key": "x8390_y10079_z3905",
+          "missing_edge_ap": 1.0,
+          "full_adjacency_ap": 0.2511040479284944,
+          "missing_pairs": 12093,
+          "missing_positives": 1,
+          "full_entries": 24492,
+          "full_positives": 308
+        },
+        {
+          "key": "x8390_y9383_z3905",
+          "missing_edge_ap": 0.41666666666666663,
+          "full_adjacency_ap": 0.3406053969203238,
+          "missing_pairs": 2559,
+          "missing_positives": 2,
+          "full_entries": 5256,
+          "full_positives": 142
+        },
+        {
+          "key": "x8549_y9439_z3693",
+          "missing_edge_ap": 0.16666666666666666,
+          "full_adjacency_ap": 0.3501989923042767,
+          "missing_pairs": 821,
+          "missing_positives": 1,
+          "full_entries": 1722,
+          "full_positives": 82
+        },
+        {
+          "key": "x8622_y10079_z3673",
+          "missing_edge_ap": 0.6262391573729864,
+          "full_adjacency_ap": 0.14841376556436403,
+          "missing_pairs": 67542,
+          "missing_positives": 7,
+          "full_entries": 135792,
+          "full_positives": 714
+        },
+        {
+          "key": "x8622_y10079_z3905",
+          "missing_edge_ap": 0.7333333333333334,
+          "full_adjacency_ap": 0.17560168043214042,
+          "missing_pairs": 46980,
+          "missing_positives": 3,
+          "full_entries": 94556,
+          "full_positives": 602
+        },
+        {
+          "key": "x8622_y10079_z4137",
+          "missing_edge_ap": 0.5509090909090909,
+          "full_adjacency_ap": 0.16378992981861726,
+          "missing_pairs": 53312,
+          "missing_positives": 5,
+          "full_entries": 107256,
+          "full_positives": 642
+        },
+        {
+          "key": "x8622_y10311_z3673",
+          "missing_edge_ap": 0.421031746031746,
+          "full_adjacency_ap": 0.18860430640739395,
+          "missing_pairs": 44860,
+          "missing_positives": 5,
+          "full_entries": 90300,
+          "full_positives": 582
+        },
+        {
+          "key": "x8622_y9615_z3905",
+          "missing_edge_ap": 0.3602564102564102,
+          "full_adjacency_ap": 0.17236821832708252,
+          "missing_pairs": 19117,
+          "missing_positives": 5,
+          "full_entries": 38612,
+          "full_positives": 384
+        },
+        {
+          "key": "x8622_y9847_z3673",
+          "missing_edge_ap": 0.3333333333333333,
+          "full_adjacency_ap": 0.2543271210024378,
+          "missing_pairs": 5359,
+          "missing_positives": 2,
+          "full_entries": 10920,
+          "full_positives": 206
+        },
+        {
+          "key": "x8622_y9847_z3905",
+          "missing_edge_ap": 0.4833333333333334,
+          "full_adjacency_ap": 0.16624692319476303,
+          "missing_pairs": 28688,
+          "missing_positives": 5,
+          "full_entries": 57840,
+          "full_positives": 470
+        },
+        {
+          "key": "x8781_y9439_z3693",
+          "missing_edge_ap": 0.6875,
+          "full_adjacency_ap": 0.27552263271802807,
+          "missing_pairs": 11181,
+          "missing_positives": 3,
+          "full_entries": 22650,
+          "full_positives": 294
+        },
+        {
+          "key": "x8784_y9442_z3697",
+          "missing_edge_ap": 0.3666666666666667,
+          "full_adjacency_ap": 0.29038927072671017,
+          "missing_pairs": 1599,
+          "missing_positives": 2,
+          "full_entries": 3306,
+          "full_positives": 112
+        },
+        {
+          "key": "x8784_y9674_z3697",
+          "missing_edge_ap": 0.37797619047619047,
+          "full_adjacency_ap": 0.2417805471993032,
+          "missing_pairs": 1383,
+          "missing_positives": 4,
+          "full_entries": 2862,
+          "full_positives": 104
+        },
+        {
+          "key": "x8854_y9615_z3905",
+          "missing_edge_ap": 0.7222222222222222,
+          "full_adjacency_ap": 0.2349207492123262,
+          "missing_pairs": 4375,
+          "missing_positives": 3,
+          "full_entries": 8930,
+          "full_positives": 186
+        },
+        {
+          "key": "x9016_y9210_z3697",
+          "missing_edge_ap": 1.0,
+          "full_adjacency_ap": 0.2727460847015559,
+          "missing_pairs": 9053,
+          "missing_positives": 5,
+          "full_entries": 18360,
+          "full_positives": 264
+        },
+        {
+          "key": "x9016_y9442_z3697",
+          "missing_edge_ap": 0.9166666666666666,
+          "full_adjacency_ap": 0.2613199958766717,
+          "missing_pairs": 4378,
+          "missing_positives": 3,
+          "full_entries": 8930,
+          "full_positives": 176
+        },
+        {
+          "key": "x9086_y10079_z3441",
+          "missing_edge_ap": 0.4444444444444444,
+          "full_adjacency_ap": 0.1465973102553656,
+          "missing_pairs": 21537,
+          "missing_positives": 4,
+          "full_entries": 43472,
+          "full_positives": 406
+        },
+        {
+          "key": "x9086_y9847_z3441",
+          "missing_edge_ap": 0.5093939393939393,
+          "full_adjacency_ap": 0.1400459327558838,
+          "missing_pairs": 16298,
+          "missing_positives": 5,
+          "full_entries": 32942,
+          "full_positives": 350
+        },
+        {
+          "key": "x9086_y9847_z3673",
+          "missing_edge_ap": 0.5212765957446809,
+          "full_adjacency_ap": 0.2257113179315822,
+          "missing_pairs": 8389,
+          "missing_positives": 2,
+          "full_entries": 17030,
+          "full_positives": 256
+        },
+        {
+          "key": "x9248_y9442_z3697",
+          "missing_edge_ap": 1.0,
+          "full_adjacency_ap": 0.30044605518402606,
+          "missing_pairs": 3244,
+          "missing_positives": 3,
+          "full_entries": 6642,
+          "full_positives": 160
+        },
+        {
+          "key": "x9318_y10079_z3441",
+          "missing_edge_ap": 0.5404761904761904,
+          "full_adjacency_ap": 0.17533950743334886,
+          "missing_pairs": 16478,
+          "missing_positives": 4,
+          "full_entries": 33306,
+          "full_positives": 358
+        },
+        {
+          "key": "x9318_y10311_z3441",
+          "missing_edge_ap": 0.5903221985311538,
+          "full_adjacency_ap": 0.09822187277150898,
+          "missing_pairs": 146087,
+          "missing_positives": 7,
+          "full_entries": 293222,
+          "full_positives": 1054
+        },
+        {
+          "key": "x9318_y9847_z3441",
+          "missing_edge_ap": 0.2889495994364908,
+          "full_adjacency_ap": 0.13595440539524117,
+          "missing_pairs": 35791,
+          "missing_positives": 9,
+          "full_entries": 72092,
+          "full_positives": 524
+        },
+        {
+          "key": "x9480_y8978_z3697",
+          "missing_edge_ap": 0.6984126984126984,
+          "full_adjacency_ap": 0.1622762822485599,
+          "missing_pairs": 2781,
+          "missing_positives": 3,
+          "full_entries": 5700,
+          "full_positives": 144
+        },
+        {
+          "key": "x9480_y9210_z3697",
+          "missing_edge_ap": 0.47478518521843294,
+          "full_adjacency_ap": 0.10531892126406017,
+          "missing_pairs": 24108,
+          "missing_positives": 10,
+          "full_entries": 48620,
+          "full_positives": 424
+        },
+        {
+          "key": "x9712_y8978_z3929",
+          "missing_edge_ap": 0.7611111111111111,
+          "full_adjacency_ap": 0.20012645084599937,
+          "missing_pairs": 6910,
+          "missing_positives": 4,
+          "full_entries": 14042,
+          "full_positives": 228
+        },
+        {
+          "key": "x9712_y9210_z3697",
+          "missing_edge_ap": 0.4888278388278388,
+          "full_adjacency_ap": 0.166678801393319,
+          "missing_pairs": 14890,
+          "missing_positives": 6,
+          "full_entries": 30102,
+          "full_positives": 326
+        },
+        {
+          "key": "x9824_y7864_z3772",
+          "missing_edge_ap": 1.0,
+          "full_adjacency_ap": 0.42387702918925646,
+          "missing_pairs": 1894,
+          "missing_positives": 2,
+          "full_entries": 3906,
+          "full_positives": 122
+        },
+        {
+          "key": "x9824_y8328_z3540",
+          "missing_edge_ap": 1.0,
+          "full_adjacency_ap": 0.31294803006184435,
+          "missing_pairs": 6444,
+          "missing_positives": 2,
+          "full_entries": 13110,
+          "full_positives": 226
+        },
+        {
+          "key": "x9824_y8560_z3540",
+          "missing_edge_ap": 0.8095238095238095,
+          "full_adjacency_ap": 0.24799180551579844,
+          "missing_pairs": 4661,
+          "missing_positives": 3,
+          "full_entries": 9506,
+          "full_positives": 190
+        },
+        {
+          "key": "x9824_y8792_z3540",
+          "missing_edge_ap": 0.9166666666666665,
+          "full_adjacency_ap": 0.18803559959297375,
+          "missing_pairs": 3491,
+          "missing_positives": 3,
+          "full_entries": 7140,
+          "full_positives": 164
+        },
+        {
+          "key": "x9824_y8792_z3772",
+          "missing_edge_ap": 0.44047619047619047,
+          "full_adjacency_ap": 0.3261552196735888,
+          "missing_pairs": 2420,
+          "missing_positives": 4,
+          "full_entries": 4970,
+          "full_positives": 138
+        },
+        {
+          "key": "x9824_y9024_z3540",
+          "missing_edge_ap": 0.7032312925170068,
+          "full_adjacency_ap": 0.21538107163380818,
+          "missing_pairs": 21332,
+          "missing_positives": 7,
+          "full_entries": 43056,
+          "full_positives": 406
+        },
+        {
+          "key": "x9824_y9024_z3772",
+          "missing_edge_ap": 0.75,
+          "full_adjacency_ap": 0.2846392469256891,
+          "missing_pairs": 865,
+          "missing_positives": 2,
+          "full_entries": 1806,
+          "full_positives": 80
+        },
+        {
+          "key": "x9944_y8514_z3697",
+          "missing_edge_ap": 0.7,
+          "full_adjacency_ap": 0.1671194850180111,
+          "missing_pairs": 4101,
+          "missing_positives": 3,
+          "full_entries": 8372,
+          "full_positives": 176
+        },
+        {
+          "key": "x9944_y8746_z3697",
+          "missing_edge_ap": 0.3986280495104024,
+          "full_adjacency_ap": 0.14775648434457733,
+          "missing_pairs": 9197,
+          "missing_positives": 9,
+          "full_entries": 18632,
+          "full_positives": 256
+        },
+        {
+          "key": "x9944_y8978_z3697",
+          "missing_edge_ap": 0.4571428571428572,
+          "full_adjacency_ap": 0.15765544846184534,
+          "missing_pairs": 6564,
+          "missing_positives": 4,
+          "full_entries": 13340,
+          "full_positives": 220
+        },
+        {
+          "key": "x10014_y8687_z3673",
+          "missing_edge_ap": 0.6682342430149448,
+          "full_adjacency_ap": 0.1167275172382989,
+          "missing_pairs": 78225,
+          "missing_positives": 9,
+          "full_entries": 157212,
+          "full_positives": 780
+        },
+        {
+          "key": "x10014_y8919_z3673",
+          "missing_edge_ap": 0.6000000000000001,
+          "full_adjacency_ap": 0.20555288298477717,
+          "missing_pairs": 36324,
+          "missing_positives": 5,
+          "full_entries": 73170,
+          "full_positives": 532
+        },
+        {
+          "key": "x9782_y9151_z3673",
+          "missing_edge_ap": 0.44698412698412693,
+          "full_adjacency_ap": 0.16586219051575235,
+          "missing_pairs": 6677,
+          "missing_positives": 5,
+          "full_entries": 13572,
+          "full_positives": 228
+        }
+      ],
+      "prediction_hashes": {
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x10056_y8096_z3540.npz": "daf25f2b5e0e568a55340222bcdffa1ff444bc41a4f1a07e1ee30ec4024c4e18",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x10056_y8560_z3540.npz": "24707adc7dd25c0a9cbaa78ef1a045281b8cfd5116bc436a0415ed49e2c610c2",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x10056_y8792_z3772.npz": "db21dcd25be1c16bf3c408f0a735ba38d8defcfcc1b7e9aaa2e317570fa4e1dc",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x10056_y9024_z3540.npz": "41b07104c43988c49f9fb6e13502e8c5a2fa3e49c4616224522ac26cbbd03904",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x10176_y8978_z3697.npz": "224b9e2227e6fe89830177473a5e6a7e29d6a86b109851e5f48cb61976d7939f",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x10288_y7864_z3540.npz": "034b53613a10bef967ca7cc29a64893bdc07f06ae928d7c71cf17dab4fa7bd77",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x10288_y7864_z3772.npz": "7a263294862e988723b0f27a8a55ea37bb27a6c04c77738c31e2884b4efc57aa",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x10288_y8096_z3540.npz": "adfbb2517d81d59f357b0c1e8864341a1d521530b99f27110c17dfa727bb0cfe",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x10288_y8328_z3540.npz": "18ab89c1234afd6ab11eb7ebb2518215d55713679dc8fd322cb3d67b7bfe62c8",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x10288_y8560_z3540.npz": "82972cbc287b88a3be878d2d4873780b4bfcee7fd672b3122e99e31dd639b15e",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x10288_y8560_z3772.npz": "01c5a4883f8ef3b18c6e7fa3e6066fa4d08c59bc36793a6419dc83ce2fd7caa9",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x10288_y8792_z3540.npz": "751fb7e636fcffdeecd55c6728d3a9abf9aa221124fe7ed1496cacffafdc1b20",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x10288_y9024_z3540.npz": "e0c9704e77922123b84dbd1981748a5087249d392a57da4f5259070e208d2879",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x10520_y7632_z3540.npz": "8164be11ffe0c9ab50d6aeabc802e5411917316641c2fcd1b351162d277854c6",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x8085_y9439_z3925.npz": "a0ee73991d627efc45b5b5ca569352c655e2b2dc23309d729e53218002161815",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x8158_y9151_z4137.npz": "4770d2393655a1d5e53462c9b9bb047d7b3f0a65e1b02e2f167c1a12180c5e00",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x8317_y10135_z3925.npz": "241d8d10742343c0eef970ef3ec08244f09da9339701a5c2080d2108ec2324d0",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x8317_y10135_z4157.npz": "57c201b1cb1477239dd9ec66fa8a4b7f6c9a353fef52eeb808fed01ab1c3d3ea",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x8317_y9671_z3925.npz": "a115d6a4eb2e412497e8128f1d4db76ab90ae209fa8327348d2c085bed2f2673",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x8317_y9903_z3925.npz": "ae04ed52bb2239e3763479593e2dcad672575627c23236a5a794ca602aa1a9ae",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x8320_y10138_z3697.npz": "b12ddc9cf5b21549ff46708bd55ecf830a32d20d757f050e6936c901223d93eb",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x8320_y10138_z3929.npz": "718069e66c180a0931ad89d2ba3937dd1099d78c5610ec0e7c936b7a735715d5",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x8390_y10079_z3905.npz": "294916096065f61b43e53bf1fc57ec0b13ea75a94295f87f9d0a852966699217",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x8390_y9383_z3905.npz": "2427c18f170775d058db740a29c0ede9b3016b8d64d3a2e5f41f0fa41c0dd7e2",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x8549_y9439_z3693.npz": "27706f1254bc264fb853df43f256b5d2149c8a21252b568267600d0c47c328ec",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x8622_y10079_z3673.npz": "b158f28f11616b3588faf6a05fa12e39d4b73fb33a5e1a18c3c5a59a18e3657e",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x8622_y10079_z3905.npz": "11cc2df04b62751bcc2290c8dca8b055af1bb844f70b0ea214b6b28fe0a72df0",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x8622_y10079_z4137.npz": "a62a73943f6d637f5c57faf3ed03219b097d30720897361527e4cb86c85238e0",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x8622_y10311_z3673.npz": "9d540959963442bfa8baf7f844cff948f4d6339c77cf8de10f3b5d9bf8f14867",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x8622_y9615_z3905.npz": "26ee3df4b84f82d30006b84ef71c5711514fdc1dc6e391f48d22af9f81c2a27d",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x8622_y9847_z3673.npz": "dee19dc39bc9a59f681307b5ef6a63532f2692635a26f94bf39ad2eb11f13f5b",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x8622_y9847_z3905.npz": "e424260015336bfe191a2bb820ad07c2d2655759222a525d39057f9af5e85950",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x8781_y9439_z3693.npz": "b679d1c7392c0fa4684f93486d7b939f34cc6209f8c7e03df66bb804cb1075bc",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x8784_y9442_z3697.npz": "7f104ad7413727a01b71d75b1bf165f6d3e528a3111b795d695213fcf248f672",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x8784_y9674_z3697.npz": "bce72d48fbdbe4c2441fdb62e1e960d33dd7445e9e7c83f6497f044e83e70ca8",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x8854_y9615_z3905.npz": "3c4b9fb015b57015ec644f0c20f009f5dcf8444882ac7be6c39abe87a11974ce",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x9016_y9210_z3697.npz": "f777e10d1856b4d279ce0890d866d265a40a822836664f09573e079a07ebf118",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x9016_y9442_z3697.npz": "7261e2529f307e63dee2627e8120e46c576a9b1fc8df9128cb00fb6af7ac1d95",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x9086_y10079_z3441.npz": "8bd60f0909a438cb4f2f5f8f7e03d4a7641bd7fff7e7c993a50f68d90e3f9e94",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x9086_y9847_z3441.npz": "6bc58401e95e59ff2006428375f11272fed317d1bab3f8dcf13d3466c2ecc393",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x9086_y9847_z3673.npz": "8bd78957d9f5f866500e022704b369cf26062e5970088918024c6b79cdeb53bd",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x9248_y9442_z3697.npz": "8ac090d8720a0875021cf09caf4073fca52518feafb0df677fc418619e8266f6",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x9318_y10079_z3441.npz": "1a5a1bb7a9e8672effd9d8f0a411307bbe1ef12d64e3d22d741eba67a4d2b61c",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x9318_y10311_z3441.npz": "e08fe535f04854ed56c9ef23e23734a5aacf03059141e58260e1a152ee93159e",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x9318_y9847_z3441.npz": "7de0f20bcc3e3a58f13b41706ed28afd5e9378308522f9046a4d00eac0d42978",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x9480_y8978_z3697.npz": "eb7f6e42a7963c3593e5179a7c08748aeb36182f677007c669b91d7304c4e0b2",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x9480_y9210_z3697.npz": "e900838e8c7b92445e2d0576a07cdad795b85edf4c62bc9f21b4c3536331e9d4",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x9712_y8978_z3929.npz": "26f6b0c7877f8fadb6efd72eb1a701f7cb434aac4f9488bdeceb30664e0b5739",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x9712_y9210_z3697.npz": "765a1ce08f22565738cef57ad28e6146206470b560698cc2f9b66b0bacd15659",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x9824_y7864_z3772.npz": "9039e0bf76151996c2be34a9a585d13d15eabb733c4ee409a3ecde0ec55965df",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x9824_y8328_z3540.npz": "c5376ac0d40d19cc9ed037b34bd4f9b1148aa1ad4ad438f924413bc9966d90d2",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x9824_y8560_z3540.npz": "227537d59210e30aab2c1e5ef9a9cca735a57829ca1e33fd1ae9597062900683",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x9824_y8792_z3540.npz": "d5fa29d5b5f3abad10756e35f4a8e61bf2842d290e3026f59b243bc19c139396",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x9824_y8792_z3772.npz": "ef6a32e28afa3bf65c2a520172fd0bbb135627e14355e291b69107ce3c594908",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x9824_y9024_z3540.npz": "42da9563a269a4a1dcf37f2c40371843e0a11d16b99eff4766f52a8f73ba0c08",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x9824_y9024_z3772.npz": "693247aae8f1e2e474a9a46d8f1bae3159aca379a9a0ac607c061f2594f8b02e",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x9944_y8514_z3697.npz": "2fad5f6c42caba8363fcdf1be4940036ff29620a003eb0d58d5377c178612a87",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x9944_y8746_z3697.npz": "2a9b457d4ffe1e4dbf90448d4a4a2a164c8ead15d0e9e63b98a9dba727b84bec",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x9944_y8978_z3697.npz": "e8031206ea898eb9a48b44c69cbe1681b79707e6c7f393caf980641fb8636789",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x10014_y8687_z3673.npz": "ebcbb3dd0eacd778552ea13daef6c7934a490e816fa4b3f2d6b96e63df0c005c",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x10014_y8919_z3673.npz": "daac886582693023ab4a336b3fb5a1eca4dfab67c3eb252acc5c1edd9f1706bd",
+        "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2/results/r28_lpa_attention_tlp/prediction_x9782_y9151_z3673.npz": "4a56e1444811b6cdf6a580c8bf126b9b416b3b73fc691870d5db8e3118bc8be1"
+      }
+    }
+  },
+  "passed": true
+}

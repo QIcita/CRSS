@@ -43,6 +43,12 @@ assert tlp_audit['counts']['pairs']==1146183 and tlp_audit['counts']['positives'
 for name in ['tlpnet','sgformer','polynormer']:
  q=next(q for q in comparison['baselines'] if q['model']==name and q['task']=='tlp')
  assert q['value']==tlp_audit['methods'][name]['macro_ap']
+dual=read(r/'evidence/tlp_dual_metrics_20261020.json')
+assert dual['passed'] and not dual['observed_scores_overwritten'] and not dual['test_metrics_used']
+for name,rows in [('r28',comparison['r28']),('r9',comparison['historical_r9'])]+[(n,comparison['baselines']) for n in ['sgformer','polynormer','tlpnet']]+[('tlpnet_native_objective',comparison['supplemental_tlp_controls'])]:
+ q=next(q for q in rows if q['task']=='tlp' and (name in ['r9','r28'] or q['model']==name))
+ for k in ['missing_edge_macro_ap','full_adjacency_macro_ap']:assert q['reported_metrics'][k]==dual['methods'][name][k]
+ assert q['final_sha256']==dual['methods'][name]['checkpoint_sha256']
 assert all(v['entire_manifest_records_equal_original_R9'] for v in read(r/'live_export.json')['audit']['input_lineage'].values())
 audit=read(r/'evidence/baseline_live_audit.json');assert audit['passed'] and len(audit['records'])==27
 for p in r.rglob('*.py'):ast.parse(p.read_text(encoding='utf-8-sig'),filename=str(p))
