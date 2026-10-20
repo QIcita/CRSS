@@ -1,0 +1,112 @@
+{
+  "sgformer": {
+    "model": "sgformer",
+    "display_name": "SGFormer（NeurIPS’23）",
+    "publication_venue": "NeurIPS",
+    "publication_year": 2023,
+    "source_urls": [
+      "https://raw.githubusercontent.com/qitianwu/SGFormer/main/Readme.md"
+    ],
+    "evidence": [
+      "The official implementation for NeurIPS23 paper \"SGFormer: Simplifying and Empowering Transformers for Large-Graph Representations\"."
+    ]
+  },
+  "polynormer": {
+    "model": "polynormer",
+    "display_name": "Polynormer（ICLR’24）",
+    "publication_venue": "ICLR",
+    "publication_year": 2024,
+    "source_urls": [
+      "https://raw.githubusercontent.com/cornell-zhang/Polynormer/master/README.md"
+    ],
+    "evidence": [
+      "published in ICLR'24."
+    ]
+  },
+  "ptv3": {
+    "model": "ptv3",
+    "display_name": "PTv3（CVPR’24）",
+    "publication_venue": "CVPR",
+    "publication_year": 2024,
+    "source_urls": [
+      "https://raw.githubusercontent.com/Pointcept/PointTransformerV3/main/README.md"
+    ],
+    "evidence": [
+      "- *Feb 28, 2024*: PTv3 is accepted by CVPR'24 🎉🎉🎉."
+    ]
+  },
+  "litept": {
+    "model": "litept",
+    "display_name": "LitePT-S（CVPR’26）",
+    "publication_venue": "CVPR",
+    "publication_year": 2026,
+    "source_urls": [
+      "https://raw.githubusercontent.com/prs-eth/LitePT/main/README.md"
+    ],
+    "evidence": [
+      "**CVPR 2026**",
+      "- **2026-02-21:** LitePT is accepted to CVPR 2026."
+    ]
+  },
+  "octformer": {
+    "model": "octformer",
+    "display_name": "OctFormer（ACM TOG / SIGGRAPH’23）",
+    "publication_venue": "ACM TOG / SIGGRAPH",
+    "publication_year": 2023,
+    "source_urls": [
+      "https://wang-ps.github.io/octformer.html"
+    ],
+    "evidence": [
+      "ACM Transactions on Graphics (SIGGRAPH), 2023"
+    ]
+  },
+  "utonia": {
+    "model": "utonia",
+    "display_name": "Utonia scratch R2（ICML’26）",
+    "publication_venue": "ICML",
+    "publication_year": 2026,
+    "source_urls": [
+      "https://raw.githubusercontent.com/Pointcept/Utonia/main/README.md"
+    ],
+    "evidence": [
+      "booktitle={ICML},"
+    ]
+  },
+  "graphformer": {
+    "model": "graphformer",
+    "display_name": "GraPHFormer-adapted（CVPR’26）",
+    "publication_venue": "CVPR",
+    "publication_year": 2026,
+    "source_urls": [
+      "https://raw.githubusercontent.com/Uzshah/GraPHFormer/main/README.md",
+      "https://openaccess.thecvf.com/content/CVPR2026/html/Shah_GraPHFormer_A_Multimodal_Graph_Persistent_Homology_Transformer_for_the_Analysis_CVPR_2026_paper.html"
+    ],
+    "evidence": [
+      "**CVPR 2026 (Main Track)**"
+    ]
+  },
+  "tednet": {
+    "model": "tednet",
+    "display_name": "TED-Net（Pattern Recognition’26）",
+    "publication_venue": "Pattern Recognition",
+    "publication_year": 2026,
+    "source_urls": [
+      "https://api.crossref.org/works/10.1016/j.patcog.2026.113267"
+    ],
+    "evidence": [
+      "{\"title\": [\"A multimodal fusion model based on graph convolutional network for 3D neural morphology optimization\"], \"container-title\": [\"Pattern Recognition\"], \"published\": {\"date-parts\": [[2026, 9]]}, \"volume\": \"177\", \"article-number\": \"113267\", \"DOI\": \"10.1016/j.patcog.2026.113267\"}"
+    ]
+  },
+  "tlpnet": {
+    "model": "tlpnet",
+    "display_name": "TLP-Net（Pattern Recognition’26）†",
+    "publication_venue": "Pattern Recognition",
+    "publication_year": 2026,
+    "source_urls": [
+      "https://api.crossref.org/works/10.1016/j.patcog.2026.113267"
+    ],
+    "evidence": [
+      "{\"title\": [\"A multimodal fusion model based on graph convolutional network for 3D neural morphology optimization\"], \"container-title\": [\"Pattern Recognition\"], \"published\": {\"date-parts\": [[2026, 9]]}, \"volume\": \"177\", \"article-number\": \"113267\", \"DOI\": \"10.1016/j.patcog.2026.113267\"}"
+    ]
+  }
+}

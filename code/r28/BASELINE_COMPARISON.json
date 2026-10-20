@@ -132,7 +132,13 @@
         },
         "external_pretrained": null,
         "evaluation": "fixed final epoch development validation; current-input BN; no best checkpoint selection"
-      }
+      },
+      "display_name": "SGFormer（NeurIPS’23）",
+      "publication_venue": "NeurIPS",
+      "publication_year": 2023,
+      "source_urls": [
+        "https://raw.githubusercontent.com/qitianwu/SGFormer/main/Readme.md"
+      ]
     },
     {
       "model": "sgformer",
@@ -169,7 +175,13 @@
         },
         "external_pretrained": null,
         "evaluation": "fixed final epoch development validation; current-input BN; no best checkpoint selection"
-      }
+      },
+      "display_name": "SGFormer（NeurIPS’23）",
+      "publication_venue": "NeurIPS",
+      "publication_year": 2023,
+      "source_urls": [
+        "https://raw.githubusercontent.com/qitianwu/SGFormer/main/Readme.md"
+      ]
     },
     {
       "model": "sgformer",
@@ -206,7 +218,13 @@
         },
         "external_pretrained": null,
         "evaluation": "fixed final epoch development validation; current-input BN; no best checkpoint selection"
-      }
+      },
+      "display_name": "SGFormer（NeurIPS’23）",
+      "publication_venue": "NeurIPS",
+      "publication_year": 2023,
+      "source_urls": [
+        "https://raw.githubusercontent.com/qitianwu/SGFormer/main/Readme.md"
+      ]
     },
     {
       "model": "polynormer",
@@ -243,7 +261,13 @@
         },
         "external_pretrained": null,
         "evaluation": "fixed final epoch development validation; current-input BN; no best checkpoint selection"
-      }
+      },
+      "display_name": "Polynormer（ICLR’24）",
+      "publication_venue": "ICLR",
+      "publication_year": 2024,
+      "source_urls": [
+        "https://raw.githubusercontent.com/cornell-zhang/Polynormer/master/README.md"
+      ]
     },
     {
       "model": "polynormer",
@@ -280,7 +304,13 @@
         },
         "external_pretrained": null,
         "evaluation": "fixed final epoch development validation; current-input BN; no best checkpoint selection"
-      }
+      },
+      "display_name": "Polynormer（ICLR’24）",
+      "publication_venue": "ICLR",
+      "publication_year": 2024,
+      "source_urls": [
+        "https://raw.githubusercontent.com/cornell-zhang/Polynormer/master/README.md"
+      ]
     },
     {
       "model": "polynormer",
@@ -317,7 +347,13 @@
         },
         "external_pretrained": null,
         "evaluation": "fixed final epoch development validation; current-input BN; no best checkpoint selection"
-      }
+      },
+      "display_name": "Polynormer（ICLR’24）",
+      "publication_venue": "ICLR",
+      "publication_year": 2024,
+      "source_urls": [
+        "https://raw.githubusercontent.com/cornell-zhang/Polynormer/master/README.md"
+      ]
     },
     {
       "model": "ptv3",
@@ -351,7 +387,13 @@
           "numerical_source_modified": false
         },
         "pid": 2088905
-      }
+      },
+      "display_name": "PTv3（CVPR’24）",
+      "publication_venue": "CVPR",
+      "publication_year": 2024,
+      "source_urls": [
+        "https://raw.githubusercontent.com/Pointcept/PointTransformerV3/main/README.md"
+      ]
     },
     {
       "model": "ptv3",
@@ -385,7 +427,13 @@
           "numerical_source_modified": false
         },
         "pid": 2097003
-      }
+      },
+      "display_name": "PTv3（CVPR’24）",
+      "publication_venue": "CVPR",
+      "publication_year": 2024,
+      "source_urls": [
+        "https://raw.githubusercontent.com/Pointcept/PointTransformerV3/main/README.md"
+      ]
     },
     {
       "model": "ptv3",
@@ -421,7 +469,13 @@
           "numerical_source_modified": false
         },
         "pid": 2423880
-      }
+      },
+      "display_name": "PTv3（CVPR’24）",
+      "publication_venue": "CVPR",
+      "publication_year": 2024,
+      "source_urls": [
+        "https://raw.githubusercontent.com/Pointcept/PointTransformerV3/main/README.md"
+      ]
     },
     {
       "model": "litept",
@@ -457,7 +511,13 @@
           "numerical_source_modified": false
         },
         "pid": 2137830
-      }
+      },
+      "display_name": "LitePT-S（CVPR’26）",
+      "publication_venue": "CVPR",
+      "publication_year": 2026,
+      "source_urls": [
+        "https://raw.githubusercontent.com/prs-eth/LitePT/main/README.md"
+      ]
     },
     {
       "model": "litept",
@@ -493,7 +553,13 @@
           "numerical_source_modified": false
         },
         "pid": 2145914
-      }
+      },
+      "display_name": "LitePT-S（CVPR’26）",
+      "publication_venue": "CVPR",
+      "publication_year": 2026,
+      "source_urls": [
+        "https://raw.githubusercontent.com/prs-eth/LitePT/main/README.md"
+      ]
     },
     {
       "model": "litept",
@@ -529,7 +595,13 @@
           "numerical_source_modified": false
         },
         "pid": 2149762
-      }
+      },
+      "display_name": "LitePT-S（CVPR’26）",
+      "publication_venue": "CVPR",
+      "publication_year": 2026,
+      "source_urls": [
+        "https://raw.githubusercontent.com/prs-eth/LitePT/main/README.md"
+      ]
     },
     {
       "model": "octformer",
@@ -565,7 +637,13 @@
           "numerical_source_modified": false
         },
         "pid": 2137834
-      }
+      },
+      "display_name": "OctFormer（ACM TOG / SIGGRAPH’23）",
+      "publication_venue": "ACM TOG / SIGGRAPH",
+      "publication_year": 2023,
+      "source_urls": [
+        "https://wang-ps.github.io/octformer.html"
+      ]
     },
     {
       "model": "octformer",
@@ -601,7 +679,13 @@
           "numerical_source_modified": false
         },
         "pid": 2191637
-      }
+      },
+      "display_name": "OctFormer（ACM TOG / SIGGRAPH’23）",
+      "publication_venue": "ACM TOG / SIGGRAPH",
+      "publication_year": 2023,
+      "source_urls": [
+        "https://wang-ps.github.io/octformer.html"
+      ]
     },
     {
       "model": "octformer",
@@ -637,7 +721,13 @@
           "numerical_source_modified": false
         },
         "pid": 2197479
-      }
+      },
+      "display_name": "OctFormer（ACM TOG / SIGGRAPH’23）",
+      "publication_venue": "ACM TOG / SIGGRAPH",
+      "publication_year": 2023,
+      "source_urls": [
+        "https://wang-ps.github.io/octformer.html"
+      ]
     },
     {
       "model": "utonia",
@@ -675,7 +765,13 @@
         "external_pretrained": null,
         "initialization": "official native random initialization; seed42; no pretrained weights",
         "evaluation": "fixed final epoch development validation; current-input BN; no best checkpoint selection"
-      }
+      },
+      "display_name": "Utonia scratch R2（ICML’26）",
+      "publication_venue": "ICML",
+      "publication_year": 2026,
+      "source_urls": [
+        "https://raw.githubusercontent.com/Pointcept/Utonia/main/README.md"
+      ]
     },
     {
       "model": "utonia",
@@ -713,7 +809,13 @@
         "external_pretrained": null,
         "initialization": "official native random initialization; seed42; no pretrained weights",
         "evaluation": "fixed final epoch development validation; current-input BN; no best checkpoint selection"
-      }
+      },
+      "display_name": "Utonia scratch R2（ICML’26）",
+      "publication_venue": "ICML",
+      "publication_year": 2026,
+      "source_urls": [
+        "https://raw.githubusercontent.com/Pointcept/Utonia/main/README.md"
+      ]
     },
     {
       "model": "utonia",
@@ -751,7 +853,13 @@
         "external_pretrained": null,
         "initialization": "official native random initialization; seed42; no pretrained weights",
         "evaluation": "fixed final epoch development validation; current-input BN; no best checkpoint selection"
-      }
+      },
+      "display_name": "Utonia scratch R2（ICML’26）",
+      "publication_venue": "ICML",
+      "publication_year": 2026,
+      "source_urls": [
+        "https://raw.githubusercontent.com/Pointcept/Utonia/main/README.md"
+      ]
     },
     {
       "model": "sgformer",
@@ -786,7 +894,13 @@
       "prediction_sha256": {
         "predictions.npz": "1238bf15fff602a02e358e6e176aaf310dc961b3e8a01e2f3b96cb8f9e1f7a92"
       },
-      "common_argmax_f1": 0.44244244244244246
+      "common_argmax_f1": 0.44244244244244246,
+      "display_name": "SGFormer（NeurIPS’23）",
+      "publication_venue": "NeurIPS",
+      "publication_year": 2023,
+      "source_urls": [
+        "https://raw.githubusercontent.com/qitianwu/SGFormer/main/Readme.md"
+      ]
     },
     {
       "model": "polynormer",
@@ -821,7 +935,13 @@
       "prediction_sha256": {
         "predictions.npz": "9b8b2247e1a223d12aeef72a4edcad22444221fe4f888e040c885b98f81763b3"
       },
-      "common_argmax_f1": 0.3364485981308411
+      "common_argmax_f1": 0.3364485981308411,
+      "display_name": "Polynormer（ICLR’24）",
+      "publication_venue": "ICLR",
+      "publication_year": 2024,
+      "source_urls": [
+        "https://raw.githubusercontent.com/cornell-zhang/Polynormer/master/README.md"
+      ]
     },
     {
       "model": "tednet",
@@ -856,7 +976,13 @@
       "prediction_sha256": {
         "predictions.npz": "7c56c62572a15582e6b60bf39f76d4314819c6a00f551cc280b67ac54de4218c"
       },
-      "common_argmax_f1": 0.5683297180043384
+      "common_argmax_f1": 0.5683297180043384,
+      "display_name": "TED-Net（Pattern Recognition’26）",
+      "publication_venue": "Pattern Recognition",
+      "publication_year": 2026,
+      "source_urls": [
+        "https://api.crossref.org/works/10.1016/j.patcog.2026.113267"
+      ]
     },
     {
       "model": "sgformer",
@@ -952,7 +1078,13 @@
         "x10014_y8919_z3673.npz": "b2c8eedd1a710cddc7f8a2c85f5958e1e5e4819f8248750b8ac17c765cf846ed",
         "x9782_y9151_z3673.npz": "6c6dcc75c694c6ef5abd38dce67c8e4527547bc51863a86931394dfec9ca5c95"
       },
-      "common_argmax_f1": null
+      "common_argmax_f1": null,
+      "display_name": "SGFormer（NeurIPS’23）",
+      "publication_venue": "NeurIPS",
+      "publication_year": 2023,
+      "source_urls": [
+        "https://raw.githubusercontent.com/qitianwu/SGFormer/main/Readme.md"
+      ]
     },
     {
       "model": "polynormer",
@@ -1048,7 +1180,13 @@
         "x10014_y8919_z3673.npz": "61a5056f824b5f74362ed3dd08de737203aa0d3b33f9a476d824ae9033ebcfcd",
         "x9782_y9151_z3673.npz": "a8bf84db576a5698ac9991a63bffd1d532eb6e0d97b236bd9ff56600db53334e"
       },
-      "common_argmax_f1": null
+      "common_argmax_f1": null,
+      "display_name": "Polynormer（ICLR’24）",
+      "publication_venue": "ICLR",
+      "publication_year": 2024,
+      "source_urls": [
+        "https://raw.githubusercontent.com/cornell-zhang/Polynormer/master/README.md"
+      ]
     },
     {
       "model": "tlpnet",
@@ -1144,7 +1282,14 @@
         "x10014_y8919_z3673.npz": "6d34b4efc383604b4e9a782df2025eafa0c08910d546a3612c36977f1452ea5d",
         "x9782_y9151_z3673.npz": "6dff159e2b801285c9853a3f6f50a1dba9b60e9b3f7e71d401fc270fdf3ccc2e"
       },
-      "common_argmax_f1": null
+      "common_argmax_f1": null,
+      "display_name": "TLP-Net（Pattern Recognition’26）†",
+      "publication_venue": "Pattern Recognition",
+      "publication_year": 2026,
+      "source_urls": [
+        "https://api.crossref.org/works/10.1016/j.patcog.2026.113267"
+      ],
+      "adaptation_scope": "official network and SPE preprocessing; missing-only training objective; no Rule; frozen spatial split, not original paper protocol"
     },
     {
       "model": "graphformer",
@@ -1198,7 +1343,14 @@
       "final_sha256": "29a9fae9b14da3f8905291d318767c83b7f16bcea873bb3f1c19704c4b77cdb4",
       "protocol_sha256": "6268267ef1c01b5b44c11f8950285c5e89ad7ab2b8560f38a5299005beeb076d",
       "manifest_sha256": "a7e19b350df3a028641488e2fd68b7afd36889687a79142789050cf5342c418b",
-      "prediction_sha256": "fe8339984bf92cf54d12e7c85d88872a99b661468cbe581d83149e67004b8bd5"
+      "prediction_sha256": "fe8339984bf92cf54d12e7c85d88872a99b661468cbe581d83149e67004b8bd5",
+      "display_name": "GraPHFormer-adapted（CVPR’26）",
+      "publication_venue": "CVPR",
+      "publication_year": 2026,
+      "source_urls": [
+        "https://raw.githubusercontent.com/Uzshah/GraPHFormer/main/README.md",
+        "https://openaccess.thecvf.com/content/CVPR2026/html/Shah_GraPHFormer_A_Multimodal_Graph_Persistent_Homology_Transformer_for_the_Analysis_CVPR_2026_paper.html"
+      ]
     },
     {
       "model": "graphformer",
@@ -1231,7 +1383,14 @@
       "final_sha256": "69dcb8b8f4383a6aedf609184c5b5d88562894ad0de6cc0a422dae47743878db",
       "protocol_sha256": "6268267ef1c01b5b44c11f8950285c5e89ad7ab2b8560f38a5299005beeb076d",
       "manifest_sha256": "a7e19b350df3a028641488e2fd68b7afd36889687a79142789050cf5342c418b",
-      "prediction_sha256": "3f351a9dd09ccc31cd1f45e890a280a1dc61597d6de85bad04f21525bb4b39db"
+      "prediction_sha256": "3f351a9dd09ccc31cd1f45e890a280a1dc61597d6de85bad04f21525bb4b39db",
+      "display_name": "GraPHFormer-adapted（CVPR’26）",
+      "publication_venue": "CVPR",
+      "publication_year": 2026,
+      "source_urls": [
+        "https://raw.githubusercontent.com/Uzshah/GraPHFormer/main/README.md",
+        "https://openaccess.thecvf.com/content/CVPR2026/html/Shah_GraPHFormer_A_Multimodal_Graph_Persistent_Homology_Transformer_for_the_Analysis_CVPR_2026_paper.html"
+      ]
     },
     {
       "model": "graphformer",
@@ -1321,7 +1480,14 @@
       "final_sha256": "db43dfc45bdfafb81ac74caa0118c3104ff51857684528ac97844e2df8d5987e",
       "protocol_sha256": "6268267ef1c01b5b44c11f8950285c5e89ad7ab2b8560f38a5299005beeb076d",
       "manifest_sha256": "a7e19b350df3a028641488e2fd68b7afd36889687a79142789050cf5342c418b",
-      "prediction_sha256": "785d394f33f79a9f6a080e54e92c3667ca8990d30b29eb56d46b8caf9356a318"
+      "prediction_sha256": "785d394f33f79a9f6a080e54e92c3667ca8990d30b29eb56d46b8caf9356a318",
+      "display_name": "GraPHFormer-adapted（CVPR’26）",
+      "publication_venue": "CVPR",
+      "publication_year": 2026,
+      "source_urls": [
+        "https://raw.githubusercontent.com/Uzshah/GraPHFormer/main/README.md",
+        "https://openaccess.thecvf.com/content/CVPR2026/html/Shah_GraPHFormer_A_Multimodal_Graph_Persistent_Homology_Transformer_for_the_Analysis_CVPR_2026_paper.html"
+      ]
     }
   ],
   "historical_r9": [
@@ -1596,5 +1762,9 @@
   "lineage_evidence": "live_export.json",
   "baseline_audit": "evidence/baseline_live_audit.json",
   "test_used": false,
-  "note": "Original official-adapter baseline values retained; TED common-logit-argmax values are additionally exposed. No external pretrained models. Protocol A observed support; not sampler-superiority evidence."
+  "note": "Original official-adapter baseline values retained; TED common-logit-argmax values are additionally exposed. No external pretrained models. Protocol A observed support; not sampler-superiority evidence.",
+  "publication_metadata": "evidence/baseline_publications.json",
+  "tlp_protocol_audit": "evidence/tlp_dev_audit_20261020.json",
+  "publication_annotation_date": "2026-10-20",
+  "result_snapshot_unchanged": true
 }

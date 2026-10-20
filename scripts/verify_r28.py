@@ -28,6 +28,21 @@ for q in results['records']:
  cfg=read(r/prefix/'protocol.json')['tasks'][q['task']];assert m['epochs']==cfg['epochs'] and m['steps']==cfg['updates']
 comparison=read(r/'BASELINE_COMPARISON.json');assert len(comparison['baselines'])==27 and comparison['r28']==results['records']
 assert all(q['model'] not in ['r9','pointmamba','exphormer'] for q in comparison['baselines'])
+publications=read(r/'evidence/baseline_publications.json')
+assert len(publications)==9
+for q in comparison['baselines']:
+ p=publications[q['model']]
+ assert all(q[k]==p[k] for k in ['display_name','publication_venue','publication_year','source_urls'])
+assert publications['sgformer']['publication_venue']=='NeurIPS'
+assert publications['octformer']['publication_venue']=='ACM TOG / SIGGRAPH'
+tlp_audit=read(r/'evidence/tlp_dev_audit_20261020.json')
+assert tlp_audit['passed'] and not tlp_audit['test_predictions_accessed'] and not tlp_audit['test_metrics_used']
+assert not tlp_audit['training_launched'] and tlp_audit['r28_target_observed_parity_graphs']==62
+assert len(tlp_audit['official_source_parity'])==6
+assert tlp_audit['counts']['pairs']==1146183 and tlp_audit['counts']['positives']==283
+for name in ['tlpnet','sgformer','polynormer']:
+ q=next(q for q in comparison['baselines'] if q['model']==name and q['task']=='tlp')
+ assert q['value']==tlp_audit['methods'][name]['macro_ap']
 assert all(v['entire_manifest_records_equal_original_R9'] for v in read(r/'live_export.json')['audit']['input_lineage'].values())
 audit=read(r/'evidence/baseline_live_audit.json');assert audit['passed'] and len(audit['records'])==27
 for p in r.rglob('*.py'):ast.parse(p.read_text(encoding='utf-8-sig'),filename=str(p))
