@@ -1,0 +1,154 @@
+{
+  "checked_utc": "2026-10-20T16:44:47.950553+00:00",
+  "architecture": "R34 stage 1",
+  "input_protocol": "original_R28_H01_input_not_geometry_FPS_A3",
+  "seed": 42,
+  "pretrained": false,
+  "test_used": false,
+  "records": [
+    {
+      "task": "h01_global",
+      "kind": "constant_message",
+      "execution_version": "CPSF_PATH_MESSAGE_20261020_R34_A2",
+      "status": "completed",
+      "result_directory": "results/constant_message_h01_global",
+      "metrics": {
+        "mae": 0.04876958020031452,
+        "rmse": 0.06152749545844186,
+        "r2": 0.7676215250879783
+      },
+      "epochs": 50,
+      "steps": 1000,
+      "final_sha256": "a271cb4fc5abeb073ca43ccd96651e9739b36ba67ea7c45a54ac0b1f72fca67d",
+      "checkpoint_published": false
+    },
+    {
+      "task": "h01_local",
+      "kind": "constant_message",
+      "execution_version": "CPSF_PATH_MESSAGE_20261020_R34_A2",
+      "status": "completed",
+      "result_directory": "results/constant_message_h01_local",
+      "metrics": {
+        "macro_f1": 0.6492364549918507,
+        "accuracy": 0.6495327102803738,
+        "confusion_matrix": [
+          [
+            43,
+            20,
+            9
+          ],
+          [
+            10,
+            51,
+            11
+          ],
+          [
+            14,
+            11,
+            45
+          ]
+        ]
+      },
+      "epochs": 25,
+      "steps": 2250,
+      "final_sha256": "cf07cc01338625eb71fb4fd00b0bd87d3f55dc558d090bea85e059d8bcd0d826",
+      "checkpoint_published": false
+    },
+    {
+      "task": "h01_global",
+      "kind": "ordinary_attention",
+      "execution_version": "CPSF_PATH_MESSAGE_20261020_R34_A2",
+      "status": "completed",
+      "result_directory": "results/ordinary_attention_h01_global",
+      "metrics": {
+        "mae": 0.0488300280024608,
+        "rmse": 0.061776137792365154,
+        "r2": 0.7657395738330072
+      },
+      "epochs": 50,
+      "steps": 1000,
+      "final_sha256": "5e766f365e03162c9f09fa5eeaaf83dfd6999a142659fc77f3a1037b388ee252",
+      "checkpoint_published": false
+    },
+    {
+      "task": "h01_local",
+      "kind": "ordinary_attention",
+      "execution_version": "CPSF_PATH_MESSAGE_20261020_R34_A2",
+      "status": "completed",
+      "result_directory": "results/ordinary_attention_h01_local",
+      "metrics": {
+        "macro_f1": 0.65417370291243,
+        "accuracy": 0.6542056074766355,
+        "confusion_matrix": [
+          [
+            44,
+            19,
+            9
+          ],
+          [
+            10,
+            50,
+            12
+          ],
+          [
+            13,
+            11,
+            46
+          ]
+        ]
+      },
+      "epochs": 25,
+      "steps": 2250,
+      "final_sha256": "e43d7153181e15ba02f85f35c62ae42c38ce05203c8689370b45d968a25dc983",
+      "checkpoint_published": false
+    },
+    {
+      "task": "h01_global",
+      "kind": "path_message",
+      "execution_version": "CPSF_PATH_MESSAGE_20261020_R34_A2",
+      "status": "completed",
+      "result_directory": "results/path_message_h01_global",
+      "metrics": {
+        "mae": 0.048690350726246834,
+        "rmse": 0.06146628756891302,
+        "r2": 0.7680836378770406
+      },
+      "epochs": 50,
+      "steps": 1000,
+      "final_sha256": "7521c4d54cdb334b44a864f70237406137dc0c672109f489dcd6681e1c6bdea6",
+      "checkpoint_published": true
+    },
+    {
+      "task": "h01_local",
+      "kind": "path_message",
+      "execution_version": "CPSF_PATH_MESSAGE_20261020_R34_A2",
+      "status": "completed",
+      "result_directory": "results/path_message_h01_local",
+      "metrics": {
+        "macro_f1": 0.6817116320212295,
+        "accuracy": 0.6822429906542056,
+        "confusion_matrix": [
+          [
+            43,
+            21,
+            8
+          ],
+          [
+            9,
+            52,
+            11
+          ],
+          [
+            12,
+            7,
+            51
+          ]
+        ]
+      },
+      "epochs": 25,
+      "steps": 2250,
+      "final_sha256": "1bddbaf2ad19208cc9a1a135aaecae92ff104e78dccbbd0f95f5df84b251f3ac",
+      "checkpoint_published": true
+    }
+  ]
+}

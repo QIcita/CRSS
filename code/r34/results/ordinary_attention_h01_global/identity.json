@@ -1,0 +1,34 @@
+{
+  "replica_suffix": "",
+  "runtime_policy_sha256": "7b19e46ed2dc9a0b7189831c1d50e88018dce6b6dcc0cb4afb73b6616913bcd0",
+  "version": "CPSF_PATH_MESSAGE_20261020_R34_A2",
+  "task": "h01_global",
+  "kind": "ordinary_attention",
+  "seed": 42,
+  "protocol_sha256": "eaf723615ae22df382e9db542a9c4bed94ccafe947d0378c221273641c4931e3",
+  "manifest_sha256": "32c98f23957ba35b053a953b5464286c37fdf20da57ffee694bf529cbd3fa624",
+  "initial_state_sha256": "49142978e6ffc2aee43efbfa3d6674d35cc67c5dc54a0e1148377892e613c7a2",
+  "pretrained": false,
+  "test_used": false,
+  "selection": "fixed final epoch",
+  "official_modules": {
+    "Utonia": {
+      "commit": "da776a0bd3a48c6df83ac2ae0e27b26141cc7e31",
+      "source": "/root/megrez-tmp/CPSF_UTONIA_SCRATCH_20261012/vendor/Utonia",
+      "mode": "official original modules, reduced configuration, no pretrained weights"
+    },
+    "SPoTr": {
+      "repository": "https://github.com/mlvlab/SPoTr",
+      "commit": "69ea023d3781372df80e23326ef56b58a9b60cd6",
+      "paper": "CVPR2023 Self-positioning Point-based Transformer for Point Cloud Understanding",
+      "module": "LPAMLP (entire original constructor/forward), new_attention, get_aggregation_features, original conv/activation factories",
+      "license": "MIT",
+      "pretrained": false,
+      "adaptation": "original within-patch bipartite raw grouping; original mass and padding logit prior; no normalization; one post-conv; no global SPoTr path; unused official alpha frozen"
+    }
+  },
+  "adapter": {
+    "change": "R17 four-head centered-value attention with geometry logits and mass prior; R28 patch input",
+    "source": "official GeoTransformer-derived R17 adapter; not equal capacity to gated message"
+  }
+}

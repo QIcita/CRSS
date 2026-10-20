@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "tasks": {
+    "h01_local": {
+      "records": 930,
+      "train": 716,
+      "val": 214,
+      "same_manifest": true,
+      "cell_disjoint": true,
+      "all_input_hashes_valid": true
+    },
+    "h01_global": {
+      "records": 104,
+      "train": 80,
+      "val": 24,
+      "same_manifest": true,
+      "cell_disjoint": true,
+      "all_input_hashes_valid": true
+    }
+  },
+  "test_used": false,
+  "observation_and_labels_unchanged": true
+}

@@ -1,0 +1,20 @@
+{
+  "steps": 1,
+  "optimizer_steps": [
+    1
+  ],
+  "initial_state_sha256": "b237372fd67b5d439e81aad0013c0ede33e4c4a70efeb44f0e0d0054802f0882",
+  "before_optimizer_sha256": "b237372fd67b5d439e81aad0013c0ede33e4c4a70efeb44f0e0d0054802f0882",
+  "after_state_sha256": "ccea29135c391c0b324e81fbe67d962b92d6aa23245ddce6a40ddffc4a6699cc",
+  "changed_new_parameters": [
+    "region_message.attention.proj_q.weight",
+    "region_message.attention.proj_q.bias",
+    "region_message.attention.proj_k.weight",
+    "region_message.attention.proj_k.bias",
+    "region_message.attention.proj_v.weight",
+    "region_message.geometry.0.weight",
+    "region_message.geometry.0.bias",
+    "region_message.output.weight"
+  ],
+  "verified_real_update": true
+}

@@ -1,3 +1,11 @@
+# 最新发布：R34阶段一（2026-10-21）
+
+阅读顺序：[R34实际架构](docs/R34_ARCHITECTURE_ZH.md) → [H01结果与机制对照](docs/R34_RESULTS_ZH.md) → [代码、权重和组装](code/r34/README.md)。新增入口为`code/r34/overlay/tools/cpsf_path_message/model.py`；继承依赖由`source_map.json`逐字节映射至R28。`scripts/materialize_r34.py`可组装完整运行源码。
+
+R34只实现路径条件差分消息，在原输入的H01双任务通过预定门槛。新FPS输入、其他任务和阶段二/三均未验证；不要把提案或其他版本结果写入当前模型。下面R28及更早导航为带日期的历史记录。论文正文仍未按R34改写。
+
+---
+
 # 当前参照：R28（2026-10-20）
 
 先读 [R28整体架构与逐模块论文来源](docs/R28_ARCHITECTURE_ZH.md) → [R28五任务与baseline对照](docs/R28_RESULTS_ZH.md) → [R28冻结代码、三项权重和复现边界](code/r28/README.md)。机器可读状态是`code/r28/RESULTS.json`；未完成任务值为null。
