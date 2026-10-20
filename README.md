@@ -1,52 +1,60 @@
 # CRSS: Common-Region Skeleton–Surface Encoding
 
-神经元骨架—表面联合表征研究。**当前代码与实验更新为 R9（2026-10-17）**：保留共同区域主干，在原局部统计之后加入RMS0.1约束的官方Utonia多尺度上下文。五任务分别训练，不使用外部预训练权重。
+神经元骨架—表面联合表征研究。**当前参照为R28（2026-10-20）**：在R9共同区域主干上加入SPoTr官方局部通道注意力，保留原局部统计、Utonia RMS0.1上下文、动态分辨率与物理位置/尺度编码。五任务分别从零训练，不用外部预训练。
 
 **从 [START_HERE.md](START_HERE.md) 开始。**
 
 | 内容 | 入口 |
 |---|---|
-| R9实际网络、输入与五任务读出 | [架构说明](docs/R9_ARCHITECTURE_ZH.md) |
-| R9完成结果与三任务运行快照 | [结果表](docs/R9_RESULTS_ZH.md)、[机器可读结果](code/r9/RESULTS.json) |
-| R9原代码、两项已训练权重与来源 | [R9代码包](code/r9/README.md) |
-| 当前共享编码器 | [model.py](code/r9/reference/tools/cpsf_utonia_context/model.py) |
-| FlyWire/TED/TLP适配 | [任务接口](code/r9/extension/tools/cpsf_r9_expansion/model.py)、[训练](code/r9/extension/tools/cpsf_r9_expansion/train.py) |
-| 历史五任务完整模型与消融 | [历史代码说明](code/README.md)、[历史实验索引](docs/EXPERIMENTS_ZH.md) |
-| 论文草稿与历史主线 | [论文主线](docs/PAPER_STORY_ZH.md)、[LaTeX](paper/main.tex)；尚未按R9结果改写 |
+| R28网络图、关键模块及每个模块最相关论文 | [架构与来源](docs/R28_ARCHITECTURE_ZH.md) |
+| R28五任务及完整baseline表 | [结果说明](docs/R28_RESULTS_ZH.md)、[JSON](code/r28/BASELINE_COMPARISON.json)、[CSV](code/r28/BASELINE_COMPARISON.csv) |
+| 原始冻结源、三个已完成权重、验收/版本证据 | [R28代码包](code/r28/README.md) |
+| H01实际入口 | [R28模型](code/r28/reference/tools/cpsf_raw_point_attention/model.py) |
+| FlyWire/TED/TLP适配 | [扩展模型](code/r28/extension/tools/cpsf_r28_expansion/model.py) |
+| 共享的原R9共同区域/上下文实现 | [模型主干](code/r28/reference/tools/cpsf_utonia_context/model.py) |
+| 历史R9与2026-10-11模型 | [R9原归档](code/r9/README.md)、[更早模型](code/README.md) |
+| 旧版论文草稿 | [论文](paper/main.tex)，尚未按R28重写 |
 
-## R9结果边界
+## 当前结果
 
-| 任务 | 固定最终轮开发集结果 |
-|---|---:|
-| H01局部 | Macro-F1 **0.667901** |
-| H01整体 | MAE **0.0502774** |
-| FlyWire六类 | 训练中，尚无R9最终结果 |
-| TED | 训练中，尚无R9最终结果 |
-| TLP | 训练中，尚无R9最终结果 |
+截至2026-10-20 09:41北京时间，固定seed42、固定最终轮开发集：
 
-三项扩展状态的具体采样时间见[结果页](docs/R9_RESULTS_ZH.md)。所有结果seed42、开发集；没有把旧模型成绩或测试成绩补入R9表格。R9的RMS0.3对照、同seed重放也完整保留，不能称已完成全部核心模块消融或五任务SOTA。
+| 任务 | R28 | 当前最强纳入外部baseline |
+|---|---:|---:|
+| H01局部Macro-F1↑ | **0.663894** | GraPHFormer-adapted 0.637270 |
+| H01整体MAE↓ | **0.048891** | SGFormer 0.058459 |
+| FlyWire六super_class分类 | 训练中，17/50轮 | Utonia scratch R2 0.785536 |
+| TED正类F1↑ | 训练中，10/30轮 | TED-Net 0.569248；统一argmax 0.568330 |
+| TLP缺边Macro-AP↑ | **0.569710** | SGFormer 0.551245 |
+
+三项已完成结果优于当前纳入外部对照，但相对历史R9，H01局部从0.667901降到0.663894；整体与TLP改善。没有五任务普遍SOTA证据。PointMamba、Exphormer不作正式baseline。FlyWire是分类，不是检索。所有表格不混入测试成绩、外部预训练或其他版本最佳值；最新状态见[RESULTS.json](code/r28/RESULTS.json)。
 
 ```mermaid
 flowchart TD
-  A[观测骨架与表面] --> B[原动态支撑与共同弧长区域]
-  A --> U[官方Utonia多尺度表面上下文]
-  B --> L[原局部均值与方差表征]
-  U --> R[RMS0.1更新]
-  L --> J[共同区域骨架—表面交互]
-  R --> J
-  J --> C[区域消息传递与粗层级3D RoPE]
+  A[观察骨架与表面：动态支撑] --> B[骨架节点MLP与弧长区域]
+  A --> L[原点MLP → 保护的patch均值/方差]
+  A --> U[官方Utonia多尺度上下文]
+  L --> S[官方SPoTr原始点通道注意力]
+  U --> R[RMS0.1上下文]
+  L --> P[局部基底 + 两路校正]
+  S --> P
+  R --> P
+  P --> J[共同区域：有效模态均值 + 0.1联合MLP]
+  B --> J
+  J --> C[细区域消息传递 → 粗区域3D RoPE → 回传]
   C --> O[局部查询 / 整细胞 / 节点对读出]
 ```
 
-R9没有启用源码保留的GeoTransformer或Polynormer分支；没有学习式采样器或跨数据集共享训练权重。物理位置与尺度编码保留，具体输入及数值约定以[架构说明](docs/R9_ARCHITECTURE_ZH.md)为准。
-
-## 校验与使用
+## 校验与使用边界
 
 ```bash
+python scripts/verify_r28.py
 python scripts/verify_r9.py
 python scripts/verify_export.py
 ```
 
-以上为标准库文件/版本核验。GPU推理和训练需要原CUDA依赖及相应输入；数据集、几何缓存与全部父运行目录未发布，不能把源代码归档等同于新机器的一键复现。详见[R9代码说明](code/r9/README.md)。
+上述是标准库原始字节/版本/发布一致性检查。五模型已在原服务器环境完成发布源构造，三个已完成权重strict加载通过；原始数据、几何缓存和全部父运行根未发布，新机器全量复现尚未验收。不能关闭verify或伪造contracts绕过依赖。R28保留位置/尺度与动态分辨率，但专属全套贡献消融尚未补齐；旧模型消融不能被改称R28证据。
 
-2026-10-11旧代码、权重、论文和冻结实验原样保留；其`code/model_full.py`不是R9入口。[原首页快照](docs/README_SNAPSHOT_20261011.md)可用于回溯。许可与来源见[RIGHTS_AND_PROVENANCE.md](RIGHTS_AND_PROVENANCE.md)。
+官方直接代码组件为Utonia与SPoTr；RoFormer为自写区域RoPE的技术参考。其他设计/原理参照及未启用历史源在[架构页](docs/R28_ARCHITECTURE_ZH.md)明确区分，不把多个论文名字堆成实际网络。实际融合是关联汇聚与MLP，不是新的超图Transformer或骨架—点云交叉注意力。
+
+历史R9、2026-10-11代码/权重及论文原样保留。[上次首页](docs/README_SNAPSHOT_20261017.md)和[原首页](docs/README_SNAPSHOT_20261011.md)供回溯。许可与来源见[RIGHTS_AND_PROVENANCE.md](RIGHTS_AND_PROVENANCE.md)。

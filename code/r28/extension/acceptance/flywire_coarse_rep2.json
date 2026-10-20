@@ -1,0 +1,143 @@
+{
+  "task": "flywire_coarse",
+  "protocol_sha256": "40407ca1459fd5e05f6515f802c60ff5a3d385ffda64555e5de9a917fea10407",
+  "cases": [
+    {
+      "key": "720575940604217534",
+      "old_core_maxdiff": 0.0,
+      "points": 6144,
+      "voxels": 692,
+      "regions": 57,
+      "peak_bytes": 135033856,
+      "seconds": 0.8853793144226074,
+      "finite_gradients": true,
+      "non_singleton_patches": 611
+    },
+    {
+      "key": "720575940630662983",
+      "old_core_maxdiff": 0.0,
+      "points": 10240,
+      "voxels": 2676,
+      "regions": 200,
+      "peak_bytes": 185790976,
+      "seconds": 0.29595232009887695,
+      "finite_gradients": true,
+      "non_singleton_patches": 2051
+    },
+    {
+      "key": "720575940628307026",
+      "old_core_maxdiff": 0.0,
+      "points": 69632,
+      "voxels": 59864,
+      "regions": 34279,
+      "peak_bytes": 4579591168,
+      "seconds": 3.7256009578704834,
+      "finite_gradients": true,
+      "non_singleton_patches": 8807
+    },
+    {
+      "key": "720575940606218528",
+      "old_core_maxdiff": 0.0,
+      "points": 69632,
+      "voxels": 28587,
+      "regions": 3565,
+      "peak_bytes": 1282835968,
+      "seconds": 1.0637705326080322,
+      "finite_gradients": true,
+      "non_singleton_patches": 18039
+    },
+    {
+      "key": "720575940620968021",
+      "old_core_maxdiff": 0.0,
+      "points": 69632,
+      "voxels": 29215,
+      "regions": 8180,
+      "peak_bytes": 7056886784,
+      "seconds": 5.888146877288818,
+      "finite_gradients": true,
+      "non_singleton_patches": 17728
+    },
+    {
+      "key": "720575940602893228",
+      "old_core_maxdiff": 0.0,
+      "points": 8192,
+      "voxels": 1430,
+      "regions": 106,
+      "peak_bytes": 159514624,
+      "seconds": 0.28066229820251465,
+      "finite_gradients": true,
+      "non_singleton_patches": 1173
+    },
+    {
+      "key": "720575940603235500",
+      "old_core_maxdiff": 0.0,
+      "points": 24576,
+      "voxels": 8384,
+      "regions": 858,
+      "peak_bytes": 428758016,
+      "seconds": 0.4530634880065918,
+      "finite_gradients": true,
+      "non_singleton_patches": 5813
+    },
+    {
+      "key": "720575940600150793",
+      "old_core_maxdiff": 0.0,
+      "points": 10240,
+      "voxels": 2166,
+      "regions": 236,
+      "peak_bytes": 259520000,
+      "seconds": 0.35135841369628906,
+      "finite_gradients": true,
+      "non_singleton_patches": 1758
+    },
+    {
+      "key": "720575940604018208",
+      "old_core_maxdiff": 0.0,
+      "points": 8192,
+      "voxels": 1365,
+      "regions": 92,
+      "peak_bytes": 154329088,
+      "seconds": 0.27097535133361816,
+      "finite_gradients": true,
+      "non_singleton_patches": 1158
+    },
+    {
+      "key": "720575940607673730",
+      "old_core_maxdiff": 0.0,
+      "points": 24576,
+      "voxels": 8273,
+      "regions": 889,
+      "peak_bytes": 385939968,
+      "seconds": 0.4193129539489746,
+      "finite_gradients": true,
+      "non_singleton_patches": 5702
+    },
+    {
+      "key": "720575940603011808",
+      "old_core_maxdiff": 0.0,
+      "points": 14336,
+      "voxels": 4361,
+      "regions": 446,
+      "peak_bytes": 273777152,
+      "seconds": 0.35802578926086426,
+      "finite_gradients": true,
+      "non_singleton_patches": 3158
+    }
+  ],
+  "test_used": false,
+  "old_initial_parameters_exact": true,
+  "passed": true,
+  "trace": [
+    {
+      "key": "720575940604217534",
+      "loss": 1.7837934494018555,
+      "state_sha256": "28052e9cc92f5adf8c2716d69a7e9e50b26ea0403efb220f78f51582f8b050cc"
+    },
+    {
+      "key": "720575940604236768",
+      "loss": 1.6951818466186523,
+      "state_sha256": "f2489a3ee1832496e1905235dcfc0d3dbc4a4261893229d8ca0fe4c4fb63ab83"
+    }
+  ],
+  "parameters": 3779031
+}

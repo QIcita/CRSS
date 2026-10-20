@@ -1,0 +1,10 @@
+{
+  "state": "training",
+  "epoch": 10,
+  "epochs": 30,
+  "processed": 12224,
+  "total": 23967,
+  "steps": 3566,
+  "elapsed_seconds": 31382.656309604645,
+  "peak_gpu_bytes": 149345792
+}

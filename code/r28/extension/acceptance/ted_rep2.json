@@ -1,0 +1,99 @@
+{
+  "task": "ted",
+  "protocol_sha256": "40407ca1459fd5e05f6515f802c60ff5a3d385ffda64555e5de9a917fea10407",
+  "cases": [
+    {
+      "key": "x11680_y9256_z3540:0",
+      "old_core_maxdiff": 0.0,
+      "points": 1023,
+      "voxels": 743,
+      "regions": 94,
+      "peak_bytes": 119564800,
+      "seconds": 0.8594539165496826,
+      "finite_gradients": true,
+      "non_singleton_patches": 209
+    },
+    {
+      "key": "x7926_y9847_z3905:217",
+      "old_core_maxdiff": 0.0,
+      "points": 1024,
+      "voxels": 722,
+      "regions": 266,
+      "peak_bytes": 119515648,
+      "seconds": 0.21442604064941406,
+      "finite_gradients": true,
+      "non_singleton_patches": 210
+    },
+    {
+      "key": "x10056_y8560_z3540:0",
+      "old_core_maxdiff": 0.0,
+      "points": 1024,
+      "voxels": 750,
+      "regions": 87,
+      "peak_bytes": 119583232,
+      "seconds": 0.21583867073059082,
+      "finite_gradients": true,
+      "non_singleton_patches": 226
+    },
+    {
+      "key": "x17732_y18114_z5122:77",
+      "old_core_maxdiff": 0.0,
+      "points": 1024,
+      "voxels": 952,
+      "regions": 592,
+      "peak_bytes": 120138240,
+      "seconds": 0.2884070873260498,
+      "finite_gradients": true,
+      "non_singleton_patches": 59
+    },
+    {
+      "key": "x26036_y12276_z5784:12",
+      "old_core_maxdiff": 0.0,
+      "points": 1024,
+      "voxels": 968,
+      "regions": 453,
+      "peak_bytes": 122288640,
+      "seconds": 0.1906900405883789,
+      "finite_gradients": true,
+      "non_singleton_patches": 47
+    },
+    {
+      "key": "x10056_y8096_z3540:0",
+      "old_core_maxdiff": 0.0,
+      "points": 1024,
+      "voxels": 776,
+      "regions": 207,
+      "peak_bytes": 119552000,
+      "seconds": 0.20161008834838867,
+      "finite_gradients": true,
+      "non_singleton_patches": 206
+    },
+    {
+      "key": "x4544_y12347_z4670:33",
+      "old_core_maxdiff": 0.0,
+      "points": 1024,
+      "voxels": 768,
+      "regions": 107,
+      "peak_bytes": 119623680,
+      "seconds": 0.20956730842590332,
+      "finite_gradients": true,
+      "non_singleton_patches": 208
+    }
+  ],
+  "test_used": false,
+  "old_initial_parameters_exact": true,
+  "passed": true,
+  "trace": [
+    {
+      "key": "x11680_y9256_z3540:0",
+      "loss": 3.5614285469055176,
+      "state_sha256": "cd24d4238dfb553ecdfcd283489d068b9cb62cd59353d36f8b17ee68cd47a66b"
+    },
+    {
+      "key": "x11680_y9024_z3540:10",
+      "loss": 0.7220680713653564,
+      "state_sha256": "73efe1f908fceb8162435bb775cdb6990b02adf55b85421c1129eb74d522e83c"
+    }
+  ],
+  "parameters": 3778386
+}

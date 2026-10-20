@@ -1,0 +1,29 @@
+{
+  "state": "running",
+  "protocol_sha256": "40407ca1459fd5e05f6515f802c60ff5a3d385ffda64555e5de9a917fea10407",
+  "jobs": [
+    {
+      "task": "flywire_coarse",
+      "kind": "r28_lpa_attention",
+      "gpu": 0,
+      "pid": 1724121,
+      "state": "running"
+    },
+    {
+      "task": "ted",
+      "kind": "r28_lpa_attention",
+      "gpu": 1,
+      "pid": 1724122,
+      "state": "running"
+    },
+    {
+      "task": "tlp",
+      "kind": "r28_lpa_attention",
+      "gpu": 1,
+      "pid": 1724123,
+      "state": "complete",
+      "returncode": 0
+    }
+  ],
+  "time": 1792460677.6886508
+}

@@ -1,0 +1,51 @@
+{
+  "publication_root": "/tmp/cpsf_r28_publication_46pdhoh4",
+  "source_overlay_sha256": "1e588aa2ea1f692251e709221e9c390a509b886dd52f25a2a96e429fd4dc1b22",
+  "tasks": {
+    "h01_local": {
+      "parameters": 3778644,
+      "trainable_parameters": 3778643,
+      "module_source": "/tmp/cpsf_r28_publication_46pdhoh4/tools/cpsf_raw_point_attention/model.py",
+      "official_lpa_source": "/tmp/cpsf_r28_publication_46pdhoh4/vendor/SPoTr/openpoints/models/backbone/spotr.py",
+      "official_utonia_source": "/tmp/cpsf_r28_publication_46pdhoh4/vendor/Utonia/utonia/model.py",
+      "strict_load": true,
+      "weight_sha256": "fe0634ebec3b3a3b07adce8349347d72d3d50b06fcb4ea147e201dca552464c7"
+    },
+    "h01_global": {
+      "parameters": 3778386,
+      "trainable_parameters": 3778385,
+      "module_source": "/tmp/cpsf_r28_publication_46pdhoh4/tools/cpsf_raw_point_attention/model.py",
+      "official_lpa_source": "/tmp/cpsf_r28_publication_46pdhoh4/vendor/SPoTr/openpoints/models/backbone/spotr.py",
+      "official_utonia_source": "/tmp/cpsf_r28_publication_46pdhoh4/vendor/Utonia/utonia/model.py",
+      "strict_load": true,
+      "weight_sha256": "7276f4d77b47c5ce60051573b799c50ba1b2d207746447644f4634a7d16fa29b"
+    },
+    "flywire_coarse": {
+      "parameters": 3779031,
+      "trainable_parameters": 3779030,
+      "module_source": "/tmp/cpsf_r28_publication_46pdhoh4/tools/cpsf_r28_expansion/model.py",
+      "official_lpa_source": "/tmp/cpsf_r28_publication_46pdhoh4/vendor/SPoTr/openpoints/models/backbone/spotr.py",
+      "official_utonia_source": "/tmp/cpsf_r28_publication_46pdhoh4/vendor/Utonia/utonia/model.py",
+      "strict_load": null
+    },
+    "ted": {
+      "parameters": 3778386,
+      "trainable_parameters": 3778385,
+      "module_source": "/tmp/cpsf_r28_publication_46pdhoh4/tools/cpsf_r28_expansion/model.py",
+      "official_lpa_source": "/tmp/cpsf_r28_publication_46pdhoh4/vendor/SPoTr/openpoints/models/backbone/spotr.py",
+      "official_utonia_source": "/tmp/cpsf_r28_publication_46pdhoh4/vendor/Utonia/utonia/model.py",
+      "strict_load": null
+    },
+    "tlp": {
+      "parameters": 3827666,
+      "trainable_parameters": 3827665,
+      "module_source": "/tmp/cpsf_r28_publication_46pdhoh4/tools/cpsf_r28_expansion/model.py",
+      "official_lpa_source": "/tmp/cpsf_r28_publication_46pdhoh4/vendor/SPoTr/openpoints/models/backbone/spotr.py",
+      "official_utonia_source": "/tmp/cpsf_r28_publication_46pdhoh4/vendor/Utonia/utonia/model.py",
+      "strict_load": true,
+      "weight_sha256": "0f7fb79ee08c493150b7ef3f4bced1c1bab43e2b1a22ca06cc99b7211514ae6d"
+    }
+  },
+  "no_training": true,
+  "no_gpu_allocation": true
+}

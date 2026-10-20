@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "protocol_sha256": "40407ca1459fd5e05f6515f802c60ff5a3d385ffda64555e5de9a917fea10407",
+  "all_input_hashes_valid": true,
+  "initial_h01_states_exact": true,
+  "independent_two_update_replays_exact": true,
+  "max_sample_backward": true,
+  "tests_used": false
+}

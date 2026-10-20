@@ -1,0 +1,43 @@
+{
+  "replica_suffix": "",
+  "runtime_policy_sha256": "7b19e46ed2dc9a0b7189831c1d50e88018dce6b6dcc0cb4afb73b6616913bcd0",
+  "version": "CPSF_RAW_POINT_ATTENTION_20261019_R28_A1",
+  "task": "h01_global",
+  "kind": "r9_lpa_uniform",
+  "seed": 42,
+  "protocol_sha256": "1daddf31b92efd7abb57b3047349bff0f4d71ebe3a908a27951fe553949edde7",
+  "manifest_sha256": "32c98f23957ba35b053a953b5464286c37fdf20da57ffee694bf529cbd3fa624",
+  "initial_state_sha256": "999b9db112670307faa18f7331b6f5a4a63469fbb523462393f0f833adae7ef7",
+  "pretrained": false,
+  "test_used": false,
+  "selection": "fixed final epoch",
+  "official_modules": {
+    "Utonia": {
+      "commit": "da776a0bd3a48c6df83ac2ae0e27b26141cc7e31",
+      "source": "/root/megrez-tmp/CPSF_UTONIA_SCRATCH_20261012/vendor/Utonia",
+      "mode": "official original modules, reduced configuration, no pretrained weights"
+    },
+    "SPoTr": {
+      "repository": "https://github.com/mlvlab/SPoTr",
+      "commit": "69ea023d3781372df80e23326ef56b58a9b60cd6",
+      "paper": "CVPR2023 Self-positioning Point-based Transformer for Point Cloud Understanding",
+      "module": "LPAMLP (entire original constructor/forward), new_attention, get_aggregation_features, original conv/activation factories",
+      "license": "MIT",
+      "pretrained": false,
+      "adaptation": "original within-patch bipartite raw grouping; original mass and padding logit prior; no normalization; one post-conv; no global SPoTr path; unused official alpha frozen"
+    }
+  },
+  "adapter": {
+    "pooling": "original_mass_uniform",
+    "features": "original 96D point MLP output and original patch-relative XYZ",
+    "original_memberships_and_points": true,
+    "singleton": "original R9 only",
+    "official_forward_unmodified": true,
+    "norm": null,
+    "post_convs": 1,
+    "alpha": 0.1,
+    "initialization": "new output projection zero; original R9 stream exact",
+    "insertion": "parallel raw-point correction after protected patch statistics, original Utonia RMS0.1 untouched",
+    "control_capacity_note": "same registered modules; uniform does not train attention projection; report active capacity separately"
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "root": "/root/megrez-tmp/CPSF_RAW_POINT_ATTENTION_20261019_R28_A1",
+  "utc": "2026-10-19T12:18:07.661879+00:00",
+  "protocol_sha256": "1daddf31b92efd7abb57b3047349bff0f4d71ebe3a908a27951fe553949edde7",
+  "queue_complete": true,
+  "source_and_parent_valid": true,
+  "jobs": [
+    {
+      "kind": "r9_lpa_attention",
+      "task": "h01_local",
+      "val": {
+        "macro_f1": 0.6638936372269706,
+        "accuracy": 0.6635514018691588,
+        "confusion_matrix": [
+          [
+            44,
+            19,
+            9
+          ],
+          [
+            12,
+            51,
+            9
+          ],
+          [
+            15,
+            8,
+            47
+          ]
+        ]
+      },
+      "epochs": 25,
+      "steps": 2250,
+      "final_sha256": "fe0634ebec3b3a3b07adce8349347d72d3d50b06fcb4ea147e201dca552464c7",
+      "identity_and_predictions_verified": true,
+      "history_matches_r9": true
+    },
+    {
+      "kind": "r9_lpa_attention",
+      "task": "h01_global",
+      "val": {
+        "mae": 0.048890942707657814,
+        "rmse": 0.06160289007771511,
+        "r2": 0.7670516718572349
+      },
+      "epochs": 50,
+      "steps": 1000,
+      "final_sha256": "7276f4d77b47c5ce60051573b799c50ba1b2d207746447644f4634a7d16fa29b",
+      "identity_and_predictions_verified": true,
+      "history_matches_r9": true
+    },
+    {
+      "kind": "r9_lpa_uniform",
+      "task": "h01_local",
+      "val": {
+        "macro_f1": 0.6495901318161158,
+        "accuracy": 0.6495327102803738,
+        "confusion_matrix": [
+          [
+            43,
+            20,
+            9
+          ],
+          [
+            11,
+            50,
+            11
+          ],
+          [
+            13,
+            11,
+            46
+          ]
+        ]
+      },
+      "epochs": 25,
+      "steps": 2250,
+      "final_sha256": "346a2681ad61d34e18a944bb549e5f181f4d5e3d128fb4ec84a19193d2ad2c0d",
+      "identity_and_predictions_verified": true,
+      "history_matches_r9": true
+    },
+    {
+      "kind": "r9_lpa_uniform",
+      "task": "h01_global",
+      "val": {
+        "mae": 0.049336779241760574,
+        "rmse": 0.062352260472576145,
+        "r2": 0.7613497858343587
+      },
+      "epochs": 50,
+      "steps": 1000,
+      "final_sha256": "7006dd77fe1a284ebdba8231f73b1645704ddef0f75a0a38a86b66b5d0b7a3d2",
+      "identity_and_predictions_verified": true,
+      "history_matches_r9": true
+    }
+  ],
+  "test_used": false,
+  "promoted": {
+    "r9_lpa_attention": false,
+    "r9_lpa_uniform": false
+  }
+}

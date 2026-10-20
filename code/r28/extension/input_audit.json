@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "tasks": {
+    "flywire_coarse": {
+      "records": 7961,
+      "splits": {
+        "val": 1922,
+        "train": 6039
+      },
+      "train_dev_cells_disjoint": true,
+      "all_source_and_coordinate_sidecar_hashes_valid": true
+    },
+    "ted": {
+      "records": 34729,
+      "splits": {
+        "train": 23967,
+        "val": 10762
+      },
+      "train_dev_cells_disjoint": true,
+      "all_source_and_coordinate_sidecar_hashes_valid": true
+    },
+    "tlp": {
+      "records": 218,
+      "splits": {
+        "val": 62,
+        "train": 156
+      },
+      "train_dev_cells_disjoint": true,
+      "all_source_and_coordinate_sidecar_hashes_valid": true
+    }
+  },
+  "test_used": false
+}

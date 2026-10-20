@@ -1,0 +1,103 @@
+{
+  "state": "complete",
+  "protocol_sha256": "1daddf31b92efd7abb57b3047349bff0f4d71ebe3a908a27951fe553949edde7",
+  "jobs": [
+    {
+      "kind": "r9_lpa_attention",
+      "task": "h01_local",
+      "gpu": 0,
+      "pid": 1560721,
+      "state": "complete",
+      "returncode": 0
+    },
+    {
+      "kind": "r9_lpa_attention",
+      "task": "h01_global",
+      "gpu": 0,
+      "pid": 1560722,
+      "state": "complete",
+      "returncode": 0
+    },
+    {
+      "kind": "r9_lpa_uniform",
+      "task": "h01_local",
+      "gpu": 1,
+      "pid": 1560723,
+      "state": "complete",
+      "returncode": 0
+    },
+    {
+      "kind": "r9_lpa_uniform",
+      "task": "h01_global",
+      "gpu": 1,
+      "pid": 1560724,
+      "state": "complete",
+      "returncode": 0
+    }
+  ],
+  "audits": {
+    "r9_lpa_attention": {
+      "h01_local": {
+        "macro_f1": 0.6638936372269706,
+        "accuracy": 0.6635514018691588,
+        "confusion_matrix": [
+          [
+            44,
+            19,
+            9
+          ],
+          [
+            12,
+            51,
+            9
+          ],
+          [
+            15,
+            8,
+            47
+          ]
+        ]
+      },
+      "h01_global": {
+        "mae": 0.048890942707657814,
+        "rmse": 0.06160289007771511,
+        "r2": 0.7670516718572349
+      },
+      "local_gain": -0.004007597340930702,
+      "global_mae_reduction": 0.0013864735762278216,
+      "promoted": false
+    },
+    "r9_lpa_uniform": {
+      "h01_local": {
+        "macro_f1": 0.6495901318161158,
+        "accuracy": 0.6495327102803738,
+        "confusion_matrix": [
+          [
+            43,
+            20,
+            9
+          ],
+          [
+            11,
+            50,
+            11
+          ],
+          [
+            13,
+            11,
+            46
+          ]
+        ]
+      },
+      "h01_global": {
+        "mae": 0.049336779241760574,
+        "rmse": 0.062352260472576145,
+        "r2": 0.7613497858343587
+      },
+      "local_gain": -0.01831110275178549,
+      "global_mae_reduction": 0.0009406370421250615,
+      "promoted": false
+    }
+  },
+  "time": 1792411032.8060627
+}

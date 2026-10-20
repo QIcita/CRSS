@@ -1,0 +1,88 @@
+{
+  "task": "tlp",
+  "protocol_sha256": "40407ca1459fd5e05f6515f802c60ff5a3d385ffda64555e5de9a917fea10407",
+  "cases": [
+    {
+      "key": "x18044_y14877_z3415",
+      "old_core_maxdiff": 0.0,
+      "points": 5540,
+      "voxels": 4614,
+      "regions": 1935,
+      "peak_bytes": 204279808,
+      "seconds": 2.2837069034576416,
+      "finite_gradients": true,
+      "non_singleton_patches": 690
+    },
+    {
+      "key": "x11448_y8328_z3540",
+      "old_core_maxdiff": 0.0,
+      "points": 15794,
+      "voxels": 12150,
+      "regions": 4709,
+      "peak_bytes": 432376320,
+      "seconds": 0.5993239879608154,
+      "finite_gradients": true,
+      "non_singleton_patches": 2358
+    },
+    {
+      "key": "x7694_y11471_z4369",
+      "old_core_maxdiff": 0.0,
+      "points": 48606,
+      "voxels": 42286,
+      "regions": 16103,
+      "peak_bytes": 3150825472,
+      "seconds": 2.058366537094116,
+      "finite_gradients": true,
+      "non_singleton_patches": 4744
+    },
+    {
+      "key": "x9086_y11703_z3905",
+      "old_core_maxdiff": 0.0,
+      "points": 62997,
+      "voxels": 47853,
+      "regions": 18514,
+      "peak_bytes": 3070917120,
+      "seconds": 2.313932418823242,
+      "finite_gradients": true,
+      "non_singleton_patches": 9312
+    },
+    {
+      "key": "x26211_y10278_z5841",
+      "old_core_maxdiff": 0.0,
+      "points": 58878,
+      "voxels": 47248,
+      "regions": 17129,
+      "peak_bytes": 2922942976,
+      "seconds": 2.18319034576416,
+      "finite_gradients": true,
+      "non_singleton_patches": 8111
+    },
+    {
+      "key": "x7926_y9847_z3905",
+      "old_core_maxdiff": 0.0,
+      "points": 34298,
+      "voxels": 27067,
+      "regions": 9429,
+      "peak_bytes": 1809809920,
+      "seconds": 1.7423512935638428,
+      "finite_gradients": true,
+      "non_singleton_patches": 4470
+    }
+  ],
+  "test_used": false,
+  "old_initial_parameters_exact": true,
+  "passed": true,
+  "trace": [
+    {
+      "key": "x18044_y14877_z3415",
+      "loss": 1.3878259658813477,
+      "state_sha256": "f598698dcc48474c603ec9c02b323c0cd55cab3d59498bf97c6d176b82a75a90"
+    },
+    {
+      "key": "x12376_y9256_z3308",
+      "loss": 1.3772852420806885,
+      "state_sha256": "a6e721509e67a70aa03ebdcddeff500f08d4821f80c8fc7d4d2e4d5fb3d81a7f"
+    }
+  ],
+  "parameters": 3827666
+}

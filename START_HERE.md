@@ -1,3 +1,13 @@
+# 当前参照：R28（2026-10-20）
+
+先读 [R28整体架构与逐模块论文来源](docs/R28_ARCHITECTURE_ZH.md) → [R28五任务与baseline对照](docs/R28_RESULTS_ZH.md) → [R28冻结代码、三项权重和复现边界](code/r28/README.md)。机器可读状态是`code/r28/RESULTS.json`；未完成任务值为null。
+
+主入口`code/r28/reference/tools/cpsf_raw_point_attention/model.py`，三任务适配`code/r28/extension/tools/cpsf_r28_expansion/model.py`，共享主干`reference/tools/cpsf_utonia_context/model.py`。H01主配置名r9_lpa_attention只是继承命名，不是原R9；扩展名r28_lpa_attention与其机制一致。不要混入R29–R33分支。
+
+`python scripts/verify_r28.py`核对原源、协议、权重、结果和发布清单。H01两项与TLP已完成；FlyWire/TED的状态是带时间快照。当前论文尚未按R28重写。下方所有R9与更早文字均为历史导航，不覆盖本节。
+
+---
+
 # 当前入口：R9（2026-10-17）
 
 先阅读 [R9架构](docs/R9_ARCHITECTURE_ZH.md)、[R9结果](docs/R9_RESULTS_ZH.md)和[R9代码包](code/r9/README.md)。共享主干入口为`code/r9/reference/tools/cpsf_utonia_context/model.py`，扩展入口为`code/r9/extension/tools/cpsf_r9_expansion/model.py`。

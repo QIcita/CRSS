@@ -1,0 +1,561 @@
+{
+  "identity": {
+    "version": "CPSF_R28_TASK_EXPANSION_20261020_A2",
+    "architecture_version": "CPSF_RAW_POINT_ATTENTION_20261019_R28_A1",
+    "task": "tlp",
+    "kind": "r28_lpa_attention",
+    "seed": 42,
+    "protocol_sha256": "40407ca1459fd5e05f6515f802c60ff5a3d385ffda64555e5de9a917fea10407",
+    "manifest_sha256": "58ce588f82d0be96bb93d78275b7a5794ea28255e99d71946e1e7420f28cb3db",
+    "initial_state_sha256": "e9c8e4329f94238b1e2049fe82ce6a1bb79f9cd2107c816496088325b695a1ce",
+    "pretrained": false,
+    "test_used": false,
+    "selection": "fixed final epoch",
+    "adapter": "Identical R28 SPoTr raw-point refinement and R9 Utonia RMS0.1 on inherited Fly six-class, TED query-node, TLP directional XYZ and corridor-pair heads; scratch independent training per task. H01 byte-exact two-update acceptance. TLP LPAMLP geometry uses original within-patch XYZ while point content keeps inherited directional XYZ.",
+    "runtime_policy_sha256": "7b19e46ed2dc9a0b7189831c1d50e88018dce6b6dcc0cb4afb73b6616913bcd0"
+  },
+  "val": {
+    "missing_edge_macro_ap": 0.5697102714165798,
+    "missing_edge_micro_ap": 0.3878511333766299,
+    "blocks": [
+      {
+        "key": "x10056_y8096_z3540",
+        "missing_edge_ap": 0.556923076923077,
+        "missing_positives": 5,
+        "unobserved_pairs": 10019
+      },
+      {
+        "key": "x10056_y8560_z3540",
+        "missing_edge_ap": 0.7222222222222222,
+        "missing_positives": 3,
+        "unobserved_pairs": 3244
+      },
+      {
+        "key": "x10056_y8792_z3772",
+        "missing_edge_ap": 0.5404761904761904,
+        "missing_positives": 4,
+        "unobserved_pairs": 5676
+      },
+      {
+        "key": "x10056_y9024_z3540",
+        "missing_edge_ap": 0.4803835214239839,
+        "missing_positives": 5,
+        "unobserved_pairs": 28690
+      },
+      {
+        "key": "x10176_y8978_z3697",
+        "missing_edge_ap": 0.7666666666666666,
+        "missing_positives": 3,
+        "unobserved_pairs": 1544
+      },
+      {
+        "key": "x10288_y7864_z3540",
+        "missing_edge_ap": 0.7928571428571428,
+        "missing_positives": 4,
+        "unobserved_pairs": 3008
+      },
+      {
+        "key": "x10288_y7864_z3772",
+        "missing_edge_ap": 0.2844846607406416,
+        "missing_positives": 9,
+        "unobserved_pairs": 19514
+      },
+      {
+        "key": "x10288_y8096_z3540",
+        "missing_edge_ap": 0.3680051424137102,
+        "missing_positives": 8,
+        "unobserved_pairs": 25891
+      },
+      {
+        "key": "x10288_y8328_z3540",
+        "missing_edge_ap": 0.49254385964912284,
+        "missing_positives": 4,
+        "unobserved_pairs": 5783
+      },
+      {
+        "key": "x10288_y8560_z3540",
+        "missing_edge_ap": 0.42781434126104534,
+        "missing_positives": 12,
+        "unobserved_pairs": 37692
+      },
+      {
+        "key": "x10288_y8560_z3772",
+        "missing_edge_ap": 0.5094827586206896,
+        "missing_positives": 4,
+        "unobserved_pairs": 8391
+      },
+      {
+        "key": "x10288_y8792_z3540",
+        "missing_edge_ap": 0.49393133575825887,
+        "missing_positives": 13,
+        "unobserved_pairs": 93116
+      },
+      {
+        "key": "x10288_y9024_z3540",
+        "missing_edge_ap": 0.325,
+        "missing_positives": 2,
+        "unobserved_pairs": 1656
+      },
+      {
+        "key": "x10520_y7632_z3540",
+        "missing_edge_ap": 0.05,
+        "missing_positives": 1,
+        "unobserved_pairs": 1379
+      },
+      {
+        "key": "x8085_y9439_z3925",
+        "missing_edge_ap": 0.6666666666666667,
+        "missing_positives": 3,
+        "unobserved_pairs": 3659
+      },
+      {
+        "key": "x8158_y9151_z4137",
+        "missing_edge_ap": 0.33730158730158727,
+        "missing_positives": 3,
+        "unobserved_pairs": 28925
+      },
+      {
+        "key": "x8317_y10135_z3925",
+        "missing_edge_ap": 0.44047619047619047,
+        "missing_positives": 4,
+        "unobserved_pairs": 4566
+      },
+      {
+        "key": "x8317_y10135_z4157",
+        "missing_edge_ap": 0.7555555555555555,
+        "missing_positives": 3,
+        "unobserved_pairs": 3659
+      },
+      {
+        "key": "x8317_y9671_z3925",
+        "missing_edge_ap": 0.30801424387368365,
+        "missing_positives": 8,
+        "unobserved_pairs": 36055
+      },
+      {
+        "key": "x8317_y9903_z3925",
+        "missing_edge_ap": 0.43273361976369495,
+        "missing_positives": 7,
+        "unobserved_pairs": 22589
+      },
+      {
+        "key": "x8320_y10138_z3697",
+        "missing_edge_ap": 0.36547619047619045,
+        "missing_positives": 4,
+        "unobserved_pairs": 3008
+      },
+      {
+        "key": "x8320_y10138_z3929",
+        "missing_edge_ap": 0.8333333333333333,
+        "missing_positives": 3,
+        "unobserved_pairs": 6111
+      },
+      {
+        "key": "x8390_y10079_z3905",
+        "missing_edge_ap": 1.0,
+        "missing_positives": 1,
+        "unobserved_pairs": 12093
+      },
+      {
+        "key": "x8390_y9383_z3905",
+        "missing_edge_ap": 0.41666666666666663,
+        "missing_positives": 2,
+        "unobserved_pairs": 2559
+      },
+      {
+        "key": "x8549_y9439_z3693",
+        "missing_edge_ap": 0.16666666666666666,
+        "missing_positives": 1,
+        "unobserved_pairs": 821
+      },
+      {
+        "key": "x8622_y10079_z3673",
+        "missing_edge_ap": 0.6262391573729864,
+        "missing_positives": 7,
+        "unobserved_pairs": 67542
+      },
+      {
+        "key": "x8622_y10079_z3905",
+        "missing_edge_ap": 0.7333333333333334,
+        "missing_positives": 3,
+        "unobserved_pairs": 46980
+      },
+      {
+        "key": "x8622_y10079_z4137",
+        "missing_edge_ap": 0.5509090909090909,
+        "missing_positives": 5,
+        "unobserved_pairs": 53312
+      },
+      {
+        "key": "x8622_y10311_z3673",
+        "missing_edge_ap": 0.421031746031746,
+        "missing_positives": 5,
+        "unobserved_pairs": 44860
+      },
+      {
+        "key": "x8622_y9615_z3905",
+        "missing_edge_ap": 0.3602564102564102,
+        "missing_positives": 5,
+        "unobserved_pairs": 19117
+      },
+      {
+        "key": "x8622_y9847_z3673",
+        "missing_edge_ap": 0.3333333333333333,
+        "missing_positives": 2,
+        "unobserved_pairs": 5359
+      },
+      {
+        "key": "x8622_y9847_z3905",
+        "missing_edge_ap": 0.4833333333333334,
+        "missing_positives": 5,
+        "unobserved_pairs": 28688
+      },
+      {
+        "key": "x8781_y9439_z3693",
+        "missing_edge_ap": 0.6875,
+        "missing_positives": 3,
+        "unobserved_pairs": 11181
+      },
+      {
+        "key": "x8784_y9442_z3697",
+        "missing_edge_ap": 0.3666666666666667,
+        "missing_positives": 2,
+        "unobserved_pairs": 1599
+      },
+      {
+        "key": "x8784_y9674_z3697",
+        "missing_edge_ap": 0.37797619047619047,
+        "missing_positives": 4,
+        "unobserved_pairs": 1383
+      },
+      {
+        "key": "x8854_y9615_z3905",
+        "missing_edge_ap": 0.7222222222222222,
+        "missing_positives": 3,
+        "unobserved_pairs": 4375
+      },
+      {
+        "key": "x9016_y9210_z3697",
+        "missing_edge_ap": 1.0,
+        "missing_positives": 5,
+        "unobserved_pairs": 9053
+      },
+      {
+        "key": "x9016_y9442_z3697",
+        "missing_edge_ap": 0.9166666666666666,
+        "missing_positives": 3,
+        "unobserved_pairs": 4378
+      },
+      {
+        "key": "x9086_y10079_z3441",
+        "missing_edge_ap": 0.4444444444444444,
+        "missing_positives": 4,
+        "unobserved_pairs": 21537
+      },
+      {
+        "key": "x9086_y9847_z3441",
+        "missing_edge_ap": 0.5093939393939393,
+        "missing_positives": 5,
+        "unobserved_pairs": 16298
+      },
+      {
+        "key": "x9086_y9847_z3673",
+        "missing_edge_ap": 0.5212765957446809,
+        "missing_positives": 2,
+        "unobserved_pairs": 8389
+      },
+      {
+        "key": "x9248_y9442_z3697",
+        "missing_edge_ap": 1.0,
+        "missing_positives": 3,
+        "unobserved_pairs": 3244
+      },
+      {
+        "key": "x9318_y10079_z3441",
+        "missing_edge_ap": 0.5404761904761904,
+        "missing_positives": 4,
+        "unobserved_pairs": 16478
+      },
+      {
+        "key": "x9318_y10311_z3441",
+        "missing_edge_ap": 0.5903221985311538,
+        "missing_positives": 7,
+        "unobserved_pairs": 146087
+      },
+      {
+        "key": "x9318_y9847_z3441",
+        "missing_edge_ap": 0.2889495994364908,
+        "missing_positives": 9,
+        "unobserved_pairs": 35791
+      },
+      {
+        "key": "x9480_y8978_z3697",
+        "missing_edge_ap": 0.6984126984126984,
+        "missing_positives": 3,
+        "unobserved_pairs": 2781
+      },
+      {
+        "key": "x9480_y9210_z3697",
+        "missing_edge_ap": 0.47478518521843294,
+        "missing_positives": 10,
+        "unobserved_pairs": 24108
+      },
+      {
+        "key": "x9712_y8978_z3929",
+        "missing_edge_ap": 0.7611111111111111,
+        "missing_positives": 4,
+        "unobserved_pairs": 6910
+      },
+      {
+        "key": "x9712_y9210_z3697",
+        "missing_edge_ap": 0.4888278388278388,
+        "missing_positives": 6,
+        "unobserved_pairs": 14890
+      },
+      {
+        "key": "x9824_y7864_z3772",
+        "missing_edge_ap": 1.0,
+        "missing_positives": 2,
+        "unobserved_pairs": 1894
+      },
+      {
+        "key": "x9824_y8328_z3540",
+        "missing_edge_ap": 1.0,
+        "missing_positives": 2,
+        "unobserved_pairs": 6444
+      },
+      {
+        "key": "x9824_y8560_z3540",
+        "missing_edge_ap": 0.8095238095238095,
+        "missing_positives": 3,
+        "unobserved_pairs": 4661
+      },
+      {
+        "key": "x9824_y8792_z3540",
+        "missing_edge_ap": 0.9166666666666665,
+        "missing_positives": 3,
+        "unobserved_pairs": 3491
+      },
+      {
+        "key": "x9824_y8792_z3772",
+        "missing_edge_ap": 0.44047619047619047,
+        "missing_positives": 4,
+        "unobserved_pairs": 2420
+      },
+      {
+        "key": "x9824_y9024_z3540",
+        "missing_edge_ap": 0.7032312925170068,
+        "missing_positives": 7,
+        "unobserved_pairs": 21332
+      },
+      {
+        "key": "x9824_y9024_z3772",
+        "missing_edge_ap": 0.75,
+        "missing_positives": 2,
+        "unobserved_pairs": 865
+      },
+      {
+        "key": "x9944_y8514_z3697",
+        "missing_edge_ap": 0.7,
+        "missing_positives": 3,
+        "unobserved_pairs": 4101
+      },
+      {
+        "key": "x9944_y8746_z3697",
+        "missing_edge_ap": 0.3986280495104024,
+        "missing_positives": 9,
+        "unobserved_pairs": 9197
+      },
+      {
+        "key": "x9944_y8978_z3697",
+        "missing_edge_ap": 0.4571428571428572,
+        "missing_positives": 4,
+        "unobserved_pairs": 6564
+      },
+      {
+        "key": "x10014_y8687_z3673",
+        "missing_edge_ap": 0.6682342430149448,
+        "missing_positives": 9,
+        "unobserved_pairs": 78225
+      },
+      {
+        "key": "x10014_y8919_z3673",
+        "missing_edge_ap": 0.6000000000000001,
+        "missing_positives": 5,
+        "unobserved_pairs": 36324
+      },
+      {
+        "key": "x9782_y9151_z3673",
+        "missing_edge_ap": 0.44698412698412693,
+        "missing_positives": 5,
+        "unobserved_pairs": 6677
+      }
+    ],
+    "universe": "all unobserved unordered node pairs",
+    "independent_check": true
+  },
+  "epochs": 80,
+  "steps": 12480,
+  "seconds": 7308.221342563629,
+  "peak_gpu_bytes": 3169276928,
+  "final_sha256": "0f7fb79ee08c493150b7ef3f4bced1c1bab43e2b1a22ca06cc99b7211514ae6d",
+  "active_gradient_parameters": [
+    "graph.0.bias",
+    "graph.0.weight",
+    "graph.2.bias",
+    "graph.2.weight",
+    "head.0.bias",
+    "head.0.weight",
+    "head.2.bias",
+    "head.2.weight",
+    "joint.0.bias",
+    "joint.0.weight",
+    "joint.2.bias",
+    "joint.2.weight",
+    "native_point.encoder.embedding.stem.linear.bias",
+    "native_point.encoder.embedding.stem.linear.weight",
+    "native_point.encoder.embedding.stem.norm.bias",
+    "native_point.encoder.embedding.stem.norm.weight",
+    "native_point.encoder.enc.enc0.block0.module.attn.proj.bias",
+    "native_point.encoder.enc.enc0.block0.module.attn.proj.weight",
+    "native_point.encoder.enc.enc0.block0.module.attn.qkv.bias",
+    "native_point.encoder.enc.enc0.block0.module.attn.qkv.weight",
+    "native_point.encoder.enc.enc0.block0.module.cpe.0.bias",
+    "native_point.encoder.enc.enc0.block0.module.cpe.0.weight",
+    "native_point.encoder.enc.enc0.block0.module.cpe.1.bias",
+    "native_point.encoder.enc.enc0.block0.module.cpe.1.weight",
+    "native_point.encoder.enc.enc0.block0.module.cpe.2.bias",
+    "native_point.encoder.enc.enc0.block0.module.cpe.2.weight",
+    "native_point.encoder.enc.enc0.block0.module.mlp.0.fc1.bias",
+    "native_point.encoder.enc.enc0.block0.module.mlp.0.fc1.weight",
+    "native_point.encoder.enc.enc0.block0.module.mlp.0.fc2.bias",
+    "native_point.encoder.enc.enc0.block0.module.mlp.0.fc2.weight",
+    "native_point.encoder.enc.enc0.block0.module.norm1.0.bias",
+    "native_point.encoder.enc.enc0.block0.module.norm1.0.weight",
+    "native_point.encoder.enc.enc0.block0.module.norm2.0.bias",
+    "native_point.encoder.enc.enc0.block0.module.norm2.0.weight",
+    "native_point.encoder.enc.enc1.block0.module.attn.proj.bias",
+    "native_point.encoder.enc.enc1.block0.module.attn.proj.weight",
+    "native_point.encoder.enc.enc1.block0.module.attn.qkv.bias",
+    "native_point.encoder.enc.enc1.block0.module.attn.qkv.weight",
+    "native_point.encoder.enc.enc1.block0.module.cpe.0.bias",
+    "native_point.encoder.enc.enc1.block0.module.cpe.0.weight",
+    "native_point.encoder.enc.enc1.block0.module.cpe.1.bias",
+    "native_point.encoder.enc.enc1.block0.module.cpe.1.weight",
+    "native_point.encoder.enc.enc1.block0.module.cpe.2.bias",
+    "native_point.encoder.enc.enc1.block0.module.cpe.2.weight",
+    "native_point.encoder.enc.enc1.block0.module.mlp.0.fc1.bias",
+    "native_point.encoder.enc.enc1.block0.module.mlp.0.fc1.weight",
+    "native_point.encoder.enc.enc1.block0.module.mlp.0.fc2.bias",
+    "native_point.encoder.enc.enc1.block0.module.mlp.0.fc2.weight",
+    "native_point.encoder.enc.enc1.block0.module.norm1.0.bias",
+    "native_point.encoder.enc.enc1.block0.module.norm1.0.weight",
+    "native_point.encoder.enc.enc1.block0.module.norm2.0.bias",
+    "native_point.encoder.enc.enc1.block0.module.norm2.0.weight",
+    "native_point.encoder.enc.enc1.down.norm.0.bias",
+    "native_point.encoder.enc.enc1.down.norm.0.weight",
+    "native_point.encoder.enc.enc1.down.proj.bias",
+    "native_point.encoder.enc.enc1.down.proj.weight",
+    "native_point.encoder.enc.enc2.block0.module.attn.proj.bias",
+    "native_point.encoder.enc.enc2.block0.module.attn.proj.weight",
+    "native_point.encoder.enc.enc2.block0.module.attn.qkv.bias",
+    "native_point.encoder.enc.enc2.block0.module.attn.qkv.weight",
+    "native_point.encoder.enc.enc2.block0.module.cpe.0.bias",
+    "native_point.encoder.enc.enc2.block0.module.cpe.0.weight",
+    "native_point.encoder.enc.enc2.block0.module.cpe.1.bias",
+    "native_point.encoder.enc.enc2.block0.module.cpe.1.weight",
+    "native_point.encoder.enc.enc2.block0.module.cpe.2.bias",
+    "native_point.encoder.enc.enc2.block0.module.cpe.2.weight",
+    "native_point.encoder.enc.enc2.block0.module.mlp.0.fc1.bias",
+    "native_point.encoder.enc.enc2.block0.module.mlp.0.fc1.weight",
+    "native_point.encoder.enc.enc2.block0.module.mlp.0.fc2.bias",
+    "native_point.encoder.enc.enc2.block0.module.mlp.0.fc2.weight",
+    "native_point.encoder.enc.enc2.block0.module.norm1.0.bias",
+    "native_point.encoder.enc.enc2.block0.module.norm1.0.weight",
+    "native_point.encoder.enc.enc2.block0.module.norm2.0.bias",
+    "native_point.encoder.enc.enc2.block0.module.norm2.0.weight",
+    "native_point.encoder.enc.enc2.block1.module.attn.proj.bias",
+    "native_point.encoder.enc.enc2.block1.module.attn.proj.weight",
+    "native_point.encoder.enc.enc2.block1.module.attn.qkv.bias",
+    "native_point.encoder.enc.enc2.block1.module.attn.qkv.weight",
+    "native_point.encoder.enc.enc2.block1.module.cpe.0.bias",
+    "native_point.encoder.enc.enc2.block1.module.cpe.0.weight",
+    "native_point.encoder.enc.enc2.block1.module.cpe.1.bias",
+    "native_point.encoder.enc.enc2.block1.module.cpe.1.weight",
+    "native_point.encoder.enc.enc2.block1.module.cpe.2.bias",
+    "native_point.encoder.enc.enc2.block1.module.cpe.2.weight",
+    "native_point.encoder.enc.enc2.block1.module.mlp.0.fc1.bias",
+    "native_point.encoder.enc.enc2.block1.module.mlp.0.fc1.weight",
+    "native_point.encoder.enc.enc2.block1.module.mlp.0.fc2.bias",
+    "native_point.encoder.enc.enc2.block1.module.mlp.0.fc2.weight",
+    "native_point.encoder.enc.enc2.block1.module.norm1.0.bias",
+    "native_point.encoder.enc.enc2.block1.module.norm1.0.weight",
+    "native_point.encoder.enc.enc2.block1.module.norm2.0.bias",
+    "native_point.encoder.enc.enc2.block1.module.norm2.0.weight",
+    "native_point.encoder.enc.enc2.down.norm.0.bias",
+    "native_point.encoder.enc.enc2.down.norm.0.weight",
+    "native_point.encoder.enc.enc2.down.proj.bias",
+    "native_point.encoder.enc.enc2.down.proj.weight",
+    "native_point.proj.bias",
+    "native_point.proj.weight",
+    "patch.0.bias",
+    "patch.0.weight",
+    "patch.2.bias",
+    "patch.2.weight",
+    "path_position.0.bias",
+    "path_position.0.weight",
+    "path_position.2.bias",
+    "path_position.2.weight",
+    "point.0.bias",
+    "point.0.weight",
+    "point.2.bias",
+    "point.2.weight",
+    "position.0.bias",
+    "position.0.weight",
+    "position.2.bias",
+    "position.2.weight",
+    "processor.cnorm.bias",
+    "processor.cnorm.weight",
+    "processor.context.bias",
+    "processor.context.weight",
+    "processor.ff.0.bias",
+    "processor.ff.0.weight",
+    "processor.ff.2.bias",
+    "processor.ff.2.weight",
+    "processor.message.0.bias",
+    "processor.message.0.weight",
+    "processor.message.2.bias",
+    "processor.message.2.weight",
+    "processor.norm.bias",
+    "processor.norm.weight",
+    "processor.qkv.bias",
+    "processor.qkv.weight",
+    "processor.update.0.bias",
+    "processor.update.0.weight",
+    "processor.update.2.bias",
+    "processor.update.2.weight",
+    "raw_refine.local.attn_local.0.bias",
+    "raw_refine.local.attn_local.0.weight",
+    "raw_refine.local.convs.0.0.bias",
+    "raw_refine.local.convs.0.0.weight",
+    "raw_refine.local.convs.1.0.bias",
+    "raw_refine.local.convs.1.0.weight",
+    "raw_refine.local.ffn.0.0.bias",
+    "raw_refine.local.ffn.0.0.weight",
+    "raw_refine.output.weight",
+    "readout.0.bias",
+    "readout.0.weight",
+    "readout.2.bias",
+    "readout.2.weight",
+    "relation.0.bias",
+    "relation.0.weight",
+    "relation.2.bias",
+    "relation.2.weight",
+    "scale.0.bias",
+    "scale.0.weight",
+    "scale.2.bias",
+    "scale.2.weight"
+  ],
+  "unique_train_samples_seen": 156,
+  "test_used": false
+}

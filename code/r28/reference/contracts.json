@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "protocol_sha256": "1daddf31b92efd7abb57b3047349bff0f4d71ebe3a908a27951fe553949edde7",
+  "checks": {
+    "h01_local": {
+      "parent_control_exact_two_updates": true,
+      "candidate_independent_replays_exact": true,
+      "same_initial_core_and_sample_order": true
+    },
+    "h01_global": {
+      "parent_control_exact_two_updates": true,
+      "candidate_independent_replays_exact": true,
+      "same_initial_core_and_sample_order": true
+    }
+  },
+  "acceptance_reports": {
+    "h01_local": "a9da9c829a8d7ebb9e3f496fa46d1959981d41f576e6298d6bbe216a1b8af1cb",
+    "h01_global": "d14104ce510adb559ea729679c1971156d27097bd2461da141b4e0236652acfc"
+  },
+  "test_used": false
+}

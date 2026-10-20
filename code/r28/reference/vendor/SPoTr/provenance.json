@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/mlvlab/SPoTr",
+  "commit": "69ea023d3781372df80e23326ef56b58a9b60cd6",
+  "license": "MIT",
+  "files": {
+    "LICENSE": "33c2088d8645da2de0aaca497cf6f12ffba6ac11e1ba52aa0d7451283b6a633b",
+    "README.md": "5b975348d7bd2a33cd8c45d99181c3dec6adbab4545e52753396cf152626db87",
+    "openpoints/models/layers/norm.py": "080defe834a9f4c90700987a66a6c0351f5248a020205ce2552e5910542af463",
+    "openpoints/models/layers/activation.py": "246a85ff9e13ab216e607124bdf9264d2d2f9892f5e35db7d15d7695c1d4d817",
+    "openpoints/models/layers/conv.py": "eadd5c38d77ea1a1c19b16e040faa13e52ef0089f783f0c39d06a9df75999eaa",
+    "openpoints/models/backbone/spotr.py": "811867e5a23a21595883229b4b487051753ae1a9f96c5c77bcd0b4985b66d23b"
+  },
+  "weights_downloaded": false
+}

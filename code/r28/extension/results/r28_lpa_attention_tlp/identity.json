@@ -1,0 +1,15 @@
+{
+  "version": "CPSF_R28_TASK_EXPANSION_20261020_A2",
+  "architecture_version": "CPSF_RAW_POINT_ATTENTION_20261019_R28_A1",
+  "task": "tlp",
+  "kind": "r28_lpa_attention",
+  "seed": 42,
+  "protocol_sha256": "40407ca1459fd5e05f6515f802c60ff5a3d385ffda64555e5de9a917fea10407",
+  "manifest_sha256": "58ce588f82d0be96bb93d78275b7a5794ea28255e99d71946e1e7420f28cb3db",
+  "initial_state_sha256": "e9c8e4329f94238b1e2049fe82ce6a1bb79f9cd2107c816496088325b695a1ce",
+  "pretrained": false,
+  "test_used": false,
+  "selection": "fixed final epoch",
+  "adapter": "Identical R28 SPoTr raw-point refinement and R9 Utonia RMS0.1 on inherited Fly six-class, TED query-node, TLP directional XYZ and corridor-pair heads; scratch independent training per task. H01 byte-exact two-update acceptance. TLP LPAMLP geometry uses original within-patch XYZ while point content keeps inherited directional XYZ.",
+  "runtime_policy_sha256": "7b19e46ed2dc9a0b7189831c1d50e88018dce6b6dcc0cb4afb73b6616913bcd0"
+}

@@ -1,0 +1,105 @@
+{
+  "architecture_version": "CPSF_RAW_POINT_ATTENTION_20261019_R28_A1",
+  "checked_utc": "2026-10-20T01:41:31.249893+00:00",
+  "seed": 42,
+  "test_used": false,
+  "pretrained": false,
+  "evaluation": "fixed final epoch development validation; independent scratch training per task",
+  "records": [
+    {
+      "task": "h01_local",
+      "primary_metric": "macro_f1",
+      "value": 0.6638936372269706,
+      "status": "completed",
+      "architecture_version": "CPSF_RAW_POINT_ATTENTION_20261019_R28_A1",
+      "execution_version": "CPSF_RAW_POINT_ATTENTION_20261019_R28_A1",
+      "run_kind": "r9_lpa_attention",
+      "progress": {
+        "epochs": 25,
+        "steps": 2250
+      },
+      "metrics_path": "reference/results/r9_lpa_attention_h01_local/metrics.json",
+      "final_sha256": "fe0634ebec3b3a3b07adce8349347d72d3d50b06fcb4ea147e201dca552464c7",
+      "checked_utc": "2026-10-20T01:41:31.249893+00:00"
+    },
+    {
+      "task": "h01_global",
+      "primary_metric": "mae",
+      "value": 0.048890942707657814,
+      "status": "completed",
+      "architecture_version": "CPSF_RAW_POINT_ATTENTION_20261019_R28_A1",
+      "execution_version": "CPSF_RAW_POINT_ATTENTION_20261019_R28_A1",
+      "run_kind": "r9_lpa_attention",
+      "progress": {
+        "epochs": 50,
+        "steps": 1000
+      },
+      "metrics_path": "reference/results/r9_lpa_attention_h01_global/metrics.json",
+      "final_sha256": "7276f4d77b47c5ce60051573b799c50ba1b2d207746447644f4634a7d16fa29b",
+      "checked_utc": "2026-10-20T01:41:31.249893+00:00"
+    },
+    {
+      "task": "flywire_coarse",
+      "primary_metric": "macro_f1",
+      "value": null,
+      "status": "training",
+      "architecture_version": "CPSF_RAW_POINT_ATTENTION_20261019_R28_A1",
+      "execution_version": "CPSF_R28_TASK_EXPANSION_20261020_A2",
+      "run_kind": "r28_lpa_attention",
+      "progress": {
+        "state": "training",
+        "epoch": 17,
+        "epochs": 50,
+        "processed": 108,
+        "total": 4975,
+        "steps": 19931,
+        "elapsed_seconds": 31185.259789466858,
+        "peak_gpu_bytes": 7087155712
+      },
+      "metrics_path": null,
+      "final_sha256": null,
+      "checked_utc": "2026-10-20T01:41:31.249893+00:00"
+    },
+    {
+      "task": "ted",
+      "primary_metric": "f1",
+      "value": null,
+      "status": "training",
+      "architecture_version": "CPSF_RAW_POINT_ATTENTION_20261019_R28_A1",
+      "execution_version": "CPSF_R28_TASK_EXPANSION_20261020_A2",
+      "run_kind": "r28_lpa_attention",
+      "progress": {
+        "state": "training",
+        "epoch": 10,
+        "epochs": 30,
+        "processed": 10624,
+        "total": 23967,
+        "steps": 3541,
+        "elapsed_seconds": 31176.2635345459,
+        "peak_gpu_bytes": 149345792
+      },
+      "metrics_path": null,
+      "final_sha256": null,
+      "checked_utc": "2026-10-20T01:41:31.249893+00:00"
+    },
+    {
+      "task": "tlp",
+      "primary_metric": "missing_edge_macro_ap",
+      "value": 0.5697102714165798,
+      "status": "completed",
+      "architecture_version": "CPSF_RAW_POINT_ATTENTION_20261019_R28_A1",
+      "execution_version": "CPSF_R28_TASK_EXPANSION_20261020_A2",
+      "run_kind": "r28_lpa_attention",
+      "progress": {
+        "epochs": 80,
+        "steps": 12480
+      },
+      "metrics_path": "extension/results/r28_lpa_attention_tlp/metrics.json",
+      "final_sha256": "0f7fb79ee08c493150b7ef3f4bced1c1bab43e2b1a22ca06cc99b7211514ae6d",
+      "checked_utc": "2026-10-20T01:41:31.249893+00:00"
+    }
+  ],
+  "retained_reference": true,
+  "same_architecture_different_task_heads": true,
+  "not_shared_trained_weights": true
+}

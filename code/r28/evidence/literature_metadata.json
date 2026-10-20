@@ -1,0 +1,51 @@
+[
+  {
+    "key": "utonia",
+    "url": "https://raw.githubusercontent.com/Pointcept/Utonia/da776a0bd3a48c6df83ac2ae0e27b26141cc7e31/README.md",
+    "title": "Utonia: Toward One Encoder for All Point Clouds",
+    "bytes": 12611,
+    "ok": true
+  },
+  {
+    "key": "spotr",
+    "url": "https://openaccess.thecvf.com/content/CVPR2023/html/Park_Self-Positioning_Point-Based_Transformer_for_Point_Cloud_Understanding_CVPR_2023_paper.html",
+    "title": "Self-Positioning Point-Based Transformer for Point Cloud Understanding",
+    "bytes": 6634,
+    "ok": true
+  },
+  {
+    "key": "internvl15",
+    "url": "https://arxiv.org/abs/2404.16821",
+    "title": "How Far Are We to GPT-4V? Closing the Gap to Commercial Multimodal Models with Open-Source Suites",
+    "bytes": 46868,
+    "ok": true
+  },
+  {
+    "key": "deepsets",
+    "url": "https://arxiv.org/abs/1703.06114",
+    "title": "Deep Sets",
+    "bytes": 43590,
+    "ok": true
+  },
+  {
+    "key": "roformer",
+    "url": "https://arxiv.org/abs/2104.09864",
+    "title": "RoFormer: Enhanced Transformer with Rotary Position Embedding",
+    "bytes": 43899,
+    "ok": true
+  },
+  {
+    "key": "mpnn",
+    "url": "https://proceedings.mlr.press/v70/gilmer17a.html",
+    "title": "Neural Message Passing for Quantum Chemistry",
+    "bytes": 15221,
+    "ok": true
+  },
+  {
+    "key": "geotransformer",
+    "url": "https://openaccess.thecvf.com/content/CVPR2022/html/Qin_Geometric_Transformer_for_Fast_and_Robust_Point_Cloud_Registration_CVPR_2022_paper.html",
+    "title": "Geometric Transformer for Fast and Robust Point Cloud Registration",
+    "bytes": 6319,
+    "ok": true
+  }
+]

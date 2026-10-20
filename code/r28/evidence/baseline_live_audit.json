@@ -1,0 +1,363 @@
+{
+  "utc": "2026-10-20T01:48:29.148912+00:00",
+  "records": [
+    {
+      "model": "sgformer",
+      "task": "h01_local",
+      "value": 0.486490085483374,
+      "metrics_path": "/root/megrez-tmp/CPSF_EXTERNAL_BASELINES_PHASE3_20261012/results/sgformer_h01_local/metrics.json",
+      "metric_json_paths": [
+        "/val/macro_f1"
+      ],
+      "checkpoint_path": "/root/megrez-tmp/CPSF_EXTERNAL_BASELINES_PHASE3_20261012/results/sgformer_h01_local/final.pt",
+      "metrics_sha256": "4080edf59416d8b7fcf78c284fd05e86e9d905850d6a83b0a9015063d7b638e0",
+      "final_sha256": "edbf75a7eb22b1b23bed488ea9b5812ac9d1a130de072f2e604d9e40805c0020",
+      "unchanged_from_audited_baseline": true
+    },
+    {
+      "model": "sgformer",
+      "task": "h01_global",
+      "value": 0.05845901866753896,
+      "metrics_path": "/root/megrez-tmp/CPSF_EXTERNAL_BASELINES_PHASE3_20261012/results/sgformer_h01_global/metrics.json",
+      "metric_json_paths": [
+        "/val/mae"
+      ],
+      "checkpoint_path": "/root/megrez-tmp/CPSF_EXTERNAL_BASELINES_PHASE3_20261012/results/sgformer_h01_global/final.pt",
+      "metrics_sha256": "fb961a370e6a9f30b7af35fc99b4730710ec3883e33d44da4fc855addbb85722",
+      "final_sha256": "d84282ab47148e54655a7303511d2eab1695eae575d727aa455dce09ba7aa638",
+      "unchanged_from_audited_baseline": true
+    },
+    {
+      "model": "sgformer",
+      "task": "flywire_coarse",
+      "value": 0.6528936423332604,
+      "metrics_path": "/root/megrez-tmp/CPSF_EXTERNAL_BASELINES_PHASE3_20261012/results/sgformer_flywire_coarse/metrics.json",
+      "metric_json_paths": [
+        "/val/macro_f1"
+      ],
+      "checkpoint_path": "/root/megrez-tmp/CPSF_EXTERNAL_BASELINES_PHASE3_20261012/results/sgformer_flywire_coarse/final.pt",
+      "metrics_sha256": "dfae80ec20631c664d00921b3eacee0045a3b89875cacd348d37606c949c3962",
+      "final_sha256": "3f3a8398720b1a67a8b342da138b1cf97e4d9d26f4f56df1ba8f0658d6af5d67",
+      "unchanged_from_audited_baseline": true
+    },
+    {
+      "model": "polynormer",
+      "task": "h01_local",
+      "value": 0.5322907533242368,
+      "metrics_path": "/root/megrez-tmp/CPSF_EXTERNAL_BASELINES_PHASE3_20261012/results/polynormer_h01_local/metrics.json",
+      "metric_json_paths": [
+        "/val/macro_f1"
+      ],
+      "checkpoint_path": "/root/megrez-tmp/CPSF_EXTERNAL_BASELINES_PHASE3_20261012/results/polynormer_h01_local/final.pt",
+      "metrics_sha256": "d554b1964c9c431decc53e032fdcfdfab5d9c60c323cb8507cdddd6cfb35feb7",
+      "final_sha256": "82fd61e8aceb42683b5d02748b9c87ddcbdac854546707b38bfbdf0665d38a92",
+      "unchanged_from_audited_baseline": true
+    },
+    {
+      "model": "polynormer",
+      "task": "h01_global",
+      "value": 0.11994294698039691,
+      "metrics_path": "/root/megrez-tmp/CPSF_EXTERNAL_BASELINES_PHASE3_20261012/results/polynormer_h01_global/metrics.json",
+      "metric_json_paths": [
+        "/val/mae"
+      ],
+      "checkpoint_path": "/root/megrez-tmp/CPSF_EXTERNAL_BASELINES_PHASE3_20261012/results/polynormer_h01_global/final.pt",
+      "metrics_sha256": "4d342d7e8ecca03187677c0aa144f7779d000eaade1332f4d87598ca61e3aa3a",
+      "final_sha256": "529bee1db5938fbc776fa1b70fcebb0bc184e4ff50202617018d0986b532a489",
+      "unchanged_from_audited_baseline": true
+    },
+    {
+      "model": "polynormer",
+      "task": "flywire_coarse",
+      "value": 0.7616034116735914,
+      "metrics_path": "/root/megrez-tmp/CPSF_EXTERNAL_BASELINES_PHASE3_20261012/results/polynormer_flywire_coarse/metrics.json",
+      "metric_json_paths": [
+        "/val/macro_f1"
+      ],
+      "checkpoint_path": "/root/megrez-tmp/CPSF_EXTERNAL_BASELINES_PHASE3_20261012/results/polynormer_flywire_coarse/final.pt",
+      "metrics_sha256": "c78bfd7ab11c604927f08870be5c31b0eda9a1f2a7154596286df922a19ab222",
+      "final_sha256": "9dd4124db813a48612f2af9da5ab7718cb1d22c341c04b6f4cd02e89045e8edf",
+      "unchanged_from_audited_baseline": true
+    },
+    {
+      "model": "ptv3",
+      "task": "h01_local",
+      "value": 0.5875137138265372,
+      "metrics_path": "/root/megrez-tmp/CPSF_H01_BASELINE_BN_AUDIT_20261011/run3/ptv3_h01_local/results.json",
+      "metric_json_paths": [
+        "/metrics/cell_bn_val/macro_f1",
+        "/metrics/cell_bn_val_reverse/macro_f1"
+      ],
+      "checkpoint_path": "/root/megrez-tmp/CPSF_EXTERNAL_BASELINES_20261010/results/ptv3_h01_local/final.pt",
+      "metrics_sha256": "15390793082037efe33bb7c2599897919b4796cdf6d69321924cb1abd1f58bf9",
+      "final_sha256": "382d800a72bdcc9da58be8d4987b80feeb750fc69962b72e34f5db8294fab662",
+      "unchanged_from_audited_baseline": true
+    },
+    {
+      "model": "ptv3",
+      "task": "h01_global",
+      "value": 0.07031776942312717,
+      "metrics_path": "/root/megrez-tmp/CPSF_H01_BASELINE_BN_AUDIT_20261011/run3/ptv3_h01_global/results.json",
+      "metric_json_paths": [
+        "/metrics/cell_bn_val/mae",
+        "/metrics/cell_bn_val_reverse/mae"
+      ],
+      "checkpoint_path": "/root/megrez-tmp/CPSF_EXTERNAL_BASELINES_20261010/results/ptv3_h01_global/final.pt",
+      "metrics_sha256": "070509cf2415d5179c9443fbea7f8170be8a3b94fb0c15d5c6999acc0bf35e0d",
+      "final_sha256": "e6ad7a39bac40ab874b7262030dbe6645d3c9b357ca7d70044103ec6231d9789",
+      "unchanged_from_audited_baseline": true
+    },
+    {
+      "model": "ptv3",
+      "task": "flywire_coarse",
+      "value": 0.5840031634788542,
+      "metrics_path": "/root/megrez-tmp/CPSF_FLYWIRE_BN_COMPLETION_20261014/run1/ptv3/results.json",
+      "metric_json_paths": [
+        "/cell_bn_val/macro_f1"
+      ],
+      "checkpoint_path": "/root/megrez-tmp/CPSF_EXTERNAL_BASELINES_PHASE2_20261010/results/ptv3_flywire_coarse/final.pt",
+      "metrics_sha256": "f311ecf855d08ec8c3d69aa13c3aa456c4f3b2ecafc29e4934b0ccee6d99e6ce",
+      "final_sha256": "8d68d41d634bdd32aa058685cc421039dbe79219302711e329b0d06a01eb9161",
+      "unchanged_from_audited_baseline": true
+    },
+    {
+      "model": "litept",
+      "task": "h01_local",
+      "value": 0.6348390131693938,
+      "metrics_path": "/root/megrez-tmp/CPSF_H01_BASELINE_BN_AUDIT_20261011/run3/litept_h01_local/results.json",
+      "metric_json_paths": [
+        "/metrics/cell_bn_val/macro_f1",
+        "/metrics/cell_bn_val_reverse/macro_f1"
+      ],
+      "checkpoint_path": "/root/megrez-tmp/CPSF_EXTERNAL_BASELINES_PHASE2_20261010/results/litept_h01_local/final.pt",
+      "metrics_sha256": "c91e21386abd79b1fdaa92c2e84aec21c415de13f1f5766b3dc59a7afcdba405",
+      "final_sha256": "dddc2bb1dd735221e686eda79d14bc28f634cbcb961d828884097c679d9b7e84",
+      "unchanged_from_audited_baseline": true
+    },
+    {
+      "model": "litept",
+      "task": "h01_global",
+      "value": 0.08282513916492462,
+      "metrics_path": "/root/megrez-tmp/CPSF_H01_BASELINE_BN_AUDIT_20261011/run3/litept_h01_global/results.json",
+      "metric_json_paths": [
+        "/metrics/cell_bn_val/mae",
+        "/metrics/cell_bn_val_reverse/mae"
+      ],
+      "checkpoint_path": "/root/megrez-tmp/CPSF_EXTERNAL_BASELINES_PHASE2_20261010/results/litept_h01_global/final.pt",
+      "metrics_sha256": "92e5487a4e14f4387be112e5d4387ec254ae3c7b8db6a93d0fa8f554636173ca",
+      "final_sha256": "87222b0e5de58c5eb33a912d553d814a40ccb417f6751be3332cad817a315786",
+      "unchanged_from_audited_baseline": true
+    },
+    {
+      "model": "litept",
+      "task": "flywire_coarse",
+      "value": 0.6552381769767415,
+      "metrics_path": "/root/megrez-tmp/CPSF_EXTERNAL_BASELINES_DIAGNOSTICS_20261011/run1/litept/results.json",
+      "metric_json_paths": [
+        "/probes/sample_bn_val_full/macro_f1"
+      ],
+      "checkpoint_path": "/root/megrez-tmp/CPSF_EXTERNAL_BASELINES_PHASE2_20261010/results/litept_flywire_coarse/final.pt",
+      "metrics_sha256": "9d1dccb923d67efe90b3b5382a63ba61b6eaaee564e31612056ee00da30276d9",
+      "final_sha256": "7670eed98c552ae50839aa3b15290f89c0ecd7b505a98aa4679b717498914772",
+      "unchanged_from_audited_baseline": true
+    },
+    {
+      "model": "octformer",
+      "task": "h01_local",
+      "value": 0.47222683910976393,
+      "metrics_path": "/root/megrez-tmp/CPSF_H01_BASELINE_BN_AUDIT_20261011/run3/octformer_h01_local/results.json",
+      "metric_json_paths": [
+        "/metrics/cell_bn_val/macro_f1",
+        "/metrics/cell_bn_val_reverse/macro_f1"
+      ],
+      "checkpoint_path": "/root/megrez-tmp/CPSF_EXTERNAL_BASELINES_PHASE2_20261010/results/octformer_h01_local/final.pt",
+      "metrics_sha256": "88518fb31bc763386c2bf54fe494b07c5ce99736280d97e540b755d1cc745932",
+      "final_sha256": "a189a3f4b293b0465c857a46ddb8c269b58073840afcd3b0bf818dc7b515eb0b",
+      "unchanged_from_audited_baseline": true
+    },
+    {
+      "model": "octformer",
+      "task": "h01_global",
+      "value": 0.08496242016553879,
+      "metrics_path": "/root/megrez-tmp/CPSF_H01_BASELINE_BN_AUDIT_20261011/run3/octformer_h01_global/results.json",
+      "metric_json_paths": [
+        "/metrics/cell_bn_val/mae"
+      ],
+      "checkpoint_path": "/root/megrez-tmp/CPSF_EXTERNAL_BASELINES_PHASE2_20261010/results/octformer_h01_global/final.pt",
+      "metrics_sha256": "9780b7fc9be116efb46dc7da30913d53676c4bd29c206ada7224b645c528ce8a",
+      "final_sha256": "78006c5d0a8be77671d0e0f18cd09607b5dcac1f1cfecf1a219acedc5b2a1aaf",
+      "unchanged_from_audited_baseline": true
+    },
+    {
+      "model": "octformer",
+      "task": "flywire_coarse",
+      "value": 0.5837562345319275,
+      "metrics_path": "/root/megrez-tmp/CPSF_FLYWIRE_BN_COMPLETION_20261014/run1/octformer/results.json",
+      "metric_json_paths": [
+        "/cell_bn_val/macro_f1"
+      ],
+      "checkpoint_path": "/root/megrez-tmp/CPSF_EXTERNAL_BASELINES_PHASE2_20261010/results/octformer_flywire_coarse/final.pt",
+      "metrics_sha256": "1a9f3d12525a1b02465cd64a14be2361834a887cc6a0bd222039b0af27cab6e3",
+      "final_sha256": "732742d8af70373ef437af05882e94f8eb65eef6790b81d3d2e69cdefc2bdecd",
+      "unchanged_from_audited_baseline": true
+    },
+    {
+      "model": "utonia",
+      "task": "h01_local",
+      "value": 0.6208228644958041,
+      "metrics_path": "/root/megrez-tmp/CPSF_UTONIA_SCRATCH_R2_20261012/results/utonia_h01_local/metrics.json",
+      "metric_json_paths": [
+        "/val/macro_f1"
+      ],
+      "checkpoint_path": "/root/megrez-tmp/CPSF_UTONIA_SCRATCH_R2_20261012/results/utonia_h01_local/final.pt",
+      "metrics_sha256": "36b83fed29925e4449d024cab1abb7463957e770f9e0e3ea22a3af8f78c2933f",
+      "final_sha256": "7a9dca5e7ce4f3476a9675f7f52407a6e0b91c734e7b47eba233871367da0025",
+      "unchanged_from_audited_baseline": true
+    },
+    {
+      "model": "utonia",
+      "task": "h01_global",
+      "value": 0.07647700794041157,
+      "metrics_path": "/root/megrez-tmp/CPSF_UTONIA_SCRATCH_R2_20261012/results/utonia_h01_global/metrics.json",
+      "metric_json_paths": [
+        "/val/mae"
+      ],
+      "checkpoint_path": "/root/megrez-tmp/CPSF_UTONIA_SCRATCH_R2_20261012/results/utonia_h01_global/final.pt",
+      "metrics_sha256": "bb354f6caba6a4fa2ec53081f8dadedaacd9894ba53543ccaaec97cce77d6908",
+      "final_sha256": "cbc722c7cab57dc18b5dd5cd5eb007496dd598018b793418610a9eddcb22cb58",
+      "unchanged_from_audited_baseline": true
+    },
+    {
+      "model": "utonia",
+      "task": "flywire_coarse",
+      "value": 0.785536194912314,
+      "metrics_path": "/root/megrez-tmp/CPSF_UTONIA_SCRATCH_R2_20261012/results/utonia_flywire_coarse/metrics.json",
+      "metric_json_paths": [
+        "/val/macro_f1"
+      ],
+      "checkpoint_path": "/root/megrez-tmp/CPSF_UTONIA_SCRATCH_R2_20261012/results/utonia_flywire_coarse/final.pt",
+      "metrics_sha256": "a8aebf2d7fe5aea41b2b2cafea99f45d5c4d5526327c08b4c108f1ff523c7071",
+      "final_sha256": "dddf07eea06016978b73ef886cb3b6770ef708ecfce04374b7b99135e9efff3e",
+      "unchanged_from_audited_baseline": true
+    },
+    {
+      "model": "sgformer",
+      "task": "ted",
+      "value": 0.44288577154308617,
+      "metrics_path": "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_ted/metrics.json",
+      "metric_json_paths": [
+        "/val/f1"
+      ],
+      "checkpoint_path": "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_ted/final.pt",
+      "metrics_sha256": "3156a89f2bd040e0d82f0fbd6d0fcd9bae90e6466e2928dc4ab47103b2c45d84",
+      "final_sha256": "8c3da72f3f823ba2379095e8bc92eb5a2433dd90a7bc152fba366db801a29afd",
+      "unchanged_from_audited_baseline": true
+    },
+    {
+      "model": "polynormer",
+      "task": "ted",
+      "value": 0.3366233766233766,
+      "metrics_path": "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_ted/metrics.json",
+      "metric_json_paths": [
+        "/val/f1"
+      ],
+      "checkpoint_path": "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_ted/final.pt",
+      "metrics_sha256": "5b3657e6707be69ad3841841c2b6bf01eeadbba81e230a9c00695025f7fe3f8b",
+      "final_sha256": "d73f90fee13799e852b90b94888ad1a0a80896ef98449f2968b11de4e5cb8858",
+      "unchanged_from_audited_baseline": true
+    },
+    {
+      "model": "tednet",
+      "task": "ted",
+      "value": 0.569247546346783,
+      "metrics_path": "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tednet_ted/metrics.json",
+      "metric_json_paths": [
+        "/val/f1"
+      ],
+      "checkpoint_path": "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tednet_ted/final.pt",
+      "metrics_sha256": "da96aa3653dda118f73ab949023be60d902d5470cd64108444285c9643eaaa97",
+      "final_sha256": "ff0249dee3e7b7d5fcdf8e7fe2163471bd55f3699021f8753f4d8ae655ec8a54",
+      "unchanged_from_audited_baseline": true
+    },
+    {
+      "model": "sgformer",
+      "task": "tlp",
+      "value": 0.5512450620635706,
+      "metrics_path": "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/metrics.json",
+      "metric_json_paths": [
+        "/val/missing_edge_macro_ap"
+      ],
+      "checkpoint_path": "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/sgformer_tlp/final.pt",
+      "metrics_sha256": "c64a691ac8043be33123dc1f897bef4924bfc8de887878ba22a738198b77966e",
+      "final_sha256": "9b1efa855417330a12f2c1bd41d121083f17c82c200d0fd373f874092ecf50a8",
+      "unchanged_from_audited_baseline": true
+    },
+    {
+      "model": "polynormer",
+      "task": "tlp",
+      "value": 0.5051799574293846,
+      "metrics_path": "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/metrics.json",
+      "metric_json_paths": [
+        "/val/missing_edge_macro_ap"
+      ],
+      "checkpoint_path": "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/polynormer_tlp/final.pt",
+      "metrics_sha256": "7227b91070adfab398b36711a32466b3d09f27483aa7da7750f9259ae6934c28",
+      "final_sha256": "c27615e9e164ce544a1fb53175a7ddbbccc86631295d703453ea2cb4944e9983",
+      "unchanged_from_audited_baseline": true
+    },
+    {
+      "model": "tlpnet",
+      "task": "tlp",
+      "value": 0.10843801033942084,
+      "metrics_path": "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/metrics.json",
+      "metric_json_paths": [
+        "/val/missing_edge_macro_ap"
+      ],
+      "checkpoint_path": "/root/megrez-tmp/CPSF_NREDD_BASELINES_20261014/results/tlpnet_tlp/final.pt",
+      "metrics_sha256": "022eacc8e244b277ed9b6d1f66c11fd30a38f7a42423854f94a4c118eedbd043",
+      "final_sha256": "5e0b2a5fa6ebc5c300f0594147ef0a7bac9ad2020403c9b4a12fdc60214d6425",
+      "unchanged_from_audited_baseline": true
+    },
+    {
+      "model": "graphformer",
+      "task": "h01_local",
+      "value": 0.6372700855127853,
+      "metrics_path": "/root/megrez-tmp/CPSF_GRAPHFORMER_ADAPTED_20261013/results/h01_local/metrics.json",
+      "metric_json_paths": [
+        "/val/macro_f1"
+      ],
+      "checkpoint_path": "/root/megrez-tmp/CPSF_GRAPHFORMER_ADAPTED_20261013/results/h01_local/final.pt",
+      "metrics_sha256": "72f3b52656e2fec07473524bf10bc6fb0987dfa99f0041d6d43bc1a222db0f5c",
+      "final_sha256": "29a9fae9b14da3f8905291d318767c83b7f16bcea873bb3f1c19704c4b77cdb4",
+      "unchanged_from_audited_baseline": true
+    },
+    {
+      "model": "graphformer",
+      "task": "h01_global",
+      "value": 0.06570898244778316,
+      "metrics_path": "/root/megrez-tmp/CPSF_GRAPHFORMER_ADAPTED_20261013/results/h01_global/metrics.json",
+      "metric_json_paths": [
+        "/val/mae"
+      ],
+      "checkpoint_path": "/root/megrez-tmp/CPSF_GRAPHFORMER_ADAPTED_20261013/results/h01_global/final.pt",
+      "metrics_sha256": "c84389498b55cecd6a2f9629484eed3680421b6ac4ad218d5e6bad5615f79dc5",
+      "final_sha256": "69dcb8b8f4383a6aedf609184c5b5d88562894ad0de6cc0a422dae47743878db",
+      "unchanged_from_audited_baseline": true
+    },
+    {
+      "model": "graphformer",
+      "task": "flywire_coarse",
+      "value": 0.7666958771078267,
+      "metrics_path": "/root/megrez-tmp/CPSF_GRAPHFORMER_ADAPTED_20261013/results/flywire_coarse/metrics.json",
+      "metric_json_paths": [
+        "/val/macro_f1"
+      ],
+      "checkpoint_path": "/root/megrez-tmp/CPSF_GRAPHFORMER_ADAPTED_20261013/results/flywire_coarse/final.pt",
+      "metrics_sha256": "a8139ae377132477c7044c023619901fc146cbad676d683a14ea596db29c9b98",
+      "final_sha256": "db43dfc45bdfafb81ac74caa0118c3104ff51857684528ac97844e2df8d5987e",
+      "unchanged_from_audited_baseline": true
+    }
+  ],
+  "passed": true,
+  "test_used": false
+}

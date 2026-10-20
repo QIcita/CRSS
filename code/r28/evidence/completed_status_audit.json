@@ -1,0 +1,38 @@
+{
+  "utc": "2026-10-20T01:28:04.795304+00:00",
+  "jobs": [
+    {
+      "root": "/root/megrez-tmp/CPSF_R28_TASK_EXPANSION_20261020_A2",
+      "task": "tlp",
+      "kind": "r28_lpa_attention",
+      "passed": true,
+      "val": {
+        "missing_edge_macro_ap": 0.5697102714165798,
+        "missing_edge_micro_ap": 0.3878511333766299
+      },
+      "reference_root": "/root/megrez-tmp/CPSF_R9_TASK_EXPANSION_20261017_A2/results/patch_rms_010_tlp",
+      "reference_metrics_path": "/root/megrez-tmp/CPSF_R9_TLP_EVAL_REPAIR_20261018_A1/metrics.json",
+      "reference_val": {
+        "missing_edge_macro_ap": 0.5669343012311744,
+        "missing_edge_micro_ap": 0.37649692619122904,
+        "independent_check": true,
+        "graphs": 62,
+        "missing_positives": 283,
+        "unobserved_pairs": 1146183
+      },
+      "final_sha256": "0f7fb79ee08c493150b7ef3f4bced1c1bab43e2b1a22ca06cc99b7211514ae6d",
+      "epochs": 80,
+      "steps": 12480,
+      "final_checkpoint_optimizer_and_model_exact": true,
+      "predictions_recomputed": true,
+      "source_targets_and_observed_equal": true,
+      "score_symmetry_max": 2.9802322387695312e-08,
+      "epoch_order_lr_budget_exact": true,
+      "train_dev_cells_disjoint": true,
+      "seconds": 7308.221342563629
+    }
+  ],
+  "test_used": false,
+  "projection": "Only original R28 extension jobs from completed audit; R33 arms excluded from this release.",
+  "original_audit_sha256": "d67176b3ae8b5d072faeae98e69ef1a8c5a587e1d1c342f71a686c12f3eb163a"
+}

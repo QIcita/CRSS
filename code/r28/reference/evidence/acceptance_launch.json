@@ -1,0 +1,17 @@
+{
+  "time": 1792408479.0891018,
+  "acceptance": [
+    {
+      "task": "h01_local",
+      "gpu": 0,
+      "pid": 1559173
+    },
+    {
+      "task": "h01_global",
+      "gpu": 1,
+      "pid": 1559174
+    }
+  ],
+  "orchestrator_pid": 1559175,
+  "formal_training_started": false
+}
