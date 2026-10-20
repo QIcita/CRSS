@@ -1143,7 +1143,7 @@
   "provenance/source_map.json": "6e00ea16f562d8f27ccc6d703a2da8525bc4f489027e521155830f224a7ab562",
   "scripts/verify_export.py": "8aaec321c835d01414cb1048bc767ec1a5c5411100d73aa5d3ed65baaa84f056",
   "scripts/verify_r9.py": "b06b861fc05988581e7a692c1a202ae8b9b6127d6956b475b92e10ea33dcd6e1",
-  "code/r28/BASELINE_COMPARISON.csv": "b68ee39e1e20874eac238a3e6c0f8443b02cc2b31fb16409e9bc1413a28f5688",
+  "code/r28/BASELINE_COMPARISON.csv": "eb14fe2b8a8e3146646345bff5551d5d401126f21b0d1c54df41a1809e176203",
   "code/r28/BASELINE_COMPARISON.json": "e734f3a710f6be0665756e69efc49b7b5e62da81eaf70e5c56e62cfa0f064b98",
   "code/r28/README.md": "00e74eb328e1eae4d9277c15d513b46998fc02c0be254145440d71b278e017fa",
   "code/r28/RESULTS.json": "7f06875864d9d685587c29834eec3c5dc7e8cd6647b1ca90fe8d71326117fa16",
@@ -1698,5 +1698,5 @@
   "docs/R28_RESULTS_ZH.md": "7a737f2fbbeb71e8af72c74f39aac89305a795c8128feb404259bd1e675d3dd2",
   "docs/README_SNAPSHOT_20261017.md": "c258b99713ea2ccceaff40db4025b7f4d8f63a5357d749758432b628ec0e8955",
   "scripts/verify_r28.py": "55fbaa5b60144572bef99a1c7019b1306a4499e617457affeada56a999f2504f",
-  "code/r28/release_manifest.json": "76a7ef2a7e01438e9c8b95bd75ce9323d5cf2a92980fd8719a306181255340b5"
+  "code/r28/release_manifest.json": "763bab7316aead737849cee60525c543ea3124cf6fb5ac6f7544e9c5ff882bed"
 }
