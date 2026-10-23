@@ -1,3 +1,18 @@
+# 最新发布：R34 密集邻域＋细支撑保留（2026-10-23）
+
+[结构与结果](docs/R34_DENSE_SUPPORT_ZH.md) → [源码和最终权重](code/r34_dense/README.md) → [统一 FPS 全部完成实验](docs/UNIFIED_FPS_RESULTS_20261023.md)。
+
+本版在统一 FPS 输入上完成 H01 整体重训，MAE 0.050024；其他任务的本版正式重训尚未完成。它扩大 SPoTr 计算邻域，保留原 0.5µm 细支撑、Utonia 输入、骨架关联和尺度编码。旧 R34 发布与旧输入结果继续保留，不能混为当前成绩。R38＋密集邻域是另外的候选运行。
+
+```bash
+python scripts/verify_r34_dense.py
+python scripts/materialize_r34_dense.py /absolute/path/to/new/r34_dense
+```
+
+---
+
+以下为历史导航，具体边界以各自日期/版本为准。
+
 # 最新发布：R34阶段一（2026-10-21）
 
 阅读顺序：[R34实际架构](docs/R34_ARCHITECTURE_ZH.md) → [H01结果与机制对照](docs/R34_RESULTS_ZH.md) → [代码、权重和组装](code/r34/README.md)。新增入口为`code/r34/overlay/tools/cpsf_path_message/model.py`；继承依赖由`source_map.json`逐字节映射至R28。`scripts/materialize_r34.py`可组装完整运行源码。

@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "files": {
+    "/root/megrez-tmp/CPSF_R34_AP10_SUPPORT_PRESERVED_20261023_A1/results/r34_h01_global/val_predictions.npz": "b261f5cd3ee3f822b7061cac379b6c27bcbc6b6700bf72f9ea544c2a2a892938"
+  },
+  "readback": true,
+  "test_used": false
+}

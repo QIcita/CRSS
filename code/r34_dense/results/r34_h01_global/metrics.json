@@ -1,0 +1,37 @@
+{
+  "identity": {
+    "version": "CPSF_R34_AP10_SUPPORT_PRESERVED_20261023_A1",
+    "model": "r34",
+    "task": "h01_global",
+    "seed": 42,
+    "protocol_sha256": "e5ac48d2060320c307fea451c1e10236bb7394efdfd613349d54ccc13a0e74cd",
+    "manifest_sha256": "5f8bcae26dc3b27808d29802da20082a952c17a3f75e3a95b4c0ea7fc8152e21",
+    "initial_state_sha256": "b3bd4dc76b5059009bc12c2cf5676b9e30c64fc55d27afdc13893b91ef4938dc",
+    "official_sources": {
+      "/root/megrez-tmp/CPSF_R34_AP10_SUPPORT_PRESERVED_20261023_A1/tools/cpsf_r34_patch_repair/backend.py": "0824a49d41cd3086afb628b137e5aef4473144a51bc8fdb6da78fad64b9f5b31",
+      "/root/megrez-tmp/CPSF_R34_AP10_SUPPORT_PRESERVED_20261023_A1/tools/cpsf_r34_patch_repair/model.py": "018ed131f19ba2668344ae6018de2bbe3d9429f23e504eb528fde2c63a31f4fa",
+      "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_core/model.py": "2b7fac89e211984e974b9feea46f27a71f40299c025ad31a7d00d52148bcf07a",
+      "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_utonia_context/model.py": "b57c81695d914ca1c51bf8dd44fa4a4daee89ee20f0a16ac3d4c4a3b3e3059d5",
+      "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/vendor/Utonia/utonia/model.py": "f68484c32773b91a47530570b10acb47b229fdeb2132eb5e313f80901639f9ef",
+      "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/vendor/Utonia/utonia/module.py": "bb9f455509b233eac2b798df0d8efeefa64124628f493ec15dfa92aecabf3cff",
+      "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_raw_point_attention/model.py": "7a4b3129054e0b13e05edfcc36f4e91443ba7d0c87ad850b382f41f8c2d3eb49",
+      "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/vendor/SPoTr/openpoints/models/layers/conv.py": "eadd5c38d77ea1a1c19b16e040faa13e52ef0089f783f0c39d06a9df75999eaa",
+      "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_raw_point_attention/official.py": "09879ebba58a4f2076c7c544a7c214886241eb09b20fe7ceb970eb6dd44a1cc2",
+      "/root/megrez-tmp/CPSF_R34_FPS_REBENCH_20261021_A2/tools/cpsf_r34_fps_rebench/frozen_r34.py": "3d352f7d406ca201161e50d67b84ed627bed2adb3228575d16654772cbf6f48b"
+    },
+    "pretrained": false,
+    "test_used": false,
+    "selection": "fixed final epoch"
+  },
+  "val": {
+    "mae": 0.0500239972025156,
+    "rmse": 0.06690746210796958,
+    "r2": 0.7252064487371928
+  },
+  "epochs": 50,
+  "steps": 1000,
+  "final_sha256": "e7e44d8631b3554e17248b01004f621651232efcec5a072b4808d55e16e31141",
+  "seconds": 2639.7412049770355,
+  "peak_gpu_bytes": 7483470848,
+  "test_used": false
+}

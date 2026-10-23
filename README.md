@@ -1,40 +1,22 @@
 # CRSS: Common-Region Skeleton–Surface Encoding
 
-神经元骨架—表面联合表征研究。**最新发布为R34阶段一（2026-10-21）**：在冻结R28上增加骨架与路径条件的区域差分消息。R28仍作为匹配参照保留。先读[START_HERE.md](START_HERE.md)。
+神经元骨架—表面联合表征研究。**最新发布为统一 FPS 输入下的 R34 密集邻域修正版（2026-10-23）**：扩大 SPoTr 的计算邻域，保留原细粒度证据支撑和骨架关联。
 
 | 内容 | 入口 |
 |---|---|
-| R34架构、实际公式和模块边界 | [架构说明](docs/R34_ARCHITECTURE_ZH.md) |
-| 六组H01结果与机制对照 | [结果说明](docs/R34_RESULTS_ZH.md)、[JSON](code/r34/RESULTS.json) |
-| 冻结源码、两项完整模型权重与组装方法 | [R34代码包](code/r34/README.md) |
-| 新增模型代码 | [PathMessage / Model](code/r34/overlay/tools/cpsf_path_message/model.py) |
-| R28继承主干与历史外部对照 | [R28架构](docs/R28_ARCHITECTURE_ZH.md)、[R28历史结果](docs/R28_RESULTS_ZH.md) |
+| 当前结构、计算公式与边界 | [R34 密集邻域说明](docs/R34_DENSE_SUPPORT_ZH.md) |
+| 冻结源码、最终权重、协议和验收 | [R34 dense 发布包](code/r34_dense/README.md) |
+| 所有已完成统一 FPS 实验 | [结果汇总](docs/UNIFIED_FPS_RESULTS_20261023.md)、[逐项审计 JSON](results/unified_fps_20261023/completed_results_audit.json) |
+| 历史 R34 阶段一（不同输入） | [旧首页快照](docs/README_SNAPSHOT_20261021_R34.md)、[旧代码包](code/r34/README.md) |
+| 历史 R28/R9 | [R28](code/r28/README.md)、[R9](code/r9/README.md) |
 
-## R34已完成结果
+本版 H01 整体 MAE **0.050024**，原统一 FPS R34 为 0.051537；seed42、50轮/1000更新、固定最终轮开发集，无外部预训练。H01 局部仅完成规则不触发与两样本前向兼容性检查，不能写成本版局部正式重训成绩。R38＋密集邻域为独立候选训练，不归入本版。
 
-原冻结H01输入，seed42、固定最终轮开发集，各任务分别从零训练：
-
-| 配置 | H01局部Macro-F1↑ | H01整体MAE↓ |
-|---|---:|---:|
-| R28参照 | 0.663894 | 0.048891 |
-| **R34路径条件差分消息** | **0.681712** | **0.048690** |
-| 去新增项骨架内容条件 | 0.649236 | 0.048770 |
-| 普通条件注意力 | 0.654174 | 0.048830 |
-
-**版本边界：**以上不是新几何预算＋全源FPS输入的结果；R34尚未在该输入及FlyWire/TED/TLP上完成验证。后续输入研究已把表面取样降为普通预处理，但本发布保留原冻结输入和实际计算，不追溯改写历史协议。阶段二/三仍是提案，未纳入模型。
-
-研究主线是：CMM保留局部形态证据并补充跨尺度上下文，RCM在骨架共同区域内组织表面证据。R34新增有符号通道差分消息，不是新动态超图算子；保留R28的Utonia、SPoTr、物理位置/尺度编码与区域传播。论文草稿仍为历史版本，未自动改写。
-
-## 校验和使用
+CMM 保留局部表面形态并补充上下文，RCM 通过骨架共同区域及路径条件差分消息组织表面证据。官方 Utonia/SPoTr 贡献和许可继续保留，表面 FPS 取样视为输入预处理。
 
 ```bash
-python scripts/verify_r34.py
-python scripts/materialize_r34.py /absolute/path/to/new/r34
-python scripts/verify_r28.py
-python scripts/verify_r9.py
-python scripts/verify_export.py
+python scripts/verify_r34_dense.py
+python scripts/materialize_r34_dense.py /absolute/path/to/new/r34_dense
 ```
 
-R34发布源码经过六模型构造与对应末轮权重严格加载、六组开发预测指标复算。原数据、几何缓存和父运行路径未分发，新机器全量训练仍需配置原依赖；不绕过冻结验收。
-
-官方来源和许可见[RIGHTS_AND_PROVENANCE.md](RIGHTS_AND_PROVENANCE.md)。[R28首页快照](docs/README_SNAPSHOT_20261020_R28.md)、R9和更早模型/论文保留，可追溯但不能代替当前版本证据。
+发布包核验了源文件哈希、模型构造、最终权重严格加载和保存预测的指标复算。原始数据/缓存不分发，完整训练仍需原依赖及父版本验证文件；不绕过冻结门槛。历史发布均独立保留。见 [START_HERE](START_HERE.md) 和 [来源与许可](RIGHTS_AND_PROVENANCE.md)。

@@ -1,0 +1,252 @@
+[
+  {
+    "epoch": 1,
+    "sha256": "f01b9ef0c8189fe213f98292642a643655c3f63a0ceb7f2469d964e2cb5051d2",
+    "samples": 80
+  },
+  {
+    "epoch": 2,
+    "sha256": "138f0899746e80dd64b5675e83a056920ea1e20c7890b19e2553a206ffa23294",
+    "samples": 80
+  },
+  {
+    "epoch": 3,
+    "sha256": "5e77694fb8b7f3cfc101a4471b0c37758fd01379405c7a1da7b797fd6f0b2c9e",
+    "samples": 80
+  },
+  {
+    "epoch": 4,
+    "sha256": "3021ba6c28673301213e11d72e2cded0632b43e4606519b8b8db3b817409ffa0",
+    "samples": 80
+  },
+  {
+    "epoch": 5,
+    "sha256": "896ce4b851cb507f3773cc7043d02424a0e8fea44acc35e0caf3b9786b91b080",
+    "samples": 80
+  },
+  {
+    "epoch": 6,
+    "sha256": "5b756fe94402f64456413aa33b4931d2b4cc6f8572cc06e02e46dd46098c9c07",
+    "samples": 80
+  },
+  {
+    "epoch": 7,
+    "sha256": "69778268e5ba60af23b7130b15a025c3abfa0eec05883932bebe8321890f2a06",
+    "samples": 80
+  },
+  {
+    "epoch": 8,
+    "sha256": "6399a59e37024f239ad0e2fa439854f508dfd98b9a4ff7f2e93bc89b65b1407d",
+    "samples": 80
+  },
+  {
+    "epoch": 9,
+    "sha256": "0af7a3d20a7feeb655a2f5102c696bff22fb7c283d635f51342c1b647dca9fc9",
+    "samples": 80
+  },
+  {
+    "epoch": 10,
+    "sha256": "d9fc3585a514e31e870fa64cf16a6c154062c0c8899dcf01ca0465c9ff7bd414",
+    "samples": 80
+  },
+  {
+    "epoch": 11,
+    "sha256": "821b3f5605a23c0f807165b91336c0d969ac13a0881a0ddc8f305dc51901a00f",
+    "samples": 80
+  },
+  {
+    "epoch": 12,
+    "sha256": "ab4b4ec33cc0af7280b4a0ff83060bbe41bce50187093bc5baf5395c1222179f",
+    "samples": 80
+  },
+  {
+    "epoch": 13,
+    "sha256": "90053fd991dcc27a8b8639c933acd23480fd33f0654a8719eb220940d7702817",
+    "samples": 80
+  },
+  {
+    "epoch": 14,
+    "sha256": "2ae6fe4f61c85cb56f17f806f834e3c64ec8203ab221f7380c674963dc491205",
+    "samples": 80
+  },
+  {
+    "epoch": 15,
+    "sha256": "c461568683e59e5ba29145bf6a0096d1e2d04d8ca26158518ddf75e96d88f17a",
+    "samples": 80
+  },
+  {
+    "epoch": 16,
+    "sha256": "22b468035684c672c2b18cf6456d7918547a3d0f0496dd74b84da5d2ed158506",
+    "samples": 80
+  },
+  {
+    "epoch": 17,
+    "sha256": "19a72ad8570180b961fd4a43168e42969590c625d57f9e794207fe26f88baf64",
+    "samples": 80
+  },
+  {
+    "epoch": 18,
+    "sha256": "5f171c3c866a860af13dfb58499f585b9705921906d7592ba6ebc8946f6e1167",
+    "samples": 80
+  },
+  {
+    "epoch": 19,
+    "sha256": "ad4639842d9c2a0c5301fc60cdc66b0e16ab45c51ffb0be6c4f5b76f109926ff",
+    "samples": 80
+  },
+  {
+    "epoch": 20,
+    "sha256": "1089c09850816884ba46184fd663071c7625bf3262e10fa666bb2cc1afb08dad",
+    "samples": 80
+  },
+  {
+    "epoch": 21,
+    "sha256": "dcd4501dbce08fb08d33e099c88b8701cee4169b4311964dddbeb5fd80cb9965",
+    "samples": 80
+  },
+  {
+    "epoch": 22,
+    "sha256": "2334b5b978079b6c2cabd82e1d7769826f8b2438df8e6a1bc2ae1168590ad65c",
+    "samples": 80
+  },
+  {
+    "epoch": 23,
+    "sha256": "aabcd1b909e21e4231a912ca6ac2c82fa6af876e890c334bcf4cde809603d718",
+    "samples": 80
+  },
+  {
+    "epoch": 24,
+    "sha256": "0072e8033c7ca265c98fe73c30cb50a2d19a29e45a1ae508b9359ac01787aa23",
+    "samples": 80
+  },
+  {
+    "epoch": 25,
+    "sha256": "44fab4ecb17272929a1635b86be97435e1c907a3cb8a081f800c4378a54e9002",
+    "samples": 80
+  },
+  {
+    "epoch": 26,
+    "sha256": "ba4c414cbbb515b4f93da54e9c19380ec22da3bc5164e67dc491618eae65bfe4",
+    "samples": 80
+  },
+  {
+    "epoch": 27,
+    "sha256": "7ac023081d161bf317bd67d011706edef8dfcd5b5ed72c63fb47a00415885282",
+    "samples": 80
+  },
+  {
+    "epoch": 28,
+    "sha256": "4dd97fdbfee3710bbdd27e1724fd0fe43fd6d2310508aa5d02fba276d93c2eb2",
+    "samples": 80
+  },
+  {
+    "epoch": 29,
+    "sha256": "e96a8d869fa71f8b680d3826466f4431e69059121e3a5895a1648c0e993bb28f",
+    "samples": 80
+  },
+  {
+    "epoch": 30,
+    "sha256": "ee0a920289409b428549a556b61ae3ae2081d27eda770f2ccdfc0d55ebe001ab",
+    "samples": 80
+  },
+  {
+    "epoch": 31,
+    "sha256": "d8eedf372ce903635ec0f03756377476af4d51dca3fe8d666ea59715f18fc2b8",
+    "samples": 80
+  },
+  {
+    "epoch": 32,
+    "sha256": "8c42899c20d6416c17453544437c6c000de134a27e95a2b543aef13ee6be46c2",
+    "samples": 80
+  },
+  {
+    "epoch": 33,
+    "sha256": "652cca6ab14a8ac2706546ddcb9ec63621228d14e6cf09e7cb0b2fca56e4d83d",
+    "samples": 80
+  },
+  {
+    "epoch": 34,
+    "sha256": "d20680e807f568512e54772303fb34fcd42539eb91b30f95d21b62a9a1f5c360",
+    "samples": 80
+  },
+  {
+    "epoch": 35,
+    "sha256": "09a55bab8016ead983f8ee9f8d8038ef2e76b9df8174368ad1818d2aab295e05",
+    "samples": 80
+  },
+  {
+    "epoch": 36,
+    "sha256": "d6897f356fe778593d9fe3a58ea2931214e1f99a9951b53d56ab984a18da4604",
+    "samples": 80
+  },
+  {
+    "epoch": 37,
+    "sha256": "435bfe9d72e307f1ddc14a1538407df61428c0dcb80edffa1c7865b2e4024009",
+    "samples": 80
+  },
+  {
+    "epoch": 38,
+    "sha256": "5c5a55a806c4cb19960d3dcdb7ab150eeda316332211c028290fc6421d86a29d",
+    "samples": 80
+  },
+  {
+    "epoch": 39,
+    "sha256": "254293b49049b9d6ed039a8735c8865fc43fe924cf43ccffb862c96e7ed367ce",
+    "samples": 80
+  },
+  {
+    "epoch": 40,
+    "sha256": "faae8b8f9b34c8305200ed68d1aea2d932cc1d1ffc4328e68e0d8163cec93945",
+    "samples": 80
+  },
+  {
+    "epoch": 41,
+    "sha256": "fe7f4d76cd7d2a3c73867000f24dc9421a76355f8206080a8bb43b2ea764ac93",
+    "samples": 80
+  },
+  {
+    "epoch": 42,
+    "sha256": "e4a0e29941f261cb8ea46c3ababfb015ea54c71767edd53b71318c6fa3c03aac",
+    "samples": 80
+  },
+  {
+    "epoch": 43,
+    "sha256": "650b21715c01be0c11c1ae401e435da9cddc9e1005333130171bce2657cce1ae",
+    "samples": 80
+  },
+  {
+    "epoch": 44,
+    "sha256": "0939af91a8a241794763c3c6339b292bd6d2b613f690dabe5ebcb0d190c4b3f6",
+    "samples": 80
+  },
+  {
+    "epoch": 45,
+    "sha256": "a0a10914d72ad69cfaf7a965b27204ca40d25a43abe05249ad0d1467332effd1",
+    "samples": 80
+  },
+  {
+    "epoch": 46,
+    "sha256": "5a9af868873420bc325d68ebc8d4ef7592571704b28911373207e5d985db75ad",
+    "samples": 80
+  },
+  {
+    "epoch": 47,
+    "sha256": "f7c5b362c5f3e3fdda173036ed410e38819c3b26a5400f1c9c6d44f8cbfc135b",
+    "samples": 80
+  },
+  {
+    "epoch": 48,
+    "sha256": "24fffa61090cf45dd2174324edc0a5d17efdb1f1a1a99ad80e2d2119d02c67c2",
+    "samples": 80
+  },
+  {
+    "epoch": 49,
+    "sha256": "ee505aa64b81830b76d05eb99c972355c41ee98eccd36e036fb6c40469be6322",
+    "samples": 80
+  },
+  {
+    "epoch": 50,
+    "sha256": "0fcfc11fc9744fb83c3ac0c68ca5026c8fa3c5c4213b09ecd39491f635dd0fc1",
+    "samples": 80
+  }
+]

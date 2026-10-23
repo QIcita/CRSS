@@ -1,7 +1,4 @@
 {
-  "README.md": "108647b0e6c34085b87e32007f0183412e502c6a82be1a76c0bcb22081909b77",
-  "RIGHTS_AND_PROVENANCE.md": "f1fb917f79f3a8a51ac6abbca47daf8d3e6845ab7c92a520a330fdd31c741c8a",
-  "START_HERE.md": "f2d528fccb9b38cbae54f103b39ae0dc3aebb9f6037fd949320df1cca019ef30",
   "code/r28/reference/launch_after_acceptance.py": "1524f8cea4841d12e789b6d0d4961fedd3d3bcfeb6eec98e0ee3c7028b6c8aa2",
   "code/r28/reference/tools/cpsf_common_region/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
   "code/r28/reference/tools/cpsf_common_region/common.py": "11bc9b0d1223ed3f3a6a2eb77396c520651f4c171c350cfcd2a5ee8edf055538",
@@ -517,5 +514,8 @@
   "docs/R34_RESULTS_ZH.md": "9e8e0e6090daadc761776c9fca9f2a9323ee8ee2a81fa032402fdacc63882b7f",
   "docs/README_SNAPSHOT_20261020_R28.md": "589bc617ce51ced393a37e6410b5cbc12929d03855a542dafd1663f2465cf84c",
   "scripts/materialize_r34.py": "275c7ad9a36d5977f612a1cb766df7b6dbf1954ac5c1c487846b9006b82e630a",
-  "scripts/verify_r34.py": "b92d4ecd1742e82e2cc10042edb668d5114ac805ff975ecf5f0519e4cb6ffc45"
+  "scripts/verify_r34.py": "b92d4ecd1742e82e2cc10042edb668d5114ac805ff975ecf5f0519e4cb6ffc45",
+  "docs/release_snapshots/20261021/README.md": "108647b0e6c34085b87e32007f0183412e502c6a82be1a76c0bcb22081909b77",
+  "docs/release_snapshots/20261021/RIGHTS_AND_PROVENANCE.md": "f1fb917f79f3a8a51ac6abbca47daf8d3e6845ab7c92a520a330fdd31c741c8a",
+  "docs/release_snapshots/20261021/START_HERE.md": "f2d528fccb9b38cbae54f103b39ae0dc3aebb9f6037fd949320df1cca019ef30"
 }

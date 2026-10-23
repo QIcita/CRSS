@@ -1,0 +1,1399 @@
+{
+  "sources": {
+    "tools/cpsf_common_region/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_common_region/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "tools/cpsf_common_region/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_common_region/common.py",
+      "sha256": "11bc9b0d1223ed3f3a6a2eb77396c520651f4c171c350cfcd2a5ee8edf055538"
+    },
+    "tools/cpsf_common_region/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_common_region/contracts.py",
+      "sha256": "7eb1c47ebaefca3aade141fe26f060451d3289d20df9cf7361b2bb3827bc48a6"
+    },
+    "tools/cpsf_common_region/data.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_common_region/data.py",
+      "sha256": "e774dc298a28ed2563a8057d9cdb7a555c8fcd4a4ec780c35ccb4955e0da84db"
+    },
+    "tools/cpsf_common_region/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_common_region/model.py",
+      "sha256": "84a05e78756659beaacf594b1bb42420ae7fe83df229d4122e2b59fb21ef29ed"
+    },
+    "tools/cpsf_common_region/prepare.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_common_region/prepare.py",
+      "sha256": "915b8bb42965920ef5155281fde93ae1c4a911c0f784bd10897a36a2341f561f"
+    },
+    "tools/cpsf_common_region/scheduler.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_common_region/scheduler.py",
+      "sha256": "a746c570d98e88b7e44e7d8e154476235b14f340c4f3d3102f9c9e3d13868068"
+    },
+    "tools/cpsf_common_region/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_common_region/train.py",
+      "sha256": "c2e9ea325ae4a69b136931659993e9eb2b697017e7605ace91776fbae05bd250"
+    },
+    "tools/cpsf_config_only/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_config_only/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "tools/cpsf_config_only/analyze.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_config_only/analyze.py",
+      "sha256": "6e03f81cdd9afb485a9a606f91fce86837b8bb29129c0e89e7aeb43bb83d483a"
+    },
+    "tools/cpsf_config_only/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_config_only/common.py",
+      "sha256": "0a72cd938d45f6f86076998ddc8591cbb0437732060f4b8a33900605221f4049"
+    },
+    "tools/cpsf_config_only/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_config_only/contracts.py",
+      "sha256": "b2ae05da6745ce01084cf289ac020d1858f9e2e7def69180d3ef66ec4f59369e"
+    },
+    "tools/cpsf_config_only/freeze.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_config_only/freeze.py",
+      "sha256": "59a908f3095baec31bad0b54aa7b4aa21434f06a1a7b2cb195a0ace142cdb149"
+    },
+    "tools/cpsf_config_only/scheduler.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_config_only/scheduler.py",
+      "sha256": "1597ba4612cc9362c14309f4c7556039f2d7d6fa33b88e1015e6b00f60ca9409"
+    },
+    "tools/cpsf_config_only/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_config_only/train.py",
+      "sha256": "f494bee73ff3a0a43687386b23e6065c8305375612d4f9848e1cd2e56acfd77e"
+    },
+    "tools/cpsf_descriptor_factors/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_descriptor_factors/__init__.py",
+      "sha256": "4877fae159c580d25f4a56d3c20c72212b7e98fe69f790891a411d22dfbefdc3"
+    },
+    "tools/cpsf_descriptor_factors/analyze.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_descriptor_factors/analyze.py",
+      "sha256": "463882062fc6e08b3f7be126ecde91c6bd193ad0b4d78000a920512b220b93b4"
+    },
+    "tools/cpsf_descriptor_factors/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_descriptor_factors/common.py",
+      "sha256": "a27d74cc782654db3d5df563e1fbdf957f1c8f80b1893a6065e09a00fe988ec2"
+    },
+    "tools/cpsf_descriptor_factors/configure.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_descriptor_factors/configure.py",
+      "sha256": "14872d45ef50b1c2ae7498b708ecc3fa0dcd86c840098aae6645b7ba7d1981b2"
+    },
+    "tools/cpsf_descriptor_factors/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_descriptor_factors/contracts.py",
+      "sha256": "c9406a2bfb1d7b3b8c32332b756ec8a6a45eb736f696a54f2bf2a41b2f7bf067"
+    },
+    "tools/cpsf_descriptor_factors/job.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_descriptor_factors/job.py",
+      "sha256": "eda45e0792d79ba2cc068bf225cc7e8b08bb37b0ec63391444bd1483fcb2934d"
+    },
+    "tools/cpsf_descriptor_factors/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_descriptor_factors/model.py",
+      "sha256": "c88020d6ed35f05bd8e19eb2d4be6ec27627dc6a9f68fa0be2fa48e598b0a4b8"
+    },
+    "tools/cpsf_descriptor_factors/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_descriptor_factors/train.py",
+      "sha256": "879f3b82d3937b6d73dbe9b5170d652198ca935d7920c4e87ab472209c763edf"
+    },
+    "tools/cpsf_deterministic/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_deterministic/__init__.py",
+      "sha256": "6be0cc185fd907ea7e7485b30f2e5e919e5972154ca716f75305a908a2704771"
+    },
+    "tools/cpsf_deterministic/analyze.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_deterministic/analyze.py",
+      "sha256": "c73643502090c24cd66032ba1b9fb0b6603da4b8bca5f3fb40f3b3f95da395cb"
+    },
+    "tools/cpsf_deterministic/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_deterministic/common.py",
+      "sha256": "6dfee26eac95446f98eb2b0c5868b45b6501921520bff5700feef2f979f9434f"
+    },
+    "tools/cpsf_deterministic/configure.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_deterministic/configure.py",
+      "sha256": "6a6588edccce499f8841c9a62b60e515e5e6907bb60c59078bd2e2549a9b4337"
+    },
+    "tools/cpsf_deterministic/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_deterministic/contracts.py",
+      "sha256": "bcc24e270d57647ccf85236ebe6da4ea812a5b45aac023b3279b52497f01b843"
+    },
+    "tools/cpsf_deterministic/diagnose.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_deterministic/diagnose.py",
+      "sha256": "0ec073d3afc070d54ac1da39cc7c305e01036ba72fe8673cfefd4812484843ae"
+    },
+    "tools/cpsf_deterministic/job.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_deterministic/job.py",
+      "sha256": "c8e9eb017eb4169d63ad51bf843171cb72c818708c070b29b61f492cffc0ead4"
+    },
+    "tools/cpsf_deterministic/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_deterministic/model.py",
+      "sha256": "002187e942825f588039a0b726717039cace578d2e61c28c5804ffaecdfa7384"
+    },
+    "tools/cpsf_deterministic/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_deterministic/train.py",
+      "sha256": "75b0355aec4e0a2e38abe1b822085b3155a04e9a55c059683a6adfe0059e84d0"
+    },
+    "tools/cpsf_directional/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_directional/__init__.py",
+      "sha256": "5222234865da88df25a9e899b347dd3035822d7059ab3e5ec654699afca66763"
+    },
+    "tools/cpsf_directional/analyze.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_directional/analyze.py",
+      "sha256": "8e786eb322b11278e586678139f88fd89a1579c88c90621af683557ca648b7aa"
+    },
+    "tools/cpsf_directional/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_directional/common.py",
+      "sha256": "074fa9e5e3da10dbfc8b319cb7f64bfbcd7b2563fa4dcd1301997209f596df06"
+    },
+    "tools/cpsf_directional/configure.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_directional/configure.py",
+      "sha256": "abb401ea6b1fa126d0026b3ed95e4844274c5b30340c64669b0c13137695e5aa"
+    },
+    "tools/cpsf_directional/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_directional/contracts.py",
+      "sha256": "12b1b104fa177e68ddc0ef9d782bb1ef3814f5b88120a30a3982383f32569d84"
+    },
+    "tools/cpsf_directional/data.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_directional/data.py",
+      "sha256": "a9b3da3572d41029d1adb99c06c0f5e807808cb0e299e508b30a4dbe50b5dc09"
+    },
+    "tools/cpsf_directional/descriptor.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_directional/descriptor.py",
+      "sha256": "cf8a9d1951c5e0bd5edb61a966b65c2e2be7cf11e4f40aa0dfd5afe1e88d820c"
+    },
+    "tools/cpsf_directional/job.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_directional/job.py",
+      "sha256": "592b641827ea8e8ba0f355e2334e33eb938a6543d78f52d3658092b0185de21f"
+    },
+    "tools/cpsf_directional/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_directional/model.py",
+      "sha256": "9c18e245aa93f9a84582950092ff685245328899c766fdd9d16f34b196fd43f7"
+    },
+    "tools/cpsf_directional/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_directional/train.py",
+      "sha256": "6fdd1a9106a741975d5ffc254ef14c6d35be892ba3572b1d2492f8d2d1c6bb5d"
+    },
+    "tools/cpsf_fixed_core/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_core/__init__.py",
+      "sha256": "b8da4f506364c59fc3af2f966134c9508cf746843b5a41f15f71c7619aee4dac"
+    },
+    "tools/cpsf_fixed_core/analyze.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_core/analyze.py",
+      "sha256": "5911c47e4e2195b88ecbc8ffcf2a6d7ae56b4001f93c24db6db2772394506da7"
+    },
+    "tools/cpsf_fixed_core/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_core/common.py",
+      "sha256": "776d58a5e08e1a56746ae8295a38ec1dab4eb686a92b4f44bf9071301d05d400"
+    },
+    "tools/cpsf_fixed_core/configure.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_core/configure.py",
+      "sha256": "1611f600340fbe32c5041e26efb399fc37f8dfaa29640abc4a44e8ab49d848c8"
+    },
+    "tools/cpsf_fixed_core/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_core/contracts.py",
+      "sha256": "d3668f8162ca9bb128f6ca5b2417ba4210d2cd944f3c7826e2527d04fad14858"
+    },
+    "tools/cpsf_fixed_core/efficiency.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_core/efficiency.py",
+      "sha256": "61e2046353e98faf23c918d03a66cd938d0786a3584da5c76a5727c8e4e86915"
+    },
+    "tools/cpsf_fixed_core/job.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_core/job.py",
+      "sha256": "2b3267290d29208bdfc269b8c61f5ad4aa48fb4fe8c2ef324d154b7ecbac3939"
+    },
+    "tools/cpsf_fixed_core/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_core/model.py",
+      "sha256": "2b7fac89e211984e974b9feea46f27a71f40299c025ad31a7d00d52148bcf07a"
+    },
+    "tools/cpsf_fixed_core/pipeline.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_core/pipeline.py",
+      "sha256": "77eaddc1018f902b43d8f261803553f13e59d7167526a32baadf816a0b78d281"
+    },
+    "tools/cpsf_fixed_core/reference_check.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_core/reference_check.py",
+      "sha256": "c751bff1afb22cbf347aa3bcd45ef20a5004229cc999017e60ad22430b346094"
+    },
+    "tools/cpsf_fixed_core/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_core/train.py",
+      "sha256": "50f10d7414a23506c74a39dcdd04f6364b36ef859e6fd876b2d6ef8617e28a9a"
+    },
+    "tools/cpsf_fixed_nredd/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_nredd/__init__.py",
+      "sha256": "d9e92f4af9ffaa093fbaedb4751a5398a3fa7dda1e3f255586c13253f0f8aa5f"
+    },
+    "tools/cpsf_fixed_nredd/analyze.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_nredd/analyze.py",
+      "sha256": "8b0f56371f0495a792ac91caae9ddefd586f65f0d00f690ed820e72474f1d872"
+    },
+    "tools/cpsf_fixed_nredd/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_nredd/common.py",
+      "sha256": "316fe4ccf832b58d8dbc4f7551a9dd0619a5887bd4f79f889c08e954aefcade7"
+    },
+    "tools/cpsf_fixed_nredd/configure.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_nredd/configure.py",
+      "sha256": "e0339a5f864c588a59a1e9e3dbfc4401612f53d5c305f0aa4a83e15fe97cc9b2"
+    },
+    "tools/cpsf_fixed_nredd/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_nredd/contracts.py",
+      "sha256": "4e1192ec23ee983ba752b8d5a8e5389ee62053a6be904f576a9a30450b846769"
+    },
+    "tools/cpsf_fixed_nredd/data.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_nredd/data.py",
+      "sha256": "472fd4ee4a3b3f858bc83e4dcbf79894d40a3c7825ff53abba852eba75aeb80b"
+    },
+    "tools/cpsf_fixed_nredd/job.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_nredd/job.py",
+      "sha256": "9e0dde9dc672a1016824d8273f9943e6032d522024a62b0e5e8f4b8e5d4ef531"
+    },
+    "tools/cpsf_fixed_nredd/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_nredd/model.py",
+      "sha256": "a5cec6caeaab84d44b1158984a40216a67ffeb4b709afdae7625e0843d09e2fe"
+    },
+    "tools/cpsf_fixed_nredd/pipeline.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_nredd/pipeline.py",
+      "sha256": "73e98b660f47ea63e0fe049bc29d82a3072449b037db0f7729e1a903690bce6e"
+    },
+    "tools/cpsf_fixed_nredd/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_nredd/train.py",
+      "sha256": "3a789af082af60b0590ca4181458088f7f66eacfac50138fa914c4563c108d83"
+    },
+    "tools/cpsf_flywire_20260930/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_20260930/__init__.py",
+      "sha256": "f776a9002ad413f91887b08856eaa0befdf21b9fd41e8f64f65c53968107797d"
+    },
+    "tools/cpsf_flywire_20260930/build.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_20260930/build.py",
+      "sha256": "b306af80bdf059d8b78b191d3245f35af37b506c56944df0c974e2a8ac712e6c"
+    },
+    "tools/cpsf_flywire_20260930/configure.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_20260930/configure.py",
+      "sha256": "f7dd0d5a759b49923c2526cba8fbda670ddbe5bf0e301aa2cd767684e1abdb09"
+    },
+    "tools/cpsf_flywire_20260930/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_20260930/contracts.py",
+      "sha256": "b305995912348e7e3cf93c9242c62dacd8c2a29b13fb46a5c9ecdacb30fa3b54"
+    },
+    "tools/cpsf_flywire_20260930/evaluation.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_20260930/evaluation.py",
+      "sha256": "1c6f61a1919ae9a4a9724940cce6b0de6ba1a5afa6a68a597c209cdf3a4500a9"
+    },
+    "tools/cpsf_flywire_20260930/finalize.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_20260930/finalize.py",
+      "sha256": "44e1cc093db51c7fbf35ffa2a2fc31ea4b5649ac11dc4d63ab277da954e8c1f7"
+    },
+    "tools/cpsf_flywire_20260930/pipeline.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_20260930/pipeline.py",
+      "sha256": "becc1e15bf8439de5c4238a1e5f3e53596ef46f7f016dae16e9b4945fabf62c0"
+    },
+    "tools/cpsf_flywire_20260930/sampling.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_20260930/sampling.py",
+      "sha256": "90245bff52213b5234b9f8dea98c043e983b801fab4fb0dcff485dd4763ef290"
+    },
+    "tools/cpsf_flywire_20260930/task.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_20260930/task.py",
+      "sha256": "2f0c1baf741f515080ad78614ce5ea3eca65c8859d3ce3a8ec592bc2e77715d4"
+    },
+    "tools/cpsf_flywire_20260930/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_20260930/train.py",
+      "sha256": "21ceb1d2c32695032bdc2cbf7dbf0f80fef13e5d4e014a527225848db163574a"
+    },
+    "tools/cpsf_flywire_balanced/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_balanced/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    "tools/cpsf_flywire_balanced/configure.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_balanced/configure.py",
+      "sha256": "cf4ff3ab36b4d18477ff18a50ee53e827803212a846770f3c3734efec68c7825"
+    },
+    "tools/cpsf_flywire_balanced/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_balanced/contracts.py",
+      "sha256": "12eeae0bdcf1cd7b450829f3de74d0e4663110e0eb12c69a195babe83fafd566"
+    },
+    "tools/cpsf_flywire_balanced/loss.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_balanced/loss.py",
+      "sha256": "1bca0b333b2682f7e8b039841cf6919bf9e3ae3e84e88c9ae9f1258058eebf1f"
+    },
+    "tools/cpsf_flywire_balanced/pipeline.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_balanced/pipeline.py",
+      "sha256": "fbb476dc7e7e196a68de461e65d5bc99eae7bc7bef149d9ddc5b4f027b7eeb54"
+    },
+    "tools/cpsf_flywire_balanced/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_balanced/train.py",
+      "sha256": "0ab5f07cdb8b64cd7fe18d6045da2982358bafebc0f3dbcdbeaf5928357abcdd"
+    },
+    "tools/cpsf_flywire_coarse_cohort/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_coarse_cohort/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    "tools/cpsf_flywire_coarse_cohort/acquire.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_coarse_cohort/acquire.py",
+      "sha256": "05d1b1831ad96d0035152e976376fff540ece0fca9d8b48df69fdc3aca8e3db1"
+    },
+    "tools/cpsf_flywire_coarse_cohort/budget.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_coarse_cohort/budget.py",
+      "sha256": "21f622f52cffcb15c2f678d56542406afb57538d5d9af3871f2953a4d9346c1f"
+    },
+    "tools/cpsf_flywire_coarse_cohort/configure.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_coarse_cohort/configure.py",
+      "sha256": "e683c5c3e9b09fa0bea7b8e42180fc95e448ee8ee145ab59e67a2d37e1a29d77"
+    },
+    "tools/cpsf_flywire_coarse_cohort/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_coarse_cohort/contracts.py",
+      "sha256": "2ae3c4021573b0dcc5aa0126e06e25857744acba3c6b75ed8e7ea44cea809f7c"
+    },
+    "tools/cpsf_flywire_coarse_cohort/pipeline.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_coarse_cohort/pipeline.py",
+      "sha256": "59e8bfb9971ed07dd23ed6f0cbb7f9fca8fa62f838f0d32028d11accf12b89a8"
+    },
+    "tools/cpsf_flywire_coarse_cohort/plan.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_coarse_cohort/plan.py",
+      "sha256": "8fdfd8c9f4e45a88ddf4bc5f7934f6d3d376dcf02b440f6786a36cc3c29940b2"
+    },
+    "tools/cpsf_flywire_coarse_cohort/preflight.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_coarse_cohort/preflight.py",
+      "sha256": "acc648b7cb19ecf580b2cdfacc4b474f1e085315c541d6b443dfa2a0a94044f7"
+    },
+    "tools/cpsf_flywire_coarse_cohort/prepare.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_coarse_cohort/prepare.py",
+      "sha256": "987f902d60ae29ed56abf0d095cad5a7a1d5d5ee64f5855fa76abad5186f1129"
+    },
+    "tools/cpsf_flywire_coarse_cohort/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_coarse_cohort/train.py",
+      "sha256": "b4ceedfb017388b91d471f2e3849b39f50649c72dce09f89e6a3e870cd448d7f"
+    },
+    "tools/cpsf_flywire_convergence/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_convergence/__init__.py",
+      "sha256": "37fbab217e18218117cdb8371caca2ea1f938392ef5bb6f30206a5363f12a045"
+    },
+    "tools/cpsf_flywire_convergence/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_convergence/common.py",
+      "sha256": "4037676d83483513a60065b88a13adc5e4b44647dc3d8e64cac1fdd3ad32d7b7"
+    },
+    "tools/cpsf_flywire_convergence/configure.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_convergence/configure.py",
+      "sha256": "a1657e716458744aef32cea45765cd1a8a94a917c69290432f74d7b415d182a9"
+    },
+    "tools/cpsf_flywire_convergence/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_convergence/contracts.py",
+      "sha256": "16801e0f22773ab5dbb6bd374dfe672ad03a004a9f1ab508b12fbdd056fdc6ba"
+    },
+    "tools/cpsf_flywire_convergence/diagnose.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_convergence/diagnose.py",
+      "sha256": "16984fe0f585aa5a3e9ee4eef2f0fd7438aedf2a55cef603165be2684c7d9231"
+    },
+    "tools/cpsf_flywire_convergence/pipeline.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_convergence/pipeline.py",
+      "sha256": "dc2845aa9d9f1e3763d0b4059c482c968ab91165015329b7f7f0cd70c72adb6e"
+    },
+    "tools/cpsf_flywire_convergence/registry.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_convergence/registry.py",
+      "sha256": "d3c22bfee882892b97977da479605410c31c27eb7e7b2abbbedb92127b8301e8"
+    },
+    "tools/cpsf_flywire_convergence/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_convergence/train.py",
+      "sha256": "0eaabf508233612a12910db0e046adb17cb14193b75159218d18d7530570d778"
+    },
+    "tools/cpsf_flywire_v23/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_v23/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    "tools/cpsf_flywire_v23/configure.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_v23/configure.py",
+      "sha256": "21d9e0b5dc02e77f3e1e66eeab50290c745ad13a952c139f2e2780d28d97fbb4"
+    },
+    "tools/cpsf_flywire_v23/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_v23/contracts.py",
+      "sha256": "8222453cb59d141475c8c9f51f85c6ef8bc0fbda8d6fe9754ae4d2289b64cc9e"
+    },
+    "tools/cpsf_flywire_v23/data.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_v23/data.py",
+      "sha256": "579bc875af705a806b6b589b75d077627c98161cb7cae2c813dd39e7051628bd"
+    },
+    "tools/cpsf_flywire_v23/gradient_contract.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_v23/gradient_contract.py",
+      "sha256": "a5740d07007f95b7d553b2ce5d3604350b64b864665a7027937b0098702cd844"
+    },
+    "tools/cpsf_flywire_v23/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_v23/model.py",
+      "sha256": "d9baa4c88a61a1ba5f8befead937bb801acb2e02243dc672751b95f4b5547c8e"
+    },
+    "tools/cpsf_flywire_v23/pipeline.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_v23/pipeline.py",
+      "sha256": "b6d8dba0400ccbcdb60e305cbff5a840b23a71312372203bac165575baae6270"
+    },
+    "tools/cpsf_flywire_v23/prepare.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_v23/prepare.py",
+      "sha256": "8b3577df37581874d8dc4a43f14a75b57677051b51744aafb356ae6a745d6909"
+    },
+    "tools/cpsf_flywire_v23/test.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_v23/test.py",
+      "sha256": "5569d397a687ccb645f7d7d2b12daa6f549462b6635578fc61411969426f013d"
+    },
+    "tools/cpsf_flywire_v23/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_v23/train.py",
+      "sha256": "2671eb04e34bda2d87b1b4aa796896eae359932cf7b52d13eb9a89f2176afbb0"
+    },
+    "tools/cpsf_h01_topology_repair/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_h01_topology_repair/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "tools/cpsf_h01_topology_repair/adapter.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_h01_topology_repair/adapter.py",
+      "sha256": "82cc74a8e7ca26eb3562c670c372412414de61a72781e2ad87cd32eac131b85e"
+    },
+    "tools/cpsf_h01_topology_repair/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_h01_topology_repair/contracts.py",
+      "sha256": "390f110473856cfc4e4f74092267415c5b375d7cd3550041c5040f44146d0602"
+    },
+    "tools/cpsf_h01_topology_repair/pipeline.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_h01_topology_repair/pipeline.py",
+      "sha256": "7021b194df4fd74913642ad9ee3b1f006805c6980b15955935db59541eff7196"
+    },
+    "tools/cpsf_h01_topology_repair/run.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_h01_topology_repair/run.py",
+      "sha256": "7dbd3b6c793181b9d57591fe3a0926a1be8e70b47283cacf4caa487a3273c7c3"
+    },
+    "tools/cpsf_missing_edge/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_missing_edge/__init__.py",
+      "sha256": "65742ccdec3c01a96508903f452d36df25ce20e49126bbd30da1ed5180c83a82"
+    },
+    "tools/cpsf_missing_edge/analyze.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_missing_edge/analyze.py",
+      "sha256": "12d87686dcf12d3188cd92991e37ea0258f3b9bfc1d48aa9b7d7bd868637dd80"
+    },
+    "tools/cpsf_missing_edge/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_missing_edge/common.py",
+      "sha256": "b6cd6e7ab64f460a8a468ba8f7926a6fde48ea28aa716f86218206e1e60ca0e5"
+    },
+    "tools/cpsf_missing_edge/configure.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_missing_edge/configure.py",
+      "sha256": "9c09c0cc3e1d6a4375a4012d49ad988eb63be4f65a12eb88dda76ea8305857e6"
+    },
+    "tools/cpsf_missing_edge/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_missing_edge/contracts.py",
+      "sha256": "e197dfb9c81d1df38322f2146f43283ef567e96d519ccad59c6a78037fd803dd"
+    },
+    "tools/cpsf_missing_edge/job.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_missing_edge/job.py",
+      "sha256": "842203b739c816578070acb3b12ac47ea90ebfab7821e605233452abb05311f4"
+    },
+    "tools/cpsf_missing_edge/objective.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_missing_edge/objective.py",
+      "sha256": "0841a9b51e6784af84d7d4ba237d6caf3373605b42c56983a008a4ff406d5e78"
+    },
+    "tools/cpsf_missing_edge/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_missing_edge/train.py",
+      "sha256": "c742f70a97dc83c1cc71233b3f3f8d5c74aaf7f6d8baf0df2bf78267fbb9263a"
+    },
+    "tools/cpsf_next_core/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_next_core/common.py",
+      "sha256": "2c13b508aee5ad26643184bc3a6b7e937a75695fb43eef3b220ab16091e2a8f7"
+    },
+    "tools/cpsf_next_core/configure.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_next_core/configure.py",
+      "sha256": "278b78f57cb03cf462cc0f546fcf943f9e47e19c4f53cdc1e6c30e5f255847b2"
+    },
+    "tools/cpsf_next_core/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_next_core/contracts.py",
+      "sha256": "5b677aeea4762caed431910ea0306cde8c388eed764773f4f9b5146a8a4fcd2b"
+    },
+    "tools/cpsf_next_core/data.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_next_core/data.py",
+      "sha256": "7790a3c04613285f209ad796fffd838401a39c46b232721ce9de9a1c4a79fd01"
+    },
+    "tools/cpsf_next_core/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_next_core/model.py",
+      "sha256": "80e3acf3d863e57cabb6f05b36f362612102961c998e114234c3edd372861e08"
+    },
+    "tools/cpsf_next_core/prepare.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_next_core/prepare.py",
+      "sha256": "a72fddedeb48171d4152908ff2d96b2124a3684887274128f30f4188e1b0fe7a"
+    },
+    "tools/cpsf_next_core/sampling.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_next_core/sampling.py",
+      "sha256": "7b0f4696604ee9991752c554c488817e5056b62cef71a071c26f29b253c12974"
+    },
+    "tools/cpsf_next_core/scheduler.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_next_core/scheduler.py",
+      "sha256": "380aab410c44341fb644edf11d43c2de03900f8f0701520534d37ee7d0c468d2"
+    },
+    "tools/cpsf_next_core/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_next_core/train.py",
+      "sha256": "8654d5062b7f00b87a6f8264ad6ef223dd7f80309854e1c975d2693b47000fcc"
+    },
+    "tools/cpsf_official_integration/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_official_integration/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "tools/cpsf_official_integration/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_official_integration/common.py",
+      "sha256": "11bc9b0d1223ed3f3a6a2eb77396c520651f4c171c350cfcd2a5ee8edf055538"
+    },
+    "tools/cpsf_official_integration/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_official_integration/contracts.py",
+      "sha256": "f0b04f677f045f8a148968304f5f015793f9e7983d75b8aef2404c886f9934a9"
+    },
+    "tools/cpsf_official_integration/data.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_official_integration/data.py",
+      "sha256": "6a2cc3e9cb792bf16004672a8833ac8b3567294dee1558afd4719e07f584f670"
+    },
+    "tools/cpsf_official_integration/geo_import.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_official_integration/geo_import.py",
+      "sha256": "bad9ba8785ecdf6ae727fcbbc3184b5466f7f41f7b54bf66d282f685efad5b8d"
+    },
+    "tools/cpsf_official_integration/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_official_integration/model.py",
+      "sha256": "1f4cfc84aa5cbaa0536db7933bf42010a125be79196b4fd70d3e2295044d9a69"
+    },
+    "tools/cpsf_official_integration/scheduler.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_official_integration/scheduler.py",
+      "sha256": "8eae21a83a912912a88a3c605cc0faca15e65dec55c871cee5bd84e83252fba5"
+    },
+    "tools/cpsf_official_integration/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_official_integration/train.py",
+      "sha256": "d417069d5e4251cf6e2e304186b75031bdad45b9ed81410e73254f0272060b41"
+    },
+    "tools/cpsf_pair_region/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_pair_region/__init__.py",
+      "sha256": "a486135e70771298d24ec48ec2736cbd045e67ba9cb59e82937ba6029775d75e"
+    },
+    "tools/cpsf_pair_region/analyze.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_pair_region/analyze.py",
+      "sha256": "a361fec97b24143b81bc96eafdfad0c1f2361ee3c0ccad1c57234efc33386b63"
+    },
+    "tools/cpsf_pair_region/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_pair_region/common.py",
+      "sha256": "533ead2c01aab849bc41e7ab384b095fed208802ce78fcc257bd87ad88a05590"
+    },
+    "tools/cpsf_pair_region/configure.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_pair_region/configure.py",
+      "sha256": "e5a114d14405d1cb08ef783d387277c6153b0afc4877d299f6bf270a2ea806fa"
+    },
+    "tools/cpsf_pair_region/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_pair_region/contracts.py",
+      "sha256": "e2eb2ee2ed2686b1e12de6bec1bff0a8cb45ae61f0771c06fbedbefcaf70f749"
+    },
+    "tools/cpsf_pair_region/data.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_pair_region/data.py",
+      "sha256": "e675432aac5dae414fa32be9997cee79d40e404592110b4afd003aca79b0d339"
+    },
+    "tools/cpsf_pair_region/job.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_pair_region/job.py",
+      "sha256": "128189a937b84286c5cdc15f22ea4d6800277ef6e4c5dd058f539174b95f3d06"
+    },
+    "tools/cpsf_pair_region/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_pair_region/model.py",
+      "sha256": "e742d8201bdc05e62b6cb312dcab1722796edf6e5fe0f769466f10bbd52ba776"
+    },
+    "tools/cpsf_pair_region/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_pair_region/train.py",
+      "sha256": "31dd26b6207fa464f6d1bf0dac628d789d71e535d32c7b2fff4a492d77add65b"
+    },
+    "tools/cpsf_point_geometry/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_point_geometry/__init__.py",
+      "sha256": "8ba0263e4bde2757d129ad21a7ce569f579a160a368b00a39c1743a9cba857e4"
+    },
+    "tools/cpsf_point_geometry/analyze.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_point_geometry/analyze.py",
+      "sha256": "802815ac46235294dcdd7ca7095c852a917f7103fa6d14aa86cf4e3e67c94db0"
+    },
+    "tools/cpsf_point_geometry/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_point_geometry/common.py",
+      "sha256": "3af3a3b3a3bc7f86aad82d60696d105006e4d98c771f426f10d5b86cbd46eeeb"
+    },
+    "tools/cpsf_point_geometry/configure.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_point_geometry/configure.py",
+      "sha256": "77f56bafaaeca73c01781361ba00395ad6e983be90139b2d302f9685f9e3afd2"
+    },
+    "tools/cpsf_point_geometry/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_point_geometry/contracts.py",
+      "sha256": "644cd10e2a78def11259adfcde696d10b48aabaf7b0b6233f79da51487df805c"
+    },
+    "tools/cpsf_point_geometry/data.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_point_geometry/data.py",
+      "sha256": "07fa236a0fa7c7acc4870432f4a3b0d10a3686c15ece10e4cadca9ff02fbff0d"
+    },
+    "tools/cpsf_point_geometry/descriptor.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_point_geometry/descriptor.py",
+      "sha256": "66033f4edd49ba4ce70d961b325b1a229b55fdef4a4b0cc84b15bd5a5db3a17f"
+    },
+    "tools/cpsf_point_geometry/job.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_point_geometry/job.py",
+      "sha256": "863ee370b3f02449bd3ebecad032d635b6481f8474e6ce12a17d3b4586f1e2ea"
+    },
+    "tools/cpsf_point_geometry/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_point_geometry/model.py",
+      "sha256": "8b5566952f52babd7596d1e8b4e0fbfa22ac265f128ef18c640465523ccae49a"
+    },
+    "tools/cpsf_point_geometry/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_point_geometry/train.py",
+      "sha256": "81bffb89dc21eda6d7e1f14ba5513d9cdbc4d3eb65fc2a2d0ec7dbda13d809d5"
+    },
+    "tools/cpsf_r28_expansion/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_r28_expansion/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "tools/cpsf_r28_expansion/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_r28_expansion/common.py",
+      "sha256": "feb306e203cc0f19ca6f322d4fc90dfa2bae5a047168ccda81e349dc31456735"
+    },
+    "tools/cpsf_r28_expansion/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_r28_expansion/contracts.py",
+      "sha256": "26cfdeddb6e47629d8e5733a2668a2bb1c5c819c34bdbe6331c10ec447ae7a4a"
+    },
+    "tools/cpsf_r28_expansion/data.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_r28_expansion/data.py",
+      "sha256": "df956d652183781eee81ba945d5dde55553573be3f49e425ce5c9a2e521f2382"
+    },
+    "tools/cpsf_r28_expansion/input_audit.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_r28_expansion/input_audit.py",
+      "sha256": "1d52347f69ed3a66006763b9c9d65afd9d8d06fd5e8e4d2ebe63df237cfeb6ff"
+    },
+    "tools/cpsf_r28_expansion/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_r28_expansion/model.py",
+      "sha256": "8ec5035374bd334bc73bb76c45530ee00aa37f2809be14633063c1852d1ade3e"
+    },
+    "tools/cpsf_r28_expansion/scheduler.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_r28_expansion/scheduler.py",
+      "sha256": "a2d9edf371d263152f8ee74d9f72274a2344daa4d5bd5533a88f82398068fd4f"
+    },
+    "tools/cpsf_r28_expansion/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_r28_expansion/train.py",
+      "sha256": "da5b0e5bcea920322232d0e9cc1afabf10dd9cc51ed087f12c2ee4cb61e28c05"
+    },
+    "tools/cpsf_r9_expansion/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_r9_expansion/__init__.py",
+      "sha256": "60a50d420c483194f5630a9bb005db946bb282c3df4f10c59421296c93aee031"
+    },
+    "tools/cpsf_r9_expansion/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_r9_expansion/contracts.py",
+      "sha256": "36ccdfeba283ed3d8f68a752861adc08ebb4aa90f51651fd883d08ff76388b6d"
+    },
+    "tools/cpsf_r9_expansion/data.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_r9_expansion/data.py",
+      "sha256": "7007ffe30a5a24450dc6bfe73595490c38c6b32417d4d685ddca81ecc7820ecb"
+    },
+    "tools/cpsf_r9_expansion/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_r9_expansion/model.py",
+      "sha256": "a73a5d84d9e561afa2b9ee125e47cb65188a906346777bb6bbb1898b71d0895d"
+    },
+    "tools/cpsf_r9_expansion/prepare.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_r9_expansion/prepare.py",
+      "sha256": "dfe549b75fb8f678182e3dba67c1d9cba3190a2f0b586ccd8da9b89da51ab822"
+    },
+    "tools/cpsf_r9_expansion/scheduler.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_r9_expansion/scheduler.py",
+      "sha256": "9c48df59d62361bce58b6f6a106eb3ed6de4eeccffa0ab6cca10205f4de9fc66"
+    },
+    "tools/cpsf_r9_expansion/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_r9_expansion/train.py",
+      "sha256": "cb8d7e1fa7344f74bec02ec81876fd9e2cf25c86fed83452e817a2d62b505ead"
+    },
+    "tools/cpsf_raw_point_attention/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_raw_point_attention/__init__.py",
+      "sha256": "c01ab53a5fa8957cf73ab371f4e6c521b331edb331f505526659952aee2d9950"
+    },
+    "tools/cpsf_raw_point_attention/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_raw_point_attention/common.py",
+      "sha256": "f120c327aafef2ec4f200f4141e38c261fa46ee18f613d85fa222e87ff9d3ef2"
+    },
+    "tools/cpsf_raw_point_attention/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_raw_point_attention/contracts.py",
+      "sha256": "6eb7ece59347e266c3568e8a00b3a378fb14b1e82e52817ce56193811e449af6"
+    },
+    "tools/cpsf_raw_point_attention/data.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_raw_point_attention/data.py",
+      "sha256": "44e0fb5ce2ed3273b6c22df85dae99082e201728a8b63c40bf780a262b30b14c"
+    },
+    "tools/cpsf_raw_point_attention/freeze.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_raw_point_attention/freeze.py",
+      "sha256": "218a44313199da226d15456dcade63550d38dfe40951140b434b6cec02029bf6"
+    },
+    "tools/cpsf_raw_point_attention/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_raw_point_attention/model.py",
+      "sha256": "7a4b3129054e0b13e05edfcc36f4e91443ba7d0c87ad850b382f41f8c2d3eb49"
+    },
+    "tools/cpsf_raw_point_attention/official.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_raw_point_attention/official.py",
+      "sha256": "09879ebba58a4f2076c7c544a7c214886241eb09b20fe7ceb970eb6dd44a1cc2"
+    },
+    "tools/cpsf_raw_point_attention/replay.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_raw_point_attention/replay.py",
+      "sha256": "a9e93048318ea269fad0ce8be72cd853eb87a8c890948d85251d59434a55ea9b"
+    },
+    "tools/cpsf_raw_point_attention/scheduler.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_raw_point_attention/scheduler.py",
+      "sha256": "12dad7b05c69b8c9fef78faffb5e058516e8a673686b6e1668247f37cfaa2591"
+    },
+    "tools/cpsf_raw_point_attention/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_raw_point_attention/train.py",
+      "sha256": "79edef0010ea9253456bc10d4de48dd4305ad966a4fc6925d030088c2acd05e8"
+    },
+    "tools/cpsf_targeted_repair/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_targeted_repair/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "tools/cpsf_targeted_repair/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_targeted_repair/common.py",
+      "sha256": "09bbd02cf4a8c5e1f84c62c3f4817e41974c63e6d8864cd9ede1753cdb1af560"
+    },
+    "tools/cpsf_targeted_repair/configure.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_targeted_repair/configure.py",
+      "sha256": "25545c4fc72886fdcad7e52c5c62aab5b7205d0f566c5c30efe506805f325886"
+    },
+    "tools/cpsf_targeted_repair/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_targeted_repair/contracts.py",
+      "sha256": "7a8d778ffa376a2913d8f34475b9b498ea728e95695a46c48cb943670b239eee"
+    },
+    "tools/cpsf_targeted_repair/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_targeted_repair/model.py",
+      "sha256": "27532d4b44f3b9b748e7c1709ac351e4278e3b12597951d7e18e8a51b3ee8115"
+    },
+    "tools/cpsf_targeted_repair/prepare.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_targeted_repair/prepare.py",
+      "sha256": "b9684bfa09eb917b2e1bc57984027ed3e69c4e07b669c44d7f0345cd407e3432"
+    },
+    "tools/cpsf_targeted_repair/scheduler.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_targeted_repair/scheduler.py",
+      "sha256": "cd0233a179b33f0a9527f3d21651c72b8a06f60db6ec01b35621a11b4acc85b8"
+    },
+    "tools/cpsf_targeted_repair/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_targeted_repair/train.py",
+      "sha256": "939d8f776afa3dbdbcf09ff4561610bf72324cb85a6bc6f1c714e5d389bc4038"
+    },
+    "tools/cpsf_utonia_context/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_utonia_context/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "tools/cpsf_utonia_context/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_utonia_context/common.py",
+      "sha256": "627184d543655dfa6416a61c4b38d653376279d375e4a9f3bb0ab0996168029d"
+    },
+    "tools/cpsf_utonia_context/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_utonia_context/contracts.py",
+      "sha256": "db9147ff655b756203fb4f5dd94616d177ba5d0cf04bbbcd9977da16701155b2"
+    },
+    "tools/cpsf_utonia_context/data.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_utonia_context/data.py",
+      "sha256": "6a2cc3e9cb792bf16004672a8833ac8b3567294dee1558afd4719e07f584f670"
+    },
+    "tools/cpsf_utonia_context/geo_import.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_utonia_context/geo_import.py",
+      "sha256": "bad9ba8785ecdf6ae727fcbbc3184b5466f7f41f7b54bf66d282f685efad5b8d"
+    },
+    "tools/cpsf_utonia_context/kernel_policy.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_utonia_context/kernel_policy.py",
+      "sha256": "7b19e46ed2dc9a0b7189831c1d50e88018dce6b6dcc0cb4afb73b6616913bcd0"
+    },
+    "tools/cpsf_utonia_context/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_utonia_context/model.py",
+      "sha256": "b57c81695d914ca1c51bf8dd44fa4a4daee89ee20f0a16ac3d4c4a3b3e3059d5"
+    },
+    "tools/cpsf_utonia_context/scheduler.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_utonia_context/scheduler.py",
+      "sha256": "8b600c17339a2c5aee572864a9f58c85e6f4f88a8b671a962def14ec6185ed60"
+    },
+    "tools/cpsf_utonia_context/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_utonia_context/train.py",
+      "sha256": "7225400bc7727abb387f986b9562c0ea44b237643994d71ec48ae585235b3ba5"
+    },
+    "tools/cpsf_utonia_repair/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_utonia_repair/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "tools/cpsf_utonia_repair/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_utonia_repair/common.py",
+      "sha256": "11bc9b0d1223ed3f3a6a2eb77396c520651f4c171c350cfcd2a5ee8edf055538"
+    },
+    "tools/cpsf_utonia_repair/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_utonia_repair/contracts.py",
+      "sha256": "aa15fecd3123ea4eb15eea1880f9f09cdc234bfc4c7344fb4ba5185ee485f83c"
+    },
+    "tools/cpsf_utonia_repair/data.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_utonia_repair/data.py",
+      "sha256": "6a2cc3e9cb792bf16004672a8833ac8b3567294dee1558afd4719e07f584f670"
+    },
+    "tools/cpsf_utonia_repair/geo_import.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_utonia_repair/geo_import.py",
+      "sha256": "bad9ba8785ecdf6ae727fcbbc3184b5466f7f41f7b54bf66d282f685efad5b8d"
+    },
+    "tools/cpsf_utonia_repair/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_utonia_repair/model.py",
+      "sha256": "680374a8d8e52d41752aad28e4364a0fa85b25f30733e34b6b03c7a314219aea"
+    },
+    "tools/cpsf_utonia_repair/scheduler.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_utonia_repair/scheduler.py",
+      "sha256": "d5b57b29a29397e57104d16b15f2d0ff4b0e164a26efae0c179037bf1feea973"
+    },
+    "tools/cpsf_utonia_repair/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_utonia_repair/train.py",
+      "sha256": "d417069d5e4251cf6e2e304186b75031bdad45b9ed81410e73254f0272060b41"
+    },
+    "tools/cpsf_v18_clean_core/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v18_clean_core/__init__.py",
+      "sha256": "5ecc9783c3564097e603e6d899a3e974ad735f8cbd18e9c8da6f79ea6511fc18"
+    },
+    "tools/cpsf_v18_clean_core/cell.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v18_clean_core/cell.py",
+      "sha256": "58395263e4808bf9fdaf37d7d05c281f5270af66257bf92515d4bf2ec8847580"
+    },
+    "tools/cpsf_v18_clean_core/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v18_clean_core/common.py",
+      "sha256": "184c2d71052c5004fd6efab10a9c0544b9d2c25e46aae58c05e990faf066ba64"
+    },
+    "tools/cpsf_v18_clean_core/data.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v18_clean_core/data.py",
+      "sha256": "0f73e26409dfa3904ed0a9249244d7c489b3bdec5c48baa4728a784f986d62c5"
+    },
+    "tools/cpsf_v18_clean_core/decoders.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v18_clean_core/decoders.py",
+      "sha256": "44af806689c376d67ccb3faed4ad01ea52cec9d9c4836b2bce9de0c53678c3a7"
+    },
+    "tools/cpsf_v18_clean_core/encoder.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v18_clean_core/encoder.py",
+      "sha256": "00b6c204f7543ef79903ec4fa82263290297551d4443954c576b6d9f5e7e37ae"
+    },
+    "tools/cpsf_v18_clean_core/geometry.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v18_clean_core/geometry.py",
+      "sha256": "0d3da21a0154af81213300ccc14f78f03490d227d988dccd773250bb15af0e43"
+    },
+    "tools/cpsf_v18_clean_core/offload.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v18_clean_core/offload.py",
+      "sha256": "8e461b0b0d2a2b9f8d8e89bc76462d20ce79530fd015f2fea7ac05b246ec7308"
+    },
+    "tools/cpsf_v18_clean_core/point_cache.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v18_clean_core/point_cache.py",
+      "sha256": "35fbdbb6966c6d75c574b48cf4f995795acfa1151eab8ba2cd1c920c2d09f7d3"
+    },
+    "tools/cpsf_v18_clean_core/queue.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v18_clean_core/queue.py",
+      "sha256": "cd40156556a8a17f549426fac375410b0a63f87a496d7525601ebc75470d0cb3"
+    },
+    "tools/cpsf_v18_clean_core/stress.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v18_clean_core/stress.py",
+      "sha256": "e375a0409bb6b128c71d49eec6f231b6f3718f7a9930b87ca11890daf220f091"
+    },
+    "tools/cpsf_v18_clean_core/test_contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v18_clean_core/test_contracts.py",
+      "sha256": "5f3c9f73d401f0ea6c7251a8d925dd9839b5d249cb9285fc6b3c34d39cc642c3"
+    },
+    "tools/cpsf_v18_clean_core/test_queue.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v18_clean_core/test_queue.py",
+      "sha256": "464e35271bf186d5d339814e3c272155454054ec856fd65f36347a40622959b2"
+    },
+    "tools/cpsf_v18_clean_core/tlp_adapter.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v18_clean_core/tlp_adapter.py",
+      "sha256": "b501b2f3583a82b6553111731c7a88ba3dfa7b0bf45ac72194ce3a30c03cc02d"
+    },
+    "tools/cpsf_v18_clean_core/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v18_clean_core/train.py",
+      "sha256": "8882f6ffc925d79681750738d636bf5e58e7eb8ddb2dbab15bef39f1844dbb8b"
+    },
+    "tools/cpsf_v19_measure_core/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v19_measure_core/__init__.py",
+      "sha256": "a34d9a0a2d45c18ba2c40abced73e1afc5ff600317a7ecfb13e8cbb8608a0903"
+    },
+    "tools/cpsf_v19_measure_core/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v19_measure_core/contracts.py",
+      "sha256": "54b60665da982206c43442210a931efd0af5964f50140fa9b2b9d310f2c5accd"
+    },
+    "tools/cpsf_v19_measure_core/data.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v19_measure_core/data.py",
+      "sha256": "fa9f82aa8da5e9e6044280bbb9aeb17d113018b2525fb9a6394b658de1537bda"
+    },
+    "tools/cpsf_v19_measure_core/geometry.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v19_measure_core/geometry.py",
+      "sha256": "e4178dba00bedbacde6a53429cc4f110b62c6a55f42eb1cec2291eb6dabc0efc"
+    },
+    "tools/cpsf_v19_measure_core/global_task.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v19_measure_core/global_task.py",
+      "sha256": "9c35493bd991c86994ed2145cbd22853ec4f6e1fe90bde7614bf1609af8ad2c1"
+    },
+    "tools/cpsf_v19_measure_core/io.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v19_measure_core/io.py",
+      "sha256": "a8d4b4a339bb444eb947f9e775aa488603d65323f9940396726fe84093f5b64d"
+    },
+    "tools/cpsf_v19_measure_core/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v19_measure_core/model.py",
+      "sha256": "809096809a887d2e1ffac6b775cbabd6f11e181dafae18a085219d6c01e5dc42"
+    },
+    "tools/cpsf_v19_measure_core/preflight.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v19_measure_core/preflight.py",
+      "sha256": "5c827d293840c067478c3e5efd619616a9a17fc56675be8353236e1c3431d63c"
+    },
+    "tools/cpsf_v19_measure_core/scheduler.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v19_measure_core/scheduler.py",
+      "sha256": "24ec63833ab50d1cbacf1b452bc2c305bfbab92a27fce6dc2480b84987ed0cd7"
+    },
+    "tools/cpsf_v19_measure_core/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v19_measure_core/train.py",
+      "sha256": "d94770d18aaeaa96d66046992cd8d41d021c89b4248799257dc2a0acd789213b"
+    },
+    "tools/cpsf_v21_segment_units/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v21_segment_units/__init__.py",
+      "sha256": "a34d9a0a2d45c18ba2c40abced73e1afc5ff600317a7ecfb13e8cbb8608a0903"
+    },
+    "tools/cpsf_v21_segment_units/configure.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v21_segment_units/configure.py",
+      "sha256": "3b4ff9e3293e29cfdd47e4104cbe85fe6cf14e7a3dc9c568ad67e49189a3a43f"
+    },
+    "tools/cpsf_v21_segment_units/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v21_segment_units/contracts.py",
+      "sha256": "44e0d686a9a571cd92a33ad296dac1888bfc103a856ecf27ea7eb5db6614d7d2"
+    },
+    "tools/cpsf_v21_segment_units/geometry.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v21_segment_units/geometry.py",
+      "sha256": "e4178dba00bedbacde6a53429cc4f110b62c6a55f42eb1cec2291eb6dabc0efc"
+    },
+    "tools/cpsf_v21_segment_units/global_task.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v21_segment_units/global_task.py",
+      "sha256": "02f557d5fb0d41c02cd45c12cb655dece8528a8c8765a477b7d06eb1976bc287"
+    },
+    "tools/cpsf_v21_segment_units/io.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v21_segment_units/io.py",
+      "sha256": "45d731efbfba44c377092c095b7775c9c5b6c2e73a08c9e16f7f4c2a022a500d"
+    },
+    "tools/cpsf_v21_segment_units/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v21_segment_units/model.py",
+      "sha256": "1293e8f12cc2b69f0e54e1922e68151b167b5037cfe21188aeab43a4778375e5"
+    },
+    "tools/cpsf_v21_segment_units/pipeline.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v21_segment_units/pipeline.py",
+      "sha256": "ea26751b25610d158a514730c38d041cb1d8c8f15a86ea41d63c21241ca10078"
+    },
+    "tools/cpsf_v21_segment_units/readout.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v21_segment_units/readout.py",
+      "sha256": "697a774e9ba4f7c31e081268e377e86cb5f82b8e148bb6d34f6e216d6e9bbc49"
+    },
+    "tools/cpsf_v21_segment_units/segments.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v21_segment_units/segments.py",
+      "sha256": "d886142d802d393f1ae26f44b32083bf5537ea19d0f11bde533e633b782e8e42"
+    },
+    "tools/cpsf_v21_segment_units/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v21_segment_units/train.py",
+      "sha256": "d4b7ad040c9606894dfd87d3d77680464f67031e222b00a400b77eb8d620907e"
+    },
+    "tools/cpsf_v22_shared_region/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v22_shared_region/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "tools/cpsf_v22_shared_region/configure.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v22_shared_region/configure.py",
+      "sha256": "05e8412886e0527a33816b69771bc1c02d05432dc701a847bdd898dcc79468ab"
+    },
+    "tools/cpsf_v22_shared_region/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v22_shared_region/contracts.py",
+      "sha256": "2586d85a4e3e59f16feaefce66afe7192c6af7aa7683cd1c7c1444ff3da84d87"
+    },
+    "tools/cpsf_v22_shared_region/data.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v22_shared_region/data.py",
+      "sha256": "cd496e6c9efae242e2424598077e539db86f32602b7d2f2a62703e183d7d8126"
+    },
+    "tools/cpsf_v22_shared_region/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v22_shared_region/model.py",
+      "sha256": "910d9c1a0ddcab6fc69896f98a8cf205f670bbe53616b2d836995db62cbf971d"
+    },
+    "tools/cpsf_v22_shared_region/pipeline.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v22_shared_region/pipeline.py",
+      "sha256": "9da5ce7d8dd3ca4e4983439c47233498b9609054b71860fb3eadfbaeaaaad222"
+    },
+    "tools/cpsf_v22_shared_region/prepare.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v22_shared_region/prepare.py",
+      "sha256": "a809f4d6ce48e2fd018cc873b3ab0faeeae489e3dd06d8f90635486dd285f9f9"
+    },
+    "tools/cpsf_v22_shared_region/support.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v22_shared_region/support.py",
+      "sha256": "ef09a70a59784371b4f8d109c99167b333975e5ea2364cc2e82f098cee71417d"
+    },
+    "tools/cpsf_v22_shared_region/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v22_shared_region/train.py",
+      "sha256": "e61cf63185cd31b170802a10d6f35384465d17332494353833be5802e411f72e"
+    },
+    "tools/cpsf_v23_residual_region/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v23_residual_region/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    "tools/cpsf_v23_residual_region/configure.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v23_residual_region/configure.py",
+      "sha256": "af05ffda4b0c480547a77cb7b6ac8edd67f396274fcff521e43404a5fb605bd4"
+    },
+    "tools/cpsf_v23_residual_region/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v23_residual_region/contracts.py",
+      "sha256": "05c0bbae1bca98a7e7e292a1229ddce80a18c6d68c972c7f3fc452885efa55ea"
+    },
+    "tools/cpsf_v23_residual_region/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v23_residual_region/model.py",
+      "sha256": "bd3e682f595d74192b36417778c3267ff6effec2b1325365f1cb8397726640b7"
+    },
+    "tools/cpsf_v23_residual_region/pipeline.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v23_residual_region/pipeline.py",
+      "sha256": "b274f4fd64a80e0a2f6bb6dc73bfb9e5cfb570d9f9de92c8456b7c88afe98348"
+    },
+    "tools/cpsf_v23_residual_region/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v23_residual_region/train.py",
+      "sha256": "92b087cc124dbf326a48ef06f74eaaa475d67d17967b56cd020b6cf0fdad63c6"
+    },
+    "tools/cpsf_v23_scale_ablation/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v23_scale_ablation/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "tools/cpsf_v23_scale_ablation/configure.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v23_scale_ablation/configure.py",
+      "sha256": "004cc2b96e8247fcb63f8427b88ffc6701189ab3aae7930f237fd02e0096f738"
+    },
+    "tools/cpsf_v23_scale_ablation/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v23_scale_ablation/contracts.py",
+      "sha256": "2621a8e9cfa6df1ae11ea5cce8cb8fc50ea3e4994c648d3357055cfe1d04d52a"
+    },
+    "tools/cpsf_v23_scale_ablation/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v23_scale_ablation/model.py",
+      "sha256": "7179d81fbfa3b132cef7948d180db0c7838001cd22475d78459a22315ca288d7"
+    },
+    "tools/cpsf_v23_scale_ablation/pipeline.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v23_scale_ablation/pipeline.py",
+      "sha256": "975f2a65ea0eab9d6b00a00708600b9267ed192fb4f4401be8bfcc1331460947"
+    },
+    "tools/cpsf_v23_scale_ablation/prepare.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v23_scale_ablation/prepare.py",
+      "sha256": "a66979684be3d6386341aa38831f99117fb3ee624fad04b03af188d1739cb59d"
+    },
+    "tools/cpsf_v23_scale_ablation/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v23_scale_ablation/train.py",
+      "sha256": "76784dbc37b3eb6e5d589a597b08109612d710c73e0d291deb4d3e0c8898481b"
+    },
+    "tools/cpsf_v24_physical_conditioning/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v24_physical_conditioning/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "tools/cpsf_v24_physical_conditioning/configure.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v24_physical_conditioning/configure.py",
+      "sha256": "f0c51296d29fbad04e4ecc46d0788506f1d1fa0a763bbd878b290e2cf49a598d"
+    },
+    "tools/cpsf_v24_physical_conditioning/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v24_physical_conditioning/contracts.py",
+      "sha256": "06e438c7a7a2c174c789ac7b4ab10445b81075488b92b2e60fff792feee9877f"
+    },
+    "tools/cpsf_v24_physical_conditioning/data.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v24_physical_conditioning/data.py",
+      "sha256": "20de0d31ce7a0b2b4eb5ac7f434afea73048dde2b7534865583d8fc0702ee935"
+    },
+    "tools/cpsf_v24_physical_conditioning/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v24_physical_conditioning/model.py",
+      "sha256": "0fea04642eac12ad1ed62e5ec76919ee68eac6cca2be3827eee6c58cffdff39f"
+    },
+    "tools/cpsf_v24_physical_conditioning/pipeline.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v24_physical_conditioning/pipeline.py",
+      "sha256": "345c139e5f9962b4d194b68b88ad1224b136702bad39c1c11ae14d65f3ae25c2"
+    },
+    "tools/cpsf_v24_physical_conditioning/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v24_physical_conditioning/train.py",
+      "sha256": "0f4d0879a469a9f2a6a328129cc4c7dbaff92acb3240452615618673eb70ea09"
+    },
+    "tools/cpsf_v25_position_routing/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v25_position_routing/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    "tools/cpsf_v25_position_routing/configure.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v25_position_routing/configure.py",
+      "sha256": "41e584b2ffdf58f3c41884bd5f901a6ca28a5ff4a2cce83295ddeccacec40749"
+    },
+    "tools/cpsf_v25_position_routing/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v25_position_routing/contracts.py",
+      "sha256": "e7da48668d6329d94628386a78e9bbef2a25ac70232ec14ee8f9d74766fe7490"
+    },
+    "tools/cpsf_v25_position_routing/data.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v25_position_routing/data.py",
+      "sha256": "4d53205cf5d27ac0f2a0477d22931e721e08767ac4a64d190d62ea19f47c12c8"
+    },
+    "tools/cpsf_v25_position_routing/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v25_position_routing/model.py",
+      "sha256": "222f42b0c9e527847f2b516f09f1b2f7ff1ec820d6449a144e3f1b8acdfa1f36"
+    },
+    "tools/cpsf_v25_position_routing/pipeline.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v25_position_routing/pipeline.py",
+      "sha256": "7bd27184f049380e6dd1b912fe17a4d16e4080066f8d59a1aefd86677f122690"
+    },
+    "tools/cpsf_v25_position_routing/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v25_position_routing/train.py",
+      "sha256": "75de9eb38c7f0ee432c0e4eaee32fdce512bcfdcee3ac61d48018c271c6f1004"
+    },
+    "tools/cpsf_v26_complete/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v26_complete/__init__.py",
+      "sha256": "6f4d1c88242ae67b882c7f2419c2fc02941f2874951990dbb07843e456b13776"
+    },
+    "tools/cpsf_v26_complete/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v26_complete/common.py",
+      "sha256": "254ee07ee016e099bd1a89639f842f9f723c9d3bb9f1cdf94a925acdfa73ced0"
+    },
+    "tools/cpsf_v26_complete/configure.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v26_complete/configure.py",
+      "sha256": "58bc679718e6a6b2a6920ace88a0351b717673210c3a59d65c2483380af097e6"
+    },
+    "tools/cpsf_v26_complete/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v26_complete/contracts.py",
+      "sha256": "3d0302e1f753b3e9b16ea94424fb1c0a83d679f5a923a123a2b55b5e3cfdbfe5"
+    },
+    "tools/cpsf_v26_complete/job.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v26_complete/job.py",
+      "sha256": "b1271dc42f067727f6eebf5aa4031e352bba40caa59db91320242c5de864fef1"
+    },
+    "tools/cpsf_v26_complete/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v26_complete/model.py",
+      "sha256": "902098240a9e88dfe55b873d7a269a8d232606c8e4d4b730feaa75d768805017"
+    },
+    "tools/cpsf_v26_complete/pipeline.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v26_complete/pipeline.py",
+      "sha256": "71a4856756946521dabd217decd0e9ee79b5d1225bdcdec2cedbd06fcbf9d51e"
+    },
+    "tools/cpsf_v26_complete/prepare.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v26_complete/prepare.py",
+      "sha256": "4d70667099821ac548ec8c9ee3a393f23afcbb2622062f3930c368f7b15c14d1"
+    },
+    "tools/cpsf_v26_complete/reference_check.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v26_complete/reference_check.py",
+      "sha256": "e992f22fdb1c653b4e12e55c1928b885c4cc2421e0d3d8917cea9f8131948d2a"
+    },
+    "tools/cpsf_v26_complete/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v26_complete/train.py",
+      "sha256": "f1b8555228a58f110bac798644119cd394e1c6b84373339eff40d32d45b9ebae"
+    },
+    "tools/spatial_grouped_split/audit_official_tlp_spatial_leakage.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/spatial_grouped_split/audit_official_tlp_spatial_leakage.py",
+      "sha256": "1e5d2a1e548d6245d49b940aeabc25e96f45c2c61c5ab7208245e41158aad198"
+    },
+    "tools/spatial_grouped_split/audit_tlp_spatial_grouped_split.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/spatial_grouped_split/audit_tlp_spatial_grouped_split.py",
+      "sha256": "0db5f51821ca5530f3f6f0e45df46027ec90975182506a9d022c4360b3941b00"
+    },
+    "tools/spatial_grouped_split/build_tlp_spatial_grouped_split.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/spatial_grouped_split/build_tlp_spatial_grouped_split.py",
+      "sha256": "d5fae4d6f249e1014720097a5033dbe21c8e560abce03d8153d4ad3b6204f030"
+    },
+    "tools/spatial_grouped_split/evaluate_tlp_bridge_surface_v1.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/spatial_grouped_split/evaluate_tlp_bridge_surface_v1.py",
+      "sha256": "98409e60ac48063d7b14bcb2dd453bb312c26935dcf242eb7b7270d82abe03c6"
+    },
+    "tools/spatial_grouped_split/evaluate_tlp_spatial_grouped_v1.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/spatial_grouped_split/evaluate_tlp_spatial_grouped_v1.py",
+      "sha256": "aef605868ff2b4e4161685c6142f0374e29d67fb2af38eac593c7643d43ffcf0"
+    },
+    "tools/cpsf_geometry_rebench/bootstrap.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/tools/cpsf_geometry_rebench/bootstrap.py",
+      "sha256": "117abaa578820d39c78fe0b5fec26f70db46bf5688bd4ce7e31b0fefc312d59d"
+    },
+    "tools/cpsf_geometry_rebench/worker.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/tools/cpsf_geometry_rebench/worker.py",
+      "sha256": "bc15625dca53b8ad2934b27ac84e83dd30daa5bfa525463161ffab51152e5c24"
+    },
+    "tools/cpsf_geometry_rebench/backend.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/tools/cpsf_geometry_rebench/backend.py",
+      "sha256": "b2ed439a14562f1b7c38167ebb1f510a991c9df9278f09f089d38a9210a78a6f"
+    },
+    "tools/cpsf_geometry_rebench/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/tools/cpsf_geometry_rebench/__init__.py",
+      "sha256": "b11734e646233f8a0509af0e4e4310731c77b14aaa3b18e5edf01dc174ff7db6"
+    },
+    "tools/cpsf_geometry_rebench/sources.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/tools/cpsf_geometry_rebench/sources.py",
+      "sha256": "3a8d3e261e04cb7d6bcdd14c0f201b861c84fcc172c5c90416368aacfa26067b"
+    },
+    "tools/cpsf_geometry_rebench/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/tools/cpsf_geometry_rebench/common.py",
+      "sha256": "050554a1c2060f613b377d8aabf390bcb235908614e56445c2577ad01ffb754c"
+    },
+    "tools/cpsf_geometry_rebench/pipeline.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/tools/cpsf_geometry_rebench/pipeline.py",
+      "sha256": "e3bddfe7706e47da91696867073ce2c28959f2c64c8936ea8128ecc35f9286f9"
+    },
+    "tools/cpsf_geometry_rebench/sampling.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/tools/cpsf_geometry_rebench/sampling.py",
+      "sha256": "9cee52695b6effc949c51d8cda625e5b940f8dae22ccf04462c27c2ee7057871"
+    },
+    "tools/cpsf_geometry_rebench/prepare.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/tools/cpsf_geometry_rebench/prepare.py",
+      "sha256": "b07ee25863f1f205e35bf4844d493acb4a8dd044743449877b92dd51b08b1e3f"
+    },
+    "tools/cpsf_r34_fps_rebench/bootstrap.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_FPS_REBENCH_20261021_A2/tools/cpsf_r34_fps_rebench/bootstrap.py",
+      "sha256": "96dda25ddae3ef2f96b6e8da4bb7392bd0b2a804dfb7cb18da81451dd4387534"
+    },
+    "tools/cpsf_r34_fps_rebench/worker.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_FPS_REBENCH_20261021_A2/tools/cpsf_r34_fps_rebench/worker.py",
+      "sha256": "a2d80b5bcee7bc795befa26c9c73ef8bceb822484443b1cd9733d4ad90467d90"
+    },
+    "tools/cpsf_r34_fps_rebench/metrics.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_FPS_REBENCH_20261021_A2/tools/cpsf_r34_fps_rebench/metrics.py",
+      "sha256": "66b0773264a20ec536d6bcff265a646b69d91a6fb7a2e6591bc76e4b1bb3b978"
+    },
+    "tools/cpsf_r34_fps_rebench/backend.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_FPS_REBENCH_20261021_A2/tools/cpsf_r34_fps_rebench/backend.py",
+      "sha256": "f0bdba3f2eae393e9bf2a9b3271bc925b214566f2d05ba1c4da10d46886a2f62"
+    },
+    "tools/cpsf_r34_fps_rebench/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_FPS_REBENCH_20261021_A2/tools/cpsf_r34_fps_rebench/__init__.py",
+      "sha256": "bdc78f850e43fa2f3794c172b343878db6bdef6f715edd385458991b256ec6b9"
+    },
+    "tools/cpsf_r34_fps_rebench/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_FPS_REBENCH_20261021_A2/tools/cpsf_r34_fps_rebench/model.py",
+      "sha256": "4c3dbb5cff0328a8c6dfce544daea17f2c6d0a874cc577b32c47c40708b59548"
+    },
+    "tools/cpsf_r34_fps_rebench/frozen_r34.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_FPS_REBENCH_20261021_A2/tools/cpsf_r34_fps_rebench/frozen_r34.py",
+      "sha256": "3d352f7d406ca201161e50d67b84ed627bed2adb3228575d16654772cbf6f48b"
+    },
+    "tools/cpsf_r34_fps_rebench/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_FPS_REBENCH_20261021_A2/tools/cpsf_r34_fps_rebench/common.py",
+      "sha256": "bf86d07eb55a37449bc9d021c529df55c45dd2536a83e35c1e27d75343f0183e"
+    },
+    "tools/cpsf_r34_fps_rebench/pipeline.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_FPS_REBENCH_20261021_A2/tools/cpsf_r34_fps_rebench/pipeline.py",
+      "sha256": "9f584cebc66d3ef77c9896a1fd5d5389034afb26360181026604985e5f89595b"
+    },
+    "tools/cpsf_r34_fps_rebench/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_FPS_REBENCH_20261021_A2/tools/cpsf_r34_fps_rebench/contracts.py",
+      "sha256": "29a304bc74edc4411f882c54cf82c5bc473d61815677b49dff999312dcfc792c"
+    },
+    "tools/cpsf_r34_fps_rebench/compare.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_FPS_REBENCH_20261021_A2/tools/cpsf_r34_fps_rebench/compare.py",
+      "sha256": "2f47ebf90cc948f29a2cfdb5e8a5518971e078c6d39f408a736d991e1e7b7f77"
+    },
+    "tools/cpsf_r34_fps_rebench/prepare.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_FPS_REBENCH_20261021_A2/tools/cpsf_r34_fps_rebench/prepare.py",
+      "sha256": "bb44d61789792a74740ec0583005325135adb8b38a24456b1d2a733303532afa"
+    },
+    "tools/cpsf_r34_adaptive_patch/bootstrap.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_ADAPTIVE_PATCH10_20261022_A1/tools/cpsf_r34_adaptive_patch/bootstrap.py",
+      "sha256": "f654217796193e71cb8a6937a4fa463a00fb71bebbd4e617340b957045630119"
+    },
+    "tools/cpsf_r34_adaptive_patch/queue.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_ADAPTIVE_PATCH10_20261022_A1/tools/cpsf_r34_adaptive_patch/queue.py",
+      "sha256": "2fd651bd6aedc844c172e778c380f4b7ebea753594e3005311e96875ef5f2139"
+    },
+    "tools/cpsf_r34_adaptive_patch/worker.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_ADAPTIVE_PATCH10_20261022_A1/tools/cpsf_r34_adaptive_patch/worker.py",
+      "sha256": "2397e951df27e522886293b8ac91bbbce6786be64188f845b3a40b34703cb764"
+    },
+    "tools/cpsf_r34_adaptive_patch/backend.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_ADAPTIVE_PATCH10_20261022_A1/tools/cpsf_r34_adaptive_patch/backend.py",
+      "sha256": "0824a49d41cd3086afb628b137e5aef4473144a51bc8fdb6da78fad64b9f5b31"
+    },
+    "tools/cpsf_r34_adaptive_patch/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_ADAPTIVE_PATCH10_20261022_A1/tools/cpsf_r34_adaptive_patch/__init__.py",
+      "sha256": "eef38e3a6295a836a024e421cc4a511e168b973ebafafd6d1aa02f20a2266922"
+    },
+    "tools/cpsf_r34_adaptive_patch/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_ADAPTIVE_PATCH10_20261022_A1/tools/cpsf_r34_adaptive_patch/model.py",
+      "sha256": "97dfcbd324e6ebe135a9831d2a60c9d9f57f7f95414bf217f5bb313c3806182e"
+    },
+    "tools/cpsf_r34_adaptive_patch/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_ADAPTIVE_PATCH10_20261022_A1/tools/cpsf_r34_adaptive_patch/common.py",
+      "sha256": "aa62220fa9099c698f08aeb54e0acbcbe353c30b9b0d75d8fc166c875ac27417"
+    },
+    "tools/cpsf_r34_adaptive_patch/data.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_ADAPTIVE_PATCH10_20261022_A1/tools/cpsf_r34_adaptive_patch/data.py",
+      "sha256": "f43daaec83294f8815626c60219a11fdd13287faa1d520087c4a6f0921941742"
+    },
+    "tools/cpsf_r34_patch_repair/bootstrap.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_AP10_SUPPORT_PRESERVED_20261023_A1/tools/cpsf_r34_patch_repair/bootstrap.py",
+      "sha256": "5dd1c2795a7746112b64e8300b7ca38a1751110b27a1c59f93784aacf707d782"
+    },
+    "tools/cpsf_r34_patch_repair/queue.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_AP10_SUPPORT_PRESERVED_20261023_A1/tools/cpsf_r34_patch_repair/queue.py",
+      "sha256": "1415151e60eef13c786ed1ca50e8e6414fed4ae14a57e54e1e41f40288b0e176"
+    },
+    "tools/cpsf_r34_patch_repair/worker.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_AP10_SUPPORT_PRESERVED_20261023_A1/tools/cpsf_r34_patch_repair/worker.py",
+      "sha256": "5a4476d817d2753a3b948deb99e0ca42083db48243be531c9d2b404ad381c2e9"
+    },
+    "tools/cpsf_r34_patch_repair/backend.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_AP10_SUPPORT_PRESERVED_20261023_A1/tools/cpsf_r34_patch_repair/backend.py",
+      "sha256": "0824a49d41cd3086afb628b137e5aef4473144a51bc8fdb6da78fad64b9f5b31"
+    },
+    "tools/cpsf_r34_patch_repair/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_AP10_SUPPORT_PRESERVED_20261023_A1/tools/cpsf_r34_patch_repair/__init__.py",
+      "sha256": "95d01c4b4e13f25042b136739b1e0ae74d07a5d45bd13a7e1677c7adf53cf189"
+    },
+    "tools/cpsf_r34_patch_repair/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_AP10_SUPPORT_PRESERVED_20261023_A1/tools/cpsf_r34_patch_repair/model.py",
+      "sha256": "018ed131f19ba2668344ae6018de2bbe3d9429f23e504eb528fde2c63a31f4fa"
+    },
+    "tools/cpsf_r34_patch_repair/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_AP10_SUPPORT_PRESERVED_20261023_A1/tools/cpsf_r34_patch_repair/common.py",
+      "sha256": "6c6ed47cad42e05000a9011ba683f5329e57a3c0893d36a2c0cac627c91123e9"
+    },
+    "tools/cpsf_r34_patch_repair/data.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_AP10_SUPPORT_PRESERVED_20261023_A1/tools/cpsf_r34_patch_repair/data.py",
+      "sha256": "291f596a2986bfcc57154eb420ce0b39357c818c78e7faf32ea161509ec0051b"
+    }
+  },
+  "artifacts": {
+    "protocol.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_AP10_SUPPORT_PRESERVED_20261023_A1/protocol.json",
+      "sha256": "e5ac48d2060320c307fea451c1e10236bb7394efdfd613349d54ccc13a0e74cd"
+    },
+    "variant.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_AP10_SUPPORT_PRESERVED_20261023_A1/variant.json",
+      "sha256": "bc2ce3f48213fd7cbdeafe977c8b1cfa7241d43ef8e8bb27afe000c13f52923f"
+    },
+    "acceptance/h01_global_compatibility.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_AP10_SUPPORT_PRESERVED_20261023_A1/acceptance/h01_global_compatibility.json",
+      "sha256": "2dea4e44ba9e78c2923872d56b8bb502f32d786d62fb8879d4592b627729cc6e"
+    },
+    "acceptance/h01_global_progress.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_AP10_SUPPORT_PRESERVED_20261023_A1/acceptance/h01_global_progress.json",
+      "sha256": "4a87ce121e088082911141f483469ac71863a630a1390f4bc09931991713bfa2"
+    },
+    "acceptance/r34_h01_global.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_AP10_SUPPORT_PRESERVED_20261023_A1/acceptance/r34_h01_global.json",
+      "sha256": "31d1e170784d338f2844b0b0e89b5a98280cf6c76c35be7e3819887799b38966"
+    },
+    "orders/h01_global.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_AP10_SUPPORT_PRESERVED_20261023_A1/orders/h01_global.json",
+      "sha256": "7c0ef949c7aa780c3b89a11e80128779a9ed2c0eefbd2eaa32d2c51d84c3ffad"
+    },
+    "input_audits/h01_global.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_AP10_SUPPORT_PRESERVED_20261023_A1/input_audits/h01_global.json",
+      "sha256": "dad87bfbba37abc29a939ec3eeddf91117597cd86695f1591bea002f480a6f4d"
+    },
+    "results/r34_h01_global/final.pt": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_AP10_SUPPORT_PRESERVED_20261023_A1/results/r34_h01_global/final.pt",
+      "sha256": "e7e44d8631b3554e17248b01004f621651232efcec5a072b4808d55e16e31141"
+    },
+    "results/r34_h01_global/first_update.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_AP10_SUPPORT_PRESERVED_20261023_A1/results/r34_h01_global/first_update.json",
+      "sha256": "e901cca7bde07052a7bda0419e653fba68412bcaae7866fe53ade583c86e9801"
+    },
+    "results/r34_h01_global/history.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_AP10_SUPPORT_PRESERVED_20261023_A1/results/r34_h01_global/history.json",
+      "sha256": "9d9708fdb07fdf769d133682bee9f20b4a648e122a94dfe2ed6eddd20f9177f5"
+    },
+    "results/r34_h01_global/identity.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_AP10_SUPPORT_PRESERVED_20261023_A1/results/r34_h01_global/identity.json",
+      "sha256": "2951be6143576f510ffd00a9ffa8c2433288260b904a371b9dc8aa66652abf26"
+    },
+    "results/r34_h01_global/metrics.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_AP10_SUPPORT_PRESERVED_20261023_A1/results/r34_h01_global/metrics.json",
+      "sha256": "923259d8464ce94eae8ece270d4fe0cbbb7c8ea36b5bb456e07c8c6246bbb87f"
+    },
+    "results/r34_h01_global/prediction_audit.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_AP10_SUPPORT_PRESERVED_20261023_A1/results/r34_h01_global/prediction_audit.json",
+      "sha256": "1310f42c33af0ae4ce2e478ba3f3b01a2f7e76fdfaf9b0b13a75ca263c623937"
+    },
+    "results/r34_h01_global/status.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_AP10_SUPPORT_PRESERVED_20261023_A1/results/r34_h01_global/status.json",
+      "sha256": "757690ebeb91d89334f1b65492f98e698997e369487a9ff44f6c7e02707c2c3f"
+    },
+    "results/r34_h01_global/val_predictions.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_AP10_SUPPORT_PRESERVED_20261023_A1/results/r34_h01_global/val_predictions.npz",
+      "sha256": "b261f5cd3ee3f822b7061cac379b6c27bcbc6b6700bf72f9ea544c2a2a892938"
+    },
+    "parents/unified_input_protocol.json": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/protocol.json",
+      "sha256": "01bad09907e5540aa5bf15a9ca46f573bd3b23a0fb424ddcf270eccb851d7213"
+    },
+    "parents/r34_fps_protocol.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_FPS_REBENCH_20261021_A2/protocol.json",
+      "sha256": "a0e71fa711f1f1713c8cc65102a220c7dbb387b60f4698e644c83f11614f4738"
+    },
+    "parents/adaptive_patch_protocol.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_ADAPTIVE_PATCH10_20261022_A1/protocol.json",
+      "sha256": "56655a3ef34ae396519c8dfa1ebf820d5a1ae2e529d578287ef1e16613d96a7f"
+    }
+  },
+  "omissions": {}
+}

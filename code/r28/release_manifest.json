@@ -1,7 +1,4 @@
 {
-  "README.md": "108647b0e6c34085b87e32007f0183412e502c6a82be1a76c0bcb22081909b77",
-  "RIGHTS_AND_PROVENANCE.md": "f1fb917f79f3a8a51ac6abbca47daf8d3e6845ab7c92a520a330fdd31c741c8a",
-  "START_HERE.md": "f2d528fccb9b38cbae54f103b39ae0dc3aebb9f6037fd949320df1cca019ef30",
   "code/r28/BASELINE_COMPARISON.csv": "85acac9dd91bf42f15f854fd3a40007348595b348f8a4fd18380e3e0400364f9",
   "code/r28/BASELINE_COMPARISON.json": "4ee51cc586bda9f20b0202a5acc6e4108205da26bd67661deb3307481f814bcb",
   "code/r28/README.md": "00e74eb328e1eae4d9277c15d513b46998fc02c0be254145440d71b278e017fa",
@@ -562,5 +559,8 @@
   "docs/TLP_NET_EVALUATION_AUDIT_ZH.md": "20fa002c37ec0e1ee1526400ba098d5ef6eb892df44a7e70b3156691f3d7fb0d",
   "scripts/verify_r28.py": "105fe2c733b91b69f300363cbfa8e23fbe85ca74b74cf396e68ff51c4b37c79f",
   "code/r28/evidence/tlp_dual_metrics_20261020.json": "9e4d816073117bbe639e49feb518487436b6ffde7f875f38d93d096b0d66fca5",
-  "code/r28/evidence/tlp_dual_metrics_20261020.py": "9df5ad24bb4a67e35a83c8b207c89b4f56e8aab76a6efbe5f3b29e287ca723ec"
+  "code/r28/evidence/tlp_dual_metrics_20261020.py": "9df5ad24bb4a67e35a83c8b207c89b4f56e8aab76a6efbe5f3b29e287ca723ec",
+  "docs/release_snapshots/20261021/README.md": "108647b0e6c34085b87e32007f0183412e502c6a82be1a76c0bcb22081909b77",
+  "docs/release_snapshots/20261021/RIGHTS_AND_PROVENANCE.md": "f1fb917f79f3a8a51ac6abbca47daf8d3e6845ab7c92a520a330fdd31c741c8a",
+  "docs/release_snapshots/20261021/START_HERE.md": "f2d528fccb9b38cbae54f103b39ae0dc3aebb9f6037fd949320df1cca019ef30"
 }

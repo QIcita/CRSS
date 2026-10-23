@@ -1,2 +1,3 @@
 # Frozen upstream/source snapshots retain original bytes, including whitespace.
 code/r9/reference/** -whitespace
+code/r34_dense/overlay/** -whitespace

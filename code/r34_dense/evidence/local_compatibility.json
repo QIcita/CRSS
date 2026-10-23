@@ -1,0 +1,51 @@
+{
+  "checked_utc": "2026-10-23T02:27:25.410727+00:00",
+  "manifest_sha256": "8e80b36196f77a0583962d2ca37fa2e27fb4916ccd1acf11d8b49a106b281728",
+  "summary": {
+    "train": {
+      "samples": 716,
+      "mean_points_per_patch_min": 11.063478260869566,
+      "mean_points_per_patch_max": 60.17857142857143,
+      "would_trigger": 0
+    },
+    "val": {
+      "samples": 214,
+      "mean_points_per_patch_min": 12.542725173210162,
+      "mean_points_per_patch_max": 53.114285714285714,
+      "would_trigger": 0
+    }
+  },
+  "local_formal_retraining_performed": false,
+  "test_used": false,
+  "new_parameters_trained": false,
+  "comparison": "Same original R34 local final checkpoint; SupportPreserved class directly with no dense fields; not a local production runner adaptation",
+  "reference_final_sha256": "607683b334abee858a5dde597ea2f4a9a4bda37a2aceb088a9de16318690db0c",
+  "initialization_exact": true,
+  "all_sample_geometry_rule_screen": true,
+  "forward_cases": [
+    {
+      "key": "4641147055_dendrite_03",
+      "split": "train",
+      "points": 12723,
+      "patches": 1150,
+      "exact_output_match": true,
+      "max_abs_error": 0.0,
+      "shape": [
+        3
+      ]
+    },
+    {
+      "key": "1787105373_AIS_01",
+      "split": "val",
+      "points": 10862,
+      "patches": 866,
+      "exact_output_match": true,
+      "max_abs_error": 0.0,
+      "shape": [
+        3
+      ]
+    }
+  ],
+  "eval_state_unchanged": true,
+  "passed": true
+}

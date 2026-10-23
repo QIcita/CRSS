@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "manifest_sha256": "5f8bcae26dc3b27808d29802da20082a952c17a3f75e3a95b4c0ea7fc8152e21",
+  "train": 80,
+  "val": 24,
+  "cell_disjoint": true,
+  "canonical_fps_unchanged": true,
+  "test_used": false,
+  "per_cache_bytes_verified_on_first_use": true,
+  "full_byte_reaudit_before_training": false,
+  "parent_identity_reused": true
+}
