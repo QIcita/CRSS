@@ -1,5 +1,5 @@
 {
-  "time_beijing": "2026-10-23T10:49:49.848102+08:00",
+  "time_beijing": "2026-10-23T11:05:45.084495+08:00",
   "campaigns": {
     "unified": {
       "root": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3",
@@ -408,15 +408,15 @@
             "state": "training",
             "epoch": 36,
             "epochs": 50,
-            "steps": 44251,
+            "steps": 44761,
             "optimizer_steps": {
-              "min": 44251,
-              "max": 44251
+              "min": 44761,
+              "max": 44761
             },
-            "processed": 2844,
+            "processed": 4884,
             "total": 4975,
-            "loss": 0.47896537084640667,
-            "seconds": 76495.76996397972,
+            "loss": 0.4729972998447637,
+            "seconds": 77448.29154777527,
             "peak_gpu_bytes": 11632737792,
             "pid": 3402610,
             "gpu": "1"
@@ -436,17 +436,17 @@
           "result_exists": false,
           "status": {
             "state": "training",
-            "epoch": 11,
+            "epoch": 12,
             "epochs": 50,
-            "steps": 13606,
+            "steps": 13931,
             "optimizer_steps": {
-              "min": 13606,
-              "max": 13606
+              "min": 13931,
+              "max": 13931
             },
-            "processed": 4664,
+            "processed": 988,
             "total": 4975,
-            "loss": 0.4288807793314318,
-            "seconds": 38855.46975564957,
+            "loss": 0.39116776543047266,
+            "seconds": 39817.73201394081,
             "peak_gpu_bytes": 5131154432,
             "pid": 3765763,
             "gpu": "1"
@@ -478,17 +478,17 @@
           "result_exists": false,
           "status": {
             "state": "training",
-            "epoch": 44,
+            "epoch": 45,
             "epochs": 50,
-            "steps": 54666,
+            "steps": 55351,
             "optimizer_steps": {
-              "min": 54666,
-              "max": 54666
+              "min": 55351,
+              "max": 55351
             },
-            "processed": 4696,
+            "processed": 2460,
             "total": 4975,
-            "loss": 0.2405368113633264,
-            "seconds": 64117.706225156784,
+            "loss": 0.24053504117499522,
+            "seconds": 65074.3725361824,
             "peak_gpu_bytes": 1522317312,
             "pid": 3501893,
             "gpu": "0"
@@ -687,15 +687,15 @@
             "state": "training",
             "epoch": 18,
             "epochs": 50,
-            "steps": 21866,
+            "steps": 22346,
             "optimizer_steps": {
-              "min": 21866,
-              "max": 21866
+              "min": 22346,
+              "max": 22346
             },
-            "processed": 2872,
+            "processed": 4792,
             "total": 4975,
-            "loss": 1.1104607598383944,
-            "seconds": 38830.790353536606,
+            "loss": 1.1151211843553788,
+            "seconds": 39777.75083184242,
             "peak_gpu_bytes": 8832731648,
             "pid": 3766289,
             "gpu": "0"
@@ -903,15 +903,15 @@
             "state": "training",
             "epoch": 12,
             "epochs": 30,
-            "steps": 4346,
+            "steps": 4401,
             "optimizer_steps": {
-              "min": 4346,
-              "max": 4346
+              "min": 4401,
+              "max": 4401
             },
-            "processed": 14144,
+            "processed": 17664,
             "total": 23967,
-            "loss": 0.17393395961182256,
-            "seconds": 69411.31122493744,
+            "loss": 0.1641093380917806,
+            "seconds": 70331.5167620182,
             "peak_gpu_bytes": 283135488,
             "pid": 3454313,
             "gpu": "1"
@@ -1255,17 +1255,17 @@
           "result_exists": false,
           "status": {
             "state": "training",
-            "epoch": 27,
+            "epoch": 28,
             "epochs": 50,
-            "steps": 33406,
+            "steps": 34276,
             "optimizer_steps": {
-              "min": 33406,
-              "max": 33406
+              "min": 34276,
+              "max": 34276
             },
-            "processed": 4248,
+            "processed": 2752,
             "total": 4975,
-            "loss": 0.2891410370366104,
-            "seconds": 40100.01436376572,
+            "loss": 0.28449147252560875,
+            "seconds": 41055.36763930321,
             "peak_gpu_bytes": 2090167808,
             "pid": 3751413,
             "gpu": "1"
@@ -1390,18 +1390,18 @@
           "result_exists": false,
           "status": {
             "state": "training",
-            "epoch": 1,
+            "epoch": 15,
             "epochs": 50,
-            "steps": 1,
+            "steps": 281,
             "optimizer_steps": {
-              "min": 1,
-              "max": 1
+              "min": 281,
+              "max": 281
             },
             "processed": 4,
             "total": 80,
-            "loss": 0.9475146159529686,
-            "seconds": 4.494393587112427,
-            "peak_gpu_bytes": 3082609664,
+            "loss": 0.8138065971434116,
+            "seconds": 954.880856513977,
+            "peak_gpu_bytes": 7577256448,
             "pid": 13084,
             "gpu": "0"
           },
@@ -74033,7 +74033,7 @@
   "failures": [],
   "test_used": false,
   "resources": {
-    "gpu": "0, 15372 MiB, 24564 MiB, 61 %\n1, 21851 MiB, 24564 MiB, 93 %\n",
+    "gpu": "0, 19080 MiB, 24564 MiB, 86 %\n1, 21851 MiB, 24564 MiB, 98 %\n",
     "disk": "Filesystem      Size  Used Avail Use% Mounted on\n/dev/sda        300G  262G   39G  88% /root/megrez-tmp\n"
   },
   "passed": true,
