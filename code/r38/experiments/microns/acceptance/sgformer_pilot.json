@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "name": "sgformer",
+  "pilot": true,
+  "rows": [
+    "864691135573570797"
+  ],
+  "optimization_steps": 2,
+  "losses": [
+    0.9196438193321228,
+    0.9153839349746704
+  ],
+  "seed": 42,
+  "pretrained": false,
+  "metric_contract": {
+    "exact_prediction": true,
+    "redistribution_detected": true,
+    "zero_counts": true,
+    "equal_cell_weight": true
+  },
+  "peak_gpu_bytes": 112668672,
+  "parameter_count": 33153,
+  "active_gradient_parameters": 32,
+  "implementation_sources": {
+    "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/phase3/tools/cpsf_external_phase3/models.py": "1c29cd482415372177e16f0856b416fabbffa72af53180170265cf690b59cfbe",
+    "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/phase3/vendor/SGFormer/medium/models.py": "07b89316c8c237a0527c5ab66e8301ee51fb3eda2112eeb02d69eac41fe04224",
+    "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/phase3/vendor/SGFormer/medium/ours.py": "cc1545c3abaa01169c892045c2db03dc11d0d5156755d0d8a784c26fcdf1eb8e",
+    "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/tools/cpsf_microns/models.py": "8a6f466a714000df8d42549561c888a4dd3142d681de7e584352eb05d1c1056e"
+  },
+  "acceptance_weights_discarded": true
+}

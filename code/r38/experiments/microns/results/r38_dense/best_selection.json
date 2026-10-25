@@ -1,0 +1,15 @@
+{
+  "epoch": 24,
+  "updates": 2280,
+  "validation": {
+    "cells": 79,
+    "regions": 255148,
+    "cell_macro_poisson_deviance": 0.3370386338219815,
+    "cell_macro_region_density_mae": 0.09886826731214762,
+    "cell_macro_total_count_mae": 344.76539430309447,
+    "cell_macro_js_divergence_base2": 0.052097024995274875,
+    "js_eligible_cells": 79
+  },
+  "selection_metric": "cell_macro_poisson_deviance",
+  "test_used": false
+}

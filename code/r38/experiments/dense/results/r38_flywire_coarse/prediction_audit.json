@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "files": {
+    "/root/megrez-tmp/CPSF_R38_DENSE_SUPPORT_20261023_A1/results/r38_flywire_coarse/val_predictions.npz": "ba07a8a440ae8aedf1e6cbdfd18dcfbeb73900c0376ada5ae6655256aaab2c80"
+  },
+  "readback": true,
+  "test_used": false
+}

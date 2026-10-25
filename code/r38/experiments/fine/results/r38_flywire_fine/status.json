@@ -1,0 +1,17 @@
+{
+  "state": "training",
+  "epoch": 6,
+  "epochs": 50,
+  "steps": 7396,
+  "optimizer_steps": {
+    "min": 7396,
+    "max": 7396
+  },
+  "processed": 4704,
+  "total": 4975,
+  "loss": 1.9396736500024492,
+  "seconds": 14596.935457706451,
+  "peak_gpu_bytes": 8900666880,
+  "pid": 1360434,
+  "gpu": "0"
+}

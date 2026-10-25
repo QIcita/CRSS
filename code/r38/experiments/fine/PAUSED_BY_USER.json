@@ -1,0 +1,48 @@
+{
+  "state": "paused_by_user",
+  "time_beijing": "2026-10-25T20:39:53.503718+08:00",
+  "reason": "Pause baseline comparisons for R38 delayed mild class reweighting",
+  "receipt": "/root/megrez-tmp/CPSF_PAUSE_BASELINES_20261025_A1/receipt.json",
+  "resume": "Explicit resume required; original latest.pt retained",
+  "workers": [
+    {
+      "job": "r38_flywire_fine",
+      "root": "/root/megrez-tmp/CPSF_R38_DENSE_EXTENSION_20261024_A2",
+      "pid": 1360434,
+      "last_live_status": {
+        "state": "training",
+        "epoch": 6,
+        "epochs": 50,
+        "steps": 7396,
+        "optimizer_steps": {
+          "min": 7396,
+          "max": 7396
+        },
+        "processed": 4704,
+        "total": 4975,
+        "loss": 1.9396736500024492,
+        "seconds": 14596.935457706451,
+        "peak_gpu_bytes": 8900666880,
+        "pid": 1360434,
+        "gpu": "0"
+      },
+      "checkpoint": "/root/megrez-tmp/CPSF_R38_DENSE_EXTENSION_20261024_A2/results/r38_flywire_fine/latest.pt",
+      "checkpoint_sha256": "5c3855d9f924777b6ede24120462594bc8f4c5f49ae53fe1de0d909d88c55e1d",
+      "checkpoint_bytes": 45984249,
+      "checkpoint_epoch": 5,
+      "checkpoint_steps": 6220,
+      "resume_from_epoch": 6,
+      "model_optimizer_scheduler_rng_preserved": true,
+      "discarded_partial_epoch_updates": 1176,
+      "command": [
+        "/root/megrez-tmp/CPSF_EXTERNAL_BASELINES_PHASE3_20261012/env/bin/python",
+        "-u",
+        "-m",
+        "tools.cpsf_r38_dense_extension.worker",
+        "--task",
+        "flywire_fine",
+        ""
+      ]
+    }
+  ]
+}

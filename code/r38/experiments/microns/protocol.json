@@ -1,0 +1,72 @@
+{
+  "version": "MICrONS_observed_neurite_input_count_v1",
+  "seed": 42,
+  "materialization": 1926,
+  "skeleton_version": 4,
+  "cohort_sha256": "e05bcb3d1a2761f6902b26f95e7291d11cc4bb4161e6f8ebf61c9e75af05e744",
+  "cohort_size": 538,
+  "split_counts": {
+    "train": 379,
+    "val": 79,
+    "test": 80
+  },
+  "scope": "complete observed neurite tree, axon and dendrite extended; no compartment mask",
+  "user_approved_scope": true,
+  "files": {
+    "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/tools/cpsf_microns/acquire.py": "b697205c85b9338f568c223bca0d725920707582bc6e648190769616f1d7c409",
+    "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/tools/cpsf_microns/__init__.py": "07f4996b3d7671014b560ac568db963fbb58c3029123a06c5611655a62db853f",
+    "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/tools/cpsf_microns/common.py": "a1bad6557ebc712a69058cba25e14c16dacd1c9d1af47514be03ab58e033d0b7",
+    "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/soma_origin_recovery.json": "b533283ddc58006041cc1cee996e5383db27ca7b18942bc30b252e0b02be51b6"
+  },
+  "data": {
+    "surface_candidates": 262144,
+    "fps_points": 32768,
+    "mesh_sampling": "all positive-area faces, uniform area draws, fixed root-specific seed42; FPS on entire candidate set",
+    "surface_mass": "nearest representative candidate counts, shared across models",
+    "region_max_length_um": 4.0,
+    "minimum_scored_region_length_um": 0.5,
+    "minimum_scored_region_soma_distance_um": 10.0,
+    "synapse_projection_max_distance_um": 20.0,
+    "full_compartment_labels_used": false,
+    "service_radius_used": false,
+    "disk_reserve_gib": 12
+  },
+  "training": {
+    "models": [
+      "r38_dense",
+      "sgformer",
+      "utonia_scratch_r2"
+    ],
+    "epochs": 50,
+    "effective_batch_cells": 4,
+    "microbatch_cells": 1,
+    "optimizer": "AdamW",
+    "lr": 0.0003,
+    "weight_decay": 0.01,
+    "lr_schedule": "cosine",
+    "minimum_lr": 3e-05,
+    "gradient_clip": 5.0,
+    "loss": "cell-mean Poisson NLL",
+    "selection": "minimum validation cell-macro Poisson deviance; final test once after completion",
+    "pretrained": false,
+    "test_used_for_design": false
+  },
+  "metrics": [
+    "cell_macro_poisson_deviance",
+    "cell_macro_region_density_mae",
+    "cell_total_count_mae",
+    "cell_macro_js_divergence_base2"
+  ],
+  "acceptance": "full cohort acquisition and mapping; geometry and target separation; synthetic metric checks; all three real-backbone forward/backward and largest-shape checks before training",
+  "compatible_pilot_protocols": [
+    "5e0a9907e8a781054028155d365751732624b7fdba6b779696f8a2bd784bac26",
+    "1644667f7712cf3b7ba6af06d7443d8bfcb83b263da14677c0ad91605fa32a20"
+  ],
+  "pilot_reuse_note": "Same data config/cohort. Acquisition changed only to reuse CAVE clients and use two bounded workers; initial pilot byte hashes and old protocol lineage retained.",
+  "origin_metadata_repair": {
+    "previous_protocol_sha256": "1644667f7712cf3b7ba6af06d7443d8bfcb83b263da14677c0ad91605fa32a20",
+    "file": "soma_origin_recovery.json",
+    "affected_root": "864691135504588469",
+    "reason": "NaN soma metadata repaired from same-v1926 nucleus annotation; independently anchored soma graph node. No topology, point budget, cohort, label definition or training change."
+  }
+}

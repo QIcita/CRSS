@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "files": {
+    "/root/megrez-tmp/CPSF_R38_DENSE_SUPPORT_20261023_A1/results/r38_h01_global/val_predictions.npz": "f6546b4479b4c4075a0536b1302771bcad931a713c60291351fdac34a5f14aaf"
+  },
+  "readback": true,
+  "test_used": false
+}

@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "files": {
+    "/root/megrez-tmp/CPSF_CMM_PAIR_FUSION_20261023_R38_A1/results/r38_h01_local/val_predictions.npz": "a54a07c936f8096e8535ff2c403906b31d2ddd46c426183a7684a2969ef0d279"
+  },
+  "readback": true,
+  "test_used": false
+}

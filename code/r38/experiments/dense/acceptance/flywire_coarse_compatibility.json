@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "initial": "d93de5e2eed1c5d605af703adb9b5f8058b19303202eab4a4dd9031976627cc1",
+  "key": "720575940619169349",
+  "reference": "original R34 with pair fusion disabled",
+  "two_steps": [
+    {
+      "step": 1,
+      "loss": 1.6852635145187378,
+      "shared_parameters_exact": true
+    },
+    {
+      "step": 2,
+      "loss": 1.6403368711471558,
+      "shared_parameters_exact": true
+    }
+  ]
+}

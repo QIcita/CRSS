@@ -1,0 +1,3084 @@
+{
+  "passed": true,
+  "name": "r38_dense",
+  "pilot": false,
+  "rows": [
+    "864691135573570797",
+    "864691135135053728",
+    "864691135892554377",
+    "864691135920800688",
+    "864691136620192653"
+  ],
+  "optimization_steps": 10,
+  "losses": [
+    0.9744827747344971,
+    0.9650970101356506,
+    0.9923336505889893,
+    0.9937283396720886,
+    0.9733961224555969,
+    0.9707334041595459,
+    1.0211726427078247,
+    1.019079327583313,
+    1.052105188369751,
+    1.0514132976531982
+  ],
+  "seed": 42,
+  "pretrained": false,
+  "metric_contract": {
+    "exact_prediction": true,
+    "redistribution_detected": true,
+    "zero_counts": true,
+    "equal_cell_weight": true
+  },
+  "peak_gpu_bytes": 995475968,
+  "parameter_count": 3774754,
+  "active_gradient_parameters": 168,
+  "changed_encoder_parameters": 162,
+  "training_shape_audit": [
+    {
+      "root_id": "864691135573570797",
+      "patches": 32665,
+      "incidences": 111947,
+      "context_voxels": 32667,
+      "point_voxels": 32768,
+      "max_raw_group": 372
+    },
+    {
+      "root_id": "864691135586571896",
+      "patches": 32643,
+      "incidences": 106339,
+      "context_voxels": 32647,
+      "point_voxels": 32768,
+      "max_raw_group": 252
+    },
+    {
+      "root_id": "864691135810492189",
+      "patches": 32585,
+      "incidences": 105254,
+      "context_voxels": 32598,
+      "point_voxels": 32768,
+      "max_raw_group": 222
+    },
+    {
+      "root_id": "864691136314539069",
+      "patches": 32421,
+      "incidences": 107079,
+      "context_voxels": 32378,
+      "point_voxels": 32768,
+      "max_raw_group": 211
+    },
+    {
+      "root_id": "864691135385531883",
+      "patches": 32440,
+      "incidences": 104110,
+      "context_voxels": 32469,
+      "point_voxels": 32768,
+      "max_raw_group": 214
+    },
+    {
+      "root_id": "864691136196202472",
+      "patches": 28911,
+      "incidences": 94880,
+      "context_voxels": 28853,
+      "point_voxels": 32768,
+      "max_raw_group": 167
+    },
+    {
+      "root_id": "864691135135053728",
+      "patches": 32767,
+      "incidences": 115388,
+      "context_voxels": 32768,
+      "point_voxels": 32768,
+      "max_raw_group": 263
+    },
+    {
+      "root_id": "864691135858298670",
+      "patches": 32706,
+      "incidences": 109248,
+      "context_voxels": 32716,
+      "point_voxels": 32768,
+      "max_raw_group": 348
+    },
+    {
+      "root_id": "864691135778859693",
+      "patches": 32767,
+      "incidences": 107688,
+      "context_voxels": 32764,
+      "point_voxels": 32768,
+      "max_raw_group": 499
+    },
+    {
+      "root_id": "864691135015154934",
+      "patches": 31163,
+      "incidences": 103756,
+      "context_voxels": 31147,
+      "point_voxels": 32768,
+      "max_raw_group": 372
+    },
+    {
+      "root_id": "864691135375895752",
+      "patches": 31553,
+      "incidences": 106737,
+      "context_voxels": 31597,
+      "point_voxels": 32768,
+      "max_raw_group": 390
+    },
+    {
+      "root_id": "864691136674495623",
+      "patches": 32630,
+      "incidences": 107619,
+      "context_voxels": 32599,
+      "point_voxels": 32768,
+      "max_raw_group": 404
+    },
+    {
+      "root_id": "864691135927533070",
+      "patches": 29980,
+      "incidences": 100240,
+      "context_voxels": 30022,
+      "point_voxels": 32768,
+      "max_raw_group": 137
+    },
+    {
+      "root_id": "864691135362629703",
+      "patches": 32727,
+      "incidences": 109683,
+      "context_voxels": 32728,
+      "point_voxels": 32768,
+      "max_raw_group": 327
+    },
+    {
+      "root_id": "864691136119168932",
+      "patches": 31668,
+      "incidences": 108960,
+      "context_voxels": 31670,
+      "point_voxels": 32768,
+      "max_raw_group": 398
+    },
+    {
+      "root_id": "864691135571515270",
+      "patches": 30488,
+      "incidences": 98050,
+      "context_voxels": 30423,
+      "point_voxels": 32768,
+      "max_raw_group": 783
+    },
+    {
+      "root_id": "864691135701882402",
+      "patches": 31393,
+      "incidences": 100478,
+      "context_voxels": 31402,
+      "point_voxels": 32768,
+      "max_raw_group": 298
+    },
+    {
+      "root_id": "864691135448256146",
+      "patches": 31443,
+      "incidences": 102024,
+      "context_voxels": 31431,
+      "point_voxels": 32768,
+      "max_raw_group": 517
+    },
+    {
+      "root_id": "864691135811910092",
+      "patches": 32726,
+      "incidences": 107059,
+      "context_voxels": 32716,
+      "point_voxels": 32768,
+      "max_raw_group": 332
+    },
+    {
+      "root_id": "864691135690007776",
+      "patches": 32754,
+      "incidences": 105508,
+      "context_voxels": 32749,
+      "point_voxels": 32768,
+      "max_raw_group": 786
+    },
+    {
+      "root_id": "864691135084244727",
+      "patches": 31075,
+      "incidences": 105663,
+      "context_voxels": 31082,
+      "point_voxels": 32768,
+      "max_raw_group": 454
+    },
+    {
+      "root_id": "864691135616639947",
+      "patches": 32646,
+      "incidences": 108360,
+      "context_voxels": 32614,
+      "point_voxels": 32768,
+      "max_raw_group": 237
+    },
+    {
+      "root_id": "864691135779705021",
+      "patches": 31196,
+      "incidences": 103406,
+      "context_voxels": 31145,
+      "point_voxels": 32768,
+      "max_raw_group": 379
+    },
+    {
+      "root_id": "864691135362485319",
+      "patches": 32763,
+      "incidences": 106865,
+      "context_voxels": 32755,
+      "point_voxels": 32768,
+      "max_raw_group": 261
+    },
+    {
+      "root_id": "864691135015352054",
+      "patches": 32739,
+      "incidences": 107718,
+      "context_voxels": 32743,
+      "point_voxels": 32768,
+      "max_raw_group": 837
+    },
+    {
+      "root_id": "864691135892554377",
+      "patches": 32768,
+      "incidences": 106992,
+      "context_voxels": 32766,
+      "point_voxels": 32768,
+      "max_raw_group": 191
+    },
+    {
+      "root_id": "864691135774461179",
+      "patches": 32379,
+      "incidences": 106865,
+      "context_voxels": 32399,
+      "point_voxels": 32768,
+      "max_raw_group": 453
+    },
+    {
+      "root_id": "864691136288644291",
+      "patches": 31671,
+      "incidences": 104666,
+      "context_voxels": 31632,
+      "point_voxels": 32768,
+      "max_raw_group": 395
+    },
+    {
+      "root_id": "864691135941975974",
+      "patches": 29157,
+      "incidences": 97343,
+      "context_voxels": 29165,
+      "point_voxels": 32768,
+      "max_raw_group": 133
+    },
+    {
+      "root_id": "864691136053784307",
+      "patches": 32427,
+      "incidences": 105405,
+      "context_voxels": 32401,
+      "point_voxels": 32768,
+      "max_raw_group": 352
+    },
+    {
+      "root_id": "864691135295595788",
+      "patches": 32396,
+      "incidences": 107403,
+      "context_voxels": 32427,
+      "point_voxels": 32768,
+      "max_raw_group": 318
+    },
+    {
+      "root_id": "864691135573516581",
+      "patches": 32752,
+      "incidences": 109519,
+      "context_voxels": 32761,
+      "point_voxels": 32768,
+      "max_raw_group": 805
+    },
+    {
+      "root_id": "864691135294441654",
+      "patches": 30026,
+      "incidences": 97219,
+      "context_voxels": 30060,
+      "point_voxels": 32768,
+      "max_raw_group": 639
+    },
+    {
+      "root_id": "864691136211385020",
+      "patches": 32439,
+      "incidences": 101618,
+      "context_voxels": 32461,
+      "point_voxels": 32768,
+      "max_raw_group": 404
+    },
+    {
+      "root_id": "864691135448834132",
+      "patches": 28742,
+      "incidences": 95026,
+      "context_voxels": 28746,
+      "point_voxels": 32768,
+      "max_raw_group": 165
+    },
+    {
+      "root_id": "864691134920077322",
+      "patches": 32680,
+      "incidences": 106749,
+      "context_voxels": 32678,
+      "point_voxels": 32768,
+      "max_raw_group": 260
+    },
+    {
+      "root_id": "864691136597211554",
+      "patches": 30431,
+      "incidences": 99566,
+      "context_voxels": 30457,
+      "point_voxels": 32768,
+      "max_raw_group": 332
+    },
+    {
+      "root_id": "864691136210743740",
+      "patches": 32668,
+      "incidences": 108091,
+      "context_voxels": 32652,
+      "point_voxels": 32768,
+      "max_raw_group": 336
+    },
+    {
+      "root_id": "864691135210601593",
+      "patches": 32765,
+      "incidences": 109662,
+      "context_voxels": 32764,
+      "point_voxels": 32768,
+      "max_raw_group": 204
+    },
+    {
+      "root_id": "864691136042982742",
+      "patches": 32679,
+      "incidences": 110733,
+      "context_voxels": 32672,
+      "point_voxels": 32768,
+      "max_raw_group": 271
+    },
+    {
+      "root_id": "864691136425681967",
+      "patches": 32622,
+      "incidences": 107375,
+      "context_voxels": 32616,
+      "point_voxels": 32768,
+      "max_raw_group": 255
+    },
+    {
+      "root_id": "864691135496495248",
+      "patches": 27190,
+      "incidences": 89720,
+      "context_voxels": 27294,
+      "point_voxels": 32768,
+      "max_raw_group": 170
+    },
+    {
+      "root_id": "864691136524481937",
+      "patches": 32768,
+      "incidences": 107920,
+      "context_voxels": 32764,
+      "point_voxels": 32768,
+      "max_raw_group": 245
+    },
+    {
+      "root_id": "864691135518283475",
+      "patches": 32731,
+      "incidences": 107836,
+      "context_voxels": 32728,
+      "point_voxels": 32768,
+      "max_raw_group": 178
+    },
+    {
+      "root_id": "864691136238652476",
+      "patches": 31979,
+      "incidences": 106942,
+      "context_voxels": 31933,
+      "point_voxels": 32768,
+      "max_raw_group": 515
+    },
+    {
+      "root_id": "864691135757083346",
+      "patches": 31620,
+      "incidences": 106917,
+      "context_voxels": 31596,
+      "point_voxels": 32768,
+      "max_raw_group": 535
+    },
+    {
+      "root_id": "864691135761135438",
+      "patches": 32677,
+      "incidences": 107143,
+      "context_voxels": 32639,
+      "point_voxels": 32768,
+      "max_raw_group": 358
+    },
+    {
+      "root_id": "864691135502748482",
+      "patches": 31507,
+      "incidences": 103909,
+      "context_voxels": 31557,
+      "point_voxels": 32768,
+      "max_raw_group": 243
+    },
+    {
+      "root_id": "864691135567306327",
+      "patches": 32757,
+      "incidences": 109487,
+      "context_voxels": 32761,
+      "point_voxels": 32768,
+      "max_raw_group": 225
+    },
+    {
+      "root_id": "864691135465163933",
+      "patches": 32112,
+      "incidences": 106316,
+      "context_voxels": 32079,
+      "point_voxels": 32768,
+      "max_raw_group": 401
+    },
+    {
+      "root_id": "864691135375888840",
+      "patches": 32037,
+      "incidences": 108084,
+      "context_voxels": 32030,
+      "point_voxels": 32768,
+      "max_raw_group": 485
+    },
+    {
+      "root_id": "864691136137681035",
+      "patches": 32768,
+      "incidences": 106839,
+      "context_voxels": 32767,
+      "point_voxels": 32768,
+      "max_raw_group": 212
+    },
+    {
+      "root_id": "864691135015439862",
+      "patches": 32534,
+      "incidences": 105675,
+      "context_voxels": 32518,
+      "point_voxels": 32768,
+      "max_raw_group": 458
+    },
+    {
+      "root_id": "864691136579969300",
+      "patches": 30743,
+      "incidences": 104284,
+      "context_voxels": 30659,
+      "point_voxels": 32768,
+      "max_raw_group": 407
+    },
+    {
+      "root_id": "864691136197326924",
+      "patches": 29668,
+      "incidences": 97825,
+      "context_voxels": 29519,
+      "point_voxels": 32768,
+      "max_raw_group": 148
+    },
+    {
+      "root_id": "864691135948962401",
+      "patches": 32386,
+      "incidences": 104615,
+      "context_voxels": 32371,
+      "point_voxels": 32768,
+      "max_raw_group": 277
+    },
+    {
+      "root_id": "864691135579466245",
+      "patches": 32767,
+      "incidences": 105804,
+      "context_voxels": 32766,
+      "point_voxels": 32768,
+      "max_raw_group": 641
+    },
+    {
+      "root_id": "864691135272003237",
+      "patches": 32576,
+      "incidences": 112242,
+      "context_voxels": 32571,
+      "point_voxels": 32768,
+      "max_raw_group": 286
+    },
+    {
+      "root_id": "864691134942699107",
+      "patches": 32760,
+      "incidences": 105470,
+      "context_voxels": 32760,
+      "point_voxels": 32768,
+      "max_raw_group": 442
+    },
+    {
+      "root_id": "864691135811899852",
+      "patches": 32768,
+      "incidences": 107719,
+      "context_voxels": 32768,
+      "point_voxels": 32768,
+      "max_raw_group": 177
+    },
+    {
+      "root_id": "864691136446256771",
+      "patches": 32105,
+      "incidences": 106889,
+      "context_voxels": 32163,
+      "point_voxels": 32768,
+      "max_raw_group": 423
+    },
+    {
+      "root_id": "864691135210635385",
+      "patches": 32678,
+      "incidences": 112231,
+      "context_voxels": 32672,
+      "point_voxels": 32768,
+      "max_raw_group": 212
+    },
+    {
+      "root_id": "864691135976979567",
+      "patches": 32401,
+      "incidences": 112402,
+      "context_voxels": 32446,
+      "point_voxels": 32768,
+      "max_raw_group": 351
+    },
+    {
+      "root_id": "864691136126947110",
+      "patches": 32768,
+      "incidences": 109335,
+      "context_voxels": 32766,
+      "point_voxels": 32768,
+      "max_raw_group": 194
+    },
+    {
+      "root_id": "864691135660284034",
+      "patches": 32030,
+      "incidences": 108460,
+      "context_voxels": 32009,
+      "point_voxels": 32768,
+      "max_raw_group": 382
+    },
+    {
+      "root_id": "864691135430356784",
+      "patches": 32664,
+      "incidences": 110476,
+      "context_voxels": 32677,
+      "point_voxels": 32768,
+      "max_raw_group": 295
+    },
+    {
+      "root_id": "864691135068144708",
+      "patches": 32765,
+      "incidences": 105182,
+      "context_voxels": 32764,
+      "point_voxels": 32768,
+      "max_raw_group": 142
+    },
+    {
+      "root_id": "864691135474179378",
+      "patches": 30337,
+      "incidences": 104273,
+      "context_voxels": 30394,
+      "point_voxels": 32768,
+      "max_raw_group": 490
+    },
+    {
+      "root_id": "864691135942250753",
+      "patches": 31428,
+      "incidences": 103159,
+      "context_voxels": 31421,
+      "point_voxels": 32768,
+      "max_raw_group": 385
+    },
+    {
+      "root_id": "864691136914747633",
+      "patches": 32029,
+      "incidences": 110795,
+      "context_voxels": 31968,
+      "point_voxels": 32768,
+      "max_raw_group": 258
+    },
+    {
+      "root_id": "864691135698662298",
+      "patches": 32768,
+      "incidences": 109251,
+      "context_voxels": 32768,
+      "point_voxels": 32768,
+      "max_raw_group": 197
+    },
+    {
+      "root_id": "864691135137299481",
+      "patches": 30320,
+      "incidences": 100163,
+      "context_voxels": 30309,
+      "point_voxels": 32768,
+      "max_raw_group": 730
+    },
+    {
+      "root_id": "864691136665299166",
+      "patches": 31140,
+      "incidences": 108063,
+      "context_voxels": 31197,
+      "point_voxels": 32768,
+      "max_raw_group": 509
+    },
+    {
+      "root_id": "864691135389195393",
+      "patches": 30114,
+      "incidences": 99262,
+      "context_voxels": 30049,
+      "point_voxels": 32768,
+      "max_raw_group": 537
+    },
+    {
+      "root_id": "864691136007615434",
+      "patches": 32721,
+      "incidences": 107531,
+      "context_voxels": 32729,
+      "point_voxels": 32768,
+      "max_raw_group": 171
+    },
+    {
+      "root_id": "864691135135072160",
+      "patches": 31268,
+      "incidences": 101272,
+      "context_voxels": 31347,
+      "point_voxels": 32768,
+      "max_raw_group": 374
+    },
+    {
+      "root_id": "864691136238801935",
+      "patches": 32093,
+      "incidences": 106775,
+      "context_voxels": 32059,
+      "point_voxels": 32768,
+      "max_raw_group": 473
+    },
+    {
+      "root_id": "864691135215434552",
+      "patches": 32564,
+      "incidences": 110849,
+      "context_voxels": 32526,
+      "point_voxels": 32768,
+      "max_raw_group": 421
+    },
+    {
+      "root_id": "864691135235606873",
+      "patches": 31971,
+      "incidences": 108508,
+      "context_voxels": 31992,
+      "point_voxels": 32768,
+      "max_raw_group": 416
+    },
+    {
+      "root_id": "864691136229435217",
+      "patches": 31804,
+      "incidences": 103551,
+      "context_voxels": 31807,
+      "point_voxels": 32768,
+      "max_raw_group": 306
+    },
+    {
+      "root_id": "864691135474672690",
+      "patches": 32629,
+      "incidences": 109693,
+      "context_voxels": 32601,
+      "point_voxels": 32768,
+      "max_raw_group": 302
+    },
+    {
+      "root_id": "864691137056801654",
+      "patches": 32768,
+      "incidences": 107333,
+      "context_voxels": 32768,
+      "point_voxels": 32768,
+      "max_raw_group": 537
+    },
+    {
+      "root_id": "864691136091777847",
+      "patches": 32009,
+      "incidences": 107550,
+      "context_voxels": 32007,
+      "point_voxels": 32768,
+      "max_raw_group": 465
+    },
+    {
+      "root_id": "864691136373232520",
+      "patches": 31334,
+      "incidences": 103496,
+      "context_voxels": 31342,
+      "point_voxels": 32768,
+      "max_raw_group": 560
+    },
+    {
+      "root_id": "864691135689917152",
+      "patches": 32767,
+      "incidences": 108474,
+      "context_voxels": 32768,
+      "point_voxels": 32768,
+      "max_raw_group": 179
+    },
+    {
+      "root_id": "864691135572346349",
+      "patches": 32588,
+      "incidences": 105033,
+      "context_voxels": 32590,
+      "point_voxels": 32768,
+      "max_raw_group": 376
+    },
+    {
+      "root_id": "864691135944192116",
+      "patches": 32364,
+      "incidences": 104651,
+      "context_voxels": 32375,
+      "point_voxels": 32768,
+      "max_raw_group": 330
+    },
+    {
+      "root_id": "864691135183999490",
+      "patches": 32611,
+      "incidences": 110145,
+      "context_voxels": 32611,
+      "point_voxels": 32768,
+      "max_raw_group": 390
+    },
+    {
+      "root_id": "864691135689417440",
+      "patches": 32713,
+      "incidences": 106078,
+      "context_voxels": 32713,
+      "point_voxels": 32768,
+      "max_raw_group": 271
+    },
+    {
+      "root_id": "864691135994637249",
+      "patches": 32081,
+      "incidences": 105429,
+      "context_voxels": 32123,
+      "point_voxels": 32768,
+      "max_raw_group": 457
+    },
+    {
+      "root_id": "864691135717457178",
+      "patches": 32069,
+      "incidences": 106367,
+      "context_voxels": 32070,
+      "point_voxels": 32768,
+      "max_raw_group": 547
+    },
+    {
+      "root_id": "864691135410322121",
+      "patches": 31791,
+      "incidences": 108981,
+      "context_voxels": 31769,
+      "point_voxels": 32768,
+      "max_raw_group": 320
+    },
+    {
+      "root_id": "864691135742137492",
+      "patches": 30649,
+      "incidences": 97555,
+      "context_voxels": 30614,
+      "point_voxels": 32768,
+      "max_raw_group": 418
+    },
+    {
+      "root_id": "864691135385020122",
+      "patches": 32569,
+      "incidences": 107738,
+      "context_voxels": 32565,
+      "point_voxels": 32768,
+      "max_raw_group": 499
+    },
+    {
+      "root_id": "864691135742408852",
+      "patches": 32642,
+      "incidences": 108269,
+      "context_voxels": 32647,
+      "point_voxels": 32768,
+      "max_raw_group": 310
+    },
+    {
+      "root_id": "864691135885406064",
+      "patches": 31667,
+      "incidences": 103985,
+      "context_voxels": 31693,
+      "point_voxels": 32768,
+      "max_raw_group": 344
+    },
+    {
+      "root_id": "864691135385563627",
+      "patches": 32741,
+      "incidences": 107052,
+      "context_voxels": 32754,
+      "point_voxels": 32768,
+      "max_raw_group": 238
+    },
+    {
+      "root_id": "864691135404765166",
+      "patches": 31198,
+      "incidences": 106034,
+      "context_voxels": 31176,
+      "point_voxels": 32768,
+      "max_raw_group": 307
+    },
+    {
+      "root_id": "864691135470942290",
+      "patches": 32356,
+      "incidences": 106512,
+      "context_voxels": 32357,
+      "point_voxels": 32768,
+      "max_raw_group": 439
+    },
+    {
+      "root_id": "864691135369764601",
+      "patches": 32406,
+      "incidences": 104592,
+      "context_voxels": 32337,
+      "point_voxels": 32768,
+      "max_raw_group": 253
+    },
+    {
+      "root_id": "864691135810466333",
+      "patches": 30163,
+      "incidences": 100615,
+      "context_voxels": 30253,
+      "point_voxels": 32768,
+      "max_raw_group": 601
+    },
+    {
+      "root_id": "864691135756279757",
+      "patches": 30802,
+      "incidences": 106486,
+      "context_voxels": 30847,
+      "point_voxels": 32768,
+      "max_raw_group": 349
+    },
+    {
+      "root_id": "864691135699710229",
+      "patches": 31482,
+      "incidences": 103692,
+      "context_voxels": 31483,
+      "point_voxels": 32768,
+      "max_raw_group": 501
+    },
+    {
+      "root_id": "864691135084242935",
+      "patches": 32742,
+      "incidences": 105374,
+      "context_voxels": 32744,
+      "point_voxels": 32768,
+      "max_raw_group": 299
+    },
+    {
+      "root_id": "864691136196458454",
+      "patches": 32423,
+      "incidences": 108776,
+      "context_voxels": 32427,
+      "point_voxels": 32768,
+      "max_raw_group": 484
+    },
+    {
+      "root_id": "864691135277645029",
+      "patches": 32538,
+      "incidences": 107644,
+      "context_voxels": 32544,
+      "point_voxels": 32768,
+      "max_raw_group": 236
+    },
+    {
+      "root_id": "864691135861502056",
+      "patches": 32768,
+      "incidences": 111600,
+      "context_voxels": 32768,
+      "point_voxels": 32768,
+      "max_raw_group": 103
+    },
+    {
+      "root_id": "864691136814699379",
+      "patches": 32469,
+      "incidences": 103604,
+      "context_voxels": 32525,
+      "point_voxels": 32768,
+      "max_raw_group": 217
+    },
+    {
+      "root_id": "864691136288598467",
+      "patches": 31441,
+      "incidences": 108856,
+      "context_voxels": 31392,
+      "point_voxels": 32768,
+      "max_raw_group": 465
+    },
+    {
+      "root_id": "864691135892355977",
+      "patches": 32549,
+      "incidences": 103399,
+      "context_voxels": 32528,
+      "point_voxels": 32768,
+      "max_raw_group": 451
+    },
+    {
+      "root_id": "864691136196502742",
+      "patches": 32726,
+      "incidences": 109436,
+      "context_voxels": 32717,
+      "point_voxels": 32768,
+      "max_raw_group": 375
+    },
+    {
+      "root_id": "864691135135334816",
+      "patches": 32703,
+      "incidences": 107170,
+      "context_voxels": 32698,
+      "point_voxels": 32768,
+      "max_raw_group": 261
+    },
+    {
+      "root_id": "864691135867057372",
+      "patches": 30029,
+      "incidences": 99821,
+      "context_voxels": 29917,
+      "point_voxels": 32768,
+      "max_raw_group": 558
+    },
+    {
+      "root_id": "864691135388015445",
+      "patches": 32767,
+      "incidences": 105144,
+      "context_voxels": 32768,
+      "point_voxels": 32768,
+      "max_raw_group": 642
+    },
+    {
+      "root_id": "864691135929328340",
+      "patches": 32768,
+      "incidences": 109488,
+      "context_voxels": 32767,
+      "point_voxels": 32768,
+      "max_raw_group": 214
+    },
+    {
+      "root_id": "864691136674080135",
+      "patches": 32289,
+      "incidences": 110972,
+      "context_voxels": 32274,
+      "point_voxels": 32768,
+      "max_raw_group": 433
+    },
+    {
+      "root_id": "864691135616576715",
+      "patches": 32065,
+      "incidences": 110464,
+      "context_voxels": 32107,
+      "point_voxels": 32768,
+      "max_raw_group": 676
+    },
+    {
+      "root_id": "864691135892202633",
+      "patches": 31071,
+      "incidences": 111474,
+      "context_voxels": 31093,
+      "point_voxels": 32768,
+      "max_raw_group": 646
+    },
+    {
+      "root_id": "864691135994226881",
+      "patches": 32434,
+      "incidences": 110303,
+      "context_voxels": 32468,
+      "point_voxels": 32768,
+      "max_raw_group": 296
+    },
+    {
+      "root_id": "864691136102593397",
+      "patches": 31217,
+      "incidences": 104598,
+      "context_voxels": 31217,
+      "point_voxels": 32768,
+      "max_raw_group": 398
+    },
+    {
+      "root_id": "864691136010802860",
+      "patches": 31420,
+      "incidences": 106554,
+      "context_voxels": 31416,
+      "point_voxels": 32768,
+      "max_raw_group": 756
+    },
+    {
+      "root_id": "864691135389266561",
+      "patches": 32599,
+      "incidences": 104415,
+      "context_voxels": 32570,
+      "point_voxels": 32768,
+      "max_raw_group": 301
+    },
+    {
+      "root_id": "864691135280944545",
+      "patches": 31175,
+      "incidences": 103420,
+      "context_voxels": 31182,
+      "point_voxels": 32768,
+      "max_raw_group": 322
+    },
+    {
+      "root_id": "864691136390474359",
+      "patches": 31647,
+      "incidences": 103624,
+      "context_voxels": 31629,
+      "point_voxels": 32768,
+      "max_raw_group": 506
+    },
+    {
+      "root_id": "864691135258766767",
+      "patches": 31436,
+      "incidences": 103118,
+      "context_voxels": 31455,
+      "point_voxels": 32768,
+      "max_raw_group": 397
+    },
+    {
+      "root_id": "864691135466633029",
+      "patches": 32768,
+      "incidences": 107325,
+      "context_voxels": 32768,
+      "point_voxels": 32768,
+      "max_raw_group": 110
+    },
+    {
+      "root_id": "864691135464263742",
+      "patches": 32411,
+      "incidences": 106675,
+      "context_voxels": 32363,
+      "point_voxels": 32768,
+      "max_raw_group": 338
+    },
+    {
+      "root_id": "864691136619529179",
+      "patches": 32375,
+      "incidences": 110380,
+      "context_voxels": 32380,
+      "point_voxels": 32768,
+      "max_raw_group": 327
+    },
+    {
+      "root_id": "864691135449021524",
+      "patches": 32647,
+      "incidences": 112943,
+      "context_voxels": 32623,
+      "point_voxels": 32768,
+      "max_raw_group": 520
+    },
+    {
+      "root_id": "864691136524636049",
+      "patches": 32698,
+      "incidences": 109119,
+      "context_voxels": 32699,
+      "point_voxels": 32768,
+      "max_raw_group": 192
+    },
+    {
+      "root_id": "864691136026155577",
+      "patches": 31900,
+      "incidences": 102817,
+      "context_voxels": 31830,
+      "point_voxels": 32768,
+      "max_raw_group": 513
+    },
+    {
+      "root_id": "864691135867331036",
+      "patches": 31323,
+      "incidences": 103795,
+      "context_voxels": 31371,
+      "point_voxels": 32768,
+      "max_raw_group": 409
+    },
+    {
+      "root_id": "864691135928645134",
+      "patches": 32753,
+      "incidences": 108057,
+      "context_voxels": 32749,
+      "point_voxels": 32768,
+      "max_raw_group": 206
+    },
+    {
+      "root_id": "864691135579346437",
+      "patches": 32635,
+      "incidences": 111404,
+      "context_voxels": 32607,
+      "point_voxels": 32768,
+      "max_raw_group": 287
+    },
+    {
+      "root_id": "864691135449082708",
+      "patches": 32758,
+      "incidences": 109533,
+      "context_voxels": 32755,
+      "point_voxels": 32768,
+      "max_raw_group": 265
+    },
+    {
+      "root_id": "864691135991355136",
+      "patches": 32767,
+      "incidences": 112156,
+      "context_voxels": 32768,
+      "point_voxels": 32768,
+      "max_raw_group": 212
+    },
+    {
+      "root_id": "864691135686800567",
+      "patches": 32640,
+      "incidences": 106090,
+      "context_voxels": 32651,
+      "point_voxels": 32768,
+      "max_raw_group": 247
+    },
+    {
+      "root_id": "864691136438775966",
+      "patches": 31999,
+      "incidences": 110241,
+      "context_voxels": 32016,
+      "point_voxels": 32768,
+      "max_raw_group": 351
+    },
+    {
+      "root_id": "864691136906416818",
+      "patches": 32716,
+      "incidences": 114192,
+      "context_voxels": 32713,
+      "point_voxels": 32768,
+      "max_raw_group": 314
+    },
+    {
+      "root_id": "864691135849300318",
+      "patches": 32309,
+      "incidences": 105444,
+      "context_voxels": 32293,
+      "point_voxels": 32768,
+      "max_raw_group": 336
+    },
+    {
+      "root_id": "864691135853088967",
+      "patches": 30866,
+      "incidences": 103450,
+      "context_voxels": 30931,
+      "point_voxels": 32768,
+      "max_raw_group": 792
+    },
+    {
+      "root_id": "864691136814830195",
+      "patches": 32399,
+      "incidences": 108044,
+      "context_voxels": 32394,
+      "point_voxels": 32768,
+      "max_raw_group": 369
+    },
+    {
+      "root_id": "864691135660329858",
+      "patches": 32756,
+      "incidences": 112752,
+      "context_voxels": 32752,
+      "point_voxels": 32768,
+      "max_raw_group": 235
+    },
+    {
+      "root_id": "864691135739689073",
+      "patches": 31240,
+      "incidences": 110929,
+      "context_voxels": 31208,
+      "point_voxels": 32768,
+      "max_raw_group": 306
+    },
+    {
+      "root_id": "864691135431616048",
+      "patches": 32768,
+      "incidences": 110431,
+      "context_voxels": 32768,
+      "point_voxels": 32768,
+      "max_raw_group": 522
+    },
+    {
+      "root_id": "864691135757458642",
+      "patches": 32730,
+      "incidences": 107700,
+      "context_voxels": 32741,
+      "point_voxels": 32768,
+      "max_raw_group": 260
+    },
+    {
+      "root_id": "864691136211325884",
+      "patches": 32415,
+      "incidences": 109383,
+      "context_voxels": 32444,
+      "point_voxels": 32768,
+      "max_raw_group": 402
+    },
+    {
+      "root_id": "864691135867149182",
+      "patches": 32767,
+      "incidences": 108041,
+      "context_voxels": 32767,
+      "point_voxels": 32768,
+      "max_raw_group": 562
+    },
+    {
+      "root_id": "864691137056795254",
+      "patches": 32758,
+      "incidences": 109432,
+      "context_voxels": 32762,
+      "point_voxels": 32768,
+      "max_raw_group": 155
+    },
+    {
+      "root_id": "864691136604366289",
+      "patches": 32585,
+      "incidences": 107616,
+      "context_voxels": 32568,
+      "point_voxels": 32768,
+      "max_raw_group": 287
+    },
+    {
+      "root_id": "864691135878468435",
+      "patches": 31715,
+      "incidences": 107848,
+      "context_voxels": 31758,
+      "point_voxels": 32768,
+      "max_raw_group": 307
+    },
+    {
+      "root_id": "864691135942449409",
+      "patches": 31629,
+      "incidences": 102024,
+      "context_voxels": 31652,
+      "point_voxels": 32768,
+      "max_raw_group": 377
+    },
+    {
+      "root_id": "864691137022228334",
+      "patches": 32746,
+      "incidences": 106495,
+      "context_voxels": 32748,
+      "point_voxels": 32768,
+      "max_raw_group": 228
+    },
+    {
+      "root_id": "864691136275230142",
+      "patches": 30162,
+      "incidences": 99499,
+      "context_voxels": 30116,
+      "point_voxels": 32768,
+      "max_raw_group": 479
+    },
+    {
+      "root_id": "864691135726881195",
+      "patches": 32114,
+      "incidences": 106763,
+      "context_voxels": 32111,
+      "point_voxels": 32768,
+      "max_raw_group": 439
+    },
+    {
+      "root_id": "864691135843236323",
+      "patches": 32743,
+      "incidences": 104701,
+      "context_voxels": 32758,
+      "point_voxels": 32768,
+      "max_raw_group": 382
+    },
+    {
+      "root_id": "864691135015998102",
+      "patches": 31763,
+      "incidences": 112998,
+      "context_voxels": 31815,
+      "point_voxels": 32768,
+      "max_raw_group": 281
+    },
+    {
+      "root_id": "864691135756075981",
+      "patches": 32751,
+      "incidences": 109317,
+      "context_voxels": 32755,
+      "point_voxels": 32768,
+      "max_raw_group": 250
+    },
+    {
+      "root_id": "864691135853433287",
+      "patches": 32750,
+      "incidences": 105499,
+      "context_voxels": 32747,
+      "point_voxels": 32768,
+      "max_raw_group": 213
+    },
+    {
+      "root_id": "864691136007577802",
+      "patches": 32001,
+      "incidences": 110500,
+      "context_voxels": 31934,
+      "point_voxels": 32768,
+      "max_raw_group": 470
+    },
+    {
+      "root_id": "864691135294480310",
+      "patches": 32643,
+      "incidences": 105744,
+      "context_voxels": 32640,
+      "point_voxels": 32768,
+      "max_raw_group": 407
+    },
+    {
+      "root_id": "864691134966960927",
+      "patches": 32764,
+      "incidences": 106465,
+      "context_voxels": 32766,
+      "point_voxels": 32768,
+      "max_raw_group": 129
+    },
+    {
+      "root_id": "864691135362643783",
+      "patches": 32757,
+      "incidences": 108155,
+      "context_voxels": 32760,
+      "point_voxels": 32768,
+      "max_raw_group": 194
+    },
+    {
+      "root_id": "864691135840176019",
+      "patches": 32588,
+      "incidences": 104527,
+      "context_voxels": 32589,
+      "point_voxels": 32768,
+      "max_raw_group": 211
+    },
+    {
+      "root_id": "864691135496747664",
+      "patches": 32732,
+      "incidences": 110235,
+      "context_voxels": 32751,
+      "point_voxels": 32768,
+      "max_raw_group": 162
+    },
+    {
+      "root_id": "864691135686656951",
+      "patches": 32518,
+      "incidences": 105682,
+      "context_voxels": 32494,
+      "point_voxels": 32768,
+      "max_raw_group": 400
+    },
+    {
+      "root_id": "864691135376139208",
+      "patches": 32768,
+      "incidences": 106986,
+      "context_voxels": 32768,
+      "point_voxels": 32768,
+      "max_raw_group": 202
+    },
+    {
+      "root_id": "864691135690013664",
+      "patches": 32739,
+      "incidences": 104811,
+      "context_voxels": 32738,
+      "point_voxels": 32768,
+      "max_raw_group": 197
+    },
+    {
+      "root_id": "864691135430346544",
+      "patches": 32696,
+      "incidences": 106608,
+      "context_voxels": 32680,
+      "point_voxels": 32768,
+      "max_raw_group": 377
+    },
+    {
+      "root_id": "864691135727135147",
+      "patches": 31406,
+      "incidences": 104786,
+      "context_voxels": 31374,
+      "point_voxels": 32768,
+      "max_raw_group": 367
+    },
+    {
+      "root_id": "864691135464928318",
+      "patches": 32387,
+      "incidences": 112898,
+      "context_voxels": 32414,
+      "point_voxels": 32768,
+      "max_raw_group": 401
+    },
+    {
+      "root_id": "864691135478400936",
+      "patches": 31292,
+      "incidences": 106095,
+      "context_voxels": 31233,
+      "point_voxels": 32768,
+      "max_raw_group": 470
+    },
+    {
+      "root_id": "864691135810552349",
+      "patches": 32404,
+      "incidences": 105234,
+      "context_voxels": 32400,
+      "point_voxels": 32768,
+      "max_raw_group": 276
+    },
+    {
+      "root_id": "864691135295330828",
+      "patches": 31862,
+      "incidences": 101730,
+      "context_voxels": 31849,
+      "point_voxels": 32768,
+      "max_raw_group": 683
+    },
+    {
+      "root_id": "864691135878867027",
+      "patches": 32768,
+      "incidences": 108827,
+      "context_voxels": 32767,
+      "point_voxels": 32768,
+      "max_raw_group": 373
+    },
+    {
+      "root_id": "864691135929229780",
+      "patches": 32768,
+      "incidences": 105414,
+      "context_voxels": 32765,
+      "point_voxels": 32768,
+      "max_raw_group": 645
+    },
+    {
+      "root_id": "864691135660287874",
+      "patches": 32278,
+      "incidences": 110628,
+      "context_voxels": 32289,
+      "point_voxels": 32768,
+      "max_raw_group": 345
+    },
+    {
+      "root_id": "864691135698211994",
+      "patches": 32732,
+      "incidences": 105823,
+      "context_voxels": 32748,
+      "point_voxels": 32768,
+      "max_raw_group": 227
+    },
+    {
+      "root_id": "864691135504327861",
+      "patches": 32644,
+      "incidences": 109176,
+      "context_voxels": 32657,
+      "point_voxels": 32768,
+      "max_raw_group": 288
+    },
+    {
+      "root_id": "864691135593133067",
+      "patches": 31911,
+      "incidences": 103949,
+      "context_voxels": 31953,
+      "point_voxels": 32768,
+      "max_raw_group": 455
+    },
+    {
+      "root_id": "864691135520284298",
+      "patches": 32709,
+      "incidences": 109448,
+      "context_voxels": 32710,
+      "point_voxels": 32768,
+      "max_raw_group": 313
+    },
+    {
+      "root_id": "864691135481148614",
+      "patches": 32759,
+      "incidences": 108955,
+      "context_voxels": 32754,
+      "point_voxels": 32768,
+      "max_raw_group": 593
+    },
+    {
+      "root_id": "864691135456920938",
+      "patches": 32693,
+      "incidences": 107775,
+      "context_voxels": 32689,
+      "point_voxels": 32768,
+      "max_raw_group": 310
+    },
+    {
+      "root_id": "864691136299261211",
+      "patches": 31936,
+      "incidences": 111752,
+      "context_voxels": 31908,
+      "point_voxels": 32768,
+      "max_raw_group": 377
+    },
+    {
+      "root_id": "864691135765208374",
+      "patches": 32762,
+      "incidences": 110765,
+      "context_voxels": 32764,
+      "point_voxels": 32768,
+      "max_raw_group": 274
+    },
+    {
+      "root_id": "864691136007339466",
+      "patches": 31275,
+      "incidences": 105860,
+      "context_voxels": 31286,
+      "point_voxels": 32768,
+      "max_raw_group": 548
+    },
+    {
+      "root_id": "864691135295165196",
+      "patches": 30210,
+      "incidences": 99162,
+      "context_voxels": 30220,
+      "point_voxels": 32768,
+      "max_raw_group": 133
+    },
+    {
+      "root_id": "864691136229529681",
+      "patches": 32558,
+      "incidences": 109644,
+      "context_voxels": 32582,
+      "point_voxels": 32768,
+      "max_raw_group": 352
+    },
+    {
+      "root_id": "864691136196418518",
+      "patches": 31563,
+      "incidences": 102449,
+      "context_voxels": 31497,
+      "point_voxels": 32768,
+      "max_raw_group": 337
+    },
+    {
+      "root_id": "864691135214977920",
+      "patches": 31995,
+      "incidences": 103909,
+      "context_voxels": 32035,
+      "point_voxels": 32768,
+      "max_raw_group": 503
+    },
+    {
+      "root_id": "864691136312508506",
+      "patches": 32756,
+      "incidences": 107496,
+      "context_voxels": 32748,
+      "point_voxels": 32768,
+      "max_raw_group": 198
+    },
+    {
+      "root_id": "864691136974813212",
+      "patches": 32361,
+      "incidences": 103356,
+      "context_voxels": 32336,
+      "point_voxels": 32768,
+      "max_raw_group": 308
+    },
+    {
+      "root_id": "864691135325071004",
+      "patches": 32584,
+      "incidences": 112067,
+      "context_voxels": 32578,
+      "point_voxels": 32768,
+      "max_raw_group": 414
+    },
+    {
+      "root_id": "864691135310045254",
+      "patches": 32763,
+      "incidences": 107506,
+      "context_voxels": 32763,
+      "point_voxels": 32768,
+      "max_raw_group": 216
+    },
+    {
+      "root_id": "864691136196678120",
+      "patches": 32742,
+      "incidences": 110451,
+      "context_voxels": 32744,
+      "point_voxels": 32768,
+      "max_raw_group": 199
+    },
+    {
+      "root_id": "864691135878708307",
+      "patches": 32481,
+      "incidences": 105766,
+      "context_voxels": 32501,
+      "point_voxels": 32768,
+      "max_raw_group": 389
+    },
+    {
+      "root_id": "864691136289081283",
+      "patches": 32766,
+      "incidences": 110504,
+      "context_voxels": 32762,
+      "point_voxels": 32768,
+      "max_raw_group": 316
+    },
+    {
+      "root_id": "864691135920800688",
+      "patches": 30418,
+      "incidences": 99136,
+      "context_voxels": 30536,
+      "point_voxels": 32768,
+      "max_raw_group": 931
+    },
+    {
+      "root_id": "864691135464995134",
+      "patches": 30179,
+      "incidences": 100802,
+      "context_voxels": 30276,
+      "point_voxels": 32768,
+      "max_raw_group": 660
+    },
+    {
+      "root_id": "864691135350542039",
+      "patches": 32585,
+      "incidences": 104030,
+      "context_voxels": 32591,
+      "point_voxels": 32768,
+      "max_raw_group": 413
+    },
+    {
+      "root_id": "864691135309786950",
+      "patches": 32537,
+      "incidences": 104025,
+      "context_voxels": 32498,
+      "point_voxels": 32768,
+      "max_raw_group": 396
+    },
+    {
+      "root_id": "864691135060651419",
+      "patches": 32768,
+      "incidences": 108698,
+      "context_voxels": 32768,
+      "point_voxels": 32768,
+      "max_raw_group": 159
+    },
+    {
+      "root_id": "864691134942731619",
+      "patches": 32766,
+      "incidences": 106934,
+      "context_voxels": 32764,
+      "point_voxels": 32768,
+      "max_raw_group": 187
+    },
+    {
+      "root_id": "864691135940068149",
+      "patches": 31954,
+      "incidences": 105198,
+      "context_voxels": 31923,
+      "point_voxels": 32768,
+      "max_raw_group": 427
+    },
+    {
+      "root_id": "864691135196856362",
+      "patches": 32766,
+      "incidences": 112475,
+      "context_voxels": 32766,
+      "point_voxels": 32768,
+      "max_raw_group": 294
+    },
+    {
+      "root_id": "864691136914414321",
+      "patches": 32768,
+      "incidences": 108602,
+      "context_voxels": 32768,
+      "point_voxels": 32768,
+      "max_raw_group": 360
+    },
+    {
+      "root_id": "864691135361234776",
+      "patches": 32704,
+      "incidences": 112035,
+      "context_voxels": 32714,
+      "point_voxels": 32768,
+      "max_raw_group": 287
+    },
+    {
+      "root_id": "864691135344342961",
+      "patches": 32682,
+      "incidences": 109202,
+      "context_voxels": 32664,
+      "point_voxels": 32768,
+      "max_raw_group": 311
+    },
+    {
+      "root_id": "864691135448550290",
+      "patches": 31732,
+      "incidences": 106957,
+      "context_voxels": 31776,
+      "point_voxels": 32768,
+      "max_raw_group": 542
+    },
+    {
+      "root_id": "864691135120073949",
+      "patches": 32764,
+      "incidences": 107010,
+      "context_voxels": 32768,
+      "point_voxels": 32768,
+      "max_raw_group": 393
+    },
+    {
+      "root_id": "864691135496698768",
+      "patches": 32766,
+      "incidences": 108611,
+      "context_voxels": 32767,
+      "point_voxels": 32768,
+      "max_raw_group": 688
+    },
+    {
+      "root_id": "864691135869914646",
+      "patches": 32409,
+      "incidences": 106307,
+      "context_voxels": 32415,
+      "point_voxels": 32768,
+      "max_raw_group": 390
+    },
+    {
+      "root_id": "864691135757040082",
+      "patches": 32469,
+      "incidences": 104743,
+      "context_voxels": 32465,
+      "point_voxels": 32768,
+      "max_raw_group": 379
+    },
+    {
+      "root_id": "864691136137237899",
+      "patches": 32529,
+      "incidences": 107870,
+      "context_voxels": 32553,
+      "point_voxels": 32768,
+      "max_raw_group": 205
+    },
+    {
+      "root_id": "864691136043283030",
+      "patches": 30847,
+      "incidences": 103440,
+      "context_voxels": 30844,
+      "point_voxels": 32768,
+      "max_raw_group": 577
+    },
+    {
+      "root_id": "864691134991330682",
+      "patches": 32721,
+      "incidences": 110407,
+      "context_voxels": 32728,
+      "point_voxels": 32768,
+      "max_raw_group": 315
+    },
+    {
+      "root_id": "864691136059064536",
+      "patches": 32763,
+      "incidences": 107695,
+      "context_voxels": 32757,
+      "point_voxels": 32768,
+      "max_raw_group": 190
+    },
+    {
+      "root_id": "864691135504564149",
+      "patches": 32680,
+      "incidences": 111531,
+      "context_voxels": 32684,
+      "point_voxels": 32768,
+      "max_raw_group": 271
+    },
+    {
+      "root_id": "864691136928010570",
+      "patches": 32733,
+      "incidences": 108983,
+      "context_voxels": 32728,
+      "point_voxels": 32768,
+      "max_raw_group": 289
+    },
+    {
+      "root_id": "864691136010972588",
+      "patches": 32668,
+      "incidences": 109461,
+      "context_voxels": 32663,
+      "point_voxels": 32768,
+      "max_raw_group": 310
+    },
+    {
+      "root_id": "864691135061132443",
+      "patches": 32760,
+      "incidences": 106822,
+      "context_voxels": 32763,
+      "point_voxels": 32768,
+      "max_raw_group": 162
+    },
+    {
+      "root_id": "864691136026254649",
+      "patches": 32160,
+      "incidences": 105893,
+      "context_voxels": 32196,
+      "point_voxels": 32768,
+      "max_raw_group": 346
+    },
+    {
+      "root_id": "864691135376419401",
+      "patches": 30872,
+      "incidences": 100266,
+      "context_voxels": 30895,
+      "point_voxels": 32768,
+      "max_raw_group": 628
+    },
+    {
+      "root_id": "864691135720909105",
+      "patches": 32663,
+      "incidences": 107308,
+      "context_voxels": 32646,
+      "point_voxels": 32768,
+      "max_raw_group": 169
+    },
+    {
+      "root_id": "864691135869701142",
+      "patches": 32163,
+      "incidences": 113400,
+      "context_voxels": 32192,
+      "point_voxels": 32768,
+      "max_raw_group": 251
+    },
+    {
+      "root_id": "864691135942170534",
+      "patches": 32756,
+      "incidences": 109253,
+      "context_voxels": 32759,
+      "point_voxels": 32768,
+      "max_raw_group": 262
+    },
+    {
+      "root_id": "864691135369693945",
+      "patches": 31768,
+      "incidences": 102580,
+      "context_voxels": 31663,
+      "point_voxels": 32768,
+      "max_raw_group": 313
+    },
+    {
+      "root_id": "864691135477606208",
+      "patches": 32659,
+      "incidences": 106160,
+      "context_voxels": 32625,
+      "point_voxels": 32768,
+      "max_raw_group": 440
+    },
+    {
+      "root_id": "864691135779369056",
+      "patches": 31428,
+      "incidences": 99048,
+      "context_voxels": 31414,
+      "point_voxels": 32768,
+      "max_raw_group": 472
+    },
+    {
+      "root_id": "864691136814655859",
+      "patches": 31995,
+      "incidences": 105146,
+      "context_voxels": 32015,
+      "point_voxels": 32768,
+      "max_raw_group": 619
+    },
+    {
+      "root_id": "864691136373173896",
+      "patches": 32767,
+      "incidences": 107171,
+      "context_voxels": 32767,
+      "point_voxels": 32768,
+      "max_raw_group": 223
+    },
+    {
+      "root_id": "864691135137534745",
+      "patches": 32615,
+      "incidences": 111894,
+      "context_voxels": 32593,
+      "point_voxels": 32768,
+      "max_raw_group": 296
+    },
+    {
+      "root_id": "864691136381243349",
+      "patches": 30851,
+      "incidences": 103066,
+      "context_voxels": 30797,
+      "point_voxels": 32768,
+      "max_raw_group": 337
+    },
+    {
+      "root_id": "864691136597205154",
+      "patches": 32752,
+      "incidences": 108733,
+      "context_voxels": 32750,
+      "point_voxels": 32768,
+      "max_raw_group": 250
+    },
+    {
+      "root_id": "864691135742410132",
+      "patches": 32752,
+      "incidences": 107858,
+      "context_voxels": 32755,
+      "point_voxels": 32768,
+      "max_raw_group": 219
+    },
+    {
+      "root_id": "864691136196671702",
+      "patches": 32754,
+      "incidences": 106090,
+      "context_voxels": 32753,
+      "point_voxels": 32768,
+      "max_raw_group": 233
+    },
+    {
+      "root_id": "864691136485274156",
+      "patches": 32762,
+      "incidences": 106103,
+      "context_voxels": 32761,
+      "point_voxels": 32768,
+      "max_raw_group": 258
+    },
+    {
+      "root_id": "864691136676141191",
+      "patches": 32588,
+      "incidences": 109622,
+      "context_voxels": 32579,
+      "point_voxels": 32768,
+      "max_raw_group": 216
+    },
+    {
+      "root_id": "864691135493149927",
+      "patches": 32525,
+      "incidences": 107247,
+      "context_voxels": 32515,
+      "point_voxels": 32768,
+      "max_raw_group": 309
+    },
+    {
+      "root_id": "864691135942285990",
+      "patches": 30595,
+      "incidences": 100661,
+      "context_voxels": 30663,
+      "point_voxels": 32768,
+      "max_raw_group": 141
+    },
+    {
+      "root_id": "864691135662825456",
+      "patches": 31501,
+      "incidences": 107147,
+      "context_voxels": 31600,
+      "point_voxels": 32768,
+      "max_raw_group": 739
+    },
+    {
+      "root_id": "864691136953958879",
+      "patches": 29694,
+      "incidences": 104073,
+      "context_voxels": 29742,
+      "point_voxels": 32768,
+      "max_raw_group": 836
+    },
+    {
+      "root_id": "864691136927761226",
+      "patches": 31928,
+      "incidences": 104195,
+      "context_voxels": 31917,
+      "point_voxels": 32768,
+      "max_raw_group": 609
+    },
+    {
+      "root_id": "864691136391034487",
+      "patches": 31980,
+      "incidences": 106767,
+      "context_voxels": 31999,
+      "point_voxels": 32768,
+      "max_raw_group": 537
+    },
+    {
+      "root_id": "864691135955877896",
+      "patches": 31014,
+      "incidences": 106075,
+      "context_voxels": 31000,
+      "point_voxels": 32768,
+      "max_raw_group": 582
+    },
+    {
+      "root_id": "864691135584948845",
+      "patches": 32731,
+      "incidences": 107756,
+      "context_voxels": 32725,
+      "point_voxels": 32768,
+      "max_raw_group": 436
+    },
+    {
+      "root_id": "864691136195284556",
+      "patches": 32767,
+      "incidences": 113111,
+      "context_voxels": 32768,
+      "point_voxels": 32768,
+      "max_raw_group": 442
+    },
+    {
+      "root_id": "864691134942659427",
+      "patches": 29021,
+      "incidences": 95625,
+      "context_voxels": 29155,
+      "point_voxels": 32768,
+      "max_raw_group": 155
+    },
+    {
+      "root_id": "864691135728030015",
+      "patches": 30350,
+      "incidences": 98744,
+      "context_voxels": 30342,
+      "point_voxels": 32768,
+      "max_raw_group": 124
+    },
+    {
+      "root_id": "864691135596133931",
+      "patches": 32053,
+      "incidences": 106934,
+      "context_voxels": 32086,
+      "point_voxels": 32768,
+      "max_raw_group": 381
+    },
+    {
+      "root_id": "864691135562798817",
+      "patches": 32763,
+      "incidences": 106673,
+      "context_voxels": 32758,
+      "point_voxels": 32768,
+      "max_raw_group": 231
+    },
+    {
+      "root_id": "864691135405713902",
+      "patches": 32684,
+      "incidences": 105137,
+      "context_voxels": 32690,
+      "point_voxels": 32768,
+      "max_raw_group": 195
+    },
+    {
+      "root_id": "864691136906490290",
+      "patches": 32763,
+      "incidences": 105353,
+      "context_voxels": 32761,
+      "point_voxels": 32768,
+      "max_raw_group": 255
+    },
+    {
+      "root_id": "864691135351096279",
+      "patches": 31296,
+      "incidences": 102338,
+      "context_voxels": 31352,
+      "point_voxels": 32768,
+      "max_raw_group": 417
+    },
+    {
+      "root_id": "864691135720061233",
+      "patches": 32320,
+      "incidences": 107929,
+      "context_voxels": 32291,
+      "point_voxels": 32768,
+      "max_raw_group": 448
+    },
+    {
+      "root_id": "864691137022424430",
+      "patches": 32746,
+      "incidences": 108820,
+      "context_voxels": 32744,
+      "point_voxels": 32768,
+      "max_raw_group": 398
+    },
+    {
+      "root_id": "864691136814508659",
+      "patches": 30598,
+      "incidences": 98258,
+      "context_voxels": 30596,
+      "point_voxels": 32768,
+      "max_raw_group": 694
+    },
+    {
+      "root_id": "864691135739425668",
+      "patches": 32747,
+      "incidences": 108464,
+      "context_voxels": 32742,
+      "point_voxels": 32768,
+      "max_raw_group": 188
+    },
+    {
+      "root_id": "864691135921162416",
+      "patches": 30673,
+      "incidences": 102591,
+      "context_voxels": 30671,
+      "point_voxels": 32768,
+      "max_raw_group": 372
+    },
+    {
+      "root_id": "864691135611869191",
+      "patches": 31095,
+      "incidences": 101457,
+      "context_voxels": 31110,
+      "point_voxels": 32768,
+      "max_raw_group": 691
+    },
+    {
+      "root_id": "864691135662802416",
+      "patches": 31563,
+      "incidences": 104880,
+      "context_voxels": 31464,
+      "point_voxels": 32768,
+      "max_raw_group": 577
+    },
+    {
+      "root_id": "864691135596151595",
+      "patches": 32759,
+      "incidences": 104858,
+      "context_voxels": 32755,
+      "point_voxels": 32768,
+      "max_raw_group": 594
+    },
+    {
+      "root_id": "864691135811906764",
+      "patches": 32768,
+      "incidences": 108924,
+      "context_voxels": 32764,
+      "point_voxels": 32768,
+      "max_raw_group": 210
+    },
+    {
+      "root_id": "864691135717299738",
+      "patches": 31913,
+      "incidences": 106481,
+      "context_voxels": 31921,
+      "point_voxels": 32768,
+      "max_raw_group": 446
+    },
+    {
+      "root_id": "864691135388068181",
+      "patches": 32640,
+      "incidences": 107057,
+      "context_voxels": 32630,
+      "point_voxels": 32768,
+      "max_raw_group": 260
+    },
+    {
+      "root_id": "864691136196673768",
+      "patches": 32270,
+      "incidences": 108965,
+      "context_voxels": 32268,
+      "point_voxels": 32768,
+      "max_raw_group": 378
+    },
+    {
+      "root_id": "864691135977114735",
+      "patches": 30407,
+      "incidences": 101053,
+      "context_voxels": 30374,
+      "point_voxels": 32768,
+      "max_raw_group": 301
+    },
+    {
+      "root_id": "864691135196650282",
+      "patches": 32721,
+      "incidences": 104406,
+      "context_voxels": 32727,
+      "point_voxels": 32768,
+      "max_raw_group": 261
+    },
+    {
+      "root_id": "864691135389168001",
+      "patches": 32586,
+      "incidences": 104524,
+      "context_voxels": 32593,
+      "point_voxels": 32768,
+      "max_raw_group": 294
+    },
+    {
+      "root_id": "864691135989702915",
+      "patches": 30661,
+      "incidences": 103102,
+      "context_voxels": 30697,
+      "point_voxels": 32768,
+      "max_raw_group": 732
+    },
+    {
+      "root_id": "864691135357764047",
+      "patches": 32757,
+      "incidences": 104469,
+      "context_voxels": 32757,
+      "point_voxels": 32768,
+      "max_raw_group": 198
+    },
+    {
+      "root_id": "864691136102599285",
+      "patches": 32071,
+      "incidences": 108053,
+      "context_voxels": 32110,
+      "point_voxels": 32768,
+      "max_raw_group": 383
+    },
+    {
+      "root_id": "864691136438717086",
+      "patches": 32402,
+      "incidences": 108807,
+      "context_voxels": 32394,
+      "point_voxels": 32768,
+      "max_raw_group": 521
+    },
+    {
+      "root_id": "864691135939990276",
+      "patches": 32558,
+      "incidences": 110269,
+      "context_voxels": 32555,
+      "point_voxels": 32768,
+      "max_raw_group": 300
+    },
+    {
+      "root_id": "864691135726995371",
+      "patches": 32638,
+      "incidences": 106228,
+      "context_voxels": 32625,
+      "point_voxels": 32768,
+      "max_raw_group": 271
+    },
+    {
+      "root_id": "864691135584815981",
+      "patches": 32750,
+      "incidences": 106838,
+      "context_voxels": 32744,
+      "point_voxels": 32768,
+      "max_raw_group": 170
+    },
+    {
+      "root_id": "864691135493624415",
+      "patches": 31607,
+      "incidences": 106495,
+      "context_voxels": 31640,
+      "point_voxels": 32768,
+      "max_raw_group": 313
+    },
+    {
+      "root_id": "864691136619775451",
+      "patches": 32764,
+      "incidences": 107394,
+      "context_voxels": 32764,
+      "point_voxels": 32768,
+      "max_raw_group": 501
+    },
+    {
+      "root_id": "864691135210703481",
+      "patches": 32485,
+      "incidences": 109916,
+      "context_voxels": 32503,
+      "point_voxels": 32768,
+      "max_raw_group": 349
+    },
+    {
+      "root_id": "864691136380757461",
+      "patches": 32741,
+      "incidences": 105898,
+      "context_voxels": 32743,
+      "point_voxels": 32768,
+      "max_raw_group": 243
+    },
+    {
+      "root_id": "864691136925094628",
+      "patches": 31863,
+      "incidences": 105467,
+      "context_voxels": 31826,
+      "point_voxels": 32768,
+      "max_raw_group": 328
+    },
+    {
+      "root_id": "864691134942472035",
+      "patches": 32763,
+      "incidences": 109729,
+      "context_voxels": 32760,
+      "point_voxels": 32768,
+      "max_raw_group": 249
+    },
+    {
+      "root_id": "864691136906417842",
+      "patches": 30098,
+      "incidences": 102806,
+      "context_voxels": 30117,
+      "point_voxels": 32768,
+      "max_raw_group": 362
+    },
+    {
+      "root_id": "864691135385204698",
+      "patches": 32750,
+      "incidences": 105706,
+      "context_voxels": 32756,
+      "point_voxels": 32768,
+      "max_raw_group": 314
+    },
+    {
+      "root_id": "864691136119122084",
+      "patches": 32693,
+      "incidences": 107833,
+      "context_voxels": 32696,
+      "point_voxels": 32768,
+      "max_raw_group": 258
+    },
+    {
+      "root_id": "864691135810666525",
+      "patches": 32768,
+      "incidences": 109461,
+      "context_voxels": 32768,
+      "point_voxels": 32768,
+      "max_raw_group": 419
+    },
+    {
+      "root_id": "864691135563257057",
+      "patches": 32766,
+      "incidences": 108427,
+      "context_voxels": 32764,
+      "point_voxels": 32768,
+      "max_raw_group": 234
+    },
+    {
+      "root_id": "864691134942762339",
+      "patches": 32701,
+      "incidences": 110048,
+      "context_voxels": 32684,
+      "point_voxels": 32768,
+      "max_raw_group": 386
+    },
+    {
+      "root_id": "864691135764583990",
+      "patches": 32764,
+      "incidences": 108128,
+      "context_voxels": 32767,
+      "point_voxels": 32768,
+      "max_raw_group": 396
+    },
+    {
+      "root_id": "864691135496381840",
+      "patches": 31444,
+      "incidences": 111149,
+      "context_voxels": 31381,
+      "point_voxels": 32768,
+      "max_raw_group": 461
+    },
+    {
+      "root_id": "864691136453770495",
+      "patches": 32058,
+      "incidences": 107645,
+      "context_voxels": 32110,
+      "point_voxels": 32768,
+      "max_raw_group": 275
+    },
+    {
+      "root_id": "864691135732557241",
+      "patches": 31127,
+      "incidences": 101862,
+      "context_voxels": 31137,
+      "point_voxels": 32768,
+      "max_raw_group": 845
+    },
+    {
+      "root_id": "864691135325561500",
+      "patches": 32708,
+      "incidences": 107099,
+      "context_voxels": 32717,
+      "point_voxels": 32768,
+      "max_raw_group": 171
+    },
+    {
+      "root_id": "864691135571872646",
+      "patches": 32748,
+      "incidences": 104112,
+      "context_voxels": 32753,
+      "point_voxels": 32768,
+      "max_raw_group": 175
+    },
+    {
+      "root_id": "864691135970210661",
+      "patches": 32733,
+      "incidences": 104811,
+      "context_voxels": 32727,
+      "point_voxels": 32768,
+      "max_raw_group": 420
+    },
+    {
+      "root_id": "864691135977045871",
+      "patches": 32445,
+      "incidences": 108842,
+      "context_voxels": 32461,
+      "point_voxels": 32768,
+      "max_raw_group": 517
+    },
+    {
+      "root_id": "864691136391027728",
+      "patches": 31555,
+      "incidences": 103188,
+      "context_voxels": 31539,
+      "point_voxels": 32768,
+      "max_raw_group": 294
+    },
+    {
+      "root_id": "864691135717457946",
+      "patches": 32656,
+      "incidences": 108467,
+      "context_voxels": 32664,
+      "point_voxels": 32768,
+      "max_raw_group": 372
+    },
+    {
+      "root_id": "864691135294846390",
+      "patches": 32742,
+      "incidences": 109862,
+      "context_voxels": 32749,
+      "point_voxels": 32768,
+      "max_raw_group": 180
+    },
+    {
+      "root_id": "864691135741982868",
+      "patches": 29218,
+      "incidences": 92393,
+      "context_voxels": 29210,
+      "point_voxels": 32768,
+      "max_raw_group": 90
+    },
+    {
+      "root_id": "864691135493217511",
+      "patches": 32303,
+      "incidences": 107210,
+      "context_voxels": 32328,
+      "point_voxels": 32768,
+      "max_raw_group": 499
+    },
+    {
+      "root_id": "864691136743239516",
+      "patches": 32292,
+      "incidences": 105368,
+      "context_voxels": 32305,
+      "point_voxels": 32768,
+      "max_raw_group": 310
+    },
+    {
+      "root_id": "864691135490505018",
+      "patches": 29700,
+      "incidences": 101034,
+      "context_voxels": 29717,
+      "point_voxels": 32768,
+      "max_raw_group": 538
+    },
+    {
+      "root_id": "864691135760319822",
+      "patches": 31342,
+      "incidences": 103656,
+      "context_voxels": 31319,
+      "point_voxels": 32768,
+      "max_raw_group": 662
+    },
+    {
+      "root_id": "864691135928747022",
+      "patches": 32368,
+      "incidences": 110400,
+      "context_voxels": 32352,
+      "point_voxels": 32768,
+      "max_raw_group": 405
+    },
+    {
+      "root_id": "864691135493253607",
+      "patches": 32685,
+      "incidences": 106713,
+      "context_voxels": 32678,
+      "point_voxels": 32768,
+      "max_raw_group": 288
+    },
+    {
+      "root_id": "864691135921130928",
+      "patches": 32752,
+      "incidences": 112895,
+      "context_voxels": 32751,
+      "point_voxels": 32768,
+      "max_raw_group": 256
+    },
+    {
+      "root_id": "864691135743431275",
+      "patches": 32762,
+      "incidences": 108246,
+      "context_voxels": 32767,
+      "point_voxels": 32768,
+      "max_raw_group": 347
+    },
+    {
+      "root_id": "864691136034832059",
+      "patches": 30983,
+      "incidences": 103234,
+      "context_voxels": 30978,
+      "point_voxels": 32768,
+      "max_raw_group": 596
+    },
+    {
+      "root_id": "864691135431909680",
+      "patches": 32767,
+      "incidences": 105265,
+      "context_voxels": 32767,
+      "point_voxels": 32768,
+      "max_raw_group": 559
+    },
+    {
+      "root_id": "864691135943762036",
+      "patches": 32679,
+      "incidences": 109297,
+      "context_voxels": 32694,
+      "point_voxels": 32768,
+      "max_raw_group": 388
+    },
+    {
+      "root_id": "864691135774646603",
+      "patches": 32744,
+      "incidences": 108050,
+      "context_voxels": 32742,
+      "point_voxels": 32768,
+      "max_raw_group": 355
+    },
+    {
+      "root_id": "864691135994235841",
+      "patches": 32731,
+      "incidences": 103917,
+      "context_voxels": 32734,
+      "point_voxels": 32768,
+      "max_raw_group": 178
+    },
+    {
+      "root_id": "864691135942322433",
+      "patches": 32630,
+      "incidences": 106463,
+      "context_voxels": 32640,
+      "point_voxels": 32768,
+      "max_raw_group": 398
+    },
+    {
+      "root_id": "864691135717271834",
+      "patches": 30492,
+      "incidences": 100981,
+      "context_voxels": 30562,
+      "point_voxels": 32768,
+      "max_raw_group": 814
+    },
+    {
+      "root_id": "864691136276470285",
+      "patches": 32668,
+      "incidences": 106306,
+      "context_voxels": 32672,
+      "point_voxels": 32768,
+      "max_raw_group": 400
+    },
+    {
+      "root_id": "864691136665289694",
+      "patches": 32748,
+      "incidences": 106534,
+      "context_voxels": 32752,
+      "point_voxels": 32768,
+      "max_raw_group": 236
+    },
+    {
+      "root_id": "864691135656799682",
+      "patches": 32674,
+      "incidences": 106152,
+      "context_voxels": 32685,
+      "point_voxels": 32768,
+      "max_raw_group": 268
+    },
+    {
+      "root_id": "864691135866751870",
+      "patches": 32676,
+      "incidences": 105592,
+      "context_voxels": 32684,
+      "point_voxels": 32768,
+      "max_raw_group": 288
+    },
+    {
+      "root_id": "864691136026198585",
+      "patches": 31009,
+      "incidences": 101002,
+      "context_voxels": 31029,
+      "point_voxels": 32768,
+      "max_raw_group": 626
+    },
+    {
+      "root_id": "864691135511741961",
+      "patches": 32768,
+      "incidences": 107147,
+      "context_voxels": 32768,
+      "point_voxels": 32768,
+      "max_raw_group": 322
+    },
+    {
+      "root_id": "864691135660274818",
+      "patches": 32761,
+      "incidences": 107168,
+      "context_voxels": 32758,
+      "point_voxels": 32768,
+      "max_raw_group": 232
+    },
+    {
+      "root_id": "864691135571864198",
+      "patches": 32762,
+      "incidences": 109073,
+      "context_voxels": 32762,
+      "point_voxels": 32768,
+      "max_raw_group": 257
+    },
+    {
+      "root_id": "864691135309722950",
+      "patches": 32617,
+      "incidences": 108648,
+      "context_voxels": 32613,
+      "point_voxels": 32768,
+      "max_raw_group": 308
+    },
+    {
+      "root_id": "864691135977473391",
+      "patches": 32750,
+      "incidences": 111715,
+      "context_voxels": 32754,
+      "point_voxels": 32768,
+      "max_raw_group": 236
+    },
+    {
+      "root_id": "864691136906421682",
+      "patches": 31973,
+      "incidences": 107826,
+      "context_voxels": 31967,
+      "point_voxels": 32768,
+      "max_raw_group": 327
+    },
+    {
+      "root_id": "864691135490483514",
+      "patches": 31227,
+      "incidences": 105729,
+      "context_voxels": 31173,
+      "point_voxels": 32768,
+      "max_raw_group": 675
+    },
+    {
+      "root_id": "864691135448212882",
+      "patches": 30928,
+      "incidences": 102263,
+      "context_voxels": 30855,
+      "point_voxels": 32768,
+      "max_raw_group": 499
+    },
+    {
+      "root_id": "864691135469963148",
+      "patches": 32240,
+      "incidences": 109760,
+      "context_voxels": 32244,
+      "point_voxels": 32768,
+      "max_raw_group": 240
+    },
+    {
+      "root_id": "864691135562842337",
+      "patches": 32747,
+      "incidences": 106175,
+      "context_voxels": 32750,
+      "point_voxels": 32768,
+      "max_raw_group": 162
+    },
+    {
+      "root_id": "864691135409937097",
+      "patches": 32639,
+      "incidences": 109102,
+      "context_voxels": 32641,
+      "point_voxels": 32768,
+      "max_raw_group": 415
+    },
+    {
+      "root_id": "864691137199947073",
+      "patches": 32729,
+      "incidences": 105959,
+      "context_voxels": 32733,
+      "point_voxels": 32768,
+      "max_raw_group": 302
+    },
+    {
+      "root_id": "864691136067986072",
+      "patches": 31873,
+      "incidences": 108520,
+      "context_voxels": 31858,
+      "point_voxels": 32768,
+      "max_raw_group": 358
+    },
+    {
+      "root_id": "864691136927688266",
+      "patches": 32257,
+      "incidences": 109173,
+      "context_voxels": 32260,
+      "point_voxels": 32768,
+      "max_raw_group": 361
+    },
+    {
+      "root_id": "864691136011850926",
+      "patches": 32735,
+      "incidences": 106575,
+      "context_voxels": 32742,
+      "point_voxels": 32768,
+      "max_raw_group": 166
+    },
+    {
+      "root_id": "864691135305643175",
+      "patches": 31418,
+      "incidences": 104705,
+      "context_voxels": 31393,
+      "point_voxels": 32768,
+      "max_raw_group": 572
+    },
+    {
+      "root_id": "864691136381301461",
+      "patches": 31745,
+      "incidences": 105167,
+      "context_voxels": 31735,
+      "point_voxels": 32768,
+      "max_raw_group": 499
+    },
+    {
+      "root_id": "864691136240030268",
+      "patches": 30387,
+      "incidences": 105761,
+      "context_voxels": 30381,
+      "point_voxels": 32768,
+      "max_raw_group": 141
+    },
+    {
+      "root_id": "864691136381224149",
+      "patches": 32066,
+      "incidences": 108775,
+      "context_voxels": 32063,
+      "point_voxels": 32768,
+      "max_raw_group": 548
+    },
+    {
+      "root_id": "864691135469856396",
+      "patches": 32700,
+      "incidences": 109901,
+      "context_voxels": 32698,
+      "point_voxels": 32768,
+      "max_raw_group": 291
+    },
+    {
+      "root_id": "864691135102381856",
+      "patches": 32749,
+      "incidences": 108166,
+      "context_voxels": 32754,
+      "point_voxels": 32768,
+      "max_raw_group": 248
+    },
+    {
+      "root_id": "864691136665210846",
+      "patches": 32768,
+      "incidences": 106111,
+      "context_voxels": 32768,
+      "point_voxels": 32768,
+      "max_raw_group": 349
+    },
+    {
+      "root_id": "864691135343831237",
+      "patches": 32466,
+      "incidences": 110267,
+      "context_voxels": 32417,
+      "point_voxels": 32768,
+      "max_raw_group": 385
+    },
+    {
+      "root_id": "864691135689734624",
+      "patches": 32738,
+      "incidences": 106254,
+      "context_voxels": 32732,
+      "point_voxels": 32768,
+      "max_raw_group": 240
+    },
+    {
+      "root_id": "864691135274830353",
+      "patches": 32674,
+      "incidences": 108350,
+      "context_voxels": 32673,
+      "point_voxels": 32768,
+      "max_raw_group": 204
+    },
+    {
+      "root_id": "864691135891467401",
+      "patches": 30065,
+      "incidences": 101667,
+      "context_voxels": 29956,
+      "point_voxels": 32768,
+      "max_raw_group": 589
+    },
+    {
+      "root_id": "864691135861404520",
+      "patches": 32739,
+      "incidences": 107060,
+      "context_voxels": 32740,
+      "point_voxels": 32768,
+      "max_raw_group": 217
+    },
+    {
+      "root_id": "864691135703276155",
+      "patches": 31146,
+      "incidences": 102923,
+      "context_voxels": 31162,
+      "point_voxels": 32768,
+      "max_raw_group": 322
+    },
+    {
+      "root_id": "864691136010840236",
+      "patches": 32474,
+      "incidences": 106019,
+      "context_voxels": 32500,
+      "point_voxels": 32768,
+      "max_raw_group": 345
+    },
+    {
+      "root_id": "864691135325604252",
+      "patches": 32388,
+      "incidences": 112827,
+      "context_voxels": 32398,
+      "point_voxels": 32768,
+      "max_raw_group": 402
+    },
+    {
+      "root_id": "864691136043656278",
+      "patches": 31172,
+      "incidences": 100956,
+      "context_voxels": 31127,
+      "point_voxels": 32768,
+      "max_raw_group": 531
+    },
+    {
+      "root_id": "864691135295136694",
+      "patches": 32596,
+      "incidences": 107901,
+      "context_voxels": 32600,
+      "point_voxels": 32768,
+      "max_raw_group": 493
+    },
+    {
+      "root_id": "864691136967478222",
+      "patches": 32568,
+      "incidences": 106411,
+      "context_voxels": 32580,
+      "point_voxels": 32768,
+      "max_raw_group": 423
+    },
+    {
+      "root_id": "864691136034882491",
+      "patches": 30956,
+      "incidences": 103430,
+      "context_voxels": 30951,
+      "point_voxels": 32768,
+      "max_raw_group": 501
+    },
+    {
+      "root_id": "864691135741874836",
+      "patches": 32754,
+      "incidences": 112919,
+      "context_voxels": 32752,
+      "point_voxels": 32768,
+      "max_raw_group": 212
+    },
+    {
+      "root_id": "864691135184386306",
+      "patches": 32173,
+      "incidences": 109634,
+      "context_voxels": 32202,
+      "point_voxels": 32768,
+      "max_raw_group": 380
+    },
+    {
+      "root_id": "864691136007507146",
+      "patches": 32753,
+      "incidences": 109433,
+      "context_voxels": 32753,
+      "point_voxels": 32768,
+      "max_raw_group": 184
+    },
+    {
+      "root_id": "864691135949132641",
+      "patches": 32402,
+      "incidences": 104233,
+      "context_voxels": 32430,
+      "point_voxels": 32768,
+      "max_raw_group": 379
+    },
+    {
+      "root_id": "864691135954680867",
+      "patches": 32692,
+      "incidences": 107068,
+      "context_voxels": 32691,
+      "point_voxels": 32768,
+      "max_raw_group": 300
+    },
+    {
+      "root_id": "864691135563052513",
+      "patches": 32576,
+      "incidences": 106376,
+      "context_voxels": 32545,
+      "point_voxels": 32768,
+      "max_raw_group": 278
+    },
+    {
+      "root_id": "864691135955909640",
+      "patches": 30798,
+      "incidences": 100290,
+      "context_voxels": 30766,
+      "point_voxels": 32768,
+      "max_raw_group": 279
+    },
+    {
+      "root_id": "864691135646928111",
+      "patches": 31036,
+      "incidences": 103309,
+      "context_voxels": 31062,
+      "point_voxels": 32768,
+      "max_raw_group": 484
+    },
+    {
+      "root_id": "864691135573556717",
+      "patches": 32629,
+      "incidences": 105334,
+      "context_voxels": 32636,
+      "point_voxels": 32768,
+      "max_raw_group": 287
+    },
+    {
+      "root_id": "864691136620192653",
+      "patches": 32765,
+      "incidences": 114097,
+      "context_voxels": 32768,
+      "point_voxels": 32768,
+      "max_raw_group": 480
+    },
+    {
+      "root_id": "864691136211371452",
+      "patches": 30413,
+      "incidences": 104487,
+      "context_voxels": 30454,
+      "point_voxels": 32768,
+      "max_raw_group": 679
+    },
+    {
+      "root_id": "864691135567339607",
+      "patches": 29711,
+      "incidences": 97012,
+      "context_voxels": 29771,
+      "point_voxels": 32768,
+      "max_raw_group": 139
+    },
+    {
+      "root_id": "864691135662922224",
+      "patches": 32352,
+      "incidences": 104131,
+      "context_voxels": 32311,
+      "point_voxels": 32768,
+      "max_raw_group": 357
+    },
+    {
+      "root_id": "864691135991305472",
+      "patches": 32767,
+      "incidences": 109070,
+      "context_voxels": 32767,
+      "point_voxels": 32768,
+      "max_raw_group": 440
+    },
+    {
+      "root_id": "864691136619801307",
+      "patches": 32768,
+      "incidences": 105571,
+      "context_voxels": 32768,
+      "point_voxels": 32768,
+      "max_raw_group": 352
+    },
+    {
+      "root_id": "864691134887782138",
+      "patches": 32755,
+      "incidences": 108785,
+      "context_voxels": 32753,
+      "point_voxels": 32768,
+      "max_raw_group": 264
+    },
+    {
+      "root_id": "864691135015513334",
+      "patches": 32627,
+      "incidences": 112320,
+      "context_voxels": 32622,
+      "point_voxels": 32768,
+      "max_raw_group": 299
+    },
+    {
+      "root_id": "864691135843242211",
+      "patches": 32224,
+      "incidences": 104034,
+      "context_voxels": 32222,
+      "point_voxels": 32768,
+      "max_raw_group": 351
+    },
+    {
+      "root_id": "864691135471024978",
+      "patches": 32760,
+      "incidences": 106207,
+      "context_voxels": 32757,
+      "point_voxels": 32768,
+      "max_raw_group": 201
+    },
+    {
+      "root_id": "864691135593395211",
+      "patches": 32768,
+      "incidences": 107784,
+      "context_voxels": 32765,
+      "point_voxels": 32768,
+      "max_raw_group": 161
+    },
+    {
+      "root_id": "864691136438820254",
+      "patches": 31438,
+      "incidences": 103235,
+      "context_voxels": 31405,
+      "point_voxels": 32768,
+      "max_raw_group": 192
+    },
+    {
+      "root_id": "864691136111786424",
+      "patches": 32702,
+      "incidences": 108417,
+      "context_voxels": 32693,
+      "point_voxels": 32768,
+      "max_raw_group": 127
+    },
+    {
+      "root_id": "864691136393041791",
+      "patches": 32731,
+      "incidences": 105071,
+      "context_voxels": 32723,
+      "point_voxels": 32768,
+      "max_raw_group": 348
+    },
+    {
+      "root_id": "864691135210358137",
+      "patches": 32003,
+      "incidences": 106019,
+      "context_voxels": 32036,
+      "point_voxels": 32768,
+      "max_raw_group": 519
+    },
+    {
+      "root_id": "864691135861355112",
+      "patches": 32761,
+      "incidences": 106321,
+      "context_voxels": 32761,
+      "point_voxels": 32768,
+      "max_raw_group": 240
+    }
+  ],
+  "implementation_sources": {
+    "/root/megrez-tmp/CPSF_CMM_PAIR_FUSION_20261023_R38_A1/tools/cpsf_cmm_pair_fusion/operator.py": "d2350b8f84d8373227c32c4b9b174484d2794a865f111dafd851ce75f68ce3f9",
+    "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_core/model.py": "2b7fac89e211984e974b9feea46f27a71f40299c025ad31a7d00d52148bcf07a",
+    "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_raw_point_attention/official.py": "09879ebba58a4f2076c7c544a7c214886241eb09b20fe7ceb970eb6dd44a1cc2",
+    "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_utonia_context/model.py": "b57c81695d914ca1c51bf8dd44fa4a4daee89ee20f0a16ac3d4c4a3b3e3059d5",
+    "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/vendor/SPoTr/openpoints/models/layers/conv.py": "eadd5c38d77ea1a1c19b16e040faa13e52ef0089f783f0c39d06a9df75999eaa",
+    "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/vendor/Utonia/utonia/model.py": "f68484c32773b91a47530570b10acb47b229fdeb2132eb5e313f80901639f9ef",
+    "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/vendor/Utonia/utonia/module.py": "bb9f455509b233eac2b798df0d8efeefa64124628f493ec15dfa92aecabf3cff",
+    "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/tools/cpsf_microns/models.py": "8a6f466a714000df8d42549561c888a4dd3142d681de7e584352eb05d1c1056e",
+    "/root/megrez-tmp/CPSF_R34_FPS_REBENCH_20261021_A2/tools/cpsf_r34_fps_rebench/frozen_r34.py": "3d352f7d406ca201161e50d67b84ed627bed2adb3228575d16654772cbf6f48b",
+    "/root/megrez-tmp/CPSF_R38_DENSE_SUPPORT_20261023_A1/tools/cpsf_r38_dense/model.py": "55e4b55b24006145eb72c3c17fa55e7c992eb6bd3e389a6b44683b4f9f82699c"
+  },
+  "acceptance_weights_discarded": true
+}

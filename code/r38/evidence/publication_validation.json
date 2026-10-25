@@ -1,0 +1,305 @@
+{
+  "passed": true,
+  "strict_checkpoint_load": true,
+  "prediction_metric_recomputed": true,
+  "completed_models": [
+    {
+      "variant": "original",
+      "task": "h01_local",
+      "strict_checkpoint_load": true,
+      "checkpoint_sha256": "54e82e166964c75f012e834077890bdfb25d239af7b20e11f1c9eed52abf532f",
+      "protocol_sha256": "f09842b051cefd9bc8825357608a142566521fbdda368c626ee0d1af79ce900e",
+      "parameters": 3794468,
+      "metrics": {
+        "macro_f1": 0.6544237405106971,
+        "accuracy": 0.6542056074766355
+      }
+    },
+    {
+      "variant": "original",
+      "task": "h01_global",
+      "strict_checkpoint_load": true,
+      "checkpoint_sha256": "4317b2d11387e7e0200464dfd371b7a74e91a0a71b2683c2d8181522a128c6f9",
+      "protocol_sha256": "f09842b051cefd9bc8825357608a142566521fbdda368c626ee0d1af79ce900e",
+      "parameters": 3794210,
+      "metrics": {
+        "mae": 0.05142130826910337,
+        "rmse": 0.06758782545826587,
+        "r2": 0.719589436087017
+      }
+    },
+    {
+      "variant": "dense",
+      "task": "h01_global",
+      "strict_checkpoint_load": true,
+      "checkpoint_sha256": "79a1a01e3fda1649e2b806a529f7b39482c94125f1d3f9340f85dbb5581182be",
+      "protocol_sha256": "1998e9e8a147855288e483732124e6678f9f0765c79f3f35b343c95f92016226",
+      "parameters": 3794210,
+      "metrics": {
+        "mae": 0.050025708973407745,
+        "rmse": 0.06691318398279371,
+        "r2": 0.725159446460147
+      }
+    },
+    {
+      "variant": "dense",
+      "task": "flywire_coarse",
+      "strict_checkpoint_load": true,
+      "checkpoint_sha256": "68d518e7f2702caa9e74ffd11dbd97ead4af9c5e973b73595f4d046c6b1f1fbd",
+      "protocol_sha256": "1998e9e8a147855288e483732124e6678f9f0765c79f3f35b343c95f92016226",
+      "parameters": 3794855,
+      "metrics": {
+        "macro_f1": 0.742620552338202,
+        "accuracy": 0.9406867845993756
+      }
+    },
+    {
+      "variant": "microns",
+      "task": "regional_input_synapse_distribution",
+      "strict_checkpoint_load": true,
+      "checkpoint_sha256": "bc4eb3a0eb0ac3a94ae04cefd7d6dedc73e51405fdd6fc8bfd93bf5e9552942a",
+      "selected_epoch": 24,
+      "parameters": 3774754,
+      "metrics": {
+        "validation": {
+          "cells": 79,
+          "regions": 255148,
+          "cell_macro_poisson_deviance": 0.3370386347753954,
+          "cell_macro_region_density_mae": 0.09886826720430077,
+          "cell_macro_total_count_mae": 344.76539582211547,
+          "cell_macro_js_divergence_base2": 0.05209702492840699,
+          "js_eligible_cells": 79
+        },
+        "test": {
+          "cells": 80,
+          "regions": 241249,
+          "cell_macro_poisson_deviance": 0.3022236891567832,
+          "cell_macro_region_density_mae": 0.0960814167656219,
+          "cell_macro_total_count_mae": 252.29807952838019,
+          "cell_macro_js_divergence_base2": 0.05356893792134561,
+          "js_eligible_cells": 80
+        }
+      }
+    }
+  ],
+  "loaded_sources": {
+    "tools.cpsf_r34_fps_rebench": {
+      "path": "tools/cpsf_r34_fps_rebench/__init__.py",
+      "sha256": "bdc78f850e43fa2f3794c172b343878db6bdef6f715edd385458991b256ec6b9"
+    },
+    "tools.cpsf_raw_point_attention": {
+      "path": "tools/cpsf_raw_point_attention/__init__.py",
+      "sha256": "c01ab53a5fa8957cf73ab371f4e6c521b331edb331f505526659952aee2d9950"
+    },
+    "tools.cpsf_utonia_context": {
+      "path": "tools/cpsf_utonia_context/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "tools.cpsf_fixed_core": {
+      "path": "tools/cpsf_fixed_core/__init__.py",
+      "sha256": "b8da4f506364c59fc3af2f966134c9508cf746843b5a41f15f71c7619aee4dac"
+    },
+    "tools.cpsf_v21_segment_units": {
+      "path": "tools/cpsf_v21_segment_units/__init__.py",
+      "sha256": "a34d9a0a2d45c18ba2c40abced73e1afc5ff600317a7ecfb13e8cbb8608a0903"
+    },
+    "tools.cpsf_v21_segment_units.geometry": {
+      "path": "tools/cpsf_v21_segment_units/geometry.py",
+      "sha256": "e4178dba00bedbacde6a53429cc4f110b62c6a55f42eb1cec2291eb6dabc0efc"
+    },
+    "tools.cpsf_v21_segment_units.model": {
+      "path": "tools/cpsf_v21_segment_units/model.py",
+      "sha256": "1293e8f12cc2b69f0e54e1922e68151b167b5037cfe21188aeab43a4778375e5"
+    },
+    "tools.cpsf_v23_scale_ablation": {
+      "path": "tools/cpsf_v23_scale_ablation/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "tools.cpsf_v22_shared_region": {
+      "path": "tools/cpsf_v22_shared_region/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "tools.cpsf_v22_shared_region.model": {
+      "path": "tools/cpsf_v22_shared_region/model.py",
+      "sha256": "910d9c1a0ddcab6fc69896f98a8cf205f670bbe53616b2d836995db62cbf971d"
+    },
+    "tools.cpsf_v23_residual_region": {
+      "path": "tools/cpsf_v23_residual_region/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    "tools.cpsf_v23_residual_region.model": {
+      "path": "tools/cpsf_v23_residual_region/model.py",
+      "sha256": "bd3e682f595d74192b36417778c3267ff6effec2b1325365f1cb8397726640b7"
+    },
+    "tools.cpsf_v23_scale_ablation.model": {
+      "path": "tools/cpsf_v23_scale_ablation/model.py",
+      "sha256": "7179d81fbfa3b132cef7948d180db0c7838001cd22475d78459a22315ca288d7"
+    },
+    "tools.cpsf_flywire_v23": {
+      "path": "tools/cpsf_flywire_v23/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    "tools.cpsf_flywire_v23.model": {
+      "path": "tools/cpsf_flywire_v23/model.py",
+      "sha256": "d9baa4c88a61a1ba5f8befead937bb801acb2e02243dc672751b95f4b5547c8e"
+    },
+    "tools.cpsf_fixed_core.model": {
+      "path": "tools/cpsf_fixed_core/model.py",
+      "sha256": "2b7fac89e211984e974b9feea46f27a71f40299c025ad31a7d00d52148bcf07a"
+    },
+    "tools.cpsf_fixed_nredd": {
+      "path": "tools/cpsf_fixed_nredd/__init__.py",
+      "sha256": "d9e92f4af9ffaa093fbaedb4751a5398a3fa7dda1e3f255586c13253f0f8aa5f"
+    },
+    "tools.cpsf_fixed_nredd.model": {
+      "path": "tools/cpsf_fixed_nredd/model.py",
+      "sha256": "a5cec6caeaab84d44b1158984a40216a67ffeb4b709afdae7625e0843d09e2fe"
+    },
+    "tools.cpsf_utonia_context.geo_import": {
+      "path": "tools/cpsf_utonia_context/geo_import.py",
+      "sha256": "bad9ba8785ecdf6ae727fcbbc3184b5466f7f41f7b54bf66d282f685efad5b8d"
+    },
+    "tools.cpsf_utonia_context.model": {
+      "path": "tools/cpsf_utonia_context/model.py",
+      "sha256": "b57c81695d914ca1c51bf8dd44fa4a4daee89ee20f0a16ac3d4c4a3b3e3059d5"
+    },
+    "tools.cpsf_raw_point_attention.official": {
+      "path": "tools/cpsf_raw_point_attention/official.py",
+      "sha256": "09879ebba58a4f2076c7c544a7c214886241eb09b20fe7ceb970eb6dd44a1cc2"
+    },
+    "tools.cpsf_raw_point_attention.model": {
+      "path": "tools/cpsf_raw_point_attention/model.py",
+      "sha256": "7a4b3129054e0b13e05edfcc36f4e91443ba7d0c87ad850b382f41f8c2d3eb49"
+    },
+    "tools.cpsf_r34_fps_rebench.frozen_r34": {
+      "path": "tools/cpsf_r34_fps_rebench/frozen_r34.py",
+      "sha256": "3d352f7d406ca201161e50d67b84ed627bed2adb3228575d16654772cbf6f48b"
+    },
+    "tools.cpsf_r28_expansion": {
+      "path": "tools/cpsf_r28_expansion/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "tools.cpsf_r9_expansion": {
+      "path": "tools/cpsf_r9_expansion/__init__.py",
+      "sha256": "60a50d420c483194f5630a9bb005db946bb282c3df4f10c59421296c93aee031"
+    },
+    "tools.cpsf_directional": {
+      "path": "tools/cpsf_directional/__init__.py",
+      "sha256": "5222234865da88df25a9e899b347dd3035822d7059ab3e5ec654699afca66763"
+    },
+    "tools.cpsf_deterministic": {
+      "path": "tools/cpsf_deterministic/__init__.py",
+      "sha256": "6be0cc185fd907ea7e7485b30f2e5e919e5972154ca716f75305a908a2704771"
+    },
+    "tools.cpsf_point_geometry": {
+      "path": "tools/cpsf_point_geometry/__init__.py",
+      "sha256": "8ba0263e4bde2757d129ad21a7ce569f579a160a368b00a39c1743a9cba857e4"
+    },
+    "tools.cpsf_pair_region": {
+      "path": "tools/cpsf_pair_region/__init__.py",
+      "sha256": "a486135e70771298d24ec48ec2736cbd045e67ba9cb59e82937ba6029775d75e"
+    },
+    "tools.cpsf_pair_region.model": {
+      "path": "tools/cpsf_pair_region/model.py",
+      "sha256": "e742d8201bdc05e62b6cb312dcab1722796edf6e5fe0f769466f10bbd52ba776"
+    },
+    "tools.cpsf_point_geometry.model": {
+      "path": "tools/cpsf_point_geometry/model.py",
+      "sha256": "8b5566952f52babd7596d1e8b4e0fbfa22ac265f128ef18c640465523ccae49a"
+    },
+    "tools.cpsf_deterministic.model": {
+      "path": "tools/cpsf_deterministic/model.py",
+      "sha256": "002187e942825f588039a0b726717039cace578d2e61c28c5804ffaecdfa7384"
+    },
+    "tools.cpsf_directional.model": {
+      "path": "tools/cpsf_directional/model.py",
+      "sha256": "9c18e245aa93f9a84582950092ff685245328899c766fdd9d16f34b196fd43f7"
+    },
+    "tools.cpsf_r9_expansion.model": {
+      "path": "tools/cpsf_r9_expansion/model.py",
+      "sha256": "a73a5d84d9e561afa2b9ee125e47cb65188a906346777bb6bbb1898b71d0895d"
+    },
+    "tools.cpsf_r28_expansion.model": {
+      "path": "tools/cpsf_r28_expansion/model.py",
+      "sha256": "8ec5035374bd334bc73bb76c45530ee00aa37f2809be14633063c1852d1ade3e"
+    },
+    "tools.cpsf_r34_fps_rebench.model": {
+      "path": "tools/cpsf_r34_fps_rebench/model.py",
+      "sha256": "4c3dbb5cff0328a8c6dfce544daea17f2c6d0a874cc577b32c47c40708b59548"
+    },
+    "tools.cpsf_cmm_pair_fusion": {
+      "path": "tools/cpsf_cmm_pair_fusion/__init__.py",
+      "sha256": "6eb5e45a2d5176979e0a27b10969e50609eca9d7452f28a1bc0b46ddcf88f81b"
+    },
+    "tools.cpsf_cmm_pair_fusion.common": {
+      "path": "tools/cpsf_cmm_pair_fusion/common.py",
+      "sha256": "bd94e5b563f121c52e70fe48d7b465f44dd2e111c6e16da9ccb4c4bbd3661b3c"
+    },
+    "tools.cpsf_cmm_pair_fusion.operator": {
+      "path": "tools/cpsf_cmm_pair_fusion/operator.py",
+      "sha256": "d2350b8f84d8373227c32c4b9b174484d2794a865f111dafd851ce75f68ce3f9"
+    },
+    "tools.cpsf_cmm_pair_fusion.model": {
+      "path": "tools/cpsf_cmm_pair_fusion/model.py",
+      "sha256": "ef67b966876acf177d712c1387e37b6abb69560f46147c54e34426c8b7267547"
+    },
+    "tools.cpsf_r38_dense": {
+      "path": "tools/cpsf_r38_dense/__init__.py",
+      "sha256": "11e4495d15e988da9e9f65a3c18bb4a6b51f5ddff01b971915a5ab82b4545d51"
+    },
+    "tools.cpsf_r38_dense.common": {
+      "path": "tools/cpsf_r38_dense/common.py",
+      "sha256": "a2281a8d60c005282a6232c11c5d3ac32ce0efc16a2aac2e5edd2b62cad6207d"
+    },
+    "tools.cpsf_v24_physical_conditioning": {
+      "path": "tools/cpsf_v24_physical_conditioning/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "tools.cpsf_v24_physical_conditioning.data": {
+      "path": "tools/cpsf_v24_physical_conditioning/data.py",
+      "sha256": "20de0d31ce7a0b2b4eb5ac7f434afea73048dde2b7534865583d8fc0702ee935"
+    },
+    "tools.cpsf_utonia_context.data": {
+      "path": "tools/cpsf_utonia_context/data.py",
+      "sha256": "6a2cc3e9cb792bf16004672a8833ac8b3567294dee1558afd4719e07f584f670"
+    },
+    "tools.cpsf_raw_point_attention.data": {
+      "path": "tools/cpsf_raw_point_attention/data.py",
+      "sha256": "44e0fb5ce2ed3273b6c22df85dae99082e201728a8b63c40bf780a262b30b14c"
+    },
+    "tools.cpsf_r28_expansion.data": {
+      "path": "tools/cpsf_r28_expansion/data.py",
+      "sha256": "df956d652183781eee81ba945d5dde55553573be3f49e425ce5c9a2e521f2382"
+    },
+    "tools.cpsf_r38_dense.data": {
+      "path": "tools/cpsf_r38_dense/data.py",
+      "sha256": "67e22958e236d2c9db87bf068f3fa1a4e8de8cba4fc6b13f67cbf9dd1037a503"
+    },
+    "tools.cpsf_r38_dense.model": {
+      "path": "tools/cpsf_r38_dense/model.py",
+      "sha256": "55e4b55b24006145eb72c3c17fa55e7c992eb6bd3e389a6b44683b4f9f82699c"
+    },
+    "tools.cpsf_microns": {
+      "path": "tools/cpsf_microns/__init__.py",
+      "sha256": "07f4996b3d7671014b560ac568db963fbb58c3029123a06c5611655a62db853f"
+    },
+    "tools.cpsf_microns.common": {
+      "path": "tools/cpsf_microns/common.py",
+      "sha256": "a1bad6557ebc712a69058cba25e14c16dacd1c9d1af47514be03ab58e033d0b7"
+    },
+    "tools.cpsf_microns.models": {
+      "path": "tools/cpsf_microns/models.py",
+      "sha256": "8a6f466a714000df8d42549561c888a4dd3142d681de7e584352eb05d1c1056e"
+    },
+    "tools.cpsf_microns.metrics": {
+      "path": "tools/cpsf_microns/metrics.py",
+      "sha256": "76270b5b631e14f1277c5eed29212ee323f73aeb67e31e079dc4deaa8a423170"
+    }
+  },
+  "torch_version": "2.4.0+cu121",
+  "new_inference_performed": false,
+  "new_test_evaluation_performed": false,
+  "original_data_or_parent_code_imported": false,
+  "gpu_used": false,
+  "scope": "Saved predictions were recomputed; no model forward or training was run."
+}

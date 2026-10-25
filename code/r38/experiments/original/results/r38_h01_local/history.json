@@ -1,0 +1,202 @@
+[
+  {
+    "epoch": 1,
+    "steps": 90,
+    "loss": 1.0785411927620125,
+    "lr": 0.0003,
+    "seconds": 126.02984929084778,
+    "sample_order_sha256": "f609c4971eb5d7a65e046b4e875932e2347043e365bf092eb53cdf88fbb80e8a"
+  },
+  {
+    "epoch": 2,
+    "steps": 180,
+    "loss": 0.98132291357111,
+    "lr": 0.0002989354846774545,
+    "seconds": 114.91669392585754,
+    "sample_order_sha256": "dd0d2ab1071983a5eafc99f1d76932c6fe074f75e57eacff4e784609abd192d5"
+  },
+  {
+    "epoch": 3,
+    "steps": 270,
+    "loss": 0.9485801799254044,
+    "lr": 0.0002957587267523652,
+    "seconds": 115.13235521316528,
+    "sample_order_sha256": "4c72f1bd22c35c2f6962346c6cbf23f9f859162693b0ab1852ce4fa95045e503"
+  },
+  {
+    "epoch": 4,
+    "steps": 360,
+    "loss": 0.9357057232930007,
+    "lr": 0.00029051982559491393,
+    "seconds": 115.05966854095459,
+    "sample_order_sha256": "9b19306a21961dea26d487ff5f0c806975d2d89daa71bbc0dbde734d5287e3e2"
+  },
+  {
+    "epoch": 5,
+    "steps": 450,
+    "loss": 0.9264224457590939,
+    "lr": 0.00028330140180592156,
+    "seconds": 115.13919687271118,
+    "sample_order_sha256": "14b64df2a1d7f42fa48c1eca4fa0799a2191ce29ba7a9046f7293af1a0f88a41"
+  },
+  {
+    "epoch": 6,
+    "steps": 540,
+    "loss": 0.9240943796558088,
+    "lr": 0.0002742172942406179,
+    "seconds": 115.53260636329651,
+    "sample_order_sha256": "50894a2982d39fcb8cff5be24577dd5535bcee92b74096b6d4f8ea73a3b82e13"
+  },
+  {
+    "epoch": 7,
+    "steps": 630,
+    "loss": 0.9183794292907476,
+    "lr": 0.00026341076470189057,
+    "seconds": 114.88131546974182,
+    "sample_order_sha256": "f0a1f64c350b5be1ff0324bbfcd930bd28a0b1f0cd1c73ae761c280cc31d1d86"
+  },
+  {
+    "epoch": 8,
+    "steps": 720,
+    "loss": 0.8991506601262359,
+    "lr": 0.0002510522386160731,
+    "seconds": 116.42124128341675,
+    "sample_order_sha256": "542663efd2c7b3909fdcfe0d5b36f533d2bc966c9a18daa8f896b94822a28c94"
+  },
+  {
+    "epoch": 9,
+    "steps": 810,
+    "loss": 0.858792877251376,
+    "lr": 0.00023733661732216452,
+    "seconds": 123.53951287269592,
+    "sample_order_sha256": "3e3a9f0d96f99c2d9e65a7034189505cc5bf0c6251e20af4a3fa810538e9fdbb"
+  },
+  {
+    "epoch": 10,
+    "steps": 900,
+    "loss": 0.8695380254830728,
+    "lr": 0.00022248020436128478,
+    "seconds": 136.7929618358612,
+    "sample_order_sha256": "7255e1bb936a54e6b211c03520c5e12e5e80c2336a65e1462efb97e986f95d90"
+  },
+  {
+    "epoch": 11,
+    "steps": 990,
+    "loss": 0.830169535569805,
+    "lr": 0.00020671729424061788,
+    "seconds": 136.08304619789124,
+    "sample_order_sha256": "775f0ce4e6f6ca1025cfe409527103ebc89821c77ab01d7b2e72a205b392195f"
+  },
+  {
+    "epoch": 12,
+    "steps": 1080,
+    "loss": 0.807071504021823,
+    "lr": 0.00019029647746907283,
+    "seconds": 137.41400527954102,
+    "sample_order_sha256": "edf1fd3df871a85d34f715d6d038a23fe64b3838f6da7fb19117ec1f2bf139f3"
+  },
+  {
+    "epoch": 13,
+    "steps": 1170,
+    "loss": 0.777094266080823,
+    "lr": 0.00017347672013645732,
+    "seconds": 138.29672622680664,
+    "sample_order_sha256": "36a48d9644b84b92e01bf7e323145b8f9ac58a175ef74bad7db057e4a206427d"
+  },
+  {
+    "epoch": 14,
+    "steps": 1260,
+    "loss": 0.7612442053521479,
+    "lr": 0.0001565232798635427,
+    "seconds": 136.16281127929688,
+    "sample_order_sha256": "445eaa577d5601e48cb90a3f773205ba5e3a0e6d416fa4f4e3495045f7c5609a"
+  },
+  {
+    "epoch": 15,
+    "steps": 1350,
+    "loss": 0.7360508530999029,
+    "lr": 0.0001397035225309272,
+    "seconds": 137.01393032073975,
+    "sample_order_sha256": "cf5024852829e9ff6e1b5c78c0227c23f3e3ba61cb4935b9427b1add2c12462c"
+  },
+  {
+    "epoch": 16,
+    "steps": 1440,
+    "loss": 0.7333405107342997,
+    "lr": 0.00012328270575938215,
+    "seconds": 137.57702445983887,
+    "sample_order_sha256": "44898ec4750d373cf27e3bfa1455322f759f0d1aad9720d913aef12aa7790452"
+  },
+  {
+    "epoch": 17,
+    "steps": 1530,
+    "loss": 0.6917961914737464,
+    "lr": 0.00010751979563871519,
+    "seconds": 138.08656692504883,
+    "sample_order_sha256": "a0aacc1ab9d71d2f55798ff86cbe38aa1eb5e2e46975cfd9418759033733ff48"
+  },
+  {
+    "epoch": 18,
+    "steps": 1620,
+    "loss": 0.6826646671989444,
+    "lr": 9.266338267783541e-05,
+    "seconds": 137.87463808059692,
+    "sample_order_sha256": "b7056c2a0c092c7c14f40b70c20c5f565fce11f87ed551da6201122c2517f3b0"
+  },
+  {
+    "epoch": 19,
+    "steps": 1710,
+    "loss": 0.6679336265894954,
+    "lr": 7.894776138392688e-05,
+    "seconds": 137.00289869308472,
+    "sample_order_sha256": "84acaecf3e24a673f5898a04bcce5b75e62cdf33f7d88a4c82cf08b12c0c9983"
+  },
+  {
+    "epoch": 20,
+    "steps": 1800,
+    "loss": 0.6590416814778104,
+    "lr": 6.658923529810947e-05,
+    "seconds": 136.67134809494019,
+    "sample_order_sha256": "e10606fc8266cffe5b0754d90218ad098466e0d174d784c348782ee9b80e3291"
+  },
+  {
+    "epoch": 21,
+    "steps": 1890,
+    "loss": 0.6514071522478285,
+    "lr": 5.578270575938212e-05,
+    "seconds": 137.07930254936218,
+    "sample_order_sha256": "4bb0c8569fddf056b88a5dc8451811aa536331734d2afc5f3168164c267a5437"
+  },
+  {
+    "epoch": 22,
+    "steps": 1980,
+    "loss": 0.6423524253736328,
+    "lr": 4.6698598194078425e-05,
+    "seconds": 136.66263937950134,
+    "sample_order_sha256": "0b3e1b50daa758fcb3134a271d9ae01dc7c5fe04bbf1f89e7a66bca7e205d7fe"
+  },
+  {
+    "epoch": 23,
+    "steps": 2070,
+    "loss": 0.6305637842658178,
+    "lr": 3.948017440508607e-05,
+    "seconds": 136.23369669914246,
+    "sample_order_sha256": "7f800c6882d5ac0e34340de5648c2ace8fcca4f49bfc1f4a692079f95bc9855f"
+  },
+  {
+    "epoch": 24,
+    "steps": 2160,
+    "loss": 0.6315425507641038,
+    "lr": 3.424127324763482e-05,
+    "seconds": 136.72909307479858,
+    "sample_order_sha256": "fc06a0fb65e89b56a3a84a0e382dcb537ad3badceaf00a1341edf6c51177411d"
+  },
+  {
+    "epoch": 25,
+    "steps": 2250,
+    "loss": 0.6270492036707241,
+    "lr": 3.10645153225455e-05,
+    "seconds": 135.91039657592773,
+    "sample_order_sha256": "f883325069f08cfd42fd8d72ec514018ad9e0ccbab6cf89a8d1dde7f4e07b073"
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "base_commit": "928b8eeafa50e5113a62ffa6a991f4c334e503ce",
+  "reason": "Existing repository-wide hashes for historical release manifests were stale; source manifests already matched HEAD and origin/main. Update only the index, not historical files.",
+  "repairs": [
+    {
+      "path": "code/r28/release_manifest.json",
+      "previous_recorded_sha256": "688383a6d5713c45f5e4aa74cf90e562dd38927c8727aea301e4385807fec285",
+      "correct_sha256": "01e7a2356f2efa62fcd47d3631fa2e63b5717251f68d1f768606e27f57e3d13b",
+      "file_unchanged_from_head_and_origin": true
+    },
+    {
+      "path": "code/r34/release_manifest.json",
+      "previous_recorded_sha256": "f4efeeeb5c73c332976886a17dca61042ce5623f23f75c2c0971630ff8d9b974",
+      "correct_sha256": "e8fd13f00faf35760bce88f8bfbc1b662543fbbbcb862957cda1934e5f5b6903",
+      "file_unchanged_from_head_and_origin": true
+    }
+  ]
+}

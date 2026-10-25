@@ -1,0 +1,3139 @@
+{
+  "time_beijing": "2026-10-25T20:54:21.554385+08:00",
+  "sources": {
+    "tools/cpsf_common_region/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_common_region/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "tools/cpsf_common_region/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_common_region/common.py",
+      "sha256": "11bc9b0d1223ed3f3a6a2eb77396c520651f4c171c350cfcd2a5ee8edf055538",
+      "bytes": 1633
+    },
+    "tools/cpsf_common_region/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_common_region/contracts.py",
+      "sha256": "7eb1c47ebaefca3aade141fe26f060451d3289d20df9cf7361b2bb3827bc48a6",
+      "bytes": 4200
+    },
+    "tools/cpsf_common_region/data.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_common_region/data.py",
+      "sha256": "e774dc298a28ed2563a8057d9cdb7a555c8fcd4a4ec780c35ccb4955e0da84db",
+      "bytes": 1867
+    },
+    "tools/cpsf_common_region/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_common_region/model.py",
+      "sha256": "84a05e78756659beaacf594b1bb42420ae7fe83df229d4122e2b59fb21ef29ed",
+      "bytes": 7503
+    },
+    "tools/cpsf_common_region/prepare.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_common_region/prepare.py",
+      "sha256": "915b8bb42965920ef5155281fde93ae1c4a911c0f784bd10897a36a2341f561f",
+      "bytes": 5655
+    },
+    "tools/cpsf_common_region/scheduler.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_common_region/scheduler.py",
+      "sha256": "a746c570d98e88b7e44e7d8e154476235b14f340c4f3d3102f9c9e3d13868068",
+      "bytes": 1302
+    },
+    "tools/cpsf_common_region/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_common_region/train.py",
+      "sha256": "c2e9ea325ae4a69b136931659993e9eb2b697017e7605ace91776fbae05bd250",
+      "bytes": 7784
+    },
+    "tools/cpsf_config_only/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_config_only/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "tools/cpsf_config_only/analyze.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_config_only/analyze.py",
+      "sha256": "6e03f81cdd9afb485a9a606f91fce86837b8bb29129c0e89e7aeb43bb83d483a",
+      "bytes": 2203
+    },
+    "tools/cpsf_config_only/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_config_only/common.py",
+      "sha256": "0a72cd938d45f6f86076998ddc8591cbb0437732060f4b8a33900605221f4049",
+      "bytes": 1792
+    },
+    "tools/cpsf_config_only/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_config_only/contracts.py",
+      "sha256": "b2ae05da6745ce01084cf289ac020d1858f9e2e7def69180d3ef66ec4f59369e",
+      "bytes": 3535
+    },
+    "tools/cpsf_config_only/freeze.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_config_only/freeze.py",
+      "sha256": "59a908f3095baec31bad0b54aa7b4aa21434f06a1a7b2cb195a0ace142cdb149",
+      "bytes": 3890
+    },
+    "tools/cpsf_config_only/scheduler.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_config_only/scheduler.py",
+      "sha256": "1597ba4612cc9362c14309f4c7556039f2d7d6fa33b88e1015e6b00f60ca9409",
+      "bytes": 7663
+    },
+    "tools/cpsf_config_only/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_config_only/train.py",
+      "sha256": "f494bee73ff3a0a43687386b23e6065c8305375612d4f9848e1cd2e56acfd77e",
+      "bytes": 8924
+    },
+    "tools/cpsf_descriptor_factors/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_descriptor_factors/__init__.py",
+      "sha256": "4877fae159c580d25f4a56d3c20c72212b7e98fe69f790891a411d22dfbefdc3",
+      "bytes": 80
+    },
+    "tools/cpsf_descriptor_factors/analyze.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_descriptor_factors/analyze.py",
+      "sha256": "463882062fc6e08b3f7be126ecde91c6bd193ad0b4d78000a920512b220b93b4",
+      "bytes": 4576
+    },
+    "tools/cpsf_descriptor_factors/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_descriptor_factors/common.py",
+      "sha256": "a27d74cc782654db3d5df563e1fbdf957f1c8f80b1893a6065e09a00fe988ec2",
+      "bytes": 1878
+    },
+    "tools/cpsf_descriptor_factors/configure.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_descriptor_factors/configure.py",
+      "sha256": "14872d45ef50b1c2ae7498b708ecc3fa0dcd86c840098aae6645b7ba7d1981b2",
+      "bytes": 1927
+    },
+    "tools/cpsf_descriptor_factors/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_descriptor_factors/contracts.py",
+      "sha256": "c9406a2bfb1d7b3b8c32332b756ec8a6a45eb736f696a54f2bf2a41b2f7bf067",
+      "bytes": 4951
+    },
+    "tools/cpsf_descriptor_factors/job.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_descriptor_factors/job.py",
+      "sha256": "eda45e0792d79ba2cc068bf225cc7e8b08bb37b0ec63391444bd1483fcb2934d",
+      "bytes": 636
+    },
+    "tools/cpsf_descriptor_factors/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_descriptor_factors/model.py",
+      "sha256": "c88020d6ed35f05bd8e19eb2d4be6ec27627dc6a9f68fa0be2fa48e598b0a4b8",
+      "bytes": 881
+    },
+    "tools/cpsf_descriptor_factors/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_descriptor_factors/train.py",
+      "sha256": "879f3b82d3937b6d73dbe9b5170d652198ca935d7920c4e87ab472209c763edf",
+      "bytes": 8999
+    },
+    "tools/cpsf_deterministic/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_deterministic/__init__.py",
+      "sha256": "6be0cc185fd907ea7e7485b30f2e5e919e5972154ca716f75305a908a2704771",
+      "bytes": 73
+    },
+    "tools/cpsf_deterministic/analyze.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_deterministic/analyze.py",
+      "sha256": "c73643502090c24cd66032ba1b9fb0b6603da4b8bca5f3fb40f3b3f95da395cb",
+      "bytes": 3390
+    },
+    "tools/cpsf_deterministic/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_deterministic/common.py",
+      "sha256": "6dfee26eac95446f98eb2b0c5868b45b6501921520bff5700feef2f979f9434f",
+      "bytes": 1724
+    },
+    "tools/cpsf_deterministic/configure.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_deterministic/configure.py",
+      "sha256": "6a6588edccce499f8841c9a62b60e515e5e6907bb60c59078bd2e2549a9b4337",
+      "bytes": 1502
+    },
+    "tools/cpsf_deterministic/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_deterministic/contracts.py",
+      "sha256": "bcc24e270d57647ccf85236ebe6da4ea812a5b45aac023b3279b52497f01b843",
+      "bytes": 4377
+    },
+    "tools/cpsf_deterministic/diagnose.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_deterministic/diagnose.py",
+      "sha256": "0ec073d3afc070d54ac1da39cc7c305e01036ba72fe8673cfefd4812484843ae",
+      "bytes": 3146
+    },
+    "tools/cpsf_deterministic/job.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_deterministic/job.py",
+      "sha256": "c8e9eb017eb4169d63ad51bf843171cb72c818708c070b29b61f492cffc0ead4",
+      "bytes": 631
+    },
+    "tools/cpsf_deterministic/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_deterministic/model.py",
+      "sha256": "002187e942825f588039a0b726717039cace578d2e61c28c5804ffaecdfa7384",
+      "bytes": 940
+    },
+    "tools/cpsf_deterministic/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_deterministic/train.py",
+      "sha256": "75b0355aec4e0a2e38abe1b822085b3155a04e9a55c059683a6adfe0059e84d0",
+      "bytes": 8998
+    },
+    "tools/cpsf_directional/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_directional/__init__.py",
+      "sha256": "5222234865da88df25a9e899b347dd3035822d7059ab3e5ec654699afca66763",
+      "bytes": 80
+    },
+    "tools/cpsf_directional/analyze.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_directional/analyze.py",
+      "sha256": "8e786eb322b11278e586678139f88fd89a1579c88c90621af683557ca648b7aa",
+      "bytes": 4165
+    },
+    "tools/cpsf_directional/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_directional/common.py",
+      "sha256": "074fa9e5e3da10dbfc8b319cb7f64bfbcd7b2563fa4dcd1301997209f596df06",
+      "bytes": 2019
+    },
+    "tools/cpsf_directional/configure.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_directional/configure.py",
+      "sha256": "abb401ea6b1fa126d0026b3ed95e4844274c5b30340c64669b0c13137695e5aa",
+      "bytes": 1690
+    },
+    "tools/cpsf_directional/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_directional/contracts.py",
+      "sha256": "12b1b104fa177e68ddc0ef9d782bb1ef3814f5b88120a30a3982383f32569d84",
+      "bytes": 5483
+    },
+    "tools/cpsf_directional/data.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_directional/data.py",
+      "sha256": "a9b3da3572d41029d1adb99c06c0f5e807808cb0e299e508b30a4dbe50b5dc09",
+      "bytes": 2811
+    },
+    "tools/cpsf_directional/descriptor.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_directional/descriptor.py",
+      "sha256": "cf8a9d1951c5e0bd5edb61a966b65c2e2be7cf11e4f40aa0dfd5afe1e88d820c",
+      "bytes": 2619
+    },
+    "tools/cpsf_directional/job.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_directional/job.py",
+      "sha256": "592b641827ea8e8ba0f355e2334e33eb938a6543d78f52d3658092b0185de21f",
+      "bytes": 629
+    },
+    "tools/cpsf_directional/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_directional/model.py",
+      "sha256": "9c18e245aa93f9a84582950092ff685245328899c766fdd9d16f34b196fd43f7",
+      "bytes": 588
+    },
+    "tools/cpsf_directional/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_directional/train.py",
+      "sha256": "6fdd1a9106a741975d5ffc254ef14c6d35be892ba3572b1d2492f8d2d1c6bb5d",
+      "bytes": 9001
+    },
+    "tools/cpsf_fixed_core/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_core/__init__.py",
+      "sha256": "b8da4f506364c59fc3af2f966134c9508cf746843b5a41f15f71c7619aee4dac",
+      "bytes": 82
+    },
+    "tools/cpsf_fixed_core/analyze.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_core/analyze.py",
+      "sha256": "5911c47e4e2195b88ecbc8ffcf2a6d7ae56b4001f93c24db6db2772394506da7",
+      "bytes": 4994
+    },
+    "tools/cpsf_fixed_core/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_core/common.py",
+      "sha256": "776d58a5e08e1a56746ae8295a38ec1dab4eb686a92b4f44bf9071301d05d400",
+      "bytes": 1710
+    },
+    "tools/cpsf_fixed_core/configure.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_core/configure.py",
+      "sha256": "1611f600340fbe32c5041e26efb399fc37f8dfaa29640abc4a44e8ab49d848c8",
+      "bytes": 2018
+    },
+    "tools/cpsf_fixed_core/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_core/contracts.py",
+      "sha256": "d3668f8162ca9bb128f6ca5b2417ba4210d2cd944f3c7826e2527d04fad14858",
+      "bytes": 2271
+    },
+    "tools/cpsf_fixed_core/efficiency.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_core/efficiency.py",
+      "sha256": "61e2046353e98faf23c918d03a66cd938d0786a3584da5c76a5727c8e4e86915",
+      "bytes": 2237
+    },
+    "tools/cpsf_fixed_core/job.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_core/job.py",
+      "sha256": "2b3267290d29208bdfc269b8c61f5ad4aa48fb4fe8c2ef324d154b7ecbac3939",
+      "bytes": 911
+    },
+    "tools/cpsf_fixed_core/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_core/model.py",
+      "sha256": "2b7fac89e211984e974b9feea46f27a71f40299c025ad31a7d00d52148bcf07a",
+      "bytes": 3367
+    },
+    "tools/cpsf_fixed_core/pipeline.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_core/pipeline.py",
+      "sha256": "77eaddc1018f902b43d8f261803553f13e59d7167526a32baadf816a0b78d281",
+      "bytes": 3345
+    },
+    "tools/cpsf_fixed_core/reference_check.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_core/reference_check.py",
+      "sha256": "c751bff1afb22cbf347aa3bcd45ef20a5004229cc999017e60ad22430b346094",
+      "bytes": 2225
+    },
+    "tools/cpsf_fixed_core/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_core/train.py",
+      "sha256": "50f10d7414a23506c74a39dcdd04f6364b36ef859e6fd876b2d6ef8617e28a9a",
+      "bytes": 7610
+    },
+    "tools/cpsf_fixed_nredd/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_nredd/__init__.py",
+      "sha256": "d9e92f4af9ffaa093fbaedb4751a5398a3fa7dda1e3f255586c13253f0f8aa5f",
+      "bytes": 73
+    },
+    "tools/cpsf_fixed_nredd/analyze.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_nredd/analyze.py",
+      "sha256": "8b0f56371f0495a792ac91caae9ddefd586f65f0d00f690ed820e72474f1d872",
+      "bytes": 2139
+    },
+    "tools/cpsf_fixed_nredd/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_nredd/common.py",
+      "sha256": "316fe4ccf832b58d8dbc4f7551a9dd0619a5887bd4f79f889c08e954aefcade7",
+      "bytes": 1581
+    },
+    "tools/cpsf_fixed_nredd/configure.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_nredd/configure.py",
+      "sha256": "e0339a5f864c588a59a1e9e3dbfc4401612f53d5c305f0aa4a83e15fe97cc9b2",
+      "bytes": 6156
+    },
+    "tools/cpsf_fixed_nredd/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_nredd/contracts.py",
+      "sha256": "4e1192ec23ee983ba752b8d5a8e5389ee62053a6be904f576a9a30450b846769",
+      "bytes": 3018
+    },
+    "tools/cpsf_fixed_nredd/data.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_nredd/data.py",
+      "sha256": "472fd4ee4a3b3f858bc83e4dcbf79894d40a3c7825ff53abba852eba75aeb80b",
+      "bytes": 7441
+    },
+    "tools/cpsf_fixed_nredd/job.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_nredd/job.py",
+      "sha256": "9e0dde9dc672a1016824d8273f9943e6032d522024a62b0e5e8f4b8e5d4ef531",
+      "bytes": 502
+    },
+    "tools/cpsf_fixed_nredd/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_nredd/model.py",
+      "sha256": "a5cec6caeaab84d44b1158984a40216a67ffeb4b709afdae7625e0843d09e2fe",
+      "bytes": 3105
+    },
+    "tools/cpsf_fixed_nredd/pipeline.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_nredd/pipeline.py",
+      "sha256": "73e98b660f47ea63e0fe049bc29d82a3072449b037db0f7729e1a903690bce6e",
+      "bytes": 4059
+    },
+    "tools/cpsf_fixed_nredd/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_nredd/train.py",
+      "sha256": "3a789af082af60b0590ca4181458088f7f66eacfac50138fa914c4563c108d83",
+      "bytes": 8527
+    },
+    "tools/cpsf_flywire_20260930/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_20260930/__init__.py",
+      "sha256": "f776a9002ad413f91887b08856eaa0befdf21b9fd41e8f64f65c53968107797d",
+      "bytes": 74
+    },
+    "tools/cpsf_flywire_20260930/build.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_20260930/build.py",
+      "sha256": "b306af80bdf059d8b78b191d3245f35af37b506c56944df0c974e2a8ac712e6c",
+      "bytes": 8284
+    },
+    "tools/cpsf_flywire_20260930/configure.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_20260930/configure.py",
+      "sha256": "f7dd0d5a759b49923c2526cba8fbda670ddbe5bf0e301aa2cd767684e1abdb09",
+      "bytes": 6738
+    },
+    "tools/cpsf_flywire_20260930/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_20260930/contracts.py",
+      "sha256": "b305995912348e7e3cf93c9242c62dacd8c2a29b13fb46a5c9ecdacb30fa3b54",
+      "bytes": 3803
+    },
+    "tools/cpsf_flywire_20260930/evaluation.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_20260930/evaluation.py",
+      "sha256": "1c6f61a1919ae9a4a9724940cce6b0de6ba1a5afa6a68a597c209cdf3a4500a9",
+      "bytes": 2563
+    },
+    "tools/cpsf_flywire_20260930/finalize.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_20260930/finalize.py",
+      "sha256": "44e1cc093db51c7fbf35ffa2a2fc31ea4b5649ac11dc4d63ab277da954e8c1f7",
+      "bytes": 2785
+    },
+    "tools/cpsf_flywire_20260930/pipeline.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_20260930/pipeline.py",
+      "sha256": "becc1e15bf8439de5c4238a1e5f3e53596ef46f7f016dae16e9b4945fabf62c0",
+      "bytes": 1218
+    },
+    "tools/cpsf_flywire_20260930/sampling.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_20260930/sampling.py",
+      "sha256": "90245bff52213b5234b9f8dea98c043e983b801fab4fb0dcff485dd4763ef290",
+      "bytes": 3108
+    },
+    "tools/cpsf_flywire_20260930/task.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_20260930/task.py",
+      "sha256": "2f0c1baf741f515080ad78614ce5ea3eca65c8859d3ce3a8ec592bc2e77715d4",
+      "bytes": 2666
+    },
+    "tools/cpsf_flywire_20260930/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_20260930/train.py",
+      "sha256": "21ceb1d2c32695032bdc2cbf7dbf0f80fef13e5d4e014a527225848db163574a",
+      "bytes": 6415
+    },
+    "tools/cpsf_flywire_balanced/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_balanced/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1
+    },
+    "tools/cpsf_flywire_balanced/configure.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_balanced/configure.py",
+      "sha256": "cf4ff3ab36b4d18477ff18a50ee53e827803212a846770f3c3734efec68c7825",
+      "bytes": 3455
+    },
+    "tools/cpsf_flywire_balanced/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_balanced/contracts.py",
+      "sha256": "12eeae0bdcf1cd7b450829f3de74d0e4663110e0eb12c69a195babe83fafd566",
+      "bytes": 3825
+    },
+    "tools/cpsf_flywire_balanced/loss.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_balanced/loss.py",
+      "sha256": "1bca0b333b2682f7e8b039841cf6919bf9e3ae3e84e88c9ae9f1258058eebf1f",
+      "bytes": 657
+    },
+    "tools/cpsf_flywire_balanced/pipeline.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_balanced/pipeline.py",
+      "sha256": "fbb476dc7e7e196a68de461e65d5bc99eae7bc7bef149d9ddc5b4f027b7eeb54",
+      "bytes": 3893
+    },
+    "tools/cpsf_flywire_balanced/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_balanced/train.py",
+      "sha256": "0ab5f07cdb8b64cd7fe18d6045da2982358bafebc0f3dbcdbeaf5928357abcdd",
+      "bytes": 6847
+    },
+    "tools/cpsf_flywire_coarse_cohort/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_coarse_cohort/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1
+    },
+    "tools/cpsf_flywire_coarse_cohort/acquire.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_coarse_cohort/acquire.py",
+      "sha256": "05d1b1831ad96d0035152e976376fff540ece0fca9d8b48df69fdc3aca8e3db1",
+      "bytes": 1818
+    },
+    "tools/cpsf_flywire_coarse_cohort/budget.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_coarse_cohort/budget.py",
+      "sha256": "21f622f52cffcb15c2f678d56542406afb57538d5d9af3871f2953a4d9346c1f",
+      "bytes": 265
+    },
+    "tools/cpsf_flywire_coarse_cohort/configure.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_coarse_cohort/configure.py",
+      "sha256": "e683c5c3e9b09fa0bea7b8e42180fc95e448ee8ee145ab59e67a2d37e1a29d77",
+      "bytes": 2746
+    },
+    "tools/cpsf_flywire_coarse_cohort/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_coarse_cohort/contracts.py",
+      "sha256": "2ae3c4021573b0dcc5aa0126e06e25857744acba3c6b75ed8e7ea44cea809f7c",
+      "bytes": 4246
+    },
+    "tools/cpsf_flywire_coarse_cohort/pipeline.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_coarse_cohort/pipeline.py",
+      "sha256": "59e8bfb9971ed07dd23ed6f0cbb7f9fca8fa62f838f0d32028d11accf12b89a8",
+      "bytes": 4061
+    },
+    "tools/cpsf_flywire_coarse_cohort/plan.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_coarse_cohort/plan.py",
+      "sha256": "8fdfd8c9f4e45a88ddf4bc5f7934f6d3d376dcf02b440f6786a36cc3c29940b2",
+      "bytes": 4247
+    },
+    "tools/cpsf_flywire_coarse_cohort/preflight.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_coarse_cohort/preflight.py",
+      "sha256": "acc648b7cb19ecf580b2cdfacc4b474f1e085315c541d6b443dfa2a0a94044f7",
+      "bytes": 2566
+    },
+    "tools/cpsf_flywire_coarse_cohort/prepare.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_coarse_cohort/prepare.py",
+      "sha256": "987f902d60ae29ed56abf0d095cad5a7a1d5d5ee64f5855fa76abad5186f1129",
+      "bytes": 4582
+    },
+    "tools/cpsf_flywire_coarse_cohort/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_coarse_cohort/train.py",
+      "sha256": "b4ceedfb017388b91d471f2e3849b39f50649c72dce09f89e6a3e870cd448d7f",
+      "bytes": 8562
+    },
+    "tools/cpsf_flywire_convergence/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_convergence/__init__.py",
+      "sha256": "37fbab217e18218117cdb8371caca2ea1f938392ef5bb6f30206a5363f12a045",
+      "bytes": 58
+    },
+    "tools/cpsf_flywire_convergence/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_convergence/common.py",
+      "sha256": "4037676d83483513a60065b88a13adc5e4b44647dc3d8e64cac1fdd3ad32d7b7",
+      "bytes": 1395
+    },
+    "tools/cpsf_flywire_convergence/configure.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_convergence/configure.py",
+      "sha256": "a1657e716458744aef32cea45765cd1a8a94a917c69290432f74d7b415d182a9",
+      "bytes": 2805
+    },
+    "tools/cpsf_flywire_convergence/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_convergence/contracts.py",
+      "sha256": "16801e0f22773ab5dbb6bd374dfe672ad03a004a9f1ab508b12fbdd056fdc6ba",
+      "bytes": 2705
+    },
+    "tools/cpsf_flywire_convergence/diagnose.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_convergence/diagnose.py",
+      "sha256": "16984fe0f585aa5a3e9ee4eef2f0fd7438aedf2a55cef603165be2684c7d9231",
+      "bytes": 7909
+    },
+    "tools/cpsf_flywire_convergence/pipeline.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_convergence/pipeline.py",
+      "sha256": "dc2845aa9d9f1e3763d0b4059c482c968ab91165015329b7f7f0cd70c72adb6e",
+      "bytes": 4526
+    },
+    "tools/cpsf_flywire_convergence/registry.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_convergence/registry.py",
+      "sha256": "d3c22bfee882892b97977da479605410c31c27eb7e7b2abbbedb92127b8301e8",
+      "bytes": 3263
+    },
+    "tools/cpsf_flywire_convergence/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_convergence/train.py",
+      "sha256": "0eaabf508233612a12910db0e046adb17cb14193b75159218d18d7530570d778",
+      "bytes": 9306
+    },
+    "tools/cpsf_flywire_v23/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_v23/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1
+    },
+    "tools/cpsf_flywire_v23/configure.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_v23/configure.py",
+      "sha256": "21d9e0b5dc02e77f3e1e66eeab50290c745ad13a952c139f2e2780d28d97fbb4",
+      "bytes": 1546
+    },
+    "tools/cpsf_flywire_v23/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_v23/contracts.py",
+      "sha256": "8222453cb59d141475c8c9f51f85c6ef8bc0fbda8d6fe9754ae4d2289b64cc9e",
+      "bytes": 4987
+    },
+    "tools/cpsf_flywire_v23/data.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_v23/data.py",
+      "sha256": "579bc875af705a806b6b589b75d077627c98161cb7cae2c813dd39e7051628bd",
+      "bytes": 5204
+    },
+    "tools/cpsf_flywire_v23/gradient_contract.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_v23/gradient_contract.py",
+      "sha256": "a5740d07007f95b7d553b2ce5d3604350b64b864665a7027937b0098702cd844",
+      "bytes": 1684
+    },
+    "tools/cpsf_flywire_v23/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_v23/model.py",
+      "sha256": "d9baa4c88a61a1ba5f8befead937bb801acb2e02243dc672751b95f4b5547c8e",
+      "bytes": 3926
+    },
+    "tools/cpsf_flywire_v23/pipeline.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_v23/pipeline.py",
+      "sha256": "b6d8dba0400ccbcdb60e305cbff5a840b23a71312372203bac165575baae6270",
+      "bytes": 4775
+    },
+    "tools/cpsf_flywire_v23/prepare.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_v23/prepare.py",
+      "sha256": "8b3577df37581874d8dc4a43f14a75b57677051b51744aafb356ae6a745d6909",
+      "bytes": 4383
+    },
+    "tools/cpsf_flywire_v23/test.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_v23/test.py",
+      "sha256": "5569d397a687ccb645f7d7d2b12daa6f549462b6635578fc61411969426f013d",
+      "bytes": 1612
+    },
+    "tools/cpsf_flywire_v23/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_v23/train.py",
+      "sha256": "2671eb04e34bda2d87b1b4aa796896eae359932cf7b52d13eb9a89f2176afbb0",
+      "bytes": 6604
+    },
+    "tools/cpsf_h01_topology_repair/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_h01_topology_repair/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "tools/cpsf_h01_topology_repair/adapter.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_h01_topology_repair/adapter.py",
+      "sha256": "82cc74a8e7ca26eb3562c670c372412414de61a72781e2ad87cd32eac131b85e",
+      "bytes": 3301
+    },
+    "tools/cpsf_h01_topology_repair/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_h01_topology_repair/contracts.py",
+      "sha256": "390f110473856cfc4e4f74092267415c5b375d7cd3550041c5040f44146d0602",
+      "bytes": 2095
+    },
+    "tools/cpsf_h01_topology_repair/pipeline.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_h01_topology_repair/pipeline.py",
+      "sha256": "7021b194df4fd74913642ad9ee3b1f006805c6980b15955935db59541eff7196",
+      "bytes": 3372
+    },
+    "tools/cpsf_h01_topology_repair/run.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_h01_topology_repair/run.py",
+      "sha256": "7dbd3b6c793181b9d57591fe3a0926a1be8e70b47283cacf4caa487a3273c7c3",
+      "bytes": 3285
+    },
+    "tools/cpsf_missing_edge/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_missing_edge/__init__.py",
+      "sha256": "65742ccdec3c01a96508903f452d36df25ce20e49126bbd30da1ed5180c83a82",
+      "bytes": 80
+    },
+    "tools/cpsf_missing_edge/analyze.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_missing_edge/analyze.py",
+      "sha256": "12d87686dcf12d3188cd92991e37ea0258f3b9bfc1d48aa9b7d7bd868637dd80",
+      "bytes": 3164
+    },
+    "tools/cpsf_missing_edge/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_missing_edge/common.py",
+      "sha256": "b6cd6e7ab64f460a8a468ba8f7926a6fde48ea28aa716f86218206e1e60ca0e5",
+      "bytes": 1696
+    },
+    "tools/cpsf_missing_edge/configure.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_missing_edge/configure.py",
+      "sha256": "9c09c0cc3e1d6a4375a4012d49ad988eb63be4f65a12eb88dda76ea8305857e6",
+      "bytes": 2307
+    },
+    "tools/cpsf_missing_edge/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_missing_edge/contracts.py",
+      "sha256": "e197dfb9c81d1df38322f2146f43283ef567e96d519ccad59c6a78037fd803dd",
+      "bytes": 4144
+    },
+    "tools/cpsf_missing_edge/job.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_missing_edge/job.py",
+      "sha256": "842203b739c816578070acb3b12ac47ea90ebfab7821e605233452abb05311f4",
+      "bytes": 503
+    },
+    "tools/cpsf_missing_edge/objective.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_missing_edge/objective.py",
+      "sha256": "0841a9b51e6784af84d7d4ba237d6caf3373605b42c56983a008a4ff406d5e78",
+      "bytes": 958
+    },
+    "tools/cpsf_missing_edge/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_missing_edge/train.py",
+      "sha256": "c742f70a97dc83c1cc71233b3f3f8d5c74aaf7f6d8baf0df2bf78267fbb9263a",
+      "bytes": 8835
+    },
+    "tools/cpsf_next_core/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_next_core/common.py",
+      "sha256": "2c13b508aee5ad26643184bc3a6b7e937a75695fb43eef3b220ab16091e2a8f7",
+      "bytes": 1723
+    },
+    "tools/cpsf_next_core/configure.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_next_core/configure.py",
+      "sha256": "278b78f57cb03cf462cc0f546fcf943f9e47e19c4f53cdc1e6c30e5f255847b2",
+      "bytes": 4435
+    },
+    "tools/cpsf_next_core/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_next_core/contracts.py",
+      "sha256": "5b677aeea4762caed431910ea0306cde8c388eed764773f4f9b5146a8a4fcd2b",
+      "bytes": 5582
+    },
+    "tools/cpsf_next_core/data.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_next_core/data.py",
+      "sha256": "7790a3c04613285f209ad796fffd838401a39c46b232721ce9de9a1c4a79fd01",
+      "bytes": 4698
+    },
+    "tools/cpsf_next_core/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_next_core/model.py",
+      "sha256": "80e3acf3d863e57cabb6f05b36f362612102961c998e114234c3edd372861e08",
+      "bytes": 7019
+    },
+    "tools/cpsf_next_core/prepare.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_next_core/prepare.py",
+      "sha256": "a72fddedeb48171d4152908ff2d96b2124a3684887274128f30f4188e1b0fe7a",
+      "bytes": 2591
+    },
+    "tools/cpsf_next_core/sampling.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_next_core/sampling.py",
+      "sha256": "7b0f4696604ee9991752c554c488817e5056b62cef71a071c26f29b253c12974",
+      "bytes": 7175
+    },
+    "tools/cpsf_next_core/scheduler.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_next_core/scheduler.py",
+      "sha256": "380aab410c44341fb644edf11d43c2de03900f8f0701520534d37ee7d0c468d2",
+      "bytes": 1314
+    },
+    "tools/cpsf_next_core/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_next_core/train.py",
+      "sha256": "8654d5062b7f00b87a6f8264ad6ef223dd7f80309854e1c975d2693b47000fcc",
+      "bytes": 7728
+    },
+    "tools/cpsf_official_integration/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_official_integration/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "tools/cpsf_official_integration/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_official_integration/common.py",
+      "sha256": "11bc9b0d1223ed3f3a6a2eb77396c520651f4c171c350cfcd2a5ee8edf055538",
+      "bytes": 1633
+    },
+    "tools/cpsf_official_integration/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_official_integration/contracts.py",
+      "sha256": "f0b04f677f045f8a148968304f5f015793f9e7983d75b8aef2404c886f9934a9",
+      "bytes": 5533
+    },
+    "tools/cpsf_official_integration/data.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_official_integration/data.py",
+      "sha256": "6a2cc3e9cb792bf16004672a8833ac8b3567294dee1558afd4719e07f584f670",
+      "bytes": 2555
+    },
+    "tools/cpsf_official_integration/geo_import.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_official_integration/geo_import.py",
+      "sha256": "bad9ba8785ecdf6ae727fcbbc3184b5466f7f41f7b54bf66d282f685efad5b8d",
+      "bytes": 1944
+    },
+    "tools/cpsf_official_integration/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_official_integration/model.py",
+      "sha256": "1f4cfc84aa5cbaa0536db7933bf42010a125be79196b4fd70d3e2295044d9a69",
+      "bytes": 5827
+    },
+    "tools/cpsf_official_integration/scheduler.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_official_integration/scheduler.py",
+      "sha256": "8eae21a83a912912a88a3c605cc0faca15e65dec55c871cee5bd84e83252fba5",
+      "bytes": 1529
+    },
+    "tools/cpsf_official_integration/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_official_integration/train.py",
+      "sha256": "d417069d5e4251cf6e2e304186b75031bdad45b9ed81410e73254f0272060b41",
+      "bytes": 7103
+    },
+    "tools/cpsf_pair_region/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_pair_region/__init__.py",
+      "sha256": "a486135e70771298d24ec48ec2736cbd045e67ba9cb59e82937ba6029775d75e",
+      "bytes": 63
+    },
+    "tools/cpsf_pair_region/analyze.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_pair_region/analyze.py",
+      "sha256": "a361fec97b24143b81bc96eafdfad0c1f2361ee3c0ccad1c57234efc33386b63",
+      "bytes": 3168
+    },
+    "tools/cpsf_pair_region/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_pair_region/common.py",
+      "sha256": "533ead2c01aab849bc41e7ab384b095fed208802ce78fcc257bd87ad88a05590",
+      "bytes": 1825
+    },
+    "tools/cpsf_pair_region/configure.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_pair_region/configure.py",
+      "sha256": "e5a114d14405d1cb08ef783d387277c6153b0afc4877d299f6bf270a2ea806fa",
+      "bytes": 1222
+    },
+    "tools/cpsf_pair_region/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_pair_region/contracts.py",
+      "sha256": "e2eb2ee2ed2686b1e12de6bec1bff0a8cb45ae61f0771c06fbedbefcaf70f749",
+      "bytes": 5027
+    },
+    "tools/cpsf_pair_region/data.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_pair_region/data.py",
+      "sha256": "e675432aac5dae414fa32be9997cee79d40e404592110b4afd003aca79b0d339",
+      "bytes": 3474
+    },
+    "tools/cpsf_pair_region/job.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_pair_region/job.py",
+      "sha256": "128189a937b84286c5cdc15f22ea4d6800277ef6e4c5dd058f539174b95f3d06",
+      "bytes": 502
+    },
+    "tools/cpsf_pair_region/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_pair_region/model.py",
+      "sha256": "e742d8201bdc05e62b6cb312dcab1722796edf6e5fe0f769466f10bbd52ba776",
+      "bytes": 1720
+    },
+    "tools/cpsf_pair_region/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_pair_region/train.py",
+      "sha256": "31dd26b6207fa464f6d1bf0dac628d789d71e535d32c7b2fff4a492d77add65b",
+      "bytes": 8845
+    },
+    "tools/cpsf_point_geometry/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_point_geometry/__init__.py",
+      "sha256": "8ba0263e4bde2757d129ad21a7ce569f579a160a368b00a39c1743a9cba857e4",
+      "bytes": 77
+    },
+    "tools/cpsf_point_geometry/analyze.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_point_geometry/analyze.py",
+      "sha256": "802815ac46235294dcdd7ca7095c852a917f7103fa6d14aa86cf4e3e67c94db0",
+      "bytes": 3701
+    },
+    "tools/cpsf_point_geometry/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_point_geometry/common.py",
+      "sha256": "3af3a3b3a3bc7f86aad82d60696d105006e4d98c771f426f10d5b86cbd46eeeb",
+      "bytes": 1779
+    },
+    "tools/cpsf_point_geometry/configure.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_point_geometry/configure.py",
+      "sha256": "77f56bafaaeca73c01781361ba00395ad6e983be90139b2d302f9685f9e3afd2",
+      "bytes": 1302
+    },
+    "tools/cpsf_point_geometry/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_point_geometry/contracts.py",
+      "sha256": "644cd10e2a78def11259adfcde696d10b48aabaf7b0b6233f79da51487df805c",
+      "bytes": 5025
+    },
+    "tools/cpsf_point_geometry/data.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_point_geometry/data.py",
+      "sha256": "07fa236a0fa7c7acc4870432f4a3b0d10a3686c15ece10e4cadca9ff02fbff0d",
+      "bytes": 2800
+    },
+    "tools/cpsf_point_geometry/descriptor.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_point_geometry/descriptor.py",
+      "sha256": "66033f4edd49ba4ce70d961b325b1a229b55fdef4a4b0cc84b15bd5a5db3a17f",
+      "bytes": 2461
+    },
+    "tools/cpsf_point_geometry/job.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_point_geometry/job.py",
+      "sha256": "863ee370b3f02449bd3ebecad032d635b6481f8474e6ce12a17d3b4586f1e2ea",
+      "bytes": 505
+    },
+    "tools/cpsf_point_geometry/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_point_geometry/model.py",
+      "sha256": "8b5566952f52babd7596d1e8b4e0fbfa22ac265f128ef18c640465523ccae49a",
+      "bytes": 531
+    },
+    "tools/cpsf_point_geometry/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_point_geometry/train.py",
+      "sha256": "81bffb89dc21eda6d7e1f14ba5513d9cdbc4d3eb65fc2a2d0ec7dbda13d809d5",
+      "bytes": 8848
+    },
+    "tools/cpsf_r28_expansion/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_r28_expansion/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "tools/cpsf_r28_expansion/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_r28_expansion/common.py",
+      "sha256": "feb306e203cc0f19ca6f322d4fc90dfa2bae5a047168ccda81e349dc31456735",
+      "bytes": 69
+    },
+    "tools/cpsf_r28_expansion/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_r28_expansion/contracts.py",
+      "sha256": "26cfdeddb6e47629d8e5733a2668a2bb1c5c819c34bdbe6331c10ec447ae7a4a",
+      "bytes": 3965
+    },
+    "tools/cpsf_r28_expansion/data.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_r28_expansion/data.py",
+      "sha256": "df956d652183781eee81ba945d5dde55553573be3f49e425ce5c9a2e521f2382",
+      "bytes": 2351
+    },
+    "tools/cpsf_r28_expansion/input_audit.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_r28_expansion/input_audit.py",
+      "sha256": "1d52347f69ed3a66006763b9c9d65afd9d8d06fd5e8e4d2ebe63df237cfeb6ff",
+      "bytes": 913
+    },
+    "tools/cpsf_r28_expansion/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_r28_expansion/model.py",
+      "sha256": "8ec5035374bd334bc73bb76c45530ee00aa37f2809be14633063c1852d1ade3e",
+      "bytes": 2064
+    },
+    "tools/cpsf_r28_expansion/scheduler.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_r28_expansion/scheduler.py",
+      "sha256": "a2d9edf371d263152f8ee74d9f72274a2344daa4d5bd5533a88f82398068fd4f",
+      "bytes": 1712
+    },
+    "tools/cpsf_r28_expansion/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_r28_expansion/train.py",
+      "sha256": "da5b0e5bcea920322232d0e9cc1afabf10dd9cc51ed087f12c2ee4cb61e28c05",
+      "bytes": 10483
+    },
+    "tools/cpsf_r9_expansion/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_r9_expansion/__init__.py",
+      "sha256": "60a50d420c483194f5630a9bb005db946bb282c3df4f10c59421296c93aee031",
+      "bytes": 70
+    },
+    "tools/cpsf_r9_expansion/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_r9_expansion/contracts.py",
+      "sha256": "36ccdfeba283ed3d8f68a752861adc08ebb4aa90f51651fd883d08ff76388b6d",
+      "bytes": 3714
+    },
+    "tools/cpsf_r9_expansion/data.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_r9_expansion/data.py",
+      "sha256": "7007ffe30a5a24450dc6bfe73595490c38c6b32417d4d685ddca81ecc7820ecb",
+      "bytes": 1969
+    },
+    "tools/cpsf_r9_expansion/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_r9_expansion/model.py",
+      "sha256": "a73a5d84d9e561afa2b9ee125e47cb65188a906346777bb6bbb1898b71d0895d",
+      "bytes": 864
+    },
+    "tools/cpsf_r9_expansion/prepare.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_r9_expansion/prepare.py",
+      "sha256": "dfe549b75fb8f678182e3dba67c1d9cba3190a2f0b586ccd8da9b89da51ab822",
+      "bytes": 3669
+    },
+    "tools/cpsf_r9_expansion/scheduler.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_r9_expansion/scheduler.py",
+      "sha256": "9c48df59d62361bce58b6f6a106eb3ed6de4eeccffa0ab6cca10205f4de9fc66",
+      "bytes": 1619
+    },
+    "tools/cpsf_r9_expansion/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_r9_expansion/train.py",
+      "sha256": "cb8d7e1fa7344f74bec02ec81876fd9e2cf25c86fed83452e817a2d62b505ead",
+      "bytes": 9372
+    },
+    "tools/cpsf_raw_point_attention/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_raw_point_attention/__init__.py",
+      "sha256": "c01ab53a5fa8957cf73ab371f4e6c521b331edb331f505526659952aee2d9950",
+      "bytes": 64
+    },
+    "tools/cpsf_raw_point_attention/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_raw_point_attention/common.py",
+      "sha256": "f120c327aafef2ec4f200f4141e38c261fa46ee18f613d85fa222e87ff9d3ef2",
+      "bytes": 1752
+    },
+    "tools/cpsf_raw_point_attention/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_raw_point_attention/contracts.py",
+      "sha256": "6eb7ece59347e266c3568e8a00b3a378fb14b1e82e52817ce56193811e449af6",
+      "bytes": 9007
+    },
+    "tools/cpsf_raw_point_attention/data.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_raw_point_attention/data.py",
+      "sha256": "44e0fb5ce2ed3273b6c22df85dae99082e201728a8b63c40bf780a262b30b14c",
+      "bytes": 2058
+    },
+    "tools/cpsf_raw_point_attention/freeze.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_raw_point_attention/freeze.py",
+      "sha256": "218a44313199da226d15456dcade63550d38dfe40951140b434b6cec02029bf6",
+      "bytes": 3719
+    },
+    "tools/cpsf_raw_point_attention/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_raw_point_attention/model.py",
+      "sha256": "7a4b3129054e0b13e05edfcc36f4e91443ba7d0c87ad850b382f41f8c2d3eb49",
+      "bytes": 3529
+    },
+    "tools/cpsf_raw_point_attention/official.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_raw_point_attention/official.py",
+      "sha256": "09879ebba58a4f2076c7c544a7c214886241eb09b20fe7ceb970eb6dd44a1cc2",
+      "bytes": 3281
+    },
+    "tools/cpsf_raw_point_attention/replay.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_raw_point_attention/replay.py",
+      "sha256": "a9e93048318ea269fad0ce8be72cd853eb87a8c890948d85251d59434a55ea9b",
+      "bytes": 2529
+    },
+    "tools/cpsf_raw_point_attention/scheduler.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_raw_point_attention/scheduler.py",
+      "sha256": "12dad7b05c69b8c9fef78faffb5e058516e8a673686b6e1668247f37cfaa2591",
+      "bytes": 4065
+    },
+    "tools/cpsf_raw_point_attention/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_raw_point_attention/train.py",
+      "sha256": "79edef0010ea9253456bc10d4de48dd4305ad966a4fc6925d030088c2acd05e8",
+      "bytes": 7509
+    },
+    "tools/cpsf_targeted_repair/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_targeted_repair/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "tools/cpsf_targeted_repair/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_targeted_repair/common.py",
+      "sha256": "09bbd02cf4a8c5e1f84c62c3f4817e41974c63e6d8864cd9ede1753cdb1af560",
+      "bytes": 1442
+    },
+    "tools/cpsf_targeted_repair/configure.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_targeted_repair/configure.py",
+      "sha256": "25545c4fc72886fdcad7e52c5c62aab5b7205d0f566c5c30efe506805f325886",
+      "bytes": 4918
+    },
+    "tools/cpsf_targeted_repair/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_targeted_repair/contracts.py",
+      "sha256": "7a8d778ffa376a2913d8f34475b9b498ea728e95695a46c48cb943670b239eee",
+      "bytes": 5513
+    },
+    "tools/cpsf_targeted_repair/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_targeted_repair/model.py",
+      "sha256": "27532d4b44f3b9b748e7c1709ac351e4278e3b12597951d7e18e8a51b3ee8115",
+      "bytes": 3220
+    },
+    "tools/cpsf_targeted_repair/prepare.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_targeted_repair/prepare.py",
+      "sha256": "b9684bfa09eb917b2e1bc57984027ed3e69c4e07b669c44d7f0345cd407e3432",
+      "bytes": 3396
+    },
+    "tools/cpsf_targeted_repair/scheduler.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_targeted_repair/scheduler.py",
+      "sha256": "cd0233a179b33f0a9527f3d21651c72b8a06f60db6ec01b35621a11b4acc85b8",
+      "bytes": 1628
+    },
+    "tools/cpsf_targeted_repair/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_targeted_repair/train.py",
+      "sha256": "939d8f776afa3dbdbcf09ff4561610bf72324cb85a6bc6f1c714e5d389bc4038",
+      "bytes": 9718
+    },
+    "tools/cpsf_utonia_context/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_utonia_context/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "tools/cpsf_utonia_context/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_utonia_context/common.py",
+      "sha256": "627184d543655dfa6416a61c4b38d653376279d375e4a9f3bb0ab0996168029d",
+      "bytes": 1680
+    },
+    "tools/cpsf_utonia_context/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_utonia_context/contracts.py",
+      "sha256": "db9147ff655b756203fb4f5dd94616d177ba5d0cf04bbbcd9977da16701155b2",
+      "bytes": 8058
+    },
+    "tools/cpsf_utonia_context/data.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_utonia_context/data.py",
+      "sha256": "6a2cc3e9cb792bf16004672a8833ac8b3567294dee1558afd4719e07f584f670",
+      "bytes": 2555
+    },
+    "tools/cpsf_utonia_context/geo_import.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_utonia_context/geo_import.py",
+      "sha256": "bad9ba8785ecdf6ae727fcbbc3184b5466f7f41f7b54bf66d282f685efad5b8d",
+      "bytes": 1944
+    },
+    "tools/cpsf_utonia_context/kernel_policy.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_utonia_context/kernel_policy.py",
+      "sha256": "7b19e46ed2dc9a0b7189831c1d50e88018dce6b6dcc0cb4afb73b6616913bcd0",
+      "bytes": 2183
+    },
+    "tools/cpsf_utonia_context/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_utonia_context/model.py",
+      "sha256": "b57c81695d914ca1c51bf8dd44fa4a4daee89ee20f0a16ac3d4c4a3b3e3059d5",
+      "bytes": 8060
+    },
+    "tools/cpsf_utonia_context/scheduler.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_utonia_context/scheduler.py",
+      "sha256": "8b600c17339a2c5aee572864a9f58c85e6f4f88a8b671a962def14ec6185ed60",
+      "bytes": 4340
+    },
+    "tools/cpsf_utonia_context/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_utonia_context/train.py",
+      "sha256": "7225400bc7727abb387f986b9562c0ea44b237643994d71ec48ae585235b3ba5",
+      "bytes": 7523
+    },
+    "tools/cpsf_utonia_repair/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_utonia_repair/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "tools/cpsf_utonia_repair/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_utonia_repair/common.py",
+      "sha256": "11bc9b0d1223ed3f3a6a2eb77396c520651f4c171c350cfcd2a5ee8edf055538",
+      "bytes": 1633
+    },
+    "tools/cpsf_utonia_repair/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_utonia_repair/contracts.py",
+      "sha256": "aa15fecd3123ea4eb15eea1880f9f09cdc234bfc4c7344fb4ba5185ee485f83c",
+      "bytes": 7298
+    },
+    "tools/cpsf_utonia_repair/data.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_utonia_repair/data.py",
+      "sha256": "6a2cc3e9cb792bf16004672a8833ac8b3567294dee1558afd4719e07f584f670",
+      "bytes": 2555
+    },
+    "tools/cpsf_utonia_repair/geo_import.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_utonia_repair/geo_import.py",
+      "sha256": "bad9ba8785ecdf6ae727fcbbc3184b5466f7f41f7b54bf66d282f685efad5b8d",
+      "bytes": 1944
+    },
+    "tools/cpsf_utonia_repair/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_utonia_repair/model.py",
+      "sha256": "680374a8d8e52d41752aad28e4364a0fa85b25f30733e34b6b03c7a314219aea",
+      "bytes": 6691
+    },
+    "tools/cpsf_utonia_repair/scheduler.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_utonia_repair/scheduler.py",
+      "sha256": "d5b57b29a29397e57104d16b15f2d0ff4b0e164a26efae0c179037bf1feea973",
+      "bytes": 1495
+    },
+    "tools/cpsf_utonia_repair/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_utonia_repair/train.py",
+      "sha256": "d417069d5e4251cf6e2e304186b75031bdad45b9ed81410e73254f0272060b41",
+      "bytes": 7103
+    },
+    "tools/cpsf_v18_clean_core/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v18_clean_core/__init__.py",
+      "sha256": "5ecc9783c3564097e603e6d899a3e974ad735f8cbd18e9c8da6f79ea6511fc18",
+      "bytes": 80
+    },
+    "tools/cpsf_v18_clean_core/cell.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v18_clean_core/cell.py",
+      "sha256": "58395263e4808bf9fdaf37d7d05c281f5270af66257bf92515d4bf2ec8847580",
+      "bytes": 6944
+    },
+    "tools/cpsf_v18_clean_core/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v18_clean_core/common.py",
+      "sha256": "184c2d71052c5004fd6efab10a9c0544b9d2c25e46aae58c05e990faf066ba64",
+      "bytes": 6667
+    },
+    "tools/cpsf_v18_clean_core/data.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v18_clean_core/data.py",
+      "sha256": "0f73e26409dfa3904ed0a9249244d7c489b3bdec5c48baa4728a784f986d62c5",
+      "bytes": 6400
+    },
+    "tools/cpsf_v18_clean_core/decoders.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v18_clean_core/decoders.py",
+      "sha256": "44af806689c376d67ccb3faed4ad01ea52cec9d9c4836b2bce9de0c53678c3a7",
+      "bytes": 8708
+    },
+    "tools/cpsf_v18_clean_core/encoder.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v18_clean_core/encoder.py",
+      "sha256": "00b6c204f7543ef79903ec4fa82263290297551d4443954c576b6d9f5e7e37ae",
+      "bytes": 13205
+    },
+    "tools/cpsf_v18_clean_core/geometry.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v18_clean_core/geometry.py",
+      "sha256": "0d3da21a0154af81213300ccc14f78f03490d227d988dccd773250bb15af0e43",
+      "bytes": 15117
+    },
+    "tools/cpsf_v18_clean_core/offload.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v18_clean_core/offload.py",
+      "sha256": "8e461b0b0d2a2b9f8d8e89bc76462d20ce79530fd015f2fea7ac05b246ec7308",
+      "bytes": 11808
+    },
+    "tools/cpsf_v18_clean_core/point_cache.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v18_clean_core/point_cache.py",
+      "sha256": "35fbdbb6966c6d75c574b48cf4f995795acfa1151eab8ba2cd1c920c2d09f7d3",
+      "bytes": 2408
+    },
+    "tools/cpsf_v18_clean_core/queue.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v18_clean_core/queue.py",
+      "sha256": "cd40156556a8a17f549426fac375410b0a63f87a496d7525601ebc75470d0cb3",
+      "bytes": 22049
+    },
+    "tools/cpsf_v18_clean_core/stress.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v18_clean_core/stress.py",
+      "sha256": "e375a0409bb6b128c71d49eec6f231b6f3718f7a9930b87ca11890daf220f091",
+      "bytes": 2846
+    },
+    "tools/cpsf_v18_clean_core/test_contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v18_clean_core/test_contracts.py",
+      "sha256": "5f3c9f73d401f0ea6c7251a8d925dd9839b5d249cb9285fc6b3c34d39cc642c3",
+      "bytes": 14194
+    },
+    "tools/cpsf_v18_clean_core/test_queue.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v18_clean_core/test_queue.py",
+      "sha256": "464e35271bf186d5d339814e3c272155454054ec856fd65f36347a40622959b2",
+      "bytes": 5866
+    },
+    "tools/cpsf_v18_clean_core/tlp_adapter.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v18_clean_core/tlp_adapter.py",
+      "sha256": "b501b2f3583a82b6553111731c7a88ba3dfa7b0bf45ac72194ce3a30c03cc02d",
+      "bytes": 4378
+    },
+    "tools/cpsf_v18_clean_core/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v18_clean_core/train.py",
+      "sha256": "8882f6ffc925d79681750738d636bf5e58e7eb8ddb2dbab15bef39f1844dbb8b",
+      "bytes": 20425
+    },
+    "tools/cpsf_v19_measure_core/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v19_measure_core/__init__.py",
+      "sha256": "a34d9a0a2d45c18ba2c40abced73e1afc5ff600317a7ecfb13e8cbb8608a0903",
+      "bytes": 71
+    },
+    "tools/cpsf_v19_measure_core/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v19_measure_core/contracts.py",
+      "sha256": "54b60665da982206c43442210a931efd0af5964f50140fa9b2b9d310f2c5accd",
+      "bytes": 4103
+    },
+    "tools/cpsf_v19_measure_core/data.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v19_measure_core/data.py",
+      "sha256": "fa9f82aa8da5e9e6044280bbb9aeb17d113018b2525fb9a6394b658de1537bda",
+      "bytes": 4909
+    },
+    "tools/cpsf_v19_measure_core/geometry.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v19_measure_core/geometry.py",
+      "sha256": "e4178dba00bedbacde6a53429cc4f110b62c6a55f42eb1cec2291eb6dabc0efc",
+      "bytes": 7442
+    },
+    "tools/cpsf_v19_measure_core/global_task.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v19_measure_core/global_task.py",
+      "sha256": "9c35493bd991c86994ed2145cbd22853ec4f6e1fe90bde7614bf1609af8ad2c1",
+      "bytes": 9450
+    },
+    "tools/cpsf_v19_measure_core/io.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v19_measure_core/io.py",
+      "sha256": "a8d4b4a339bb444eb947f9e775aa488603d65323f9940396726fe84093f5b64d",
+      "bytes": 2790
+    },
+    "tools/cpsf_v19_measure_core/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v19_measure_core/model.py",
+      "sha256": "809096809a887d2e1ffac6b775cbabd6f11e181dafae18a085219d6c01e5dc42",
+      "bytes": 4363
+    },
+    "tools/cpsf_v19_measure_core/preflight.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v19_measure_core/preflight.py",
+      "sha256": "5c827d293840c067478c3e5efd619616a9a17fc56675be8353236e1c3431d63c",
+      "bytes": 1986
+    },
+    "tools/cpsf_v19_measure_core/scheduler.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v19_measure_core/scheduler.py",
+      "sha256": "24ec63833ab50d1cbacf1b452bc2c305bfbab92a27fce6dc2480b84987ed0cd7",
+      "bytes": 4169
+    },
+    "tools/cpsf_v19_measure_core/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v19_measure_core/train.py",
+      "sha256": "d94770d18aaeaa96d66046992cd8d41d021c89b4248799257dc2a0acd789213b",
+      "bytes": 6617
+    },
+    "tools/cpsf_v21_segment_units/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v21_segment_units/__init__.py",
+      "sha256": "a34d9a0a2d45c18ba2c40abced73e1afc5ff600317a7ecfb13e8cbb8608a0903",
+      "bytes": 71
+    },
+    "tools/cpsf_v21_segment_units/configure.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v21_segment_units/configure.py",
+      "sha256": "3b4ff9e3293e29cfdd47e4104cbe85fe6cf14e7a3dc9c568ad67e49189a3a43f",
+      "bytes": 2945
+    },
+    "tools/cpsf_v21_segment_units/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v21_segment_units/contracts.py",
+      "sha256": "44e0d686a9a571cd92a33ad296dac1888bfc103a856ecf27ea7eb5db6614d7d2",
+      "bytes": 8075
+    },
+    "tools/cpsf_v21_segment_units/geometry.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v21_segment_units/geometry.py",
+      "sha256": "e4178dba00bedbacde6a53429cc4f110b62c6a55f42eb1cec2291eb6dabc0efc",
+      "bytes": 7442
+    },
+    "tools/cpsf_v21_segment_units/global_task.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v21_segment_units/global_task.py",
+      "sha256": "02f557d5fb0d41c02cd45c12cb655dece8528a8c8765a477b7d06eb1976bc287",
+      "bytes": 4910
+    },
+    "tools/cpsf_v21_segment_units/io.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v21_segment_units/io.py",
+      "sha256": "45d731efbfba44c377092c095b7775c9c5b6c2e73a08c9e16f7f4c2a022a500d",
+      "bytes": 2939
+    },
+    "tools/cpsf_v21_segment_units/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v21_segment_units/model.py",
+      "sha256": "1293e8f12cc2b69f0e54e1922e68151b167b5037cfe21188aeab43a4778375e5",
+      "bytes": 13147
+    },
+    "tools/cpsf_v21_segment_units/pipeline.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v21_segment_units/pipeline.py",
+      "sha256": "ea26751b25610d158a514730c38d041cb1d8c8f15a86ea41d63c21241ca10078",
+      "bytes": 5547
+    },
+    "tools/cpsf_v21_segment_units/readout.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v21_segment_units/readout.py",
+      "sha256": "697a774e9ba4f7c31e081268e377e86cb5f82b8e148bb6d34f6e216d6e9bbc49",
+      "bytes": 3764
+    },
+    "tools/cpsf_v21_segment_units/segments.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v21_segment_units/segments.py",
+      "sha256": "d886142d802d393f1ae26f44b32083bf5537ea19d0f11bde533e633b782e8e42",
+      "bytes": 5412
+    },
+    "tools/cpsf_v21_segment_units/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v21_segment_units/train.py",
+      "sha256": "d4b7ad040c9606894dfd87d3d77680464f67031e222b00a400b77eb8d620907e",
+      "bytes": 6496
+    },
+    "tools/cpsf_v22_shared_region/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v22_shared_region/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "tools/cpsf_v22_shared_region/configure.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v22_shared_region/configure.py",
+      "sha256": "05e8412886e0527a33816b69771bc1c02d05432dc701a847bdd898dcc79468ab",
+      "bytes": 1040
+    },
+    "tools/cpsf_v22_shared_region/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v22_shared_region/contracts.py",
+      "sha256": "2586d85a4e3e59f16feaefce66afe7192c6af7aa7683cd1c7c1444ff3da84d87",
+      "bytes": 3303
+    },
+    "tools/cpsf_v22_shared_region/data.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v22_shared_region/data.py",
+      "sha256": "cd496e6c9efae242e2424598077e539db86f32602b7d2f2a62703e183d7d8126",
+      "bytes": 4177
+    },
+    "tools/cpsf_v22_shared_region/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v22_shared_region/model.py",
+      "sha256": "910d9c1a0ddcab6fc69896f98a8cf205f670bbe53616b2d836995db62cbf971d",
+      "bytes": 5230
+    },
+    "tools/cpsf_v22_shared_region/pipeline.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v22_shared_region/pipeline.py",
+      "sha256": "9da5ce7d8dd3ca4e4983439c47233498b9609054b71860fb3eadfbaeaaaad222",
+      "bytes": 4367
+    },
+    "tools/cpsf_v22_shared_region/prepare.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v22_shared_region/prepare.py",
+      "sha256": "a809f4d6ce48e2fd018cc873b3ab0faeeae489e3dd06d8f90635486dd285f9f9",
+      "bytes": 3013
+    },
+    "tools/cpsf_v22_shared_region/support.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v22_shared_region/support.py",
+      "sha256": "ef09a70a59784371b4f8d109c99167b333975e5ea2364cc2e82f098cee71417d",
+      "bytes": 6150
+    },
+    "tools/cpsf_v22_shared_region/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v22_shared_region/train.py",
+      "sha256": "e61cf63185cd31b170802a10d6f35384465d17332494353833be5802e411f72e",
+      "bytes": 6050
+    },
+    "tools/cpsf_v23_residual_region/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v23_residual_region/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1
+    },
+    "tools/cpsf_v23_residual_region/configure.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v23_residual_region/configure.py",
+      "sha256": "af05ffda4b0c480547a77cb7b6ac8edd67f396274fcff521e43404a5fb605bd4",
+      "bytes": 2119
+    },
+    "tools/cpsf_v23_residual_region/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v23_residual_region/contracts.py",
+      "sha256": "05c0bbae1bca98a7e7e292a1229ddce80a18c6d68c972c7f3fc452885efa55ea",
+      "bytes": 3464
+    },
+    "tools/cpsf_v23_residual_region/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v23_residual_region/model.py",
+      "sha256": "bd3e682f595d74192b36417778c3267ff6effec2b1325365f1cb8397726640b7",
+      "bytes": 1675
+    },
+    "tools/cpsf_v23_residual_region/pipeline.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v23_residual_region/pipeline.py",
+      "sha256": "b274f4fd64a80e0a2f6bb6dc73bfb9e5cfb570d9f9de92c8456b7c88afe98348",
+      "bytes": 3709
+    },
+    "tools/cpsf_v23_residual_region/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v23_residual_region/train.py",
+      "sha256": "92b087cc124dbf326a48ef06f74eaaa475d67d17967b56cd020b6cf0fdad63c6",
+      "bytes": 6062
+    },
+    "tools/cpsf_v23_scale_ablation/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v23_scale_ablation/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "tools/cpsf_v23_scale_ablation/configure.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v23_scale_ablation/configure.py",
+      "sha256": "004cc2b96e8247fcb63f8427b88ffc6701189ab3aae7930f237fd02e0096f738",
+      "bytes": 1409
+    },
+    "tools/cpsf_v23_scale_ablation/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v23_scale_ablation/contracts.py",
+      "sha256": "2621a8e9cfa6df1ae11ea5cce8cb8fc50ea3e4994c648d3357055cfe1d04d52a",
+      "bytes": 3829
+    },
+    "tools/cpsf_v23_scale_ablation/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v23_scale_ablation/model.py",
+      "sha256": "7179d81fbfa3b132cef7948d180db0c7838001cd22475d78459a22315ca288d7",
+      "bytes": 4446
+    },
+    "tools/cpsf_v23_scale_ablation/pipeline.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v23_scale_ablation/pipeline.py",
+      "sha256": "975f2a65ea0eab9d6b00a00708600b9267ed192fb4f4401be8bfcc1331460947",
+      "bytes": 3868
+    },
+    "tools/cpsf_v23_scale_ablation/prepare.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v23_scale_ablation/prepare.py",
+      "sha256": "a66979684be3d6386341aa38831f99117fb3ee624fad04b03af188d1739cb59d",
+      "bytes": 4934
+    },
+    "tools/cpsf_v23_scale_ablation/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v23_scale_ablation/train.py",
+      "sha256": "76784dbc37b3eb6e5d589a597b08109612d710c73e0d291deb4d3e0c8898481b",
+      "bytes": 6146
+    },
+    "tools/cpsf_v24_physical_conditioning/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v24_physical_conditioning/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    "tools/cpsf_v24_physical_conditioning/configure.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v24_physical_conditioning/configure.py",
+      "sha256": "f0c51296d29fbad04e4ecc46d0788506f1d1fa0a763bbd878b290e2cf49a598d",
+      "bytes": 1659
+    },
+    "tools/cpsf_v24_physical_conditioning/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v24_physical_conditioning/contracts.py",
+      "sha256": "06e438c7a7a2c174c789ac7b4ab10445b81075488b92b2e60fff792feee9877f",
+      "bytes": 3127
+    },
+    "tools/cpsf_v24_physical_conditioning/data.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v24_physical_conditioning/data.py",
+      "sha256": "20de0d31ce7a0b2b4eb5ac7f434afea73048dde2b7534865583d8fc0702ee935",
+      "bytes": 761
+    },
+    "tools/cpsf_v24_physical_conditioning/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v24_physical_conditioning/model.py",
+      "sha256": "0fea04642eac12ad1ed62e5ec76919ee68eac6cca2be3827eee6c58cffdff39f",
+      "bytes": 5334
+    },
+    "tools/cpsf_v24_physical_conditioning/pipeline.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v24_physical_conditioning/pipeline.py",
+      "sha256": "345c139e5f9962b4d194b68b88ad1224b136702bad39c1c11ae14d65f3ae25c2",
+      "bytes": 3626
+    },
+    "tools/cpsf_v24_physical_conditioning/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v24_physical_conditioning/train.py",
+      "sha256": "0f4d0879a469a9f2a6a328129cc4c7dbaff92acb3240452615618673eb70ea09",
+      "bytes": 6352
+    },
+    "tools/cpsf_v25_position_routing/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v25_position_routing/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1
+    },
+    "tools/cpsf_v25_position_routing/configure.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v25_position_routing/configure.py",
+      "sha256": "41e584b2ffdf58f3c41884bd5f901a6ca28a5ff4a2cce83295ddeccacec40749",
+      "bytes": 2622
+    },
+    "tools/cpsf_v25_position_routing/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v25_position_routing/contracts.py",
+      "sha256": "e7da48668d6329d94628386a78e9bbef2a25ac70232ec14ee8f9d74766fe7490",
+      "bytes": 4356
+    },
+    "tools/cpsf_v25_position_routing/data.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v25_position_routing/data.py",
+      "sha256": "4d53205cf5d27ac0f2a0477d22931e721e08767ac4a64d190d62ea19f47c12c8",
+      "bytes": 129
+    },
+    "tools/cpsf_v25_position_routing/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v25_position_routing/model.py",
+      "sha256": "222f42b0c9e527847f2b516f09f1b2f7ff1ec820d6449a144e3f1b8acdfa1f36",
+      "bytes": 3726
+    },
+    "tools/cpsf_v25_position_routing/pipeline.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v25_position_routing/pipeline.py",
+      "sha256": "7bd27184f049380e6dd1b912fe17a4d16e4080066f8d59a1aefd86677f122690",
+      "bytes": 3885
+    },
+    "tools/cpsf_v25_position_routing/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v25_position_routing/train.py",
+      "sha256": "75de9eb38c7f0ee432c0e4eaee32fdce512bcfdcee3ac61d48018c271c6f1004",
+      "bytes": 6706
+    },
+    "tools/cpsf_v26_complete/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v26_complete/__init__.py",
+      "sha256": "6f4d1c88242ae67b882c7f2419c2fc02941f2874951990dbb07843e456b13776",
+      "bytes": 55
+    },
+    "tools/cpsf_v26_complete/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v26_complete/common.py",
+      "sha256": "254ee07ee016e099bd1a89639f842f9f723c9d3bb9f1cdf94a925acdfa73ced0",
+      "bytes": 1688
+    },
+    "tools/cpsf_v26_complete/configure.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v26_complete/configure.py",
+      "sha256": "58bc679718e6a6b2a6920ace88a0351b717673210c3a59d65c2483380af097e6",
+      "bytes": 2942
+    },
+    "tools/cpsf_v26_complete/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v26_complete/contracts.py",
+      "sha256": "3d0302e1f753b3e9b16ea94424fb1c0a83d679f5a923a123a2b55b5e3cfdbfe5",
+      "bytes": 3453
+    },
+    "tools/cpsf_v26_complete/job.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v26_complete/job.py",
+      "sha256": "b1271dc42f067727f6eebf5aa4031e352bba40caa59db91320242c5de864fef1",
+      "bytes": 913
+    },
+    "tools/cpsf_v26_complete/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v26_complete/model.py",
+      "sha256": "902098240a9e88dfe55b873d7a269a8d232606c8e4d4b730feaa75d768805017",
+      "bytes": 3258
+    },
+    "tools/cpsf_v26_complete/pipeline.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v26_complete/pipeline.py",
+      "sha256": "71a4856756946521dabd217decd0e9ee79b5d1225bdcdec2cedbd06fcbf9d51e",
+      "bytes": 4545
+    },
+    "tools/cpsf_v26_complete/prepare.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v26_complete/prepare.py",
+      "sha256": "4d70667099821ac548ec8c9ee3a393f23afcbb2622062f3930c368f7b15c14d1",
+      "bytes": 3738
+    },
+    "tools/cpsf_v26_complete/reference_check.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v26_complete/reference_check.py",
+      "sha256": "e992f22fdb1c653b4e12e55c1928b885c4cc2421e0d3d8917cea9f8131948d2a",
+      "bytes": 1852
+    },
+    "tools/cpsf_v26_complete/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v26_complete/train.py",
+      "sha256": "f1b8555228a58f110bac798644119cd394e1c6b84373339eff40d32d45b9ebae",
+      "bytes": 7874
+    },
+    "tools/spatial_grouped_split/audit_official_tlp_spatial_leakage.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/spatial_grouped_split/audit_official_tlp_spatial_leakage.py",
+      "sha256": "1e5d2a1e548d6245d49b940aeabc25e96f45c2c61c5ab7208245e41158aad198",
+      "bytes": 13789
+    },
+    "tools/spatial_grouped_split/audit_tlp_spatial_grouped_split.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/spatial_grouped_split/audit_tlp_spatial_grouped_split.py",
+      "sha256": "0db5f51821ca5530f3f6f0e45df46027ec90975182506a9d022c4360b3941b00",
+      "bytes": 7958
+    },
+    "tools/spatial_grouped_split/build_tlp_spatial_grouped_split.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/spatial_grouped_split/build_tlp_spatial_grouped_split.py",
+      "sha256": "d5fae4d6f249e1014720097a5033dbe21c8e560abce03d8153d4ad3b6204f030",
+      "bytes": 17353
+    },
+    "tools/spatial_grouped_split/evaluate_tlp_bridge_surface_v1.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/spatial_grouped_split/evaluate_tlp_bridge_surface_v1.py",
+      "sha256": "98409e60ac48063d7b14bcb2dd453bb312c26935dcf242eb7b7270d82abe03c6",
+      "bytes": 9878
+    },
+    "tools/spatial_grouped_split/evaluate_tlp_spatial_grouped_v1.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/spatial_grouped_split/evaluate_tlp_spatial_grouped_v1.py",
+      "sha256": "aef605868ff2b4e4161685c6142f0374e29d67fb2af38eac593c7643d43ffcf0",
+      "bytes": 6573
+    },
+    "tools/cpsf_geometry_rebench/bootstrap.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/tools/cpsf_geometry_rebench/bootstrap.py",
+      "sha256": "117abaa578820d39c78fe0b5fec26f70db46bf5688bd4ce7e31b0fefc312d59d",
+      "bytes": 6530
+    },
+    "tools/cpsf_geometry_rebench/worker.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/tools/cpsf_geometry_rebench/worker.py",
+      "sha256": "bc15625dca53b8ad2934b27ac84e83dd30daa5bfa525463161ffab51152e5c24",
+      "bytes": 13464
+    },
+    "tools/cpsf_geometry_rebench/backend.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/tools/cpsf_geometry_rebench/backend.py",
+      "sha256": "b2ed439a14562f1b7c38167ebb1f510a991c9df9278f09f089d38a9210a78a6f",
+      "bytes": 6445
+    },
+    "tools/cpsf_geometry_rebench/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/tools/cpsf_geometry_rebench/__init__.py",
+      "sha256": "b11734e646233f8a0509af0e4e4310731c77b14aaa3b18e5edf01dc174ff7db6",
+      "bytes": 75
+    },
+    "tools/cpsf_geometry_rebench/sources.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/tools/cpsf_geometry_rebench/sources.py",
+      "sha256": "3a8d3e261e04cb7d6bcdd14c0f201b861c84fcc172c5c90416368aacfa26067b",
+      "bytes": 8145
+    },
+    "tools/cpsf_geometry_rebench/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/tools/cpsf_geometry_rebench/common.py",
+      "sha256": "050554a1c2060f613b377d8aabf390bcb235908614e56445c2577ad01ffb754c",
+      "bytes": 2089
+    },
+    "tools/cpsf_geometry_rebench/pipeline.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/tools/cpsf_geometry_rebench/pipeline.py",
+      "sha256": "e3bddfe7706e47da91696867073ce2c28959f2c64c8936ea8128ecc35f9286f9",
+      "bytes": 4911
+    },
+    "tools/cpsf_geometry_rebench/sampling.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/tools/cpsf_geometry_rebench/sampling.py",
+      "sha256": "9cee52695b6effc949c51d8cda625e5b940f8dae22ccf04462c27c2ee7057871",
+      "bytes": 1865
+    },
+    "tools/cpsf_geometry_rebench/prepare.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/tools/cpsf_geometry_rebench/prepare.py",
+      "sha256": "b07ee25863f1f205e35bf4844d493acb4a8dd044743449877b92dd51b08b1e3f",
+      "bytes": 6609
+    },
+    "tools/cpsf_r34_fps_rebench/bootstrap.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_FPS_REBENCH_20261021_A2/tools/cpsf_r34_fps_rebench/bootstrap.py",
+      "sha256": "96dda25ddae3ef2f96b6e8da4bb7392bd0b2a804dfb7cb18da81451dd4387534",
+      "bytes": 3248
+    },
+    "tools/cpsf_r34_fps_rebench/worker.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_FPS_REBENCH_20261021_A2/tools/cpsf_r34_fps_rebench/worker.py",
+      "sha256": "a2d80b5bcee7bc795befa26c9c73ef8bceb822484443b1cd9733d4ad90467d90",
+      "bytes": 14179
+    },
+    "tools/cpsf_r34_fps_rebench/metrics.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_FPS_REBENCH_20261021_A2/tools/cpsf_r34_fps_rebench/metrics.py",
+      "sha256": "66b0773264a20ec536d6bcff265a646b69d91a6fb7a2e6591bc76e4b1bb3b978",
+      "bytes": 1606
+    },
+    "tools/cpsf_r34_fps_rebench/backend.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_FPS_REBENCH_20261021_A2/tools/cpsf_r34_fps_rebench/backend.py",
+      "sha256": "f0bdba3f2eae393e9bf2a9b3271bc925b214566f2d05ba1c4da10d46886a2f62",
+      "bytes": 2268
+    },
+    "tools/cpsf_r34_fps_rebench/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_FPS_REBENCH_20261021_A2/tools/cpsf_r34_fps_rebench/__init__.py",
+      "sha256": "bdc78f850e43fa2f3794c172b343878db6bdef6f715edd385458991b256ec6b9",
+      "bytes": 74
+    },
+    "tools/cpsf_r34_fps_rebench/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_FPS_REBENCH_20261021_A2/tools/cpsf_r34_fps_rebench/model.py",
+      "sha256": "4c3dbb5cff0328a8c6dfce544daea17f2c6d0a874cc577b32c47c40708b59548",
+      "bytes": 2301
+    },
+    "tools/cpsf_r34_fps_rebench/frozen_r34.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_FPS_REBENCH_20261021_A2/tools/cpsf_r34_fps_rebench/frozen_r34.py",
+      "sha256": "3d352f7d406ca201161e50d67b84ed627bed2adb3228575d16654772cbf6f48b",
+      "bytes": 6900
+    },
+    "tools/cpsf_r34_fps_rebench/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_FPS_REBENCH_20261021_A2/tools/cpsf_r34_fps_rebench/common.py",
+      "sha256": "bf86d07eb55a37449bc9d021c529df55c45dd2536a83e35c1e27d75343f0183e",
+      "bytes": 2323
+    },
+    "tools/cpsf_r34_fps_rebench/pipeline.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_FPS_REBENCH_20261021_A2/tools/cpsf_r34_fps_rebench/pipeline.py",
+      "sha256": "9f584cebc66d3ef77c9896a1fd5d5389034afb26360181026604985e5f89595b",
+      "bytes": 5966
+    },
+    "tools/cpsf_r34_fps_rebench/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_FPS_REBENCH_20261021_A2/tools/cpsf_r34_fps_rebench/contracts.py",
+      "sha256": "29a304bc74edc4411f882c54cf82c5bc473d61815677b49dff999312dcfc792c",
+      "bytes": 3727
+    },
+    "tools/cpsf_r34_fps_rebench/compare.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_FPS_REBENCH_20261021_A2/tools/cpsf_r34_fps_rebench/compare.py",
+      "sha256": "2f47ebf90cc948f29a2cfdb5e8a5518971e078c6d39f408a736d991e1e7b7f77",
+      "bytes": 4615
+    },
+    "tools/cpsf_r34_fps_rebench/prepare.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_FPS_REBENCH_20261021_A2/tools/cpsf_r34_fps_rebench/prepare.py",
+      "sha256": "bb44d61789792a74740ec0583005325135adb8b38a24456b1d2a733303532afa",
+      "bytes": 2567
+    },
+    "tools/cpsf_cmm_pair_fusion/bootstrap.py": {
+      "source_path": "/root/megrez-tmp/CPSF_CMM_PAIR_FUSION_20261023_R38_A1/tools/cpsf_cmm_pair_fusion/bootstrap.py",
+      "sha256": "d5d7529a05a645076a031d33b35b5bdcf772e36f2e88e3b93d4176c6e1e3d686",
+      "bytes": 3993
+    },
+    "tools/cpsf_cmm_pair_fusion/worker.py": {
+      "source_path": "/root/megrez-tmp/CPSF_CMM_PAIR_FUSION_20261023_R38_A1/tools/cpsf_cmm_pair_fusion/worker.py",
+      "sha256": "01dff9f4a073b6f1be538ded392be6d36a23b6924f64d9d752973c02f9db8c57",
+      "bytes": 9864
+    },
+    "tools/cpsf_cmm_pair_fusion/backend.py": {
+      "source_path": "/root/megrez-tmp/CPSF_CMM_PAIR_FUSION_20261023_R38_A1/tools/cpsf_cmm_pair_fusion/backend.py",
+      "sha256": "58010915c9f4744c54dbed3145ae0d602e51dbfbe390d29c5b546bedc9481692",
+      "bytes": 957
+    },
+    "tools/cpsf_cmm_pair_fusion/acceptance.py": {
+      "source_path": "/root/megrez-tmp/CPSF_CMM_PAIR_FUSION_20261023_R38_A1/tools/cpsf_cmm_pair_fusion/acceptance.py",
+      "sha256": "1ec6f35ee62553e3857b5563e24f5a5b1fccee9745b67085efc5830eec0122f5",
+      "bytes": 11017
+    },
+    "tools/cpsf_cmm_pair_fusion/operator.py": {
+      "source_path": "/root/megrez-tmp/CPSF_CMM_PAIR_FUSION_20261023_R38_A1/tools/cpsf_cmm_pair_fusion/operator.py",
+      "sha256": "d2350b8f84d8373227c32c4b9b174484d2794a865f111dafd851ce75f68ce3f9",
+      "bytes": 2244
+    },
+    "tools/cpsf_cmm_pair_fusion/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_CMM_PAIR_FUSION_20261023_R38_A1/tools/cpsf_cmm_pair_fusion/__init__.py",
+      "sha256": "6eb5e45a2d5176979e0a27b10969e50609eca9d7452f28a1bc0b46ddcf88f81b",
+      "bytes": 78
+    },
+    "tools/cpsf_cmm_pair_fusion/review.py": {
+      "source_path": "/root/megrez-tmp/CPSF_CMM_PAIR_FUSION_20261023_R38_A1/tools/cpsf_cmm_pair_fusion/review.py",
+      "sha256": "427e27a20dc280a00f0f4054fb18f1ca0ec6091fddd328916b87e5a57c418591",
+      "bytes": 3276
+    },
+    "tools/cpsf_cmm_pair_fusion/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_CMM_PAIR_FUSION_20261023_R38_A1/tools/cpsf_cmm_pair_fusion/model.py",
+      "sha256": "ef67b966876acf177d712c1387e37b6abb69560f46147c54e34426c8b7267547",
+      "bytes": 1582
+    },
+    "tools/cpsf_cmm_pair_fusion/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_CMM_PAIR_FUSION_20261023_R38_A1/tools/cpsf_cmm_pair_fusion/common.py",
+      "sha256": "bd94e5b563f121c52e70fe48d7b465f44dd2e111c6e16da9ccb4c4bbd3661b3c",
+      "bytes": 1913
+    },
+    "tools/cpsf_cmm_pair_fusion/pipeline.py": {
+      "source_path": "/root/megrez-tmp/CPSF_CMM_PAIR_FUSION_20261023_R38_A1/tools/cpsf_cmm_pair_fusion/pipeline.py",
+      "sha256": "3239222b362190e19e96b2a151c752e552c213f7a3a7f3fe8245e261974185e9",
+      "bytes": 5145
+    },
+    "tools/cpsf_cmm_pair_fusion/contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_CMM_PAIR_FUSION_20261023_R38_A1/tools/cpsf_cmm_pair_fusion/contracts.py",
+      "sha256": "79dc566c977a0c5e2a64146a34d573a1df2d68216bf9ce7405dff131257c141e",
+      "bytes": 3436
+    },
+    "tools/cpsf_cmm_pair_fusion/audit_worker.py": {
+      "source_path": "/root/megrez-tmp/CPSF_CMM_PAIR_FUSION_20261023_R38_A1/tools/cpsf_cmm_pair_fusion/audit_worker.py",
+      "sha256": "60d659924f4227b0ba2d61a7ecbecc9d3098c83273f6e6943fe8f88272c82585",
+      "bytes": 1440
+    },
+    "tools/cpsf_cmm_pair_fusion/preflight.py": {
+      "source_path": "/root/megrez-tmp/CPSF_CMM_PAIR_FUSION_20261023_R38_A1/tools/cpsf_cmm_pair_fusion/preflight.py",
+      "sha256": "d6f6c8e15608b2df8c009d28f84beb4ca5101defed8d325ce64582ef636008a5",
+      "bytes": 1555
+    },
+    "tools/cpsf_r38_dense/bootstrap.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_SUPPORT_20261023_A1/tools/cpsf_r38_dense/bootstrap.py",
+      "sha256": "b8c009da169b5549297e9b2244e4d9a2a38ec72a17ff30da1ee48ccaddd83a5c",
+      "bytes": 3255
+    },
+    "tools/cpsf_r38_dense/queue.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_SUPPORT_20261023_A1/tools/cpsf_r38_dense/queue.py",
+      "sha256": "3fd5b5df1801a7d5753dca7c0c04c7624eab78d6850a2622db4e33f5a52e0951",
+      "bytes": 4826
+    },
+    "tools/cpsf_r38_dense/worker.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_SUPPORT_20261023_A1/tools/cpsf_r38_dense/worker.py",
+      "sha256": "26d59e4531c47feba0cec9de7dd9212ca9e2ec5e7f831c235c3071e9e62dc3a7",
+      "bytes": 7698
+    },
+    "tools/cpsf_r38_dense/backend.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_SUPPORT_20261023_A1/tools/cpsf_r38_dense/backend.py",
+      "sha256": "d85043fc156e4e0da3c00cde3ae83e82c52e589ccd15ec44495b314aeb9cd114",
+      "bytes": 1053
+    },
+    "tools/cpsf_r38_dense/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_SUPPORT_20261023_A1/tools/cpsf_r38_dense/__init__.py",
+      "sha256": "11e4495d15e988da9e9f65a3c18bb4a6b51f5ddff01b971915a5ab82b4545d51",
+      "bytes": 81
+    },
+    "tools/cpsf_r38_dense/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_SUPPORT_20261023_A1/tools/cpsf_r38_dense/model.py",
+      "sha256": "55e4b55b24006145eb72c3c17fa55e7c992eb6bd3e389a6b44683b4f9f82699c",
+      "bytes": 2012
+    },
+    "tools/cpsf_r38_dense/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_SUPPORT_20261023_A1/tools/cpsf_r38_dense/common.py",
+      "sha256": "a2281a8d60c005282a6232c11c5d3ac32ce0efc16a2aac2e5edd2b62cad6207d",
+      "bytes": 1740
+    },
+    "tools/cpsf_r38_dense/data.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_SUPPORT_20261023_A1/tools/cpsf_r38_dense/data.py",
+      "sha256": "67e22958e236d2c9db87bf068f3fa1a4e8de8cba4fc6b13f67cbf9dd1037a503",
+      "bytes": 3482
+    },
+    "tools/cpsf_r38_dense_extension/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_EXTENSION_20261024_A2/tools/cpsf_r38_dense_extension/__init__.py",
+      "sha256": "0287bc5e7cf7ebdc372a85670dd0b07556d6980bbe75b5e717ff0f6288b792cf",
+      "bytes": 81
+    },
+    "tools/cpsf_r38_dense_extension/backend.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_EXTENSION_20261024_A2/tools/cpsf_r38_dense_extension/backend.py",
+      "sha256": "078778b1c4b7b36b628e2ee818dfdf05c2e8867a6813b99ee46352068df71939",
+      "bytes": 1235
+    },
+    "tools/cpsf_r38_dense_extension/bootstrap.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_EXTENSION_20261024_A2/tools/cpsf_r38_dense_extension/bootstrap.py",
+      "sha256": "d26e5f6346f64152e247f07eb6461dd67cdb83c554decea6eebd77424b59825a",
+      "bytes": 4418
+    },
+    "tools/cpsf_r38_dense_extension/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_EXTENSION_20261024_A2/tools/cpsf_r38_dense_extension/common.py",
+      "sha256": "d1e46f977c67860af75f2088666e9c2f7a3ed8874d47b3af446293fde45b1c23",
+      "bytes": 2312
+    },
+    "tools/cpsf_r38_dense_extension/data.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_EXTENSION_20261024_A2/tools/cpsf_r38_dense_extension/data.py",
+      "sha256": "2c725873621f20a2eec83e82d242bc0f3562a6c6d4f9c9e77e399c5bd6db961f",
+      "bytes": 560
+    },
+    "tools/cpsf_r38_dense_extension/local_equivalence.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_EXTENSION_20261024_A2/tools/cpsf_r38_dense_extension/local_equivalence.py",
+      "sha256": "3967bd842ec5a29e40596884c13df449fe2f5575b8740e284bb53dc4cb873113",
+      "bytes": 4312
+    },
+    "tools/cpsf_r38_dense_extension/queue.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_EXTENSION_20261024_A2/tools/cpsf_r38_dense_extension/queue.py",
+      "sha256": "8591591b7ead6c20bc1ace7c37e6c7d549652a906523272c67193e4ec7fc3ebb",
+      "bytes": 7731
+    },
+    "tools/cpsf_r38_dense_extension/worker.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_EXTENSION_20261024_A2/tools/cpsf_r38_dense_extension/worker.py",
+      "sha256": "8d462dcdeeedbc70da64e91e358353d9bcd326283cedc0aaae98c17a11b1579d",
+      "bytes": 10381
+    },
+    "tools/cpsf_r38_delayed_reweight/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DRW_20261025_A1/tools/cpsf_r38_delayed_reweight/__init__.py",
+      "sha256": "1fa22f8befb163bf2a6048bfc4d0921506672c7a6ac3389c46dad1c43387502a",
+      "bytes": 82
+    },
+    "tools/cpsf_r38_delayed_reweight/backend.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DRW_20261025_A1/tools/cpsf_r38_delayed_reweight/backend.py",
+      "sha256": "ac957f3b55b1b9c374604d3a04512ad8cdc271e2f03f521bd0c13e6f14348323",
+      "bytes": 581
+    },
+    "tools/cpsf_r38_delayed_reweight/bootstrap.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DRW_20261025_A1/tools/cpsf_r38_delayed_reweight/bootstrap.py",
+      "sha256": "bbf3827edfa7518db0184efb76627f74a5a190da1ab051c0e9a3a7173c369a73",
+      "bytes": 3823
+    },
+    "tools/cpsf_r38_delayed_reweight/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DRW_20261025_A1/tools/cpsf_r38_delayed_reweight/common.py",
+      "sha256": "6fe85e9c81dae8cd6f9f1fc59682a9b8538f03561f9d5cfde9f37064051f64af",
+      "bytes": 2426
+    },
+    "tools/cpsf_r38_delayed_reweight/launch.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DRW_20261025_A1/tools/cpsf_r38_delayed_reweight/launch.py",
+      "sha256": "146942a8ea22f8cbf87b98261d1ffa8b42eebff1bca46ab9c456411e9bddd261",
+      "bytes": 1920
+    },
+    "tools/cpsf_r38_delayed_reweight/objective.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DRW_20261025_A1/tools/cpsf_r38_delayed_reweight/objective.py",
+      "sha256": "1a512c3842bdbea0c8944168dd5e4a2df1a9d263a923980f3873909986c522c7",
+      "bytes": 1778
+    },
+    "tools/cpsf_r38_delayed_reweight/worker.py": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DRW_20261025_A1/tools/cpsf_r38_delayed_reweight/worker.py",
+      "sha256": "acfe2608d21a2c1c8c9550a77be6cd9ac449034f93ffeecb6b48c9bcca100591",
+      "bytes": 9104
+    },
+    "tools/cpsf_microns/acquire.py": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/tools/cpsf_microns/acquire.py",
+      "sha256": "b697205c85b9338f568c223bca0d725920707582bc6e648190769616f1d7c409",
+      "bytes": 9958
+    },
+    "tools/cpsf_microns/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/tools/cpsf_microns/__init__.py",
+      "sha256": "07f4996b3d7671014b560ac568db963fbb58c3029123a06c5611655a62db853f",
+      "bytes": 63
+    },
+    "tools/cpsf_microns/common.py": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/tools/cpsf_microns/common.py",
+      "sha256": "a1bad6557ebc712a69058cba25e14c16dacd1c9d1af47514be03ab58e033d0b7",
+      "bytes": 2343
+    },
+    "tools/cpsf_microns/metrics.py": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/tools/cpsf_microns/metrics.py",
+      "sha256": "76270b5b631e14f1277c5eed29212ee323f73aeb67e31e079dc4deaa8a423170",
+      "bytes": 2281
+    },
+    "tools/cpsf_microns/models.py": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/tools/cpsf_microns/models.py",
+      "sha256": "8a6f466a714000df8d42549561c888a4dd3142d681de7e584352eb05d1c1056e",
+      "bytes": 4526
+    },
+    "tools/cpsf_microns/prepare.py": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/tools/cpsf_microns/prepare.py",
+      "sha256": "ef0906f2e60f5d413b96a6f3cdeb3d4f951da3a399c64c7d09c17efbba10e716",
+      "bytes": 13816
+    },
+    "tools/cpsf_microns/train.py": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/tools/cpsf_microns/train.py",
+      "sha256": "824ce9862151963ea05756a25254774ead1397f513598e2bcfa7fada68cf443a",
+      "bytes": 12361
+    },
+    "tools/cpsf_microns/queue.py": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/tools/cpsf_microns/queue.py",
+      "sha256": "9f6f4faeaa4b51d7b8f264f669cbb3ed85ac0d281b90e6adc8f2cebbe39446bd",
+      "bytes": 7763
+    },
+    "tools/cpsf_microns/geometry_baselines.py": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/tools/cpsf_microns/geometry_baselines.py",
+      "sha256": "aff0759dbce2dec2cce896dd513ab5c9a2ec86ec59df003fe36fd044420f789a",
+      "bytes": 5444
+    },
+    "tools/cpsf_microns/geometry_contracts.py": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/tools/cpsf_microns/geometry_contracts.py",
+      "sha256": "0e923c594cf179be2f414a52bfdb1d0b6637aab9349a7c41faef9de35cbed038",
+      "bytes": 2089
+    },
+    "vendor/SPoTr/openpoints/models/layers/conv.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/vendor/SPoTr/openpoints/models/layers/conv.py",
+      "sha256": "eadd5c38d77ea1a1c19b16e040faa13e52ef0089f783f0c39d06a9df75999eaa",
+      "bytes": 6407
+    },
+    "vendor/Utonia/utonia/model.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/vendor/Utonia/utonia/model.py",
+      "sha256": "f68484c32773b91a47530570b10acb47b229fdeb2132eb5e313f80901639f9ef",
+      "bytes": 31130
+    },
+    "vendor/Utonia/utonia/module.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/vendor/Utonia/utonia/module.py",
+      "sha256": "bb9f455509b233eac2b798df0d8efeefa64124628f493ec15dfa92aecabf3cff",
+      "bytes": 3724
+    },
+    "vendor/Utonia/utonia/serialization/z_order.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/vendor/Utonia/utonia/serialization/z_order.py",
+      "sha256": "a6cfc1db67eda5c653033664df84a789ca639df1a1f4836b20c09ae006fc2379",
+      "bytes": 4168
+    },
+    "vendor/Utonia/utonia/serialization/hilbert.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/vendor/Utonia/utonia/serialization/hilbert.py",
+      "sha256": "4fe3d815f6e8eb67fcf2168b616646837ae0f8fec8b0608e2adfbda4497adee4",
+      "bytes": 10463
+    },
+    "vendor/Utonia/utonia/serialization/default.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/vendor/Utonia/utonia/serialization/default.py",
+      "sha256": "27a5b667b969256f37f9457e432fd0f7f396974ba26ef395719cfcdb6e0fef31",
+      "bytes": 2766
+    },
+    "vendor/Utonia/utonia/serialization/__init__.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/vendor/Utonia/utonia/serialization/__init__.py",
+      "sha256": "e6461b37ccb5dcb24725943271259c4f74dac89d27b22becb97e48ce04c8a9b1",
+      "bytes": 129
+    },
+    "vendor/Utonia/utonia/utils.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/vendor/Utonia/utonia/utils.py",
+      "sha256": "373fb39316bc12f55c002d77ce6b4e1a48b049f47c1baac82f61ada20327be59",
+      "bytes": 1906
+    },
+    "vendor/Utonia/utonia/structure.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/vendor/Utonia/utonia/structure.py",
+      "sha256": "61e696a46833292d7816d30a7f633d2728dceb5a037e0fb0bb7191a9111f6812",
+      "bytes": 6585
+    },
+    "vendor/SPoTr/openpoints/models/layers/activation.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/vendor/SPoTr/openpoints/models/layers/activation.py",
+      "sha256": "246a85ff9e13ab216e607124bdf9264d2d2f9892f5e35db7d15d7695c1d4d817",
+      "bytes": 1277
+    },
+    "vendor/SPoTr/openpoints/models/layers/norm.py": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/vendor/SPoTr/openpoints/models/layers/norm.py",
+      "sha256": "080defe834a9f4c90700987a66a6c0351f5248a020205ce2552e5910542af463",
+      "bytes": 3737
+    },
+    "protocol.json": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/protocol.json",
+      "sha256": "40407ca1459fd5e05f6515f802c60ff5a3d385ffda64555e5de9a917fea10407",
+      "bytes": 73515
+    }
+  },
+  "artifacts": {
+    "original/protocol.json": {
+      "source_path": "/root/megrez-tmp/CPSF_CMM_PAIR_FUSION_20261023_R38_A1/protocol.json",
+      "sha256": "f09842b051cefd9bc8825357608a142566521fbdda368c626ee0d1af79ce900e",
+      "bytes": 517207
+    },
+    "original/operator_contract_cpu.json": {
+      "source_path": "/root/megrez-tmp/CPSF_CMM_PAIR_FUSION_20261023_R38_A1/operator_contract_cpu.json",
+      "sha256": "2c1de9053b0a0b4a87eeecf74aaa47adbac1bf3bda09581272eded83cb3926c4",
+      "bytes": 751
+    },
+    "original/operator_contract_cuda.json": {
+      "source_path": "/root/megrez-tmp/CPSF_CMM_PAIR_FUSION_20261023_R38_A1/operator_contract_cuda.json",
+      "sha256": "cb0e439d28578ed4564b2e27f36f7cc133bc28beb6d5e6fc2ca3c8de50306740",
+      "bytes": 753
+    },
+    "original/worker_protocol_audit.json": {
+      "source_path": "/root/megrez-tmp/CPSF_CMM_PAIR_FUSION_20261023_R38_A1/worker_protocol_audit.json",
+      "sha256": "9cccb0b3f975fd8d4b815ce8e0a341f973731708085d9524e926195bb1068fb7",
+      "bytes": 253
+    },
+    "original/independent_review.json": {
+      "source_path": "/root/megrez-tmp/CPSF_CMM_PAIR_FUSION_20261023_R38_A1/independent_review.json",
+      "sha256": "896b6f2f79b020e1d2d5b9a2a2da6cec43f80acf0f4db47888715b12f0a8bf8c",
+      "bytes": 4433
+    },
+    "original/acceptance/r38_h01_global.json": {
+      "source_path": "/root/megrez-tmp/CPSF_CMM_PAIR_FUSION_20261023_R38_A1/acceptance/r38_h01_global.json",
+      "sha256": "15c1c77416a831cd0bcae9d4fe3bb4725fa62ca8ee735e83e1888e6743d11534",
+      "bytes": 14092
+    },
+    "original/acceptance/r38_h01_local.json": {
+      "source_path": "/root/megrez-tmp/CPSF_CMM_PAIR_FUSION_20261023_R38_A1/acceptance/r38_h01_local.json",
+      "sha256": "f204bd46bbb951ead789623b06bf12a864477bb72585238e030ffafdfc9a1bc9",
+      "bytes": 13445
+    },
+    "original/orders/h01_global.json": {
+      "source_path": "/root/megrez-tmp/CPSF_CMM_PAIR_FUSION_20261023_R38_A1/orders/h01_global.json",
+      "sha256": "7c0ef949c7aa780c3b89a11e80128779a9ed2c0eefbd2eaa32d2c51d84c3ffad",
+      "bytes": 6294
+    },
+    "original/orders/h01_local.json": {
+      "source_path": "/root/megrez-tmp/CPSF_CMM_PAIR_FUSION_20261023_R38_A1/orders/h01_local.json",
+      "sha256": "4c224798591e8d5634d9c474f4a65951085d1a86134dbff86e7750dfc633de90",
+      "bytes": 3169
+    },
+    "original/input_audits/h01_global.json": {
+      "source_path": "/root/megrez-tmp/CPSF_CMM_PAIR_FUSION_20261023_R38_A1/input_audits/h01_global.json",
+      "sha256": "2595854240dd86236f165121688e25ee229955f459b1b3af77c4bf250da8eaff",
+      "bytes": 415
+    },
+    "original/input_audits/h01_local.json": {
+      "source_path": "/root/megrez-tmp/CPSF_CMM_PAIR_FUSION_20261023_R38_A1/input_audits/h01_local.json",
+      "sha256": "49e26c46fc0dc69ad896c2895047184570b2dc68d7054942c36853b6e453323d",
+      "bytes": 417
+    },
+    "original/results/r38_h01_local/identity.json": {
+      "source_path": "/root/megrez-tmp/CPSF_CMM_PAIR_FUSION_20261023_R38_A1/results/r38_h01_local/identity.json",
+      "sha256": "475ec5ec8ca2c4752bc54e5f53a38be058c01b584ca6ac081f547396e2e2f2df",
+      "bytes": 2739
+    },
+    "original/results/r38_h01_local/status.json": {
+      "source_path": "/root/megrez-tmp/CPSF_CMM_PAIR_FUSION_20261023_R38_A1/results/r38_h01_local/status.json",
+      "sha256": "ac632b0f1a7a3066f5e2f0f2ae3652fe4a99c36ace4e05d971ace7ab55436786",
+      "bytes": 58
+    },
+    "original/results/r38_h01_local/first_update.json": {
+      "source_path": "/root/megrez-tmp/CPSF_CMM_PAIR_FUSION_20261023_R38_A1/results/r38_h01_local/first_update.json",
+      "sha256": "6f1bccd489abf0ce9780ddcb87e9de57b949df3ea5214a8b59b0eb3b58771727",
+      "bytes": 236
+    },
+    "original/results/r38_h01_local/metrics.json": {
+      "source_path": "/root/megrez-tmp/CPSF_CMM_PAIR_FUSION_20261023_R38_A1/results/r38_h01_local/metrics.json",
+      "sha256": "d2dadb33dbfc3f323f8cd9db83560c34a60af1a1615c7d8f2eb8a345a334abcb",
+      "bytes": 3287
+    },
+    "original/results/r38_h01_local/final.pt": {
+      "source_path": "/root/megrez-tmp/CPSF_CMM_PAIR_FUSION_20261023_R38_A1/results/r38_h01_local/final.pt",
+      "sha256": "54e82e166964c75f012e834077890bdfb25d239af7b20e11f1c9eed52abf532f",
+      "bytes": 15239478
+    },
+    "original/results/r38_h01_local/history.json": {
+      "source_path": "/root/megrez-tmp/CPSF_CMM_PAIR_FUSION_20261023_R38_A1/results/r38_h01_local/history.json",
+      "sha256": "50a90cc2968f60e0c9e2a44902ff2f7a7eda48bf031c63e42280ef95e6ca206b",
+      "bytes": 5945
+    },
+    "original/results/r38_h01_local/val_predictions.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_CMM_PAIR_FUSION_20261023_R38_A1/results/r38_h01_local/val_predictions.npz",
+      "sha256": "a54a07c936f8096e8535ff2c403906b31d2ddd46c426183a7684a2969ef0d279",
+      "bytes": 4088
+    },
+    "original/results/r38_h01_local/prediction_audit.json": {
+      "source_path": "/root/megrez-tmp/CPSF_CMM_PAIR_FUSION_20261023_R38_A1/results/r38_h01_local/prediction_audit.json",
+      "sha256": "8187996b2eb3cb01d6b8c427b85f618953207fcc6cde4d322382a9034af23c4a",
+      "bytes": 251
+    },
+    "original/results/r38_h01_global/identity.json": {
+      "source_path": "/root/megrez-tmp/CPSF_CMM_PAIR_FUSION_20261023_R38_A1/results/r38_h01_global/identity.json",
+      "sha256": "4492c211739532114794452c1e33273bed3de88ccb4ae8ccd28d59a9893810dd",
+      "bytes": 2740
+    },
+    "original/results/r38_h01_global/status.json": {
+      "source_path": "/root/megrez-tmp/CPSF_CMM_PAIR_FUSION_20261023_R38_A1/results/r38_h01_global/status.json",
+      "sha256": "757690ebeb91d89334f1b65492f98e698997e369487a9ff44f6c7e02707c2c3f",
+      "bytes": 58
+    },
+    "original/results/r38_h01_global/first_update.json": {
+      "source_path": "/root/megrez-tmp/CPSF_CMM_PAIR_FUSION_20261023_R38_A1/results/r38_h01_global/first_update.json",
+      "sha256": "c029297f89dd59e5cab1522abdf78cbbf7e5d5dbe42281ea19fef5a354d0fc58",
+      "bytes": 236
+    },
+    "original/results/r38_h01_global/metrics.json": {
+      "source_path": "/root/megrez-tmp/CPSF_CMM_PAIR_FUSION_20261023_R38_A1/results/r38_h01_global/metrics.json",
+      "sha256": "5d873324a00a05c80bd676a3b4a589d1756ef79e67c34a9e68d5e41393fd2019",
+      "bytes": 3124
+    },
+    "original/results/r38_h01_global/final.pt": {
+      "source_path": "/root/megrez-tmp/CPSF_CMM_PAIR_FUSION_20261023_R38_A1/results/r38_h01_global/final.pt",
+      "sha256": "4317b2d11387e7e0200464dfd371b7a74e91a0a71b2683c2d8181522a128c6f9",
+      "bytes": 15238454
+    },
+    "original/results/r38_h01_global/history.json": {
+      "source_path": "/root/megrez-tmp/CPSF_CMM_PAIR_FUSION_20261023_R38_A1/results/r38_h01_global/history.json",
+      "sha256": "a5a49f0ecb09a6c1eca0f0bc94580df90b3d894325899d51aee27a35bab50bcd",
+      "bytes": 11876
+    },
+    "original/results/r38_h01_global/val_predictions.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_CMM_PAIR_FUSION_20261023_R38_A1/results/r38_h01_global/val_predictions.npz",
+      "sha256": "e5c9c10840fad36e1d39a8c472c3ba1db0f8039f6e20141d47bfa93bdc0911d5",
+      "bytes": 1031
+    },
+    "original/results/r38_h01_global/prediction_audit.json": {
+      "source_path": "/root/megrez-tmp/CPSF_CMM_PAIR_FUSION_20261023_R38_A1/results/r38_h01_global/prediction_audit.json",
+      "sha256": "d623fed75a7d3f3f7a0c6a0b6d8b57dca8349260532776c3056e7ab2f1cf7558",
+      "bytes": 252
+    },
+    "dense/protocol.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_SUPPORT_20261023_A1/protocol.json",
+      "sha256": "1998e9e8a147855288e483732124e6678f9f0765c79f3f35b343c95f92016226",
+      "bytes": 518914
+    },
+    "dense/acceptance/flywire_coarse_compatibility.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_SUPPORT_20261023_A1/acceptance/flywire_coarse_compatibility.json",
+      "sha256": "535ded9cd66f15b0a32177e399844cb6cd9c8a3645bf6774f7d363fa9959e0da",
+      "bytes": 415
+    },
+    "dense/acceptance/h01_global_compatibility.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_SUPPORT_20261023_A1/acceptance/h01_global_compatibility.json",
+      "sha256": "a47c7509595738d141658b9accd8599f3b173d840b47db9f9c8be4cf2168fa8c",
+      "bytes": 380
+    },
+    "dense/acceptance/r38_flywire_coarse.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_SUPPORT_20261023_A1/acceptance/r38_flywire_coarse.json",
+      "sha256": "474e92aeafcdf38099f92331bc2f90e290e6b0e27e72df56c6f4e13efa8650db",
+      "bytes": 14504
+    },
+    "dense/acceptance/r38_h01_global.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_SUPPORT_20261023_A1/acceptance/r38_h01_global.json",
+      "sha256": "e43e6b7ff961dafc4709e54f8f9fe80704de2fc5ec01c0d079c7487001224d49",
+      "bytes": 14929
+    },
+    "dense/orders/flywire_coarse.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_SUPPORT_20261023_A1/orders/flywire_coarse.json",
+      "sha256": "5e493adc50633c05afcfd3adb9e167c9fe270e86875de220afc9e92191715fcc",
+      "bytes": 6394
+    },
+    "dense/orders/h01_global.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_SUPPORT_20261023_A1/orders/h01_global.json",
+      "sha256": "7c0ef949c7aa780c3b89a11e80128779a9ed2c0eefbd2eaa32d2c51d84c3ffad",
+      "bytes": 6294
+    },
+    "dense/input_audits/flywire_coarse.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_SUPPORT_20261023_A1/input_audits/flywire_coarse.json",
+      "sha256": "d3e1f7b901cdd6c59b40bdc233fe6cd3e39c5d5534a1065f83104a147815a43f",
+      "bytes": 317
+    },
+    "dense/input_audits/h01_global.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_SUPPORT_20261023_A1/input_audits/h01_global.json",
+      "sha256": "2cfbc2d92c6d6b415f8d778c93d1f3083920cf07f5c8c9004ebc5098c4688b48",
+      "bytes": 313
+    },
+    "dense/results/r38_h01_global/identity.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_SUPPORT_20261023_A1/results/r38_h01_global/identity.json",
+      "sha256": "b2940cbaabb0f67c3bb54ccbfac3d2726dd5e1bd873970e3376d5e17163618ce",
+      "bytes": 2722
+    },
+    "dense/results/r38_h01_global/status.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_SUPPORT_20261023_A1/results/r38_h01_global/status.json",
+      "sha256": "757690ebeb91d89334f1b65492f98e698997e369487a9ff44f6c7e02707c2c3f",
+      "bytes": 58
+    },
+    "dense/results/r38_h01_global/first_update.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_SUPPORT_20261023_A1/results/r38_h01_global/first_update.json",
+      "sha256": "8c7f611b72220f8e17135d2fe25a18ac9465b050e412e2ed9101d3d39bc647bf",
+      "bytes": 236
+    },
+    "dense/results/r38_h01_global/metrics.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_SUPPORT_20261023_A1/results/r38_h01_global/metrics.json",
+      "sha256": "992801af1d568e1219cadea586bb156a8a15552386a8081ed51613f92955cf47",
+      "bytes": 3107
+    },
+    "dense/results/r38_h01_global/final.pt": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_SUPPORT_20261023_A1/results/r38_h01_global/final.pt",
+      "sha256": "79a1a01e3fda1649e2b806a529f7b39482c94125f1d3f9340f85dbb5581182be",
+      "bytes": 15238454
+    },
+    "dense/results/r38_h01_global/history.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_SUPPORT_20261023_A1/results/r38_h01_global/history.json",
+      "sha256": "847187aa752bd83b0ae25daf2dd3cc28df6f563461445908bdc6391a0e16a480",
+      "bytes": 11852
+    },
+    "dense/results/r38_h01_global/val_predictions.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_SUPPORT_20261023_A1/results/r38_h01_global/val_predictions.npz",
+      "sha256": "f6546b4479b4c4075a0536b1302771bcad931a713c60291351fdac34a5f14aaf",
+      "bytes": 1031
+    },
+    "dense/results/r38_h01_global/prediction_audit.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_SUPPORT_20261023_A1/results/r38_h01_global/prediction_audit.json",
+      "sha256": "e6b8c21ab954f85498d92a67eb87ac3683b6a1d39d50279374f873c187a6be66",
+      "bytes": 250
+    },
+    "dense/results/r38_flywire_coarse/identity.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_SUPPORT_20261023_A1/results/r38_flywire_coarse/identity.json",
+      "sha256": "0f44097743be7f21b0a4d4431e92d288f3b0322fc4aba96b31f18ede86432c3a",
+      "bytes": 2726
+    },
+    "dense/results/r38_flywire_coarse/status.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_SUPPORT_20261023_A1/results/r38_flywire_coarse/status.json",
+      "sha256": "36333ae28c4f37219661660457be183c545bae0dfa64224cbc72250750588033",
+      "bytes": 59
+    },
+    "dense/results/r38_flywire_coarse/first_update.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_SUPPORT_20261023_A1/results/r38_flywire_coarse/first_update.json",
+      "sha256": "8d9dfbf801fea3e787609f0feab6a15ae37f2d3d36e984ffd384d7823033cdbf",
+      "bytes": 236
+    },
+    "dense/results/r38_flywire_coarse/metrics.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_SUPPORT_20261023_A1/results/r38_flywire_coarse/metrics.json",
+      "sha256": "ac2efb2366f88a1de83b29246397bf8ded70beef9a9766905a11c4a2303b0b10",
+      "bytes": 3625
+    },
+    "dense/results/r38_flywire_coarse/final.pt": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_SUPPORT_20261023_A1/results/r38_flywire_coarse/final.pt",
+      "sha256": "68d518e7f2702caa9e74ffd11dbd97ead4af9c5e973b73595f4d046c6b1f1fbd",
+      "bytes": 15241014
+    },
+    "dense/results/r38_flywire_coarse/history.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_SUPPORT_20261023_A1/results/r38_flywire_coarse/history.json",
+      "sha256": "ed114a456e042d641d202e54e902b1c270998bbe80cfc4a487cb4173ee3824a3",
+      "bytes": 11977
+    },
+    "dense/results/r38_flywire_coarse/val_predictions.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_SUPPORT_20261023_A1/results/r38_flywire_coarse/val_predictions.npz",
+      "sha256": "ba07a8a440ae8aedf1e6cbdfd18dcfbeb73900c0376ada5ae6655256aaab2c80",
+      "bytes": 53424
+    },
+    "dense/results/r38_flywire_coarse/prediction_audit.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_SUPPORT_20261023_A1/results/r38_flywire_coarse/prediction_audit.json",
+      "sha256": "f61a9392ed5c5cbeb5355f6fb044010e2c34144385af0165ba91529a29836a62",
+      "bytes": 254
+    },
+    "fine/protocol.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_EXTENSION_20261024_A2/protocol.json",
+      "sha256": "a8b039ad1865c12389ae3a3b1ff747f08cf1106a12c94198663d6c7682b6c1b9",
+      "bytes": 521318
+    },
+    "fine/h01_local_equivalence.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_EXTENSION_20261024_A2/h01_local_equivalence.json",
+      "sha256": "134d5a18b88536c5a58131abf97b0c87643241f111444b247881b426446e9aea",
+      "bytes": 22267
+    },
+    "fine/PAUSED_BY_USER.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_EXTENSION_20261024_A2/PAUSED_BY_USER.json",
+      "sha256": "cb9b1bcbb18d6aee9e62cc803ab2911c0196a8300205c3151d98f8527f99e32c",
+      "bytes": 1571
+    },
+    "fine/acceptance/flywire_fine_compatibility.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_EXTENSION_20261024_A2/acceptance/flywire_fine_compatibility.json",
+      "sha256": "44c665a2564b84baefae9d09e4e1f59119afc261c0ca3efc9799149346dc7e7b",
+      "bytes": 411
+    },
+    "fine/acceptance/flywire_fine_smoke.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_EXTENSION_20261024_A2/acceptance/flywire_fine_smoke.json",
+      "sha256": "b8180e214a1a147633962640bf6192e3c5ab96a10b38aea174fc32da40c67fdb",
+      "bytes": 2221
+    },
+    "fine/acceptance/r38_flywire_fine.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_EXTENSION_20261024_A2/acceptance/r38_flywire_fine.json",
+      "sha256": "59b8ebb9f79c7410d2a6058ed8abdc87b062acc6e41fbaeb15e98f99e17fe2dd",
+      "bytes": 14056
+    },
+    "fine/orders/flywire_fine.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_EXTENSION_20261024_A2/orders/flywire_fine.json",
+      "sha256": "bcfbc39a2b6650149bfa22ed6b7d436275ed9d9055e6637eb88792c59b4d8e75",
+      "bytes": 6394
+    },
+    "fine/input_audits/flywire_fine.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_EXTENSION_20261024_A2/input_audits/flywire_fine.json",
+      "sha256": "ce8ba2ed29645b258a7053087c3e4bcf0de5836b090b40cb66d05f703ce5bc73",
+      "bytes": 305
+    },
+    "fine/results/r38_flywire_fine/identity.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_EXTENSION_20261024_A2/results/r38_flywire_fine/identity.json",
+      "sha256": "0bc361d48e68c339920f9b3a28a42cea140925ed797b15ccfad0b2cc0aed5615",
+      "bytes": 2738
+    },
+    "fine/results/r38_flywire_fine/status.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_EXTENSION_20261024_A2/results/r38_flywire_fine/status.json",
+      "sha256": "712996dd357a98697c1cac7fbbe06b584021cd65828fd0810d4f8d9fb2672fdf",
+      "bytes": 299
+    },
+    "fine/results/r38_flywire_fine/first_update.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_EXTENSION_20261024_A2/results/r38_flywire_fine/first_update.json",
+      "sha256": "4fc8ec3fc6a1cd013efb28c5aef924ca3198838235a225bab8eb08f42d3477fa",
+      "bytes": 236
+    },
+    "drw/protocol.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DRW_20261025_A1/protocol.json",
+      "sha256": "ab2d4be4eb1a46606894a17b1478f4a3840bdd6e7468a353d4925975331a97a3",
+      "bytes": 521034
+    },
+    "drw/acceptance/r38_flywire_coarse.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DRW_20261025_A1/acceptance/r38_flywire_coarse.json",
+      "sha256": "d332534b28021442c3d64f006854106af04f93db102530048c93dea8a12fb58c",
+      "bytes": 17607
+    },
+    "drw/orders/flywire_coarse.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DRW_20261025_A1/orders/flywire_coarse.json",
+      "sha256": "5e493adc50633c05afcfd3adb9e167c9fe270e86875de220afc9e92191715fcc",
+      "bytes": 6394
+    },
+    "drw/input_audits/flywire_coarse.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DRW_20261025_A1/input_audits/flywire_coarse.json",
+      "sha256": "a2f11b46340d2a4408d5f644370f6376a230eca7d9c0d10812e4e12c490f70aa",
+      "bytes": 269
+    },
+    "drw/results/r38_flywire_coarse/identity.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DRW_20261025_A1/results/r38_flywire_coarse/identity.json",
+      "sha256": "a764891c255d9e649f0a588734f4836c413a66b79ca499c389e23f130cd152d6",
+      "bytes": 3038
+    },
+    "drw/results/r38_flywire_coarse/status.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DRW_20261025_A1/results/r38_flywire_coarse/status.json",
+      "sha256": "aa466aa80cf207c05aacede3a2ed63b43b6788a8be0302f3d853c5e37803c2d3",
+      "bytes": 295
+    },
+    "drw/results/r38_flywire_coarse/first_update.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DRW_20261025_A1/results/r38_flywire_coarse/first_update.json",
+      "sha256": "8d9dfbf801fea3e787609f0feab6a15ae37f2d3d36e984ffd384d7823033cdbf",
+      "bytes": 236
+    },
+    "drw/results/r38_flywire_coarse/objective_state.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DRW_20261025_A1/results/r38_flywire_coarse/objective_state.json",
+      "sha256": "c88f57b894873ba09ec7dc23880eb4ec8ea60bc712337f457308f7f97ddeaa51",
+      "bytes": 229
+    },
+    "drw/launches/acceptance.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DRW_20261025_A1/launches/acceptance.json",
+      "sha256": "6ff2aeed28ed644870730792242e964e06725bd797702b9a9a7df5d491da4574",
+      "bytes": 357
+    },
+    "drw/launches/training.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R38_DRW_20261025_A1/launches/training.json",
+      "sha256": "666399bea749b5111d783696870445864671890b1032730a6f9fa7e304ac1a8f",
+      "bytes": 337
+    },
+    "microns/protocol.json": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/protocol.json",
+      "sha256": "18c3dea286426e118295d23af610950e8f842c249989c1b6bd4c1970c208b759",
+      "bytes": 3286
+    },
+    "microns/training_protocol.json": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/training_protocol.json",
+      "sha256": "23c4e90de1477175a4c159cc111355451554ea0f664986d066c6b5c7fa5fe940",
+      "bytes": 63359
+    },
+    "microns/acceptance/geometry_contracts.json": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/acceptance/geometry_contracts.json",
+      "sha256": "77f93deb4912ca52ac5ea35a8c2d4817ce9eb1df3370124d7967ede7809b30d0",
+      "bytes": 225
+    },
+    "microns/acceptance/r38_dense.json": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/acceptance/r38_dense.json",
+      "sha256": "0875c11b1410c359a9fb713e483b330dc9fe22898702f2888ca54cb66720e7aa",
+      "bytes": 75005
+    },
+    "microns/acceptance/r38_dense_pilot.json": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/acceptance/r38_dense_pilot.json",
+      "sha256": "99a626c1748fca13ca73dd98b8f20506c67fc6bde989741b9e3166f33aaca5a4",
+      "bytes": 2272
+    },
+    "microns/acceptance/sgformer.json": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/acceptance/sgformer.json",
+      "sha256": "775914deaa3bb70846999061f5f4c397fff37a6629ca02e8b5cb1f6ad5c339f5",
+      "bytes": 73976
+    },
+    "microns/acceptance/sgformer_pilot.json": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/acceptance/sgformer_pilot.json",
+      "sha256": "0089236dd65de4a9035362e07f95730d9caab6ed71fcb26e8bf53f98945b05f3",
+      "bytes": 1242
+    },
+    "microns/acceptance/utonia_scratch_r2.json": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/acceptance/utonia_scratch_r2.json",
+      "sha256": "31aee88199db20695c6d4ea98adf19ef129d257a249eaf07aad5038f97198f8a",
+      "bytes": 73990
+    },
+    "microns/acceptance/utonia_scratch_r2_pilot.json": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/acceptance/utonia_scratch_r2_pilot.json",
+      "sha256": "3f523b15eb85335d389f61a0e2d5fb3eacc59aea0203ec0139665d6e3f1f0e28",
+      "bytes": 1293
+    },
+    "microns/results/r38_dense/identity.json": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/identity.json",
+      "sha256": "33f3b4899d32cfc2dda1f71e656b096e1a10ab3d5e1f3318584d237401f9df91",
+      "bytes": 2214
+    },
+    "microns/results/r38_dense/status.json": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/status.json",
+      "sha256": "77ab42d5ebdb7c343ea14d256cf41e8b5a94e8b089745f86e2f811f0ea2b682f",
+      "bytes": 100
+    },
+    "microns/results/r38_dense/first_update.json": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/first_update.json",
+      "sha256": "4168782008f66a863922355bfcfce08809af3eb7992def3787f36de1e9603975",
+      "bytes": 139
+    },
+    "microns/results/r38_dense/metrics.json": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/metrics.json",
+      "sha256": "00a470c7685a8c4d7a41d304f5d9ff98d912db1caa31c20b6004ad85d57f3249",
+      "bytes": 54399
+    },
+    "microns/results/r38_dense/best.pt": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/best.pt",
+      "sha256": "bc4eb3a0eb0ac3a94ae04cefd7d6dedc73e51405fdd6fc8bfd93bf5e9552942a",
+      "bytes": 15160645
+    },
+    "microns/results/r38_dense/best_selection.json": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/best_selection.json",
+      "sha256": "05e1f165975a5f239bf2276ca3e671a03a0c616b5c1eb0a73d7d83a37e493977",
+      "bytes": 430
+    },
+    "microns/results/r38_dense/history.jsonl": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/history.jsonl",
+      "sha256": "c01c7e09289a616a7a5b51ef3b7498fb2d949703f6954aff4c6ad8b5f430b2b3",
+      "bytes": 22849
+    },
+    "parents/unified_input_protocol.json": {
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/protocol.json",
+      "sha256": "01bad09907e5540aa5bf15a9ca46f573bd3b23a0fb424ddcf270eccb851d7213",
+      "bytes": 468610
+    },
+    "parents/r34_fps_protocol.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_FPS_REBENCH_20261021_A2/protocol.json",
+      "sha256": "a0e71fa711f1f1713c8cc65102a220c7dbb387b60f4698e644c83f11614f4738",
+      "bytes": 514920
+    },
+    "parents/adaptive_patch_protocol.json": {
+      "source_path": "/root/megrez-tmp/CPSF_R34_ADAPTIVE_PATCH10_20261022_A1/protocol.json",
+      "sha256": "56655a3ef34ae396519c8dfa1ebf820d5a1ae2e529d578287ef1e16613d96a7f",
+      "bytes": 515245
+    },
+    "microns/results/r38_dense/predictions/val/864691134950156796.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691134950156796.npz",
+      "sha256": "95d835df1922dab6c423b54397bce0aa886c00094ff49230a7af2ae6593738ab",
+      "bytes": 14449
+    },
+    "microns/results/r38_dense/predictions/val/864691135124801575.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135124801575.npz",
+      "sha256": "5c4bd35edf1d3e64238e19a0a833cb51530c4779516dbf0c026c9b1d2badd802",
+      "bytes": 9552
+    },
+    "microns/results/r38_dense/predictions/val/864691135135075744.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135135075744.npz",
+      "sha256": "2f1e73779a79e54c55e9b4b3ca19d6e5b915f08986beb59f8ff21d31ae7a9180",
+      "bytes": 13216
+    },
+    "microns/results/r38_dense/predictions/val/864691135165257517.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135165257517.npz",
+      "sha256": "fda4ee816a520eb940be8fbb1b02527fab3642060fefb2ed95f985b6f247943d",
+      "bytes": 10885
+    },
+    "microns/results/r38_dense/predictions/val/864691135184104194.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135184104194.npz",
+      "sha256": "ccd78e98c95ce66c81748d47ce7e5c7ba70491d5eb5e01e47d53e3456d957566",
+      "bytes": 16175
+    },
+    "microns/results/r38_dense/predictions/val/864691135210387321.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135210387321.npz",
+      "sha256": "7ca1d92adcdceee6d8d13ee344a58ce884611adf8ee95fb2ac45245abd5d24b6",
+      "bytes": 9135
+    },
+    "microns/results/r38_dense/predictions/val/864691135272458661.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135272458661.npz",
+      "sha256": "869a66125dc709abe54b409d9ad216781464f502deefa320074c0776a6d98506",
+      "bytes": 12873
+    },
+    "microns/results/r38_dense/predictions/val/864691135277501669.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135277501669.npz",
+      "sha256": "424b976256b59d81d22077b61532f9e82ff695b1403f43a487b8fcd291dc4a46",
+      "bytes": 11432
+    },
+    "microns/results/r38_dense/predictions/val/864691135277751781.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135277751781.npz",
+      "sha256": "769df399b052dd828c02c1a73b1806bc44a7ec59f9be47e6cc5a13906d08ac6b",
+      "bytes": 11169
+    },
+    "microns/results/r38_dense/predictions/val/864691135281344673.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135281344673.npz",
+      "sha256": "306e7b84fac1abe0e02479873ab781d161510b835fd26b6fcd89097baedd9e3b",
+      "bytes": 11077
+    },
+    "microns/results/r38_dense/predictions/val/864691135295342092.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135295342092.npz",
+      "sha256": "2de9c7c3d629bab19e07ee9333c5aa19f2846c49589688ab0fcd2f394df021b0",
+      "bytes": 8717
+    },
+    "microns/results/r38_dense/predictions/val/864691135346975135.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135346975135.npz",
+      "sha256": "a2b1ce2e9a37b516a2aedd9e52953973eb0583d22eb63d34cb0210fb10bcdb2d",
+      "bytes": 12075
+    },
+    "microns/results/r38_dense/predictions/val/864691135357517007.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135357517007.npz",
+      "sha256": "b7febac7156aa5675f2ebd65a68ca6a194fbda1a833bed1fbe8a2d7e60ef2d93",
+      "bytes": 14677
+    },
+    "microns/results/r38_dense/predictions/val/864691135361238616.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135361238616.npz",
+      "sha256": "b7da2421b99631f1432aa8b7a58a13f2dc8a69df9955861b19e363097fd12bfc",
+      "bytes": 20925
+    },
+    "microns/results/r38_dense/predictions/val/864691135396794101.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135396794101.npz",
+      "sha256": "d3765c1f29008219c55497383c1c360a4bd0e424c4cc1cf58b29457fca33d69e",
+      "bytes": 17525
+    },
+    "microns/results/r38_dense/predictions/val/864691135396940021.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135396940021.npz",
+      "sha256": "96bd3a5d6b48bbd43bbda48ce071765b8a4d316a70646d9c1e01955b477746b4",
+      "bytes": 11528
+    },
+    "microns/results/r38_dense/predictions/val/864691135398868257.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135398868257.npz",
+      "sha256": "00cf7f4e25defb190ec59b52f402a26c17736b490e14f310e98b4a25ec70f5d2",
+      "bytes": 9338
+    },
+    "microns/results/r38_dense/predictions/val/864691135442905672.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135442905672.npz",
+      "sha256": "1ab3bbed0a08908b9396162697ae74dc9c92324fe3e08cb6aef37f695bac7669",
+      "bytes": 10469
+    },
+    "microns/results/r38_dense/predictions/val/864691135448215698.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135448215698.npz",
+      "sha256": "1b2ad8d478236cdbca63497119c7dbb7357c770d20805ce53f26c7775dd745a0",
+      "bytes": 9807
+    },
+    "microns/results/r38_dense/predictions/val/864691135448453778.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135448453778.npz",
+      "sha256": "37dcc8b988661e4e64dcad82d3e293443774fc51636180e40021cab4737ba34f",
+      "bytes": 8696
+    },
+    "microns/results/r38_dense/predictions/val/864691135470886738.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135470886738.npz",
+      "sha256": "43da88d36f4464690c88028f1617b1bb781fc0514328742f51908782a295bdcc",
+      "bytes": 12684
+    },
+    "microns/results/r38_dense/predictions/val/864691135504588469.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135504588469.npz",
+      "sha256": "3ec68f3a1fa959e14fa88acaa16e6d9fbb02ca767b042294da9c2a82233c6dba",
+      "bytes": 12563
+    },
+    "microns/results/r38_dense/predictions/val/864691135504594101.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135504594101.npz",
+      "sha256": "4da8c24c75506400e40bf490ddf8e65d391c34720a589f0ce6bcc306a2bdd089",
+      "bytes": 16562
+    },
+    "microns/results/r38_dense/predictions/val/864691135577919006.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135577919006.npz",
+      "sha256": "4974fe096e9233a3e704a4243e0c8379bc2f9042dcd466e4f2a5706532a59e56",
+      "bytes": 15060
+    },
+    "microns/results/r38_dense/predictions/val/864691135617152361.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135617152361.npz",
+      "sha256": "c73c7257421f1d30ccf67697e4df2730f4abae8c02b010872ed2a8b2c1f54626",
+      "bytes": 18716
+    },
+    "microns/results/r38_dense/predictions/val/864691135641505339.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135641505339.npz",
+      "sha256": "dbe8fca57bbf99ec448e86bdb54e60bfc70fed531d63fa1137fb0cf2e420719d",
+      "bytes": 8577
+    },
+    "microns/results/r38_dense/predictions/val/864691135660167554.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135660167554.npz",
+      "sha256": "e7ccba38e0920a6d75f8529a54e46a66d28945d9d3dadaba23eb9ca5057faa0f",
+      "bytes": 24728
+    },
+    "microns/results/r38_dense/predictions/val/864691135701973282.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135701973282.npz",
+      "sha256": "c2414e54999bf01ac5e5b0624cefca14515c38791286e5c6599154288c81a045",
+      "bytes": 13994
+    },
+    "microns/results/r38_dense/predictions/val/864691135726140843.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135726140843.npz",
+      "sha256": "2f99c98d9b650ec91e8b427d180d73b49a8a5a06f4ba90678ff4a392241ccc5e",
+      "bytes": 16240
+    },
+    "microns/results/r38_dense/predictions/val/864691135740071537.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135740071537.npz",
+      "sha256": "a3782aa47c9b6fd79da393ab188041ea5fab89a598b7242fac3e9f19e6a42a7a",
+      "bytes": 14732
+    },
+    "microns/results/r38_dense/predictions/val/864691135742609771.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135742609771.npz",
+      "sha256": "ae7d0e81c971442248b1837ab1411c9e40683f92bed0260c69de9089c745baff",
+      "bytes": 11556
+    },
+    "microns/results/r38_dense/predictions/val/864691135743387243.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135743387243.npz",
+      "sha256": "2a458e80e4b0a31a87005781581ef1c0674e6a90e18f3868065084aee2fe60ab",
+      "bytes": 16568
+    },
+    "microns/results/r38_dense/predictions/val/864691135751337769.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135751337769.npz",
+      "sha256": "05e1c9c4a15f1d3e848bca408a16155573c1150d53625198c19d50bcf7c601ee",
+      "bytes": 16393
+    },
+    "microns/results/r38_dense/predictions/val/864691135757002450.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135757002450.npz",
+      "sha256": "8dd5a1fe1bfd23f85fedefb343312284aaf974b3e7f35c89af9cfef0b5ece9c3",
+      "bytes": 8536
+    },
+    "microns/results/r38_dense/predictions/val/864691135757242066.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135757242066.npz",
+      "sha256": "11a46c60aadab7c5a0330fe7390bd20c3babd5eb21ed323575686aa63db5f9e9",
+      "bytes": 13346
+    },
+    "microns/results/r38_dense/predictions/val/864691135774307659.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135774307659.npz",
+      "sha256": "ac55cc11c4863ef047c643b07a656adf35f49ab9e9871a725aab62cbdc2dbf49",
+      "bytes": 14884
+    },
+    "microns/results/r38_dense/predictions/val/864691135774678779.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135774678779.npz",
+      "sha256": "4b7f4c361bdf6f627622eb64790282408784645dfee3ca91875273dc140ada8a",
+      "bytes": 13004
+    },
+    "microns/results/r38_dense/predictions/val/864691135787998916.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135787998916.npz",
+      "sha256": "8e3c06f99ec3f9343cd8ea65eb945fed3006b2afe906ebed4f8fdda02b4bfa50",
+      "bytes": 18100
+    },
+    "microns/results/r38_dense/predictions/val/864691135802976354.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135802976354.npz",
+      "sha256": "61a6c4f3b0d32f1b67c76de5ac6fc04a0a016c2ac3249e97969fe20d68b1ee6a",
+      "bytes": 13076
+    },
+    "microns/results/r38_dense/predictions/val/864691135810618909.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135810618909.npz",
+      "sha256": "60ce22c19e9622047022d1ef94e948e0716e85e39396c968645059252e68fd65",
+      "bytes": 14472
+    },
+    "microns/results/r38_dense/predictions/val/864691135853055175.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135853055175.npz",
+      "sha256": "d0038461683f8684e1f4d907247d12a5eeaafe7369ba0405bbacf0b48972d5a8",
+      "bytes": 10692
+    },
+    "microns/results/r38_dense/predictions/val/864691135861419112.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135861419112.npz",
+      "sha256": "851a42bd4363f041bfd301791b35eb4012d679f27674622d344d611992aa929c",
+      "bytes": 16816
+    },
+    "microns/results/r38_dense/predictions/val/864691135868169349.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135868169349.npz",
+      "sha256": "974236f4c0b55e9504c16e57590ba2342fe014657498ac674d69e871b084e461",
+      "bytes": 9661
+    },
+    "microns/results/r38_dense/predictions/val/864691135868507269.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135868507269.npz",
+      "sha256": "60bf609efabcf7c2e6689bd4d3222ab12a2e532d6cb03d266989073be1f81ac6",
+      "bytes": 24582
+    },
+    "microns/results/r38_dense/predictions/val/864691135886300016.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135886300016.npz",
+      "sha256": "2a288c6689428a1c5f555e75fc4735f47ce3c9c4bd47c7e98dd1411139f508a9",
+      "bytes": 10984
+    },
+    "microns/results/r38_dense/predictions/val/864691135917763430.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135917763430.npz",
+      "sha256": "b7ccbfeebc0e77c974a5277bf368540b8c28792861e51930311e590cb9deb7fa",
+      "bytes": 18129
+    },
+    "microns/results/r38_dense/predictions/val/864691135942163201.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135942163201.npz",
+      "sha256": "c527f36e19e39cb6825dcab2703fc5cd2a2d351cc11603e84931f7ed5d97dbd5",
+      "bytes": 10394
+    },
+    "microns/results/r38_dense/predictions/val/864691135949096801.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135949096801.npz",
+      "sha256": "37d3bb0c3583d40fa0f4f8c6cfeaabab6c5c4a5a078513c8336769d2d5aebe8d",
+      "bytes": 14526
+    },
+    "microns/results/r38_dense/predictions/val/864691135977970499.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135977970499.npz",
+      "sha256": "ac8ee3f428222c58ecbcabc7eeb1dff9677256ac9f29f9e6995f23307c95d3c7",
+      "bytes": 9196
+    },
+    "microns/results/r38_dense/predictions/val/864691135997332650.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691135997332650.npz",
+      "sha256": "701e6f8bba98030643240e0837d1ea38a9955f2173bc66c9e234ed3de6522ed8",
+      "bytes": 11553
+    },
+    "microns/results/r38_dense/predictions/val/864691136013829539.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691136013829539.npz",
+      "sha256": "7ea03d91fcbda4bb48f5151874c3600eaffa9cc82d009e09bfaf014e9c1aacf6",
+      "bytes": 30424
+    },
+    "microns/results/r38_dense/predictions/val/864691136034011579.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691136034011579.npz",
+      "sha256": "80c646a1f527a2d5bc475a36c822ea053434f0fe7f2ef3982572ac44b058e22d",
+      "bytes": 14282
+    },
+    "microns/results/r38_dense/predictions/val/864691136086913132.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691136086913132.npz",
+      "sha256": "e6bb6f35fea9f151733215e0b8ea1e2ed726cfc3a002f2bc80bd6c900de00564",
+      "bytes": 18180
+    },
+    "microns/results/r38_dense/predictions/val/864691136102504309.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691136102504309.npz",
+      "sha256": "fa552fa33964066da2c4712ffc3863116cf3080cce05304df49de52b7d55e41a",
+      "bytes": 16835
+    },
+    "microns/results/r38_dense/predictions/val/864691136102522229.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691136102522229.npz",
+      "sha256": "8ba3cf89a2a0444aa14a08246024dae2e1adc61ed600fba6bcf7462ba72adec2",
+      "bytes": 14605
+    },
+    "microns/results/r38_dense/predictions/val/864691136102587253.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691136102587253.npz",
+      "sha256": "482fc6104886f06fac71ecb6f49b87afebac8fb76e6e26d982a832f945f23dda",
+      "bytes": 16181
+    },
+    "microns/results/r38_dense/predictions/val/864691136111478712.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691136111478712.npz",
+      "sha256": "0e3459ba6b4f277324605f7677511cb9810cb4d5b6ba2674411b5923441a0734",
+      "bytes": 8746
+    },
+    "microns/results/r38_dense/predictions/val/864691136111556792.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691136111556792.npz",
+      "sha256": "d351f31f58f12475dd55d8788321f76eae1cfb4414aff08f652e8b530ca16acc",
+      "bytes": 10482
+    },
+    "microns/results/r38_dense/predictions/val/864691136111710648.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691136111710648.npz",
+      "sha256": "43373f58bbd9e8fe8c75a06b6e6db679952991cab955d052fa8c446381f22146",
+      "bytes": 18445
+    },
+    "microns/results/r38_dense/predictions/val/864691136137239691.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691136137239691.npz",
+      "sha256": "32ea0de1b92f14ede9e685f72711ac38f26fe144fda0c0782d027669bd8553f2",
+      "bytes": 12422
+    },
+    "microns/results/r38_dense/predictions/val/864691136144674612.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691136144674612.npz",
+      "sha256": "f38fc35382c481b8beda32d52db5f854b13136b65b858af0b83882c15ce52fe4",
+      "bytes": 14159
+    },
+    "microns/results/r38_dense/predictions/val/864691136239902780.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691136239902780.npz",
+      "sha256": "8b881ead972993c8033744b8c03c6fac6234d3f68c7fbb91d9045d0a6d6f3c59",
+      "bytes": 8370
+    },
+    "microns/results/r38_dense/predictions/val/864691136275332030.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691136275332030.npz",
+      "sha256": "9856dba00e385d5d8c0c725607c386dc7b2d7e0d5e78c58f8216d6be5656c67a",
+      "bytes": 13015
+    },
+    "microns/results/r38_dense/predictions/val/864691136299162907.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691136299162907.npz",
+      "sha256": "c280b67876c53865a33a7828bf5f0a41981588396ac3ac1be68c0fdfceb5bfc5",
+      "bytes": 14788
+    },
+    "microns/results/r38_dense/predictions/val/864691136336480691.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691136336480691.npz",
+      "sha256": "c2775e16040e454f8d5bb84aa5ed785c54e2f7bd0839a11284d4dd974bebb815",
+      "bytes": 14400
+    },
+    "microns/results/r38_dense/predictions/val/864691136364362466.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691136364362466.npz",
+      "sha256": "0747e2b9faa04158a2ae02fbddbbf3205ca94e03c19b72ff37d90a4f7cad122d",
+      "bytes": 12480
+    },
+    "microns/results/r38_dense/predictions/val/864691136381685205.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691136381685205.npz",
+      "sha256": "bf6a9cc91a1d19ddc59907c80203d598e28df94ca88686df9c8f3dce4ea765d4",
+      "bytes": 12317
+    },
+    "microns/results/r38_dense/predictions/val/864691136391042167.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691136391042167.npz",
+      "sha256": "7c4c138957be8bf1911ea1f3005b0079be8f607192cff543fcde05959aa39dba",
+      "bytes": 14664
+    },
+    "microns/results/r38_dense/predictions/val/864691136421324951.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691136421324951.npz",
+      "sha256": "5aa9678eae9f4f0648bda32301a93d3bc39b71e0e004308d6849ebad5a5da4f8",
+      "bytes": 13859
+    },
+    "microns/results/r38_dense/predictions/val/864691136421430423.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691136421430423.npz",
+      "sha256": "8be84cd8cac100f444b0af6c01d94b4cea785a7123d93ff1dc7983efc7646cca",
+      "bytes": 10249
+    },
+    "microns/results/r38_dense/predictions/val/864691136438666398.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691136438666398.npz",
+      "sha256": "54aab15ad8209b0b64f94132bdc0565c7c5242f5b8718251b1fbbf1135d6c42d",
+      "bytes": 10702
+    },
+    "microns/results/r38_dense/predictions/val/864691136580085012.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691136580085012.npz",
+      "sha256": "e52f1c4841cb4b5c2faa1959ef89f75e08bd7d2ec6cb04b2c355792deddb1b7d",
+      "bytes": 23554
+    },
+    "microns/results/r38_dense/predictions/val/864691136619996379.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691136619996379.npz",
+      "sha256": "e3a4ee81ff883a440f2f4ef05a7fb65123ed3f6363520150d6b4c0314761cd21",
+      "bytes": 15879
+    },
+    "microns/results/r38_dense/predictions/val/864691136621127053.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691136621127053.npz",
+      "sha256": "9cc45777c119ea85af57050024b91a76d8c540a6a521ceeed3fbee8820b6ffc2",
+      "bytes": 12226
+    },
+    "microns/results/r38_dense/predictions/val/864691136674749575.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691136674749575.npz",
+      "sha256": "c5baffbd5232804df7a8afca8fe0093302180bb5646f9c19af3c6495a15f0a05",
+      "bytes": 14810
+    },
+    "microns/results/r38_dense/predictions/val/864691136914722545.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691136914722545.npz",
+      "sha256": "67691371c5f5ba522c8bbc4fdb18d9e9b50c2eea85bb08f4b44e868b034b8d6b",
+      "bytes": 14560
+    },
+    "microns/results/r38_dense/predictions/val/864691136928037706.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691136928037706.npz",
+      "sha256": "6c9960ea4e87f6d51a797aa21920d48831d2edb3924e5963faaac963b03f6037",
+      "bytes": 12190
+    },
+    "microns/results/r38_dense/predictions/val/864691136976202524.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691136976202524.npz",
+      "sha256": "d09ff57e6451bcbb9615c522026deec7f79042f3ef3cff4e1b4d0185ff8b370e",
+      "bytes": 9726
+    },
+    "microns/results/r38_dense/predictions/val/864691137056725110.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/val/864691137056725110.npz",
+      "sha256": "62d02ccf4ca7e8010f0db725713b6007a781c1f009702a1f01847371d679a843",
+      "bytes": 11478
+    },
+    "microns/results/r38_dense/predictions/test/864691135102580256.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135102580256.npz",
+      "sha256": "f1f0c54291b82437be160995738476f626edd23d65695b44cecddf8a4dd63c83",
+      "bytes": 15835
+    },
+    "microns/results/r38_dense/predictions/test/864691135196576298.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135196576298.npz",
+      "sha256": "f64c665056288b544fc392ffc958197c415ca37506d3bfe666ec2b1f7761c167",
+      "bytes": 12555
+    },
+    "microns/results/r38_dense/predictions/test/864691135210764921.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135210764921.npz",
+      "sha256": "a0b2ed2fd61189983e35a8ccb3d3f6cc740f25b008bd1597577bcd41e07bb8c1",
+      "bytes": 10039
+    },
+    "microns/results/r38_dense/predictions/test/864691135235532121.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135235532121.npz",
+      "sha256": "98e7d888a151f43e5cc628cc5fa256c7b1a532c7ffbc93ed49ef9d3d1bb2a420",
+      "bytes": 10062
+    },
+    "microns/results/r38_dense/predictions/test/864691135274968337.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135274968337.npz",
+      "sha256": "f6568ac560fa9d78a9390f8b51e0f3c5f5a289c7c2f33d693e214de5e1c63547",
+      "bytes": 12571
+    },
+    "microns/results/r38_dense/predictions/test/864691135275003153.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135275003153.npz",
+      "sha256": "d25e26ac80196b677d4bea2cbd50409b52ae02970b5ef2b59297cc41170c878d",
+      "bytes": 16003
+    },
+    "microns/results/r38_dense/predictions/test/864691135277309669.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135277309669.npz",
+      "sha256": "a5a8e81e3aef007f6868886b7fdddc571f405c1143b32045b589a1eb908f7032",
+      "bytes": 14131
+    },
+    "microns/results/r38_dense/predictions/test/864691135340403942.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135340403942.npz",
+      "sha256": "e967b198410127c8ad3f040c6e98ab9f4942d0f4f0c87940503a966c2b632e13",
+      "bytes": 13637
+    },
+    "microns/results/r38_dense/predictions/test/864691135343752901.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135343752901.npz",
+      "sha256": "544ee84c40976b1799d781bc72e3b64d61b657d99971e5df34815dd5bba150f3",
+      "bytes": 11286
+    },
+    "microns/results/r38_dense/predictions/test/864691135347733151.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135347733151.npz",
+      "sha256": "113472380ef5b9edd290c526d04ecd0a148cf886630258062dc1c63a8045906f",
+      "bytes": 9851
+    },
+    "microns/results/r38_dense/predictions/test/864691135347927711.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135347927711.npz",
+      "sha256": "99fe49585d9ad48bef5c8395047192c0b49201a3f196e7f4a9094ba0d99710c0",
+      "bytes": 10602
+    },
+    "microns/results/r38_dense/predictions/test/864691135357654223.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135357654223.npz",
+      "sha256": "1d345cd9192a0dd98e74087b026daae4882e792656c5172a1ca6b6e34648023f",
+      "bytes": 19403
+    },
+    "microns/results/r38_dense/predictions/test/864691135361231448.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135361231448.npz",
+      "sha256": "336e4e268164dadf1f0ee920dfe380743d424263bf83d05ffae0b5ef90354ce0",
+      "bytes": 11909
+    },
+    "microns/results/r38_dense/predictions/test/864691135361314119.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135361314119.npz",
+      "sha256": "c66692448779281623b6262f6bb1dd4f356dda4dadaa01727e7024af85ce0f9a",
+      "bytes": 12353
+    },
+    "microns/results/r38_dense/predictions/test/864691135385592043.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135385592043.npz",
+      "sha256": "7129dd277dbd24883d8cdc104994b4961c05d283e5ce510decbb1324a860db93",
+      "bytes": 10846
+    },
+    "microns/results/r38_dense/predictions/test/864691135398817569.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135398817569.npz",
+      "sha256": "2cdb0e480fe5462549f017c601dd9ebdb9796bf52c57148e277cd29ae1d7912b",
+      "bytes": 11032
+    },
+    "microns/results/r38_dense/predictions/test/864691135405733870.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135405733870.npz",
+      "sha256": "e796b74a3acd10dbdb6c930fac4e6b3b382097a913c6ccfab88e692a447530a7",
+      "bytes": 13592
+    },
+    "microns/results/r38_dense/predictions/test/864691135448627090.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135448627090.npz",
+      "sha256": "dd1ee28e946bda08d6b68d142246eaaef526b74288e529fb412bcfd245dacad2",
+      "bytes": 11391
+    },
+    "microns/results/r38_dense/predictions/test/864691135470000524.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135470000524.npz",
+      "sha256": "65143dfa8debacb6ae647c2da73f34d34a03654c18dbd35a62c783b07e0c4426",
+      "bytes": 24260
+    },
+    "microns/results/r38_dense/predictions/test/864691135470895186.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135470895186.npz",
+      "sha256": "b705b355c722e1dfc89f362cd2fbb9ad19dec898d1822dcea84757fd87367918",
+      "bytes": 16316
+    },
+    "microns/results/r38_dense/predictions/test/864691135478316200.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135478316200.npz",
+      "sha256": "03717a08d6a17d53e18b7bd777b967893e7cf62886d18e8c6c8ddce59bbea7c7",
+      "bytes": 9650
+    },
+    "microns/results/r38_dense/predictions/test/864691135493179623.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135493179623.npz",
+      "sha256": "cc8ea34376f643e292b0c98d4a028a049880a433c5d91dd81593d2821193fff0",
+      "bytes": 10357
+    },
+    "microns/results/r38_dense/predictions/test/864691135503182685.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135503182685.npz",
+      "sha256": "860ba6382e6bcb28f3d7f495aa7adf17cb543d7a4f893a9966abfabef8184d62",
+      "bytes": 19914
+    },
+    "microns/results/r38_dense/predictions/test/864691135518587091.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135518587091.npz",
+      "sha256": "642f9a623a5db845500dd525d0ff008784bf0bc9be16c9e2f979fc36141221da",
+      "bytes": 12095
+    },
+    "microns/results/r38_dense/predictions/test/864691135563017953.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135563017953.npz",
+      "sha256": "ec37082e046ac08c5fcf67e7bc58e76a3af8456f9ec65480004dc216d22762c5",
+      "bytes": 9968
+    },
+    "microns/results/r38_dense/predictions/test/864691135571698822.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135571698822.npz",
+      "sha256": "ac002ab88335f4a1c69036829850b0be0959cfd55ea80db9a8e89ad83c01435c",
+      "bytes": 15270
+    },
+    "microns/results/r38_dense/predictions/test/864691135577816862.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135577816862.npz",
+      "sha256": "7f5be9ad92406d8e5a2e5c3846e8b4b6d7f97411be2c7ea0209577862b09b03a",
+      "bytes": 11371
+    },
+    "microns/results/r38_dense/predictions/test/864691135578069278.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135578069278.npz",
+      "sha256": "9fa829b2a72212e77d397193674da2706fb00745555b7bb147eeb144b9041532",
+      "bytes": 15918
+    },
+    "microns/results/r38_dense/predictions/test/864691135579520005.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135579520005.npz",
+      "sha256": "492a022eb27827e5f0b029e9dbbda0701a29f9772edaab06e45917a7e60b4ae7",
+      "bytes": 14151
+    },
+    "microns/results/r38_dense/predictions/test/864691135586240120.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135586240120.npz",
+      "sha256": "ed919e0f9cb5c5fe1cfc176086e0e7b8be57168ce9fa36990834e4552e110d3d",
+      "bytes": 12088
+    },
+    "microns/results/r38_dense/predictions/test/864691135593323019.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135593323019.npz",
+      "sha256": "82c5e5fde262c3e9f651df1965441f8a05af5828485781464633bf893dbfe554",
+      "bytes": 19887
+    },
+    "microns/results/r38_dense/predictions/test/864691135616533451.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135616533451.npz",
+      "sha256": "42da63df132636734d342545f3ff433ed81c43e14009493b3b7f0379fcbc3f90",
+      "bytes": 9905
+    },
+    "microns/results/r38_dense/predictions/test/864691135620009615.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135620009615.npz",
+      "sha256": "e02304376be557a946dbbc74cf73d22e6af8d4b830cc6a3698afa2edf23be409",
+      "bytes": 10887
+    },
+    "microns/results/r38_dense/predictions/test/864691135641518395.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135641518395.npz",
+      "sha256": "3eb6e1af44df5fd206b59736a02771bc9e62b2e4938be6e66bef106c1bf16efe",
+      "bytes": 13189
+    },
+    "microns/results/r38_dense/predictions/test/864691135689880032.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135689880032.npz",
+      "sha256": "37dbb6dc4374c54a4b5b43093087be199039618ac8f476df4c89e7b0599ec0aa",
+      "bytes": 15161
+    },
+    "microns/results/r38_dense/predictions/test/864691135695146943.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135695146943.npz",
+      "sha256": "4f01b77622442392e5f38a1bcb7a63b9336df56896ae70ca068086aff5084c9f",
+      "bytes": 12265
+    },
+    "microns/results/r38_dense/predictions/test/864691135701746978.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135701746978.npz",
+      "sha256": "7f05229a7dd539abf388835fed27bed5dde02b564334873edc2d80044dfa49dd",
+      "bytes": 10436
+    },
+    "microns/results/r38_dense/predictions/test/864691135728052799.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135728052799.npz",
+      "sha256": "488824f32507ee591f25ae699391c246b6c37da4513edc0a48f5edf844d9cfac",
+      "bytes": 12787
+    },
+    "microns/results/r38_dense/predictions/test/864691135741910164.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135741910164.npz",
+      "sha256": "e949976a45be78b21871f07af45c97aed11c94de28a3a7e830eeabd02b315055",
+      "bytes": 11897
+    },
+    "microns/results/r38_dense/predictions/test/864691135741998484.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135741998484.npz",
+      "sha256": "a0a73371760ddeb842a5cf411e2da4d0f7a997d765d21127a11aed89089fad84",
+      "bytes": 14488
+    },
+    "microns/results/r38_dense/predictions/test/864691135742097044.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135742097044.npz",
+      "sha256": "29334e8e13895498941ae5e736cb93727fd2513a49b90b484e53b317ac3fddaa",
+      "bytes": 11367
+    },
+    "microns/results/r38_dense/predictions/test/864691135756513229.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135756513229.npz",
+      "sha256": "5c9fd1f80e61cff7c3e2fdf2a13ae40da953771b30ca1d65f34619d92f7e44b1",
+      "bytes": 13610
+    },
+    "microns/results/r38_dense/predictions/test/864691135765180726.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135765180726.npz",
+      "sha256": "e31a7ba9c4d7e5b1291551da7e58d408b23eb190699753c868aa893bb8b08292",
+      "bytes": 14964
+    },
+    "microns/results/r38_dense/predictions/test/864691135810557469.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135810557469.npz",
+      "sha256": "8328435b5259e012616416e983370d3244ab8375b296d6bf49de4e7cdeb499f0",
+      "bytes": 9861
+    },
+    "microns/results/r38_dense/predictions/test/864691135817949519.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135817949519.npz",
+      "sha256": "01d1e5b92f7a4c4e9728d02246cb5692d923f2f7e411b3c8c9d5c861f577023b",
+      "bytes": 11577
+    },
+    "microns/results/r38_dense/predictions/test/864691135840099987.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135840099987.npz",
+      "sha256": "3ccecc4c176e047d279f423639d6b5f29c541a1ae363d6c060f85aa4d37ac5bc",
+      "bytes": 13678
+    },
+    "microns/results/r38_dense/predictions/test/864691135853091015.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135853091015.npz",
+      "sha256": "f422039f5a6012dd6bbd4756fa6e8607fee7dffcb9610e0db71f297cfea56bee",
+      "bytes": 10303
+    },
+    "microns/results/r38_dense/predictions/test/864691135886130288.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135886130288.npz",
+      "sha256": "8ef77ff9448503687952f19ea35987a1f03bcf3836e08a72beb17d5e79fdd7ac",
+      "bytes": 9367
+    },
+    "microns/results/r38_dense/predictions/test/864691135886343280.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135886343280.npz",
+      "sha256": "20f35a271578de1df7d8d2a85dced828f5bf00113724ee73a7a22731937fb82e",
+      "bytes": 18789
+    },
+    "microns/results/r38_dense/predictions/test/864691135892214409.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135892214409.npz",
+      "sha256": "b391db41d19eba3e35629352ffb0f7606afd453a8a567cb4d8bad38dc6dc618d",
+      "bytes": 11770
+    },
+    "microns/results/r38_dense/predictions/test/864691135917743462.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135917743462.npz",
+      "sha256": "d3b229ab0a67be72caf10e7f8ae29c0ea21fc28f8e43fc2a4231f4eab887e6ae",
+      "bytes": 17091
+    },
+    "microns/results/r38_dense/predictions/test/864691135920571056.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135920571056.npz",
+      "sha256": "0035ae668238289c86cda6f47eca2fe5fa12a7a547f91ffd6a71fdd70a06cddc",
+      "bytes": 8953
+    },
+    "microns/results/r38_dense/predictions/test/864691135928395278.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135928395278.npz",
+      "sha256": "d5930c099a28d6c5658f38453f155caab99de059b56b31424d19622585b1a52a",
+      "bytes": 8988
+    },
+    "microns/results/r38_dense/predictions/test/864691135940267061.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135940267061.npz",
+      "sha256": "3eae2d38858ca1f2abc2fc34695e34f9251e2b9272ea41f86e5bb5c3eb00b3d5",
+      "bytes": 12874
+    },
+    "microns/results/r38_dense/predictions/test/864691135949252193.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135949252193.npz",
+      "sha256": "ed1d1c3c89d422ad19bbb1082dc591a27df5ad41762139da1b21c24db060682e",
+      "bytes": 14797
+    },
+    "microns/results/r38_dense/predictions/test/864691135954783011.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691135954783011.npz",
+      "sha256": "3e49d34987f5e5f5debff518f5f0f252fa97a9be6b974fdbdf5fa50afacfe719",
+      "bytes": 9140
+    },
+    "microns/results/r38_dense/predictions/test/864691136007566538.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691136007566538.npz",
+      "sha256": "40205a1e291d182adad6f456cadee35b6022450b25c0ba9dff4be8dbe92e783c",
+      "bytes": 14920
+    },
+    "microns/results/r38_dense/predictions/test/864691136026394425.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691136026394425.npz",
+      "sha256": "9df7d883765205c9010dd31132964b6c5f6e07dfd43719af603292bf9b89130a",
+      "bytes": 6011
+    },
+    "microns/results/r38_dense/predictions/test/864691136026462521.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691136026462521.npz",
+      "sha256": "a80dbf9009a74e3e84f8eb5814dc28f24495f42396063e0445364beef6ca7f8a",
+      "bytes": 11765
+    },
+    "microns/results/r38_dense/predictions/test/864691136108852953.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691136108852953.npz",
+      "sha256": "aa3466cd5840d26e0d7f7fb18bae07dff18fd21a85715c308bdfb36232cc7c6b",
+      "bytes": 11093
+    },
+    "microns/results/r38_dense/predictions/test/864691136139308157.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691136139308157.npz",
+      "sha256": "debd1d37be6ea52616050826814ecbaa1994a74e42c61a3be20b9c19ff683c65",
+      "bytes": 14097
+    },
+    "microns/results/r38_dense/predictions/test/864691136177726726.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691136177726726.npz",
+      "sha256": "38fdf0de7472ac61e697dc5d53d9ebbc4fc3fc10ae591ef9f968823a5dd213da",
+      "bytes": 11015
+    },
+    "microns/results/r38_dense/predictions/test/864691136196540136.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691136196540136.npz",
+      "sha256": "d1a4376f88e9d1323f2207f2e06f6d89a9ddf17feacf7fe6ee4ba40f1ccd06eb",
+      "bytes": 12863
+    },
+    "microns/results/r38_dense/predictions/test/864691136197311820.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691136197311820.npz",
+      "sha256": "c63141db70eb162894850208ff4e7b473a7e59420cfc2b59524b1111688bd366",
+      "bytes": 8626
+    },
+    "microns/results/r38_dense/predictions/test/864691136229363025.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691136229363025.npz",
+      "sha256": "43960cb83608820ef9e08530eb5173ffe30ffc250175d14c987c75bb804f817e",
+      "bytes": 8496
+    },
+    "microns/results/r38_dense/predictions/test/864691136240071996.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691136240071996.npz",
+      "sha256": "d8da61ffc533f339f12cdb15180a15fc60984407f70dfdde1c23eb806074a665",
+      "bytes": 8494
+    },
+    "microns/results/r38_dense/predictions/test/864691136336107187.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691136336107187.npz",
+      "sha256": "eb15ca9ea076026ae7ed71e36dfadf4eba66fbbc1dedb2253607882b457bbd18",
+      "bytes": 14423
+    },
+    "microns/results/r38_dense/predictions/test/864691136373236616.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691136373236616.npz",
+      "sha256": "dfae4db118fc885a74f655ea09e6e87a6f367521af50628601d1df2d569df041",
+      "bytes": 10921
+    },
+    "microns/results/r38_dense/predictions/test/864691136425889839.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691136425889839.npz",
+      "sha256": "a16f4e682535a7d0a57e665230c2d29f094a2efc2a72df6e179a7b1b1d3ce88e",
+      "bytes": 11806
+    },
+    "microns/results/r38_dense/predictions/test/864691136580258580.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691136580258580.npz",
+      "sha256": "008939ba9112a2cbdfd1d343a1e3a41083aab67596ac7b1dc0763d68712189f6",
+      "bytes": 16654
+    },
+    "microns/results/r38_dense/predictions/test/864691136621234573.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691136621234573.npz",
+      "sha256": "d96b1d30d470eb8aa80f44772235670b27108113b5172b057d88cd14419e4283",
+      "bytes": 15179
+    },
+    "microns/results/r38_dense/predictions/test/864691136676165255.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691136676165255.npz",
+      "sha256": "d0a655d6c403d215721288ae1858341f69295e26a811c970b94e47d31cd75295",
+      "bytes": 10137
+    },
+    "microns/results/r38_dense/predictions/test/864691136814627955.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691136814627955.npz",
+      "sha256": "7f57f6eb8a757d9e987ebce214fdabcf957eecec136eb93193fe7da9e548f945",
+      "bytes": 9865
+    },
+    "microns/results/r38_dense/predictions/test/864691136906500786.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691136906500786.npz",
+      "sha256": "c856cec6dcd313131137118e0f178c1dc83d0d90eddbd72ff06b2756bf97b521",
+      "bytes": 16718
+    },
+    "microns/results/r38_dense/predictions/test/864691136968989646.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691136968989646.npz",
+      "sha256": "82030731c62a0024c8de4733a444d9c5f0c6cb5ba5f2efe319cf13b713c17f06",
+      "bytes": 12128
+    },
+    "microns/results/r38_dense/predictions/test/864691136976247324.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691136976247324.npz",
+      "sha256": "008909fa0d050a93ec705b19baa6feef05d1351341bea0fbcf358f0bdabbfba3",
+      "bytes": 21337
+    },
+    "microns/results/r38_dense/predictions/test/864691136991202453.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691136991202453.npz",
+      "sha256": "bc0cbe27ba15ae7aff58de91a23ec9a409d63e273c64e8ad3497d8cba1852546",
+      "bytes": 24820
+    },
+    "microns/results/r38_dense/predictions/test/864691137022275182.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691137022275182.npz",
+      "sha256": "5c4111357ced52d1d284bfbe19a3f76aec9b7bfd371624fd802dc5f1d9e6e473",
+      "bytes": 10896
+    },
+    "microns/results/r38_dense/predictions/test/864691137022342766.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691137022342766.npz",
+      "sha256": "4b3f95909dce3ca75792f64725de2c42fb463ee55a4b231d69ddd716fa7e3474",
+      "bytes": 12299
+    },
+    "microns/results/r38_dense/predictions/test/864691137200012353.npz": {
+      "source_path": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/results/r38_dense/predictions/test/864691137200012353.npz",
+      "sha256": "e6a8be0c3c5caa43e1acb3a40f5c158fec6ee89fb226ae1a4db9beb3f1f10fe2",
+      "bytes": 14698
+    }
+  },
+  "variants": {
+    "original": "/root/megrez-tmp/CPSF_CMM_PAIR_FUSION_20261023_R38_A1",
+    "dense": "/root/megrez-tmp/CPSF_R38_DENSE_SUPPORT_20261023_A1",
+    "fine": "/root/megrez-tmp/CPSF_R38_DENSE_EXTENSION_20261024_A2",
+    "drw": "/root/megrez-tmp/CPSF_R38_DRW_20261025_A1",
+    "microns": "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1"
+  },
+  "exclusions": [
+    "raw datasets",
+    "geometry caches",
+    "credentials/runtime_env",
+    "live optimizer/latest checkpoints",
+    "external pretrained weights",
+    "TED experiments",
+    "non-R38 MICrONS models"
+  ],
+  "note": "Status files are byte snapshots; completed final weights and frozen protocols are immutable. No training or inference performed."
+}

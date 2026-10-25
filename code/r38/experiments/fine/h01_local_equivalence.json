@@ -1,0 +1,1120 @@
+{
+  "passed": true,
+  "density": {
+    "train": {
+      "samples": 716,
+      "minimum_mean_points": 11.063478260869566,
+      "regrouped_samples": 0
+    },
+    "val": {
+      "samples": 214,
+      "minimum_mean_points": 12.542725173210162,
+      "regrouped_samples": 0
+    }
+  },
+  "original_initialization_exact": true,
+  "two_optimizer_steps": [
+    {
+      "step": 1,
+      "loss": 1.0281729698181152,
+      "all_parameters_exact": true
+    },
+    {
+      "step": 2,
+      "loss": 0.983819305896759,
+      "all_parameters_exact": true
+    }
+  ],
+  "final_checkpoint_sha256": "54e82e166964c75f012e834077890bdfb25d239af7b20e11f1c9eed52abf532f",
+  "final_checkpoint_strict_load": true,
+  "cases": [
+    {
+      "key": "4641147055_dendrite_03",
+      "split": "train",
+      "output_exact": true
+    },
+    {
+      "key": "3139317430_dendrite_01",
+      "split": "train",
+      "output_exact": true
+    },
+    {
+      "key": "1787105373_axon_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "1787105373_axon_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "1787105373_axon_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "1787105373_dendrite_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "1787105373_dendrite_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "1787105373_dendrite_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "1787105373_AIS_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "1787105373_AIS_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "1787105373_AIS_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "2103991145_axon_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "2103991145_axon_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "2103991145_axon_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "2103991145_dendrite_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "2103991145_dendrite_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "2103991145_dendrite_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "2103991145_AIS_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "2103991145_AIS_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "2103991145_AIS_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "2104047922_axon_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "2104047922_axon_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "2104047922_axon_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "2104047922_dendrite_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "2104047922_dendrite_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "2104047922_dendrite_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "2104047922_AIS_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "2104047922_AIS_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "2104047922_AIS_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "2306214824_axon_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "2306214824_axon_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "2306214824_axon_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "2306214824_dendrite_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "2306214824_dendrite_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "2306214824_dendrite_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "2306214824_AIS_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "2306214824_AIS_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "2306214824_AIS_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "2451406889_axon_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "2451406889_axon_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "2451406889_axon_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "2451406889_dendrite_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "2451406889_dendrite_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "2451406889_dendrite_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "2451406889_AIS_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "2451406889_AIS_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "2530864375_axon_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "2530864375_axon_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "2530864375_axon_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "2530864375_dendrite_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "2530864375_dendrite_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "2530864375_dendrite_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "2530864375_AIS_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "2530864375_AIS_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "2530864375_AIS_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3093748739_axon_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3093748739_axon_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3093748739_axon_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3093748739_dendrite_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3093748739_dendrite_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3093748739_dendrite_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3093748739_AIS_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3093748739_AIS_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3093748739_AIS_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3432315514_axon_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3432315514_axon_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3432315514_axon_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3432315514_dendrite_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3432315514_dendrite_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3432315514_dendrite_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3432315514_AIS_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3432315514_AIS_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3432315514_AIS_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3470629528_axon_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3470629528_axon_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3470629528_axon_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3470629528_dendrite_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3470629528_dendrite_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3470629528_dendrite_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3470629528_AIS_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3470629528_AIS_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3470629528_AIS_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3503540481_axon_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3503540481_axon_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3503540481_axon_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3503540481_dendrite_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3503540481_dendrite_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3503540481_dendrite_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3503540481_AIS_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3503540481_AIS_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3503540481_AIS_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3519995546_axon_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3519995546_axon_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3519995546_axon_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3519995546_dendrite_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3519995546_dendrite_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3519995546_dendrite_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3519995546_AIS_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3519995546_AIS_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3519995546_AIS_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3571083397_axon_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3571083397_axon_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3571083397_axon_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3571083397_dendrite_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3571083397_dendrite_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3571083397_dendrite_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3571083397_AIS_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3571083397_AIS_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "3571083397_AIS_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "4125702786_axon_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "4125702786_axon_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "4125702786_axon_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "4125702786_dendrite_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "4125702786_dendrite_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "4125702786_dendrite_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "4125702786_AIS_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "4125702786_AIS_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "4138580687_axon_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "4138580687_axon_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "4138580687_axon_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "4138580687_dendrite_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "4138580687_dendrite_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "4138580687_dendrite_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "4138580687_AIS_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "4138580687_AIS_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "4138580687_AIS_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "4711641825_axon_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "4711641825_axon_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "4711641825_axon_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "4711641825_dendrite_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "4711641825_dendrite_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "4711641825_dendrite_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "4711641825_AIS_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "4711641825_AIS_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "4711641825_AIS_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "4853956860_axon_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "4853956860_axon_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "4853956860_axon_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "4853956860_dendrite_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "4853956860_dendrite_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "4853956860_dendrite_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "4853956860_AIS_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "4853956860_AIS_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "4853956860_AIS_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5060444657_axon_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5060444657_axon_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5060444657_axon_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5060444657_dendrite_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5060444657_dendrite_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5060444657_dendrite_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5060444657_AIS_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5060444657_AIS_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5060444657_AIS_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5175880292_axon_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5175880292_axon_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5175880292_axon_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5175880292_dendrite_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5175880292_dendrite_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5175880292_dendrite_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5175880292_AIS_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5175880292_AIS_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5175880292_AIS_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5439194879_axon_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5439194879_axon_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5439194879_axon_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5439194879_dendrite_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5439194879_dendrite_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5439194879_dendrite_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5439194879_AIS_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5439194879_AIS_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5439194879_AIS_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "547114083_axon_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "547114083_axon_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "547114083_axon_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "547114083_dendrite_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "547114083_dendrite_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "547114083_dendrite_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "547114083_AIS_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "547114083_AIS_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "547114083_AIS_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5584343344_axon_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5584343344_axon_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5584343344_axon_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5584343344_dendrite_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5584343344_dendrite_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5584343344_dendrite_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5584343344_AIS_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5584343344_AIS_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5584343344_AIS_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5654281423_axon_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5654281423_axon_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5654281423_axon_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5654281423_dendrite_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5654281423_dendrite_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5654281423_dendrite_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5654281423_AIS_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5654281423_AIS_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5654281423_AIS_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5832764277_axon_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5832764277_axon_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5832764277_axon_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5832764277_dendrite_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5832764277_dendrite_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5832764277_dendrite_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5832764277_AIS_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5832764277_AIS_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "5832764277_AIS_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "955432427_axon_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "955432427_axon_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "955432427_axon_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "955432427_dendrite_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "955432427_dendrite_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "955432427_dendrite_03",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "955432427_AIS_01",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "955432427_AIS_02",
+      "split": "val",
+      "output_exact": true
+    },
+    {
+      "key": "955432427_AIS_03",
+      "split": "val",
+      "output_exact": true
+    }
+  ],
+  "all_development_predictions_exact": true,
+  "eval_state_unchanged": true,
+  "retraining_skipped": true,
+  "new_performance_row": false,
+  "reason": "No sample triggers dense grouping; initialization, updates and final-checkpoint forward agree exactly",
+  "test_used": false,
+  "protocol_sha256": "27a94c664ab129077f04a4a16496bd8aadbd4712259f61ac843b2fc0b65d02d1",
+  "peak_gpu_bytes": 334610432
+}

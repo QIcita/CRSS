@@ -1,0 +1,106 @@
+{
+  "passed": true,
+  "compatibility": {
+    "passed": true,
+    "initial": "b66ee46c701ee973c56494f5308e6df8d95fc4b90b44886cc5cb532017da2a93",
+    "key": "720575940619169349",
+    "reference": "original R34 with pair fusion disabled",
+    "two_steps": [
+      {
+        "step": 1,
+        "loss": 5.032454967498779,
+        "shared_parameters_exact": true
+      },
+      {
+        "step": 2,
+        "loss": 4.9794602394104,
+        "shared_parameters_exact": true
+      }
+    ]
+  },
+  "updates": [
+    {
+      "step": 1,
+      "loss": 5.032454967498779,
+      "optimizer_steps": {
+        "min": 1,
+        "max": 1
+      }
+    },
+    {
+      "step": 2,
+      "loss": 4.9794602394104,
+      "optimizer_steps": {
+        "min": 2,
+        "max": 2
+      }
+    },
+    {
+      "step": 3,
+      "loss": 4.9278340339660645,
+      "optimizer_steps": {
+        "min": 3,
+        "max": 3
+      }
+    },
+    {
+      "step": 4,
+      "loss": 4.875182151794434,
+      "optimizer_steps": {
+        "min": 4,
+        "max": 4
+      }
+    },
+    {
+      "step": 5,
+      "loss": 4.820262908935547,
+      "optimizer_steps": {
+        "min": 5,
+        "max": 5
+      }
+    },
+    {
+      "step": 6,
+      "loss": 4.761928558349609,
+      "optimizer_steps": {
+        "min": 6,
+        "max": 6
+      }
+    }
+  ],
+  "shape": [
+    148
+  ],
+  "fine_target": 122,
+  "geometry": {
+    "point_count": 6043,
+    "fine_patches": 251,
+    "neighborhood_size": 0.5,
+    "original_fields_exact": true,
+    "force_parent": false
+  },
+  "fusion_contract": {
+    "passed": true,
+    "one_call_per_backbone": true,
+    "counts": {
+      "utonia": 1,
+      "spotr": 1
+    },
+    "shared_patch_exact": true,
+    "surface_reconstruction_exact": true,
+    "pair_delta_max_abs": [
+      1.2481263134134224e-08,
+      6.577556632691994e-08,
+      7.370645760396144e-10
+    ],
+    "bound_max_ratio": 7.836372788005974e-06,
+    "full_model_fusion_checkpoint_output_exact": true,
+    "gradient_max_abs": 0.0
+  },
+  "metric_contract": true,
+  "maximum_shape_acceptance": false,
+  "training_weights_reused": false,
+  "test_used": false,
+  "protocol_sha256": "27a94c664ab129077f04a4a16496bd8aadbd4712259f61ac843b2fc0b65d02d1",
+  "peak_gpu_bytes": 228631040
+}

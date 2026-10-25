@@ -33,3 +33,15 @@ Root navigation now points to R34; the R28 root page is preserved as `docs/READM
 ## 2026-10-23 R34 dense-neighborhood release
 
 `code/r34_dense` preserves official Utonia/SPoTr and inherited project sources through hash-checked references and overlays. The project change separates the SPoTr computational neighborhood from the original fine evidence support; it does not claim authorship of official backbone internals. Original upstream licenses remain at the mapped vendor paths. No new blanket license is imposed. The release contains one project-trained final H01 weight and saved development predictions, without raw neuronal geometry or external pretrained weights. `code/r34` and its original-input results remain independent historical artifacts.
+
+## 2026-10-25 R38 release
+
+`code/r38/` adds 560 hash-mapped sources spanning inherited modules and frozen R38 overlays, five completed project-trained checkpoints, saved development predictions, and MICrONS validation/test predictions. The source and artifact origins are recorded in `server_export.json`; `release_manifest.json` covers the new release. Shared sources are referenced without changing earlier model releases. Previous root navigation is retained under `docs/release_snapshots/20261025/`; links in those raw snapshots retain their original root-relative context.
+
+R38 retains official Utonia (Apache-2.0) and SPoTr (MIT) implementations and notices. Pair fusion, the dense-neighborhood/fine-support adapter, the MICrONS regional count head and delayed class reweighting are project additions. Other mapped upstream dependencies retain their existing notices. No blanket license is granted and no claim of authorship over upstream modules is made.
+
+Raw neuronal geometry, acquisition caches, external pretrained weights, runtime account configuration, credentials and live optimizer/resume checkpoints are excluded. Derived MICrONS prediction arrays contain region targets, expected counts and lengths for metric auditing; the original data-access terms still apply. Historical absolute paths and protocol file hashes are retained as provenance. Full training requires the original data, compatible dependencies and parent-run verification artifacts; materialization does not waive those gates.
+
+Publication validation used CPU construction and strict loading of all five retained checkpoints and recomputed metrics from saved predictions. It did not run model inference, retrain, or select/evaluate new test outputs. FlyWire fine classification is paused and DRW is a running snapshot, neither with final metrics. H01 local dense results are reused only on the recorded equivalence evidence. The paper sources are unchanged; this release does not claim R38 universally outperforms R28.
+
+The repository-wide provenance index also corrects two pre-existing stale hashes for the R28/R34 release manifests, after confirming their bytes match the pre-release local and remote commit. The historical manifests themselves are unchanged; see `code/r38/evidence/provenance_manifest_repair.json`.

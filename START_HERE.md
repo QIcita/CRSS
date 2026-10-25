@@ -1,3 +1,18 @@
+# 最新代码发布：R38（2026-10-25）
+
+[架构与公式](docs/R38_ARCHITECTURE_ZH.md) → [结果与状态](docs/R38_RESULTS_ZH.md) → [代码、五份完成权重和组装](code/r38/README.md)。
+
+包含原 R38、密集邻域修复、MICrONS 区域计数适配及 DRW 训练分支。R28 仍是总体研究主参照。FlyWire 细分类已暂停，DRW 导出时仍训练；不得把两者的验收或中间状态写成最终结果。Macro-F1 是 FlyWire 默认主指标。
+
+```bash
+python scripts/verify_r38.py
+python scripts/materialize_r38.py /absolute/path/to/new/r38 --variant drw
+```
+
+H01/FlyWire 采用固定最终轮开发集评估，MICrONS 采用验证集选模后最终测试；各任务原始协议保留。历史模型、权重、报告和论文继续保留，论文尚未按 R38 改写。以下为历史导航，以各节日期与版本为准。
+
+---
+
 # 最新发布：R34 密集邻域＋细支撑保留（2026-10-23）
 
 [结构与结果](docs/R34_DENSE_SUPPORT_ZH.md) → [源码和最终权重](code/r34_dense/README.md) → [统一 FPS 全部完成实验](docs/UNIFIED_FPS_RESULTS_20261023.md)。

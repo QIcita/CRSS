@@ -1,0 +1,13 @@
+{
+  "stage": "training",
+  "pid": 1484710,
+  "gpu": 0,
+  "command": [
+    "/root/megrez-tmp/CPSF_EXTERNAL_BASELINES_PHASE3_20261012/env/bin/python",
+    "-u",
+    "-m",
+    "tools.cpsf_r38_delayed_reweight.worker"
+  ],
+  "protocol_sha256": "ab2d4be4eb1a46606894a17b1478f4a3840bdd6e7468a353d4925975331a97a3",
+  "time": 1792932364.99408
+}

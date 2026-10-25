@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "name": "utonia_scratch_r2",
+  "pilot": true,
+  "rows": [
+    "864691135573570797"
+  ],
+  "optimization_steps": 2,
+  "losses": [
+    0.9218562841415405,
+    0.9033368825912476
+  ],
+  "seed": 42,
+  "pretrained": false,
+  "metric_contract": {
+    "exact_prediction": true,
+    "redistribution_detected": true,
+    "zero_counts": true,
+    "equal_cell_weight": true
+  },
+  "peak_gpu_bytes": 4823838720,
+  "parameter_count": 137387185,
+  "active_gradient_parameters": 458,
+  "changed_encoder_parameters": 452,
+  "implementation_sources": {
+    "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/utonia/tools/cpsf_utonia_scratch_r2/models.py": "12b8f2883227f2eb6b55f8b06f33df14d49bd0b7699a162953e4b41aaa109179",
+    "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/utonia/vendor/Utonia/utonia/model.py": "f68484c32773b91a47530570b10acb47b229fdeb2132eb5e313f80901639f9ef",
+    "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/utonia/vendor/Utonia/utonia/module.py": "bb9f455509b233eac2b798df0d8efeefa64124628f493ec15dfa92aecabf3cff",
+    "/root/megrez-tmp/CPSF_MICRONS_INPUT_20261025_A1/tools/cpsf_microns/models.py": "8a6f466a714000df8d42549561c888a4dd3142d681de7e584352eb05d1c1056e"
+  },
+  "acceptance_weights_discarded": true
+}

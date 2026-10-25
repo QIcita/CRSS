@@ -1,0 +1,15 @@
+{
+  "epoch": 1,
+  "ramp": 0.0,
+  "weights": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "label_smoothing": 0.05,
+  "reduction": "target_weight * per_cell_CE / group_cell_count",
+  "primary_metric": "macro_f1"
+}

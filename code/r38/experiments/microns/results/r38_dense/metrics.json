@@ -1,0 +1,1620 @@
+{
+  "complete": true,
+  "selected_epoch": 24,
+  "epochs": 50,
+  "updates": 4750,
+  "validation": {
+    "cells": 79,
+    "regions": 255148,
+    "cell_macro_poisson_deviance": 0.3370386347753954,
+    "cell_macro_region_density_mae": 0.09886826720430075,
+    "cell_macro_total_count_mae": 344.76539582211547,
+    "cell_macro_js_divergence_base2": 0.05209702492840699,
+    "js_eligible_cells": 79
+  },
+  "test": {
+    "cells": 80,
+    "regions": 241249,
+    "cell_macro_poisson_deviance": 0.3022236891567832,
+    "cell_macro_region_density_mae": 0.09608141676562187,
+    "cell_macro_total_count_mae": 252.29807952838019,
+    "cell_macro_js_divergence_base2": 0.05356893792134561,
+    "js_eligible_cells": 80
+  },
+  "test_evaluated_after_training": true,
+  "selected_checkpoint_sha256": "bc4eb3a0eb0ac3a94ae04cefd7d6dedc73e51405fdd6fc8bfd93bf5e9552942a",
+  "validation_cells": [
+    {
+      "root_id": "864691136674749575",
+      "poisson_deviance": 0.4140547619146128,
+      "region_density_mae": 0.13668681865499693,
+      "total_count_mae": 896.4601318803616,
+      "regions": 3380,
+      "true_total": 5573.0,
+      "predicted_total": 4676.539868119638,
+      "js_divergence_base2": 0.03276153920609896
+    },
+    {
+      "root_id": "864691135295342092",
+      "poisson_deviance": 0.2915639692451264,
+      "region_density_mae": 0.0920937130478498,
+      "total_count_mae": 43.91476626088843,
+      "regions": 1969,
+      "true_total": 1894.0,
+      "predicted_total": 1850.0852337391116,
+      "js_divergence_base2": 0.0535061266666149
+    },
+    {
+      "root_id": "864691135577919006",
+      "poisson_deviance": 0.2683649966209884,
+      "region_density_mae": 0.07486184341343763,
+      "total_count_mae": 465.3337226565927,
+      "regions": 3599,
+      "true_total": 2459.0,
+      "predicted_total": 2924.3337226565927,
+      "js_divergence_base2": 0.06284180166091795
+    },
+    {
+      "root_id": "864691136381685205",
+      "poisson_deviance": 0.25773282159678945,
+      "region_density_mae": 0.07708221394606045,
+      "total_count_mae": 75.33513120329008,
+      "regions": 2861,
+      "true_total": 2267.0,
+      "predicted_total": 2342.33513120329,
+      "js_divergence_base2": 0.05945586324938785
+    },
+    {
+      "root_id": "864691135641505339",
+      "poisson_deviance": 0.24513868921175638,
+      "region_density_mae": 0.08750034628580843,
+      "total_count_mae": 76.37870095600374,
+      "regions": 1944,
+      "true_total": 1976.0,
+      "predicted_total": 2052.3787009560037,
+      "js_divergence_base2": 0.04403664524821395
+    },
+    {
+      "root_id": "864691135917763430",
+      "poisson_deviance": 0.654956515459661,
+      "region_density_mae": 0.25017059318325763,
+      "total_count_mae": 1135.7184445003513,
+      "regions": 4014,
+      "true_total": 11059.0,
+      "predicted_total": 12194.718444500351,
+      "js_divergence_base2": 0.03957715008723631
+    },
+    {
+      "root_id": "864691136275332030",
+      "poisson_deviance": 0.2727330289812383,
+      "region_density_mae": 0.0879385526317793,
+      "total_count_mae": 438.3924555820413,
+      "regions": 3075,
+      "true_total": 2787.0,
+      "predicted_total": 3225.3924555820413,
+      "js_divergence_base2": 0.04772339440178537
+    },
+    {
+      "root_id": "864691136239902780",
+      "poisson_deviance": 0.31696696502619315,
+      "region_density_mae": 0.10111462157112698,
+      "total_count_mae": 218.38693653978407,
+      "regions": 1876,
+      "true_total": 1821.0,
+      "predicted_total": 2039.386936539784,
+      "js_divergence_base2": 0.05608834207273878
+    },
+    {
+      "root_id": "864691135757002450",
+      "poisson_deviance": 0.4046015281490355,
+      "region_density_mae": 0.09324909411678406,
+      "total_count_mae": 131.78908121958375,
+      "regions": 1889,
+      "true_total": 1409.0,
+      "predicted_total": 1277.2109187804163,
+      "js_divergence_base2": 0.09539213235292368
+    },
+    {
+      "root_id": "864691136421324951",
+      "poisson_deviance": 0.1975053457299706,
+      "region_density_mae": 0.060003397587203675,
+      "total_count_mae": 20.900051382603124,
+      "regions": 3326,
+      "true_total": 2231.0,
+      "predicted_total": 2210.099948617397,
+      "js_divergence_base2": 0.04864958294628269
+    },
+    {
+      "root_id": "864691135396940021",
+      "poisson_deviance": 0.1802343691776762,
+      "region_density_mae": 0.06490863628563523,
+      "total_count_mae": 125.80564930103719,
+      "regions": 2755,
+      "true_total": 2244.0,
+      "predicted_total": 2118.194350698963,
+      "js_divergence_base2": 0.03703235753353499
+    },
+    {
+      "root_id": "864691135861419112",
+      "poisson_deviance": 0.31027631075989937,
+      "region_density_mae": 0.1316651268571503,
+      "total_count_mae": 911.1634804937057,
+      "regions": 3889,
+      "true_total": 5628.0,
+      "predicted_total": 6539.163480493706,
+      "js_divergence_base2": 0.03471158137862828
+    },
+    {
+      "root_id": "864691135448453778",
+      "poisson_deviance": 0.38432966723735507,
+      "region_density_mae": 0.11293273971911622,
+      "total_count_mae": 170.3198203346692,
+      "regions": 1917,
+      "true_total": 2167.0,
+      "predicted_total": 1996.6801796653308,
+      "js_divergence_base2": 0.0587311190098907
+    },
+    {
+      "root_id": "864691135740071537",
+      "poisson_deviance": 0.20563661009427642,
+      "region_density_mae": 0.06797539993487295,
+      "total_count_mae": 443.1264061341062,
+      "regions": 3543,
+      "true_total": 3020.0,
+      "predicted_total": 2576.873593865894,
+      "js_divergence_base2": 0.0377420410889949
+    },
+    {
+      "root_id": "864691135787998916",
+      "poisson_deviance": 0.3441103963217138,
+      "region_density_mae": 0.10984645816860486,
+      "total_count_mae": 967.5373442186974,
+      "regions": 4254,
+      "true_total": 5363.0,
+      "predicted_total": 4395.462655781303,
+      "js_divergence_base2": 0.04053743933485695
+    },
+    {
+      "root_id": "864691136336480691",
+      "poisson_deviance": 0.26697342246789607,
+      "region_density_mae": 0.10014758391773107,
+      "total_count_mae": 200.00492012139875,
+      "regions": 3357,
+      "true_total": 3765.0,
+      "predicted_total": 3965.0049201213988,
+      "js_divergence_base2": 0.041265280779421196
+    },
+    {
+      "root_id": "864691135277501669",
+      "poisson_deviance": 0.18229239303200073,
+      "region_density_mae": 0.06666230269221705,
+      "total_count_mae": 14.495485591702163,
+      "regions": 2724,
+      "true_total": 2350.0,
+      "predicted_total": 2364.495485591702,
+      "js_divergence_base2": 0.033926945726199656
+    },
+    {
+      "root_id": "864691136102504309",
+      "poisson_deviance": 0.28974634188740234,
+      "region_density_mae": 0.08942648584055757,
+      "total_count_mae": 285.14037502836436,
+      "regions": 4044,
+      "true_total": 4240.0,
+      "predicted_total": 4525.140375028364,
+      "js_divergence_base2": 0.042048758411983744
+    },
+    {
+      "root_id": "864691135997332650",
+      "poisson_deviance": 0.2837455921903302,
+      "region_density_mae": 0.11140242855244542,
+      "total_count_mae": 183.01293599931523,
+      "regions": 2641,
+      "true_total": 3750.0,
+      "predicted_total": 3933.0129359993152,
+      "js_divergence_base2": 0.033624433229630664
+    },
+    {
+      "root_id": "864691134950156796",
+      "poisson_deviance": 0.2933803009437797,
+      "region_density_mae": 0.12466824375956163,
+      "total_count_mae": 42.35671594319865,
+      "regions": 3298,
+      "true_total": 5514.0,
+      "predicted_total": 5471.643284056801,
+      "js_divergence_base2": 0.030951122854936702
+    },
+    {
+      "root_id": "864691136013829539",
+      "poisson_deviance": 3.6186010360198364,
+      "region_density_mae": 0.29422900841841493,
+      "total_count_mae": 4556.086456582416,
+      "regions": 6959,
+      "true_total": 9127.0,
+      "predicted_total": 4570.913543417584,
+      "js_divergence_base2": 0.2971418379313851
+    },
+    {
+      "root_id": "864691135504588469",
+      "poisson_deviance": 0.349190725762401,
+      "region_density_mae": 0.10163571255208191,
+      "total_count_mae": 280.4699681844795,
+      "regions": 2866,
+      "true_total": 2872.0,
+      "predicted_total": 2591.5300318155205,
+      "js_divergence_base2": 0.0572712604712299
+    },
+    {
+      "root_id": "864691135660167554",
+      "poisson_deviance": 0.24199292283516766,
+      "region_density_mae": 0.057438885047970616,
+      "total_count_mae": 559.1011703470722,
+      "regions": 6163,
+      "true_total": 3120.0,
+      "predicted_total": 3679.101170347072,
+      "js_divergence_base2": 0.07032348831311451
+    },
+    {
+      "root_id": "864691135504594101",
+      "poisson_deviance": 0.2387609577995901,
+      "region_density_mae": 0.09115149328968108,
+      "total_count_mae": 173.55828170268796,
+      "regions": 3913,
+      "true_total": 4059.0,
+      "predicted_total": 4232.558281702688,
+      "js_divergence_base2": 0.04082406320558188
+    },
+    {
+      "root_id": "864691136391042167",
+      "poisson_deviance": 0.19737671225367948,
+      "region_density_mae": 0.08568643789045687,
+      "total_count_mae": 213.991875305539,
+      "regions": 3483,
+      "true_total": 4061.0,
+      "predicted_total": 4274.991875305539,
+      "js_divergence_base2": 0.029801637882960978
+    },
+    {
+      "root_id": "864691136619996379",
+      "poisson_deviance": 0.5286302172480584,
+      "region_density_mae": 0.19309587099188397,
+      "total_count_mae": 32.84453056612983,
+      "regions": 3566,
+      "true_total": 8390.0,
+      "predicted_total": 8422.84453056613,
+      "js_divergence_base2": 0.03721342794452494
+    },
+    {
+      "root_id": "864691136111556792",
+      "poisson_deviance": 0.24941620478208823,
+      "region_density_mae": 0.07002950703998811,
+      "total_count_mae": 130.06222027074546,
+      "regions": 2458,
+      "true_total": 1595.0,
+      "predicted_total": 1725.0622202707455,
+      "js_divergence_base2": 0.06404560424422215
+    },
+    {
+      "root_id": "864691135135075744",
+      "poisson_deviance": 0.22425603408324288,
+      "region_density_mae": 0.05478198028092341,
+      "total_count_mae": 279.8307038664352,
+      "regions": 3201,
+      "true_total": 1543.0,
+      "predicted_total": 1822.8307038664352,
+      "js_divergence_base2": 0.06768756166849928
+    },
+    {
+      "root_id": "864691135442905672",
+      "poisson_deviance": 0.2736361069923641,
+      "region_density_mae": 0.06523545501643332,
+      "total_count_mae": 2.989144599530846,
+      "regions": 2442,
+      "true_total": 1497.0,
+      "predicted_total": 1499.9891445995308,
+      "js_divergence_base2": 0.07062136190667005
+    },
+    {
+      "root_id": "864691135448215698",
+      "poisson_deviance": 0.2413334127735616,
+      "region_density_mae": 0.08898988760148922,
+      "total_count_mae": 69.19589815102518,
+      "regions": 2247,
+      "true_total": 2469.0,
+      "predicted_total": 2399.804101848975,
+      "js_divergence_base2": 0.03744792132403222
+    },
+    {
+      "root_id": "864691135357517007",
+      "poisson_deviance": 0.2694426240491315,
+      "region_density_mae": 0.09727783723310403,
+      "total_count_mae": 580.1025776264723,
+      "regions": 3469,
+      "true_total": 4425.0,
+      "predicted_total": 3844.8974223735277,
+      "js_divergence_base2": 0.03194049892090286
+    },
+    {
+      "root_id": "864691135361238616",
+      "poisson_deviance": 0.23698383639833906,
+      "region_density_mae": 0.0737730596526418,
+      "total_count_mae": 762.7590043770615,
+      "regions": 5185,
+      "true_total": 4165.0,
+      "predicted_total": 4927.7590043770615,
+      "js_divergence_base2": 0.039478749949102054
+    },
+    {
+      "root_id": "864691135726140843",
+      "poisson_deviance": 0.22648210219264148,
+      "region_density_mae": 0.07313910559415047,
+      "total_count_mae": 144.42756080371328,
+      "regions": 3917,
+      "true_total": 3815.0,
+      "predicted_total": 3670.5724391962867,
+      "js_divergence_base2": 0.035958685739403945
+    },
+    {
+      "root_id": "864691135757242066",
+      "poisson_deviance": 0.23414540297659028,
+      "region_density_mae": 0.07397250132268823,
+      "total_count_mae": 1.2372814607806504,
+      "regions": 3190,
+      "true_total": 2662.0,
+      "predicted_total": 2663.2372814607807,
+      "js_divergence_base2": 0.04580884624367984
+    },
+    {
+      "root_id": "864691135868507269",
+      "poisson_deviance": 0.2717691669271547,
+      "region_density_mae": 0.05515709962599008,
+      "total_count_mae": 602.850570992101,
+      "regions": 6164,
+      "true_total": 2759.0,
+      "predicted_total": 3361.850570992101,
+      "js_divergence_base2": 0.07421765572602941
+    },
+    {
+      "root_id": "864691136928037706",
+      "poisson_deviance": 0.2802264303195801,
+      "region_density_mae": 0.11976536752326944,
+      "total_count_mae": 252.3104332066141,
+      "regions": 2786,
+      "true_total": 4142.0,
+      "predicted_total": 3889.689566793386,
+      "js_divergence_base2": 0.03399640470693384
+    },
+    {
+      "root_id": "864691135281344673",
+      "poisson_deviance": 0.28645919511928974,
+      "region_density_mae": 0.09823804604336239,
+      "total_count_mae": 180.52355122193694,
+      "regions": 2535,
+      "true_total": 2681.0,
+      "predicted_total": 2861.523551221937,
+      "js_divergence_base2": 0.049083506546379045
+    },
+    {
+      "root_id": "864691135470886738",
+      "poisson_deviance": 0.17808765733660606,
+      "region_density_mae": 0.05101802939050101,
+      "total_count_mae": 103.28875937801786,
+      "regions": 3035,
+      "true_total": 1555.0,
+      "predicted_total": 1658.2887593780179,
+      "js_divergence_base2": 0.061649903266894734
+    },
+    {
+      "root_id": "864691135272458661",
+      "poisson_deviance": 0.38017516370192095,
+      "region_density_mae": 0.10291706231014083,
+      "total_count_mae": 27.907878369558603,
+      "regions": 2906,
+      "true_total": 2698.0,
+      "predicted_total": 2670.0921216304414,
+      "js_divergence_base2": 0.07279910706171827
+    },
+    {
+      "root_id": "864691136580085012",
+      "poisson_deviance": 0.1926859731237145,
+      "region_density_mae": 0.061573623865160625,
+      "total_count_mae": 81.97792719281279,
+      "regions": 5931,
+      "true_total": 5052.0,
+      "predicted_total": 5133.977927192813,
+      "js_divergence_base2": 0.03446249056074861
+    },
+    {
+      "root_id": "864691136034011579",
+      "poisson_deviance": 0.27628682877268645,
+      "region_density_mae": 0.09686045576718862,
+      "total_count_mae": 365.72203460056335,
+      "regions": 3333,
+      "true_total": 3408.0,
+      "predicted_total": 3773.7220346005633,
+      "js_divergence_base2": 0.04600092798708777
+    },
+    {
+      "root_id": "864691135184104194",
+      "poisson_deviance": 0.19744341833786835,
+      "region_density_mae": 0.05378917683851767,
+      "total_count_mae": 225.8905343450606,
+      "regions": 4008,
+      "true_total": 1874.0,
+      "predicted_total": 2099.8905343450606,
+      "js_divergence_base2": 0.06618968222836613
+    },
+    {
+      "root_id": "864691136102522229",
+      "poisson_deviance": 0.21826690800239504,
+      "region_density_mae": 0.06406173610108559,
+      "total_count_mae": 52.163912231335416,
+      "regions": 3525,
+      "true_total": 2423.0,
+      "predicted_total": 2370.8360877686646,
+      "js_divergence_base2": 0.05325433573693698
+    },
+    {
+      "root_id": "864691136111710648",
+      "poisson_deviance": 0.3332637892800321,
+      "region_density_mae": 0.13667264003150845,
+      "total_count_mae": 507.73340963898227,
+      "regions": 4412,
+      "true_total": 8843.0,
+      "predicted_total": 8335.266590361018,
+      "js_divergence_base2": 0.027909551578362078
+    },
+    {
+      "root_id": "864691135701973282",
+      "poisson_deviance": 0.25630473838399237,
+      "region_density_mae": 0.08235866143884003,
+      "total_count_mae": 233.06062984582968,
+      "regions": 3333,
+      "true_total": 2707.0,
+      "predicted_total": 2940.0606298458297,
+      "js_divergence_base2": 0.056640664002196785
+    },
+    {
+      "root_id": "864691135802976354",
+      "poisson_deviance": 0.19435678546888938,
+      "region_density_mae": 0.07410023701024351,
+      "total_count_mae": 189.4929484394379,
+      "regions": 3143,
+      "true_total": 2929.0,
+      "predicted_total": 3118.492948439438,
+      "js_divergence_base2": 0.0358444934032001
+    },
+    {
+      "root_id": "864691136914722545",
+      "poisson_deviance": 0.6796572004096173,
+      "region_density_mae": 0.19213006077413683,
+      "total_count_mae": 1106.3153694018256,
+      "regions": 3227,
+      "true_total": 6396.0,
+      "predicted_total": 5289.684630598174,
+      "js_divergence_base2": 0.05198117826412807
+    },
+    {
+      "root_id": "864691136364362466",
+      "poisson_deviance": 0.30764899871187323,
+      "region_density_mae": 0.10798985756498598,
+      "total_count_mae": 141.37510194489732,
+      "regions": 2880,
+      "true_total": 3711.0,
+      "predicted_total": 3852.3751019448973,
+      "js_divergence_base2": 0.03829251476132632
+    },
+    {
+      "root_id": "864691135886300016",
+      "poisson_deviance": 0.26497724727980826,
+      "region_density_mae": 0.07995580054252618,
+      "total_count_mae": 21.555783903226256,
+      "regions": 2566,
+      "true_total": 2218.0,
+      "predicted_total": 2196.4442160967737,
+      "js_divergence_base2": 0.05191214071978641
+    },
+    {
+      "root_id": "864691136102587253",
+      "poisson_deviance": 0.2550141617893745,
+      "region_density_mae": 0.09463454619525108,
+      "total_count_mae": 319.14967283792794,
+      "regions": 3834,
+      "true_total": 4220.0,
+      "predicted_total": 4539.149672837928,
+      "js_divergence_base2": 0.038732054527613774
+    },
+    {
+      "root_id": "864691135210387321",
+      "poisson_deviance": 0.41516010502188183,
+      "region_density_mae": 0.14027336554222772,
+      "total_count_mae": 515.9791457285173,
+      "regions": 1975,
+      "true_total": 3402.0,
+      "predicted_total": 2886.0208542714827,
+      "js_divergence_base2": 0.0348306620398902
+    },
+    {
+      "root_id": "864691135743387243",
+      "poisson_deviance": 0.3114735835192994,
+      "region_density_mae": 0.106090195409057,
+      "total_count_mae": 527.8801005934365,
+      "regions": 3863,
+      "true_total": 4326.0,
+      "predicted_total": 4853.8801005934365,
+      "js_divergence_base2": 0.04412924666255151
+    },
+    {
+      "root_id": "864691135751337769",
+      "poisson_deviance": 1.011173565909693,
+      "region_density_mae": 0.330220219124639,
+      "total_count_mae": 482.57806775695644,
+      "regions": 3534,
+      "true_total": 12795.0,
+      "predicted_total": 13277.578067756956,
+      "js_divergence_base2": 0.05188309451126892
+    },
+    {
+      "root_id": "864691135774307659",
+      "poisson_deviance": 0.3220674156428318,
+      "region_density_mae": 0.10153715253251425,
+      "total_count_mae": 494.28146768943407,
+      "regions": 3466,
+      "true_total": 3180.0,
+      "predicted_total": 3674.281467689434,
+      "js_divergence_base2": 0.06073483784037648
+    },
+    {
+      "root_id": "864691136438666398",
+      "poisson_deviance": 0.2360042710971263,
+      "region_density_mae": 0.06828000298788253,
+      "total_count_mae": 43.47107230313122,
+      "regions": 2519,
+      "true_total": 1705.0,
+      "predicted_total": 1661.5289276968688,
+      "js_divergence_base2": 0.061463510459128914
+    },
+    {
+      "root_id": "864691136421430423",
+      "poisson_deviance": 0.4013229968559359,
+      "region_density_mae": 0.09307220480718316,
+      "total_count_mae": 222.00701383315027,
+      "regions": 2303,
+      "true_total": 1682.0,
+      "predicted_total": 1904.0070138331503,
+      "js_divergence_base2": 0.09595567352079754
+    },
+    {
+      "root_id": "864691135774678779",
+      "poisson_deviance": 0.33455815916464754,
+      "region_density_mae": 0.14352646366673216,
+      "total_count_mae": 723.7580747185275,
+      "regions": 2959,
+      "true_total": 5952.0,
+      "predicted_total": 5228.2419252814725,
+      "js_divergence_base2": 0.02432511262140016
+    },
+    {
+      "root_id": "864691136299162907",
+      "poisson_deviance": 0.31643035157358546,
+      "region_density_mae": 0.09608635105316715,
+      "total_count_mae": 645.0153961880133,
+      "regions": 3493,
+      "true_total": 4254.0,
+      "predicted_total": 3608.9846038119867,
+      "js_divergence_base2": 0.035963381816575775
+    },
+    {
+      "root_id": "864691136111478712",
+      "poisson_deviance": 0.3449795823880894,
+      "region_density_mae": 0.11737859893070283,
+      "total_count_mae": 82.00789970788173,
+      "regions": 1899,
+      "true_total": 2303.0,
+      "predicted_total": 2385.0078997078817,
+      "js_divergence_base2": 0.04908147652903484
+    },
+    {
+      "root_id": "864691136086913132",
+      "poisson_deviance": 0.19574309938176626,
+      "region_density_mae": 0.06368378602809689,
+      "total_count_mae": 250.42628154996783,
+      "regions": 4464,
+      "true_total": 3638.0,
+      "predicted_total": 3888.426281549968,
+      "js_divergence_base2": 0.038356025474136024
+    },
+    {
+      "root_id": "864691135810618909",
+      "poisson_deviance": 0.1965742395372756,
+      "region_density_mae": 0.05744792539997886,
+      "total_count_mae": 305.10113598336466,
+      "regions": 3488,
+      "true_total": 2275.0,
+      "predicted_total": 1969.8988640166353,
+      "js_divergence_base2": 0.04322301853188393
+    },
+    {
+      "root_id": "864691136144674612",
+      "poisson_deviance": 0.2146900561171835,
+      "region_density_mae": 0.07327881319730449,
+      "total_count_mae": 92.6630355939269,
+      "regions": 3386,
+      "true_total": 3099.0,
+      "predicted_total": 3191.663035593927,
+      "js_divergence_base2": 0.038534937990877614
+    },
+    {
+      "root_id": "864691137056725110",
+      "poisson_deviance": 0.32411607582981095,
+      "region_density_mae": 0.10618313882477184,
+      "total_count_mae": 383.7932132445276,
+      "regions": 2607,
+      "true_total": 2665.0,
+      "predicted_total": 3048.7932132445276,
+      "js_divergence_base2": 0.05418904810335633
+    },
+    {
+      "root_id": "864691135942163201",
+      "poisson_deviance": 0.27883701736848004,
+      "region_density_mae": 0.07918070297376992,
+      "total_count_mae": 167.48742108000442,
+      "regions": 2411,
+      "true_total": 2181.0,
+      "predicted_total": 2013.5125789199956,
+      "js_divergence_base2": 0.04703224088368548
+    },
+    {
+      "root_id": "864691136621127053",
+      "poisson_deviance": 0.26804261525803313,
+      "region_density_mae": 0.10644811447289854,
+      "total_count_mae": 419.51069670380093,
+      "regions": 2837,
+      "true_total": 3662.0,
+      "predicted_total": 4081.510696703801,
+      "js_divergence_base2": 0.03298794670999408
+    },
+    {
+      "root_id": "864691136137239691",
+      "poisson_deviance": 0.24358042392752502,
+      "region_density_mae": 0.09921576000323538,
+      "total_count_mae": 148.5934709245339,
+      "regions": 2861,
+      "true_total": 3626.0,
+      "predicted_total": 3477.406529075466,
+      "js_divergence_base2": 0.033092083734316394
+    },
+    {
+      "root_id": "864691135742609771",
+      "poisson_deviance": 0.27714065453765113,
+      "region_density_mae": 0.06504097222165064,
+      "total_count_mae": 22.84821123117581,
+      "regions": 2707,
+      "true_total": 1561.0,
+      "predicted_total": 1583.8482112311758,
+      "js_divergence_base2": 0.07960573619605915
+    },
+    {
+      "root_id": "864691135949096801",
+      "poisson_deviance": 0.1717131855721176,
+      "region_density_mae": 0.06216311452337618,
+      "total_count_mae": 112.70246903854422,
+      "regions": 3491,
+      "true_total": 2653.0,
+      "predicted_total": 2765.702469038544,
+      "js_divergence_base2": 0.04034300523222582
+    },
+    {
+      "root_id": "864691135124801575",
+      "poisson_deviance": 0.21569304624418187,
+      "region_density_mae": 0.08792238127113981,
+      "total_count_mae": 48.09541124734096,
+      "regions": 2160,
+      "true_total": 2261.0,
+      "predicted_total": 2309.095411247341,
+      "js_divergence_base2": 0.03801340403129862
+    },
+    {
+      "root_id": "864691135277751781",
+      "poisson_deviance": 0.2863910786515938,
+      "region_density_mae": 0.08793826221675392,
+      "total_count_mae": 107.19412589166313,
+      "regions": 2536,
+      "true_total": 2248.0,
+      "predicted_total": 2140.805874108337,
+      "js_divergence_base2": 0.06244385984211607
+    },
+    {
+      "root_id": "864691135853055175",
+      "poisson_deviance": 0.29763996057128356,
+      "region_density_mae": 0.1246961778691097,
+      "total_count_mae": 181.90060426900163,
+      "regions": 2391,
+      "true_total": 3690.0,
+      "predicted_total": 3508.0993957309984,
+      "js_divergence_base2": 0.03405151005546666
+    },
+    {
+      "root_id": "864691135868169349",
+      "poisson_deviance": 0.27415177087909187,
+      "region_density_mae": 0.07234843455268451,
+      "total_count_mae": 116.57749909348786,
+      "regions": 2228,
+      "true_total": 1536.0,
+      "predicted_total": 1652.5774990934879,
+      "js_divergence_base2": 0.06924220328108895
+    },
+    {
+      "root_id": "864691135396794101",
+      "poisson_deviance": 0.26981078647214335,
+      "region_density_mae": 0.09828879424501853,
+      "total_count_mae": 757.6267341887578,
+      "regions": 4182,
+      "true_total": 4372.0,
+      "predicted_total": 5129.626734188758,
+      "js_divergence_base2": 0.03840930460079027
+    },
+    {
+      "root_id": "864691135977970499",
+      "poisson_deviance": 0.31267219035846494,
+      "region_density_mae": 0.11668948532834536,
+      "total_count_mae": 120.30983009026386,
+      "regions": 2085,
+      "true_total": 3224.0,
+      "predicted_total": 3103.690169909736,
+      "js_divergence_base2": 0.033758509721058885
+    },
+    {
+      "root_id": "864691135165257517",
+      "poisson_deviance": 0.24259354268511224,
+      "region_density_mae": 0.07356413367601346,
+      "total_count_mae": 6.2404946205206215,
+      "regions": 2544,
+      "true_total": 1925.0,
+      "predicted_total": 1918.7595053794794,
+      "js_divergence_base2": 0.05300121755839881
+    },
+    {
+      "root_id": "864691136976202524",
+      "poisson_deviance": 0.309525049671457,
+      "region_density_mae": 0.07242146476068384,
+      "total_count_mae": 252.533797447104,
+      "regions": 2234,
+      "true_total": 1107.0,
+      "predicted_total": 1359.533797447104,
+      "js_divergence_base2": 0.10566163944993791
+    },
+    {
+      "root_id": "864691135398868257",
+      "poisson_deviance": 0.22661012325753746,
+      "region_density_mae": 0.07506903717634686,
+      "total_count_mae": 191.77967861993238,
+      "regions": 2156,
+      "true_total": 1779.0,
+      "predicted_total": 1970.7796786199324,
+      "js_divergence_base2": 0.04525410538847144
+    },
+    {
+      "root_id": "864691135346975135",
+      "poisson_deviance": 0.2239511759589384,
+      "region_density_mae": 0.06245989037807985,
+      "total_count_mae": 78.95751192606986,
+      "regions": 2897,
+      "true_total": 1746.0,
+      "predicted_total": 1667.0424880739301,
+      "js_divergence_base2": 0.0652065838950537
+    },
+    {
+      "root_id": "864691135617152361",
+      "poisson_deviance": 0.33619003862430125,
+      "region_density_mae": 0.09809242284558277,
+      "total_count_mae": 691.5986619421747,
+      "regions": 4440,
+      "true_total": 3928.0,
+      "predicted_total": 4619.598661942175,
+      "js_divergence_base2": 0.05575637859961523
+    }
+  ],
+  "test_cells": [
+    {
+      "root_id": "864691135518587091",
+      "poisson_deviance": 0.3720175420705146,
+      "region_density_mae": 0.12076879816437859,
+      "total_count_mae": 281.66374969342723,
+      "regions": 2704,
+      "true_total": 3538.0,
+      "predicted_total": 3256.3362503065728,
+      "js_divergence_base2": 0.04734143354642199
+    },
+    {
+      "root_id": "864691136197311820",
+      "poisson_deviance": 0.3961451887103306,
+      "region_density_mae": 0.12666328354970285,
+      "total_count_mae": 244.85556011274457,
+      "regions": 1864,
+      "true_total": 2418.0,
+      "predicted_total": 2173.1444398872554,
+      "js_divergence_base2": 0.054637664049278015
+    },
+    {
+      "root_id": "864691137200012353",
+      "poisson_deviance": 0.21449303919430276,
+      "region_density_mae": 0.07341705269534858,
+      "total_count_mae": 228.61949239484966,
+      "regions": 3558,
+      "true_total": 2938.0,
+      "predicted_total": 3166.6194923948497,
+      "js_divergence_base2": 0.04525612271516031
+    },
+    {
+      "root_id": "864691135343752901",
+      "poisson_deviance": 0.16566873871761734,
+      "region_density_mae": 0.06685577880082308,
+      "total_count_mae": 52.70732332766056,
+      "regions": 2699,
+      "true_total": 2476.0,
+      "predicted_total": 2423.2926766723394,
+      "js_divergence_base2": 0.03143020163695549
+    },
+    {
+      "root_id": "864691135954783011",
+      "poisson_deviance": 0.28133886109710754,
+      "region_density_mae": 0.07968717037811564,
+      "total_count_mae": 211.27912465366535,
+      "regions": 2070,
+      "true_total": 1468.0,
+      "predicted_total": 1679.2791246536653,
+      "js_divergence_base2": 0.06623549873331568
+    },
+    {
+      "root_id": "864691135928395278",
+      "poisson_deviance": 0.2274182666076315,
+      "region_density_mae": 0.07846617765053573,
+      "total_count_mae": 28.764123504515737,
+      "regions": 2079,
+      "true_total": 1900.0,
+      "predicted_total": 1928.7641235045157,
+      "js_divergence_base2": 0.045651302878320095
+    },
+    {
+      "root_id": "864691135886130288",
+      "poisson_deviance": 0.28371742251278154,
+      "region_density_mae": 0.07866482573449368,
+      "total_count_mae": 198.18892149091698,
+      "regions": 2134,
+      "true_total": 1625.0,
+      "predicted_total": 1823.188921490917,
+      "js_divergence_base2": 0.06100671093340307
+    },
+    {
+      "root_id": "864691136814627955",
+      "poisson_deviance": 0.24971895197862798,
+      "region_density_mae": 0.08494658917357373,
+      "total_count_mae": 77.48911180580035,
+      "regions": 2274,
+      "true_total": 2383.0,
+      "predicted_total": 2305.5108881941997,
+      "js_divergence_base2": 0.03900799645654042
+    },
+    {
+      "root_id": "864691135949252193",
+      "poisson_deviance": 0.43529645372761705,
+      "region_density_mae": 0.10434723919085927,
+      "total_count_mae": 149.114646573551,
+      "regions": 3424,
+      "true_total": 3368.0,
+      "predicted_total": 3218.885353426449,
+      "js_divergence_base2": 0.06805639690330077
+    },
+    {
+      "root_id": "864691135274968337",
+      "poisson_deviance": 0.2489307979661637,
+      "region_density_mae": 0.08552531141241378,
+      "total_count_mae": 484.88642005762085,
+      "regions": 2906,
+      "true_total": 3160.0,
+      "predicted_total": 2675.113579942379,
+      "js_divergence_base2": 0.03374937104156421
+    },
+    {
+      "root_id": "864691135470000524",
+      "poisson_deviance": 0.2498816519417568,
+      "region_density_mae": 0.09523152175131543,
+      "total_count_mae": 1253.8440128550865,
+      "regions": 6032,
+      "true_total": 6326.0,
+      "predicted_total": 7579.8440128550865,
+      "js_divergence_base2": 0.035325984774761364
+    },
+    {
+      "root_id": "864691135840099987",
+      "poisson_deviance": 0.2709862728885577,
+      "region_density_mae": 0.07480463830535099,
+      "total_count_mae": 403.4483597755898,
+      "regions": 3256,
+      "true_total": 2582.0,
+      "predicted_total": 2178.55164022441,
+      "js_divergence_base2": 0.04804385536846101
+    },
+    {
+      "root_id": "864691136580258580",
+      "poisson_deviance": 0.3532292598065403,
+      "region_density_mae": 0.09980111709818086,
+      "total_count_mae": 125.07983655226417,
+      "regions": 3946,
+      "true_total": 3943.0,
+      "predicted_total": 3817.920163447736,
+      "js_divergence_base2": 0.05903248278571524
+    },
+    {
+      "root_id": "864691135765180726",
+      "poisson_deviance": 0.3127710879456349,
+      "region_density_mae": 0.12033839137300029,
+      "total_count_mae": 106.2789519848302,
+      "regions": 3471,
+      "true_total": 5192.0,
+      "predicted_total": 5298.27895198483,
+      "js_divergence_base2": 0.03655333779083418
+    },
+    {
+      "root_id": "864691136336107187",
+      "poisson_deviance": 0.27880857015606614,
+      "region_density_mae": 0.0648553801834889,
+      "total_count_mae": 238.54414524906315,
+      "regions": 3433,
+      "true_total": 1970.0,
+      "predicted_total": 2208.544145249063,
+      "js_divergence_base2": 0.07942273363078095
+    },
+    {
+      "root_id": "864691135478316200",
+      "poisson_deviance": 0.23187543328859161,
+      "region_density_mae": 0.06837240580920351,
+      "total_count_mae": 4.35758983460255,
+      "regions": 2272,
+      "true_total": 1740.0,
+      "predicted_total": 1744.3575898346025,
+      "js_divergence_base2": 0.04553238254664772
+    },
+    {
+      "root_id": "864691135853091015",
+      "poisson_deviance": 0.24704071519460735,
+      "region_density_mae": 0.08897625378157124,
+      "total_count_mae": 238.98746591992676,
+      "regions": 2388,
+      "true_total": 2195.0,
+      "predicted_total": 2433.9874659199268,
+      "js_divergence_base2": 0.04795158092984264
+    },
+    {
+      "root_id": "864691137022275182",
+      "poisson_deviance": 0.23991292066472875,
+      "region_density_mae": 0.08163128907271086,
+      "total_count_mae": 32.178457075264305,
+      "regions": 2551,
+      "true_total": 2435.0,
+      "predicted_total": 2467.1784570752643,
+      "js_divergence_base2": 0.041140482306687785
+    },
+    {
+      "root_id": "864691135347733151",
+      "poisson_deviance": 0.27275732265950164,
+      "region_density_mae": 0.08264020833500486,
+      "total_count_mae": 192.25417723413557,
+      "regions": 2250,
+      "true_total": 1708.0,
+      "predicted_total": 1900.2541772341356,
+      "js_divergence_base2": 0.06358227693550703
+    },
+    {
+      "root_id": "864691135593323019",
+      "poisson_deviance": 0.2879018279090045,
+      "region_density_mae": 0.10394384157655333,
+      "total_count_mae": 1024.928653935669,
+      "regions": 4799,
+      "true_total": 5071.0,
+      "predicted_total": 6095.928653935669,
+      "js_divergence_base2": 0.04092045871984065
+    },
+    {
+      "root_id": "864691135277309669",
+      "poisson_deviance": 0.35945599514400445,
+      "region_density_mae": 0.11430131792915374,
+      "total_count_mae": 394.3382354741916,
+      "regions": 3231,
+      "true_total": 3404.0,
+      "predicted_total": 3798.3382354741916,
+      "js_divergence_base2": 0.06352156377593525
+    },
+    {
+      "root_id": "864691135196576298",
+      "poisson_deviance": 0.23980628834645953,
+      "region_density_mae": 0.053991648783150235,
+      "total_count_mae": 21.48557779425755,
+      "regions": 3012,
+      "true_total": 1744.0,
+      "predicted_total": 1722.5144222057424,
+      "js_divergence_base2": 0.06246883935563499
+    },
+    {
+      "root_id": "864691135577816862",
+      "poisson_deviance": 0.23074080753651818,
+      "region_density_mae": 0.06568796733396386,
+      "total_count_mae": 87.91846753191203,
+      "regions": 2680,
+      "true_total": 1732.0,
+      "predicted_total": 1819.918467531912,
+      "js_divergence_base2": 0.0595743028348388
+    },
+    {
+      "root_id": "864691135210764921",
+      "poisson_deviance": 0.4138844806489866,
+      "region_density_mae": 0.1410012463809743,
+      "total_count_mae": 485.75001411139965,
+      "regions": 2194,
+      "true_total": 3712.0,
+      "predicted_total": 3226.2499858886003,
+      "js_divergence_base2": 0.03653875967097523
+    },
+    {
+      "root_id": "864691135641518395",
+      "poisson_deviance": 0.23447490005971863,
+      "region_density_mae": 0.05512644479940903,
+      "total_count_mae": 297.67029559169896,
+      "regions": 3202,
+      "true_total": 1302.0,
+      "predicted_total": 1599.670295591699,
+      "js_divergence_base2": 0.08961991869664435
+    },
+    {
+      "root_id": "864691136177726726",
+      "poisson_deviance": 0.3157781156319172,
+      "region_density_mae": 0.08452250929422397,
+      "total_count_mae": 21.132188191637397,
+      "regions": 2513,
+      "true_total": 1864.0,
+      "predicted_total": 1885.1321881916374,
+      "js_divergence_base2": 0.07970506355036373
+    },
+    {
+      "root_id": "864691136196540136",
+      "poisson_deviance": 0.3285295029474762,
+      "region_density_mae": 0.1254648220922455,
+      "total_count_mae": 471.0994319138117,
+      "regions": 2942,
+      "true_total": 4433.0,
+      "predicted_total": 4904.099431913812,
+      "js_divergence_base2": 0.036607609220034094
+    },
+    {
+      "root_id": "864691135235532121",
+      "poisson_deviance": 0.31954712426170573,
+      "region_density_mae": 0.07738832572202982,
+      "total_count_mae": 283.26319495541975,
+      "regions": 2312,
+      "true_total": 1278.0,
+      "predicted_total": 1561.2631949554197,
+      "js_divergence_base2": 0.09884138717901109
+    },
+    {
+      "root_id": "864691135357654223",
+      "poisson_deviance": 0.21858914849194147,
+      "region_density_mae": 0.0814024244110191,
+      "total_count_mae": 891.3200163212605,
+      "regions": 4746,
+      "true_total": 3484.0,
+      "predicted_total": 4375.3200163212605,
+      "js_divergence_base2": 0.04465576851143888
+    },
+    {
+      "root_id": "864691135398817569",
+      "poisson_deviance": 0.3835838489574734,
+      "region_density_mae": 0.10285687505471068,
+      "total_count_mae": 20.40184607123956,
+      "regions": 2447,
+      "true_total": 2179.0,
+      "predicted_total": 2199.4018460712396,
+      "js_divergence_base2": 0.08288800455519617
+    },
+    {
+      "root_id": "864691135102580256",
+      "poisson_deviance": 0.2134010276896651,
+      "region_density_mae": 0.0689904195376517,
+      "total_count_mae": 39.22642839583568,
+      "regions": 3817,
+      "true_total": 3206.0,
+      "predicted_total": 3245.2264283958357,
+      "js_divergence_base2": 0.04234669521135856
+    },
+    {
+      "root_id": "864691136425889839",
+      "poisson_deviance": 0.23269715670524743,
+      "region_density_mae": 0.05805451455838075,
+      "total_count_mae": 69.5389744816348,
+      "regions": 2826,
+      "true_total": 1567.0,
+      "predicted_total": 1636.5389744816348,
+      "js_divergence_base2": 0.06724502809965678
+    },
+    {
+      "root_id": "864691135586240120",
+      "poisson_deviance": 0.3193100308519743,
+      "region_density_mae": 0.09981201781857543,
+      "total_count_mae": 354.8672398130875,
+      "regions": 2745,
+      "true_total": 2740.0,
+      "predicted_total": 2385.1327601869125,
+      "js_divergence_base2": 0.05343869337948333
+    },
+    {
+      "root_id": "864691135741910164",
+      "poisson_deviance": 0.3097261867916073,
+      "region_density_mae": 0.08774045933883669,
+      "total_count_mae": 19.39830875163898,
+      "regions": 2810,
+      "true_total": 2737.0,
+      "predicted_total": 2717.601691248361,
+      "js_divergence_base2": 0.04920667219645239
+    },
+    {
+      "root_id": "864691136906500786",
+      "poisson_deviance": 0.3045100618466107,
+      "region_density_mae": 0.11641157099304573,
+      "total_count_mae": 883.58135276963,
+      "regions": 3936,
+      "true_total": 5270.0,
+      "predicted_total": 6153.58135276963,
+      "js_divergence_base2": 0.03387385042721212
+    },
+    {
+      "root_id": "864691135361231448",
+      "poisson_deviance": 0.2594922279946898,
+      "region_density_mae": 0.07686462611303807,
+      "total_count_mae": 160.36207675887272,
+      "regions": 2817,
+      "true_total": 2613.0,
+      "predicted_total": 2452.6379232411273,
+      "js_divergence_base2": 0.04189727923198812
+    },
+    {
+      "root_id": "864691135571698822",
+      "poisson_deviance": 0.24156001133046365,
+      "region_density_mae": 0.10197379297957399,
+      "total_count_mae": 403.01958792982623,
+      "regions": 3614,
+      "true_total": 5876.0,
+      "predicted_total": 5472.980412070174,
+      "js_divergence_base2": 0.02233989097403951
+    },
+    {
+      "root_id": "864691135756513229",
+      "poisson_deviance": 0.36671220185332754,
+      "region_density_mae": 0.09467144026604608,
+      "total_count_mae": 288.6403337237425,
+      "regions": 3155,
+      "true_total": 2938.0,
+      "predicted_total": 2649.3596662762575,
+      "js_divergence_base2": 0.06407031979456347
+    },
+    {
+      "root_id": "864691135385592043",
+      "poisson_deviance": 0.34324066368834966,
+      "region_density_mae": 0.12650999929229068,
+      "total_count_mae": 124.23452993994579,
+      "regions": 2385,
+      "true_total": 3669.0,
+      "predicted_total": 3544.765470060054,
+      "js_divergence_base2": 0.03961201636962655
+    },
+    {
+      "root_id": "864691136139308157",
+      "poisson_deviance": 0.32707133370595987,
+      "region_density_mae": 0.12355446777499825,
+      "total_count_mae": 442.6064754757099,
+      "regions": 3206,
+      "true_total": 4268.0,
+      "predicted_total": 4710.60647547571,
+      "js_divergence_base2": 0.04311047009843092
+    },
+    {
+      "root_id": "864691135886343280",
+      "poisson_deviance": 0.2662721838474691,
+      "region_density_mae": 0.08477702239939088,
+      "total_count_mae": 951.7009972301312,
+      "regions": 4562,
+      "true_total": 3649.0,
+      "predicted_total": 4600.700997230131,
+      "js_divergence_base2": 0.04275844792259886
+    },
+    {
+      "root_id": "864691135347927711",
+      "poisson_deviance": 0.40602852719185695,
+      "region_density_mae": 0.16082182701628528,
+      "total_count_mae": 153.9126627133228,
+      "regions": 2324,
+      "true_total": 4793.0,
+      "predicted_total": 4639.087337286677,
+      "js_divergence_base2": 0.03338288177519749
+    },
+    {
+      "root_id": "864691136373236616",
+      "poisson_deviance": 0.2774164077783988,
+      "region_density_mae": 0.09540616432618047,
+      "total_count_mae": 9.07169238710776,
+      "regions": 2464,
+      "true_total": 2672.0,
+      "predicted_total": 2662.9283076128922,
+      "js_divergence_base2": 0.0446652066456383
+    },
+    {
+      "root_id": "864691136108852953",
+      "poisson_deviance": 0.2793611769213927,
+      "region_density_mae": 0.10321348149840746,
+      "total_count_mae": 294.12329565221444,
+      "regions": 2499,
+      "true_total": 2625.0,
+      "predicted_total": 2919.1232956522144,
+      "js_divergence_base2": 0.04744982800732914
+    },
+    {
+      "root_id": "864691136026394425",
+      "poisson_deviance": 0.40697014711716367,
+      "region_density_mae": 0.1024385523750451,
+      "total_count_mae": 147.3828327327501,
+      "regions": 1266,
+      "true_total": 1147.0,
+      "predicted_total": 1294.38283273275,
+      "js_divergence_base2": 0.08227248237648405
+    },
+    {
+      "root_id": "864691135741998484",
+      "poisson_deviance": 0.2319188186552175,
+      "region_density_mae": 0.06944001807379661,
+      "total_count_mae": 160.37593792029656,
+      "regions": 3514,
+      "true_total": 2665.0,
+      "predicted_total": 2825.3759379202966,
+      "js_divergence_base2": 0.0512857011762856
+    },
+    {
+      "root_id": "864691135695146943",
+      "poisson_deviance": 0.27199465861441074,
+      "region_density_mae": 0.10904613463608874,
+      "total_count_mae": 517.2689582621679,
+      "regions": 2845,
+      "true_total": 3790.0,
+      "predicted_total": 4307.268958262168,
+      "js_divergence_base2": 0.03339789529925699
+    },
+    {
+      "root_id": "864691136968989646",
+      "poisson_deviance": 0.2759756121785563,
+      "region_density_mae": 0.1134179677303559,
+      "total_count_mae": 78.73716832348146,
+      "regions": 2762,
+      "true_total": 3613.0,
+      "predicted_total": 3691.7371683234815,
+      "js_divergence_base2": 0.039428225394494906
+    },
+    {
+      "root_id": "864691135405733870",
+      "poisson_deviance": 0.21745600728888198,
+      "region_density_mae": 0.06665921111725603,
+      "total_count_mae": 231.78699082764797,
+      "regions": 3276,
+      "true_total": 2280.0,
+      "predicted_total": 2511.786990827648,
+      "js_divergence_base2": 0.0510599228169029
+    },
+    {
+      "root_id": "864691136676165255",
+      "poisson_deviance": 0.3624861747573785,
+      "region_density_mae": 0.11094472198046701,
+      "total_count_mae": 332.89669930026866,
+      "regions": 2278,
+      "true_total": 2365.0,
+      "predicted_total": 2032.1033006997313,
+      "js_divergence_base2": 0.06194661500474451
+    },
+    {
+      "root_id": "864691135817949519",
+      "poisson_deviance": 0.28803744573408446,
+      "region_density_mae": 0.08208860644236741,
+      "total_count_mae": 276.9397435262799,
+      "regions": 2663,
+      "true_total": 2365.0,
+      "predicted_total": 2088.06025647372,
+      "js_divergence_base2": 0.04770766473820327
+    },
+    {
+      "root_id": "864691135448627090",
+      "poisson_deviance": 0.4509443877038875,
+      "region_density_mae": 0.13784910035461412,
+      "total_count_mae": 39.22579523245804,
+      "regions": 2529,
+      "true_total": 3337.0,
+      "predicted_total": 3376.225795232458,
+      "js_divergence_base2": 0.06259038309223075
+    },
+    {
+      "root_id": "864691135503182685",
+      "poisson_deviance": 0.9013674936789215,
+      "region_density_mae": 0.23317520268288447,
+      "total_count_mae": 382.64950217027217,
+      "regions": 4427,
+      "true_total": 10922.0,
+      "predicted_total": 10539.350497829728,
+      "js_divergence_base2": 0.054485703233421945
+    },
+    {
+      "root_id": "864691136621234573",
+      "poisson_deviance": 0.4168872039704107,
+      "region_density_mae": 0.17234042597031365,
+      "total_count_mae": 64.18360862985719,
+      "regions": 3444,
+      "true_total": 7471.0,
+      "predicted_total": 7535.183608629857,
+      "js_divergence_base2": 0.03475498657711525
+    },
+    {
+      "root_id": "864691136240071996",
+      "poisson_deviance": 0.3432068832839695,
+      "region_density_mae": 0.07019513232987314,
+      "total_count_mae": 79.94305701320991,
+      "regions": 1937,
+      "true_total": 1014.0,
+      "predicted_total": 934.0569429867901,
+      "js_divergence_base2": 0.11925097016344563
+    },
+    {
+      "root_id": "864691135810557469",
+      "poisson_deviance": 0.32722555221872157,
+      "region_density_mae": 0.07727097435276156,
+      "total_count_mae": 160.29766134312376,
+      "regions": 2249,
+      "true_total": 1496.0,
+      "predicted_total": 1656.2976613431238,
+      "js_divergence_base2": 0.07602320810600553
+    },
+    {
+      "root_id": "864691135920571056",
+      "poisson_deviance": 0.24868095291091333,
+      "region_density_mae": 0.06313260546275723,
+      "total_count_mae": 114.02572277607396,
+      "regions": 2061,
+      "true_total": 1132.0,
+      "predicted_total": 1246.025722776074,
+      "js_divergence_base2": 0.07776308219471481
+    },
+    {
+      "root_id": "864691135620009615",
+      "poisson_deviance": 0.2511767784346966,
+      "region_density_mae": 0.06313871335017088,
+      "total_count_mae": 245.00229569128715,
+      "regions": 2547,
+      "true_total": 1246.0,
+      "predicted_total": 1491.0022956912871,
+      "js_divergence_base2": 0.08538861777496251
+    },
+    {
+      "root_id": "864691135940267061",
+      "poisson_deviance": 0.2630508883366147,
+      "region_density_mae": 0.09900298936630934,
+      "total_count_mae": 320.64961813529953,
+      "regions": 2979,
+      "true_total": 3146.0,
+      "predicted_total": 3466.6496181352995,
+      "js_divergence_base2": 0.04357576186544551
+    },
+    {
+      "root_id": "864691135563017953",
+      "poisson_deviance": 0.22044247413206475,
+      "region_density_mae": 0.08109537954701333,
+      "total_count_mae": 31.785894291242585,
+      "regions": 2299,
+      "true_total": 2454.0,
+      "predicted_total": 2422.2141057087574,
+      "js_divergence_base2": 0.03618121467491097
+    },
+    {
+      "root_id": "864691136229363025",
+      "poisson_deviance": 0.4715837030630732,
+      "region_density_mae": 0.08635766506876338,
+      "total_count_mae": 127.40334312967025,
+      "regions": 1910,
+      "true_total": 1180.0,
+      "predicted_total": 1052.5966568703298,
+      "js_divergence_base2": 0.12809021001731913
+    },
+    {
+      "root_id": "864691135616533451",
+      "poisson_deviance": 0.23572724614246132,
+      "region_density_mae": 0.061802756199845446,
+      "total_count_mae": 194.23838363983668,
+      "regions": 2293,
+      "true_total": 1175.0,
+      "predicted_total": 1369.2383836398367,
+      "js_divergence_base2": 0.08662328813515592
+    },
+    {
+      "root_id": "864691135275003153",
+      "poisson_deviance": 0.27093711303921286,
+      "region_density_mae": 0.08144834163091395,
+      "total_count_mae": 207.7663904428482,
+      "regions": 3851,
+      "true_total": 3772.0,
+      "predicted_total": 3979.766390442848,
+      "js_divergence_base2": 0.042010389690832
+    },
+    {
+      "root_id": "864691135340403942",
+      "poisson_deviance": 0.2514290303473833,
+      "region_density_mae": 0.10070839333184624,
+      "total_count_mae": 160.33519324031658,
+      "regions": 3169,
+      "true_total": 3836.0,
+      "predicted_total": 3996.3351932403166,
+      "js_divergence_base2": 0.037921789664336916
+    },
+    {
+      "root_id": "864691135742097044",
+      "poisson_deviance": 0.25740024719512167,
+      "region_density_mae": 0.07984604846510616,
+      "total_count_mae": 254.02814593119547,
+      "regions": 2671,
+      "true_total": 2164.0,
+      "predicted_total": 2418.0281459311955,
+      "js_divergence_base2": 0.051983035566195074
+    },
+    {
+      "root_id": "864691136991202453",
+      "poisson_deviance": 0.7592436970554243,
+      "region_density_mae": 0.23538454739959908,
+      "total_count_mae": 339.5639161929721,
+      "regions": 5621,
+      "true_total": 15216.0,
+      "predicted_total": 15555.563916192972,
+      "js_divergence_base2": 0.04421942756223531
+    },
+    {
+      "root_id": "864691135579520005",
+      "poisson_deviance": 0.27769774386770446,
+      "region_density_mae": 0.11213874672739936,
+      "total_count_mae": 106.36232467042282,
+      "regions": 3243,
+      "true_total": 4379.0,
+      "predicted_total": 4272.637675329577,
+      "js_divergence_base2": 0.036072941613894585
+    },
+    {
+      "root_id": "864691135361314119",
+      "poisson_deviance": 0.2628862333718433,
+      "region_density_mae": 0.09833984236563698,
+      "total_count_mae": 31.893236544681713,
+      "regions": 2850,
+      "true_total": 3146.0,
+      "predicted_total": 3177.8932365446817,
+      "js_divergence_base2": 0.04313841252230425
+    },
+    {
+      "root_id": "864691135493179623",
+      "poisson_deviance": 0.2161624093986031,
+      "region_density_mae": 0.07638349990645238,
+      "total_count_mae": 161.70055018831044,
+      "regions": 2382,
+      "true_total": 2168.0,
+      "predicted_total": 2006.2994498116896,
+      "js_divergence_base2": 0.04175301015705287
+    },
+    {
+      "root_id": "864691137022342766",
+      "poisson_deviance": 0.2663913469678604,
+      "region_density_mae": 0.09535891348876259,
+      "total_count_mae": 284.49418350635096,
+      "regions": 2836,
+      "true_total": 2864.0,
+      "predicted_total": 3148.494183506351,
+      "js_divergence_base2": 0.04624208336944328
+    },
+    {
+      "root_id": "864691135689880032",
+      "poisson_deviance": 0.23740128561160748,
+      "region_density_mae": 0.10700495987544793,
+      "total_count_mae": 408.5403528616298,
+      "regions": 3560,
+      "true_total": 4786.0,
+      "predicted_total": 5194.54035286163,
+      "js_divergence_base2": 0.029834982463254736
+    },
+    {
+      "root_id": "864691136026462521",
+      "poisson_deviance": 0.298333723967312,
+      "region_density_mae": 0.11556285967471845,
+      "total_count_mae": 67.38633199362084,
+      "regions": 2624,
+      "true_total": 3417.0,
+      "predicted_total": 3349.613668006379,
+      "js_divergence_base2": 0.04200183185005884
+    },
+    {
+      "root_id": "864691136007566538",
+      "poisson_deviance": 0.24798826854696476,
+      "region_density_mae": 0.11801221497327735,
+      "total_count_mae": 312.7592300348915,
+      "regions": 3455,
+      "true_total": 5621.0,
+      "predicted_total": 5933.7592300348915,
+      "js_divergence_base2": 0.02639781778447552
+    },
+    {
+      "root_id": "864691135578069278",
+      "poisson_deviance": 0.2810264454061443,
+      "region_density_mae": 0.11207465703945663,
+      "total_count_mae": 164.86311138933524,
+      "regions": 3685,
+      "true_total": 5263.0,
+      "predicted_total": 5427.863111389335,
+      "js_divergence_base2": 0.0361437043892905
+    },
+    {
+      "root_id": "864691135892214409",
+      "poisson_deviance": 0.36617625896863903,
+      "region_density_mae": 0.1376257717256669,
+      "total_count_mae": 136.62601173226722,
+      "regions": 2625,
+      "true_total": 4376.0,
+      "predicted_total": 4239.373988267733,
+      "js_divergence_base2": 0.03739189465305916
+    },
+    {
+      "root_id": "864691136976247324",
+      "poisson_deviance": 0.20843799517741937,
+      "region_density_mae": 0.06732949741590877,
+      "total_count_mae": 326.57821177272126,
+      "regions": 5297,
+      "true_total": 4404.0,
+      "predicted_total": 4730.578211772721,
+      "js_divergence_base2": 0.042845731710167756
+    },
+    {
+      "root_id": "864691135917743462",
+      "poisson_deviance": 0.22829593501172576,
+      "region_density_mae": 0.05925421773810542,
+      "total_count_mae": 286.52586624165997,
+      "regions": 4154,
+      "true_total": 2014.0,
+      "predicted_total": 2300.52586624166,
+      "js_divergence_base2": 0.0839144364020194
+    },
+    {
+      "root_id": "864691135470895186",
+      "poisson_deviance": 0.19838686333942873,
+      "region_density_mae": 0.054980513680618265,
+      "total_count_mae": 228.00398115906864,
+      "regions": 3977,
+      "true_total": 2165.0,
+      "predicted_total": 2393.0039811590686,
+      "js_divergence_base2": 0.05879070451212429
+    },
+    {
+      "root_id": "864691135701746978",
+      "poisson_deviance": 0.2766989678895396,
+      "region_density_mae": 0.08978596212142106,
+      "total_count_mae": 350.86121871042997,
+      "regions": 2397,
+      "true_total": 1944.0,
+      "predicted_total": 2294.86121871043,
+      "js_divergence_base2": 0.05938391176038858
+    },
+    {
+      "root_id": "864691135728052799",
+      "poisson_deviance": 0.27676940389839666,
+      "region_density_mae": 0.06539553689852265,
+      "total_count_mae": 104.63154470175505,
+      "regions": 3024,
+      "true_total": 1654.0,
+      "predicted_total": 1758.631544701755,
+      "js_divergence_base2": 0.0839462232284281
+    }
+  ]
+}

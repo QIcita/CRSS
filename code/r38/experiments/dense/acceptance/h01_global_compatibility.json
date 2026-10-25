@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "initial": "48c2885477bd0e88141cd7363302f156a1d8702aa08a5986bd481594a3683d1a",
+  "key": "3751392341",
+  "reference": "original R38",
+  "two_steps": [
+    {
+      "step": 1,
+      "loss": 3.287545919418335,
+      "shared_parameters_exact": true
+    },
+    {
+      "step": 2,
+      "loss": 2.7292752265930176,
+      "shared_parameters_exact": true
+    }
+  ]
+}

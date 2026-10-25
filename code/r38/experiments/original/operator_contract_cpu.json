@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "device": "cpu",
+  "dtype": "torch.float64",
+  "parameters": 9216,
+  "zero_output_and_input_gradient_exact": true,
+  "pair_zero_anchor_exact": true,
+  "perturbation_bound": true,
+  "anchored_pair_errors": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "third_order_contrast_max_abs": 1.734723475976807e-18,
+  "input_and_all_parameter_gradcheck": true,
+  "all_parameters_active": true,
+  "checkpoint_cases": [
+    {
+      "patches": 1,
+      "output_exact": true,
+      "gradient_max_abs": 0.0
+    },
+    {
+      "patches": 17,
+      "output_exact": true,
+      "gradient_max_abs": 0.0
+    },
+    {
+      "patches": 4097,
+      "output_exact": true,
+      "gradient_max_abs": 0.0
+    }
+  ],
+  "test_used": false,
+  "real_model_test": false
+}

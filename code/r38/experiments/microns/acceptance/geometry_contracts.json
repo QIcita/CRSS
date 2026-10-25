@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "reversed_edges": true,
+  "exact_exposure": true,
+  "boundary_assignment": true,
+  "topology_prevents_branch_jump": true,
+  "geometry_control_features": true,
+  "real_train_root": "864691135573570797"
+}

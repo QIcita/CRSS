@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "task": "h01_local",
+  "manifest_sha256": "8e80b36196f77a0583962d2ca37fa2e27fb4916ccd1acf11d8b49a106b281728",
+  "records": 930,
+  "train": 716,
+  "development": 214,
+  "cell_disjoint": true,
+  "checked_cache_files": 1860,
+  "exact_parent_manifest": true,
+  "test_used": false,
+  "geometry_copied": false,
+  "protocol_sha256": "f09842b051cefd9bc8825357608a142566521fbdda368c626ee0d1af79ce900e"
+}

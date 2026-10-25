@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "manifest_sha256": "5f8bcae26dc3b27808d29802da20082a952c17a3f75e3a95b4c0ea7fc8152e21",
+  "train": 80,
+  "val": 24,
+  "cell_disjoint": true,
+  "test_used": false,
+  "canonical_input_unchanged": true,
+  "cache_bytes_hash_verified_on_load": true,
+  "full_byte_reaudit_before_training": false
+}

@@ -1,0 +1,149 @@
+{
+  "state": "ready_for_comparison",
+  "results": {
+    "h01_local": {
+      "r38": {
+        "passed": true,
+        "metrics": {
+          "macro_f1": 0.6544237405106971,
+          "accuracy": 0.6542056074766355,
+          "confusion_matrix": [
+            [
+              43,
+              20,
+              9
+            ],
+            [
+              12,
+              49,
+              11
+            ],
+            [
+              13,
+              9,
+              48
+            ]
+          ]
+        },
+        "epochs": 25,
+        "steps": 2250,
+        "final_sha256": "54e82e166964c75f012e834077890bdfb25d239af7b20e11f1c9eed52abf532f",
+        "predictions_sha256": "a54a07c936f8096e8535ff2c403906b31d2ddd46c426183a7684a2969ef0d279",
+        "protocol_sha256": "f09842b051cefd9bc8825357608a142566521fbdda368c626ee0d1af79ce900e"
+      },
+      "r34": {
+        "passed": true,
+        "metrics": {
+          "macro_f1": 0.6503939455695372,
+          "accuracy": 0.6495327102803738,
+          "confusion_matrix": [
+            [
+              44,
+              19,
+              9
+            ],
+            [
+              14,
+              49,
+              9
+            ],
+            [
+              15,
+              9,
+              46
+            ]
+          ]
+        },
+        "epochs": 25,
+        "steps": 2250,
+        "final_sha256": "607683b334abee858a5dde597ea2f4a9a4bda37a2aceb088a9de16318690db0c",
+        "predictions_sha256": "3a4bc5d53a56afb1b353f91dd2e9ccafd2a1e8a00b30269c92a82e4a80195fb7",
+        "protocol_sha256": "a0e71fa711f1f1713c8cc65102a220c7dbb387b60f4698e644c83f11614f4738"
+      },
+      "r28": {
+        "passed": true,
+        "metrics": {
+          "macro_f1": 0.6543738501323414,
+          "accuracy": 0.6542056074766355,
+          "confusion_matrix": [
+            [
+              43,
+              20,
+              9
+            ],
+            [
+              11,
+              49,
+              12
+            ],
+            [
+              11,
+              11,
+              48
+            ]
+          ]
+        },
+        "epochs": 25,
+        "steps": 2250,
+        "final_sha256": "61c79e503bcc3b4a0cd37dc34137acbc8842173d10b438c5c5ae317322d0ea8e",
+        "predictions_sha256": "1cce92554192362c8e0924933aec0e6d53f9bdc503a352159ce255e16a07baab",
+        "protocol_sha256": "01bad09907e5540aa5bf15a9ca46f573bd3b23a0fb424ddcf270eccb851d7213"
+      }
+    },
+    "h01_global": {
+      "r38": {
+        "passed": true,
+        "metrics": {
+          "mae": 0.05142130826910337,
+          "rmse": 0.06758782545826587,
+          "r2": 0.719589436087017
+        },
+        "epochs": 50,
+        "steps": 1000,
+        "final_sha256": "4317b2d11387e7e0200464dfd371b7a74e91a0a71b2683c2d8181522a128c6f9",
+        "predictions_sha256": "e5c9c10840fad36e1d39a8c472c3ba1db0f8039f6e20141d47bfa93bdc0911d5",
+        "protocol_sha256": "f09842b051cefd9bc8825357608a142566521fbdda368c626ee0d1af79ce900e"
+      },
+      "r34": {
+        "passed": true,
+        "metrics": {
+          "mae": 0.05153724489112695,
+          "rmse": 0.06752297727348801,
+          "r2": 0.7201272664558244
+        },
+        "epochs": 50,
+        "steps": 1000,
+        "final_sha256": "a8f3860d4f6b916d46cd8c6ba5bd1a6f2f97a916e0a13554867451ce9e8aeb34",
+        "predictions_sha256": "2b007086dea524769ad25960d7965e3a9a99ed5e3444f8fb01502f635bb6933f",
+        "protocol_sha256": "a0e71fa711f1f1713c8cc65102a220c7dbb387b60f4698e644c83f11614f4738"
+      },
+      "r28": {
+        "passed": true,
+        "metrics": {
+          "mae": 0.05154775331417719,
+          "rmse": 0.06757373851260405,
+          "r2": 0.7197063126605323
+        },
+        "epochs": 50,
+        "steps": 1000,
+        "final_sha256": "f2382d2efb62583d9048e023eb165840e8cd8032088fed306b33618610bb1823",
+        "predictions_sha256": "a290ad4079831142ee202ce7db4ee698ada39798111bdefa5fb121434dd90124",
+        "protocol_sha256": "01bad09907e5540aa5bf15a9ca46f573bd3b23a0fb424ddcf270eccb851d7213"
+      }
+    }
+  },
+  "primary_deltas": {
+    "h01_local": {
+      "r34": 0.004029794941159848,
+      "r28": 4.9890378355677e-05
+    },
+    "h01_global": {
+      "r34": -0.00011593662202358246,
+      "r28": -0.00012644504507382248
+    }
+  },
+  "selection": "fixed final epoch development",
+  "test_used": false,
+  "reference": "R28 remains reference; this two-task experiment does not promote a six-task model",
+  "next_stage_started": false
+}

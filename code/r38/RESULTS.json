@@ -1,0 +1,191 @@
+{
+  "snapshot_time_beijing": "2026-10-25T20:54:21.554385+08:00",
+  "seed": 42,
+  "flywire_primary_metric": "macro_f1",
+  "research_reference": "R28",
+  "records": [
+    {
+      "variant": "original",
+      "task": "h01_local",
+      "state": "complete",
+      "evaluation": "development_fixed_final_epoch",
+      "epochs": 25,
+      "updates": 2250,
+      "metrics": {
+        "macro_f1": 0.6544237405106971,
+        "accuracy": 0.6542056074766355,
+        "confusion_matrix": [
+          [
+            43,
+            20,
+            9
+          ],
+          [
+            12,
+            49,
+            11
+          ],
+          [
+            13,
+            9,
+            48
+          ]
+        ]
+      },
+      "checkpoint": "experiments/original/results/r38_h01_local/final.pt",
+      "checkpoint_sha256": "54e82e166964c75f012e834077890bdfb25d239af7b20e11f1c9eed52abf532f",
+      "source": "experiments/original/results/r38_h01_local/metrics.json"
+    },
+    {
+      "variant": "original",
+      "task": "h01_global",
+      "state": "complete",
+      "evaluation": "development_fixed_final_epoch",
+      "epochs": 50,
+      "updates": 1000,
+      "metrics": {
+        "mae": 0.05142130826910337,
+        "rmse": 0.06758782545826587,
+        "r2": 0.719589436087017
+      },
+      "checkpoint": "experiments/original/results/r38_h01_global/final.pt",
+      "checkpoint_sha256": "4317b2d11387e7e0200464dfd371b7a74e91a0a71b2683c2d8181522a128c6f9",
+      "source": "experiments/original/results/r38_h01_global/metrics.json"
+    },
+    {
+      "variant": "dense",
+      "task": "h01_global",
+      "state": "complete",
+      "evaluation": "development_fixed_final_epoch",
+      "epochs": 50,
+      "updates": 1000,
+      "metrics": {
+        "mae": 0.050025708973407745,
+        "rmse": 0.06691318398279371,
+        "r2": 0.725159446460147
+      },
+      "checkpoint": "experiments/dense/results/r38_h01_global/final.pt",
+      "checkpoint_sha256": "79a1a01e3fda1649e2b806a529f7b39482c94125f1d3f9340f85dbb5581182be",
+      "source": "experiments/dense/results/r38_h01_global/metrics.json"
+    },
+    {
+      "variant": "dense",
+      "task": "flywire_coarse",
+      "state": "complete",
+      "evaluation": "development_fixed_final_epoch",
+      "epochs": 50,
+      "updates": 62200,
+      "metrics": {
+        "macro_f1": 0.742620552338202,
+        "accuracy": 0.9406867845993756,
+        "confusion_matrix": [
+          [
+            24,
+            4,
+            1,
+            2,
+            1,
+            0
+          ],
+          [
+            0,
+            276,
+            25,
+            0,
+            2,
+            14
+          ],
+          [
+            2,
+            20,
+            1220,
+            4,
+            0,
+            8
+          ],
+          [
+            1,
+            0,
+            3,
+            241,
+            0,
+            0
+          ],
+          [
+            0,
+            5,
+            0,
+            0,
+            1,
+            2
+          ],
+          [
+            0,
+            12,
+            6,
+            0,
+            2,
+            46
+          ]
+        ]
+      },
+      "checkpoint": "experiments/dense/results/r38_flywire_coarse/final.pt",
+      "checkpoint_sha256": "68d518e7f2702caa9e74ffd11dbd97ead4af9c5e973b73595f4d046c6b1f1fbd",
+      "source": "experiments/dense/results/r38_flywire_coarse/metrics.json"
+    },
+    {
+      "variant": "microns",
+      "task": "regional_input_synapse_distribution",
+      "state": "complete",
+      "evaluation": "validation_selected_then_final_test",
+      "epochs": 50,
+      "updates": 4750,
+      "selected_epoch": 24,
+      "metrics": {
+        "validation": {
+          "cells": 79,
+          "regions": 255148,
+          "cell_macro_poisson_deviance": 0.3370386347753954,
+          "cell_macro_region_density_mae": 0.09886826720430075,
+          "cell_macro_total_count_mae": 344.76539582211547,
+          "cell_macro_js_divergence_base2": 0.05209702492840699,
+          "js_eligible_cells": 79
+        },
+        "test": {
+          "cells": 80,
+          "regions": 241249,
+          "cell_macro_poisson_deviance": 0.3022236891567832,
+          "cell_macro_region_density_mae": 0.09608141676562187,
+          "cell_macro_total_count_mae": 252.29807952838019,
+          "cell_macro_js_divergence_base2": 0.05356893792134561,
+          "js_eligible_cells": 80
+        }
+      },
+      "checkpoint": "experiments/microns/results/r38_dense/best.pt",
+      "checkpoint_sha256": "bc4eb3a0eb0ac3a94ae04cefd7d6dedc73e51405fdd6fc8bfd93bf5e9552942a",
+      "source": "experiments/microns/results/r38_dense/metrics.json"
+    },
+    {
+      "variant": "fine",
+      "task": "flywire_fine",
+      "state": "paused_by_user",
+      "metrics": null,
+      "checkpoint": null,
+      "source": "experiments/fine/PAUSED_BY_USER.json"
+    },
+    {
+      "variant": "drw",
+      "task": "flywire_coarse",
+      "state": "training_snapshot",
+      "metrics": null,
+      "checkpoint": null,
+      "source": "experiments/drw/results/r38_flywire_coarse/status.json"
+    }
+  ],
+  "h01_local_dense": {
+    "new_training": false,
+    "source": "experiments/fine/h01_local_equivalence.json",
+    "reuse": "original/h01_local",
+    "reason": "No training or development sample triggers dense grouping; exact compatibility verified"
+  }
+}
