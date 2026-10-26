@@ -3,6 +3,7 @@ import torch
 
 from .compatibility import CompatibilityMixin, rename
 from .unit import ContextualMorphology, JointContext, add
+from .support import SurfaceSupport
 
 
 class JointContextModel(CompatibilityMixin):
@@ -12,7 +13,7 @@ class JointContextModel(CompatibilityMixin):
         u = g['nregions']
         hg = self.graph(g['sf'])
         px = self.point(g['pf'])
-        patches = self.cmm(px, g)
+        patches = self.cmm(SurfaceSupport(g, px))
         sr, sn = g['sr'], g['sn']
         pr, pj = g['pr'], g['pj']
         path = (g['s'][sn] - g['pos'][sr]) / g['radius']
