@@ -1,40 +1,36 @@
-"""Explicit CMM -> regional aggregation -> RCM, without transient forward hooks."""
+"""Explicit CMM -> RCM -> original regional processor and task readout."""
 import torch
 
 from .compatibility import CompatibilityMixin, rename
-from .unit import ContextualMorphology, JointContext, add
+from .unit import ContextualMorphology, JointContext
 from .support import SurfaceSupport
+from .regional import RegionalSupport, RegionalGeometry, RegionalCoupling
 
 
 class JointContextModel(CompatibilityMixin):
-    def stems(self, g):
+    def _region_inputs(self, g):
         if not self.integration_enabled or self.integration_kind != 'utonia':
             raise ValueError('This refactor implements the fixed R38 Utonia integration.')
-        u = g['nregions']
         hg = self.graph(g['sf'])
         px = self.point(g['pf'])
         patches = self.cmm(SurfaceSupport(g, px))
-        sr, sn = g['sr'], g['sn']
-        pr, pj = g['pr'], g['pj']
-        path = (g['s'][sn] - g['pos'][sr]) / g['radius']
-        graph = add((hg[sn] + self.path_position(path)) * g['sw'][:, None], sr, u) / g['graph_mass'].clamp_min(1e-12)[:, None]
-        wp = g['pw'] * g['patch_mass'][pj]
-        surface = add((patches.surface[pj] + self.relation(g['phi'])) * wp[:, None], pr, u) / g['surface_mass'].clamp_min(1e-12)[:, None]
-        xyz = g['pos'] - g['pos'].mean(0)
-        position = self.position(torch.sign(xyz) * torch.log1p(xyz.abs() / g['radius']))
-        scale = torch.stack((g['length'].log1p(), torch.full_like(g['length'], g['radius']).log1p(), torch.full_like(g['length'], .5).log1p()), 1)
-        code = position + self.scale(scale)
-        graph = (graph + code) * g['has_g'][:, None]
-        point = (surface + code) * g['has_p'][:, None]
-        if not self.message_enabled:
-            return graph, point
-        # Preserve the second path-position evaluation and separate graph node
-        # used by the original R34/R38 RCM path (including backward arithmetic).
-        path = (g['s'][sn] - g['pos'][sr]) / g['radius']
-        raw_graph = add((hg[sn] + self.path_position(path)) * g['sw'][:, None], sr, g['nregions']) / g['graph_mass'].clamp_min(1e-12)[:, None]
-        delta = self.region_message(raw_graph, patches.message, g, self.strategy)
-        delta = delta * (g['has_g'] & g['has_p'])[:, None]
-        return graph, point + .1 * delta
+        return hg, patches, RegionalSupport(g)
+
+    def stems(self, g):
+        return self.rcm.stems(*self._region_inputs(g), message_enabled=self.message_enabled, strategy=self.strategy)
+
+    def joint_regions(self, graph, point, g):
+        return self.rcm.joint_regions(graph, point, RegionalSupport(g))
+
+    def streams(self, g):
+        regions = self.rcm(*self._region_inputs(g), message_enabled=self.message_enabled, strategy=self.strategy)
+        x, mass, active = regions
+        x = self.processor(x, g, mass, active)
+        if self.integration_enabled and getattr(self, 'global_enabled', False):
+            ix = torch.where(active)[0]
+            delta = self.native_global(x[ix])
+            x = x.index_add(0, ix, self.rms_delta(x[ix], delta, .1))
+        return [(x, mass, active)]
 
 
 def install(model):
@@ -44,25 +40,31 @@ def install(model):
     task-head setup and the exact dense-input path. Existing model/optimizer
     state dictionaries remain loadable in the preserved parameter order.
     """
-    if isinstance(model, JointContextModel):
+    if isinstance(model, JointContextModel) and hasattr(model, 'rcm'):
         return model
     from tools.cpsf_r38_dense.model import H01Dense, FlyDense
-    if type(model) not in (H01Dense, FlyDense):
+    if not isinstance(model, (H01Dense, FlyDense)):
         raise TypeError('Expected the original full R38 dense H01/FlyWire model.')
     if model.adapter_variant != 'patch_rms_010' or not model.integration_enabled:
         raise ValueError('Expected the unchanged full R38 integration settings.')
-    state_order = tuple(model.state_dict())
+    state_order = tuple(model.legacy_state_dict()) if hasattr(model, 'legacy_state_dict') else tuple(model.state_dict())
     parameter_order = tuple(rename(name) for name, _ in model.named_parameters())
-    morphology = model.patch
-    context = JointContext(model.native_point, model.raw_refine, model.cmm_pair_fusion)
-    cmm = ContextualMorphology(morphology, context)
-    # Wrapper modules have no parameters/buffers and consume no RNG.
-    cmm.training = model.training
-    context.training = model.training
-    for name in ('patch', 'native_point', 'raw_refine', 'cmm_pair_fusion'):
+    if not hasattr(model, 'cmm'):
+        context = JointContext(model.native_point, model.raw_refine, model.cmm_pair_fusion)
+        cmm = ContextualMorphology(model.patch, context)
+        cmm.training = model.training
+        context.training = model.training
+        for name in ('patch', 'native_point', 'raw_refine', 'cmm_pair_fusion'):
+            delattr(model, name)
+        model.add_module('cmm', cmm)
+    geometry = RegionalGeometry(model.path_position, model.relation, model.position, model.scale)
+    rcm = RegionalCoupling(geometry, model.region_message, model.joint)
+    geometry.training = model.training
+    rcm.training = model.training
+    for name in ('path_position', 'relation', 'position', 'scale', 'region_message', 'joint'):
         delattr(model, name)
-    model.add_module('cmm', cmm)
-    parent = type(model)
+    model.add_module('rcm', rcm)
+    parent = H01Dense if isinstance(model, H01Dense) else FlyDense
     cls_name = 'Joint' + parent.__name__
     cls = globals().get(cls_name)
     if cls is None:

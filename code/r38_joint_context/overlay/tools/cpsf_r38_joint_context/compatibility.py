@@ -7,6 +7,12 @@ PREFIXES = (
     ('native_point', 'cmm.context.hierarchy'),
     ('raw_refine', 'cmm.context.neighborhood'),
     ('cmm_pair_fusion', 'cmm.context.interaction'),
+    ('path_position', 'rcm.geometry.path_position'),
+    ('relation', 'rcm.geometry.relation'),
+    ('position', 'rcm.geometry.position'),
+    ('scale', 'rcm.geometry.scale'),
+    ('region_message', 'rcm.message'),
+    ('joint', 'rcm.joint'),
 )
 
 
@@ -29,7 +35,7 @@ def convert_state_dict(state, to_legacy=False):
     if hasattr(state, '_metadata'):
         converted._metadata = OrderedDict()
         for name, value in state._metadata.items():
-            if to_legacy and name in ('cmm', 'cmm.context'):
+            if to_legacy and name in ('cmm', 'cmm.context', 'rcm', 'rcm.geometry'):
                 continue
             mapped = rename(name, to_legacy)
             if mapped in converted._metadata:
