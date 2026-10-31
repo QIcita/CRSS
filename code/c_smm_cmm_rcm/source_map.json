@@ -1,0 +1,1133 @@
+{
+  "version": "C / regional_scaled_pi",
+  "source_prefix": "/root/megrez-tmp",
+  "files": {
+    "CPSF_C_TRANSFER_20261031_A2/tools/__init__.py": {
+      "repository_path": "code/r28/extension/tools/cpsf_r28_expansion/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_path": "/root/megrez-tmp/CPSF_C_TRANSFER_20261031_A2/tools/__init__.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools"
+      ]
+    },
+    "CPSF_C_TRANSFER_20261031_A2/tools/cpsf_c_transfer/__init__.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_C_TRANSFER_20261031_A2/tools/cpsf_c_transfer/__init__.py",
+      "sha256": "e6f279f00be045caf20a34329b284ae2ab294b37b301d34adde35018fa9a78fc",
+      "source_path": "/root/megrez-tmp/CPSF_C_TRANSFER_20261031_A2/tools/cpsf_c_transfer/__init__.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "tools.cpsf_c_transfer"
+      ]
+    },
+    "CPSF_H01_PROGRESSIVE_REPAIR_20261030_A1/tools/cpsf_h01_progressive_repair/__init__.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_H01_PROGRESSIVE_REPAIR_20261030_A1/tools/cpsf_h01_progressive_repair/__init__.py",
+      "sha256": "3b5ff9b57890091b16cb55087afa082c0efe3626234b2f088916315b7b921542",
+      "source_path": "/root/megrez-tmp/CPSF_H01_PROGRESSIVE_REPAIR_20261030_A1/tools/cpsf_h01_progressive_repair/__init__.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "tools.cpsf_h01_progressive_repair"
+      ]
+    },
+    "CPSF_SMM_TRANSFER_20261030_A1/tools/cpsf_smm_transfer/__init__.py": {
+      "repository_path": "code/r28/extension/tools/cpsf_r28_expansion/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_path": "/root/megrez-tmp/CPSF_SMM_TRANSFER_20261030_A1/tools/cpsf_smm_transfer/__init__.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_smm_transfer"
+      ]
+    },
+    "CPSF_PROGRESSIVE_SMM_20261029_A1/tools/cpsf_progressive_smm/__init__.py": {
+      "repository_path": "code/r28/extension/tools/cpsf_r28_expansion/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_path": "/root/megrez-tmp/CPSF_PROGRESSIVE_SMM_20261029_A1/tools/cpsf_progressive_smm/__init__.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_progressive_smm"
+      ]
+    },
+    "CPSF_SMM_RUNTIME_20261029_A1/tools/cpsf_smm_runtime/__init__.py": {
+      "repository_path": "code/r28/extension/tools/cpsf_r28_expansion/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_path": "/root/megrez-tmp/CPSF_SMM_RUNTIME_20261029_A1/tools/cpsf_smm_runtime/__init__.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_smm_runtime"
+      ]
+    },
+    "CPSF_SMM_JOINT_20261028_A1/tools/cpsf_smm_joint/__init__.py": {
+      "repository_path": "code/r28/extension/tools/cpsf_r28_expansion/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_path": "/root/megrez-tmp/CPSF_SMM_JOINT_20261028_A1/tools/cpsf_smm_joint/__init__.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_smm_joint"
+      ]
+    },
+    "CPSF_SMM_JOINT_20261028_A1/tools/cpsf_smm_joint/common.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_SMM_JOINT_20261028_A1/tools/cpsf_smm_joint/common.py",
+      "sha256": "58f26851fa52c3e0bf868a041bae2ed22fea5be38cfc0212ff6e359eeee52018",
+      "source_path": "/root/megrez-tmp/CPSF_SMM_JOINT_20261028_A1/tools/cpsf_smm_joint/common.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "tools.cpsf_smm_joint.common"
+      ]
+    },
+    "CPSF_SMM_RUNTIME_20261029_A1/tools/cpsf_smm_runtime/common.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_SMM_RUNTIME_20261029_A1/tools/cpsf_smm_runtime/common.py",
+      "sha256": "683905b929f0cde7c950f23d653a811b36cecc38bd093d1271d8a6e6af1b9149",
+      "source_path": "/root/megrez-tmp/CPSF_SMM_RUNTIME_20261029_A1/tools/cpsf_smm_runtime/common.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "tools.cpsf_smm_runtime.common"
+      ]
+    },
+    "CPSF_PROGRESSIVE_SMM_20261029_A1/tools/cpsf_progressive_smm/common.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_PROGRESSIVE_SMM_20261029_A1/tools/cpsf_progressive_smm/common.py",
+      "sha256": "ff3d759a44d77b888025bca93823d6c57ccbffc13718ba529dd62b51340ec449",
+      "source_path": "/root/megrez-tmp/CPSF_PROGRESSIVE_SMM_20261029_A1/tools/cpsf_progressive_smm/common.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "tools.cpsf_progressive_smm.common"
+      ]
+    },
+    "CPSF_SMM_TRANSFER_20261030_A1/tools/cpsf_smm_transfer/common.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_SMM_TRANSFER_20261030_A1/tools/cpsf_smm_transfer/common.py",
+      "sha256": "1750afda485d984180927a85f17d66016b9e414a50483880eed1a90bff202ec3",
+      "source_path": "/root/megrez-tmp/CPSF_SMM_TRANSFER_20261030_A1/tools/cpsf_smm_transfer/common.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "tools.cpsf_smm_transfer.common"
+      ]
+    },
+    "CPSF_H01_PROGRESSIVE_REPAIR_20261030_A1/tools/cpsf_h01_progressive_repair/common.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_H01_PROGRESSIVE_REPAIR_20261030_A1/tools/cpsf_h01_progressive_repair/common.py",
+      "sha256": "2eb28e08224d1e2b28f4b3e315b3895a1810a77c7ce42330fb19dd8c97c9ac3c",
+      "source_path": "/root/megrez-tmp/CPSF_H01_PROGRESSIVE_REPAIR_20261030_A1/tools/cpsf_h01_progressive_repair/common.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "tools.cpsf_h01_progressive_repair.common"
+      ]
+    },
+    "CPSF_C_TRANSFER_20261031_A2/tools/cpsf_c_transfer/common.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_C_TRANSFER_20261031_A2/tools/cpsf_c_transfer/common.py",
+      "sha256": "cec3f5f3bc8ecee3e10752a591940331abe4c80b24f0d7195c31f2c485618bed",
+      "source_path": "/root/megrez-tmp/CPSF_C_TRANSFER_20261031_A2/tools/cpsf_c_transfer/common.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "tools.cpsf_c_transfer.common"
+      ]
+    },
+    "CPSF_TOPOLOGY_SURFACE_20261028_A1/tools/cpsf_topology_surface/__init__.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_TOPOLOGY_SURFACE_20261028_A1/tools/cpsf_topology_surface/__init__.py",
+      "sha256": "8bff9e3007ffcca186066c4101c978e48ecfc94ebfb81d0f6d9e983379272354",
+      "source_path": "/root/megrez-tmp/CPSF_TOPOLOGY_SURFACE_20261028_A1/tools/cpsf_topology_surface/__init__.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "tools.cpsf_topology_surface"
+      ]
+    },
+    "CPSF_TOPOLOGY_SURFACE_20261028_A1/tools/cpsf_topology_surface/common.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_TOPOLOGY_SURFACE_20261028_A1/tools/cpsf_topology_surface/common.py",
+      "sha256": "cfa688b02395509789c3e6d109cab7d2bce4a59ebfa69f646b7e568b0ed48185",
+      "source_path": "/root/megrez-tmp/CPSF_TOPOLOGY_SURFACE_20261028_A1/tools/cpsf_topology_surface/common.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "tools.cpsf_topology_surface.common"
+      ]
+    },
+    "CPSF_TOPOLOGY_SURFACE_20261028_A1/tools/cpsf_topology_surface/models.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_TOPOLOGY_SURFACE_20261028_A1/tools/cpsf_topology_surface/models.py",
+      "sha256": "af5523b018745e10aa2250cf30a4e68cb05a71c7d666f3e0fb807c588536eb3e",
+      "source_path": "/root/megrez-tmp/CPSF_TOPOLOGY_SURFACE_20261028_A1/tools/cpsf_topology_surface/models.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "tools.cpsf_topology_surface.models"
+      ]
+    },
+    "CPSF_SMM_JOINT_20261028_A1/tools/cpsf_smm_joint/models.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_SMM_JOINT_20261028_A1/tools/cpsf_smm_joint/models.py",
+      "sha256": "3c660e98833bf35b33b7953edaa87194d3267584fb9e02761ed9efa8974e21ef",
+      "source_path": "/root/megrez-tmp/CPSF_SMM_JOINT_20261028_A1/tools/cpsf_smm_joint/models.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "tools.cpsf_smm_joint.models"
+      ]
+    },
+    "CPSF_SMM_RUNTIME_20261029_A1/tools/cpsf_smm_runtime/model.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_SMM_RUNTIME_20261029_A1/tools/cpsf_smm_runtime/model.py",
+      "sha256": "53fbb639c34c7f2b69a39e278c22dd49edab1824bc4deddfa755ee4ffb235663",
+      "source_path": "/root/megrez-tmp/CPSF_SMM_RUNTIME_20261029_A1/tools/cpsf_smm_runtime/model.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "tools.cpsf_smm_runtime.model"
+      ]
+    },
+    "CPSF_PROGRESSIVE_SMM_20261029_A1/tools/cpsf_progressive_smm/model.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_PROGRESSIVE_SMM_20261029_A1/tools/cpsf_progressive_smm/model.py",
+      "sha256": "83e13eb79f24eed4a99b1ed4a0b112da5a5afac16b696fe7bc4b350dd746c257",
+      "source_path": "/root/megrez-tmp/CPSF_PROGRESSIVE_SMM_20261029_A1/tools/cpsf_progressive_smm/model.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "tools.cpsf_progressive_smm.model"
+      ]
+    },
+    "CPSF_SMM_TRANSFER_20261030_A1/tools/cpsf_smm_transfer/model.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_SMM_TRANSFER_20261030_A1/tools/cpsf_smm_transfer/model.py",
+      "sha256": "32407bdd599eaf2108b3fc6b3f65787b4d044123d4fd16851c336d0e058cf87a",
+      "source_path": "/root/megrez-tmp/CPSF_SMM_TRANSFER_20261030_A1/tools/cpsf_smm_transfer/model.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "tools.cpsf_smm_transfer.model"
+      ]
+    },
+    "CPSF_R34_FPS_REBENCH_20261021_A2/tools/cpsf_r34_fps_rebench/__init__.py": {
+      "repository_path": "code/r34_dense/overlay/tools/cpsf_r34_fps_rebench/__init__.py",
+      "sha256": "bdc78f850e43fa2f3794c172b343878db6bdef6f715edd385458991b256ec6b9",
+      "source_path": "/root/megrez-tmp/CPSF_R34_FPS_REBENCH_20261021_A2/tools/cpsf_r34_fps_rebench/__init__.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_r34_fps_rebench"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_raw_point_attention/__init__.py": {
+      "repository_path": "code/r28/reference/tools/cpsf_raw_point_attention/__init__.py",
+      "sha256": "c01ab53a5fa8957cf73ab371f4e6c521b331edb331f505526659952aee2d9950",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_raw_point_attention/__init__.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_raw_point_attention"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_utonia_context/__init__.py": {
+      "repository_path": "code/r28/extension/tools/cpsf_r28_expansion/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_utonia_context/__init__.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_utonia_context"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_core/__init__.py": {
+      "repository_path": "code/r28/reference/tools/cpsf_fixed_core/__init__.py",
+      "sha256": "b8da4f506364c59fc3af2f966134c9508cf746843b5a41f15f71c7619aee4dac",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_core/__init__.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_fixed_core"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v21_segment_units/__init__.py": {
+      "repository_path": "code/r28/reference/tools/cpsf_v19_measure_core/__init__.py",
+      "sha256": "a34d9a0a2d45c18ba2c40abced73e1afc5ff600317a7ecfb13e8cbb8608a0903",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v21_segment_units/__init__.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_v21_segment_units"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v21_segment_units/geometry.py": {
+      "repository_path": "code/r28/reference/tools/cpsf_v19_measure_core/geometry.py",
+      "sha256": "e4178dba00bedbacde6a53429cc4f110b62c6a55f42eb1cec2291eb6dabc0efc",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v21_segment_units/geometry.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_v21_segment_units.geometry"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v21_segment_units/model.py": {
+      "repository_path": "code/r28/reference/tools/cpsf_v21_segment_units/model.py",
+      "sha256": "1293e8f12cc2b69f0e54e1922e68151b167b5037cfe21188aeab43a4778375e5",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v21_segment_units/model.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_v21_segment_units.model"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v23_scale_ablation/__init__.py": {
+      "repository_path": "code/r28/extension/tools/cpsf_r28_expansion/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v23_scale_ablation/__init__.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_v23_scale_ablation"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v22_shared_region/__init__.py": {
+      "repository_path": "code/r28/extension/tools/cpsf_r28_expansion/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v22_shared_region/__init__.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_v22_shared_region"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v22_shared_region/model.py": {
+      "repository_path": "code/r28/reference/tools/cpsf_v22_shared_region/model.py",
+      "sha256": "910d9c1a0ddcab6fc69896f98a8cf205f670bbe53616b2d836995db62cbf971d",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v22_shared_region/model.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_v22_shared_region.model"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v23_residual_region/__init__.py": {
+      "repository_path": "code/r28/reference/tools/cpsf_flywire_balanced/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v23_residual_region/__init__.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_v23_residual_region"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v23_residual_region/model.py": {
+      "repository_path": "code/r28/reference/tools/cpsf_v23_residual_region/model.py",
+      "sha256": "bd3e682f595d74192b36417778c3267ff6effec2b1325365f1cb8397726640b7",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v23_residual_region/model.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_v23_residual_region.model"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v23_scale_ablation/model.py": {
+      "repository_path": "code/r28/reference/tools/cpsf_v23_scale_ablation/model.py",
+      "sha256": "7179d81fbfa3b132cef7948d180db0c7838001cd22475d78459a22315ca288d7",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v23_scale_ablation/model.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_v23_scale_ablation.model"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_v23/__init__.py": {
+      "repository_path": "code/r28/reference/tools/cpsf_flywire_balanced/__init__.py",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_v23/__init__.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_flywire_v23"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_v23/model.py": {
+      "repository_path": "code/r28/reference/tools/cpsf_flywire_v23/model.py",
+      "sha256": "d9baa4c88a61a1ba5f8befead937bb801acb2e02243dc672751b95f4b5547c8e",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_flywire_v23/model.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_flywire_v23.model"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_core/model.py": {
+      "repository_path": "code/r28/reference/tools/cpsf_fixed_core/model.py",
+      "sha256": "2b7fac89e211984e974b9feea46f27a71f40299c025ad31a7d00d52148bcf07a",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_core/model.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_fixed_core.model"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_nredd/__init__.py": {
+      "repository_path": "code/r28/reference/tools/cpsf_fixed_nredd/__init__.py",
+      "sha256": "d9e92f4af9ffaa093fbaedb4751a5398a3fa7dda1e3f255586c13253f0f8aa5f",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_nredd/__init__.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_fixed_nredd"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_nredd/model.py": {
+      "repository_path": "code/r28/reference/tools/cpsf_fixed_nredd/model.py",
+      "sha256": "a5cec6caeaab84d44b1158984a40216a67ffeb4b709afdae7625e0843d09e2fe",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_fixed_nredd/model.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_fixed_nredd.model"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_utonia_context/geo_import.py": {
+      "repository_path": "code/r28/reference/tools/cpsf_official_integration/geo_import.py",
+      "sha256": "bad9ba8785ecdf6ae727fcbbc3184b5466f7f41f7b54bf66d282f685efad5b8d",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_utonia_context/geo_import.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_utonia_context.geo_import"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_utonia_context/model.py": {
+      "repository_path": "code/r28/reference/tools/cpsf_utonia_context/model.py",
+      "sha256": "b57c81695d914ca1c51bf8dd44fa4a4daee89ee20f0a16ac3d4c4a3b3e3059d5",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_utonia_context/model.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_utonia_context.model"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_raw_point_attention/official.py": {
+      "repository_path": "code/r28/reference/tools/cpsf_raw_point_attention/official.py",
+      "sha256": "09879ebba58a4f2076c7c544a7c214886241eb09b20fe7ceb970eb6dd44a1cc2",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_raw_point_attention/official.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_raw_point_attention.official"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_raw_point_attention/model.py": {
+      "repository_path": "code/r28/reference/tools/cpsf_raw_point_attention/model.py",
+      "sha256": "7a4b3129054e0b13e05edfcc36f4e91443ba7d0c87ad850b382f41f8c2d3eb49",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_raw_point_attention/model.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_raw_point_attention.model"
+      ]
+    },
+    "CPSF_R34_FPS_REBENCH_20261021_A2/tools/cpsf_r34_fps_rebench/frozen_r34.py": {
+      "repository_path": "code/r34_dense/overlay/tools/cpsf_r34_fps_rebench/frozen_r34.py",
+      "sha256": "3d352f7d406ca201161e50d67b84ed627bed2adb3228575d16654772cbf6f48b",
+      "source_path": "/root/megrez-tmp/CPSF_R34_FPS_REBENCH_20261021_A2/tools/cpsf_r34_fps_rebench/frozen_r34.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_r34_fps_rebench.frozen_r34"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_r28_expansion/__init__.py": {
+      "repository_path": "code/r28/extension/tools/cpsf_r28_expansion/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_r28_expansion/__init__.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_r28_expansion"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_r9_expansion/__init__.py": {
+      "repository_path": "code/r28/extension/tools/cpsf_r9_expansion/__init__.py",
+      "sha256": "60a50d420c483194f5630a9bb005db946bb282c3df4f10c59421296c93aee031",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_r9_expansion/__init__.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_r9_expansion"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_directional/__init__.py": {
+      "repository_path": "code/r28/reference/tools/cpsf_directional/__init__.py",
+      "sha256": "5222234865da88df25a9e899b347dd3035822d7059ab3e5ec654699afca66763",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_directional/__init__.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_directional"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_deterministic/__init__.py": {
+      "repository_path": "code/r28/reference/tools/cpsf_deterministic/__init__.py",
+      "sha256": "6be0cc185fd907ea7e7485b30f2e5e919e5972154ca716f75305a908a2704771",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_deterministic/__init__.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_deterministic"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_point_geometry/__init__.py": {
+      "repository_path": "code/r28/reference/tools/cpsf_point_geometry/__init__.py",
+      "sha256": "8ba0263e4bde2757d129ad21a7ce569f579a160a368b00a39c1743a9cba857e4",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_point_geometry/__init__.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_point_geometry"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_pair_region/__init__.py": {
+      "repository_path": "code/r28/reference/tools/cpsf_pair_region/__init__.py",
+      "sha256": "a486135e70771298d24ec48ec2736cbd045e67ba9cb59e82937ba6029775d75e",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_pair_region/__init__.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_pair_region"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_pair_region/model.py": {
+      "repository_path": "code/r28/reference/tools/cpsf_pair_region/model.py",
+      "sha256": "e742d8201bdc05e62b6cb312dcab1722796edf6e5fe0f769466f10bbd52ba776",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_pair_region/model.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_pair_region.model"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_point_geometry/model.py": {
+      "repository_path": "code/r28/reference/tools/cpsf_point_geometry/model.py",
+      "sha256": "8b5566952f52babd7596d1e8b4e0fbfa22ac265f128ef18c640465523ccae49a",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_point_geometry/model.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_point_geometry.model"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_deterministic/model.py": {
+      "repository_path": "code/r28/reference/tools/cpsf_deterministic/model.py",
+      "sha256": "002187e942825f588039a0b726717039cace578d2e61c28c5804ffaecdfa7384",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_deterministic/model.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_deterministic.model"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_directional/model.py": {
+      "repository_path": "code/r28/reference/tools/cpsf_directional/model.py",
+      "sha256": "9c18e245aa93f9a84582950092ff685245328899c766fdd9d16f34b196fd43f7",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_directional/model.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_directional.model"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_r9_expansion/model.py": {
+      "repository_path": "code/r28/extension/tools/cpsf_r9_expansion/model.py",
+      "sha256": "a73a5d84d9e561afa2b9ee125e47cb65188a906346777bb6bbb1898b71d0895d",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_r9_expansion/model.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_r9_expansion.model"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_r28_expansion/model.py": {
+      "repository_path": "code/r28/extension/tools/cpsf_r28_expansion/model.py",
+      "sha256": "8ec5035374bd334bc73bb76c45530ee00aa37f2809be14633063c1852d1ade3e",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_r28_expansion/model.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_r28_expansion.model"
+      ]
+    },
+    "CPSF_R34_FPS_REBENCH_20261021_A2/tools/cpsf_r34_fps_rebench/model.py": {
+      "repository_path": "code/r34_dense/overlay/tools/cpsf_r34_fps_rebench/model.py",
+      "sha256": "4c3dbb5cff0328a8c6dfce544daea17f2c6d0a874cc577b32c47c40708b59548",
+      "source_path": "/root/megrez-tmp/CPSF_R34_FPS_REBENCH_20261021_A2/tools/cpsf_r34_fps_rebench/model.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_r34_fps_rebench.model"
+      ]
+    },
+    "CPSF_H01_PROGRESSIVE_REPAIR_20261030_A1/tools/cpsf_h01_progressive_repair/regional.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_H01_PROGRESSIVE_REPAIR_20261030_A1/tools/cpsf_h01_progressive_repair/regional.py",
+      "sha256": "2335998242b9cf8e538e988ad0276f4dba0de09831fe0e2da394489c7fe2f234",
+      "source_path": "/root/megrez-tmp/CPSF_H01_PROGRESSIVE_REPAIR_20261030_A1/tools/cpsf_h01_progressive_repair/regional.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "tools.cpsf_h01_progressive_repair.regional"
+      ]
+    },
+    "CPSF_H01_PROGRESSIVE_REPAIR_20261030_A1/tools/cpsf_h01_progressive_repair/model.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_H01_PROGRESSIVE_REPAIR_20261030_A1/tools/cpsf_h01_progressive_repair/model.py",
+      "sha256": "6350e47e2040cec7e864d8c69b4465ddbd92eaea150d22a418050c03a8fc11c5",
+      "source_path": "/root/megrez-tmp/CPSF_H01_PROGRESSIVE_REPAIR_20261030_A1/tools/cpsf_h01_progressive_repair/model.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "tools.cpsf_h01_progressive_repair.model"
+      ]
+    },
+    "CPSF_C_TRANSFER_20261031_A2/tools/cpsf_c_transfer/model.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_C_TRANSFER_20261031_A2/tools/cpsf_c_transfer/model.py",
+      "sha256": "51e49dba3c52d81df21b18c4c97b58d826be96e28ecb2fc7f6fadec4cca1c686",
+      "source_path": "/root/megrez-tmp/CPSF_C_TRANSFER_20261031_A2/tools/cpsf_c_transfer/model.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "tools.cpsf_c_transfer.model"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_utonia_context/kernel_policy.py": {
+      "repository_path": "code/r28/reference/tools/cpsf_utonia_context/kernel_policy.py",
+      "sha256": "7b19e46ed2dc9a0b7189831c1d50e88018dce6b6dcc0cb4afb73b6616913bcd0",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_utonia_context/kernel_policy.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_utonia_context.kernel_policy"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/tools/cpsf_graphformer/__init__.py": {
+      "repository_path": "code/r28/extension/tools/cpsf_r28_expansion/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/tools/cpsf_graphformer/__init__.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_graphformer"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/tools/cpsf_graphformer/common.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/tools/cpsf_graphformer/common.py",
+      "sha256": "da4b2eb6e8b41b83f79a4b66a682766a2ed60c55f61184f7873a64649bae918c",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/tools/cpsf_graphformer/common.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "tools.cpsf_graphformer.common"
+      ]
+    },
+    "CPSF_GRAPHFORMER_OFFICIAL_CONTROLS_20261026_A1/tools/cpsf_graphformer_controls/__init__.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_GRAPHFORMER_OFFICIAL_CONTROLS_20261026_A1/tools/cpsf_graphformer_controls/__init__.py",
+      "sha256": "6d413f544b88aeb988ff862c1d6b1f47830c27af6200e4d617103ef678573692",
+      "source_path": "/root/megrez-tmp/CPSF_GRAPHFORMER_OFFICIAL_CONTROLS_20261026_A1/tools/cpsf_graphformer_controls/__init__.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "tools.cpsf_graphformer_controls"
+      ]
+    },
+    "CPSF_GRAPHFORMER_OFFICIAL_CONTROLS_20261026_A1/tools/cpsf_graphformer_controls/common.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_GRAPHFORMER_OFFICIAL_CONTROLS_20261026_A1/tools/cpsf_graphformer_controls/common.py",
+      "sha256": "b7af55a7b19447b66502dc5971ac4d6e3d5800a22e3d7b016f1883afb3a2089d",
+      "source_path": "/root/megrez-tmp/CPSF_GRAPHFORMER_OFFICIAL_CONTROLS_20261026_A1/tools/cpsf_graphformer_controls/common.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "tools.cpsf_graphformer_controls.common"
+      ]
+    },
+    "CPSF_GRAPHFORMER_OFFICIAL_CONTROLS_20261026_A1/tools/cpsf_graphformer_controls/models.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_GRAPHFORMER_OFFICIAL_CONTROLS_20261026_A1/tools/cpsf_graphformer_controls/models.py",
+      "sha256": "251228e6a7f9412c22a51519972ef6e04bd8329e37d73a11506011f50e3fbe0b",
+      "source_path": "/root/megrez-tmp/CPSF_GRAPHFORMER_OFFICIAL_CONTROLS_20261026_A1/tools/cpsf_graphformer_controls/models.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "tools.cpsf_graphformer_controls.models"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/tools/cpsf_graphformer/models.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/tools/cpsf_graphformer/models.py",
+      "sha256": "c971b8da3316d7bcc7d08973f6b7335b34fc9396af4fb92c2931f74dffc0a689",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/tools/cpsf_graphformer/models.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "tools.cpsf_graphformer.models"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/upstream/graphformer/models/tree_encoder.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/upstream/graphformer/models/tree_encoder.py",
+      "sha256": "12f4946fd3ffd084d862a596b50212bd19d1d99f37152e92f56a8969a559eef9",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/upstream/graphformer/models/tree_encoder.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "graphformer.models.tree_encoder"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/upstream/graphformer/models/image_encoder.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/upstream/graphformer/models/image_encoder.py",
+      "sha256": "a62098d559ff49d735c61661471fe474f890f68cc219772aae650a7ab8243307",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/upstream/graphformer/models/image_encoder.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "graphformer.models.image_encoder"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/upstream/graphformer/models/clip_model.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/upstream/graphformer/models/clip_model.py",
+      "sha256": "de2b8bbb4ef51cd35ae6e23e7b1cce64aace5b54f0fb24ab60473b7fb64c073e",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/upstream/graphformer/models/clip_model.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "graphformer.models.clip_model"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/upstream/graphformer/models/fusion.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/upstream/graphformer/models/fusion.py",
+      "sha256": "fc42ccc539dba594158aeda623d576bf7910e568c47b905f6f8a417a67e7478c",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/upstream/graphformer/models/fusion.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "graphformer.models.fusion"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/upstream/graphformer/models/finetune_model.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/upstream/graphformer/models/finetune_model.py",
+      "sha256": "9b3e62624cc2b2b4a0b59a0bd3d05c0a9c5150f53de40041a33bd065ba4f427e",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/upstream/graphformer/models/finetune_model.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "graphformer.models.finetune_model"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/upstream/graphformer/models/__init__.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/upstream/graphformer/models/__init__.py",
+      "sha256": "3099362c734b2fd8dfd5fe2643cbb8ed5193d226b84ab4c9368cb559303296f6",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/upstream/graphformer/models/__init__.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "graphformer.models"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/upstream/graphformer/losses/infonce.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/upstream/graphformer/losses/infonce.py",
+      "sha256": "487d0c16bd11fa522b553791049a9abcd1e958a24e88e3a2e36acd036dddb00f",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/upstream/graphformer/losses/infonce.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "graphformer.losses.infonce"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/upstream/graphformer/losses/contrastive.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/upstream/graphformer/losses/contrastive.py",
+      "sha256": "84dde25f2d7f7b4bfe121ce5075d7ab112bb8938985cad77a6a8cd03fab992bb",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/upstream/graphformer/losses/contrastive.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "graphformer.losses.contrastive"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/upstream/graphformer/losses/__init__.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/upstream/graphformer/losses/__init__.py",
+      "sha256": "3f646c2db7a7b36efb1d4bb395011fc703fdc9eef476c043b4e2610d0cc31b2f",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/upstream/graphformer/losses/__init__.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "graphformer.losses"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/upstream/graphformer/__init__.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/upstream/graphformer/__init__.py",
+      "sha256": "5ae044c04a90c573c536873a1790712c93f7512b3788996e92c9bb03036949b9",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/upstream/graphformer/__init__.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "graphformer"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/dinov2/__init__.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/dinov2/__init__.py",
+      "sha256": "0d2b87b7e71c7f7279ccc4b4f8b541d26071425284a0ea01a5a435fac4511cfe",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/dinov2/__init__.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "dinov2"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/dinov2/hub/__init__.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/dinov2/hub/__init__.py",
+      "sha256": "2932e94a2d67be87b717c49468214c1127be7864aedf37f5891d26be7bc1437f",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/dinov2/hub/__init__.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "dinov2.hub"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/dinov2/hub/utils.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/dinov2/hub/utils.py",
+      "sha256": "579613e3d7b82c2a387eddc215ad9f076b8740f9618229628395fe5755dbd131",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/dinov2/hub/utils.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "dinov2.hub.utils"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/dinov2/hub/backbones.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/dinov2/hub/backbones.py",
+      "sha256": "871fca671b12a9ff02e810654baf509e97ccf461bf8196ce5ddeefff2fd87d3e",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/dinov2/hub/backbones.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "dinov2.hub.backbones"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/dinov2/layers/dino_head.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/dinov2/layers/dino_head.py",
+      "sha256": "9fdb1fa61c0609dc0876f711f9d0d828c33bf9fd972aab3d9c968d44e16b98d1",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/dinov2/layers/dino_head.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "dinov2.layers.dino_head"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/dinov2/layers/layer_scale.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/dinov2/layers/layer_scale.py",
+      "sha256": "dadd5aafe178f1bf72a205a02a6645c7e635cacbad585d4a7369c200c6e89135",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/dinov2/layers/layer_scale.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "dinov2.layers.layer_scale"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/dinov2/layers/mlp.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/dinov2/layers/mlp.py",
+      "sha256": "255825c73b60a916dd00eb1e38aacbcdbf316e40d6a005efb46e245b7edb43aa",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/dinov2/layers/mlp.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "dinov2.layers.mlp"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/dinov2/layers/patch_embed.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/dinov2/layers/patch_embed.py",
+      "sha256": "40da6add3d811198ea3e17cb99cdd4e5cda59e369efbbe3d18d89308618cf142",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/dinov2/layers/patch_embed.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "dinov2.layers.patch_embed"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/dinov2/layers/swiglu_ffn.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/dinov2/layers/swiglu_ffn.py",
+      "sha256": "e46d2948fb97e497cf991ff82ce30cb59b59fdf2e12a19568417113716b4f119",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/dinov2/layers/swiglu_ffn.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "dinov2.layers.swiglu_ffn"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/dinov2/layers/attention.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/dinov2/layers/attention.py",
+      "sha256": "79c7be7a452b3aad96698ec38d5d5150b9f4d8ac084fa93324510dc9f624775d",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/dinov2/layers/attention.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "dinov2.layers.attention"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/dinov2/layers/drop_path.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/dinov2/layers/drop_path.py",
+      "sha256": "b9f8236e86054b9d9a71275efcad2a9ecaa1f86b529d4b8d6109ddb5e806f67a",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/dinov2/layers/drop_path.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "dinov2.layers.drop_path"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/dinov2/layers/block.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/dinov2/layers/block.py",
+      "sha256": "60c0ac7dfa4474be313fabfa5a23d82faf6f0cecd4e720a88be35de9788cb636",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/dinov2/layers/block.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "dinov2.layers.block"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/dinov2/layers/__init__.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/dinov2/layers/__init__.py",
+      "sha256": "1b55deed39d5ab0b589bef421bbfe06f24a10cd590a0f8403234c9ee4e34109d",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/dinov2/layers/__init__.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "dinov2.layers"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/dinov2/models/vision_transformer.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/dinov2/models/vision_transformer.py",
+      "sha256": "7799a260f2d7d0fe197331d08502fb8c542f9b7424723650f6a39b64fa2639ea",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/dinov2/models/vision_transformer.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "dinov2.models.vision_transformer"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/dinov2/models/__init__.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/dinov2/models/__init__.py",
+      "sha256": "b93329ce676f3eb0c9a7790d1b3b2b114a0855ea8dc76e32e262d1a7dc6c55ae",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/dinov2/models/__init__.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "dinov2.models"
+      ]
+    },
+    "CPSF_R38_DENSE_SUPPORT_20261023_A1/tools/cpsf_r38_dense/__init__.py": {
+      "repository_path": "code/r38/overlay/tools/cpsf_r38_dense/__init__.py",
+      "sha256": "11e4495d15e988da9e9f65a3c18bb4a6b51f5ddff01b971915a5ab82b4545d51",
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_SUPPORT_20261023_A1/tools/cpsf_r38_dense/__init__.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_r38_dense"
+      ]
+    },
+    "CPSF_R38_DENSE_SUPPORT_20261023_A1/tools/cpsf_r38_dense/common.py": {
+      "repository_path": "code/r38/overlay/tools/cpsf_r38_dense/common.py",
+      "sha256": "a2281a8d60c005282a6232c11c5d3ac32ce0efc16a2aac2e5edd2b62cad6207d",
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_SUPPORT_20261023_A1/tools/cpsf_r38_dense/common.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_r38_dense.common"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v24_physical_conditioning/__init__.py": {
+      "repository_path": "code/r28/extension/tools/cpsf_r28_expansion/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v24_physical_conditioning/__init__.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_v24_physical_conditioning"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v24_physical_conditioning/data.py": {
+      "repository_path": "code/r28/reference/tools/cpsf_v24_physical_conditioning/data.py",
+      "sha256": "20de0d31ce7a0b2b4eb5ac7f434afea73048dde2b7534865583d8fc0702ee935",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_v24_physical_conditioning/data.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_v24_physical_conditioning.data"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_utonia_context/data.py": {
+      "repository_path": "code/r28/reference/tools/cpsf_official_integration/data.py",
+      "sha256": "6a2cc3e9cb792bf16004672a8833ac8b3567294dee1558afd4719e07f584f670",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_utonia_context/data.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_utonia_context.data"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_raw_point_attention/data.py": {
+      "repository_path": "code/r28/reference/tools/cpsf_raw_point_attention/data.py",
+      "sha256": "44e0fb5ce2ed3273b6c22df85dae99082e201728a8b63c40bf780a262b30b14c",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_raw_point_attention/data.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_raw_point_attention.data"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_r28_expansion/data.py": {
+      "repository_path": "code/r28/extension/tools/cpsf_r28_expansion/data.py",
+      "sha256": "df956d652183781eee81ba945d5dde55553573be3f49e425ce5c9a2e521f2382",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/tools/cpsf_r28_expansion/data.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_r28_expansion.data"
+      ]
+    },
+    "CPSF_R38_DENSE_SUPPORT_20261023_A1/tools/cpsf_r38_dense/data.py": {
+      "repository_path": "code/r38/overlay/tools/cpsf_r38_dense/data.py",
+      "sha256": "67e22958e236d2c9db87bf068f3fa1a4e8de8cba4fc6b13f67cbf9dd1037a503",
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_SUPPORT_20261023_A1/tools/cpsf_r38_dense/data.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_r38_dense.data"
+      ]
+    },
+    "CPSF_CMM_PAIR_FUSION_20261023_R38_A1/tools/cpsf_cmm_pair_fusion/__init__.py": {
+      "repository_path": "code/r38/overlay/tools/cpsf_cmm_pair_fusion/__init__.py",
+      "sha256": "6eb5e45a2d5176979e0a27b10969e50609eca9d7452f28a1bc0b46ddcf88f81b",
+      "source_path": "/root/megrez-tmp/CPSF_CMM_PAIR_FUSION_20261023_R38_A1/tools/cpsf_cmm_pair_fusion/__init__.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_cmm_pair_fusion"
+      ]
+    },
+    "CPSF_CMM_PAIR_FUSION_20261023_R38_A1/tools/cpsf_cmm_pair_fusion/operator.py": {
+      "repository_path": "code/r38/overlay/tools/cpsf_cmm_pair_fusion/operator.py",
+      "sha256": "d2350b8f84d8373227c32c4b9b174484d2794a865f111dafd851ce75f68ce3f9",
+      "source_path": "/root/megrez-tmp/CPSF_CMM_PAIR_FUSION_20261023_R38_A1/tools/cpsf_cmm_pair_fusion/operator.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_cmm_pair_fusion.operator"
+      ]
+    },
+    "CPSF_R38_DENSE_SUPPORT_20261023_A1/tools/cpsf_r38_dense/model.py": {
+      "repository_path": "code/r38/overlay/tools/cpsf_r38_dense/model.py",
+      "sha256": "55e4b55b24006145eb72c3c17fa55e7c992eb6bd3e389a6b44683b4f9f82699c",
+      "source_path": "/root/megrez-tmp/CPSF_R38_DENSE_SUPPORT_20261023_A1/tools/cpsf_r38_dense/model.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_r38_dense.model"
+      ]
+    },
+    "CPSF_R38_RCM_REFACTOR_20261026_A1/tools/cpsf_r38_joint_context/support.py": {
+      "repository_path": "code/r38_joint_context/overlay/tools/cpsf_r38_joint_context/support.py",
+      "sha256": "e064b2382e65b45e5f391926754d32f9f9a6682ed608feabcfc87b611fe128a6",
+      "source_path": "/root/megrez-tmp/CPSF_R38_RCM_REFACTOR_20261026_A1/tools/cpsf_r38_joint_context/support.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_r38_joint_context.support"
+      ]
+    },
+    "CPSF_R38_RCM_REFACTOR_20261026_A1/tools/cpsf_r38_joint_context/unit.py": {
+      "repository_path": "code/r38_joint_context/overlay/tools/cpsf_r38_joint_context/unit.py",
+      "sha256": "77517c4caa18c81ba1a2f730ef7b3988c8c2d98c04267c7e89cc5d27324405bd",
+      "source_path": "/root/megrez-tmp/CPSF_R38_RCM_REFACTOR_20261026_A1/tools/cpsf_r38_joint_context/unit.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_r38_joint_context.unit"
+      ]
+    },
+    "CPSF_R38_RCM_REFACTOR_20261026_A1/tools/cpsf_r38_joint_context/data.py": {
+      "repository_path": "code/r38_joint_context/overlay/tools/cpsf_r38_joint_context/data.py",
+      "sha256": "25888c31715673a3635e95793064f904cb12802b017f7d6912d91489fa1306ca",
+      "source_path": "/root/megrez-tmp/CPSF_R38_RCM_REFACTOR_20261026_A1/tools/cpsf_r38_joint_context/data.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_r38_joint_context.data"
+      ]
+    },
+    "CPSF_R38_RCM_REFACTOR_20261026_A1/tools/cpsf_r38_joint_context/regional.py": {
+      "repository_path": "code/r38_joint_context/overlay/tools/cpsf_r38_joint_context/regional.py",
+      "sha256": "29788ad79056cb252a169d8dcb6bcb1809c6b20d918a3d9b038df2a77e16c8a7",
+      "source_path": "/root/megrez-tmp/CPSF_R38_RCM_REFACTOR_20261026_A1/tools/cpsf_r38_joint_context/regional.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_r38_joint_context.regional"
+      ]
+    },
+    "CPSF_R38_RCM_REFACTOR_20261026_A1/tools/cpsf_r38_joint_context/__init__.py": {
+      "repository_path": "code/r38_joint_context/overlay/tools/cpsf_r38_joint_context/__init__.py",
+      "sha256": "6e42ea8bbfe96bb18269ec0c295ba1629f703794b7dbd571e7d2ade288d2e8c6",
+      "source_path": "/root/megrez-tmp/CPSF_R38_RCM_REFACTOR_20261026_A1/tools/cpsf_r38_joint_context/__init__.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_r38_joint_context"
+      ]
+    },
+    "CPSF_R38_RCM_REFACTOR_20261026_A1/tools/cpsf_r38_joint_context/compatibility.py": {
+      "repository_path": "code/r38_joint_context/overlay/tools/cpsf_r38_joint_context/compatibility.py",
+      "sha256": "1b31dc830f717cfa452fb6b931175265eac59d7c50aed33bece8af8c761d0309",
+      "source_path": "/root/megrez-tmp/CPSF_R38_RCM_REFACTOR_20261026_A1/tools/cpsf_r38_joint_context/compatibility.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_r38_joint_context.compatibility"
+      ]
+    },
+    "CPSF_R38_RCM_REFACTOR_20261026_A1/tools/cpsf_r38_joint_context/model.py": {
+      "repository_path": "code/r38_joint_context/overlay/tools/cpsf_r38_joint_context/model.py",
+      "sha256": "8cffde80a8a8c963f1bae898bb413af5f7fbb6e1b5984cf2e268234452fc5544",
+      "source_path": "/root/megrez-tmp/CPSF_R38_RCM_REFACTOR_20261026_A1/tools/cpsf_r38_joint_context/model.py",
+      "storage": "existing_published",
+      "modules": [
+        "tools.cpsf_r38_joint_context.model"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/vendor/Utonia/utonia/serialization/z_order.py": {
+      "repository_path": "code/r28/reference/vendor/Utonia/utonia/serialization/z_order.py",
+      "sha256": "a6cfc1db67eda5c653033664df84a789ca639df1a1f4836b20c09ae006fc2379",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/vendor/Utonia/utonia/serialization/z_order.py",
+      "storage": "existing_published",
+      "modules": [
+        "official_integrated_utonia.serialization.z_order"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/vendor/Utonia/utonia/serialization/hilbert.py": {
+      "repository_path": "code/r28/reference/vendor/Utonia/utonia/serialization/hilbert.py",
+      "sha256": "4fe3d815f6e8eb67fcf2168b616646837ae0f8fec8b0608e2adfbda4497adee4",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/vendor/Utonia/utonia/serialization/hilbert.py",
+      "storage": "existing_published",
+      "modules": [
+        "official_integrated_utonia.serialization.hilbert"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/vendor/Utonia/utonia/serialization/default.py": {
+      "repository_path": "code/r28/reference/vendor/Utonia/utonia/serialization/default.py",
+      "sha256": "27a5b667b969256f37f9457e432fd0f7f396974ba26ef395719cfcdb6e0fef31",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/vendor/Utonia/utonia/serialization/default.py",
+      "storage": "existing_published",
+      "modules": [
+        "official_integrated_utonia.serialization.default"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/vendor/Utonia/utonia/serialization/__init__.py": {
+      "repository_path": "code/r28/reference/vendor/Utonia/utonia/serialization/__init__.py",
+      "sha256": "e6461b37ccb5dcb24725943271259c4f74dac89d27b22becb97e48ce04c8a9b1",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/vendor/Utonia/utonia/serialization/__init__.py",
+      "storage": "existing_published",
+      "modules": [
+        "official_integrated_utonia.serialization"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/vendor/Utonia/utonia/utils.py": {
+      "repository_path": "code/r28/reference/vendor/Utonia/utonia/utils.py",
+      "sha256": "373fb39316bc12f55c002d77ce6b4e1a48b049f47c1baac82f61ada20327be59",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/vendor/Utonia/utonia/utils.py",
+      "storage": "existing_published",
+      "modules": [
+        "official_integrated_utonia.utils"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/vendor/Utonia/utonia/structure.py": {
+      "repository_path": "code/r28/reference/vendor/Utonia/utonia/structure.py",
+      "sha256": "61e696a46833292d7816d30a7f633d2728dceb5a037e0fb0bb7191a9111f6812",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/vendor/Utonia/utonia/structure.py",
+      "storage": "existing_published",
+      "modules": [
+        "official_integrated_utonia.structure"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/vendor/Utonia/utonia/module.py": {
+      "repository_path": "code/r28/reference/vendor/Utonia/utonia/module.py",
+      "sha256": "bb9f455509b233eac2b798df0d8efeefa64124628f493ec15dfa92aecabf3cff",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/vendor/Utonia/utonia/module.py",
+      "storage": "existing_published",
+      "modules": [
+        "official_integrated_utonia.module"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/vendor/Utonia/utonia/model.py": {
+      "repository_path": "code/r28/reference/vendor/Utonia/utonia/model.py",
+      "sha256": "f68484c32773b91a47530570b10acb47b229fdeb2132eb5e313f80901639f9ef",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/vendor/Utonia/utonia/model.py",
+      "storage": "existing_published",
+      "modules": [
+        "official_integrated_utonia.model"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/vendor/SPoTr/openpoints/models/layers/activation.py": {
+      "repository_path": "code/r28/reference/vendor/SPoTr/openpoints/models/layers/activation.py",
+      "sha256": "246a85ff9e13ab216e607124bdf9264d2d2f9892f5e35db7d15d7695c1d4d817",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/vendor/SPoTr/openpoints/models/layers/activation.py",
+      "storage": "existing_published",
+      "modules": [
+        "official_r28_spotr_layers.activation"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/vendor/SPoTr/openpoints/models/layers/norm.py": {
+      "repository_path": "code/r28/reference/vendor/SPoTr/openpoints/models/layers/norm.py",
+      "sha256": "080defe834a9f4c90700987a66a6c0351f5248a020205ce2552e5910542af463",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/vendor/SPoTr/openpoints/models/layers/norm.py",
+      "storage": "existing_published",
+      "modules": [
+        "official_r28_spotr_layers.norm"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/vendor/SPoTr/openpoints/models/layers/conv.py": {
+      "repository_path": "code/r28/reference/vendor/SPoTr/openpoints/models/layers/conv.py",
+      "sha256": "eadd5c38d77ea1a1c19b16e040faa13e52ef0089f783f0c39d06a9df75999eaa",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/vendor/SPoTr/openpoints/models/layers/conv.py",
+      "storage": "existing_published",
+      "modules": [
+        "official_r28_spotr_layers.conv"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/runtime/tree_encoder.py": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/runtime/tree_encoder.py",
+      "sha256": "4f2fd8da8870802795c4e09ae50fc8bbd3be73d08e2efec84934a024db58a84f",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/runtime/tree_encoder.py",
+      "storage": "new_frozen_source",
+      "modules": [
+        "graphformer_tree_compat"
+      ]
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/vendor/SPoTr/openpoints/models/backbone/spotr.py": {
+      "repository_path": "code/r28/reference/vendor/SPoTr/openpoints/models/backbone/spotr.py",
+      "sha256": "811867e5a23a21595883229b4b487051753ae1a9f96c5c77bcd0b4985b66d23b",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/vendor/SPoTr/openpoints/models/backbone/spotr.py",
+      "storage": "existing_published",
+      "modules": []
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/vendor/SPoTr/LICENSE": {
+      "repository_path": "code/r28/extension/vendor/SPoTr/LICENSE",
+      "sha256": "33c2088d8645da2de0aaca497cf6f12ffba6ac11e1ba52aa0d7451283b6a633b",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/vendor/SPoTr/LICENSE",
+      "storage": "existing_published",
+      "modules": []
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/vendor/Utonia/LICENSE": {
+      "repository_path": "code/r28/extension/vendor/Utonia/LICENSE",
+      "sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/r28/vendor/Utonia/LICENSE",
+      "storage": "existing_published",
+      "modules": []
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/LICENSE": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/LICENSE",
+      "sha256": "600cc67cc4cb2f5ea317dcfc687ad1c74dc4bec8782bbe9db0afd83513b935b7",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/dinov2/LICENSE",
+      "storage": "new_frozen_source",
+      "modules": []
+    },
+    "CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/upstream/README.md": {
+      "repository_path": "code/c_smm_cmm_rcm/sources/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/upstream/README.md",
+      "sha256": "e3ce1ed4c3403274cfbab42bdeba670efe5ae7bb9c4e240ac7ebd3422a9b2758",
+      "source_path": "/root/megrez-tmp/CPSF_GEOMETRY_FPS_REBENCH_20261020_A3/backends/graphformer/vendor/upstream/README.md",
+      "storage": "new_frozen_source",
+      "modules": []
+    }
+  },
+  "shared_core_sha256": "68b8d979971eca3094965c30b9b922d8d1544909c019d9fb0b18660a94eb1bcb",
+  "microns_parameters": 5262711,
+  "scope": "Model sources and import-time dependencies only; no data, checkpoints or training scheduler"
+}

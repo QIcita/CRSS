@@ -1,0 +1,169 @@
+{
+  "version": "C / regional_scaled_pi",
+  "verified_at_utc": "2026-10-31T08:58:23.659075+00:00",
+  "scope": "Model-source publication; construction, initialization identity, and checkpoint compatibility only",
+  "source_map_sha256": "e2ee619e7c9db883b34d0c11c656f44596455c1dc2d2ad310a95dc76410615ae",
+  "materialize_sha256": "17d1c5f1107815aef65c9a5d463d97ac8bc7df43f5783ce04f78fa324cd0e3bb",
+  "source_checks": {
+    "frozen_files": 126,
+    "python_sources": 122,
+    "new_frozen_files": 51,
+    "reused_files": 75,
+    "all_source_sha256_verified": true,
+    "python_syntax_passed": true,
+    "relocated_ast_matches_except_source_root_strings": true,
+    "readme_local_links_resolve": true,
+    "whitespace_review": {
+      "new_release_metadata_and_tool": "passed",
+      "frozen_upstream_trailing_whitespace_preserved": [
+        "vendor/upstream/README.md:130",
+        "vendor/upstream/README.md:133",
+        "vendor/upstream/graphformer/models/image_encoder.py:569",
+        "vendor/upstream/graphformer/models/image_encoder.py:615"
+      ]
+    }
+  },
+  "environment": {
+    "python": "3.10.21",
+    "torch": "2.4.0+cu121",
+    "cuda_device_index": 1,
+    "process_memory_limit_mib": 4000,
+    "installed_external_dependencies_reused": true,
+    "assembled_project_modules": 121,
+    "original_project_module_imports": 0
+  },
+  "shared_core_sha256": "68b8d979971eca3094965c30b9b922d8d1544909c019d9fb0b18660a94eb1bcb",
+  "digest_algorithm": "SHA-256 via cpsf_smm_runtime.common.state_digest: iterate state.items() in state-dict order, append each UTF-8 parameter/buffer name and detached contiguous CPU NumPy tensor bytes",
+  "tasks": {
+    "h01_local": {
+      "constructor_initial": 0.5,
+      "initial_state_matches_original": true,
+      "assembled": {
+        "mode": "assembled",
+        "task": "h01_local",
+        "parameters": 5262969,
+        "core_sha256": "68b8d979971eca3094965c30b9b922d8d1544909c019d9fb0b18660a94eb1bcb",
+        "initial_state_sha256": "a113a6e18ca77ff29fdc5f48f01bcf49a863b74eba16f026337a3741bfcbdedc",
+        "python": "3.10.21",
+        "torch": "2.4.0+cu121",
+        "original_project_imports": [],
+        "assembled_modules": 121,
+        "checkpoint": "/root/megrez-tmp/CPSF_H01_PROGRESSIVE_REPAIR_20261030_A1/results/regional_scaled_pi_h01_local/latest.pt",
+        "checkpoint_sha256": "fa30c4c3deabaa6bc82e8095967a9b6ebb651321e01dce6ba770bf83b94c08c2",
+        "strict_load": {
+          "missing_keys": [],
+          "unexpected_keys": []
+        },
+        "loaded_state_sha256": "0781bd4e3f34cb7fed06865c4f85f0e53c8335d721cbec511b012c9687c666fe"
+      },
+      "original": {
+        "mode": "original",
+        "task": "h01_local",
+        "parameters": 5262969,
+        "core_sha256": "68b8d979971eca3094965c30b9b922d8d1544909c019d9fb0b18660a94eb1bcb",
+        "initial_state_sha256": "a113a6e18ca77ff29fdc5f48f01bcf49a863b74eba16f026337a3741bfcbdedc",
+        "python": "3.10.21",
+        "torch": "2.4.0+cu121"
+      }
+    },
+    "h01_global": {
+      "constructor_initial": 0.5,
+      "initial_state_matches_original": true,
+      "assembled": {
+        "mode": "assembled",
+        "task": "h01_global",
+        "parameters": 5262711,
+        "core_sha256": "68b8d979971eca3094965c30b9b922d8d1544909c019d9fb0b18660a94eb1bcb",
+        "initial_state_sha256": "efab1ca8151f22aeb56fd03b9c2a2be2fa7488c458f614fe8c69113012df42e3",
+        "python": "3.10.21",
+        "torch": "2.4.0+cu121",
+        "original_project_imports": [],
+        "assembled_modules": 121,
+        "checkpoint": "/root/megrez-tmp/CPSF_H01_PROGRESSIVE_REPAIR_20261030_A1/results/regional_scaled_pi_h01_global/latest.pt",
+        "checkpoint_sha256": "e7f5a8038b4c084aacda2e8ce69f6489e9394b6fa7ef7c7bd09504302e3833f4",
+        "strict_load": {
+          "missing_keys": [],
+          "unexpected_keys": []
+        },
+        "loaded_state_sha256": "6a40d21d05d914ff859ed8d7be34f31d67be063042f56c5a7641f35ab804daed"
+      },
+      "original": {
+        "mode": "original",
+        "task": "h01_global",
+        "parameters": 5262711,
+        "core_sha256": "68b8d979971eca3094965c30b9b922d8d1544909c019d9fb0b18660a94eb1bcb",
+        "initial_state_sha256": "efab1ca8151f22aeb56fd03b9c2a2be2fa7488c458f614fe8c69113012df42e3",
+        "python": "3.10.21",
+        "torch": "2.4.0+cu121"
+      }
+    },
+    "flywire_coarse": {
+      "constructor_initial": 1.0,
+      "initial_state_matches_original": true,
+      "assembled": {
+        "mode": "assembled",
+        "task": "flywire_coarse",
+        "parameters": 5263356,
+        "core_sha256": "68b8d979971eca3094965c30b9b922d8d1544909c019d9fb0b18660a94eb1bcb",
+        "initial_state_sha256": "af5496c7ae485178cd895407c33fb64b7571e84d7236eb315e1d713986c61cce",
+        "python": "3.10.21",
+        "torch": "2.4.0+cu121",
+        "original_project_imports": [],
+        "assembled_modules": 121
+      },
+      "original": {
+        "mode": "original",
+        "task": "flywire_coarse",
+        "parameters": 5263356,
+        "core_sha256": "68b8d979971eca3094965c30b9b922d8d1544909c019d9fb0b18660a94eb1bcb",
+        "initial_state_sha256": "af5496c7ae485178cd895407c33fb64b7571e84d7236eb315e1d713986c61cce",
+        "python": "3.10.21",
+        "torch": "2.4.0+cu121"
+      }
+    },
+    "microns": {
+      "constructor_initial": 1.0,
+      "initial_state_matches_original": true,
+      "assembled": {
+        "mode": "assembled",
+        "task": "microns",
+        "parameters": 5262711,
+        "core_sha256": "68b8d979971eca3094965c30b9b922d8d1544909c019d9fb0b18660a94eb1bcb",
+        "initial_state_sha256": "9c0f953dceedbfce3fea2ff0cdf2a4c68fae03876dbf24e4d651028582ee3b82",
+        "python": "3.10.21",
+        "torch": "2.4.0+cu121",
+        "original_project_imports": [],
+        "assembled_modules": 121,
+        "checkpoint": "/root/megrez-tmp/CPSF_C_TRANSFER_20261031_A2/results/microns/best.pt",
+        "checkpoint_sha256": "71882f0b045728ead7911ff2031a0cfbbee6612f6ae206230314e63c23b03443",
+        "strict_load": {
+          "missing_keys": [],
+          "unexpected_keys": []
+        },
+        "loaded_state_sha256": "ba5b3a9a16a2b67ad7f75320b468bf5a67173e495b8843a48c135d2b6c4b0941"
+      },
+      "original": {
+        "mode": "original",
+        "task": "microns",
+        "parameters": 5262711,
+        "core_sha256": "68b8d979971eca3094965c30b9b922d8d1544909c019d9fb0b18660a94eb1bcb",
+        "initial_state_sha256": "9c0f953dceedbfce3fea2ff0cdf2a4c68fae03876dbf24e4d651028582ee3b82",
+        "python": "3.10.21",
+        "torch": "2.4.0+cu121"
+      }
+    }
+  },
+  "not_performed": [
+    "Full retraining",
+    "New development or test-set evaluation",
+    "Final FlyWire checkpoint validation"
+  ],
+  "publication_excludes": [
+    "Data",
+    "Geometry caches",
+    "Checkpoints",
+    "Optimizer state",
+    "Training workers and schedulers",
+    "Environment configuration or credentials"
+  ]
+}
