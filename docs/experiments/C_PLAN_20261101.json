@@ -1,0 +1,761 @@
+{
+  "version": "CPSF_C_PAPER_EXPERIMENTS_20261101_A1",
+  "status": "design_complete_not_submitted",
+  "reference": "regional_scaled_pi original C; no rootbar or PI-basis-residual replacement",
+  "tasks": {
+    "h01_global": {
+      "epochs": 50,
+      "updates": 1000,
+      "metric": "mae",
+      "direction": "min",
+      "evaluation": "fixed_final_development"
+    },
+    "flywire_coarse": {
+      "epochs": 50,
+      "updates": 62200,
+      "metric": "macro_f1",
+      "direction": "max",
+      "evaluation": "fixed_final_development"
+    },
+    "microns": {
+      "epochs": 50,
+      "updates": 4750,
+      "metric": "cell_macro_poisson_deviance",
+      "direction": "min",
+      "evaluation": "validation_selected_test"
+    }
+  },
+  "variants": {
+    "full": {
+      "id": "F",
+      "label": "原C Full",
+      "configuration": {
+        "pi": "compact",
+        "smm_interaction": true,
+        "cmm": "joint",
+        "aggregation": "learned",
+        "same_scale": true,
+        "cross_scale": true,
+        "direct_base": true
+      },
+      "implementation_status": "reference_existing"
+    },
+    "smm_tree_only": {
+      "id": "S0",
+      "label": "仅分支，去PI及其模态内交互",
+      "configuration": {
+        "pi": "none",
+        "smm_interaction": false,
+        "cmm": "joint",
+        "aggregation": "learned",
+        "same_scale": true,
+        "cross_scale": true,
+        "direct_base": true
+      },
+      "implementation_status": "planned_not_implemented"
+    },
+    "smm_no_interaction": {
+      "id": "S1",
+      "label": "分支和PI保留，去SMM交互",
+      "configuration": {
+        "pi": "compact",
+        "smm_interaction": false,
+        "cmm": "joint",
+        "aggregation": "learned",
+        "same_scale": true,
+        "cross_scale": true,
+        "direct_base": true
+      },
+      "implementation_status": "planned_not_implemented"
+    },
+    "smm_pi_statistics": {
+      "id": "S2",
+      "label": "PI仅统计基底，去卷积残差",
+      "configuration": {
+        "pi": "statistics",
+        "smm_interaction": true,
+        "cmm": "joint",
+        "aggregation": "learned",
+        "same_scale": true,
+        "cross_scale": true,
+        "direct_base": true
+      },
+      "implementation_status": "planned_not_implemented"
+    },
+    "cmm_anchor_only": {
+      "id": "P0",
+      "label": "CMM仅H",
+      "configuration": {
+        "pi": "compact",
+        "smm_interaction": true,
+        "cmm": "anchor",
+        "aggregation": "learned",
+        "same_scale": true,
+        "cross_scale": true,
+        "direct_base": true
+      },
+      "implementation_status": "planned_not_implemented"
+    },
+    "cmm_neighborhood": {
+      "id": "P1",
+      "label": "H＋0.1D，无成对交互",
+      "configuration": {
+        "pi": "compact",
+        "smm_interaction": true,
+        "cmm": "anchor_neighborhood",
+        "aggregation": "learned",
+        "same_scale": true,
+        "cross_scale": true,
+        "direct_base": true
+      },
+      "implementation_status": "planned_not_implemented"
+    },
+    "cmm_hierarchy": {
+      "id": "P2",
+      "label": "H＋0.1C̃，无成对交互",
+      "configuration": {
+        "pi": "compact",
+        "smm_interaction": true,
+        "cmm": "anchor_hierarchy",
+        "aggregation": "learned",
+        "same_scale": true,
+        "cross_scale": true,
+        "direct_base": true
+      },
+      "implementation_status": "planned_not_implemented"
+    },
+    "cmm_additive": {
+      "id": "P3",
+      "label": "H＋0.1D＋0.1C̃，无成对交互",
+      "configuration": {
+        "pi": "compact",
+        "smm_interaction": true,
+        "cmm": "additive",
+        "aggregation": "learned",
+        "same_scale": true,
+        "cross_scale": true,
+        "direct_base": true
+      },
+      "implementation_status": "planned_not_implemented"
+    },
+    "rcm_prior_pool": {
+      "id": "R0",
+      "label": "RCM仅几何／质量先验聚合",
+      "configuration": {
+        "pi": "compact",
+        "smm_interaction": true,
+        "cmm": "joint",
+        "aggregation": "prior",
+        "same_scale": true,
+        "cross_scale": true,
+        "direct_base": true
+      },
+      "implementation_status": "planned_not_implemented"
+    },
+    "rcm_no_same_scale": {
+      "id": "R1",
+      "label": "去同尺度交互",
+      "configuration": {
+        "pi": "compact",
+        "smm_interaction": true,
+        "cmm": "joint",
+        "aggregation": "learned",
+        "same_scale": false,
+        "cross_scale": true,
+        "direct_base": true
+      },
+      "implementation_status": "planned_not_implemented"
+    },
+    "rcm_no_cross_scale": {
+      "id": "R2",
+      "label": "去跨尺度交互",
+      "configuration": {
+        "pi": "compact",
+        "smm_interaction": true,
+        "cmm": "joint",
+        "aggregation": "learned",
+        "same_scale": true,
+        "cross_scale": false,
+        "direct_base": true
+      },
+      "implementation_status": "planned_not_implemented"
+    },
+    "rcm_no_scale_interaction": {
+      "id": "R3",
+      "label": "去同尺度与跨尺度交互",
+      "configuration": {
+        "pi": "compact",
+        "smm_interaction": true,
+        "cmm": "joint",
+        "aggregation": "learned",
+        "same_scale": false,
+        "cross_scale": false,
+        "direct_base": true
+      },
+      "implementation_status": "planned_not_implemented"
+    },
+    "rcm_no_direct_base": {
+      "id": "R4",
+      "label": "仅去最终直接模态基底",
+      "configuration": {
+        "pi": "compact",
+        "smm_interaction": true,
+        "cmm": "joint",
+        "aggregation": "learned",
+        "same_scale": true,
+        "cross_scale": true,
+        "direct_base": false
+      },
+      "implementation_status": "planned_not_implemented"
+    }
+  },
+  "tables": {
+    "smm": [
+      "smm_tree_only",
+      "smm_no_interaction",
+      "smm_pi_statistics",
+      "full"
+    ],
+    "cmm": [
+      "cmm_anchor_only",
+      "cmm_neighborhood",
+      "cmm_hierarchy",
+      "cmm_additive",
+      "full"
+    ],
+    "rcm": [
+      "rcm_prior_pool",
+      "rcm_no_same_scale",
+      "rcm_no_cross_scale",
+      "rcm_no_scale_interaction",
+      "rcm_no_direct_base",
+      "full"
+    ]
+  },
+  "jobs": [
+    {
+      "id": "h01_global__full",
+      "task": "h01_global",
+      "variant": "full",
+      "status": "existing_result_pending_adapter_equivalence",
+      "seed": 42,
+      "epochs": 50,
+      "updates": 1000,
+      "metric": "mae",
+      "direction": "min",
+      "evaluation": "fixed_final_development"
+    },
+    {
+      "id": "flywire_coarse__full",
+      "task": "flywire_coarse",
+      "variant": "full",
+      "status": "existing_result_pending_adapter_equivalence",
+      "seed": 42,
+      "epochs": 50,
+      "updates": 62200,
+      "metric": "macro_f1",
+      "direction": "max",
+      "evaluation": "fixed_final_development"
+    },
+    {
+      "id": "microns__full",
+      "task": "microns",
+      "variant": "full",
+      "status": "existing_result_pending_adapter_equivalence",
+      "seed": 42,
+      "epochs": 50,
+      "updates": 4750,
+      "metric": "cell_macro_poisson_deviance",
+      "direction": "min",
+      "evaluation": "validation_selected_test"
+    },
+    {
+      "id": "h01_global__smm_tree_only",
+      "task": "h01_global",
+      "variant": "smm_tree_only",
+      "status": "planned_not_submitted",
+      "seed": 42,
+      "epochs": 50,
+      "updates": 1000,
+      "metric": "mae",
+      "direction": "min",
+      "evaluation": "fixed_final_development"
+    },
+    {
+      "id": "flywire_coarse__smm_tree_only",
+      "task": "flywire_coarse",
+      "variant": "smm_tree_only",
+      "status": "planned_not_submitted",
+      "seed": 42,
+      "epochs": 50,
+      "updates": 62200,
+      "metric": "macro_f1",
+      "direction": "max",
+      "evaluation": "fixed_final_development"
+    },
+    {
+      "id": "microns__smm_tree_only",
+      "task": "microns",
+      "variant": "smm_tree_only",
+      "status": "planned_not_submitted",
+      "seed": 42,
+      "epochs": 50,
+      "updates": 4750,
+      "metric": "cell_macro_poisson_deviance",
+      "direction": "min",
+      "evaluation": "validation_selected_test"
+    },
+    {
+      "id": "h01_global__smm_no_interaction",
+      "task": "h01_global",
+      "variant": "smm_no_interaction",
+      "status": "planned_not_submitted",
+      "seed": 42,
+      "epochs": 50,
+      "updates": 1000,
+      "metric": "mae",
+      "direction": "min",
+      "evaluation": "fixed_final_development"
+    },
+    {
+      "id": "flywire_coarse__smm_no_interaction",
+      "task": "flywire_coarse",
+      "variant": "smm_no_interaction",
+      "status": "planned_not_submitted",
+      "seed": 42,
+      "epochs": 50,
+      "updates": 62200,
+      "metric": "macro_f1",
+      "direction": "max",
+      "evaluation": "fixed_final_development"
+    },
+    {
+      "id": "microns__smm_no_interaction",
+      "task": "microns",
+      "variant": "smm_no_interaction",
+      "status": "planned_not_submitted",
+      "seed": 42,
+      "epochs": 50,
+      "updates": 4750,
+      "metric": "cell_macro_poisson_deviance",
+      "direction": "min",
+      "evaluation": "validation_selected_test"
+    },
+    {
+      "id": "h01_global__smm_pi_statistics",
+      "task": "h01_global",
+      "variant": "smm_pi_statistics",
+      "status": "planned_not_submitted",
+      "seed": 42,
+      "epochs": 50,
+      "updates": 1000,
+      "metric": "mae",
+      "direction": "min",
+      "evaluation": "fixed_final_development"
+    },
+    {
+      "id": "flywire_coarse__smm_pi_statistics",
+      "task": "flywire_coarse",
+      "variant": "smm_pi_statistics",
+      "status": "planned_not_submitted",
+      "seed": 42,
+      "epochs": 50,
+      "updates": 62200,
+      "metric": "macro_f1",
+      "direction": "max",
+      "evaluation": "fixed_final_development"
+    },
+    {
+      "id": "microns__smm_pi_statistics",
+      "task": "microns",
+      "variant": "smm_pi_statistics",
+      "status": "planned_not_submitted",
+      "seed": 42,
+      "epochs": 50,
+      "updates": 4750,
+      "metric": "cell_macro_poisson_deviance",
+      "direction": "min",
+      "evaluation": "validation_selected_test"
+    },
+    {
+      "id": "h01_global__cmm_anchor_only",
+      "task": "h01_global",
+      "variant": "cmm_anchor_only",
+      "status": "planned_not_submitted",
+      "seed": 42,
+      "epochs": 50,
+      "updates": 1000,
+      "metric": "mae",
+      "direction": "min",
+      "evaluation": "fixed_final_development"
+    },
+    {
+      "id": "flywire_coarse__cmm_anchor_only",
+      "task": "flywire_coarse",
+      "variant": "cmm_anchor_only",
+      "status": "planned_not_submitted",
+      "seed": 42,
+      "epochs": 50,
+      "updates": 62200,
+      "metric": "macro_f1",
+      "direction": "max",
+      "evaluation": "fixed_final_development"
+    },
+    {
+      "id": "microns__cmm_anchor_only",
+      "task": "microns",
+      "variant": "cmm_anchor_only",
+      "status": "planned_not_submitted",
+      "seed": 42,
+      "epochs": 50,
+      "updates": 4750,
+      "metric": "cell_macro_poisson_deviance",
+      "direction": "min",
+      "evaluation": "validation_selected_test"
+    },
+    {
+      "id": "h01_global__cmm_neighborhood",
+      "task": "h01_global",
+      "variant": "cmm_neighborhood",
+      "status": "planned_not_submitted",
+      "seed": 42,
+      "epochs": 50,
+      "updates": 1000,
+      "metric": "mae",
+      "direction": "min",
+      "evaluation": "fixed_final_development"
+    },
+    {
+      "id": "flywire_coarse__cmm_neighborhood",
+      "task": "flywire_coarse",
+      "variant": "cmm_neighborhood",
+      "status": "planned_not_submitted",
+      "seed": 42,
+      "epochs": 50,
+      "updates": 62200,
+      "metric": "macro_f1",
+      "direction": "max",
+      "evaluation": "fixed_final_development"
+    },
+    {
+      "id": "microns__cmm_neighborhood",
+      "task": "microns",
+      "variant": "cmm_neighborhood",
+      "status": "planned_not_submitted",
+      "seed": 42,
+      "epochs": 50,
+      "updates": 4750,
+      "metric": "cell_macro_poisson_deviance",
+      "direction": "min",
+      "evaluation": "validation_selected_test"
+    },
+    {
+      "id": "h01_global__cmm_hierarchy",
+      "task": "h01_global",
+      "variant": "cmm_hierarchy",
+      "status": "planned_not_submitted",
+      "seed": 42,
+      "epochs": 50,
+      "updates": 1000,
+      "metric": "mae",
+      "direction": "min",
+      "evaluation": "fixed_final_development"
+    },
+    {
+      "id": "flywire_coarse__cmm_hierarchy",
+      "task": "flywire_coarse",
+      "variant": "cmm_hierarchy",
+      "status": "planned_not_submitted",
+      "seed": 42,
+      "epochs": 50,
+      "updates": 62200,
+      "metric": "macro_f1",
+      "direction": "max",
+      "evaluation": "fixed_final_development"
+    },
+    {
+      "id": "microns__cmm_hierarchy",
+      "task": "microns",
+      "variant": "cmm_hierarchy",
+      "status": "planned_not_submitted",
+      "seed": 42,
+      "epochs": 50,
+      "updates": 4750,
+      "metric": "cell_macro_poisson_deviance",
+      "direction": "min",
+      "evaluation": "validation_selected_test"
+    },
+    {
+      "id": "h01_global__cmm_additive",
+      "task": "h01_global",
+      "variant": "cmm_additive",
+      "status": "planned_not_submitted",
+      "seed": 42,
+      "epochs": 50,
+      "updates": 1000,
+      "metric": "mae",
+      "direction": "min",
+      "evaluation": "fixed_final_development"
+    },
+    {
+      "id": "flywire_coarse__cmm_additive",
+      "task": "flywire_coarse",
+      "variant": "cmm_additive",
+      "status": "planned_not_submitted",
+      "seed": 42,
+      "epochs": 50,
+      "updates": 62200,
+      "metric": "macro_f1",
+      "direction": "max",
+      "evaluation": "fixed_final_development"
+    },
+    {
+      "id": "microns__cmm_additive",
+      "task": "microns",
+      "variant": "cmm_additive",
+      "status": "planned_not_submitted",
+      "seed": 42,
+      "epochs": 50,
+      "updates": 4750,
+      "metric": "cell_macro_poisson_deviance",
+      "direction": "min",
+      "evaluation": "validation_selected_test"
+    },
+    {
+      "id": "h01_global__rcm_prior_pool",
+      "task": "h01_global",
+      "variant": "rcm_prior_pool",
+      "status": "planned_not_submitted",
+      "seed": 42,
+      "epochs": 50,
+      "updates": 1000,
+      "metric": "mae",
+      "direction": "min",
+      "evaluation": "fixed_final_development"
+    },
+    {
+      "id": "flywire_coarse__rcm_prior_pool",
+      "task": "flywire_coarse",
+      "variant": "rcm_prior_pool",
+      "status": "planned_not_submitted",
+      "seed": 42,
+      "epochs": 50,
+      "updates": 62200,
+      "metric": "macro_f1",
+      "direction": "max",
+      "evaluation": "fixed_final_development"
+    },
+    {
+      "id": "microns__rcm_prior_pool",
+      "task": "microns",
+      "variant": "rcm_prior_pool",
+      "status": "planned_not_submitted",
+      "seed": 42,
+      "epochs": 50,
+      "updates": 4750,
+      "metric": "cell_macro_poisson_deviance",
+      "direction": "min",
+      "evaluation": "validation_selected_test"
+    },
+    {
+      "id": "h01_global__rcm_no_same_scale",
+      "task": "h01_global",
+      "variant": "rcm_no_same_scale",
+      "status": "planned_not_submitted",
+      "seed": 42,
+      "epochs": 50,
+      "updates": 1000,
+      "metric": "mae",
+      "direction": "min",
+      "evaluation": "fixed_final_development"
+    },
+    {
+      "id": "flywire_coarse__rcm_no_same_scale",
+      "task": "flywire_coarse",
+      "variant": "rcm_no_same_scale",
+      "status": "planned_not_submitted",
+      "seed": 42,
+      "epochs": 50,
+      "updates": 62200,
+      "metric": "macro_f1",
+      "direction": "max",
+      "evaluation": "fixed_final_development"
+    },
+    {
+      "id": "microns__rcm_no_same_scale",
+      "task": "microns",
+      "variant": "rcm_no_same_scale",
+      "status": "planned_not_submitted",
+      "seed": 42,
+      "epochs": 50,
+      "updates": 4750,
+      "metric": "cell_macro_poisson_deviance",
+      "direction": "min",
+      "evaluation": "validation_selected_test"
+    },
+    {
+      "id": "h01_global__rcm_no_cross_scale",
+      "task": "h01_global",
+      "variant": "rcm_no_cross_scale",
+      "status": "planned_not_submitted",
+      "seed": 42,
+      "epochs": 50,
+      "updates": 1000,
+      "metric": "mae",
+      "direction": "min",
+      "evaluation": "fixed_final_development"
+    },
+    {
+      "id": "flywire_coarse__rcm_no_cross_scale",
+      "task": "flywire_coarse",
+      "variant": "rcm_no_cross_scale",
+      "status": "planned_not_submitted",
+      "seed": 42,
+      "epochs": 50,
+      "updates": 62200,
+      "metric": "macro_f1",
+      "direction": "max",
+      "evaluation": "fixed_final_development"
+    },
+    {
+      "id": "microns__rcm_no_cross_scale",
+      "task": "microns",
+      "variant": "rcm_no_cross_scale",
+      "status": "planned_not_submitted",
+      "seed": 42,
+      "epochs": 50,
+      "updates": 4750,
+      "metric": "cell_macro_poisson_deviance",
+      "direction": "min",
+      "evaluation": "validation_selected_test"
+    },
+    {
+      "id": "h01_global__rcm_no_scale_interaction",
+      "task": "h01_global",
+      "variant": "rcm_no_scale_interaction",
+      "status": "planned_not_submitted",
+      "seed": 42,
+      "epochs": 50,
+      "updates": 1000,
+      "metric": "mae",
+      "direction": "min",
+      "evaluation": "fixed_final_development"
+    },
+    {
+      "id": "flywire_coarse__rcm_no_scale_interaction",
+      "task": "flywire_coarse",
+      "variant": "rcm_no_scale_interaction",
+      "status": "planned_not_submitted",
+      "seed": 42,
+      "epochs": 50,
+      "updates": 62200,
+      "metric": "macro_f1",
+      "direction": "max",
+      "evaluation": "fixed_final_development"
+    },
+    {
+      "id": "microns__rcm_no_scale_interaction",
+      "task": "microns",
+      "variant": "rcm_no_scale_interaction",
+      "status": "planned_not_submitted",
+      "seed": 42,
+      "epochs": 50,
+      "updates": 4750,
+      "metric": "cell_macro_poisson_deviance",
+      "direction": "min",
+      "evaluation": "validation_selected_test"
+    },
+    {
+      "id": "h01_global__rcm_no_direct_base",
+      "task": "h01_global",
+      "variant": "rcm_no_direct_base",
+      "status": "planned_not_submitted",
+      "seed": 42,
+      "epochs": 50,
+      "updates": 1000,
+      "metric": "mae",
+      "direction": "min",
+      "evaluation": "fixed_final_development"
+    },
+    {
+      "id": "flywire_coarse__rcm_no_direct_base",
+      "task": "flywire_coarse",
+      "variant": "rcm_no_direct_base",
+      "status": "planned_not_submitted",
+      "seed": 42,
+      "epochs": 50,
+      "updates": 62200,
+      "metric": "macro_f1",
+      "direction": "max",
+      "evaluation": "fixed_final_development"
+    },
+    {
+      "id": "microns__rcm_no_direct_base",
+      "task": "microns",
+      "variant": "rcm_no_direct_base",
+      "status": "planned_not_submitted",
+      "seed": 42,
+      "epochs": 50,
+      "updates": 4750,
+      "metric": "cell_macro_poisson_deviance",
+      "direction": "min",
+      "evaluation": "validation_selected_test"
+    }
+  ],
+  "new_training_jobs": 36,
+  "new_optimizer_updates": 815400,
+  "visualizations": [
+    {
+      "id": "V1",
+      "task": "microns",
+      "name": "regional_spatial_prediction_and_paired_errors",
+      "methods": [
+        "full",
+        "utonia_scratch_r2",
+        "rcm_no_scale_interaction"
+      ],
+      "cohort": "all_80_test_cells_241249_regions",
+      "cases": "query_regions_quantiles_25_50_75_tie_root_id; plus explicitly labeled largest_regression",
+      "outputs": [
+        "density_maps",
+        "deviance_maps",
+        "paired_cell_deviance",
+        "count_error_and_jsd"
+      ],
+      "additional_training": 0,
+      "status": "planned_not_rendered"
+    },
+    {
+      "id": "V2",
+      "task": "flywire_coarse",
+      "name": "classwise_gains_error_transitions_and_regional_aggregation",
+      "methods": [
+        "full",
+        "graphformer_official_features_head",
+        "smm_no_interaction",
+        "cmm_anchor_only",
+        "rcm_no_scale_interaction"
+      ],
+      "cohort": "all_1922_development_cells_all_6_classes",
+      "cases": "minimum_sha256_key_in_full_only_correct_and_baseline_only_correct_groups",
+      "outputs": [
+        "per_class_f1_support",
+        "confusion_difference",
+        "paired_correctness_groups",
+        "prior_alpha_enrichment_on_original_edges"
+      ],
+      "additional_training": 0,
+      "status": "planned_not_rendered"
+    }
+  ],
+  "execution_gate": [
+    "adapter_full_equivalence",
+    "exact_switch_semantics",
+    "two_step_gradient_checks",
+    "same_frozen_task_protocol",
+    "resource_admission"
+  ],
+  "baseline_retry_is_separate": "CPSF_PTV3_MICRONS_RETRY_20261101_A1",
+  "results_policy": "Keep failed and unfinished rows; no interim scores; no cross-version full row",
+  "full_result_provenance": "../../code/c_smm_cmm_rcm/RESULTS.json"
+}

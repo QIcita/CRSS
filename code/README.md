@@ -1,4 +1,12 @@
-# 当前完整模型代码包
+# 当前模型入口（2026-11-01）
+
+- 默认方案：[C版SMM–CMM–RCM](c_smm_cmm_rcm/README.md)，已完成三任务训练。
+- 最新独立候选：[PI公共密度／加权残差](c_pi_basis_residual/README.md)，尚未正式训练。
+- [论文实验设计](../docs/C_PAPER_EXPERIMENT_PLAN_20261101.md)：三张机制消融表与两组可视化，状态为计划。
+
+以下为2026-10-11历史单文件模型包，保留复现用途，不是当前C版。
+
+# 历史完整模型代码包
 
 版本：2026-10-11。保留固定残差clean core；TED使用lr_half，TLP使用directional_xyz。此包不是新模型版本，不改变正在训练的外部基线。
 

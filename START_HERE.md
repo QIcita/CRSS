@@ -1,4 +1,19 @@
-# 最新代码发布：R38（2026-10-25）
+# 当前方案：C版渐进式SMM–CMM–RCM（2026-11-01更新）
+
+[C版架构与源码](code/c_smm_cmm_rcm/README.md) → [三任务结果与边界](docs/C_CURRENT_RESULTS_20261101.md) → [三张机制表与两组可视化计划](docs/C_PAPER_EXPERIMENT_PLAN_20261101.md)。当前关注H01整体、FlyWire粗分类和MICrONS；H01局部接口保留供历史复现。
+
+[PI公共密度／加权残差](code/c_pi_basis_residual/README.md)是最新代码候选，已经通过工程验收，**尚未正式训练**。默认C的三项成绩不属于它。候选组装目录同时提供原C的`model.py`和候选的`candidate.py`，不自动替换默认模型。
+
+```bash
+python code/c_smm_cmm_rcm/materialize.py
+python code/c_pi_basis_residual/materialize.py /absolute/path/to/new/c_candidate
+```
+
+新发布不包含训练数据、缓存、权重或调度器。论文实验矩阵为计划，尚无新消融结果。后续章节是按各自日期保留的历史入口；旧论文、旧“当前”标识和旧单文件模型不能替代本节的实际C版源码。
+
+---
+
+# 历史代码发布：R38（2026-10-25）
 
 [架构与公式](docs/R38_ARCHITECTURE_ZH.md) → [结果与状态](docs/R38_RESULTS_ZH.md) → [代码、五份完成权重和组装](code/r38/README.md)。
 

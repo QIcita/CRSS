@@ -1,0 +1,200 @@
+{
+  "version": "regional_scaled_pi",
+  "checked_at": "2026-11-01T15:12:20.537565+08:00",
+  "tasks": {
+    "h01_global": {
+      "metrics": {
+        "mae": 0.05413036669294039,
+        "rmse": 0.07294311033710406,
+        "r2": 0.6733926311700249
+      },
+      "validation": {
+        "mae": 0.05413036669294039,
+        "rmse": 0.07294311033710406,
+        "r2": 0.6733926311700249
+      },
+      "epochs": 50,
+      "steps": 1000,
+      "selected_epoch": 50,
+      "checkpoint_sha256": "e7f5a8038b4c084aacda2e8ce69f6489e9394b6fa7ef7c7bd09504302e3833f4",
+      "identity": {
+        "arm": "regional_scaled_pi",
+        "task": "h01_global",
+        "seed": 42,
+        "protocol_sha256": "26504ec05c9d62481eb468dea91566c58e76148ae92966671b98d473d11cf581",
+        "manifest_sha256": "fd5e8d2770e26a91dbf8cc25c1fc43b61b28f97e143805e2ba94bc1e7ba46bb2",
+        "initial_state_sha256": "bab5102df788af96c55fbb0a1bf6c60db0d3edab6495ffe6ef47874bca9f6c3c",
+        "selection": "fixed final epoch development",
+        "pretrained": false,
+        "parameters": 5262711
+      },
+      "actual_source_sha256": "63b1d1eff9128d0ca1f669291ce2d57fa32af336fb90ba6b84f3ad6229647388"
+    },
+    "flywire_coarse": {
+      "metrics": {
+        "macro_f1": 0.8353222790345584,
+        "accuracy": 0.95369406867846,
+        "confusion_matrix": [
+          [
+            28,
+            2,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            285,
+            23,
+            0,
+            2,
+            7
+          ],
+          [
+            0,
+            12,
+            1228,
+            10,
+            0,
+            4
+          ],
+          [
+            0,
+            1,
+            3,
+            241,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            1,
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            8,
+            10,
+            0,
+            0,
+            48
+          ]
+        ]
+      },
+      "validation": {
+        "macro_f1": 0.8353222790345584,
+        "accuracy": 0.95369406867846,
+        "confusion_matrix": [
+          [
+            28,
+            2,
+            0,
+            2,
+            0,
+            0
+          ],
+          [
+            0,
+            285,
+            23,
+            0,
+            2,
+            7
+          ],
+          [
+            0,
+            12,
+            1228,
+            10,
+            0,
+            4
+          ],
+          [
+            0,
+            1,
+            3,
+            241,
+            0,
+            0
+          ],
+          [
+            0,
+            4,
+            1,
+            0,
+            3,
+            0
+          ],
+          [
+            0,
+            8,
+            10,
+            0,
+            0,
+            48
+          ]
+        ]
+      },
+      "epochs": 50,
+      "steps": 62200,
+      "selected_epoch": 50,
+      "checkpoint_sha256": "74b34bdaee3378addd821b6659d54419a73357e2be79b6c63d4a985b4ff9e477",
+      "identity": {
+        "task": "flywire_coarse",
+        "arm": "regional_scaled_pi",
+        "seed": 42,
+        "protocol_sha256": "646c77df4a88786064392a5dea8b9c45a3fa9ed2377f7875426556ab203635bb",
+        "manifest_sha256": "fcf802819f2b4ec14af84f8f28a3a54a277bffbbba4c464e34bf8458fca42ff5",
+        "initial_state_sha256": "af5496c7ae485178cd895407c33fb64b7571e84d7236eb315e1d713986c61cce",
+        "shared_core_sha256": "68b8d979971eca3094965c30b9b922d8d1544909c019d9fb0b18660a94eb1bcb",
+        "parameters": 5263356,
+        "selection": "Fixed final epoch 50 development macro-F1; no best checkpoint selection",
+        "pretrained": false
+      },
+      "actual_source_sha256": "e5c2a2dc6a90a96b37c6c69882a1ddfe068e50a68643d48a54cecdaf1c24c2b1"
+    },
+    "microns": {
+      "metrics": {
+        "cells": 80,
+        "regions": 241249,
+        "cell_macro_poisson_deviance": 0.28042970093765673,
+        "cell_macro_region_density_mae": 0.09334279766487104,
+        "cell_macro_total_count_mae": 220.13720325476098,
+        "cell_macro_js_divergence_base2": 0.050434544160256264,
+        "js_eligible_cells": 80
+      },
+      "validation": {
+        "cells": 79,
+        "regions": 255148,
+        "cell_macro_poisson_deviance": 0.3155152830678033,
+        "cell_macro_region_density_mae": 0.09559466004560023,
+        "cell_macro_total_count_mae": 300.7089392057313,
+        "cell_macro_js_divergence_base2": 0.04905907367546537,
+        "js_eligible_cells": 79
+      },
+      "epochs": 50,
+      "steps": 4750,
+      "selected_epoch": 33,
+      "checkpoint_sha256": "71882f0b045728ead7911ff2031a0cfbbee6612f6ae206230314e63c23b03443",
+      "identity": {
+        "task": "microns",
+        "arm": "regional_scaled_pi",
+        "seed": 42,
+        "protocol_sha256": "646c77df4a88786064392a5dea8b9c45a3fa9ed2377f7875426556ab203635bb",
+        "manifest_sha256": "646ba39ff1d39015f0d04265261aa21d0a234b65a10fdfbdb442e017d8b1edbe",
+        "initial_state_sha256": "08df36cd5f5fd0841e3f240c0edb804ddeed046726cb02658c1a4ada41793982",
+        "shared_core_sha256": "68b8d979971eca3094965c30b9b922d8d1544909c019d9fb0b18660a94eb1bcb",
+        "parameters": 5262711,
+        "selection": "minimum validation cell-macro Poisson deviance; final test once after completion",
+        "pretrained": false
+      },
+      "actual_source_sha256": "305e55469fbaddd97b4f78ced3f8438330c9bf3deb75f1baac8c9984ba4bcf72"
+    }
+  },
+  "evaluation_scope": "H01 and FlyWire fixed-final development; MICrONS validation-selected test",
+  "performance_not_applicable_to": "pi_basis_residual"
+}

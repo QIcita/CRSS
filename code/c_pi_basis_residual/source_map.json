@@ -1,0 +1,16 @@
+{
+  "version": "C / pi_basis_residual",
+  "status": "untrained_candidate",
+  "files": {
+    "tools/cpsf_pi_basis_residual/__init__.py": "e275c1bbaba0a81a141f7a0b51d16d743626c41bd8258d3bd14bdd19a2a35d51",
+    "tools/cpsf_pi_basis_residual/model.py": "37200774733c948be6aa96c2e13976802fa8a68e6ab9460339e51071c2813aa8"
+  },
+  "parent_files": {
+    "source_map.json": "e2ee619e7c9db883b34d0c11c656f44596455c1dc2d2ad310a95dc76410615ae",
+    "materialize.py": "17d1c5f1107815aef65c9a5d463d97ac8bc7df43f5783ce04f78fa324cd0e3bb"
+  },
+  "original_model_sha256": "37200774733c948be6aa96c2e13976802fa8a68e6ab9460339e51071c2813aa8",
+  "additional_parameters": 768,
+  "trained": false,
+  "performance_evaluated": false
+}

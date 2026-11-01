@@ -1,0 +1,241 @@
+{
+  "version": "C / pi_basis_residual",
+  "verified_at": "2026-11-01T16:01:42.302949+08:00",
+  "passed": true,
+  "source_map_sha256": "a346c8acf56f8d8f20f515c7ffbfb0c5b197cbec44ed5f1d369ca205eb60e263",
+  "materialize_sha256": "5c60daa74528a7df92c0c6d3cbf07f018d29e67936590b1dc5694ed623e1a78d",
+  "source_model_sha256": "37200774733c948be6aa96c2e13976802fa8a68e6ab9460339e51071c2813aa8",
+  "publication_validation": {
+    "passed": true,
+    "tasks": {
+      "h01_global": {
+        "original": {
+          "mode": "original",
+          "task": "h01_global",
+          "initial": 0.5,
+          "passed": true,
+          "parameters": 5263479,
+          "initial_state_sha256": "d710d30a9b365dfae71d96eb90fbe7300f5f13cf5754dfd319ecee47ff05594f",
+          "inherited_parameters_exact": true,
+          "added_parameters": 768,
+          "reconstruction_max_abs": 5.960464477539063e-08,
+          "pi_output_sha256": "b115da17c42c557bf741dd15e34f8ab20ea31d0b285ad3debd5f73bc536260e8",
+          "coefficient_gradient_sha256": "4091e07f4c09d7053119375e370d1ef5ba6c40ce5549990a6bd970a0c775b110",
+          "no_optimizer": true,
+          "no_data_read": true,
+          "no_performance_evaluation": true,
+          "original_project_imports": "source_reference",
+          "peak_gpu_bytes": 123929600
+        },
+        "assembled": {
+          "mode": "assembled",
+          "task": "h01_global",
+          "initial": 0.5,
+          "passed": true,
+          "parameters": 5263479,
+          "initial_state_sha256": "d710d30a9b365dfae71d96eb90fbe7300f5f13cf5754dfd319ecee47ff05594f",
+          "inherited_parameters_exact": true,
+          "added_parameters": 768,
+          "reconstruction_max_abs": 5.960464477539063e-08,
+          "pi_output_sha256": "b115da17c42c557bf741dd15e34f8ab20ea31d0b285ad3debd5f73bc536260e8",
+          "coefficient_gradient_sha256": "4091e07f4c09d7053119375e370d1ef5ba6c40ce5549990a6bd970a0c775b110",
+          "no_optimizer": true,
+          "no_data_read": true,
+          "no_performance_evaluation": true,
+          "original_project_imports": [],
+          "peak_gpu_bytes": 123929600
+        }
+      },
+      "flywire_coarse": {
+        "original": {
+          "mode": "original",
+          "task": "flywire_coarse",
+          "initial": 1.0,
+          "passed": true,
+          "parameters": 5264124,
+          "initial_state_sha256": "97a8a4d98eaf532bc424790468072511811c356374faeaff75de0b0b505a95cf",
+          "inherited_parameters_exact": true,
+          "added_parameters": 768,
+          "reconstruction_max_abs": 5.960464477539063e-08,
+          "pi_output_sha256": "b115da17c42c557bf741dd15e34f8ab20ea31d0b285ad3debd5f73bc536260e8",
+          "coefficient_gradient_sha256": "4091e07f4c09d7053119375e370d1ef5ba6c40ce5549990a6bd970a0c775b110",
+          "no_optimizer": true,
+          "no_data_read": true,
+          "no_performance_evaluation": true,
+          "original_project_imports": "source_reference",
+          "peak_gpu_bytes": 123929600
+        },
+        "assembled": {
+          "mode": "assembled",
+          "task": "flywire_coarse",
+          "initial": 1.0,
+          "passed": true,
+          "parameters": 5264124,
+          "initial_state_sha256": "97a8a4d98eaf532bc424790468072511811c356374faeaff75de0b0b505a95cf",
+          "inherited_parameters_exact": true,
+          "added_parameters": 768,
+          "reconstruction_max_abs": 5.960464477539063e-08,
+          "pi_output_sha256": "b115da17c42c557bf741dd15e34f8ab20ea31d0b285ad3debd5f73bc536260e8",
+          "coefficient_gradient_sha256": "4091e07f4c09d7053119375e370d1ef5ba6c40ce5549990a6bd970a0c775b110",
+          "no_optimizer": true,
+          "no_data_read": true,
+          "no_performance_evaluation": true,
+          "original_project_imports": [],
+          "peak_gpu_bytes": 123929600
+        }
+      },
+      "microns": {
+        "original": {
+          "mode": "original",
+          "task": "microns",
+          "initial": 1.0,
+          "passed": true,
+          "parameters": 5263479,
+          "initial_state_sha256": "3b85cfb598bcd3e9eab0d6d7ae5c61c061b63e7a60d63faa6699042137e04b8c",
+          "inherited_parameters_exact": true,
+          "added_parameters": 768,
+          "reconstruction_max_abs": 5.960464477539063e-08,
+          "pi_output_sha256": "b115da17c42c557bf741dd15e34f8ab20ea31d0b285ad3debd5f73bc536260e8",
+          "coefficient_gradient_sha256": "4091e07f4c09d7053119375e370d1ef5ba6c40ce5549990a6bd970a0c775b110",
+          "no_optimizer": true,
+          "no_data_read": true,
+          "no_performance_evaluation": true,
+          "original_project_imports": "source_reference",
+          "peak_gpu_bytes": 123929600
+        },
+        "assembled": {
+          "mode": "assembled",
+          "task": "microns",
+          "initial": 1.0,
+          "passed": true,
+          "parameters": 5263479,
+          "initial_state_sha256": "3b85cfb598bcd3e9eab0d6d7ae5c61c061b63e7a60d63faa6699042137e04b8c",
+          "inherited_parameters_exact": true,
+          "added_parameters": 768,
+          "reconstruction_max_abs": 5.960464477539063e-08,
+          "pi_output_sha256": "b115da17c42c557bf741dd15e34f8ab20ea31d0b285ad3debd5f73bc536260e8",
+          "coefficient_gradient_sha256": "4091e07f4c09d7053119375e370d1ef5ba6c40ce5549990a6bd970a0c775b110",
+          "no_optimizer": true,
+          "no_data_read": true,
+          "no_performance_evaluation": true,
+          "original_project_imports": [],
+          "peak_gpu_bytes": 123929600
+        }
+      }
+    },
+    "trained": false,
+    "performance_evaluated": false
+  },
+  "historical_engineering_validation": {
+    "evidence_sha256": "32b31b26de882e11ff1cff68fb3d36c170ffbcb7042129c8824491d237477999",
+    "scope": "Full cache factorization; two train inputs per task, backward on smaller input only",
+    "factorization": {
+      "original_c": {
+        "flywire_coarse": {
+          "cells": 7961,
+          "maximum_reconstruction_error": 5.960464477539063e-08,
+          "maximum_base_projection_error": 1.4042677776160417e-07,
+          "zero_residual_channels": [
+            16,
+            16
+          ],
+          "manifest_sha256": "fcf802819f2b4ec14af84f8f28a3a54a277bffbbba4c464e34bf8458fca42ff5"
+        },
+        "h01_global": {
+          "cells": 104,
+          "maximum_reconstruction_error": 3.725290298461914e-09,
+          "maximum_base_projection_error": 5.700041683098789e-08,
+          "zero_residual_channels": [
+            0,
+            0
+          ],
+          "manifest_sha256": "fd5e8d2770e26a91dbf8cc25c1fc43b61b28f97e143805e2ba94bc1e7ba46bb2"
+        },
+        "microns": {
+          "cells": 538,
+          "maximum_reconstruction_error": 2.9802322387695312e-08,
+          "maximum_base_projection_error": 6.922564921296726e-08,
+          "zero_residual_channels": [
+            0,
+            538
+          ],
+          "manifest_sha256": "646ba39ff1d39015f0d04265261aa21d0a234b65a10fdfbdb442e017d8b1edbe"
+        }
+      },
+      "rootbar_candidate": {
+        "flywire_coarse": {
+          "cells": 7961,
+          "maximum_reconstruction_error": 5.960464477539063e-08,
+          "maximum_base_projection_error": 1.3910670304539963e-07,
+          "zero_residual_channels": [
+            6,
+            6
+          ],
+          "manifest_sha256": "83198e03db08d5d92e5b7bd3055dba615a5e62ae7cbc228c677ae25cad38e2d0"
+        },
+        "h01_global": {
+          "cells": 104,
+          "maximum_reconstruction_error": 7.450580596923828e-09,
+          "maximum_base_projection_error": 6.067203628390416e-08,
+          "zero_residual_channels": [
+            0,
+            0
+          ],
+          "manifest_sha256": "850052ae8d1025d66d81923e81feb8c1e3538fb88d56a9920234dc3a995c48a0"
+        },
+        "microns": {
+          "cells": 538,
+          "maximum_reconstruction_error": 7.450580596923828e-09,
+          "maximum_base_projection_error": 5.852385598359433e-08,
+          "zero_residual_channels": [
+            0,
+            538
+          ],
+          "manifest_sha256": "a39fecea4262cb6696592e8567af4046d4c4f44e73777cd96c47f1e0313d9e16"
+        }
+      }
+    },
+    "tasks": {
+      "h01_global": {
+        "parameters": 5263479,
+        "added_parameters": 768,
+        "original_parameters_exact": true,
+        "state_unchanged": true,
+        "no_optimizer": true,
+        "checkpoint_sha256": "e7f5a8038b4c084aacda2e8ce69f6489e9394b6fa7ef7c7bd09504302e3833f4",
+        "weight_scope": "Original trained C weights; new coefficient projection remains zero-initialized"
+      },
+      "flywire_coarse": {
+        "parameters": 5264124,
+        "added_parameters": 768,
+        "original_parameters_exact": true,
+        "state_unchanged": true,
+        "no_optimizer": true,
+        "checkpoint_sha256": "74b34bdaee3378addd821b6659d54419a73357e2be79b6c63d4a985b4ff9e477",
+        "weight_scope": "Original trained C weights; new coefficient projection remains zero-initialized"
+      },
+      "microns": {
+        "parameters": 5263479,
+        "added_parameters": 768,
+        "original_parameters_exact": true,
+        "state_unchanged": true,
+        "no_optimizer": true,
+        "checkpoint_sha256": "71882f0b045728ead7911ff2031a0cfbbee6612f6ae206230314e63c23b03443",
+        "weight_scope": "Original trained C weights; new coefficient projection remains zero-initialized"
+      }
+    }
+  },
+  "trained": false,
+  "performance_evaluated": false,
+  "not_performed": [
+    "Formal candidate training",
+    "New development or test evaluation"
+  ],
+  "publication_excludes": [
+    "Data",
+    "Geometry caches",
+    "Weights",
+    "Optimizer states",
+    "Training and scheduling entrypoints"
+  ]
+}
